@@ -59,7 +59,7 @@
   ],
   "SetPersistent": ["festival.phase", "manager.task_1.given"],
   "Leave": "festival_util_disablechat",
-  "MoveEntity": ["festival_manager", -114.5, 31.0, 492.5, 0.3, false],
+  "MoveEntity": ["festival_manager", -114.5, 31.0, 520.5, 0.3, false],
   "Start": ["festival_manager_idle", 1.0, "script_entry_point"],
   "Start": ["festival_manager_idle_listener", 1.0, "script_entry_point"],
   "Leave": [],
@@ -72,7 +72,7 @@
     },
     "festival.manager.speech"
   ],
-  "MoveEntity": ["festival_manager", -114.5, 31.0, 492.5, 0.3, false],
+  "MoveEntity": ["festival_manager", -114.5, 31.0, 520.5, 0.3, false],
   "Hide": "festival_manager",
   "Start": ["festival_manager_idle", 1.0, "script_entry_point"],
   "Start": ["festival_manager_idle_listener", 1.0, "script_entry_point"],
