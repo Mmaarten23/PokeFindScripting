@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="scripting-lite.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="scripting-lite.schema" />
+              <option name="relativePathToSchema" value="../../8 FallenKingdom/FallenKingdomResources/script schema's/scripting-lite.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-barrier.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-setup.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-beam-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-init.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager-move.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-disablechat.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
