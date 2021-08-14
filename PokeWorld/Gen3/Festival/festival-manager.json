@@ -18,11 +18,12 @@
     ],
     "hand": {
       "material": "writable_book"
-    },
-    "visible": false
+    }
   },
+  "Server": [],
+  "Hide": "festival_manager",
 
-  "TeleportEntityRelativeEntity": ["festival_manager", "mm_festival_manager_idle", 0.0, 0.0, 0.0],
+  "Comment": "\"TeleportEntityRelativeEntity\": [\"festival_manager\", \"mm_festival_manager_idle\", 0.0, 0.1, 0.0],",
   "Show": "festival_manager",
 
   "If": [],

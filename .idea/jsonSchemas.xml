@@ -37,6 +37,9 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen3/Festival/festival-manager-idle-listener.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/templ.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
