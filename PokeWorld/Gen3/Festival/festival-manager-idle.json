@@ -28,10 +28,10 @@
 
   "Comment": "end",
   "Set": ["festival_temp_clicked_manager", "REMOVE"],
-  "Start": "festival_manager",
   "Leave": [],
 
   "Comment": "leave",
   "Set": ["festival_temp_clicked_manager", 1],
-  "Hide": "mm_festival_manager_idle"
+  "Hide": "mm_festival_manager_idle",
+  "Start": "festival_manager"
 }

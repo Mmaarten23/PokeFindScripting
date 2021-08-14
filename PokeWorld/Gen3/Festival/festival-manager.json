@@ -18,7 +18,8 @@
     ],
     "hand": {
       "material": "writable_book"
-    }
+    },
+    "visible": false
   },
 
   "TeleportEntityRelativeEntity": ["festival_manager", "mm_festival_manager_idle", 0.0, 0.0, 0.0],
