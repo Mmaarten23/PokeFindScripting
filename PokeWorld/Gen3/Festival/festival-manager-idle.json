@@ -12,9 +12,9 @@
   "Set": ["festival_temp_idle_running", 0],
 
   "Comment": "start_walk",
-  "MoveEntity": ["mm_festival_manager_idle", -114.5, 31.0, 492.5, 0.3, false],
-  "Wait": 1.0,
   "MoveEntity": ["mm_festival_manager_idle", -114.5, 31.0, 520.5, 0.3, false],
+  "Wait": 1.0,
+  "MoveEntity": ["mm_festival_manager_idle", -114.5, 31.0, 492.5, 0.3, false],
   "Wait": 1.0,
   "If": [],
   "Equals": ["festival_temp_idle_running", 1],
