@@ -32,6 +32,6 @@
   "Leave": [],
 
   "Comment": "leave",
-  "Set": ["festival_temp_clicked_manager", 0],
+  "Set": ["festival_temp_clicked_manager", 1],
   "Hide": "mm_festival_manager_idle"
 }

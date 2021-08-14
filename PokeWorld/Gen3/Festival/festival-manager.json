@@ -21,7 +21,7 @@
     }
   },
 
-  "TeleportEntity": ["festival_manager", "mm_festival_manager_idle"],
+  "TeleportEntityRelativeEntity": ["festival_manager", "mm_festival_manager_idle", 0.0, 0.0, 0.0],
   "Show": "festival_manager",
 
   "If": [],
