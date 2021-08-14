@@ -1,0 +1,48 @@
+{
+  "Key": "festival_beam_intro",
+  "Author": "Mmaarten",
+
+  "CreateEntity": {
+    "key": "beam_1.target",
+    "entity": "SQUID",
+    "location": [-107.5, 100.0, 487.5],
+    "visible": false
+  },
+  "CreateEntity": {
+    "key": "beam_2.target",
+    "entity": "SQUID",
+    "location": [-107.5, 100.0, 525.5],
+    "visible": false
+  },
+  "Beam": [
+    -137.5, 51.0, 487.5,
+    "beam_1.target"
+  ],
+  "Beam": [
+    -137.5, 51.0, 525.5,
+    "beam_2.target"
+  ],
+
+  "Set": ["orbits", 4],
+  "Comment": "orbit",
+  "Subtract": "orbits",
+  "ProgressiveMoveEntityCircle": [
+    "beam_1.target",
+    -137.5, 100.0, 487.5,
+    -107.5, 100.0, 487.5,
+    3.0
+  ],
+  "MoveEntityCircle": [
+    "beam_2.target",
+    -137.5, 100.0, 525.5,
+    -107.5, 100.0, 525.5,
+    3.0,
+    false
+  ],
+  "If": [],
+  "Equals": ["orbits", ">", 0],
+  "Skip": "orbit",
+  "Dummy": [],
+  "MoveEntity": ["beam_1.target", -112.5, 31.0, 506.5, 0.7, false],
+  "MoveEntity": ["beam_2.target", -112.5, 31.0, 506.5, 0.7, false]
+}

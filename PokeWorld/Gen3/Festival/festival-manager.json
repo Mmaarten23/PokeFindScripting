@@ -1,0 +1,64 @@
+{
+  "Key": "festival_manager",
+  "Author": "Mmaarten",
+
+  "Store": ["festival.manager.speech", 90],
+
+  "RegionEntry": [
+    -168.0, 0.0, 472.0,
+    -104.0, 257.0, 536.0
+  ],
+  "Start": "festival_manager_move_stress",
+  "GlobalRegionEntry": [
+    -168.0, 0.0, 472.0,
+    -104.0, 257.0, 536.0
+  ],
+  "Leave": "festival_manager_move_stress",
+  "If": [],
+  "Equals": ["festival.phase", "manager.introduction"],
+  "Skip": "manager.introduction",
+  "Dummy": [],
+  "If": [],
+  "Equals": ["festival.phase", "manager.task_1.given"],
+  "Skip": "manager.task_1",
+  "Dummy": [],
+
+  "Comment": "manager.introduction",
+  "HighlightClickEntity": ["mm_festival_manager", true],
+  "Start": "festival_util_disablechat",
+  "Dialog": [
+    {
+      "&4Manager": "Busy, busy, busy...",
+      "&4Manager": "What do you need?",
+      "[PLAYER]": "You look a bit... stressed. Everything okay?",
+      "&4Manager": "so much to do with so little time!",
+      "[PLAYER]": "What is going on here?",
+      "&4Manager": "Can't you see?",
+      "&4Manager": "The fall festival of course!",
+      "&4Manager": "They asked me to organize it this year.",
+      "&4Manager": "and it is work, work, work!",
+      "[PLAYER]": "Any way i can help?",
+      "&4Manager": "&oYou?",
+      "&4Manager": "Pffff, I guess.",
+      "&4Manager": "Why don't you pick up the &6&lcopper wires&r from &e&lVoltage park?",
+      "&4Manager": "My assistant, &bBecky&r, is supposed to get them but it is taking forever.",
+      "&4Manager": "And we don't have time!"
+    },
+    "festival.manager.speech"
+  ],
+  "Progress": "festival_manager_move_stress",
+  "SetPersistent": ["festival.phase", "manager.task_1.given"],
+  "Leave": "festival_util_disablechat",
+
+  "Comment": "manager.task_1",
+  "ClickEntity": ["mm_festival_manager", true],
+  "Dialog": [
+    {
+      "&4Manager": "I don't have time to waste.",
+      "&4Manager": "You wanted to help so go talk to &bBecky&r in &e&lVoltage park&r."
+    },
+    "festival.manager.speech"
+  ],
+  "Progress": "festival_manager_move_stress",
+  "Skip": "manager.task_1"
+}

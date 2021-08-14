@@ -1,0 +1,44 @@
+{
+  "Key": "festival_manager_move_stress",
+  "Author": "Mmaarten",
+
+  "Store": ["festival.manager.speed", 0.3],
+  "Comment": "---- Stages are duplicated because scripts will interrupt the movement and use progress to continue the movement.",
+  "Comment": "Hence the first stage will get cancelled and the second one will be activated",
+
+  "LeaveScript": [],
+  "TeleportEntity": ["mm_festival_manager", -119.5, 29.0, 482.5],
+
+  "TeleportEntity": ["mm_festival_manager", -119.5, 29.0, 482.5],
+  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 482.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 482.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 488.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 488.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 524.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 524.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 530.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 530.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -119.5, 29.0, 530.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -119.5, 29.0, 530.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 530.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 530.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 524.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 524.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 488.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 488.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 482.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 482.5, "festival.manager.speed", false],
+
+  "MoveEntity": ["mm_festival_manager", -119.5, 29.0, 482.5, "festival.manager.speed", false],
+  "MoveEntity": ["mm_festival_manager", -119.5, 29.0, 482.5, "festival.manager.speed", false],
+
+  "Start": "festival_manager_move_stress"
+}
