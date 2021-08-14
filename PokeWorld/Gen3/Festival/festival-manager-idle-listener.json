@@ -1,0 +1,22 @@
+{
+  "Key": "festival_manager_idle_listener",
+  "Author": "Mmaarten",
+
+  "RegionEntry": [
+    -168, 20, 472,
+    -104, 80, 536
+  ],
+
+  "GlobalRegionExit": [
+    -168, 20, 472,
+    -104, 80, 536
+  ],
+  "Skip": "leave",
+  "HighlightClickEntity": "mm_festival_manager_idle",
+  "SendMessage": "DEBUG: Starting active script.",
+  "Start": "festival_manager",
+  "Comment": "leave",
+  "Set": ["festival_temp_idle_running", 1],
+  "Hide": "mm_festival_manager_idle",
+  "SendMessage": "DEBUG: Stopping idle script."
+}

@@ -6,32 +6,21 @@
     -168, 20, 472,
     -104, 80, 536
   ],
+  "SendMessage": "DEBUG: starting idle script.",
   "Show": "mm_festival_manager_idle",
-  "Set": ["festival_temp_clicked_manager", 0],
-
-  "GlobalHighlightClickEntity": "mm_festival_manager_idle",
-  "Skip": "leave",
-
-  "GlobalRegionExit": [
-    -168, 20, 472,
-    -104, 80, 536
-  ],
-  "Skip": "leave",
+  "Set": ["festival_temp_idle_running", 0],
 
   "Comment": "start_walk",
   "MoveEntity": ["mm_festival_manager_idle", -114.5, 31.0, 492.5, 0.3, false],
+  "Wait": 1.0,
   "MoveEntity": ["mm_festival_manager_idle", -114.5, 31.0, 520.5, 0.3, false],
+  "Wait": 1.0,
   "If": [],
-  "Equals": ["festival_temp_clicked_manager", 1],
+  "Equals": ["festival_temp_idle_running", 1],
   "Skip": "end",
   "Skip": "start_walk",
 
   "Comment": "end",
-  "Set": ["festival_temp_clicked_manager", "REMOVE"],
-  "Leave": [],
-
-  "Comment": "leave",
-  "Set": ["festival_temp_clicked_manager", 1],
-  "Hide": "mm_festival_manager_idle",
-  "Start": "festival_manager"
+  "Set": ["festival_temp_idle_running", "REMOVE"],
+  "Leave": []
 }
