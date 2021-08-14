@@ -13,7 +13,10 @@
     -168, 0, 472,
     -104, 257, 536
   ],
+  "Leave": [],
+  "LeaveScript": [],
   "Leave": "festival_manager_move_stress",
+
   "If": [],
   "Equals": ["festival.phase", "manager.introduction"],
   "Skip": "manager.introduction",
