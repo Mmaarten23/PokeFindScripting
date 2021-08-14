@@ -11,33 +11,23 @@
 
   "TeleportEntity": ["mm_festival_manager", -119.5, 29.0, 482.5],
   "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 482.5, "festival.manager.speed", false],
-  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 482.5, "festival.manager.speed", false],
 
-  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 488.5, "festival.manager.speed", false],
   "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 488.5, "festival.manager.speed", false],
 
   "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 524.5, "festival.manager.speed", false],
-  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 524.5, "festival.manager.speed", false],
 
-  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 530.5, "festival.manager.speed", false],
   "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 530.5, "festival.manager.speed", false],
 
   "MoveEntity": ["mm_festival_manager", -119.5, 29.0, 530.5, "festival.manager.speed", false],
-  "MoveEntity": ["mm_festival_manager", -119.5, 29.0, 530.5, "festival.manager.speed", false],
 
-  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 530.5, "festival.manager.speed", false],
   "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 530.5, "festival.manager.speed", false],
 
   "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 524.5, "festival.manager.speed", false],
-  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 524.5, "festival.manager.speed", false],
 
-  "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 488.5, "festival.manager.speed", false],
   "MoveEntity": ["mm_festival_manager", -147.5, 29.0, 488.5, "festival.manager.speed", false],
 
   "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 482.5, "festival.manager.speed", false],
-  "MoveEntity": ["mm_festival_manager", -145.5, 29.0, 482.5, "festival.manager.speed", false],
 
-  "MoveEntity": ["mm_festival_manager", -119.5, 29.0, 482.5, "festival.manager.speed", false],
   "MoveEntity": ["mm_festival_manager", -119.5, 29.0, 482.5, "festival.manager.speed", false],
 
   "Start": "festival_manager_move_stress"

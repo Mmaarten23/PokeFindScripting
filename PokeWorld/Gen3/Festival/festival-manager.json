@@ -5,13 +5,13 @@
   "Store": ["festival.manager.speech", 90],
 
   "RegionEntry": [
-    -168.0, 0.0, 472.0,
-    -104.0, 257.0, 536.0
+    -168, 0, 472,
+    -104, 257, 536
   ],
   "Start": "festival_manager_move_stress",
-  "GlobalRegionEntry": [
-    -168.0, 0.0, 472.0,
-    -104.0, 257.0, 536.0
+  "GlobalRegionExit": [
+    -168, 0, 472,
+    -104, 257, 536
   ],
   "Leave": "festival_manager_move_stress",
   "If": [],
