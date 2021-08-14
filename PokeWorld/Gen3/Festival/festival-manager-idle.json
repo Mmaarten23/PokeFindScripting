@@ -1,0 +1,37 @@
+{
+  "Key": "festival_manager_idle",
+  "Author": "Mmaarten",
+
+  "RegionEntry": [
+    -168, 20, 472,
+    -104, 80, 536
+  ],
+  "Show": "mm_festival_manager_idle",
+  "Set": ["festival_temp_clicked_manager", 0],
+
+  "GlobalHighlightClickEntity": "mm_festival_manager_idle",
+  "Skip": "leave",
+
+  "GlobalRegionExit": [
+    -168, 20, 472,
+    -104, 80, 536
+  ],
+  "Skip": "leave",
+
+  "Comment": "start_walk",
+  "MoveEntity": ["mm_festival_manager_idle", -114.5, 31.0, 492.5, 0.3, false],
+  "MoveEntity": ["mm_festival_manager_idle", -114.5, 31.0, 520.5, 0.3, false],
+  "If": [],
+  "Equals": ["festival_temp_clicked_manager", 1],
+  "Skip": "end",
+  "Skip": "start_walk",
+
+  "Comment": "end",
+  "Set": ["festival_temp_clicked_manager", "REMOVE"],
+  "Start": "festival_manager",
+  "Leave": [],
+
+  "Comment": "leave",
+  "Set": ["festival_temp_clicked_manager", 0],
+  "Hide": "mm_festival_manager_idle"
+}
