@@ -51,7 +51,7 @@
       "[PLAYER]": "Any way i can help?",
       "&4Manager": "&oYou?",
       "&4Manager": "Pffff, I guess.",
-      "&4Manager": "Why don't you pick up the &6&lcopper wires&r from &e&lVoltage park?",
+      "&4Manager": "Why don't you pick up the &6&lcopper wires&r from &e&lVoltage park&r?",
       "&4Manager": "My assistant, &bBecky&r, is supposed to get them but it is taking forever.",
       "&4Manager": "And we don't have time!"
     },
@@ -60,6 +60,7 @@
   "SetPersistent": ["festival.phase", "manager.task_1.given"],
   "Leave": "festival_util_disablechat",
   "MoveEntity": ["festival_manager", -114.5, 31.0, 520.5, 0.3, false],
+  "Hide": "festival_manager",
   "Start": ["festival_manager_idle", 1.0, "script_entry_point"],
   "Start": ["festival_manager_idle_listener", 1.0, "script_entry_point"],
   "Leave": [],

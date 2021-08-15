@@ -40,6 +40,9 @@
                   <Item>
                     <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/templ.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival_becky.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
