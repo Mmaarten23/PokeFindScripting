@@ -43,6 +43,27 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival_becky.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="Songs/sad_fairytale.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager-task1.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-task-copper-wires.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky-end.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>

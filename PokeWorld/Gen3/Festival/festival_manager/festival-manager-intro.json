@@ -1,0 +1,30 @@
+{
+  "Key": "festival_manager_intro",
+  "Author": "Mmaarten",
+
+  "Store": ["festival.manager.speech", 90],
+  "Start": "festival_util_disablechat",
+  "Dialog": [
+    {
+      "&4Manager": "Busy, busy, busy...",
+      "&4Manager": "What do you need?",
+      "[PLAYER]": "You look a bit... stressed. Everything okay?",
+      "&4Manager": "So much to do with so little time!",
+      "[PLAYER]": "What is going on here?",
+      "&4Manager": "Can't you see?",
+      "&4Manager": "The fall festival of course!",
+      "&4Manager": "They asked me to organize it this year.",
+      "&4Manager": "and it is work, work, work!",
+      "[PLAYER]": "Any way i can help?",
+      "&4Manager": "&oYou?",
+      "&4Manager": "Pffff, I guess.",
+      "&4Manager": "Why don't you pick up the &6&lcopper wires&r from &e&lVoltage park&r?",
+      "&4Manager": "My assistant, &bBecky&r, is supposed to get them but it is taking forever.",
+      "&4Manager": "And we don't have time!"
+    },
+    "festival.manager.speech"
+  ],
+  "Leave": "festival_util_disablechat",
+  "Complete": [],
+  "Progress": "festival_manager"
+}

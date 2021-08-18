@@ -3,5 +3,7 @@
   "Author": "Mmaarten",
 
   "SendMessage": "&7&o! Chat disabled during festival quests !",
-  "DisableChat": []
+  "DisableChat": [],
+  "DisableAllCommands": [],
+  "Hold": []
 }

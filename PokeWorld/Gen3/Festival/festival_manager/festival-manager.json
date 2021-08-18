@@ -20,50 +20,22 @@
       "material": "writable_book"
     }
   },
-  "Server": [],
-  "Hide": "festival_manager",
 
-  "Comment": "\"TeleportEntityRelativeEntity\": [\"festival_manager\", \"mm_festival_manager_idle\", 0.0, 0.1, 0.0],",
-  "Show": "festival_manager",
+  "HighlightClickEntity": "festival_manager",
 
   "If": [],
-  "Equals": ["festival.phase", "manager.introduction"],
-  "Skip": "manager.introduction",
+  "NotCompleted": "festival_manager_intro",
+  "Skip": "manager.intro",
   "Dummy": [],
   "If": [],
-  "Equals": ["festival.phase", "manager.task_1.given"],
+  "NotCompleted": "festival_becky_intro",
   "Skip": "manager.task_1",
   "Dummy": [],
 
-  "Comment": "manager.introduction",
-  "Start": "festival_util_disablechat",
-  "Dialog": [
-    {
-      "&4Manager": "Busy, busy, busy...",
-      "&4Manager": "What do you need?",
-      "[PLAYER]": "You look a bit... stressed. Everything okay?",
-      "&4Manager": "so much to do with so little time!",
-      "[PLAYER]": "What is going on here?",
-      "&4Manager": "Can't you see?",
-      "&4Manager": "The fall festival of course!",
-      "&4Manager": "They asked me to organize it this year.",
-      "&4Manager": "and it is work, work, work!",
-      "[PLAYER]": "Any way i can help?",
-      "&4Manager": "&oYou?",
-      "&4Manager": "Pffff, I guess.",
-      "&4Manager": "Why don't you pick up the &6&lcopper wires&r from &e&lVoltage park&r?",
-      "&4Manager": "My assistant, &bBecky&r, is supposed to get them but it is taking forever.",
-      "&4Manager": "And we don't have time!"
-    },
-    "festival.manager.speech"
-  ],
-  "SetPersistent": ["festival.phase", "manager.task_1.given"],
-  "Leave": "festival_util_disablechat",
-  "MoveEntity": ["festival_manager", -114.5, 31.0, 520.5, 0.3, false],
-  "Hide": "festival_manager",
-  "Start": ["festival_manager_idle", 1.0, "script_entry_point"],
-  "Start": ["festival_manager_idle_listener", 1.0, "script_entry_point"],
-  "Leave": [],
+  "Comment": "manager.intro",
+  "Start": "festival_manager_intro",
+  "Skip": "external_wait",
+
 
   "Comment": "manager.task_1",
   "Dialog": [
@@ -73,9 +45,8 @@
     },
     "festival.manager.speech"
   ],
-  "MoveEntity": ["festival_manager", -114.5, 31.0, 520.5, 0.3, false],
-  "Hide": "festival_manager",
-  "Start": ["festival_manager_idle", 1.0, "script_entry_point"],
-  "Start": ["festival_manager_idle_listener", 1.0, "script_entry_point"],
-  "Leave": []
+  "Leave": [],
+
+  "Comment": "external_wait",
+  "Hold": []
 }

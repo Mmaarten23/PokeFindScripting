@@ -1,0 +1,102 @@
+{
+  "Key": "festival_becky",
+  "Author": "Mmaarten",
+
+  "Store": ["festival.becky.speech", 90],
+
+  "CreateEntity": {
+    "key": "festival_becky_on_bench_clickable",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODk3OTY0MDA4MCwKICAicHJvZmlsZUlkIiA6ICI4MWU4ZWU1MTE1ZmE0NzU5OTU1YTAzMThkNTNhNjViYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb25zaWRlclRoYXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIKICAgIH0KICB9Cn0=",
+      "signature": "dyw4nIv6o4fjg1pcr2As52PdKNcXKC9eIogdP3lEgrz89AGKaecRNqsL5WYU9OOon8CSR6w+3vkeacYQt1uqq/o4FifF5H3PaPJeq4yFDFQiIxppEIp5+nHBYbHc4htW09dkki8QXsY3/RQvCz5wkilDEjUDVRjE31ZZ//lvKV0BJE8DliwHKroXkFojVI8rqTuElbd+Kn98bucauGLb5DpIXFcTDQHO4RZY417wNsFi/K6OUUD4V2oQten55qSEFFbsX1WNBy1lEwdPJK4z0vtT6IugnmgI108rTYsnsFvb4qtHfUHzmn/oJ+hPkI4RLEUa+Fs2lIo7WVfS+J5jc12zihblJpm6vob0IS+xwx4Zw9yYmw2iVQMmgn33z6ndPIj8yOByVl+rdKzNuA9O87nF5duI9iSGa8ItOTnbH2sHYNZWWwf595GjtjqpSVHYQzqouD55pPXfonvIwjws88XgXXtWDzBGquxAM3S6j7LDEYNYkweHhDJbZINwE5oVr210mQypNStR0JsZNwydbcT9IefxJGzTOci7bSZ+FaHv7AYTS0H0JbjGnWiZRIfCvYM2l3v+Ode4Lj3kWMYTsdLa0dBnX4pz4Ox04WhLbxo6l63C0QnfSQo0yso8y8m8jc0ha/5O0UlMLhu1sRm7BEneKYgSazlnGd3hSVlMB4A="
+    },
+    "location": [-302.5, 30.9, -46.5, 180, 50],
+    "name": [
+      "&b&lBecky",
+      "&7&oFestival assistant"
+    ],
+    "hand": {
+      "material": "paper"
+    },
+    "sitting": true
+  },
+  "Server": [],
+  "Hide": "festival_becky_on_bench_clickable",
+
+  "CreateEntity": {
+    "key": "festival_becky_clickable",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODk3OTY0MDA4MCwKICAicHJvZmlsZUlkIiA6ICI4MWU4ZWU1MTE1ZmE0NzU5OTU1YTAzMThkNTNhNjViYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb25zaWRlclRoYXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIKICAgIH0KICB9Cn0=",
+      "signature": "dyw4nIv6o4fjg1pcr2As52PdKNcXKC9eIogdP3lEgrz89AGKaecRNqsL5WYU9OOon8CSR6w+3vkeacYQt1uqq/o4FifF5H3PaPJeq4yFDFQiIxppEIp5+nHBYbHc4htW09dkki8QXsY3/RQvCz5wkilDEjUDVRjE31ZZ//lvKV0BJE8DliwHKroXkFojVI8rqTuElbd+Kn98bucauGLb5DpIXFcTDQHO4RZY417wNsFi/K6OUUD4V2oQten55qSEFFbsX1WNBy1lEwdPJK4z0vtT6IugnmgI108rTYsnsFvb4qtHfUHzmn/oJ+hPkI4RLEUa+Fs2lIo7WVfS+J5jc12zihblJpm6vob0IS+xwx4Zw9yYmw2iVQMmgn33z6ndPIj8yOByVl+rdKzNuA9O87nF5duI9iSGa8ItOTnbH2sHYNZWWwf595GjtjqpSVHYQzqouD55pPXfonvIwjws88XgXXtWDzBGquxAM3S6j7LDEYNYkweHhDJbZINwE5oVr210mQypNStR0JsZNwydbcT9IefxJGzTOci7bSZ+FaHv7AYTS0H0JbjGnWiZRIfCvYM2l3v+Ode4Lj3kWMYTsdLa0dBnX4pz4Ox04WhLbxo6l63C0QnfSQo0yso8y8m8jc0ha/5O0UlMLhu1sRm7BEneKYgSazlnGd3hSVlMB4A="
+    },
+    "location": [-304.9, 29.9, -47.2, -156],
+    "name": [
+      "&b&lBecky",
+      "&7&oFestival assistant"
+    ],
+    "hand": {
+      "material": "paper"
+    },
+    "sitting": true
+  },
+  "Server": [],
+  "Hide": "festival_becky_clickable",
+
+  "ChunkLoad": [],
+  "If": [],
+  "NotCompleted": "festival_becky_intro",
+  "Skip": "becky.intro",
+  "Dummy": [],
+
+  "Show": "festival_becky_clickable",
+  "HighlightClickEntity": "festival_becky_clickable",
+  "If": [],
+  "NotCompleted": "festival_task_copper_wires",
+  "Skip": "becky.in_task",
+  "Dummy": [],
+  "If": [],
+  "NotCompleted": "festival_becky_end",
+  "Skip": "becky.end",
+  "Hide": "festival_becky_clickable",
+  "Leave": [],
+
+  "Comment": "becky.intro",
+  "Show": "festival_becky_on_bench_clickable",
+  "HighlightClickEntity": "festival_becky_on_bench_clickable",
+  "Start": "festival_becky_intro",
+  "Hide": "festival_becky_on_bench_clickable",
+  "Skip": "external_wait",
+
+  "Comment": "becky.in_task",
+  "If": [],
+  "NotIn": "festival_task_copper_wires",
+  "Skip": "error.exited_task1",
+  "Dialog": [
+    {
+      "&b&lBecky": "I am researching forging methods!",
+      "&b&lBecky": "Make sure you have 20 copper wires ready!"
+    }
+  ],
+  "Start": "festival_becky",
+  "Comment": "error.exited_task1",
+  "Dialog": [
+    {
+      "&b&lBecky": "Looks like something went wrong.",
+      "&b&lBecky": "Can you find 20 scrap pieces of copper wire in voltage park?"
+    },
+    "festival.becky.speech"
+  ],
+  "Start": ["festival_task_copper_wires", "script_entry_point"],
+  "Start": "festival_becky",
+
+
+  "Comment": "becky.end",
+  "Start": "festival_becky_end",
+  "Skip": "external_wait",
+
+  "Comment": "external_wait",
+  "Hold": [],
+  "Start": "festival_becky"
+}
