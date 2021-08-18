@@ -301,7 +301,7 @@
       "&b&lBecky": "Here in Voltage park, they collect scraps of old cables.",
       "&b&lBecky": "If we can find enough scraps, maybe we can mold them together.",
       "[PLAYER]": "How many would we need?",
-      "&b&lBecky": "At least... 20.",
+      "&b&lBecky": "At least... 10.",
       "[PLAYER]": "I will collect them. You find a way to combine them together!",
       "&b&lBecky": "That... sounds like a plan! Let's do it!"
     },
@@ -322,13 +322,13 @@
   "Particle": ["portal", -302.5, 30.0, -47.5, 50, 0.6],
   "Hide": "festival_becky_ending",
   "Complete": [],
-  "SetPersistent": [],
 
   "Wait": 10.0,
   "Unfreeze": [],
 
 
   "Complete": [],
+  "Wait": 1,
   "Progress": "festival_becky",
-  "Start": ["festival_task_copper_wires", "script_entry_point"]
+  "Start": ["festival_task_copper_wires",1.0, "script_entry_point"]
 }

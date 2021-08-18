@@ -94,7 +94,7 @@
   "CreateEntity": {
     "key": "s10",
     "entity": "SLIME",
-    "location": [-259.4, 38.0, -129.5],
+    "location": [-274.3, 46.0, -161.3],
     "glow": true,
     "visible": false,
     "look": false,
@@ -219,7 +219,7 @@
 
   "Show": "s10",
   "PickupItem": [
-    -259.4, 38.0, -129.5,
+    -274.3, 46.0, -161.3,
     "Scrap",
     {
       "material": "copper_wire",

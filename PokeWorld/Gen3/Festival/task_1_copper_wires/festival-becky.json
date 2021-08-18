@@ -35,20 +35,25 @@
     "name": [
       "&b&lBecky",
       "&7&oFestival assistant"
-    ],
-    "hand": {
-      "material": "paper"
-    },
-    "sitting": true
+    ]
   },
   "Server": [],
   "Hide": "festival_becky_clickable",
 
   "ChunkLoad": [],
   "If": [],
+  "NotCompleted": "festival_manager_intro",
+  "Leave": [],
+  "Dummy": [],
+
+  "If": [],
   "NotCompleted": "festival_becky_intro",
   "Skip": "becky.intro",
   "Dummy": [],
+
+  "If": [],
+  "Completed": "festival_becky_end",
+  "Leave": [],
 
   "Show": "festival_becky_clickable",
   "HighlightClickEntity": "festival_becky_clickable",
@@ -59,10 +64,12 @@
   "If": [],
   "NotCompleted": "festival_becky_end",
   "Skip": "becky.end",
-  "Hide": "festival_becky_clickable",
-  "Leave": [],
+  "SendMessage": "&4Something went wrong. Please contact a member of staff!",
 
   "Comment": "becky.intro",
+  "If": [],
+  "In": "festival_becky_intro",
+  "Skip": "external_wait",
   "Show": "festival_becky_on_bench_clickable",
   "HighlightClickEntity": "festival_becky_on_bench_clickable",
   "Start": "festival_becky_intro",
@@ -76,7 +83,7 @@
   "Dialog": [
     {
       "&b&lBecky": "I am researching forging methods!",
-      "&b&lBecky": "Make sure you have 20 copper wires ready!"
+      "&b&lBecky": "Make sure you have 10 copper wires ready!"
     }
   ],
   "Start": "festival_becky",
@@ -84,11 +91,11 @@
   "Dialog": [
     {
       "&b&lBecky": "Looks like something went wrong.",
-      "&b&lBecky": "Can you find 20 scrap pieces of copper wire in voltage park?"
+      "&b&lBecky": "Can you find 10 scrap pieces of copper wire in voltage park?"
     },
     "festival.becky.speech"
   ],
-  "Start": ["festival_task_copper_wires", "script_entry_point"],
+  "Start": ["festival_task_copper_wires", 1.0, "script_entry_point"],
   "Start": "festival_becky",
 
 

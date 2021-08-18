@@ -31,6 +31,11 @@
   "NotCompleted": "festival_becky_intro",
   "Skip": "manager.task_1",
   "Dummy": [],
+  "If": [],
+  "NotCompleted": "festival_",
+  "Skip": "manager.task_1",
+  "Dummy": [],
+
 
   "Comment": "manager.intro",
   "Start": "festival_manager_intro",
