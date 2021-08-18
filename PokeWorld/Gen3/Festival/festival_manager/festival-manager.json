@@ -28,13 +28,15 @@
   "Skip": "manager.intro",
   "Dummy": [],
   "If": [],
-  "NotCompleted": "festival_becky_intro",
+  "NotCompleted": "festival_becky_end",
   "Skip": "manager.task_1",
   "Dummy": [],
   "If": [],
-  "NotCompleted": "festival_",
-  "Skip": "manager.task_1",
+  "NotCompleted": "festival_manager_after_copper_wires",
+  "Skip": "manager.task_1.complete",
   "Dummy": [],
+  "SendMessage": "Looks like you reached the end of the quest *for now*!",
+  "Leave": [],
 
 
   "Comment": "manager.intro",
@@ -51,6 +53,10 @@
     "festival.manager.speech"
   ],
   "Leave": [],
+
+  "Comment": "manager.task_1.complete",
+  "Start": "festival_manager_intro",
+  "Skip": "external_wait",
 
   "Comment": "external_wait",
   "Hold": []

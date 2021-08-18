@@ -64,6 +64,9 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky-end.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival_manager_after_copper_wires.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>

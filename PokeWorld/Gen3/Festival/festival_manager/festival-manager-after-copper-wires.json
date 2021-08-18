@@ -1,0 +1,27 @@
+{
+  "Key": "festival_manager_after_copper_wires",
+  "Author": "Mmaarten",
+
+  "Store": ["festival.manager.speech", 90],
+  "Start": "festival_util_disablechat",
+  "Dialog": [
+    {
+      "&4&lManager": "Ah, you again",
+      "[PLAYER]": "Becky told me to come see you?",
+      "&4&lManager": "Yes, I am so thankful for your help.",
+      "&4&lManager": "I don't really have a lot of time though.",
+      "[PLAYER]": "Everything.. okay? The generator is fine right?",
+      "&4&lManager": "The generator is working like a charm!",
+      "&4&lManager": "But i just received news from Blake.",
+      "&4&lManager": "Apparently the food is not going to be on time!",
+      "[PLAYER]": "A festival without food?",
+      "[PLAYER]": "Impossible! Can i help?",
+      "&4&lManager": "I don't know, I have so much to do here!",
+      "&4&lManager": "Ask Blake in &d&lSearing Peek&r if you can help him."
+    },
+    "festival.manager.speech"
+  ],
+  "Leave": "festival_util_disablechat",
+  "Complete": [],
+  "Progress": "festival_manager"
+}
