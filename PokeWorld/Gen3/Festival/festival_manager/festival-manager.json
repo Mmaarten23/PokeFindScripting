@@ -13,7 +13,7 @@
     },
     "location": [-114.5, 31.0, 520.5, 180],
     "name": [
-      "&cF&6e&es&at&9i&bv&5a&cl &4Manager",
+      "&cF&6e&es&at&9i&bv&5a&cl &4&lManager",
       "&7&oQuest giver"
     ],
     "hand": {
@@ -35,6 +35,8 @@
   "NotCompleted": "festival_manager_after_copper_wires",
   "Skip": "manager.task_1.complete",
   "Dummy": [],
+
+  "Skip": "manager.task_2",
   "SendMessage": "Looks like you reached the end of the quest *for now*!",
   "Leave": [],
 
@@ -45,18 +47,74 @@
 
 
   "Comment": "manager.task_1",
-  "Dialog": [
+  "RandomDialog": [
     {
-      "&4Manager": "I don't have time to waste.",
-      "&4Manager": "You wanted to help so go talk to &bBecky&r in &e&lVoltage park&r."
+      "&4&lManager": "I don't have time!",
+      "&4&lManager": "What now?",
+      "&4&lManager": "You again?",
+      "&4&lManager": "Seems like you have enough time to waste.",
+      "&4&lManager": "Time time time time time time, I need more!",
+      "&4&lManager": "I swear this watch is lying to me.",
+      "&4&lManager": "Did I not make myself clear?",
+      "&4&lManager": "I don't have all day.",
+      "&4&lManager": "No time for breaks!",
+      "&4&lManager": "Is 5 cups of coffee a day too much? Nah!",
+      "&4&lManager": "If only time wouldn't go so fast!"
     },
     "festival.manager.speech"
   ],
+  "Dialog": [
+    {
+      "&4&lManager": "You wanted to help so go talk to &bBecky&r in &e&lVoltage park&r."
+    },
+    "festival.manager.speech"
+  ],
+  "If": [],
+  "Chance": 0.05,
+  "Dialog": [
+    {
+      "&4&lManager": "If only Tardis was here right now..."
+    }
+  ],
+  "Dummy": [],
   "Leave": [],
 
   "Comment": "manager.task_1.complete",
-  "Start": "festival_manager_intro",
+  "Start": "festival_manager_after_copper_wires",
   "Skip": "external_wait",
+
+  "Comment": "manager.task_1",
+  "RandomDialog": [
+    {
+      "&4&lManager": "I don't have time!",
+      "&4&lManager": "What now?",
+      "&4&lManager": "You again?",
+      "&4&lManager": "Seems like you have enough time to waste.",
+      "&4&lManager": "Time time time time time time, I need more!",
+      "&4&lManager": "I swear this watch is lying to me.",
+      "&4&lManager": "Did I not make myself clear?",
+      "&4&lManager": "I don't have all day.",
+      "&4&lManager": "No time for breaks!",
+      "&4&lManager": "Is 5 cups of coffee a day too much? Nah!",
+      "&4&lManager": "If only time wouldn't go so fast!"
+    },
+    "festival.manager.speech"
+  ],
+  "Dialog": [
+    {
+      "&4&lManager": "I told you to ask &6Blake&r in &c&lFlareridge&r if he needs help with the food."
+    },
+    "festival.manager.speech"
+  ],
+  "If": [],
+  "Chance": 0.05,
+  "Dialog": [
+    {
+      "&4&lManager": "If only Tardis was here right now..."
+    }
+  ],
+  "Dummy": [],
+  "Leave": [],
 
   "Comment": "external_wait",
   "Hold": []

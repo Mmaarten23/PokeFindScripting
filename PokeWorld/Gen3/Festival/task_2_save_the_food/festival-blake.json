@@ -1,0 +1,49 @@
+{
+  "Key": "festival_blake",
+  "Author": "Mmaarten",
+
+  "CreateEntity": {
+    "key": "festival_blake",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
+      "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+    },
+    "location": [-1151.2,38.0,-916.7, 19],
+    "name": [
+      "&6&lBlake",
+      "&7&oFestival assistant"
+    ],
+    "look": false
+  },
+  "Server": [],
+  "Hide": "festival_blake",
+
+  "ChunkLoad": [],
+  "If": [],
+  "NotCompleted": "festival_manager_after_copper_wires",
+  "Leave": [],
+  "Dummy": [],
+
+  "If": [],
+  "NotCompleted": "festival_blake_intro",
+  "Skip": "blake.intro",
+  "Dummy": [],
+
+
+  "Comment": "blake.intro",
+  "If": [],
+  "In": "festival_becky_intro",
+  "Skip": "external_wait",
+  "Show": "festival_blake",
+  "HighlightClickEntity": "festival_blake",
+  "Start": "festival_blake_intro",
+  "Hide": "festival_blake",
+  "Skip": "external_wait",
+
+
+
+  "Comment": "external_wait",
+  "Hold": [],
+  "Start": "festival_blake"
+}

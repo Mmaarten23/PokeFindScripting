@@ -40,7 +40,7 @@ def main():
         elif line.startswith("w "):
             try:
                 wait = int(line[2:])
-            except:
+            except Exception:
                 print("INVALID FORMAT - try again (tried to match against: w [ticks])")
                 continue
             file.write(f",\n  \"Wait\": {wait * 4}")

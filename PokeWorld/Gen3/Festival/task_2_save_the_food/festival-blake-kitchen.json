@@ -1,0 +1,44 @@
+{
+  "Key": "festival_blake_kitchen",
+  "Author": "Mmaarten",
+
+  "SetBlocks": [
+    -1153, 55, -923,
+    -1143, 59, -917,
+    "air"
+  ],
+  "SetBlock": [
+    -1143, 54, -923,
+    {
+      "material": "ladder",
+      "face": "south"
+    }
+  ],
+  "SetBlocks": [
+    -1150, 55, -919,
+    -1146, 55, -919,
+    {
+      "material": "furnace",
+      "face": "south",
+      "lit": true
+    }
+  ],
+  "SetBlocks": [
+    -1150, 55, -921,
+    -1146, 55, -921,
+    {
+      "material": "furnace",
+      "face": "north",
+      "lit": true
+    }
+  ],
+  "SetBlocks": [
+    -1149, 55, -920,
+    -1147, 55, -920,
+    "iron_block"
+  ],
+  "SetBlock": [-1150, 55, -920,"smithing_table"],
+  "SetBlock": [-1146, 55, -920,"smithing_table"],
+
+  "Hold": []
+}
