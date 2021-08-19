@@ -92,10 +92,11 @@
       "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MjU1NjY4MywKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlYTlkOWQzN2E2OWJkOTUwZDc3NDgwNjUwOWQxM2M3NzNkNDgyYzdjODcxYTQxMThkZWVmNWM0ODZlMTE0NSIKICAgIH0KICB9Cn0=",
       "signature": "LDI3l3CUyJRl2L3NUO8XOaNR6exiXYAxhmINLVm0/huG2rV4nDVUcpZ27FTncCzSPSA2nDKZroMCDuW9VI06+6dw9XVtKsTU5ofwCcD/RJtvMgPA6mDuIXtEm9J3iNpY6bTQKHsC7cvlTvAF6acVo1BBTu/5OyUPzy7tgL122bnZwhsqHp43mJWPH74HNDRtI1i23yyd2odRWajI3hdd+SnD8ikvfMeBphGTa1a/a8dPkXwQEX6Hf3ltpyU4qBvTGVkM17k1muBfUVsy2j5ObwV2yzRrZ+4LPJHa4c2br97lDajwQvvYfewRLKROtyI735IBUS/miZmfmtP8cn9qyTcOGJVx+cpUOUEYM09a8tKenNF9FrlmoZKe2ef37Hf8WKCfAFcVz5b3vTYaPyElSptqH+qiTi7/0CSxGTGWmlsAsPh5AiyoUBSHHUmKjQeIz/kngqSG6gBtp51abRy2ZLeWcCHLNIkMTQb5RgyvIxCBHkngFOGx6YRK8t+2D8qRiYhfA9xVKZ0SLnx+sDUbARlrXTrTIlGShY8LcphR7/fXIJJLTIUX0Omeh3InYMfPYytZ6Z8rurX0hX9wC7s5EjLJMlc46gGUmVnL1AwNt/7roK4kwY87OiyeDsrObJWDhe58hWtiXff0sBehy4VZsjNiqY27C0jor43aK1zyKcM="
     },
-    "location": [-226.4, 37.0, 523.3, -143]
+    "location": [-225.4, 37.5, 522.5, -143],
+    "sitting": true
   },
   "Server": [],
-  "Hide": [],
+  "Hide": "festival_meeting_regi",
 
   "CreateEntity": {
     "key": "festival_disaster_becky",
