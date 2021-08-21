@@ -82,6 +82,15 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake-cake.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-player-controller.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-init.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-dummy-1.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
