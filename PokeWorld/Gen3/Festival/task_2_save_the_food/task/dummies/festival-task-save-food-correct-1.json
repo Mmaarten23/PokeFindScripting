@@ -9,14 +9,13 @@
     "visible": false,
     "helmet": {
       "material": "apple"
-    },
-    "size": 1
+    }
   },
   "CreateEntity": {
     "key": "dummy_1_detection",
     "entity": "SLIME",
     "location": [-1203.5, 60.4, -862.5],
-    "size": 2,
+    "size": 1,
     "glow": true,
     "visible": false,
     "look": false
