@@ -1,0 +1,27 @@
+{
+  "Key": "festival_task_save_food_game_loop",
+  "Author": "Mmaarten",
+
+  "Comment": "loop-start",
+  "Start": "festival_task_save_food_dummy_1",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_2",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_3",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_4",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_5",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_6",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_7",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_8",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_9",
+  "Wait": 2.0,
+  "Start": "festival_task_save_food_dummy_10",
+  "Wait": 2.0,
+  "Skip": "loop-start"
+}

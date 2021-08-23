@@ -1,0 +1,135 @@
+{
+  "Key": "festival_task_save_food_moriarty",
+  "Author": "Mmaarten",
+
+  "CreateEntity": {
+    "key": "festival_moriarty",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9",
+      "signature": "rCfG/5E2UF6JNX49/K5QXQTeHOH6SUALxz4RET3x+LeIs0ZI9HglME8nl4srxQGo0ApNLhtP1/CY2sm44Uotmrt0hidTXL8flAIJP4IFlRwOS9nkm2blZ8z4z26giEqExn3W6xAr/nuNW2y0YK2RdiExt1jaNISfdgRs9BU7jyIkNeKp50QZG1pNa3Rq7CptqPqMP8oGik65K6nawUkqrAErnVB5iNF+YYHWSF2g8R5RfmMCWsICvNZ5OQ7pz6AU5J/GJFuUSWkqoG4Ro/LEtK7FTP9MbZ0gBdPd2OQmuBwqqpXpGeGNeMNlYjMT9am8ShrqjHfDbPMW21wqXSyK1p0zX2mzlXxIGUGV6yzwsNrhQjkdFwWuP3sZt0GXSsh624UoiX00DERmdRARmbFcxIVMkao/PMeJb20MgjnfgYlinMCJ3IdTICDRrvntk+6L4TCMJMJ1gJxhnlxciT861GNZV5WtLVhMZoJNj90YkS2zo+HjyzGvq6KpxILBnvGDDRPES+z9EZd2fPwF4Yz199oYm9LHU7wf1JOnhkiBfikgNlyzZ0wejY/yBZFyMWR3j/qtNBndWMb3cNSByOfjlrjLV4U/I2XxtnSJqRjkdWXwYtWCCP82yIJnIVAnp50WjATOFOai/hyn7uHRngOnJ5lvLRIS523ylk60ZhwG0G8="
+    },
+    "location": [-1199.6, 36.0, -871.9, 155],
+    "name": [
+      "&8&lMoriarty"
+    ]
+  },
+  "Server": [],
+  "Hide": "festival_moriarty",
+
+
+  "ChunkLoad": [],
+  "If": [],
+  "NotCompleted": "festival_blake_intro",
+  "Leave": [],
+  "Dummy": [],
+
+  "If": [],
+  "Completed": "festival_task_save_food_master",
+  "Skip": "secret",
+  "Dummy": [],
+
+
+  "Show": "festival_moriarty",
+  "HighlightClickEntity": "festival_moriarty",
+  "If": [],
+  "NotCompleted": "festival_task_save_food_moriarty",
+  "Skip": "first_time",
+  "Skip": "returning",
+
+  "Comment": "first_time",
+  "Start": "festival_util_disablechat",
+  "Dialog": [
+    {
+      "&8&lMoriarty": "I am a bit busy. Who are you?",
+      "[PLAYER]": "Who i am does not matter.",
+      "[PLAYER]": "I am here to take back what you took from Blake!",
+      "&8&lMoriarty": "I see... Blake didn't have the courage to come himself huh?",
+      "&8&lMoriarty": "Sending his little helper... pfuh.",
+      "&8&lMoriarty": "This will be even easier than I thought!",
+      "[PLAYER]": "Bring it on.",
+      "&8&lMoriarty": "Alright little guy, on the rooftop of this building are three helpers of mine.",
+      "&8&lMoriarty": "They have been instructed to throw those precious ingredients into lava.",
+      "&8&lMoriarty": "The only way you can save the ingredients is by catching them before they fall.",
+      "[PLAYER]": "I can do that.",
+      "&8&lMoriarty": "Sure you can.",
+      "&8&lMoriarty": "Oh... they might also have a... booming surprise.",
+      "&8&lMoriarty": "But I am sure that won't be an issue, right?",
+      "[PLAYER]": "I am going to beat you!"
+    },
+    90
+  ],
+  "Complete": [],
+  "Skip": "start_game",
+
+  "Comment": "returning",
+  "Start": "festival_util_disablechat",
+  "RandomDialog": [
+    {
+      "&8&lMoriarty": "Phahahaha, you want to try again?",
+      "&8&lMoriarty": "Sure... Good luck!",
+      "&8&lMoriarty": "&lNOT!"
+    },
+    {
+      "&8&lMoriarty": "Blake sent his little helper to try again, how cute.",
+      "&8&lMoriarty": "Let's see if those little arms can do better this time."
+    },
+    {
+      "&8&lMoriarty": "Why are you even helping that excuse of a cook?",
+      "&8&lMoriarty": "I will never understand the trainer species",
+      "&8&lMoriarty": "Anyways, I am sure my boys wont mind throwing some more stuff in lava!"
+    },
+    {
+      "&8&lMoriarty": "I would give you some sweets for effort,",
+      "&8&lMoriarty": "but they all burned up!",
+      "&8&lMoriarty": "No chance you can save what is left."
+    },
+    {
+      "&8&lMoriarty": "Does your mommy even know you are here?",
+      "&8&lMoriarty": "I would call her if i were you!",
+      "&8&lMoriarty": "You have to report great failures to your parents!"
+    },
+    {
+      "&8&lMoriarty": "I am getting tired.",
+      "&8&lMoriarty": "Nothing is stopping me from throwing them all down at once!",
+      "&8&lMoriarty": "But I will give you one more chance.",
+      "&8&lMoriarty": "I am such a nice guy!"
+    },
+    {
+      "&8&lMoriarty": "Blake needs a real cake up call",
+      "&8&lMoriarty": "A little helper like you isn't going to cut it.",
+      "&8&lMoriarty": "Don't forget to drop as many as you can!"
+    },
+    {
+      "&8&lMoriarty": "Blake wants a piece of me,",
+      "&8&lMoriarty": "but I am pretty sure I have a piece of his cake!"
+    }
+  ],
+  "Skip": "start_game",
+
+  "Comment": "secret",
+  "Dialog": [
+    {
+      "&8&lMoriarty": "Seems like you aren't that bad at catching stuff huh?",
+      "&8&lMoriarty": "But one thing has changed...",
+      "&8&lMoriarty": "I now know who you are,"
+    },
+    90
+  ],
+  "PlaySound": "entity_lightning_bolt_thunder",
+  "Dialog": [
+    {
+      "&8&lMoriarty": "[PLAYER]"
+    },
+    90
+  ],
+  "Hide": "festival_moriarty",
+
+  "Comment": "start_game",
+  "Leave": "festival_util_disablechat",
+  "Start": "festival_task_save_food_init",
+
+  "Comment": "external_wait",
+  "Hold": [],
+  "Start": "festival_task_save_food_moriarty"
+}
