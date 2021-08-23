@@ -97,6 +97,9 @@
                   <Item>
                     <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/giant.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/dummies/festival-task-save-food-dummy-1.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>

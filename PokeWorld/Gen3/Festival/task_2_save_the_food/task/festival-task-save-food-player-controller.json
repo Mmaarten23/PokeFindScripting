@@ -57,8 +57,8 @@
 
   "Comment": "start",
   "SetBlocks": [
-    -1203, 35, -862,
-    -1203, 35, -870,
+    -1204, 35, -863,
+    -1204, 35, -871,
     "lava"
   ],
   "Comment": "TODO add DisableAllCommands stage",
@@ -68,24 +68,29 @@
     "&7Collect the cake decorations and avoid the nasty bombs!",
     "",
     "Decorations: &a[festival_blake_task_correct] &7/ &a30",
-    "Lives      : &c[festival_blake_task_lives] &7/ &a5"
+    "Lives      : &c[festival_blake_task_lives] &7/ &c5"
   ],
   "If": [],
   "Equals": ["festival_blake_task_correct", ">=", 30],
   "Skip": "win",
   "Dummy": [],
   "If": [],
-  "Equals": ["festival_blake_task_wrong", ">=", 5],
+  "Equals": ["festival_blake_task_lives", "<=", 0],
   "Skip": "lose",
   "Dummy": [],
   "Wait": 5,
   "Skip": "win-lose-loop-start",
 
   "Comment": "win",
-  "SendMessage": "You won, woohooo",
-  "Leave": [],
+  "SendMessage": "[DEBUG]: win",
+  "Complete": [],
+  "Skip": "end",
 
   "Comment": "lose",
-  "SendMessage": "You lost, rip",
-  "Leave": []
+  "SendMessage": "[DEBUG]: lose",
+  "Skip": "end",
+
+  "Comment": "end",
+  "Leave": "festival_task_save_food_master",
+  "Leave": "festival_task_save_food_dummy_*"
 }
