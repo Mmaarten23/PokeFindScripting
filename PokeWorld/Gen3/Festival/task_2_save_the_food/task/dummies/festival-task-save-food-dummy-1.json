@@ -111,19 +111,19 @@
   "Wait": 1.0,
   "MoveEntityRelative": ["dummy_1", 0.0, -23.0, 0.0, 0.15, false],
   "TeleportEntity": ["dummy_1", -1203.5, 60.4, -862.5],
-  "Leave": [],
+  "Skip": "bottom_reached",
 
   "Comment": "medium",
   "Wait": 1.0,
   "MoveEntityRelative": ["dummy_1", 0.0, -17.0, 0.0, 0.15, false],
   "TeleportEntity": ["dummy_1", -1203.5, 60.4, -862.5],
-  "Leave": [],
+  "Skip": "bottom_reached",
 
   "Comment": "low",
   "Wait": 1.0,
   "MoveEntityRelative": ["dummy_1", 0.0, -13.0, 0.0, 0.15, false],
   "TeleportEntity": ["dummy_1", -1203.5, 60.4, -862.5],
-  "Leave": [],
+  "Skip": "bottom_reached",
 
 
   "Comment": "hit",
