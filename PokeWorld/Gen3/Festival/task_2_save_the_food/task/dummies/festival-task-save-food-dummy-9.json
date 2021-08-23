@@ -26,7 +26,6 @@
     "entity": "SLIME",
     "location": [-1201.5, 53.5, -866.5],
     "size": 1,
-    "glow": true,
     "visible": false,
     "look": false
   },
