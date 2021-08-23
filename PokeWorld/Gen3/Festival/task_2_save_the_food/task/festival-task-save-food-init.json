@@ -1,0 +1,9 @@
+{
+  "Key": "festival_task_save_food_init",
+  "Author": "Mmaarten",
+
+  "Teleport": [-1207.5, 36.0, -867.5, -90],
+  "Set": ["festival_blake_task_correct", 0],
+  "Set": ["festival_blake_task_wrong", 0],
+  "Start": "festival_task_save_food_player_controller"
+}

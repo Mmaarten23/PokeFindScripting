@@ -1,0 +1,12 @@
+{
+  "Key": "festival_task_save_food_master",
+  "Author": "Mmaarten",
+
+  "Comment": "loop-start",
+  "If": [],
+  "Chance": 0.7,
+  "Start": "festival_task_save_food_correct_1",
+  "Start": "festival_task_save_food_wrong_1",
+  "Wait": 10.0,
+  "Skip": "loop-start"
+}

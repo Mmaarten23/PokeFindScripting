@@ -1,0 +1,84 @@
+{
+  "Key": "festival_task_save_food_player_controller",
+  "Author": "Mmaarten",
+
+
+
+  "Skip": "start",
+
+  "GlobalRegionExit": [
+    -1209, 35, -874,
+    -1204, 39, -862
+  ],
+  "Skip": "player_leaves",
+
+
+  "Comment": "player_leaves",
+  "SendMessage": "&cYou cannot leave the play area!",
+  "Teleport": [-1207.5, 36.0, -867.5, -90],
+  "Wait": 0.5,
+  "Particle": ["Redstone", -1208.5, 37.5, -861.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -862.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -863.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -864.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -865.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -866.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -867.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -868.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -869.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -870.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -871.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -872.5, 20, 0.01],
+  "Particle": ["Redstone", -1208.5, 37.5, -873.5, 20, 0.01],
+
+  "Particle": ["Redstone", -1207.5, 37.5, -861.5, 20, 0.01],
+  "Particle": ["Redstone", -1206.5, 37.5, -861.5, 20, 0.01],
+  "Particle": ["Redstone", -1205.5, 37.5, -861.5, 20, 0.01],
+  "Particle": ["Redstone", -1204.5, 37.5, -861.5, 20, 0.01],
+
+  "Particle": ["Redstone", -1203.5, 37.5, -861.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -862.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -863.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -864.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -865.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -866.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -867.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -868.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -869.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -870.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -871.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -872.5, 20, 0.01],
+  "Particle": ["Redstone", -1203.5, 37.5, -873.5, 20, 0.01],
+
+  "Particle": ["Redstone", -1207.5, 37.5, -873.5, 20, 0.01],
+  "Particle": ["Redstone", -1206.5, 37.5, -873.5, 20, 0.01],
+  "Particle": ["Redstone", -1205.5, 37.5, -873.5, 20, 0.01],
+  "Particle": ["Redstone", -1204.5, 37.5, -873.5, 20, 0.01],
+
+  "Comment": "start",
+  "SetBlocks": [
+    -1203, 35, -862,
+    -1203, 35, -870,
+    "lava"
+  ],
+  "DisableAllCommands": [],
+  "Comment": "win-lose-loop-start",
+  "If": [],
+  "Equals": ["festival_blake_task_correct", ">=", 30],
+  "Skip": "win",
+  "Dummy": [],
+  "If": [],
+  "Equals": ["festival_blake_task_wrong", ">=", 5],
+  "Skip": "lose",
+  "Dummy": [],
+  "Wait": 5,
+  "Skip": "win-lose-loop-start",
+
+  "Comment": "win",
+  "SendMessage": "You won, woohooo",
+  "Leave": [],
+
+  "Comment": "lose",
+  "SendMessage": "You lost, rip",
+  "Leave": []
+}
