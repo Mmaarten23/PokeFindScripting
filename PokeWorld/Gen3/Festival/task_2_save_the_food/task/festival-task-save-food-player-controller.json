@@ -61,8 +61,15 @@
     -1203, 35, -870,
     "lava"
   ],
-  "DisableAllCommands": [],
+  "Comment": "TODO add DisableAllCommands stage",
   "Comment": "win-lose-loop-start",
+  "SetScoreboard": [
+    "&6&lSave the food!",
+    "&7Collect the cake decorations and avoid the nasty bombs!",
+    "",
+    "Decorations: &a[festival_blake_task_correct] &7/ &a30",
+    "Lives      : &c[festival_blake_task_lives] &7/ &a5"
+  ],
   "If": [],
   "Equals": ["festival_blake_task_correct", ">=", 30],
   "Skip": "win",
