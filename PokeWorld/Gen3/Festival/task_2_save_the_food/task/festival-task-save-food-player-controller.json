@@ -92,5 +92,14 @@
 
   "Comment": "end",
   "Leave": "festival_task_save_food_master",
-  "Leave": "festival_task_save_food_dummy_*"
+  "Leave": "festival_task_save_food_dummy_1",
+  "Leave": "festival_task_save_food_dummy_2",
+  "Leave": "festival_task_save_food_dummy_3",
+  "Leave": "festival_task_save_food_dummy_4",
+  "Leave": "festival_task_save_food_dummy_5",
+  "Leave": "festival_task_save_food_dummy_6",
+  "Leave": "festival_task_save_food_dummy_7",
+  "Leave": "festival_task_save_food_dummy_8",
+  "Leave": "festival_task_save_food_dummy_9",
+  "Leave": "festival_task_save_food_dummy_10"
 }
