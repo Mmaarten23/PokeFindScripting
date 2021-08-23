@@ -5,5 +5,6 @@
   "Teleport": [-1207.5, 36.0, -867.5, -90],
   "Set": ["festival_blake_task_correct", 0, true],
   "Set": ["festival_blake_task_lives", 5, true],
-  "Start": "festival_task_save_food_player_controller"
+  "Start": "festival_task_save_food_player_controller",
+  "Start": "festival_task_save_food_master"
 }
