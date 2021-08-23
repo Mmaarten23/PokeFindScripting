@@ -100,6 +100,12 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/dummies/festival-task-save-food-dummy-1.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-dark-knight.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-moriarty.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>

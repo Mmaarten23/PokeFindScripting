@@ -137,12 +137,14 @@
   "Skip": "hit_correct",
 
   "Comment": "hit_wrong",
+  "PlaySound": "entity_generic_explode",
   "Hide": "dummy_1_item_wrong",
   "Add": ["festival_blake_task_lives", -1],
   "Set": ["festival_blake_task_dummy_1", "wrong_hit"],
   "Leave": [],
 
   "Comment": "hit_correct",
+  "PlaySound": "entity_player_levelup",
   "Hide": "dummy_1_item_correct",
   "Add": ["festival_blake_task_correct", 1],
   "Set": ["festival_blake_task_dummy_1", "correct_hit"],
@@ -154,6 +156,9 @@
   "Hide": "dummy_1",
   "If": [],
   "Equals": ["festival_blake_task_dummy_1", "correct"],
+  "Skip": "mistake",
+  "Leave": [],
+  "Comment": "mistake",
   "Add": ["festival_blake_task_lives", -1],
-  "Dummy": []
+  "PlaySound": "entity_generic_burn"
 }
