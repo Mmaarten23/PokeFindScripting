@@ -61,7 +61,7 @@
     -1204, 35, -871,
     "lava"
   ],
-  "Comment": "TODO add DisableAllCommands stage",
+  "SendMessage": "[DEBUG]: TODO -> Commands will be disabled from this point!",
   "Comment": "win-lose-loop-start",
   "SetScoreboard": [
     "&6&lSave the food!",
