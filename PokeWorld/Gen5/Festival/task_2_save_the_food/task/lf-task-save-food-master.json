@@ -69,7 +69,7 @@
 
   "Comment": "player_leaves",
   "SendMessage": "&cYou cannot leave the play area!",
-  "Teleport": [165.5,41.0,-472.5, 0],
+  "Teleport": [165.5, 41.0, -472.5, 0],
   "Wait": 0.5,
   "Particle": ["Redstone", 158.5, 42.5, -478.5, 20, 0.01],
   "Particle": ["Redstone", 158.5, 42.5, -477.5, 20, 0.01],
@@ -121,11 +121,12 @@
   "Particle": ["Redstone", 169.5, 42.5, -469.5, 20, 0.01],
   "Particle": ["Redstone", 170.5, 42.5, -469.5, 20, 0.01],
   "Particle": ["Redstone", 171.5, 42.5, -469.5, 20, 0.01],
+  "Leave": [],
 
   "Comment": "start",
   "SetBlocks": [
-    169,40,-478,
-    161,40,-478,
+    169, 40, -478,
+    161, 40, -478,
     "water"
   ],
   "Show": "lf_moriarty_helper_1",
@@ -168,8 +169,7 @@
   "Leave": "lf_task_save_food_dummy_10",
   "Dialog": [
     {
-      "&8&lMoriarty": "Alright, you might be a little better at catching than I thought.",
-      "&8&lMoriarty": "But don't you think the light festival is ever going to happen!"
+      "&8&lMoriarty": "Alright, you might be a little better at catching than I thought. But don't you think the light festival is ever going to happen!"
     },
     90
   ],
@@ -215,5 +215,6 @@
   "Hide": "lf_moriarty_helper_1",
   "Hide": "lf_moriarty_helper_2",
   "Hide": "lf_moriarty_helper_3",
-  "Progress": "lf_task_save_food_moriarty"
+  "Progress": "lf_task_save_food_moriarty",
+  "Teleport": [164.2, 55.0, -528.9, 29]
 }
