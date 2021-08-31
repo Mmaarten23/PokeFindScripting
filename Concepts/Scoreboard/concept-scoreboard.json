@@ -1,0 +1,15 @@
+{
+  "Key": "concept_scoreboard",
+  "Author": "Mmaarten",
+
+
+  "Repeat": [30.0],
+  "GlobalHologram": [
+    -49.5, 26.0, 124.5,
+    "&6&lConcept Leaderboard",
+    "&e&l1. [concept_scoreboard:pos1_name] &b[concept_scoreboard:pos1_score]",
+    "&7&l2. [concept_scoreboard:pos2_name] &b[concept_scoreboard:pos2_score]",
+    "&6&l3. [concept_scoreboard:pos3_name] &b[concept_scoreboard:pos3_score]"
+  ],
+  "BroadcastMessage": "[DEBUG]: scores refreshed"
+}

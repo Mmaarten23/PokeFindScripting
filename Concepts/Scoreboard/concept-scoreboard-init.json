@@ -1,0 +1,13 @@
+{
+  "Key": "concept_scoreboard_init",
+  "Author": "Mmaarten",
+
+  "Set": ["concept_scoreboard", "pos1_name", "PLAYER1", true],
+  "Set": ["concept_scoreboard", "pos2_name", "PLAYER2", true],
+  "Set": ["concept_scoreboard", "pos3_name", "PLAYER3", true],
+  "Set": ["concept_scoreboard", "pos1_score", 100, true],
+  "Set": ["concept_scoreboard", "pos2_score", 50, true],
+  "Set": ["concept_scoreboard", "pos3_score", 10, true],
+  "SendMessage": "loaded variables"
+
+}

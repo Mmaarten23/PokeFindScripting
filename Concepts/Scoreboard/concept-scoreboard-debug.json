@@ -1,0 +1,7 @@
+{
+  "Key": "concept_scoreboard_debug",
+  "Author": "Mmaarten",
+  "SendMessage": "&e&l1. [concept_scoreboard:pos1_name] &b[concept_scoreboard:pos1_score]",
+  "SendMessage": "&7&l2. [concept_scoreboard:pos2_name] &b[concept_scoreboard:pos2_score]",
+  "SendMessage": "&6&l3. [concept_scoreboard:pos3_name] &b[concept_scoreboard:pos3_score]"
+}

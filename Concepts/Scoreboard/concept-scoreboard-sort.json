@@ -1,0 +1,115 @@
+{
+  "Key": "concept_scoreboard_sort",
+  "Author": "Mmaarten",
+
+  "Set": ["temp_score", "[concept_points]"],
+  "Set": ["temp_name", "[PLAYER]"],
+
+
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos1_name", "[PLAYER]"],
+    "Skip": "pos1_found_player",
+    "Skip": "pos1_score_check",
+
+  "Comment": "pos1_found_player",
+  "If": [],
+    "Equals": ["temp_name", "[PLAYER]"],
+    "Skip": "pos1_improvement",
+    "Skip": "pos1_replacement",
+
+  "Comment": "pos1_improvement",
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos1_score", ">=", "[temp_score]"],
+    "Leave": [],
+    "Set": ["concept_scoreboard", "pos1_score", "[temp_score]"],
+  "Leave": [],
+  
+  "Comment": "pos1_replacement",
+  "Set": ["concept_scoreboard", "pos1_name", "[temp_name]"],
+  "Set": ["concept_scoreboard", "pos1_score", "[temp_score]"],
+  "Leave": [],
+
+  "Comment": "pos1_score_check",
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos1_score", ">=", "[temp_score]"],
+    "Skip": "pos2",
+    "Set": ["switch_score", "[concept_scoreboard:pos1_score]"],
+    "Set": ["switch_name", "[concept_scoreboard:pos1_name]"],
+    "Set": ["concept_scoreboard", "pos1_name", "[temp_name]"],
+    "Set": ["concept_scoreboard", "pos1_score", "[temp_score]"],
+    "Set": ["temp_score", "[switch_score]"],
+    "Set": ["temp_name", "[switch_name]"],
+
+
+  "Comment": "pos2",
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos2_name", "[PLAYER]"],
+    "Skip": "pos2_found_player",
+    "Skip": "pos2_score_check",
+
+  "Comment": "pos2_found_player",
+  "If": [],
+    "Equals": ["temp_name", "[PLAYER]"],
+    "Skip": "pos2_improvement",
+    "Skip": "pos2_replacement",
+
+  "Comment": "pos2_improvement",
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos2_score", ">=", "[temp_score]"],
+    "Leave": [],
+    "Set": ["concept_scoreboard", "pos2_score", "[temp_score]"],
+  "Leave": [],
+
+  "Comment": "pos2_replacement",
+  "Set": ["concept_scoreboard", "pos2_name", "[temp_name]"],
+  "Set": ["concept_scoreboard", "pos2_score", "[temp_score]"],
+  "Leave": [],
+
+  "Comment": "pos2_score_check",
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos2_score", ">=", "[temp_score]"],
+    "Skip": "pos3",
+    "Set": ["switch_score", "[concept_scoreboard:pos2_score]"],
+    "Set": ["switch_name", "[concept_scoreboard:pos2_name]"],
+    "Set": ["concept_scoreboard", "pos2_score", "[temp_score]"],
+    "Set": ["concept_scoreboard", "pos2_name", "[temp_name]"],
+    "Set": ["temp_score", "[switch_score]"],
+    "Set": ["temp_name", "[switch_name]"],
+
+  
+  
+  "Comment": "pos3",
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos3_name", "[PLAYER]"],
+    "Skip": "pos3_found_player",
+    "Skip": "pos3_score_check",
+
+  "Comment": "pos3_found_player",
+  "If": [],
+    "Equals": ["temp_name", "[PLAYER]"],
+    "Skip": "pos3_improvement",
+    "Skip": "pos3_replacement",
+
+  "Comment": "pos3_improvement",
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos3_score", ">=", "[temp_score]"],
+    "Leave": [],
+    "Set": ["concept_scoreboard", "pos3_score", "[temp_score]"],
+  "Leave": [],
+
+  "Comment": "pos3_replacement",
+  "Set": ["concept_scoreboard", "pos3_name", "[temp_name]"],
+  "Set": ["concept_scoreboard", "pos3_score", "[temp_score]"],
+  "Leave": [],
+
+  "Comment": "pos3_score_check",
+  "If": [],
+    "Equals": ["concept_scoreboard", "pos3_score", ">=", "[temp_score]"],
+    "Leave": [],
+    "Set": ["switch_score", "[concept_scoreboard:pos3_score]"],
+    "Set": ["switch_name", "[concept_scoreboard:pos3_name]"],
+    "Set": ["concept_scoreboard", "pos3_name", "[temp_name]"],
+    "Set": ["concept_scoreboard", "pos3_score", "[temp_score]"],
+    "Set": ["temp_score", "[switch_score]"],
+    "Set": ["temp_name", "[switch_name]"]
+}
