@@ -26,5 +26,6 @@
   ],
   "Leave": "lf_util_disablecommands",
   "Complete": [],
-  "Progress": "lf_manager"
+  "Progress": "lf_manager",
+  "Progress": "lf_util_objective_handler"
 }

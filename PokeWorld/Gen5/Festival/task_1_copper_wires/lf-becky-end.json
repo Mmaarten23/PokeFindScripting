@@ -17,5 +17,6 @@
   "Wait": 1,
   "PlaySound": "entity_enderman_teleport",
   "Particle": ["portal", 126.5, 55.0, 246.5, 100, 0.6],
-  "Progress": "lf_becky"
+  "Progress": "lf_becky",
+  "Progress": "lf_util_objective_handler"
 }

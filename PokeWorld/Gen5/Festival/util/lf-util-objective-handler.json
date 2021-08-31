@@ -1,0 +1,53 @@
+{
+  "Key": "lf_util_objective_handler",
+  "Author": "Mmaarten",
+
+  "Name": "&a✦ &e&lLight festival &a✦",
+  "Description": "&fThe biggest festival of the year is around the corner and the manager looks a little... stressed?",
+  "AllowRejoining": true,
+  "Quest": true,
+
+  "Icon": {
+
+    "material": "magma_cream",
+    "glow": true
+  },
+  "ClickToStart": [],
+  "Objective": ["Talk to the manager in Findale Harbor", "met_manager"],
+  "Hold": [],
+  "Comment": "met_manager",
+  "Objective": ["Talk to Becky on the airstrip in Wattson City", "met_becky"],
+  "Hold": [],
+  "Comment": "met_becky",
+  "Objective": ["Collect 10 pieces of scrap from copper wires", "collected_10_copper_wire"],
+  "Hold": [],
+  "Comment": "collected_10_copper_wire",
+  "Objective": ["Bring the scrap pieces to Becky", "returned_to_becky"],
+  "Hold": [],
+  "Comment": "returned_to_becky",
+  "Objective": ["Return to the manager in Findale Harbor", "returned_to_manager_1"],
+  "Hold": [],
+  "Comment": "returned_to_manager_1",
+  "Objective": ["Talk to Blake in Northrun", "met_blake"],
+  "Hold": [],
+  "Comment": "met_blake",
+  "Objective": ["Challenge Moriarty on the Northrun bridge", "met_moriarty"],
+  "Hold": [],
+  "Comment": "met_moriarty",
+  "Objective": ["Beat Moriarty", "beat_moriarty"],
+  "Hold": [],
+  "Comment": "beat_moriarty",
+  "Objective": ["Return to Blake", "returned_to_blake"],
+  "Hold": [],
+  "Comment": "returned_to_blake",
+  "Objective": ["Return to the manager in Findale Harbor", "returned_to_manager_2"],
+  "Hold": [],
+  "Comment": "returned_to_manager_2",
+
+  "PlaySound": "ui_toast_challenge_complete",
+  "SetTitle": [
+    "&a✦ &e&lLight festival &a✦",
+    "✔ completed ✔"
+  ],
+  "Complete": []
+}

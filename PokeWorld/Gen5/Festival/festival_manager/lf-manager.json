@@ -42,6 +42,11 @@
 
 
   "Comment": "manager.intro",
+  "If": [],
+  "NotIn": "lf_util_objective_handler",
+  "Start": "lf_util_objective_handler",
+  "Dummy": [],
+  "Wait": 1,
   "Start": "lf_manager_intro",
   "Hold": [],
   "Leave": [],

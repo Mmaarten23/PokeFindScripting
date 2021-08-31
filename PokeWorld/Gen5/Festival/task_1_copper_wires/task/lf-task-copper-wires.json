@@ -104,5 +104,6 @@
   ],
   "SendMessage": "&7+1 Copper wire scrap. (10/10)",
   "Complete": [],
+  "Progress": "lf_util_objective_handler",
   "Leave": "lf_task_copper_wires_highlight"
 }

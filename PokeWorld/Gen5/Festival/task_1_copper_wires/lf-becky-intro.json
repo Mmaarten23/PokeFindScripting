@@ -449,5 +449,6 @@
   "Complete": [],
   "Wait": 1,
   "Progress": "lf_becky",
+  "Progress": "lf_util_objective_handler",
   "Start": ["lf_task_copper_wires", 1.0, "script_entry_point"]
 }

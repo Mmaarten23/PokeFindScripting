@@ -133,6 +133,9 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/task/lf-task-copper-wires-highlight.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/util/lf-util-objective-handler.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
