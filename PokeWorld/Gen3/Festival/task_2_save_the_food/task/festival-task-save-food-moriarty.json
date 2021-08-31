@@ -124,6 +124,7 @@
     90
   ],
   "Hide": "festival_moriarty",
+  "Leave": [],
 
   "Comment": "start_game",
   "Leave": "festival_util_disablechat",
