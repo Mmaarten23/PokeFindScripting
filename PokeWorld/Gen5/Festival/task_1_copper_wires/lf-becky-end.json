@@ -1,0 +1,19 @@
+{
+  "Key": "festival_becky_end",
+  "Author": "Mmaarten",
+
+  "Store": ["lf.becky.speech", 90],
+
+  "Dialog": [
+    {
+      "&b&lBecky": "You got them!",
+      "&b&lBecky": "I found a way to forge them too!",
+      "&b&lBecky": "I have to bring this to the stage quickly... Thank you!!!",
+      "&b&lBecky": "I will tell the manager about you, go see him later too!"
+    },
+    "lf.becky.speech"
+  ],
+  "Complete": [],
+  "Wait": 1,
+  "Progress": "lf_becky"
+}

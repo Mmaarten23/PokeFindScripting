@@ -1,0 +1,50 @@
+{
+  "Key": "lf_manager_wait",
+  "Author": "Mmaarten",
+
+  "Store": ["lf.manager.speech", 90],
+  "RandomDialog": [
+    {
+      "&4&lManager": "I don't have time!"
+    }, {
+      "&4&lManager": "What now?"
+    },
+    {
+      "&4&lManager": "You again?"
+    },
+    {
+      "&4&lManager": "Seems like you have enough time to waste."
+    },
+    {
+      "&4&lManager": "Time time time time time time, I need more!"
+    },
+    {
+      "&4&lManager": "I swear this watch is lying to me."
+    },
+    {
+      "&4&lManager": "Did I not make myself clear?"
+    },
+    {
+      "&4&lManager": "I don't have all day."
+    },
+    {
+      "&4&lManager": "No time for breaks!"
+    },
+    {
+      "&4&lManager": "Is 5 cups of coffee a day too much? Nah!"
+    },
+    {
+      "&4&lManager": "If only time wouldn't go so fast!"
+    }
+  ],
+  "If": [],
+  "Chance": 0.05,
+  "Dialog": [
+    {
+      "&4&lManager": "If only Tardis was here right now..."
+    },
+    "lf.manager.speech"
+  ],
+  "Dummy": [],
+  "Progress": "lf-manager"
+}
