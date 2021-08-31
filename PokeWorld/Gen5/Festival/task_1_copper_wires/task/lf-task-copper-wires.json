@@ -3,7 +3,6 @@
   "Author": "Mmaarten",
 
   "Comment": "script_entry_point",
-  "Show": ["s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10"],
   "Start": "lf_task_copper_wires_highlight",
   "CumulativePickupItem": [
     42.0, 52.0, 232.0,
