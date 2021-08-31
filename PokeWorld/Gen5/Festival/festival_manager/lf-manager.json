@@ -32,7 +32,7 @@
   "Skip": "manager.task_1.wait",
   "Dummy": [],
   "If": [],
-  "NotCompleted": "lf_manager_after_copper_wires",
+  "NotCompleted": "lf_manager_task_1_complete",
   "Skip": "manager.task_1.complete",
   "Dummy": [],
 
@@ -52,14 +52,14 @@
   "Hold": [],
   "Dialog": [
     {
-      "&4&lManager": "You wanted to help so go talk to &bBecky&r in &e&lVoltage park&r."
+      "&4&lManager": "You wanted to help so go talk to &bBecky&r in &e&lWatterson City&r."
     },
     "lf.manager.speech"
   ],
   "Leave": [],
 
   "Comment": "manager.task_1.complete",
-  "Start": "lf_manager_after_copper_wires",
+  "Start": "lf_manager_task_1_complete",
   "Hold": [],
   "Leave": [],
 

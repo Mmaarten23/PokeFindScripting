@@ -1,5 +1,5 @@
 {
-  "Key": "festival_becky_end",
+  "Key": "lf_becky_end",
   "Author": "Mmaarten",
 
   "Store": ["lf.becky.speech", 90],
@@ -15,5 +15,7 @@
   ],
   "Complete": [],
   "Wait": 1,
+  "PlaySound": "entity_enderman_teleport",
+  "Particle": ["portal", 126.5, 55.0, 246.5, 100, 0.6],
   "Progress": "lf_becky"
 }
