@@ -1,0 +1,219 @@
+{
+  "Key": "lf_task_save_food_master",
+  "Author": "Mmaarten",
+
+
+  "CreateEntity": {
+    "key": "lf_moriarty_helper_1",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+      "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
+    },
+    "location": [162.5, 55.5, -478.0, 0, 80],
+    "hand": {
+      "material": "apple"
+    },
+    "offhand": {
+      "material": "tnt"
+    }
+  },
+  "Server": [],
+  "Hide": "lf_moriarty_helper_1",
+
+  "CreateEntity": {
+    "key": "lf_moriarty_helper_2",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+      "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
+    },
+    "location": [165.5, 56.0, -478.0, 0, 80],
+    "hand": {
+      "material": "apple"
+    },
+    "offhand": {
+      "material": "tnt"
+    }
+  },
+  "Server": [],
+  "Hide": "lf_moriarty_helper_2",
+
+  "CreateEntity": {
+    "key": "lf_moriarty_helper_3",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+      "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
+    },
+    "location": [168.5, 55.5, -478.0, 0, 80],
+    "hand": {
+      "material": "apple"
+    },
+    "offhand": {
+      "material": "tnt"
+    }
+  },
+  "Server": [],
+  "Hide": "lf_moriarty_helper_3",
+
+
+  "Skip": "start",
+
+  "GlobalRegionExit": [
+    158, 40, -479,
+    172, 45, -470
+  ],
+  "Skip": "player_leaves",
+
+
+  "Comment": "player_leaves",
+  "SendMessage": "&cYou cannot leave the play area!",
+  "Teleport": [165.5,41.0,-472.5, 0],
+  "Wait": 0.5,
+  "Particle": ["Redstone", 158.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -477.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -476.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -475.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -474.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -473.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -472.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -471.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 158.5, 42.5, -470.5, 20, 0.01],
+
+  "Particle": ["Redstone", 159.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 160.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 161.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 162.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 163.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 164.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 165.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 166.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 167.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 168.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 169.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 170.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 171.5, 42.5, -478.5, 20, 0.01],
+
+
+  "Particle": ["Redstone", 172.5, 42.5, -478.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -477.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -476.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -475.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -474.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -473.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -472.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -471.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 172.5, 42.5, -470.5, 20, 0.01],
+
+  "Particle": ["Redstone", 159.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 160.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 161.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 162.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 163.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 164.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 165.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 166.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 167.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 168.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 169.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 170.5, 42.5, -469.5, 20, 0.01],
+  "Particle": ["Redstone", 171.5, 42.5, -469.5, 20, 0.01]
+
+  "Comment": "start",
+  "SetBlocks": [
+    169,40,-478,
+    161,40,-478,
+    "water"
+  ],
+  "Show": "lf_moriarty_helper_1",
+  "Show": "lf_moriarty_helper_2",
+  "Show": "lf_moriarty_helper_3",
+  "SendMessage": "[DEBUG]: TODO -> Commands will be disabled from this point!",
+  "Comment": "win-lose-loop-start",
+  "SetScoreboard": [
+    "&6&lSave the food!",
+    "",
+    "&7Collect the cake decorations by &bLeft clicking&7 them and avoid the nasty bombs!",
+    "",
+    "Decorations: &a[lf_blake_task_correct] &7/ &a30",
+    "Lives         : &c[lf_blake_task_lives] &7/ &c5"
+  ],
+  "If": [],
+  "Equals": ["lf_blake_task_correct", ">=", 30],
+  "Skip": "win",
+  "Dummy": [],
+  "If": [],
+  "Equals": ["lf_blake_task_lives", "<=", 0],
+  "Skip": "lose",
+  "Dummy": [],
+  "Wait": 5,
+  "Skip": "win-lose-loop-start",
+
+  "Comment": "win",
+  "SendMessage": "[DEBUG]: win",
+  "Complete": [],
+  "Leave": "lf_task_save_food_game_loop",
+  "Leave": "lf_task_save_food_dummy_1",
+  "Leave": "lf_task_save_food_dummy_2",
+  "Leave": "lf_task_save_food_dummy_3",
+  "Leave": "lf_task_save_food_dummy_4",
+  "Leave": "lf_task_save_food_dummy_5",
+  "Leave": "lf_task_save_food_dummy_6",
+  "Leave": "lf_task_save_food_dummy_7",
+  "Leave": "lf_task_save_food_dummy_8",
+  "Leave": "lf_task_save_food_dummy_9",
+  "Leave": "lf_task_save_food_dummy_10",
+  "Dialog": [
+    {
+      "&8&lMoriarty": "Alright, you might be a little better at catching than I thought.",
+      "&8&lMoriarty": "But don't you think the light festival is ever going to happen!"
+    },
+    90
+  ],
+  "Skip": "end",
+
+  "Comment": "lose",
+  "SendMessage": "[DEBUG]: lose",
+  "Leave": "lf_task_save_food_game_loop",
+  "Leave": "lf_task_save_food_dummy_1",
+  "Leave": "lf_task_save_food_dummy_2",
+  "Leave": "lf_task_save_food_dummy_3",
+  "Leave": "lf_task_save_food_dummy_4",
+  "Leave": "lf_task_save_food_dummy_5",
+  "Leave": "lf_task_save_food_dummy_6",
+  "Leave": "lf_task_save_food_dummy_7",
+  "Leave": "lf_task_save_food_dummy_8",
+  "Leave": "lf_task_save_food_dummy_9",
+  "Leave": "lf_task_save_food_dummy_10",
+  "RandomDialog": [
+    {
+      "&8&lMoriarty": "I am too strong for you muhahahahaha!"
+    },
+    {
+      "&8&lMoriarty": "Nice try but &ono&r!"
+    },
+    {
+      "&8&lMoriarty": "You thought this was kindergarten huh?"
+    },
+    {
+      "&8&lMoriarty": "And I didn't even have my morning coffee yet!"
+    },
+    {
+      "&8&lMoriarty": "The light festival will fail! Wohoooo!!!"
+    },
+    {
+      "&8&lMoriarty": "Some would accuse me of cheating but no...",
+      "&8&lMoriarty": "You are just bad!"
+    }
+  ],
+  "Skip": "end",
+
+  "Comment": "end",
+  "Hide": "lf_moriarty_helper_1",
+  "Hide": "lf_moriarty_helper_2",
+  "Hide": "lf_moriarty_helper_3",
+  "Progress": "lf_task_save_food_moriarty"
+}

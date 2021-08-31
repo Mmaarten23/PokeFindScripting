@@ -106,6 +106,33 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-moriarty.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="Concepts/Scoreboard/scoreboard.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="Concepts/Scoreboard/concept-scoreboard-init.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="Concepts/Scoreboard/concept-scoreboard-sort.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="Concepts/Scoreboard/concept-scoreboard-debug.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/festival_manager/festival-manager-task-1-wait.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/task/lf-task-copper-wires-highlight.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
