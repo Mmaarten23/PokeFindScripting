@@ -132,6 +132,7 @@
   "Show": "lf_moriarty_helper_1",
   "Show": "lf_moriarty_helper_2",
   "Show": "lf_moriarty_helper_3",
+  "HidePlayer": [],
   "SendMessage": "[DEBUG]: TODO -> Commands will be disabled from this point!",
   "Comment": "win-lose-loop-start",
   "SetScoreboard": [
