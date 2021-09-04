@@ -136,6 +136,12 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen5/Festival/util/lf-util-objective-handler.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-intro.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
