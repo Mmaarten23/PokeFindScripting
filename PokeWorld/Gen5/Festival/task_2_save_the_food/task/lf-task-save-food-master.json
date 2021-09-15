@@ -102,12 +102,15 @@
   "Leave": "lf_task_save_food_dummy_8",
   "Leave": "lf_task_save_food_dummy_9",
   "Leave": "lf_task_save_food_dummy_10",
+  "Teleport": [164.2, 55.0, -528.9, 29],
   "Dialog": [
     {
       "&8&lMoriarty": "Alright, you might be a little better at catching than I thought. But don't you think the light festival is ever going to happen!"
     },
     90
   ],
+  "PlaySound": "entity_lightning_bolt_impact",
+  "Particle": ["squid_ink", 163.7, 56.0, -525.7, 50, 0.6],
   "Skip": "end",
 
   "Comment": "lose",
@@ -123,6 +126,7 @@
   "Leave": "lf_task_save_food_dummy_8",
   "Leave": "lf_task_save_food_dummy_9",
   "Leave": "lf_task_save_food_dummy_10",
+  "Teleport": [164.2, 55.0, -528.9, 29],
   "RandomDialog": [
     {
       "&8&lMoriarty": "I am too strong for you muhahahahaha!"
@@ -151,5 +155,5 @@
   "Hide": "lf_moriarty_helper_2",
   "Hide": "lf_moriarty_helper_3",
   "Progress": "lf_task_save_food_moriarty",
-  "Teleport": [164.2, 55.0, -528.9, 29]
+  "Progress": "lf_util_objective_handler"
 }
