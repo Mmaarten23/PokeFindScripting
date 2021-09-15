@@ -26,7 +26,7 @@
 
   "If": [],
   "Completed": "lf_task_save_food_master",
-  "Skip": "secret",
+  "Leave": [],
   "Dummy": [],
 
 
@@ -35,7 +35,13 @@
   "If": [],
   "NotCompleted": "lf_task_save_food_moriarty",
   "Skip": "first_time",
+  "Dummy": [],
+
+  "If": [],
+  "Completed": "lf_task_save_food_master",
+  "Skip": "secret",
   "Skip": "returning",
+
 
   "Comment": "first_time",
   "Start": "lf_util_disablecommands",

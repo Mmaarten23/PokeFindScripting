@@ -57,73 +57,6 @@
   "Server": [],
   "Hide": "lf_moriarty_helper_3",
 
-
-  "Skip": "start",
-
-  "GlobalRegionExit": [
-    158, 40, -479,
-    172, 45, -470
-  ],
-  "Skip": "player_leaves",
-
-
-  "Comment": "player_leaves",
-  "SendMessage": "&cYou cannot leave the play area!",
-  "Teleport": [165.5, 41.0, -472.5, -180],
-  "Wait": 0.5,
-  "Particle": ["Redstone", 158.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -477.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -476.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -475.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -474.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -473.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -472.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -471.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 158.5, 42.5, -470.5, 20, 0.01],
-
-  "Particle": ["Redstone", 159.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 160.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 161.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 162.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 163.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 164.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 165.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 166.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 167.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 168.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 169.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 170.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 171.5, 42.5, -478.5, 20, 0.01],
-
-
-  "Particle": ["Redstone", 172.5, 42.5, -478.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -477.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -476.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -475.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -474.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -473.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -472.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -471.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 172.5, 42.5, -470.5, 20, 0.01],
-
-  "Particle": ["Redstone", 159.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 160.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 161.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 162.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 163.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 164.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 165.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 166.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 167.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 168.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 169.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 170.5, 42.5, -469.5, 20, 0.01],
-  "Particle": ["Redstone", 171.5, 42.5, -469.5, 20, 0.01],
-  "Skip": "win-lose-loop-start",
-
-  "Comment": "start",
   "SetBlocks": [
     169, 40, -478,
     161, 40, -478,
@@ -134,6 +67,7 @@
   "Show": "lf_moriarty_helper_3",
   "HidePlayer": [],
   "SendMessage": "[DEBUG]: TODO -> Commands will be disabled from this point!",
+  "Start": "lf_task_save_food_play_area",
   "Comment": "win-lose-loop-start",
   "SetScoreboard": [
     "&6&lSave the food!",
@@ -155,7 +89,7 @@
   "Skip": "win-lose-loop-start",
 
   "Comment": "win",
-  "SendMessage": "[DEBUG]: win",
+  "Leave": "lf_task_save_food_play_area",
   "Complete": [],
   "Leave": "lf_task_save_food_game_loop",
   "Leave": "lf_task_save_food_dummy_1",
@@ -177,7 +111,7 @@
   "Skip": "end",
 
   "Comment": "lose",
-  "SendMessage": "[DEBUG]: lose",
+  "Leave": "lf_task_save_food_play_area",
   "Leave": "lf_task_save_food_game_loop",
   "Leave": "lf_task_save_food_dummy_1",
   "Leave": "lf_task_save_food_dummy_2",
