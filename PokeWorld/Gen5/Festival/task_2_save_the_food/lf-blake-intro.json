@@ -477,8 +477,7 @@
   "Particle": ["portal", 194.7, 64.0, -674.6, 50, 0.6],
   "Hide": "lf_blake_standing",
   "Complete": [],
-  "Wait": 1,
+  "Wait": 2,
   "Progress": "lf_blake",
-  "Progress": "lf_util_objective_handler",
-  "Start": "lf_task_save_food_moriarty"
+  "Progress": "lf_util_objective_handler"
 }

@@ -75,7 +75,7 @@
   "Hold": [],
   "Dialog": [
     {
-      "&4&lManager": "You wanted to help so go talk to &bBecky&r in &e&lWatterson City&r."
+      "&4&lManager": "You wanted to help so go talk to &bBecky&r in &eWatterson City&r."
     },
     "lf.manager.speech"
   ],
@@ -108,7 +108,7 @@
   "Hold": [],
   "Dialog": [
     {
-      "&4&lManager": "Go talk to &aRegi&r in &eSandgate&r if you want to help."
+      "&4&lManager": "Go talk to &aRegi&r in &6Sandgate&r if you want to help."
     },
     "lf.manager.speech"
   ],
