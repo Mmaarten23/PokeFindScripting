@@ -21,5 +21,5 @@
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-8.json",
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-9.json",
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-10.json",
-  "SendMessage": "task 2 scripts loaded"
+  "BroadcastMessage": "task 2 scripts loaded"
 }

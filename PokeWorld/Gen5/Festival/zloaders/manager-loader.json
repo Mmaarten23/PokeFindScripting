@@ -7,5 +7,5 @@
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-task-2-complete.json",
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-wait.json",
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager.json",
-  "SendMessage": "manager scripts loaded"
+  "BroadcastMessage": "manager scripts loaded"
 }

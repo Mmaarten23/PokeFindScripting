@@ -1,0 +1,30 @@
+{
+    "NotCompleted":[
+		"part_6_sewaddle_completed",
+		""
+	],
+    "EntityRegionEntry":[
+	-468,
+	33,
+	59,
+	-468,
+	33,
+	59
+    ],
+	"HasTeam":[
+		"Ancient Tribe",
+		false
+	],
+	"In":[
+		"gen5_main_quest_6_tribe",
+		""
+	],
+    "SendMessage":[
+	"&a&lPuzzle Solved!"
+    ],
+    "Progress":[
+	"gen5_main_quest_6_tribe"
+    ],
+	"Complete":[
+	]
+}

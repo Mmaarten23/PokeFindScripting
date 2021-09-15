@@ -1,0 +1,22 @@
+{
+    "NotCompleted":[
+		"part_5_sewaddle_completed",
+		""
+	],
+    "EntityRegionEntry":[
+	-499,
+	72,
+	54,
+	-499,
+	72,
+	54	
+    ],
+    "SendMessage":[
+	"&a&lPuzzle Solved!"
+    ],
+    "Progress":[
+	"gen5_main_quest_5"
+    ],
+	"Complete":[
+	]
+}

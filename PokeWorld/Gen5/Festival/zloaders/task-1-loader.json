@@ -1,0 +1,12 @@
+{
+  "Key": "lf_task_1_loader",
+  "Author": "Mmaarten",
+
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky-intro.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky-end.json",
+
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_1_copper_wires/task/lf-task-copper-wires.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_1_copper_wires/task/lf-task-copper-wires-highlight.json",
+  "BroadcastMessage": "task 1 scripts loaded"
+}

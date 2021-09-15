@@ -1,0 +1,1035 @@
+{
+    "Key":"gen5_main_quest_4",
+    "Name":"",
+    "Description":"Talk to H.A.P.P.Y. outside of the Statera HQ in [ELECTRICTOWN]",
+    "AllowRejoining":true,
+    "Icon":"",
+    "CreateEntity":{
+		"key":"Happy",
+	    "name":[
+			"&3H.A.P.P.Y."
+		],
+	    "location":{
+			"x":64.5,
+			"y":53.0,
+			"z":337.5,
+			"yaw":90,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Representative1",
+	    "name":[
+			"&c&lAgent Ty",
+			"&3&lStatera Agent"
+		],
+	    "location":{
+			"x":78.5,
+			"y":53.0,
+			"z":342.5,
+			"yaw":130,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Rival1",
+	    "name":"&d&lDanielle",
+	    "location":{
+			"x":79.5,
+			"y":53.0,
+			"z":340.5,
+			"yaw":102,
+			"pitch":0
+	    },
+	    "skin":"danielle"
+	},
+    "CreateEntity":{
+		"key":"Rival2",
+	    "name":"&d&lDanielle",
+	    "location":{
+			"x":-798.5,
+			"y":51.0,
+			"z":749.5,
+			"yaw":294,
+			"pitch":0
+	    },
+	    "skin":"danielle"
+	},
+    "CreateEntity":{
+		"key":"Rival3",
+	    "name":"&d&lDanielle",
+	    "location":{
+			"x":-829.5,
+			"y":17.8,
+			"z":682.5,
+			"yaw":332,
+			"pitch":0
+	    },
+	    "skin":"danielle"
+	},
+    "CreateEntity":{
+		"key":"Tribe_Member1",
+	    "name":"&6&lSophro Elder",
+	    "location":{
+			"x":-822.5,
+			"y":19.0,
+			"z":692.5,
+			"yaw":28,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Tribe_Member2",
+	    "name":"&6&lSophro Elder",
+	    "location":{
+			"x":-822.5,
+			"y":19.0,
+			"z":698.5,
+			"yaw":131,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Tribe_Member3",
+	    "name":"&6&lSophro Elder",
+	    "location":{
+			"x":-829.5,
+			"y":19.0,
+			"z":699.5,
+			"yaw":233,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Tribe_Member4",
+	    "name":"&6&lSophro Elder",
+	    "location":{
+			"x":-829.5,
+			"y":19.5,
+			"z":696.5,
+			"yaw":273,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Battle_Tribe_Member1",
+	    "name":"&6&lSophro Elder",
+	    "location":{
+			"x":-804.5,
+			"y":12.0,
+			"z":650.5,
+			"yaw":2,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Battle_Tribe_Member2",
+	    "name":"&6&lSophro Elder",
+	    "location":{
+			"x":-832.5,
+			"y":13.0,
+			"z":630.5,
+			"yaw":270,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Battle_Tribe_Member3",
+	    "name":"&6&lSophro Elder",
+	    "location":{
+			"x":-846.5,
+			"y":20.0,
+			"z":677.5,
+			"yaw":180,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Battle_Tribe_Member4",
+	    "name":"&6&lSophro Elder",
+	    "location":{
+		"x":-865.5,
+		"y":28.0,
+		"z":701.5,
+		"yaw":225,
+		"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Tribe_Leader",
+	    "name":[
+			"&6&lSophro Leader",
+			"&e&lAstrid"
+		],
+	    "location":{
+			"x":-827.5,
+			"y":19.5,
+			"z":694.5,
+			"yaw":299,
+			"pitch":0
+	    },
+	    "skin":""
+	},
+    "CreateEntity":{
+		"key":"Battle_Tribe_Leader",
+	    "name":[
+			"&6&lSophro Leader",
+			"&e&lAstrid"
+		],
+	    "location":{
+			"x":-891.5,
+			"y":20.0,
+			"z":667.5,
+			"yaw":270,
+			"pitch":0
+	    },
+	    "skin":""
+    },
+    "Show":{
+		"Happy":true,
+		"Representative1":false,
+		"Rival1":false,
+		"Rival2":false,
+		"Rival3":false,
+		"Tribe_Member1":false,
+		"Tribe_Member2":false,
+		"Tribe_Member3":false,
+		"Tribe_Member4":false,
+		"Battle_Tribe_Member1":false,
+		"Battle_Tribe_Member2":false,
+		"Battle_Tribe_Member3":false,
+		"Battle_Tribe_Member4":false,
+		"Tribe_Leader":false,
+		"Battle_Tribe_Leader":false
+    },
+    "Quest":true,
+    "HighlightClickEntity":[
+		"Happy"
+	],
+    "NotCompleted":[
+    ],
+    "Completed":[
+		"GYM3"
+    ],
+    "Completed":[
+		"gen5_main_quest_3"
+    ],
+    "Dialog":[
+	{
+	"&3H.A.P.P.Y.":"Hey! You made it! Head on inside and talk to &c&lAgent Ty&r to get started!"
+	}
+    ],
+    "Show":{
+		"Representative1":true,
+		"Rival1":true,
+		"Happy":false
+    },
+    "Wait":[
+	20
+    ],
+    "Objective":[
+	"Talk to Agent Ty near Danielle",
+	
+    ],
+    "HighlightClickEntity":[
+	"Representative1"
+    ],
+    "Dialog":[
+		{
+			"&c&lAgent Ty":"You must be [PLAYER], my name is &c&lAgent Ty&r and I am here to inform you of some wonderful news!",
+			"&c&lAgent Ty":"You and your friend &dDanielle&r-",
+			"&d&lDanielle":"Hardly friends...",
+			"&c&lAgent Ty":"What was that &dDanielle&r?",
+			"&d&lDanielle":"Oh nothing, sorry, I had a catch in my throat...",
+			"&c&lAgent Ty":"Oh... alright then... Well, the two of you have been promoted!",
+			"&c&lAgent Ty":"You will now have official titles with our company as &2Field Operators&r!",
+			"&d&lDanielle":"What does that mean...?",
+			"&c&lAgent Ty":"Well both of you are incredibly skilled Pokémon trainers, so we would like you to work for us more hands-on in the field.",
+			"&c&lAgent Ty":"Do you accept?",
+			"[PLAYER]":"Of course!",
+			"&d&lDanielle":"Yes!",
+			"&c&lAgent Ty":"Great! I'm glad both of you have accepted. Let's continue into your first task then.",
+			"&c&lAgent Ty":"[PLAYER], you will be assigned to help us take down the Ancient Tribe also known as &6Sophro&r, they are, and have proven time and time again that they are a major threat to the region and our unity.",
+			"&c&lAgent Ty":"You will need to infiltrate their meeting, it's to take place today in their main hall. It's located in a Volcano in an underground cavern, directly in the middle of the region.",
+			"&c&lAgent Ty":"Find out what they are planning, and put an end to this meeting!",
+			"&c&lAgent Ty":"You should be able to find the hidden entrance to their base near the Volcano at [FIRETOWN]! Goodluck!"
+		}
+    ],
+    "Wait":[
+	20
+    ],
+    "Objective":[
+	"Head over to [FIRETOWN] and find the secret entrance to their base by the Volcano",
+	
+    ],
+	"Show":{
+		"Rival1":false,
+		"Rival2":true
+	},
+	"RegionEntry":[
+		-777,
+		1,
+		776,
+		-813,
+		70,
+		750
+	],
+	"Dialog":[
+		{
+		"&d&lDanielle":"It looks like the door to the base is shut... Maybe we have to solve the puzzles to open the door?",
+		"&3H.A.P.P.Y.":"To open the door simply step on all the Magma Blocks! Just don't step on the same block twice!"
+		}
+	],
+	"Wait":[
+		20
+	],
+	"Objective":[
+		"Solve the magma puzzle (Don't step on the same block twice!)",
+		
+	],
+    "Start":[
+		"gen5_ice_puzzle",
+		"Start"
+	],
+	"Hold":[
+	],
+	"ProgressiveWall":[
+		-792,
+		51,
+		728,
+		-790,
+		55,
+		728,
+		5
+	],
+	"Dialog":[
+		{
+		"[PLAYER]":"It opened!"
+		}
+	],
+	"Wait":[
+		20
+	],
+	"Objective":[
+		"Enter the cave and find the Ancient Tribe Elders",
+		
+	],
+	"Show":{
+		"Rival3":true,
+		"Rival2":false,
+		"Tribe_Member1":true,
+		"Tribe_Member2":true,
+		"Tribe_Member3":true,
+		"Tribe_Member4":true,
+		"Tribe_Leader":true
+	},
+	"RegionEntry":[
+		-801,
+		40,
+		688,
+		-812,
+		55,
+		703
+	],
+	"Freeze":[
+	],
+	"Dialog":[
+		{
+		"[PLAYER]":"Looks like there is some ancient markings on the wall...",
+		"[PLAYER]":"There's the volcano!"
+		}
+	],
+	"Unfreeze":[
+	],
+	"RegionEntry":[
+		-805,
+		35,
+		685,
+		-822,
+		50,
+		674
+	],
+	"Freeze":[
+	],
+	"Dialog":[
+		{
+		"[PLAYER]":"Why are those two Pokémon standing on each side? They're coloured Black and White?",
+		"[PLAYER]":"Oh! It's telling a story!"
+		}
+	],
+	"Unfreeze":[
+	],
+	"RegionEntry":[
+		-820,
+		50,
+		656,
+		-833,
+		1,
+		672
+	],
+	"Freeze":[
+	],
+	"Dialog":[
+		{
+		"[PLAYER]":"Those two Pokemon appear so happy..."
+		}
+	],
+	"Unfreeze":[
+	],
+	"RegionEntry":[
+		-833,
+		1,
+		672,
+		-821,
+		40,
+		683
+	],
+	"Freeze":[
+	],
+	"Teleport":[
+		-823.5,
+		18.0,
+		682.5,
+		13,
+		0
+	],
+	"Wait":[
+		10
+	],
+	"Look":[
+		"Tribe_Leader"
+	],
+	"Wait":[
+		20
+	],
+	"Dialog":[
+		{
+		"&6&lSophro Elder": "...It cannot be-",
+		"&6&lSophro Elder": "... But... Teth-",
+		"&6&lSophro Elder": "&3Stratera&r CEO...",
+		"&6&lSophro Elder": "His Pokemon...",
+		"&6&lSophro Elder": "... No Weak-",
+		"&6&lSophro Elder": "We took the Boss’s...-",
+		"&6&lSophro Elder": "They will not be an issue..."
+		}
+	],
+	"Wait":[
+		20
+	],
+	"Dialog":[
+		{
+		"[PLAYER]":"I can't hear them... I'll have to move closer...",
+		"&6&lSophro Elder":"What was that?! Is someone here?!",
+		"&6&lSophro Elder":"Quick! Go to your invasion positions!"
+		}
+	],
+	"Wait":[
+		20
+	],
+	"ProgressiveMoveEntity":[
+		"Tribe_Leader",
+		-817.5,
+		17.5,
+		700.5,
+		false
+	],
+	"ProgressiveMoveEntity":[
+		"Tribe_Member2",
+		-818.5,
+		17.5,
+		701.5,
+		false
+	],
+	"ProgressiveMoveEntity":[
+		"Tribe_Member3",
+		-818.5,
+		17.5,
+		698.5,
+		false
+	],
+	"ProgressiveMoveEntity":[
+		"Tribe_Member4",
+		-819.5,
+		18.5,
+		698.5,
+		false
+	],
+	"MoveEntity":[
+		"Tribe_Member1",
+		-818.5,
+		18.0,
+		696.5,
+		false
+	],
+	"Show":{
+		"Tribe_Member1":false,
+		"Tribe_Member2":false,
+		"Tribe_Member3":false,
+		"Tribe_Member4":false,
+		"Tribe_Leader":false,
+		"Battle_Tribe_Member1":true,
+		"Battle_Tribe_Member2":true,
+		"Battle_Tribe_Member3":true,
+		"Battle_Tribe_Member4":true,
+		"Battle_Tribe_Leader":true
+	},
+	"Unfreeze":[
+	],
+	"Wait":[
+		20
+	],
+	"Objective":[
+		"Battle the first Sophro Elder",
+		
+	],
+	"HighlightClickEntity":[
+		"Battle_Tribe_Member1"
+	],
+    "AutoBattleNpc":[
+	"Battle_Tribe_Member1",
+	{
+	    "&6&lSophro Elder":"I'm sorry young one, I cannot let you proceed further!"
+	},
+	{
+	    "&6&lSophro Elder":"How is this possible?!"
+	}
+	{
+	    "&6&lSophro Elder":"Now leave us be!"
+	},
+	[
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    }
+	]
+    ],
+	"Wait":[
+		20
+	],
+	"Show":{
+		"Battle_Tribe_Member1":false
+	},
+	"Objective":[
+		"Head to the nezt room and battle the second Sophro Elder",
+		
+	],
+	"HighlightClickEntity":[
+		"Battle_Tribe_Member2"
+	],
+    "AutoBattleNpc":[
+	"Battle_Tribe_Member2",
+	{
+	    "&6&lSophro Elder":"We will finish what we began, we have much to discuss. Please stand down!"
+	},
+	{
+	    "&6&lSophro Elder":"I don't understand! How did you beat me?!"
+	}
+	{
+	    "&6&lSophro Elder":"Please stand down and leave us be!"
+	},
+	[
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    }
+	]
+    ],
+	"Wait":[
+		20
+	],
+	"Show":{
+		"Battle_Tribe_Member2":false
+	},
+	"Objective":[
+		"Head to the nezt room and battle the third Sophro Elder",
+		
+	],
+	"HighlightClickEntity":[
+		"Battle_Tribe_Member3"
+	],
+    "AutoBattleNpc":[
+	"Battle_Tribe_Member3",
+	{
+	    "&6&lSophro Elder":"There is a lot at stake... We need to take matters into our own hands!"
+	},
+	{
+	    "&6&lSophro Elder":"Why are you doing this?!"
+	}
+	{
+	    "&6&lSophro Elder":"Now scram!"
+	},
+	[
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    }
+	]
+    ],
+	"Wait":[
+		20
+	],
+	"Show":{
+		"Battle_Tribe_Member3":false,
+		"Rival4":true
+	},
+	"Objective":[
+		"Head to the nezt room and battle the fourth Sophro Elder",
+		
+	],
+	"HighlightClickEntity":[
+		"Battle_Tribe_Member4"
+	],
+    "AutoBattleNpc":[
+	"Battle_Tribe_Member4",
+	{
+	    "&6&lSophro Elder":"Please understand, this is no slight to you, however your judgement is clouded!"
+	},
+	{
+	    "&6&lSophro Elder":"Please, rethink what you are doing!"
+	}
+	{
+	    "&6&lSophro Elder":"Now leave before you do any more damage!"
+	},
+	[
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    }
+	]
+    ],
+	"Wait":[
+		20
+	],
+	"Show":{
+		"Battle_Tribe_Member4":false
+	},
+	"Objective":[
+		"Head to the nezt room and battle the Ancient Tribe Leader",
+		
+	],
+	"HighlightClickEntity":[
+		"Battle_Tribe_Leader"
+	],
+    "AutoBattleNpc":[
+	"Battle_Tribe_Leader",
+	{
+	    "&e&lAstrid":"My name is &eAstrid&r and I am not to be fooled by a child! Stand down and learn your place or I will put you in your place!"
+	},
+	{
+	    "&e&lAstrid":"What have you done..."
+	}
+	{
+	    "&e&lAstrid":"I hope you have learned your lesson..."
+	},
+	[
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    },
+	    {
+		"species":"",
+		"level":,
+		"moves":[
+		    "",
+		    "",
+		    "",
+		    ""
+		],
+		"ability":"",
+		"nature":"",
+		"evs":{
+		    "":252,
+		    "":252,
+		    "":4
+		}
+	    }
+	]
+    ],
+	"Wait":[
+		20
+	],
+	"Dialog":[
+		{
+		"&e&lAstrid": "As I said before... my name is &eAstrid&r, I am the new leader of the Tribe of &eSophro&r. You’ve bested me in battle, but I plead with you...",
+		"&e&lAstrid": "Do not interfere further... &3Stratera&r is corrupt, they are putting our very lives on the line, they are unbalancing what the universe has spent thousands upon thousands of years to put into motion.",
+		"&e&lAstrid": "They care nothing for our lands, or our people. They are greedy! They must be stopped before they ruin our futures!",
+		"&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up? We have far more meeting locations than &3Stratera&r could possibly be aware of.",
+		"[PLAYER]":"What did you steal from &3Statera?!",
+		"&e&lAstrid":"You heard us mention that...? Well...",
+		"&e&lAstrid":"We did capture &3Statera&r's Boss's Pokémon.",
+		"[PLAYER]":"Why? Which one? Where did you hide it?!",
+		"&e&lAstrid":"I think it's best you are not aware of any of that...",
+		"&e&lAstrid":"Soon, it will no longer be an issue. It is for the good of the Pokémon... and of our region.",
+		"&e&lAstrid":"Our Swords will bring Justice to this land, and bring Balance back to Zeinova!",
+		"&e&lAstrid":"&3Statera&r's &oExperiements&r will do no good with our plans!",
+		"&e&lAstrid":"Now leave! You've gotten the information you've come for, no? I'll see you another day, I suppose, when &3Statera&r sends their lap dog back to bark up our tree."
+		}
+	],
+	"Wait":[
+		20
+	],
+	"Objective":[
+		"Return to Agent Ty with this new information",
+		
+	],
+	"Show":{
+		"Rival4":false,
+		"Rival1":true,
+		"Representative1":true
+	},
+	"HighlightClickEntity":[
+		"Representative1"
+	],
+	"Dialog":[
+		{
+		"&c&lAgent Ty":"Welcome back, [PLAYER]! I take it your task was successful?",
+		"[PLAYER]":"Yes... You'll never guess what I overheard! They said they stole the Boss's Pokémon!",
+		"&c&lAgent Ty":"Boss's Pokémon huh...? Now that is interesting.",
+		"&c&lAgent Ty":"Thanks [PLAYER], go get some rest, I'll ring you if something else comes up.",
+		"[PLAYER]":"Wait! &eAstrid&r also said that &3Statera&r is corrupt and that we're threatening the lives and the balance of the Zeinova Region...",
+		"&c&lAgent Ty":"Hahaha... You're listening to that old crone?",
+		"&c&lAgent Ty":"Don't, [PLAYER]. &6Sophro&r is a tribe of liars, they're twisting words and actions around to benefit themselves, so that they no longer look like the bad guys.",
+		"&c&lAgent Ty":"Have you heard that story yet, about &9Kyogre&r and &9Groudon&r?",
+		"&c&lAgent Ty":"There've been many different versions of it, even one accusing &3Statera of being behind it...",
+		"&c&lAgent Ty":"&6Sophro&r has been active in Zeinova for hundreds of years, only they would have the knowledge to pull off something like taming the Wild Legends.",
+		"&c&lAgent Ty":"They've endangered Zeinova before, and we've held them at bay. They're read to do it again.",
+		"&c&lAgent Ty":"Oh! Before I forget! Here, take these! For all your amazing work today!"
+		}
+	],
+	"Wait":[
+		20
+	],
+	"GiveCoins":[
+		
+	],
+	"GiveTokens":[
+		
+	],
+	"GiveTrainerExperience":[
+		
+	],
+	"GiveItem":[
+		"",
+		
+	],
+	"Wait":[
+		20
+	],
+	"SendCompleteMessage":[
+	],
+	"Complete":[
+	]
+}
