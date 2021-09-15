@@ -97,20 +97,25 @@
   ],
   "Leave": [],
 
+  "Comment": "manager.task_2.complete",
+  "Start": "lf_manager_task_2_complete",
+  "Hold": [],
+  "Leave": [],
 
-  "Comment": "manager.task_2.wait",
+
+  "Comment": "manager.task_3.wait",
   "Start": "lf_manager_wait",
   "Hold": [],
   "Dialog": [
     {
-      "&4&lManager": "Go talk to &6Blake&r in &bNorthrun&r if you want to help."
+      "&4&lManager": "Go talk to &aRegi&r in &eSandgate&r if you want to help."
     },
     "lf.manager.speech"
   ],
   "Leave": [],
 
-  "Comment": "manager.task_2.complete",
-  "Start": "lf_manager_task_2_complete",
+  "Comment": "manager.task_3.complete",
+  "Start": "lf_manager_task_3_complete",
   "Hold": [],
   "Leave": []
 }

@@ -154,6 +154,9 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen5/Festival/zloaders/task-3-loader.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/zloaders/manager-loader.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>

@@ -1,0 +1,25 @@
+{
+  "Key": "lf_task_2_loader",
+  "Author": "Mmaarten",
+
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-cake.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-intro.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake.json",
+
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/lf-task-save-food-game-loop.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/lf-task-save-food-init.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/lf-task-save-food-master.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/lf-task-save-food-moriarty.json",
+
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-1.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-2.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-3.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-4.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-5.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-6.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-7.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-8.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-9.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/task/dummies/lf-task-save-food-dummy-10.json",
+  "SendMessage": "task 2 scripts loaded"
+}
