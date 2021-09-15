@@ -166,6 +166,9 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/task/lf-task-save-food-play-area.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-end.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>

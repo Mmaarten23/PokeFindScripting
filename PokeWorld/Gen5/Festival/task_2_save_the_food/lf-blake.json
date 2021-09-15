@@ -81,6 +81,10 @@
   "Skip": "external_wait",
 
   "Comment": "blake.in_task",
+  "If": [],
+  "NotIn": "lf_blake_cake",
+  "Start": "lf_blake_cake",
+  "Dummy": [],
   "Dialog": [
     {
       "&6&lBlake": "It would be amazing if you could beat Moriarty.",
@@ -90,6 +94,10 @@
   ],
 
   "Comment": "blake.end",
+  "If": [],
+  "NotIn": "lf_blake_cake",
+  "Start": "lf_blake_cake",
+  "Dummy": [],
   "Start": "lf_blake_end",
   "Skip": "external_wait",
 

@@ -3,6 +3,7 @@
   "Author": "Mmaarten",
 
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-cake.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-end.json",
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-intro.json",
   "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake.json",
 
