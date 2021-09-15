@@ -75,7 +75,6 @@
 
   "Wait": 1.0,
   "MoveEntityRelative": ["dummy_4", 0.0, -17.0, 0.0, 0.15, false],
-  "TeleportEntity": ["dummy_4", 165.5, 56.0, -479.5],
   "Skip": "bottom_reached",
 
 
@@ -90,6 +89,7 @@
   "Hide": "dummy_4_item_wrong",
   "Add": ["lf_blake_task_lives", -1],
   "Set": ["lf_blake_task_dummy_4", "wrong_hit"],
+  "TeleportEntity": ["dummy_4", 165.5, 56.0, -479.5],
   "Leave": [],
 
   "Comment": "hit_correct",
@@ -97,10 +97,12 @@
   "Hide": "dummy_4_item_correct",
   "Add": ["lf_blake_task_correct", 1],
   "Set": ["lf_blake_task_dummy_4", "correct_hit"],
+  "TeleportEntity": ["dummy_4", 165.5, 56.0, -479.5],
   "Leave": [],
 
 
   "Comment": "bottom_reached",
+  "TeleportEntity": ["dummy_4", 165.5, 56.0, -479.5],
   "Wait": 1,
   "Hide": "dummy_4",
   "If": [],
