@@ -1,0 +1,26 @@
+{
+  "Key": "camera_test",
+  "Author": "Mmaarten",
+
+  "CreateEntity": {
+    "key": "festival_disaster_becky",
+    "entity": "PLAYER",
+    "skin": "[PLAYER]",
+    "location": [-26.7,86.0,-59.4],
+    "look": false
+  },
+  "Server": [],
+  "Hide": "festival_disaster_becky",
+
+  "Teleport": [-23.9,86.0,-59.4],
+  "Show": "festival_disaster_becky",
+  "Look": ["camera", "festival_disaster_becky"],
+
+  "MoveEntity": ["festival_disaster_becky", -27.3,86.0,-54.3, 0.15, false],
+  "ProgressiveMoveEntity": ["camera", -24.4,86.0,-48.9, 0.10, false],
+  "MoveEntity": ["festival_disaster_becky", -23.8,86.0,-45.3, 0.15, false],
+  "Wait": 5.0,
+
+  "Unfreeze": [],
+  "Hide": "festival_disaster_becky"
+}

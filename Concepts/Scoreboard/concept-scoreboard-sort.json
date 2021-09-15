@@ -2,9 +2,24 @@
   "Key": "concept_scoreboard_sort",
   "Author": "Mmaarten",
 
+  "Skip": "start",
+
+  "LeaveScript": [],
+  "Set": ["temp_score", "REMOVE"],
+  "LeaveScript": [],
+  "Set": ["temp_name", "REMOVE"],
+
+  "GlobalHologram": [
+    1099.5, 57.8, -178.5,
+    "&6&lConcept Leaderboard",
+    "&e&l1. [concept_scoreboard:pos1_name] &b[concept_scoreboard:pos1_score]",
+    "&7&l2. [concept_scoreboard:pos2_name] &b[concept_scoreboard:pos2_score]",
+    "&6&l3. [concept_scoreboard:pos3_name] &b[concept_scoreboard:pos3_score]"
+  ],
+
+  "Comment": "start",
   "Set": ["temp_score", "[concept_points]"],
   "Set": ["temp_name", "[PLAYER]"],
-
 
   "If": [],
     "Equals": ["concept_scoreboard", "pos1_name", "[PLAYER]"],

@@ -27,6 +27,7 @@
   "NotCompleted": "lf_manager_intro",
   "Skip": "manager.intro",
   "Dummy": [],
+
   "If": [],
   "NotCompleted": "lf_becky_end",
   "Skip": "manager.task_1.wait",
@@ -36,7 +37,24 @@
   "Skip": "manager.task_1.complete",
   "Dummy": [],
 
+  "If": [],
+  "NotCompleted": "lf_blake_end",
   "Skip": "manager.task_2.wait",
+  "Dummy": [],
+  "If": [],
+  "NotCompleted": "lf_manager_task_2_complete",
+  "Skip": "manager.task_2.complete",
+  "Dummy": [],
+
+  "If": [],
+  "NotCompleted": "lf_regi_end",
+  "Skip": "manager.task_3.wait",
+  "Dummy": [],
+  "If": [],
+  "NotCompleted": "lf_manager_task_3_complete",
+  "Skip": "manager.task_3.complete",
+  "Dummy": [],
+
   "SendMessage": "[DEBUG]: Looks like you reached the end of the quest *for now*!",
   "Leave": [],
 
@@ -73,9 +91,26 @@
   "Hold": [],
   "Dialog": [
     {
-      "&4&lManager": "I told you to ask &6Blake&r in &c&lFlareridge&r if he needs help with the food."
+      "&4&lManager": "I told you to ask &6Blake&r in &bNorthrun&r if he needs help with the food."
     },
     "lf.manager.speech"
   ],
+  "Leave": [],
+
+
+  "Comment": "manager.task_2.wait",
+  "Start": "lf_manager_wait",
+  "Hold": [],
+  "Dialog": [
+    {
+      "&4&lManager": "Go talk to &6Blake&r in &bNorthrun&r if you want to help."
+    },
+    "lf.manager.speech"
+  ],
+  "Leave": [],
+
+  "Comment": "manager.task_2.complete",
+  "Start": "lf_manager_task_2_complete",
+  "Hold": [],
   "Leave": []
 }
