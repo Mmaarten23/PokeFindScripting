@@ -133,19 +133,28 @@
   "ProgressiveMoveEntity": ["bird", 1134.5, 63.0, -155.5, 0.1, false],
   "Dialog": [
     {
-      "&b&lClaire": "Mewtwo, return!",
-      "&d&lMew": "&4&lMEW!"
+      "&b&lClaire": "Mewtwo, return!"
     },
     70
   ],
   "SendMessage": "&7Mewtwo used &eThunderbolt&7.",
+  "ProgressiveDialog": [
+    {
+      "&d&lMew": "&4&lMEW!"
+    }
+  ],
   "Teleport": [1137.0, 59.0, -132.0],
   "PlaySound": "entity_lightning_bolt_impact",
   "StrikeLightning": [1153.5, 58.0, -132.6],
   "StrikeLightning": [1153.5, 58.0, -132.6],
   "StrikeLightning": [1153.5, 58.0, -132.6],
   "StrikeLightning": [1153.5, 58.0, -132.6],
-  "MoveEntity": ["disaster_1_pokemon", 1153.5, 58.0, -132.6, 0.2, false]
+  "Wait": 0.5,
+  "AnimateEntity": ["disaster_1", "Damage"],
+  "ProgressiveMoveEntity": ["disaster_1", 1155.7, 58.0, -129.7],
+  "MoveEntity": ["disaster_1_pokemon", 1153.5, 58.0, -132.6, 0.2, false],
+  "Hide": "disaster_1",
+  "Hide": "disaster_1_pokemon"
 
 
 
