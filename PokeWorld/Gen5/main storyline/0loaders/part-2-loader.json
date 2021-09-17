@@ -1,0 +1,7 @@
+{
+  "Key": "part_2_loader",
+  "Author": "Mmaarten",
+
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/main%20storyline/Gen%205%20Quest%20Line/gen5-main-quest-2.json",
+  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/main%20storyline/Gen%205%20Quest%20Line/gen5-main-quest-2-cin1-cam.json"
+}
