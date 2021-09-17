@@ -1,0 +1,24 @@
+{
+  "Key": "gen5_main_quest_2_cin1_cam",
+  "Author": "Mmaarten",
+
+  "CreateEntity": {
+    "key": "bird_cam",
+    "location": [1188.6, 50.0, -87.9],
+    "entity": "ARMOR_STAND",
+    "visible": false
+  },
+  "Fade": [],
+  "Teleport": [1172.0,59.0,-88.3, -100, 35],
+  "TeleportEntity": ["bird_cam", 1188.6, 50.0, -87.9],
+  "Cinematic": [],
+  "Look": ["camera", "bird_cam"],
+  "ProgressiveMoveEntity": ["camera", 1028.5,60.1,-268.6, 0.1, false],
+
+  "MoveEntity": ["bird_cam", 1183.7, 56.0, -94.6, 0.2, false],
+  "MoveEntity": ["bird_cam", 1179.4, 59.0, -98.5, 0.2, false],
+  "MoveEntity": ["bird_cam", 1172.4, 61.0, -108.4, 0.2, false],
+  "MoveEntity": ["bird_cam", 1158.5, 60.0, -125.5, 0.1, false],
+  "MoveEntity": ["bird_cam", 1134.5, 60.0, -155.5, 0.1, false],
+  "Hold": []
+}

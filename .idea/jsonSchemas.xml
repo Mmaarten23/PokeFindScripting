@@ -169,6 +169,21 @@
                   <Item>
                     <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-end.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi-lifeline-regi.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/main storyline/Gen 5 Quest Line/gen5-main-quest-2.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/main storyline/Gen 5 Quest Line/gen5-main-quest-2-cin1-cam.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>

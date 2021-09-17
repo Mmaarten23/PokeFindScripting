@@ -1,1 +1,109 @@
-{}
+{
+  "Key": "gen5_main_quest_2",
+  "Author": "Mmaarten",
+
+  "CreateEntity": {
+    "key": "lewis_bridge",
+    "entity": "PLAYER",
+    "location": [1189.7, 51.0, -90.6, 25],
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg3MTU2OTAzMCwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDgxMmIyM2E3YTM2YjAwMDJlY2NlM2M2ZDg0NTI1NWIzNWJkMWExZWRiYmZiMmZkZmI1MmE3M2MxZmI1YmY5IgogICAgfQogIH0KfQ==",
+      "signature": "Y2eDLNog6eIYOGJyoGFAwbyBJnFjbkVIU7iUa/uQoRrh/v4mdqckpds4wXkxkmQMCE/VGADK8no5iY7eda3WvkBUvNstDI7IPBdWMliwg/ISFczsyoERs9S3mDo63EdAzs0Mrqrwe4rvCM7gwyEmz+bxzJL/YMbtcmdK2YcvIQ6D2AwPHmVAq+przPUir+Bo8Vi/4RQxpSd6+NV15S3l1KY1JzVcz5qRbDuekPqsJL2Kbh164z2Sy62B5EyS5ba6U05AX4eZTpyH8ZFD1jNknOx2XHsSTHfh2FraQpBTvwT6vBBMOVY+GKw72r3RdBkWuv41vK+k6/3eRjgu/Nr6+uq6f4xxTC4TyhpAqWPciYfHiOAzXQBtxyumbFmnesbP+a61kQk4EPON2WRRe46BBd/YIn0SToOra4M1ds4HcAHGK3a8AlaWhLmGqI1ePa5Ih5+Sm0JWuqK/V0WN4mcilkQfLKLcXbpBLgcA31U9KHB2sRUBdpJiwfnzOc7irXoiGE4bVBC/za3570iqZFrq2AtN6ytdlaQInv4OJbCIUrbKFF7pBNUx4MDR/7WzmiEAwQgxXdYSeX0dXYhqMfIvomxJJB1hFnQfsg5LSHX/tnBdwD+zL1Rc2Wdj48JlHJqhDyH3mKnw4LIbUqrh3p1AUs/uVCKzyeyqEh9hX9MB0v8="
+    },
+    "name": [
+      "&7&lLewis"
+    ],
+    "look": true
+  },
+  "Server": [],
+  "Hide": "lewis_bridge",
+
+  "CreateEntity": {
+    "key": "bird1",
+    "location": [1188.6, 50.0, -87.9, 142, -11],
+    "pokemon": "togekiss",
+    "look": false
+  },
+  "Server": [],
+  "Hide": "bird1",
+
+  "CreateEntity": {
+    "key": "bird_cam",
+    "location": [1188.6, 50.0, -87.9],
+    "entity": "ARMOR_STAND",
+    "visible": false
+  },
+
+
+  "CreateEntity": {
+    "key": "lewis_bird",
+    "entity": "PLAYER",
+    "location": [1189.2, 51.5, -88.2, 140],
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg3MTU2OTAzMCwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDgxMmIyM2E3YTM2YjAwMDJlY2NlM2M2ZDg0NTI1NWIzNWJkMWExZWRiYmZiMmZkZmI1MmE3M2MxZmI1YmY5IgogICAgfQogIH0KfQ==",
+      "signature": "Y2eDLNog6eIYOGJyoGFAwbyBJnFjbkVIU7iUa/uQoRrh/v4mdqckpds4wXkxkmQMCE/VGADK8no5iY7eda3WvkBUvNstDI7IPBdWMliwg/ISFczsyoERs9S3mDo63EdAzs0Mrqrwe4rvCM7gwyEmz+bxzJL/YMbtcmdK2YcvIQ6D2AwPHmVAq+przPUir+Bo8Vi/4RQxpSd6+NV15S3l1KY1JzVcz5qRbDuekPqsJL2Kbh164z2Sy62B5EyS5ba6U05AX4eZTpyH8ZFD1jNknOx2XHsSTHfh2FraQpBTvwT6vBBMOVY+GKw72r3RdBkWuv41vK+k6/3eRjgu/Nr6+uq6f4xxTC4TyhpAqWPciYfHiOAzXQBtxyumbFmnesbP+a61kQk4EPON2WRRe46BBd/YIn0SToOra4M1ds4HcAHGK3a8AlaWhLmGqI1ePa5Ih5+Sm0JWuqK/V0WN4mcilkQfLKLcXbpBLgcA31U9KHB2sRUBdpJiwfnzOc7irXoiGE4bVBC/za3570iqZFrq2AtN6ytdlaQInv4OJbCIUrbKFF7pBNUx4MDR/7WzmiEAwQgxXdYSeX0dXYhqMfIvomxJJB1hFnQfsg5LSHX/tnBdwD+zL1Rc2Wdj48JlHJqhDyH3mKnw4LIbUqrh3p1AUs/uVCKzyeyqEh9hX9MB0v8="
+    },
+    "look": false,
+    "sitting": true
+  },
+  "Server": [],
+  "Hide": "lewis_bird",
+
+  "CreateEntity": {
+    "key": "player_bird",
+    "entity": "PLAYER",
+    "location": [1188.0, 51.5, -87.5, 140],
+    "skin": "[PLAYER]",
+    "look": false,
+    "sitting": true
+  },
+  "Server": [],
+  "Hide": "player_bird",
+
+  "CreateCustomEntity": ["bird", "bird1", "lewis_bird", "player_bird"],
+
+  "SendMessage": "DEBUG: skipping to bridge flight",
+  "Wait": 1,
+  "Skip": "bridge_flight",
+  "Show": "lewis_bridge",
+  "Dialog": [
+    {
+      "&7&lLewis": "Hey trainer! Are you planning to cross that bridge?",
+      "[PLAYER]": "Yes! I am participating in the gym challenge.",
+      "&7&lLewis": "I see. I must warn you though, the pokemon on the other side have gone a little crazy.",
+      "&7&lLewis": "Crossing on foot is near impossible but I can take you across on my Braviary?",
+      "[PLAYER]": "Sounds like a plan!"
+    },
+    90
+  ],
+  "ProgressiveDialog": [
+    {
+      "&7&lLewis": "&7Go! Braviary!"
+    },
+    90
+  ],
+  "Comment": "bridge_flight",
+  "AnimateEntity": ["lewis_bridge", "Swing Main Hand"],
+  "Wait": 0.5,
+  "Show": "bird1",
+  "MoveEntity": ["lewis_bridge", 1189.0, 51.0, -88.4, 0.2, false],
+  "Hide": "lewis_bridge",
+  "Show": "lewis_bird",
+  "Dialog": [
+    {
+      "&7&lLewis": "Hop on!"
+    }
+  ],
+  "HighlightClickEntity": "bird",
+  "Wait": 0.5,
+  "Show": "player_bird",
+  "Start": "gen5_main_quest_2_cin1_cam",
+  "Wait": 5,
+  "MoveEntity": ["bird", 1183.7, 56.0, -94.6, 0.2, false],
+  "MoveEntity": ["bird", 1179.4, 59.0, -98.5, 0.2, false],
+  "MoveEntity": ["bird", 1172.4, 61.0, -108.4, 0.2, false],
+  "MoveEntity": ["bird", 1158.5, 63.0, -125.5, 0.1, false],
+  "MoveEntity": ["bird", 1134.5, 63.0, -155.5, 0.1, false]
+
+
+}
