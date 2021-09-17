@@ -11,103 +11,7 @@
               <option name="patterns">
                 <list>
                   <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-barrier.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-setup.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-beam-intro.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-init.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager-move.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-disablechat.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager-idle.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager-idle-listener.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/templ.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival_becky.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="Songs/sad_fairytale.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager-intro.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager-task1.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky-intro.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-task-copper-wires.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky-end.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival_manager_after_copper_wires.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake-intro.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake-kitchen.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake-cake.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-player-controller.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-init.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-dummy-1.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-master.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/giant.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/dummies/festival-task-save-food-dummy-1.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-dark-knight.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-moriarty.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="Concepts/Scoreboard/scoreboard.json" />
+                    <option name="path" value="Concepts/Scoreboard/concept-scoreboard-debug.json" />
                   </Item>
                   <Item>
                     <option name="path" value="Concepts/Scoreboard/concept-scoreboard-init.json" />
@@ -116,43 +20,145 @@
                     <option name="path" value="Concepts/Scoreboard/concept-scoreboard-sort.json" />
                   </Item>
                   <Item>
-                    <option name="path" value="Concepts/Scoreboard/concept-scoreboard-debug.json" />
+                    <option name="path" value="Concepts/Scoreboard/scoreboard.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/giant.json" />
                   </Item>
                   <Item>
                     <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.json" />
                   </Item>
                   <Item>
+                    <option name="path" value="file://$APPLICATION_CONFIG_DIR$/scratches/templ.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-barrier.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-beam-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-disablechat.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-init.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager-idle-listener.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager-idle.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager-move.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-manager.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival-setup.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager-task1.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival-manager.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/festival_manager/festival_manager_after_copper_wires.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky-end.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-becky.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival-task-copper-wires.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_1_copper_wires/festival_becky.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake-cake.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake-kitchen.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/festival-blake.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/dummies/festival-task-save-food-dummy-1.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-dummy-1.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-init.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-blake-task-player-controller.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-dark-knight.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-master.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen3/Festival/task_2_save_the_food/task/festival-task-save-food-moriarty.json" />
+                  </Item>
+                  <Item>
                     <option name="path" value="PokeWorld/Gen5/Festival/festival_manager/festival-manager-task-1-wait.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky-intro.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/task/lf-task-copper-wires-highlight.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/util/lf-util-objective-handler.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-intro.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/standalone/watterstone-city-elevator.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/standalone/watterson-city-elevator.json" />
                   </Item>
                   <Item>
                     <option name="path" value="PokeWorld/Gen5/Festival/festival_manager/lf-manager-task-2-complete.json" />
                   </Item>
                   <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/zloaders/task-3-loader.json" />
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/lf-becky.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_1_copper_wires/task/lf-task-copper-wires-highlight.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-end.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/task/lf-task-save-food-play-area.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi-intro.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi-lifeline-regi.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/util/lf-util-objective-handler.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/Festival/zloaders/festival-loader.json" />
                   </Item>
                   <Item>
                     <option name="path" value="PokeWorld/Gen5/Festival/zloaders/manager-loader.json" />
@@ -161,28 +167,19 @@
                     <option name="path" value="PokeWorld/Gen5/Festival/zloaders/task-1-loader.json" />
                   </Item>
                   <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/zloaders/festival-loader.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/task/lf-task-save-food-play-area.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_2_save_the_food/lf-blake-end.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi-intro.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/Festival/task_3_special_effects/lf-regi-lifeline-regi.json" />
-                  </Item>
-                  <Item>
-                    <option name="path" value="PokeWorld/Gen5/main storyline/Gen 5 Quest Line/gen5-main-quest-2.json" />
+                    <option name="path" value="PokeWorld/Gen5/Festival/zloaders/task-3-loader.json" />
                   </Item>
                   <Item>
                     <option name="path" value="PokeWorld/Gen5/main storyline/Gen 5 Quest Line/gen5-main-quest-2-cin1-cam.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/standalone/watterson-city-elevator.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="PokeWorld/Gen5/standalone/watterstone-city-elevator.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="Songs/sad_fairytale.json" />
                   </Item>
                 </list>
               </option>

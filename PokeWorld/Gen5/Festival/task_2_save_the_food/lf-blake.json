@@ -65,6 +65,7 @@
   "NotCompleted": "lf_blake_end",
   "Skip": "blake.end",
   "SendMessage": "&4Something went wrong. Please contact a member of staff!",
+  "Leave": [],
 
   "Comment": "blake.intro",
   "If": [],

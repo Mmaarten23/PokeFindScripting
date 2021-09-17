@@ -1,0 +1,14 @@
+{
+  "Key": "move_Sitting_test",
+  "Author": "Mmaarten",
+  "CreateEntity": {
+    "key": "player_bird",
+    "entity": "PLAYER",
+    "location": [1188.0, 51.5, -87.5, 140],
+    "skin": "[PLAYER]",
+    "look": false,
+    "sitting": true
+  },
+
+  "MoveEntity": ["player_bird", 1190.0, 53.5, -81.5, 0.1, false]
+}
