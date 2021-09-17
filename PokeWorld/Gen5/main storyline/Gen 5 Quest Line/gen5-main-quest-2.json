@@ -122,8 +122,10 @@
   "MoveEntity": ["bird", 1183.7, 56.0, -94.6, 0.2, false],
   "ProgressiveDialog": [
     {
-      "&7&lLewis": "Hold on tight."
-    }
+      "&7&lLewis": "Hold on tight.",
+      "&7&lLewis": "This could get rough!"
+    },
+    90
   ],
   "MoveEntity": ["bird", 1179.4, 59.0, -98.5, 0.2, false],
   "MoveEntity": ["bird", 1172.4, 61.0, -108.4, 0.15, false],
@@ -134,8 +136,15 @@
       "&bClaire": "Mewtwo, return!",
       "&dMew": "&4&lMEW!"
     },
-    90
-  ]
+    70
+  ],
+  "SendMessage": "Mewtwo used &eThunderbolt",
+  "PlaySound": "entity_lightning_bolt_impact",
+  "StrikeLightning": [1153.5, 58.0, -132.6],
+  "StrikeLightning": [1153.5, 58.0, -132.6],
+  "StrikeLightning": [1153.5, 58.0, -132.6],
+  "StrikeLightning": [1153.5, 58.0, -132.6],
+  "MoveEntity": ["disaster_1_pokemon", 1153.5, 58.0, -132.6, 0.2, false]
 
 
 
