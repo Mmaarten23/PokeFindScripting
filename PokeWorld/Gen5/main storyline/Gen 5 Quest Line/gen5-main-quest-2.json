@@ -151,6 +151,7 @@
   "StrikeLightning": [1153.5, 58.0, -132.6],
   "Wait": 0.5,
   "AnimateEntity": ["disaster_1", "Damage"],
+  "Wait": 0.5,
   "ProgressiveMoveEntity": ["disaster_1", 1155.7, 58.0, -129.7],
   "MoveEntity": ["disaster_1_pokemon", 1153.5, 58.0, -132.6, 0.2, false],
   "Hide": "disaster_1",
