@@ -133,12 +133,13 @@
   "ProgressiveMoveEntity": ["bird", 1134.5, 63.0, -155.5, 0.1, false],
   "Dialog": [
     {
-      "&bClaire": "Mewtwo, return!",
-      "&dMew": "&4&lMEW!"
+      "&b&lClaire": "Mewtwo, return!",
+      "&d&lMew": "&4&lMEW!"
     },
     70
   ],
-  "SendMessage": "Mewtwo used &eThunderbolt",
+  "SendMessage": "&7Mewtwo used &eThunderbolt&7.",
+  "Teleport": [1137.0, 59.0, -132.0],
   "PlaySound": "entity_lightning_bolt_impact",
   "StrikeLightning": [1153.5, 58.0, -132.6],
   "StrikeLightning": [1153.5, 58.0, -132.6],
