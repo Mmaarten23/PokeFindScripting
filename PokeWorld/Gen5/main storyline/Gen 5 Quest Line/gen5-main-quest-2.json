@@ -28,14 +28,6 @@
   "Hide": "bird1",
 
   "CreateEntity": {
-    "key": "bird_cam",
-    "location": [1188.6, 50.0, -87.9],
-    "entity": "ARMOR_STAND",
-    "visible": false
-  },
-
-
-  "CreateEntity": {
     "key": "lewis_bird",
     "entity": "PLAYER",
     "location": [1189.2, 51.5, -88.2, 140],
@@ -61,6 +53,30 @@
   "Hide": "player_bird",
 
   "CreateCustomEntity": ["bird", "bird1", "lewis_bird", "player_bird"],
+
+  "CreateEntity": {
+    "key": "disaster_1",
+    "entity": "PLAYER",
+    "location": [1153.5, 58.0, -132.6, 138],
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg5NjU4NjcyMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0ODhlMzRiY2ZkZDg2ODhlZTNmOWU1ZjkyM2U3ZGM4ZTg0MjI3ZjRkMTgwNmQ5Mjg5ZmM2NzcyMDY2MTJhZDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+      "signature": "l0jAa/WRj//x+1El9VFDrJig5UdlJj9tnI1Zi6nXE4cDxv6VaMzM9vhuFNU7JCN9H5yZ9OYQRnwN99yonQtHZfdk417+UhEUNeLEoYqM5zJWGueA8DwX6b+4DDUXeMdXKDslxOdmbqikGtr0yHfDt2yE+Q7RGhPhC2AHoeQUVrPF2U4CYrN0mwfD8Zo23/5I+J51JzN88pL/cAecrnjPTZ8FFtBhHBcGotKO6E0DUbNdMH2/B6YGLrEbhsuRTU0Fw4fS8yXGnFehn7ulyflG3BwdVPJPeqc2a5b+tn2/6VTHmFDay2BAJiAJE/ayMju80UYygMiR7DGgb5MfbB8extJ380Cxlr0XmSriYGdvIe9gJp1R8BVzBixBHZnXGrpvZi9s6SeKjaycRSxAbTiIowDVPDEBFM+MKYCjRHlvou4be1UpbU5u1HSHigdW+haYo8uhb1K+PWKQInH2uW/gNXi+bVsoJoZ3/+DtpmjXF1bFVWpxyTuFcsyYPshSHGcQfCCX2DSGMvhgYaYrA0mTuVEbkHs7n1RyjkoHENhuxYgp4n1IQajhkCYrzI3ITPIzUVWKBvJOIJyBVJLygXKF2vKOCDBWFAJMRFI8KO03HUuPKEWlXxidterQcZgIYBp5XFfKTkAE7kdGMrs9tsoSTEHqkVnO/TXSfKv3AbM48nA="
+    },
+    "look": false
+  },
+  "Server": [],
+  "Hide": "disaster_1",
+
+  "CreateEntity": {
+    "key": "disaster_1_pokemon",
+    "pokemon": "mewtwo",
+    "location": [1148.7, 58.0, -137.9, -39],
+    "look": false
+  },
+  "Server": [],
+  "Hide": "disaster_1_pokemon",
+
+
 
   "SendMessage": "DEBUG: skipping to bridge flight",
   "Wait": 1,
@@ -96,14 +112,31 @@
   ],
   "HighlightClickEntity": "bird",
   "Wait": 0.5,
-  "Show": "player_bird",
+  "Show": {
+    "player_bird": true,
+    "disaster_1": true,
+    "disaster_1_pokemon": true
+  },
   "Start": "gen5_main_quest_2_cin1_cam",
   "Wait": 5,
   "MoveEntity": ["bird", 1183.7, 56.0, -94.6, 0.2, false],
+  "ProgressiveDialog": [
+    {
+      "&7&lLewis": "Hold on tight."
+    }
+  ],
   "MoveEntity": ["bird", 1179.4, 59.0, -98.5, 0.2, false],
-  "MoveEntity": ["bird", 1172.4, 61.0, -108.4, 0.2, false],
+  "MoveEntity": ["bird", 1172.4, 61.0, -108.4, 0.15, false],
   "MoveEntity": ["bird", 1158.5, 63.0, -125.5, 0.1, false],
-  "MoveEntity": ["bird", 1134.5, 63.0, -155.5, 0.1, false]
+  "ProgressiveMoveEntity": ["bird", 1134.5, 63.0, -155.5, 0.1, false],
+  "Dialog": [
+    {
+      "&bClaire": "Mewtwo, return!",
+      "&dMew": "&4&lMEW!"
+    },
+    90
+  ]
+
 
 
 }
