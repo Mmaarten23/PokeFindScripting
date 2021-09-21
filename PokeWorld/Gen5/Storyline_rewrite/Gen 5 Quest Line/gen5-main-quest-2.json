@@ -28,6 +28,13 @@
   "Hide": "bird1",
 
   "CreateEntity": {
+    "key": "lewis_bird_seat",
+    "entity": "ARMOR_STAND",
+    "location": [1189.2, 50.0, -88.2, 140],
+    "visible": false
+  },
+
+  "CreateEntity": {
     "key": "lewis_bird",
     "entity": "PLAYER",
     "location": [1189.2, 51.5, -88.2, 140],
@@ -36,10 +43,17 @@
       "signature": "Y2eDLNog6eIYOGJyoGFAwbyBJnFjbkVIU7iUa/uQoRrh/v4mdqckpds4wXkxkmQMCE/VGADK8no5iY7eda3WvkBUvNstDI7IPBdWMliwg/ISFczsyoERs9S3mDo63EdAzs0Mrqrwe4rvCM7gwyEmz+bxzJL/YMbtcmdK2YcvIQ6D2AwPHmVAq+przPUir+Bo8Vi/4RQxpSd6+NV15S3l1KY1JzVcz5qRbDuekPqsJL2Kbh164z2Sy62B5EyS5ba6U05AX4eZTpyH8ZFD1jNknOx2XHsSTHfh2FraQpBTvwT6vBBMOVY+GKw72r3RdBkWuv41vK+k6/3eRjgu/Nr6+uq6f4xxTC4TyhpAqWPciYfHiOAzXQBtxyumbFmnesbP+a61kQk4EPON2WRRe46BBd/YIn0SToOra4M1ds4HcAHGK3a8AlaWhLmGqI1ePa5Ih5+Sm0JWuqK/V0WN4mcilkQfLKLcXbpBLgcA31U9KHB2sRUBdpJiwfnzOc7irXoiGE4bVBC/za3570iqZFrq2AtN6ytdlaQInv4OJbCIUrbKFF7pBNUx4MDR/7WzmiEAwQgxXdYSeX0dXYhqMfIvomxJJB1hFnQfsg5LSHX/tnBdwD+zL1Rc2Wdj48JlHJqhDyH3mKnw4LIbUqrh3p1AUs/uVCKzyeyqEh9hX9MB0v8="
     },
     "look": false,
-    "sitting": true
+    "riding": "lewis_bird_seat"
   },
   "Server": [],
   "Hide": "lewis_bird",
+
+  "CreateEntity": {
+    "key": "player_bird_seat",
+    "entity": "ARMOR_STAND",
+    "location": [1188.0, 50.0, -87.5, 140],
+    "visible": false
+  },
 
   "CreateEntity": {
     "key": "player_bird",
@@ -47,12 +61,12 @@
     "location": [1188.0, 51.5, -87.5, 140],
     "skin": "[PLAYER]",
     "look": false,
-    "sitting": true
+    "riding": "player_bird_seat"
   },
   "Server": [],
   "Hide": "player_bird",
 
-  "CreateCustomEntity": ["bird", "bird1", "lewis_bird", "player_bird"],
+  "CreateCustomEntity": ["bird", "bird1", "lewis_bird_seat", "player_bird_seat"],
 
   "CreateEntity": {
     "key": "disaster_1",
