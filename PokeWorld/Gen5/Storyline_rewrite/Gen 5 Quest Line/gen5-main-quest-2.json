@@ -112,6 +112,32 @@
   "Server": [],
   "Hide": "running_pokemon",
 
+  "CreateEntity": {
+    "key": "bird2",
+    "location": [1031.5,50.0,-281.8, 142, -11],
+    "pokemon": "togekiss",
+    "look": false
+  },
+  "Server": [],
+  "Hide": "bird2",
+
+  "CreateEntity": {
+    "key": "lewis_bridge2",
+    "entity": "PLAYER",
+    "location": [1033.9,50.0,-283.1, 53],
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg3MTU2OTAzMCwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDgxMmIyM2E3YTM2YjAwMDJlY2NlM2M2ZDg0NTI1NWIzNWJkMWExZWRiYmZiMmZkZmI1MmE3M2MxZmI1YmY5IgogICAgfQogIH0KfQ==",
+      "signature": "Y2eDLNog6eIYOGJyoGFAwbyBJnFjbkVIU7iUa/uQoRrh/v4mdqckpds4wXkxkmQMCE/VGADK8no5iY7eda3WvkBUvNstDI7IPBdWMliwg/ISFczsyoERs9S3mDo63EdAzs0Mrqrwe4rvCM7gwyEmz+bxzJL/YMbtcmdK2YcvIQ6D2AwPHmVAq+przPUir+Bo8Vi/4RQxpSd6+NV15S3l1KY1JzVcz5qRbDuekPqsJL2Kbh164z2Sy62B5EyS5ba6U05AX4eZTpyH8ZFD1jNknOx2XHsSTHfh2FraQpBTvwT6vBBMOVY+GKw72r3RdBkWuv41vK+k6/3eRjgu/Nr6+uq6f4xxTC4TyhpAqWPciYfHiOAzXQBtxyumbFmnesbP+a61kQk4EPON2WRRe46BBd/YIn0SToOra4M1ds4HcAHGK3a8AlaWhLmGqI1ePa5Ih5+Sm0JWuqK/V0WN4mcilkQfLKLcXbpBLgcA31U9KHB2sRUBdpJiwfnzOc7irXoiGE4bVBC/za3570iqZFrq2AtN6ytdlaQInv4OJbCIUrbKFF7pBNUx4MDR/7WzmiEAwQgxXdYSeX0dXYhqMfIvomxJJB1hFnQfsg5LSHX/tnBdwD+zL1Rc2Wdj48JlHJqhDyH3mKnw4LIbUqrh3p1AUs/uVCKzyeyqEh9hX9MB0v8="
+    },
+    "name": [
+      "&7&lLewis"
+    ],
+    "look": true
+  },
+  "Server": [],
+  "Hide": "lewis_bridge2",
+
+
 
 
 
@@ -207,11 +233,12 @@
     },
     70
   ],
+  "Leave": "gen5_main_quest_2_cin1_cam",
   "Unfreeze": [],
   "Hide": "bird",
   "Fade": [],
   "Teleport": [934.4, 48.6, -545.1, 124, 15],
-  "Wait": 4,
+  "Wait": 8,
   "Teleport": [934.4, 48.6, -545.1, 124, 15],
   "Freeze": true,
   "Show": "running",
@@ -225,19 +252,33 @@
     },
     70
   ],
+  "Wait": 0.5,
   "SendMessage": "&7Xatu used Air Slash",
   "ProgressiveParticleLine": [
     {
       "particle": "Redstone",
-      "data": "Brown"
+      "data": "white"
     },
-    925.9, 47.0, -546.4,
+    925.9, 47.5, -546.4,
     925.6, 49.0, -554.3,
-    0.5
+    0.7
   ],
-  "Wait": 1.0,
+  "Wait": 2.0,
   "MoveEntity": ["running", 925.7, 48.0, -559.3, 0.1, false],
-  "Hide": "running"
+  "Hide": "running",
+  "Hide": "running_pokemon",
+  "Unfreeze": [],
+  "StopCinematic": [],
+  "Fade": [],
+  "Teleport": [1028.3,50.0,-279.6, -138],
+  "Show": "bird2",
+  "Show": "lewis_bridge2",
+  "Dialog": [
+    {
+      "[PLAYER]": "I have to help them!",
+      "&7&lLewis": "Best of luck young trainer!"
+    }
+  ]
 
 
 
