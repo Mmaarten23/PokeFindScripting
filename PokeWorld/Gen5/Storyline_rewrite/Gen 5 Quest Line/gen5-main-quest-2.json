@@ -124,7 +124,10 @@
       "&7&lLewis": "Hop on!"
     }
   ],
-  "HighlightClickEntity": "bird",
+  "RegionEntry": [
+    1187, 51, -89,
+    1190, 51, -87
+  ],
   "Wait": 0.5,
   "Show": {
     "player_bird": true,
@@ -166,8 +169,8 @@
   "Wait": 0.5,
   "AnimateEntity": ["disaster_1", "Damage"],
   "Wait": 0.5,
-  "ProgressiveMoveEntity": ["disaster_1", 1155.7, 58.0, -129.7],
-  "MoveEntity": ["disaster_1_pokemon", 1153.5, 58.0, -132.6, 0.2, false],
+  "ProgressiveMoveEntity": ["disaster_1", 1165.9, 58.0, -118.3],
+  "ProgressiveMoveEntity": ["disaster_1_pokemon", 1165.9, 58.3, -118.3],
   "Hide": "disaster_1",
   "Hide": "disaster_1_pokemon"
 
