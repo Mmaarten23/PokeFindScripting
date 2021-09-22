@@ -90,6 +90,29 @@
   "Server": [],
   "Hide": "disaster_1_pokemon",
 
+  "CreateEntity": {
+    "key": "running",
+    "entity": "PLAYER",
+    "location": [925.7, 48.0, -559.3],
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg5NjU4NjcyMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0ODhlMzRiY2ZkZDg2ODhlZTNmOWU1ZjkyM2U3ZGM4ZTg0MjI3ZjRkMTgwNmQ5Mjg5ZmM2NzcyMDY2MTJhZDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+      "signature": "l0jAa/WRj//x+1El9VFDrJig5UdlJj9tnI1Zi6nXE4cDxv6VaMzM9vhuFNU7JCN9H5yZ9OYQRnwN99yonQtHZfdk417+UhEUNeLEoYqM5zJWGueA8DwX6b+4DDUXeMdXKDslxOdmbqikGtr0yHfDt2yE+Q7RGhPhC2AHoeQUVrPF2U4CYrN0mwfD8Zo23/5I+J51JzN88pL/cAecrnjPTZ8FFtBhHBcGotKO6E0DUbNdMH2/B6YGLrEbhsuRTU0Fw4fS8yXGnFehn7ulyflG3BwdVPJPeqc2a5b+tn2/6VTHmFDay2BAJiAJE/ayMju80UYygMiR7DGgb5MfbB8extJ380Cxlr0XmSriYGdvIe9gJp1R8BVzBixBHZnXGrpvZi9s6SeKjaycRSxAbTiIowDVPDEBFM+MKYCjRHlvou4be1UpbU5u1HSHigdW+haYo8uhb1K+PWKQInH2uW/gNXi+bVsoJoZ3/+DtpmjXF1bFVWpxyTuFcsyYPshSHGcQfCCX2DSGMvhgYaYrA0mTuVEbkHs7n1RyjkoHENhuxYgp4n1IQajhkCYrzI3ITPIzUVWKBvJOIJyBVJLygXKF2vKOCDBWFAJMRFI8KO03HUuPKEWlXxidterQcZgIYBp5XFfKTkAE7kdGMrs9tsoSTEHqkVnO/TXSfKv3AbM48nA="
+    },
+    "look": false
+  },
+  "Server": [],
+  "Hide": "running",
+
+  "CreateEntity": {
+    "key": "running_pokemon",
+    "pokemon": "xatu",
+    "location": [925.9, 46.9, -546.4, 174],
+    "look": false
+  },
+  "Server": [],
+  "Hide": "running_pokemon",
+
+
 
 
   "SendMessage": "DEBUG: skipping to bridge flight",
@@ -125,7 +148,7 @@
     }
   ],
   "RegionEntry": [
-    1187, 51, -89,
+    1187, 54, -89,
     1190, 51, -87
   ],
   "Wait": 0.5,
@@ -147,7 +170,7 @@
   "MoveEntity": ["bird", 1179.4, 59.0, -98.5, 0.2, false],
   "MoveEntity": ["bird", 1172.4, 61.0, -108.4, 0.15, false],
   "MoveEntity": ["bird", 1158.5, 63.0, -125.5, 0.1, false],
-  "ProgressiveMoveEntity": ["bird", 1134.5, 63.0, -155.5, 0.1, false],
+  "ProgressiveMoveEntity": ["bird", 1095.6, 63.0, -201.6, 0.1, false],
   "Dialog": [
     {
       "&b&lClaire": "Mewtwo, return!"
@@ -171,8 +194,51 @@
   "Wait": 0.5,
   "ProgressiveMoveEntity": ["disaster_1", 1165.9, 58.0, -118.3],
   "ProgressiveMoveEntity": ["disaster_1_pokemon", 1165.9, 58.3, -118.3],
+  "Wait": 5.0,
   "Hide": "disaster_1",
-  "Hide": "disaster_1_pokemon"
+  "Hide": "disaster_1_pokemon",
+
+  "Comment": "TODO: add more interactions",
+  "Wait": 10.0,
+
+  "Dialog": [
+    {
+      "&7&lLewis": "Even our houses aren't safe anymore..."
+    },
+    70
+  ],
+  "Unfreeze": [],
+  "Hide": "bird",
+  "Fade": [],
+  "Teleport": [934.4, 48.6, -545.1, 124, 15],
+  "Wait": 4,
+  "Teleport": [934.4, 48.6, -545.1, 124, 15],
+  "Freeze": true,
+  "Show": "running",
+  "Show": "running_pokemon",
+  "Wait": 2.0,
+  "MoveEntity": ["running", 925.6, 48.0, -554.3, 0.1, false],
+  "ProgressiveDialog": [
+    {
+      "&a&lXatu": "&4&lXA-TU!",
+      "&e&lMike": "Aaaaaaaaaaaaaaahhhhhhhhhh!!!!!"
+    },
+    70
+  ],
+  "SendMessage": "&7Xatu used Air Slash",
+  "ProgressiveParticleLine": [
+    {
+      "particle": "Redstone",
+      "data": "Brown"
+    },
+    925.9, 47.0, -546.4,
+    925.6, 49.0, -554.3,
+    0.5
+  ],
+  "Wait": 1.0,
+  "MoveEntity": ["running", 925.7, 48.0, -559.3, 0.1, false],
+  "Hide": "running"
+
 
 
 

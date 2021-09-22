@@ -9,11 +9,11 @@
     "visible": false
   },
   "Fade": [],
-  "Teleport": [1172.0,59.0,-88.3, -100, 35],
+  "Teleport": [1172.0, 59.0, -88.3, -100, 35],
   "TeleportEntity": ["bird_cam", 1188.6, 50.0, -87.9],
   "Cinematic": [],
   "Look": ["camera", "bird_cam"],
-  "ProgressiveMoveEntity": ["camera", 1028.5,60.1,-268.6, 0.1, false],
+  "ProgressiveMoveEntity": ["camera", 1028.5, 60.1, -268.6, 0.1, false],
 
   "MoveEntity": ["bird_cam", 1183.7, 56.0, -94.6, 0.2, false],
   "MoveEntity": ["bird_cam", 1179.4, 59.0, -98.5, 0.2, false],
