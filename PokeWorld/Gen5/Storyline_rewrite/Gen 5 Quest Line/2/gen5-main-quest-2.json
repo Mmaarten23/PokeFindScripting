@@ -1,0 +1,591 @@
+{
+    "Key": "gen5_main_quest_2",
+
+    "Author": "Mmaarten",
+    "Name": "",
+    "Description": "Make your way across the bridge to Pure Harbor",
+    "AllowRejoining": true,
+    "Icon": "",
+    "Quest": true,
+
+    "CreateEntity": {
+        "key": "lewis_bridge",
+        "entity": "PLAYER",
+        "location": [1189.7, 51.0, -90.6, 25],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg3MTU2OTAzMCwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDgxMmIyM2E3YTM2YjAwMDJlY2NlM2M2ZDg0NTI1NWIzNWJkMWExZWRiYmZiMmZkZmI1MmE3M2MxZmI1YmY5IgogICAgfQogIH0KfQ==",
+            "signature": "Y2eDLNog6eIYOGJyoGFAwbyBJnFjbkVIU7iUa/uQoRrh/v4mdqckpds4wXkxkmQMCE/VGADK8no5iY7eda3WvkBUvNstDI7IPBdWMliwg/ISFczsyoERs9S3mDo63EdAzs0Mrqrwe4rvCM7gwyEmz+bxzJL/YMbtcmdK2YcvIQ6D2AwPHmVAq+przPUir+Bo8Vi/4RQxpSd6+NV15S3l1KY1JzVcz5qRbDuekPqsJL2Kbh164z2Sy62B5EyS5ba6U05AX4eZTpyH8ZFD1jNknOx2XHsSTHfh2FraQpBTvwT6vBBMOVY+GKw72r3RdBkWuv41vK+k6/3eRjgu/Nr6+uq6f4xxTC4TyhpAqWPciYfHiOAzXQBtxyumbFmnesbP+a61kQk4EPON2WRRe46BBd/YIn0SToOra4M1ds4HcAHGK3a8AlaWhLmGqI1ePa5Ih5+Sm0JWuqK/V0WN4mcilkQfLKLcXbpBLgcA31U9KHB2sRUBdpJiwfnzOc7irXoiGE4bVBC/za3570iqZFrq2AtN6ytdlaQInv4OJbCIUrbKFF7pBNUx4MDR/7WzmiEAwQgxXdYSeX0dXYhqMfIvomxJJB1hFnQfsg5LSHX/tnBdwD+zL1Rc2Wdj48JlHJqhDyH3mKnw4LIbUqrh3p1AUs/uVCKzyeyqEh9hX9MB0v8="
+        },
+        "name": [
+            "&7&lLewis"
+        ],
+        "look": true
+    },
+
+    "CreateEntity": {
+        "key": "bird1",
+        "location": [1188.6, 50.0, -87.9, 142, -11],
+        "pokemon": "togekiss",
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "lewis_bird_seat",
+        "entity": "ARMOR_STAND",
+        "location": [1189.2, 50.0, -88.2, 140],
+        "visible": false
+    },
+
+    "CreateEntity": {
+        "key": "lewis_bird",
+        "entity": "PLAYER",
+        "location": [1189.2, 51.5, -88.2, 140],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg3MTU2OTAzMCwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDgxMmIyM2E3YTM2YjAwMDJlY2NlM2M2ZDg0NTI1NWIzNWJkMWExZWRiYmZiMmZkZmI1MmE3M2MxZmI1YmY5IgogICAgfQogIH0KfQ==",
+            "signature": "Y2eDLNog6eIYOGJyoGFAwbyBJnFjbkVIU7iUa/uQoRrh/v4mdqckpds4wXkxkmQMCE/VGADK8no5iY7eda3WvkBUvNstDI7IPBdWMliwg/ISFczsyoERs9S3mDo63EdAzs0Mrqrwe4rvCM7gwyEmz+bxzJL/YMbtcmdK2YcvIQ6D2AwPHmVAq+przPUir+Bo8Vi/4RQxpSd6+NV15S3l1KY1JzVcz5qRbDuekPqsJL2Kbh164z2Sy62B5EyS5ba6U05AX4eZTpyH8ZFD1jNknOx2XHsSTHfh2FraQpBTvwT6vBBMOVY+GKw72r3RdBkWuv41vK+k6/3eRjgu/Nr6+uq6f4xxTC4TyhpAqWPciYfHiOAzXQBtxyumbFmnesbP+a61kQk4EPON2WRRe46BBd/YIn0SToOra4M1ds4HcAHGK3a8AlaWhLmGqI1ePa5Ih5+Sm0JWuqK/V0WN4mcilkQfLKLcXbpBLgcA31U9KHB2sRUBdpJiwfnzOc7irXoiGE4bVBC/za3570iqZFrq2AtN6ytdlaQInv4OJbCIUrbKFF7pBNUx4MDR/7WzmiEAwQgxXdYSeX0dXYhqMfIvomxJJB1hFnQfsg5LSHX/tnBdwD+zL1Rc2Wdj48JlHJqhDyH3mKnw4LIbUqrh3p1AUs/uVCKzyeyqEh9hX9MB0v8="
+        },
+        "look": false,
+        "riding": "lewis_bird_seat"
+    },
+
+    "CreateEntity": {
+        "key": "player_bird_seat",
+        "entity": "ARMOR_STAND",
+        "location": [1188.0, 50.0, -87.5, 140],
+        "visible": false
+    },
+
+    "CreateEntity": {
+        "key": "player_bird",
+        "entity": "PLAYER",
+        "location": [1188.0, 51.5, -87.5, 140],
+        "skin": "[PLAYER]",
+        "look": false,
+        "riding": "player_bird_seat"
+    },
+
+    "CreateEntity": {
+        "key": "disaster_1",
+        "entity": "PLAYER",
+        "location": [1153.5, 58.0, -132.6, 138],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg5NjU4NjcyMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0ODhlMzRiY2ZkZDg2ODhlZTNmOWU1ZjkyM2U3ZGM4ZTg0MjI3ZjRkMTgwNmQ5Mjg5ZmM2NzcyMDY2MTJhZDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "l0jAa/WRj//x+1El9VFDrJig5UdlJj9tnI1Zi6nXE4cDxv6VaMzM9vhuFNU7JCN9H5yZ9OYQRnwN99yonQtHZfdk417+UhEUNeLEoYqM5zJWGueA8DwX6b+4DDUXeMdXKDslxOdmbqikGtr0yHfDt2yE+Q7RGhPhC2AHoeQUVrPF2U4CYrN0mwfD8Zo23/5I+J51JzN88pL/cAecrnjPTZ8FFtBhHBcGotKO6E0DUbNdMH2/B6YGLrEbhsuRTU0Fw4fS8yXGnFehn7ulyflG3BwdVPJPeqc2a5b+tn2/6VTHmFDay2BAJiAJE/ayMju80UYygMiR7DGgb5MfbB8extJ380Cxlr0XmSriYGdvIe9gJp1R8BVzBixBHZnXGrpvZi9s6SeKjaycRSxAbTiIowDVPDEBFM+MKYCjRHlvou4be1UpbU5u1HSHigdW+haYo8uhb1K+PWKQInH2uW/gNXi+bVsoJoZ3/+DtpmjXF1bFVWpxyTuFcsyYPshSHGcQfCCX2DSGMvhgYaYrA0mTuVEbkHs7n1RyjkoHENhuxYgp4n1IQajhkCYrzI3ITPIzUVWKBvJOIJyBVJLygXKF2vKOCDBWFAJMRFI8KO03HUuPKEWlXxidterQcZgIYBp5XFfKTkAE7kdGMrs9tsoSTEHqkVnO/TXSfKv3AbM48nA="
+        },
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "disaster_1_pokemon",
+        "pokemon": "mewtwo",
+        "location": [1148.7, 58.0, -137.9, -39],
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "running",
+        "entity": "PLAYER",
+        "location": [925.7, 48.0, -559.3],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg5NjU4NjcyMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0ODhlMzRiY2ZkZDg2ODhlZTNmOWU1ZjkyM2U3ZGM4ZTg0MjI3ZjRkMTgwNmQ5Mjg5ZmM2NzcyMDY2MTJhZDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "l0jAa/WRj//x+1El9VFDrJig5UdlJj9tnI1Zi6nXE4cDxv6VaMzM9vhuFNU7JCN9H5yZ9OYQRnwN99yonQtHZfdk417+UhEUNeLEoYqM5zJWGueA8DwX6b+4DDUXeMdXKDslxOdmbqikGtr0yHfDt2yE+Q7RGhPhC2AHoeQUVrPF2U4CYrN0mwfD8Zo23/5I+J51JzN88pL/cAecrnjPTZ8FFtBhHBcGotKO6E0DUbNdMH2/B6YGLrEbhsuRTU0Fw4fS8yXGnFehn7ulyflG3BwdVPJPeqc2a5b+tn2/6VTHmFDay2BAJiAJE/ayMju80UYygMiR7DGgb5MfbB8extJ380Cxlr0XmSriYGdvIe9gJp1R8BVzBixBHZnXGrpvZi9s6SeKjaycRSxAbTiIowDVPDEBFM+MKYCjRHlvou4be1UpbU5u1HSHigdW+haYo8uhb1K+PWKQInH2uW/gNXi+bVsoJoZ3/+DtpmjXF1bFVWpxyTuFcsyYPshSHGcQfCCX2DSGMvhgYaYrA0mTuVEbkHs7n1RyjkoHENhuxYgp4n1IQajhkCYrzI3ITPIzUVWKBvJOIJyBVJLygXKF2vKOCDBWFAJMRFI8KO03HUuPKEWlXxidterQcZgIYBp5XFfKTkAE7kdGMrs9tsoSTEHqkVnO/TXSfKv3AbM48nA="
+        },
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "running_pokemon",
+        "pokemon": "xatu",
+        "location": [925.9, 46.9, -546.4, 174],
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "bird2",
+        "location": [1031.5, 50.0, -281.8, 142, -11],
+        "pokemon": "togekiss",
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "lewis_bridge2",
+        "entity": "PLAYER",
+        "location": [1033.9, 50.0, -283.1, 53],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg3MTU2OTAzMCwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDgxMmIyM2E3YTM2YjAwMDJlY2NlM2M2ZDg0NTI1NWIzNWJkMWExZWRiYmZiMmZkZmI1MmE3M2MxZmI1YmY5IgogICAgfQogIH0KfQ==",
+            "signature": "Y2eDLNog6eIYOGJyoGFAwbyBJnFjbkVIU7iUa/uQoRrh/v4mdqckpds4wXkxkmQMCE/VGADK8no5iY7eda3WvkBUvNstDI7IPBdWMliwg/ISFczsyoERs9S3mDo63EdAzs0Mrqrwe4rvCM7gwyEmz+bxzJL/YMbtcmdK2YcvIQ6D2AwPHmVAq+przPUir+Bo8Vi/4RQxpSd6+NV15S3l1KY1JzVcz5qRbDuekPqsJL2Kbh164z2Sy62B5EyS5ba6U05AX4eZTpyH8ZFD1jNknOx2XHsSTHfh2FraQpBTvwT6vBBMOVY+GKw72r3RdBkWuv41vK+k6/3eRjgu/Nr6+uq6f4xxTC4TyhpAqWPciYfHiOAzXQBtxyumbFmnesbP+a61kQk4EPON2WRRe46BBd/YIn0SToOra4M1ds4HcAHGK3a8AlaWhLmGqI1ePa5Ih5+Sm0JWuqK/V0WN4mcilkQfLKLcXbpBLgcA31U9KHB2sRUBdpJiwfnzOc7irXoiGE4bVBC/za3570iqZFrq2AtN6ytdlaQInv4OJbCIUrbKFF7pBNUx4MDR/7WzmiEAwQgxXdYSeX0dXYhqMfIvomxJJB1hFnQfsg5LSHX/tnBdwD+zL1Rc2Wdj48JlHJqhDyH3mKnw4LIbUqrh3p1AUs/uVCKzyeyqEh9hX9MB0v8="
+        },
+        "name": [
+            "&7&lLewis"
+        ],
+        "look": true
+    },
+
+    "CreateEntity": {
+        "key": "mike",
+        "entity": "PLAYER",
+        "location": [925.7, 48.0, -559.3],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg5NjU4NjcyMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0ODhlMzRiY2ZkZDg2ODhlZTNmOWU1ZjkyM2U3ZGM4ZTg0MjI3ZjRkMTgwNmQ5Mjg5ZmM2NzcyMDY2MTJhZDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "l0jAa/WRj//x+1El9VFDrJig5UdlJj9tnI1Zi6nXE4cDxv6VaMzM9vhuFNU7JCN9H5yZ9OYQRnwN99yonQtHZfdk417+UhEUNeLEoYqM5zJWGueA8DwX6b+4DDUXeMdXKDslxOdmbqikGtr0yHfDt2yE+Q7RGhPhC2AHoeQUVrPF2U4CYrN0mwfD8Zo23/5I+J51JzN88pL/cAecrnjPTZ8FFtBhHBcGotKO6E0DUbNdMH2/B6YGLrEbhsuRTU0Fw4fS8yXGnFehn7ulyflG3BwdVPJPeqc2a5b+tn2/6VTHmFDay2BAJiAJE/ayMju80UYygMiR7DGgb5MfbB8extJ380Cxlr0XmSriYGdvIe9gJp1R8BVzBixBHZnXGrpvZi9s6SeKjaycRSxAbTiIowDVPDEBFM+MKYCjRHlvou4be1UpbU5u1HSHigdW+haYo8uhb1K+PWKQInH2uW/gNXi+bVsoJoZ3/+DtpmjXF1bFVWpxyTuFcsyYPshSHGcQfCCX2DSGMvhgYaYrA0mTuVEbkHs7n1RyjkoHENhuxYgp4n1IQajhkCYrzI3ITPIzUVWKBvJOIJyBVJLygXKF2vKOCDBWFAJMRFI8KO03HUuPKEWlXxidterQcZgIYBp5XFfKTkAE7kdGMrs9tsoSTEHqkVnO/TXSfKv3AbM48nA="
+        },
+        "name": [
+            "&e&lMike"
+        ],
+        "look": true
+    },
+
+    "CreateEntity": {
+        "key": "Shrine_Pokemon",
+        "location": {
+            "x": 1130.5,
+            "y": 43.0,
+            "z": -602.5,
+            "yaw": 138,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": "weedle"
+    },
+
+    "CreateEntity": {
+        "key": "Shrine_Pokemon2",
+
+        "location": {
+            "x": 1114.5,
+            "y": 43.0,
+            "z": -602.5,
+            "yaw": 227,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": "weedle"
+    },
+
+    "CreateEntity": {
+        "key": "Shrine_Pokemon3",
+        "location": {
+            "x": 1123.5,
+            "y": 43.0,
+            "z": -602.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": "weedle"
+    },
+
+    "CreateEntity": {
+        "key": "Shrine_Pokemon4",
+        "location": {
+            "x": 1115.5,
+            "y": 43.0,
+            "z": -583.6,
+            "yaw": -151,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": "weedle"
+    },
+
+    "CreateEntity": {
+        "key": "guide",
+        "name": "&2&lGuide",
+        "location": {
+            "x": 1056.0,
+            "y": 21.0,
+            "z": -537.1,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        }
+    },
+
+
+
+    "CreateCustomEntity": ["bird", "bird1", "lewis_bird_seat", "player_bird_seat"],
+
+    "Show": {
+        "lewis_bridge": true,
+        "bird1": false,
+        "lewis_bird_seat": true,
+        "lewis_bird": true,
+        "player_bird_seat": false,
+        "player_bird": true,
+        "disaster_1": false,
+        "disaster_1_pokemon": false,
+        "running": false,
+        "running_pokemon": false,
+        "bird2": false,
+        "lewis_bridge2": false,
+        "mike": false,
+        "Shrine_Pokemon": false,
+        "Shrine_Pokemon1": false,
+        "Shrine_Pokemon2": false,
+        "Shrine_Pokemon3": false,
+        "Shrine_Pokemon4": false,
+        "guide": false
+    },
+
+
+    "HighlightClickEntity": "lewis_bridge",
+    "Comment": "\"NotCompleted\": [\"gen5_main_quest_2\", \"\"],\n  \"Completed\": [\"GYM1\", true, \"\"],\n  \"Completed\": [\"gen5_main_quest_1\", true, \"\"],",
+
+    "Show": "lewis_bridge",
+    "Dialog": [
+        {
+            "&7&lLewis": "Hey trainer! Are you planning to cross that bridge?",
+            "[PLAYER]": "Yes! I am participating in the gym challenge.",
+            "&7&lLewis": "I see. I must warn you though, the pokemon on the other side have gone a little crazy.",
+            "&7&lLewis": "Crossing on foot is near impossible but I can take you across on my Braviary?",
+            "[PLAYER]": "Sounds like a plan!"
+        },
+        90
+    ],
+    "ProgressiveDialog": [
+        {
+            "&7&lLewis": "&7Go! Braviary!"
+        },
+        90
+    ],
+    "AnimateEntity": ["lewis_bridge", "Swing Main Hand"],
+    "Wait": 0.5,
+    "Show": "bird1",
+    "MoveEntity": ["lewis_bridge", 1189.0, 51.0, -88.4, 0.2, false],
+    "Hide": "lewis_bridge",
+    "Show": "lewis_bird",
+    "Dialog": [
+        {
+            "&7&lLewis": "Hop on!"
+        }
+    ],
+    "Objective": ["Join Lewis for a ride across the bridge.", 2],
+    "RegionEntry": [
+        1187, 54, -89,
+        1190, 51, -87
+    ],
+    "Wait": 0.5,
+    "Show": {
+        "player_bird": true,
+        "disaster_1": true,
+        "disaster_1_pokemon": true
+    },
+    "Start": "gen5_main_quest_2_cin1_cam",
+    "Wait": 5,
+    "MoveEntity": ["bird", 1183.7, 56.0, -94.6, 0.2, false],
+    "ProgressiveDialog": [
+        {
+            "&7&lLewis": "Hold on tight.",
+            "&7&lLewis": "This could get rough!"
+        },
+        90
+    ],
+    "MoveEntity": ["bird", 1179.4, 59.0, -98.5, 0.2, false],
+    "MoveEntity": ["bird", 1172.4, 61.0, -108.4, 0.15, false],
+    "MoveEntity": ["bird", 1158.5, 63.0, -125.5, 0.1, false],
+    "ProgressiveMoveEntity": ["bird", 1095.6, 63.0, -201.6, 0.1, false],
+    "Dialog": [
+        {
+            "&b&lClaire": "Mewtwo, return!"
+        },
+        70
+    ],
+    "SendMessage": "&7Mewtwo used &eThunderbolt&7.",
+    "ProgressiveDialog": [
+        {
+            "&d&lMew": "&4&lMEW!"
+        }
+    ],
+    "Teleport": [1137.0, 59.0, -132.0],
+    "PlaySound": "entity_lightning_bolt_impact",
+    "StrikeLightning": [1153.5, 58.0, -132.6],
+    "StrikeLightning": [1153.5, 58.0, -132.6],
+    "StrikeLightning": [1153.5, 58.0, -132.6],
+    "StrikeLightning": [1153.5, 58.0, -132.6],
+    "Wait": 0.5,
+    "AnimateEntity": ["disaster_1", "Damage"],
+    "Wait": 0.5,
+    "ProgressiveMoveEntity": ["disaster_1", 1165.9, 58.0, -118.3],
+    "ProgressiveMoveEntity": ["disaster_1_pokemon", 1165.9, 58.3, -118.3],
+    "Wait": 5.0,
+    "Hide": "disaster_1",
+    "Hide": "disaster_1_pokemon",
+
+    "Comment": "TODO: add more interactions",
+    "Wait": 10.0,
+
+    "Dialog": [
+        {
+            "&7&lLewis": "Even our houses aren't safe anymore..."
+        },
+        70
+    ],
+    "Leave": "gen5_main_quest_2_cin1_cam",
+    "Unfreeze": [],
+    "Hide": "bird",
+    "Fade": [],
+    "Teleport": [934.4, 48.6, -545.1, 124, 15],
+    "Wait": 8,
+    "Teleport": [934.4, 48.6, -545.1, 124, 15],
+    "Freeze": true,
+    "Show": "running",
+    "Show": "running_pokemon",
+    "Wait": 2.0,
+    "MoveEntity": ["running", 925.6, 48.0, -554.3, 0.1, false],
+    "ProgressiveDialog": [
+        {
+            "&a&lXatu": "&4&lXA-TU!",
+            "&e&lMike": "Aaaaaaaaaaaaaaahhhhhhhhhh!!!!!"
+        },
+        70
+    ],
+    "Wait": 0.5,
+    "SendMessage": "&7Xatu used Air Slash",
+    "ProgressiveParticleLine": [
+        {
+            "particle": "Redstone",
+            "data": "white"
+        },
+        925.9, 47.5, -546.4,
+        925.6, 49.0, -554.3,
+        0.7
+    ],
+    "Wait": 2.0,
+    "MoveEntity": ["running", 925.7, 48.0, -559.3, 0.1, false],
+    "Hide": "running",
+    "Hide": "running_pokemon",
+    "Unfreeze": [],
+    "StopCinematic": [],
+    "Fade": [],
+    "Teleport": [1028.3, 50.0, -279.6, -138],
+    "Wait": 4,
+    "Show": "bird2",
+    "Show": "lewis_bridge2",
+    "Dialog": [
+        {
+            "[PLAYER]": "I have to help them!",
+            "&7&lLewis": "Best of luck young trainer!"
+        },
+        90
+    ],
+    "Wait": 1.0,
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", 1033.9, 51.5, -283.1, 50, 0.6],
+    "Hide": "lewis_bridge2",
+    "Hide": "bird2",
+    "Objective": ["Help the citizen stuck in their house.", 3],
+    "Show": "mike",
+    "HighlightClickEntity": "mike",
+    "Dialog": [
+        {
+            "&e&lMike": "Please... help us.",
+            "&e&lMike": "This has been going on since this morning...",
+            "&e&lMike": "There's a shrine at the top of the waterfall... It was opened a few days ago by the towns officials.",
+            "&e&lMike": "The Statera council wanted the item removed... and moved somewhere \"safe\".",
+            "[PLAYER]": "Which item?",
+            "&e&lMike": "There's an ancient item we've kept safe for many decades... The Statera council no longer deemed us suitable as guards.",
+            "&e&lMike": "Ever since it's been moved... our Pokémon and the wild Pokémon have been out of control!",
+            "&e&lMike": "They've been incredibly aggressive. Can you please go check out the Shrine?",
+            "[PLAYER]": "Sure!"
+        },
+        90
+    ],
+    "Wait": 1.0,
+    "Objective": ["Investigate the shrine on top of the waterfall", 4],
+    "Hologram": [
+        1104.5, 45.5, -708.5,
+        "&9&l~Water Shrine Puzzle~&9&l",
+        "&9------------------------&9",
+        "&fLead the water to the &eGlowstone block&f by putting up barriers!",
+        "&aRight click&f the lever to toggle the corresponding barrier!",
+        "&fClick the &7button&f to start the water flow!"
+    ],
+    "RegionEntry": [
+        1112, 1, -693,
+        1086, 51, -722
+    ],
+    "Wait": 20,
+    "Dialog": [
+        {
+            "[PLAYER]": "Hmm... That door seems to be locked",
+            "[PLAYER]": "What's this? It looks like a puzzle of some sort...",
+            "[PLAYER]": "Are there instructions somewhere?",
+            "[PLAYER]": "I guess I have to pull this lever to get started..."
+        },
+        90
+    ],
+    "Wait": 20,
+    "Objective": ["Lead the water to the gate using the barriers (Pull the lever to get started)", 6],
+    "Start": "gen5_main_quest_2_water_barriers",
+    "Start": "gen5_main_quest_2_water_update",
+    "Hold": [],
+    "ProgressiveWall": [
+        1099, 49, -686,
+        1095, 44, -686,
+        -7
+    ],
+
+    "Show": {
+        "Shrine_Pokemon": true,
+        "Shrine_Pokemon2": true,
+        "Shrine_Pokemon3": true,
+        "Shrine_Pokemon4": true
+    },
+    "Wait": 20,
+    "Objective": ["Enter the shrine and explore (Complete the first parkour)", 4],
+    "RegionEntry": [
+        1111, 40, -616,
+        1137, 50, -598
+    ],
+    "Wait": 10,
+    "Dialog": [
+        {
+            "[PLAYER]": "Uh oh! Those angry Pokémon are blocking my way! I need to get past them!"
+        }
+    ],
+    "Wait": 20,
+    "Objective": ["Battle the wild angry Pokemon", 23],
+    "HighlightClickEntity": "Shrine_Pokemon",
+    "Hide": "Shrine_Pokemon",
+    "BattleWildPokemon": [
+        1130.5, 43.0, -602.5, 138,
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            }
+        ]
+    ],
+    "Wait": 10,
+    "SendMessage": "&ePokemon 1/4 defeated!",
+    "HighlightClickEntity": "Shrine_Pokemon2",
+    "Hide": "Shrine_Pokemon2",
+    "BattleWildPokemon": [
+        1114.5, 43.0, -602.5, 227,
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            }
+        ]
+    ],
+    "Wait": 10,
+    "SendMessage": "&ePokemon 2/4 defeated!",
+    "HighlightClickEntity": "Shrine_Pokemon3",
+    "Hide": "Shrine_Pokemon3",
+    "BattleWildPokemon": [
+        1123.5, 43.0, -602.5, 180,
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            }
+        ]
+    ],
+    "Wait": 10,
+    "SendMessage": "&ePokemon 3/4 defeated!",
+    "HighlightClickEntity": "Shrine_Pokemon4",
+    "Hide": "Shrine_Pokemon4",
+    "BattleWildPokemon": [
+        1115.4, 43.0, -583.6, -151,
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            }
+        ]
+    ],
+    "Wait": 10,
+    "SendMessage": "&e&lPokemon 4/4 defeated!",
+    "Wait": 10,
+    "Dialog": [
+        {
+            "[PLAYER]": "Perfect, now I can keep going."
+        }
+    ],
+    "Wait": 20,
+    "Objective": ["Complete the second parkour and speak to the Guide", 5],
+    "Show": "guide",
+    "HighlightClickEntity": "guide",
+    "Dialog": [
+        {
+            "&2&lGuide": "Hi there! How can I help you today?",
+            "[PLAYER]": "I'm trying to figure out what's going on with the Pokémon.",
+            "&2&lGuide": "Ah, makes sense. Well, I think I can help a bit!",
+            "&2&lGuide": "This next room can be a bit confusing so I'll be here to help you!",
+            "[PLAYER]": "What's in the next room?",
+            "&2&lGuide": "I like to call it &oBlock Run&r! You have 5 seconds to stand on the correct block!",
+            "&2&lGuide": "I'll be here to tell you which block to stand on, but it's up to you to stand on it in time.",
+            "[PLAYER]": "Sounds easy enough...",
+            "&2&lGuide": "Perfect! Let's go! Talk to me inside the first room when you're ready to start."
+        }
+    ],
+    "Hide": "guide",
+    "Wait": 20,
+    "Objective": ["Talk to the Guide in the first room", 8],
+    "Start": "gen5_main_quest_2_block_run_room1",
+    "Hold": [],
+    "ProgressiveWall": [
+        1040, 23, -520,
+        1038, 20, -520,
+        -5
+    ],
+    "ProgressiveWall": [
+        1034, 23, -520,
+        1032, 20, -520,
+        -5
+    ],
+    "ProgressiveWall": [
+        1044, 20, -520,
+        1046, 23, -520,
+        -5
+    ],
+    "Dialog": [
+        {
+            "&2&lGuide": "Nice job! You finished the first room! Now get ready for room 2!"
+        }
+    ],
+    "Wait": 20,
+    "Objective": ["Talk to the Guide in the second room", 3],
+    "Start": "gen5_main_quest_2_block_run_room2",
+    "Hold": [],
+    "ProgressiveWall": [
+        1051, 24, -513,
+        1051, 19, -511,
+        -7
+    ],
+    "Dialog": [
+        {
+            "&2&lGuide": "You did it! Goodluck figuring out what's going on!"
+        }
+    ]
+
+
+}

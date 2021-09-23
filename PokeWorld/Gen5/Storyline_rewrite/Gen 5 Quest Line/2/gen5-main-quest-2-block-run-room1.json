@@ -1,0 +1,1380 @@
+{
+    "key": "block_run_room1",
+    "CreateEntity": {
+        "key": "guide",
+        "name": "&2&lGuide",
+        "location": {
+            "x": 1034.0,
+            "y": 20.0,
+            "z": -531.5,
+            "yaw": 300,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        }
+    },
+    "Hide": "guide",
+    "Comment": "Restart",
+    "Show": "guide",
+    "HighlightClickEntity": "guide",
+    "NotCompletedQuestProgress": [],
+    "Dialog": [
+        {
+            "&2&lGuide": "Ready? Here we go!"
+        }
+    ],
+    "Wait": 20,
+    "RandomOption": 13,
+    "Skip": "Snow Block",
+    "Skip": "Ender Chest",
+    "Skip": "Crafting Table",
+    "Skip": "Cyan Shulker Box",
+    "Skip": "Furnace",
+    "Skip": "Scaffolding",
+    "Skip": "Tnt",
+    "Skip": "Sea Lantern",
+    "Skip": "Jukebox",
+    "Skip": "Dead Tube Coral Block",
+    "Skip": "Piston",
+    "Skip": "Packed Ice",
+    "Skip": "Anvil",
+    "Comment": "Snow Block",
+    "Wait": 20,
+    "SendMessage": "&2&lGuide>&r You have 5 seconds to stand on a Snow Block!",
+    "Wait": 2.0,
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [],
+    "OnBlock": [false, "Snow block"],
+    "Skip": "Round2",
+    "Skip": "Lose",
+    "Comment": "Ender Chest",
+    "Wait": 20,
+    "SendMessage": "&2&lGuide>&r You have 5 seconds to stand on an Ender Chest!",
+    "Wait": 2.0,
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [],
+    "OnBlock": [false, "Ender Chest"],
+    "Skip": "Round2",
+    "Skip": "Lose",
+    "Comment": "Crafting Table",
+    "Wait": 20,
+    "SendMessage": "&2&lGuide>&r You have 5 seconds to stand on a Crafting Table!",
+    "Wait": 2.0,
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [],
+    "OnBlock": [false, "Crafting Table"],
+    "Skip": "Round2",
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Cyan Shulker Box"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Cyan Shulker Box!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Cyan Shulker Box"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Furnace"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Furnace!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Furnace"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Scaffolding"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Scaffolding!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Scaffolding"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Tnt"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Tnt!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Tnt"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Sea Lantern"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Sea Lantern!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Sea Lantern"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Jukebox"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Jukebox!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Jukebox"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Dead Tube Coral Block"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Dead Tube Coral Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Dead Tube Coral block"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Piston"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Piston!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Piston"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Packed Ice"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Packed Ice!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Packed Ice"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Anvil"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on an Anvil!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Anvil"
+    ],
+    "Skip": [
+        "Round2"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Round2"
+    ],
+    "Dialog": [
+        {
+            "&2&lGuide": "Wow! You did that so quickly! Get ready for Round 2!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "RandomOption": [
+        13
+    ],
+    "Skip": [
+        "Slime Block"
+    ],
+    "Skip": [
+        "Glass"
+    ],
+    "Skip": [
+        "Bedrock"
+    ],
+    "Skip": [
+        "Birch Wood"
+    ],
+    "Skip": [
+        "Yellow Glazed Terracotta"
+    ],
+    "Skip": [
+        "Sticky Piston"
+    ],
+    "Skip": [
+        "Pumpkin"
+    ],
+    "Skip": [
+        "Redstone Block"
+    ],
+    "Skip": [
+        "Red Mushroom Block"
+    ],
+    "Skip": [
+        "Barrel"
+    ],
+    "Skip": [
+        "Note Block"
+    ],
+    "Skip": [
+        "Nether Quartz Ore"
+    ],
+    "Skip": [
+        "Prismarine Bricks"
+    ],
+    "Comment": [
+        "Slime Block"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Slime Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Slime Block"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Glass"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Glass Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Glass"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Bedrock"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Bedrock!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Bedrock"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Birch Wood"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Birch Wood!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Birch Wood"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Yellow Glazed Terracotta"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Yellow Glazed Terracotta!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Yellow Glazed Terracotta"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Sticky Piston"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Sticky Piston!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Sticky Piston"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Pumpkin"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Pumpkin!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Pumpkin"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Redstone Block"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Redstone Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Redstone Block"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Red Mushroom Block"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Red Mushroom Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Red Mushroom Block"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Barrel"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Barrel!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Barrel"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Note Block"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Note Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Note Block"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Nether Quartz Ore"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Nether Quartz Ore Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Nether Quartz Ore"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Prismarine Bricks"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Prismarine Bricks!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Prismarine Bricks"
+    ],
+    "Skip": [
+        "Round3"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Round3"
+    ],
+    "Dialog": [
+        {
+            "&2&lGuide": "You're doing great! Time for round 3!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "RandomOption": [
+        13
+    ],
+    "Skip": [
+        "Purple Wool"
+    ],
+    "Skip": [
+        "Granite"
+    ],
+    "Skip": [
+        "Melon"
+    ],
+    "Skip": [
+        "Glowstone"
+    ],
+    "Skip": [
+        "Diorite"
+    ],
+    "Skip": [
+        "Grass Block"
+    ],
+    "Skip": [
+        "Mossy Cobblestone"
+    ],
+    "Skip": [
+        "Sponge"
+    ],
+    "Skip": [
+        "Magma Block"
+    ],
+    "Skip": [
+        "Hay Bale"
+    ],
+    "Skip": [
+        "Bone Block"
+    ],
+    "Skip": [
+        "Jungle Planks"
+    ],
+    "Skip": [
+        "Smooth Stone"
+    ],
+    "Comment": [
+        "Purple Wool"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Purple Wool!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Purple Wool"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Granite"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Granite!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Granite"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Melon"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Melon!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Melon"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Glowstone"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Glowstone!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Glowstone"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Diorite"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Diorite!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Diorite"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Grass Block"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Grass Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Grass Block"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Mossy Cobblestone"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Mossy Cobblestone!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Mossy Cobblestone"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Sponge"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Sponge!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Sponge"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Magma Block"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Magma Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Magma Block"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Hay Bale"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Hay Bale!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Hay Bale"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Bone Block"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on a Bone Block!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Bone Block"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Jungle Planks"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Jungle Planks!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Jungle Planks"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "Smooth Stone"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&2&lGuide>&r You have 5 seconds to stand on Smooth Stone!"
+    ],
+    "Wait": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&c&lCountdown": "3...",
+            "&c&lCountdown": "2...",
+            "&c&lCountdown": "1..."
+        },
+        20
+    ],
+    "If": [
+    ],
+    "OnBlock": [
+        false,
+        "Smooth Stone"
+    ],
+    "Skip": [
+        "TotalWin"
+    ],
+    "Skip": [
+        "Lose"
+    ],
+    "Comment": [
+        "TotalWin"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&a&lCongratulations! You win!"
+    ],
+    "Progress": [
+        "gen5_main_quest_2",
+        1
+    ],
+    "Completed": [
+    ],
+    "Leave": [
+    ],
+    "Comment": [
+        "Lose"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&c&lSorry, you lose... Try again (Talk to the Guide)!"
+    ],
+    "Skip": [
+        "Restart"
+    ]
+}
