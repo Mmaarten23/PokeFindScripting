@@ -1,5 +1,5 @@
 {
-    "Key": "block_run_room1",
+    "Key": "gen5_main_quest_2_block_run_room1",
     "CreateEntity": {
         "key": "guide",
         "name": "&2&lGuide",
