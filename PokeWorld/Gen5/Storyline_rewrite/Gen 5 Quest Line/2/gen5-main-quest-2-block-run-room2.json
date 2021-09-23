@@ -493,7 +493,7 @@
         "Emerald Ore"
     ],
     "Skip": [
-        "dirt Path"
+        "grass Path"
     ],
     "Skip": [
         "Lime Glass"
@@ -624,7 +624,7 @@
     ],
     "OnBlock": [
         false,
-        "Grass Path"
+        "dirt Path"
     ],
     "Skip": [
         "Round4"
