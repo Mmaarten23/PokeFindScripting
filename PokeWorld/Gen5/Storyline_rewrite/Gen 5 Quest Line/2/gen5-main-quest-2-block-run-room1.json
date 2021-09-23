@@ -1,5 +1,5 @@
 {
-    "key": "block_run_room1",
+    "Key": "block_run_room1",
     "CreateEntity": {
         "key": "guide",
         "name": "&2&lGuide",
@@ -19,7 +19,7 @@
     "Comment": "Restart",
     "Show": "guide",
     "HighlightClickEntity": "guide",
-    "NotCompletedQuestProgress": [],
+    "NotCompleted": [],
     "Dialog": [
         {
             "&2&lGuide": "Ready? Here we go!"
@@ -1244,7 +1244,7 @@
     ],
     "OnBlock": [
         false,
-        "Hay Bale"
+        "hay block"
     ],
     "Skip": [
         "TotalWin"
@@ -1357,11 +1357,8 @@
     "SendMessage": [
         "&a&lCongratulations! You win!"
     ],
-    "Progress": [
-        "gen5_main_quest_2",
-        1
-    ],
-    "Completed": [
+    "Progress": "gen5_main_quest_2",
+    "Complete": [
     ],
     "Leave": [
     ],
