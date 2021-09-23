@@ -496,13 +496,13 @@
         "dirt Path"
     ],
     "Skip": [
-        "Lime stained Glass"
+        "Lime Glass"
     ],
     "Skip": [
         "Dark Oak Planks"
     ],
     "Skip": [
-        "jack_o_lantern"
+        "Jack o'Lantern"
     ],
     "Comment": [
         "Light Blue Concrete"
@@ -656,7 +656,7 @@
     ],
     "OnBlock": [
         false,
-        "Lime Glass"
+        "Lime stained Glass"
     ],
     "Skip": [
         "Round4"
@@ -720,7 +720,7 @@
     ],
     "OnBlock": [
         false,
-        "Jack o'Lantern"
+        "jack_o_lantern"
     ],
     "Skip": [
         "Round4"
@@ -758,7 +758,7 @@
         "Snow"
     ],
     "Skip": [
-        "note_block"
+        "Noteblock"
     ],
     "Skip": [
         "Sponge"
@@ -947,7 +947,7 @@
     ],
     "OnBlock": [
         false,
-        "Noteblock"
+        "note_block"
     ],
     "Skip": [
         "Round5"
