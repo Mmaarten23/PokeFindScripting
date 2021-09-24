@@ -11,10 +11,11 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjQ2ODk4MzM0NiwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jOGMxOTY4Yjk1NmFiMjQwNWNjMzcwNzc5ZWQzM2QyNjVmMjQ2N2M1YjQ1NDQ1NjQ4MDgzNGEwZTU5YWUxOGU5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+            "signature": "AiCe7THAfvIQiL6YYsjhF2t0ltgMwn8DLvTkuzeY08hmh1dMfkKQXSF60lNqnztXZEE2hu+Y3S4Yhzd9jzMEWl+kTPhhNhdrCvCrLRgfGZEJG7YTinyuZ4P/As9OjaAvgnjjZp0THs5IC64J3QgX4Wx5qSxLNlXSrmX+lQMlbKCwbU2kLEhahoB9qPN1/VTLqi5Lwupg2SH0j1TJfXFyI94ZMMSEFN/IMa3jkMkZbDVtJqjhiS/xjo8Or8FPhQMHnLQ9fk8FsNylqWTdwVzk90iMgF6/VExYzSfkVH/+j7dQfzoayJLGhSu0GbHMfwgqdqlPWGCJvlpqBvDYa1kQxuND2i4Xe8uHitZtOM7C7SI9AXc3fVpAUeKE9XGqpQ+OngLbpn0oVlQENoJ0Zet7JbYndQVKW4bWB9Mz61cWKpHagznovJn7ZIA38lx0m5GEn6KXGqPVUoGkuht3VopIobvC08J2bW1LrXxzAk6AboGCW0oxFDXn8D4JRfwiiZGoshLG5AAyU29Ke99hg0M6VI0gohRWImrV1VWteW1AO8C33SBArX6yQHU13ofsQewvFw1kVQufoS4zhu5XrkK8sFlBwFogH3ATzuMECAUHf/2t6G79+6mGekNeS9PQ2Ia2BXa+OwBF/4IBm/FH2UNcKgqQXzQLqUOjCoTFk3c3Y4Y="
         }
     },
+    "Server": [],
     "Hide": "guide",
     "Comment": "Restart",
     "Show": "guide",
