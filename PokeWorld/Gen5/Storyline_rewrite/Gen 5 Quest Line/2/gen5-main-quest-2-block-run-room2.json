@@ -23,7 +23,6 @@
 
     "Show": "guide",
     "HighlightClickEntity": "guide",
-    "NotCompleted": [],
     "Dialog": [
         {
             "&2&lGuide": "Ready for Room 2? Here we go!"
