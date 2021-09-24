@@ -23,6 +23,13 @@
     },
 
     "CreateEntity": {
+        "key": "bird_dummy",
+        "location": [1188.6, 50.0, -87.9, 142, -11],
+        "entity": "ARMOR_STAND",
+        "visible": false
+    },
+
+    "CreateEntity": {
         "key": "bird1",
         "location": [1188.6, 50.0, -87.9, 142, -11],
         "pokemon": "togekiss",
@@ -206,7 +213,10 @@
 
     "CreateEntity": {
         "key": "tribe_Member",
-        "name": "&6&lAncient Tribe Member",
+        "name": [
+            "&6&lDahli",
+            "&7Ancient Tribe Member"
+        ],
         "location": {
             "x": 1082.5,
             "y": 6.0,
@@ -220,9 +230,25 @@
         }
     },
 
+    "CreateEntity": {
+        "key": "rival",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": 934.5,
+            "y": 47.0,
+            "z": -549.3,
+            "yaw": 107,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDE1NTU1MDQwMTMsInByb2ZpbGVJZCI6ImMxZWQ5N2Q0ZDE2NzQyYzI5OGI1ODFiZmRiODhhMjFmIiwicHJvZmlsZU5hbWUiOiJ5b2xvX21hdGlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTUyYmZiNGVmNjM3MGE0ZTFjYjg4M2VmYjdjYzIzYTliOGViMDAwNjEyMmEzZTlmNTM4ZDE0NDE2MTQ0MGYxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+            "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
+        }
+    },
 
 
-    "CreateCustomEntity": ["bird", "bird1", "lewis_bird_seat", "player_bird_seat"],
+
+    "CreateCustomEntity": ["bird", "bird_dummy", "bird1", "lewis_bird_seat", "player_bird_seat"],
 
     "Show": {
         "lewis_bridge": true,
@@ -375,11 +401,10 @@
         0.7
     ],
     "Wait": 2.0,
-    "MoveEntity": ["running", 925.7, 48.0, -559.3, 0.1, false],
-    "Hide": "running",
-    "Hide": "running_pokemon",
+    "MoveEntity": ["running", 925.7, 48.0, -559.3, 0.2, false],
     "Unfreeze": [],
     "StopCinematic": [],
+    "Hide": "running",
     "Wait": 2,
     "Fade": [],
     "Teleport": [1028.3, 50.0, -279.6, -138],
@@ -570,6 +595,9 @@
             "&2&lGuide": "Perfect! Let's go! Talk to me inside the first room when you're ready to start."
         }
     ],
+
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", 1056.0, 22.0, -537.1, 50, 0.6],
     "Hide": "guide",
     "Wait": 20,
     "Objective": ["Talk to the Guide in the first room", 8],
@@ -632,7 +660,8 @@
             "&6&lDahli": "Disrespect!",
             "[PLAYER]": "I...",
             "&6&lDahli": "Battle me! And you will see who is the strongest here!"
-        }
+        },
+        90
     ],
     "Unfreeze": [],
     "Wait": 1.0,
@@ -724,10 +753,133 @@
         {
             "&3&lStatera HQ": "Hello there, this is Statera HQ. How may I help you?",
             "[PLAYER]": "Hello, it's [PLAYER]... I'm just calling to see what's going on!",
-            "[PLAYER]": "I'm in [TOWN] and all the Pokémon have gone rogue!",
+            "[PLAYER]": "I'm in Pure Harbor and all the Pokémon have gone rogue!",
             "&3&lStatera HQ": "Don't worry about it [PLAYER], we'll have this handled soon.",
-            "&3&lStatera HQ": "Tell the village to stay indoors, we'll have the Pokémon calm soon and everything will be back to normal!"
-        }
-    ]
+            "&3&lStatera HQ": "Tell the village to stay indoors, we'll have the Pokémon calm soon and everything will be back to normal!",
+            "[PLAYER]": "Are you sure?",
+            "&3&lStatera HQ": "Yes, You take care of the villagers and we will take care of the pokémon.",
+            "[PLAYER]": "Alright, thank you for the confirmation."
+        },
+        90
+    ],
+    "Hide": "running_pokemon",
+    "Wait": 10,
+    "Objective": ["Check on the Citizen who was trapped in the house", 9],
+    "HighlightClickEntity": "mike",
+    "Dialog": [
+        {
+            "&e&lMike": "You're back? Did you figure it out?",
+            "[PLAYER]": "Not really... But &3Statera&r said everything will be back to normal soon!",
+            "&e&lMike": "Oh, thank goodness! &3Statera&r really said that?",
+            "&e&lMike": "That's such a relief... Thank you so much...",
+            "&e&lMike": "I never caught your name...",
+            "[PLAYER]": "I'm [PLAYER]",
+            "&e&lMike": "What a lovely name... My name is &eMike&r."
+        },
+        90
+    ],
+    "ProgressiveDialog": [
+        {
+            "&e&lMike": "It feels amazing to just go outside again!"
+        },
+        90
+    ],
+    "MoveEntity": ["mike", 925.7, 48.0, -559.3, 0.1, false],
+    "MoveEntity": ["rival", 927.0, 46.9, -549.7, 0.1, false],
+    "Wait": 20,
+    "Dialog": [
+        {
+            "&d&lDanielle": "Hey [PLAYER]! What happened here?",
+            "[PLAYER]": "The Pokémon here were out of control and attacking everyone!",
+            "&d&lDanielle": "Yeah... I just came from the west and the same was occurring in that town as well...",
+            "&d&lDanielle": "I only managed to faint some Pokémon though, I never ran into any &3Statera&r employees.",
+            "&d&lDanielle": "It ended pretty suddenly. Well hey, at least it stopped here!",
+            "&d&lDanielle": "Probably no thanks to you.",
+            "[PLAYER]": "Excuse me?",
+            "&d&lDanielle": "I said what I said, miffed?",
+            "&d&lDanielle": "We're in a new region now, [PLAYER].",
+            "&d&lDanielle": "I bet I'm a lot stronger than you are, let's go!"
+        },
+        90
+    ],
+    "Wait": 20,
+    "Objective": ["Have a friendly battle with your rival", 8],
+    "BattleNpc": [
+        "rival",
+        {
+            "&d&lDanielle": "I sure hope you're ready to face your defeat!"
+        },
+        {
+            "&d&lDanielle": "I guess I haven't trained enough..."
+        },
+        {
+            "&d&lDanielle": "Did you see that?! My skills are beyond your imagination!"
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            }
+        ]
+    ],
+
+    "Wait": 20,
+    "Dialog": [
+        {
+            "&d&lDanielle": "Next time for sure...",
+            "&d&lDanielle": "It won't be like &6Shiloh&r!"
+        },
+        90
+    ],
+    "Wait": 20,
+    "Hide": "rival",
+    "Hide": "mike",
+    "Complete": [],
+    "Wait": 1,
+    "GiveCoins": 1,
+    "GiveTokens": 1,
+    "GiveTrainerExperience": 1,
+    "SetTitle": [
+        "&a&lMain questline",
+        "&7Part 2 complete",
+        true
+    ],
+    "PlaySound": "ui_toast_challenge_complete"
 
 }

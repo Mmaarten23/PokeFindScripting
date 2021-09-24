@@ -1,0 +1,20 @@
+{
+    "Key": "call_easter_egg",
+    "Author": "Mmaarten",
+
+    "Command": "call statera hq",
+    "If": [],
+    "In": "gen5_main_quest_2",
+    "Leave": [],
+    "Dummy": [],
+    "SendMessage": "",
+    "SendMessage": " &3&lStatera HQ",
+    "SendMessage": " You have reached Statera HQ. Our offices",
+    "SendMessage": " are currently closed. Please try again at",
+    "SendMessage": " a later point or leave a message after the",
+    "SendMessage": " beep!",
+    "SendMessage": "",
+    "Wait": 60,
+
+    "PlaySound": ["entity_player_levelup", 1.0, 1.0]
+}
