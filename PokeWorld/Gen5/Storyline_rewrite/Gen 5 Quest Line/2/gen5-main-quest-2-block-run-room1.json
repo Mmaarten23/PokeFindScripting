@@ -20,6 +20,7 @@
 
     "Comment": "Restart",
     "Show": "guide",
+    "Wait": 1,
     "HighlightClickEntity": "guide",
     "Dialog": [
         {

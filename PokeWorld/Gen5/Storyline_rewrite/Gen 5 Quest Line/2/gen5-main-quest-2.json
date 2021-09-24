@@ -270,14 +270,16 @@
         "Shrine_Pokemon3": false,
         "Shrine_Pokemon4": false,
         "guide": false,
-        "tribe_member": false
+        "tribe_member": false,
+        "rival": false
     },
+
+    "Hide": "bird1",
 
 
     "HighlightClickEntity": "lewis_bridge",
     "Comment": "\"NotCompleted\": [\"gen5_main_quest_2\", \"\"],\n  \"Completed\": [\"GYM1\", true, \"\"],\n  \"Completed\": [\"gen5_main_quest_1\", true, \"\"],",
 
-    "Show": "lewis_bridge",
     "Dialog": [
         {
             "&7&lLewis": "Hey trainer! Are you planning to cross that bridge?",
@@ -372,12 +374,12 @@
     "Hide": "bird",
     "Fade": [],
     "Teleport": [934.4, 48.6, -545.1, 124, 15],
-    "Wait": 8,
+    "Wait": 4,
     "Teleport": [934.4, 48.6, -545.1, 124, 15],
     "Wait": 4,
+    "Look": [124, 15],
     "Freeze": true,
     "Wait": 4,
-    "Look": [124, 15],
     "Show": "running",
     "Show": "running_pokemon",
     "Wait": 2.0,
@@ -454,7 +456,6 @@
         1112, 1, -693,
         1086, 51, -722
     ],
-    "Hide": "mike",
     "Wait": 20,
     "Dialog": [
         {
