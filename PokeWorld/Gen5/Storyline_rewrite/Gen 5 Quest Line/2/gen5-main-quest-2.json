@@ -109,7 +109,7 @@
 
     "CreateEntity": {
         "key": "bird2",
-        "location": [1031.5, 50.0, -281.8, 142, -11],
+        "location": [1031.5, 49.5, -281.8, 142, -11],
         "pokemon": "togekiss",
         "look": false
     },
