@@ -249,6 +249,8 @@
 
 
     "CreateCustomEntity": ["bird", "bird_dummy", "bird1", "lewis_bird_seat", "player_bird_seat"],
+    "Server": [],
+    "TeleportEntity": ["bird", 1188.6, 40.0, -87.9 ],
 
     "Show": {
         "lewis_bridge": true,
@@ -299,6 +301,7 @@
     "AnimateEntity": ["lewis_bridge", "Swing Main Hand"],
     "Wait": 0.5,
     "Show": "bird1",
+    "TeleportEntity": ["bird", 1188.6, 50.0, -87.9],
     "MoveEntity": ["lewis_bridge", 1189.0, 51.0, -88.4, 0.2, false],
     "Hide": "lewis_bridge",
     "Show": "lewis_bird",
