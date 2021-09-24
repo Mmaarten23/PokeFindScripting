@@ -102,7 +102,7 @@
 
     "CreateEntity": {
         "key": "bird2",
-        "location": [1031.5, 45.0, -281.8, 142, -11],
+        "location": [1031.5, 45.5, -281.8, 142, -11],
         "pokemon": "togekiss",
         "look": false
     },
@@ -215,6 +215,7 @@
         "lewis_bird": false,
         "player_bird_seat": true,
         "player_bird": false,
+        "bird": false,
         "disaster_1": false,
         "disaster_1_pokemon": false,
         "running": false,
@@ -263,7 +264,7 @@
         }
     ],
     "Objective": ["Join Lewis for a ride across the bridge.", 2],
-    "RegionEntry": [
+    "InRegion": [
         1187, 54, -89,
         1190, 51, -87
     ],
@@ -331,6 +332,7 @@
     "Teleport": [934.4, 48.6, -545.1, 124, 15],
     "Wait": 8,
     "Teleport": [934.4, 48.6, -545.1, 124, 15],
+    "Wait": 2,
     "Freeze": true,
     "Show": "running",
     "Show": "running_pokemon",
@@ -415,12 +417,12 @@
             "[PLAYER]": "Hmm... That door seems to be locked",
             "[PLAYER]": "What's this? It looks like a puzzle of some sort...",
             "[PLAYER]": "Are there instructions somewhere?",
-            "[PLAYER]": "I guess I have to pull this lever to get started..."
+            "[PLAYER]": "I guess I have to pull a lever to get started..."
         },
         90
     ],
     "Wait": 20,
-    "Objective": ["Lead the water to the gate using the barriers (Pull the lever to get started)", 6],
+    "Objective": ["Lead the water to the gate using the barriers (Pull a lever to get started)", 6],
     "Start": "gen5_main_quest_2_water_barriers",
     "Start": "gen5_main_quest_2_water_update",
     "Hold": [],
@@ -525,7 +527,7 @@
         ]
     ],
     "Wait": 10,
-    "SendMessage": "&e&lPokemon 4/4 defeated!",
+    "SendMessage": "&ePokemon 4/4 defeated!",
     "Wait": 10,
     "Dialog": [
         {
