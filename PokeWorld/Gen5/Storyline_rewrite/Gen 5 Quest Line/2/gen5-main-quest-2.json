@@ -250,7 +250,7 @@
 
     "CreateCustomEntity": ["bird", "bird_dummy", "bird1", "lewis_bird_seat", "player_bird_seat"],
     "Server": [],
-    "TeleportEntity": ["bird", 1188.6, 40.0, -87.9 ],
+    "TeleportEntity": ["bird", 1188.6, 40.0, -87.9],
 
     "Show": {
         "lewis_bridge": true,
@@ -374,6 +374,7 @@
     "Leave": "gen5_main_quest_2_cin1_cam",
     "Cinematic": [],
     "Unfreeze": [],
+    "Wait": 2,
     "Hide": "bird",
     "Fade": [],
     "Teleport": [934.4, 48.6, -545.1, 124, 15],
@@ -590,8 +591,8 @@
         {
             "&2&lGuide": "Hi there! How can I help you today?",
             "[PLAYER]": "I'm trying to figure out what's going on with the Pokémon.",
-            "&2&lGuide": "Ah, makes sense. Well, I think I can help a bit!",
-            "&2&lGuide": "This next room can be a bit confusing so I'll be here to help you!",
+            "&2&lGuide": "Ah, makes sense. Well, I was doing that too but I got stuck in the next room.",
+            "&2&lGuide": "I think I can help you find your way through it though. You look way faster than me!",
             "[PLAYER]": "What's in the next room?",
             "&2&lGuide": "I like to call it &oBlock Run&r! You have 5 seconds to stand on the correct block!",
             "&2&lGuide": "I'll be here to tell you which block to stand on, but it's up to you to stand on it in time.",
@@ -766,6 +767,10 @@
         },
         90
     ],
+    "SendMessage": "&7&oThe magic shrine offers you a quick teleport to its exit.",
+    "SendMessageOptions": ["&a&lAccept", "&c&lReject"],
+    "Teleport": [1103.5, 77.0, -665.5, 0, 0],
+    "Dummy": [],
     "Hide": "running_pokemon",
     "Wait": 10,
     "Objective": ["Check on the Citizen who was trapped in the house", 9],
@@ -788,8 +793,10 @@
         },
         90
     ],
-    "MoveEntity": ["mike", 925.7, 48.0, -559.3, 0.1, false],
+    "Show": "rival",
+    "MoveEntity": ["mike", 925.5, 48.0, -553.0, 0.2, false],
     "Wait": 20,
+
     "Dialog": [
         {
             "&d&lDanielle": "Hey [PLAYER]! What happened here?",
@@ -879,8 +886,8 @@
     "GiveTokens": 1,
     "GiveTrainerExperience": 1,
     "SetTitle": [
-        "&a&lMain questline",
-        "&7Part 2 complete",
+        "&b&lPokémon on the loose",
+        "&7! Quest complete !",
         true
     ],
     "PlaySound": "ui_toast_challenge_complete"
