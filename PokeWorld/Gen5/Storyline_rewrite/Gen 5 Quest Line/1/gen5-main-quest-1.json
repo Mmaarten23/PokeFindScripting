@@ -1,679 +1,760 @@
 {
-  "Key": "gen5_main_quest_1",
-  "Name": "&d&lMain Quest 1",
-  "Description": "After crossing the bridge over to Breezelton Village you get a call from Professor Hemlock regarding some Pokémon in the area!",
-  "AllowRejoining": true,
-  "Icon": {
-    "material": "Book"
+  "Key":"gen5_main_quest_1",
+  "Name":"&d&lMain Quest 1",
+  "Description":"After crossing the bridge over to Breezelton Village you get a call from Professor Hemlock regarding some Pokémon in the area!",
+  "AllowRejoining":true,
+  "Icon":{
+    "material":"Book"
   },
-  "CreateEntity": {
-    "key": "oldman",
-    "name": "&7Old Man",
-    "location": {
-      "world": "world",
-      "x": 1019.5,
-      "y": 28.0,
-      "z": 63.5,
-      "yaw": 109,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"oldman",
+    "name":"&7Old Man",
+    "location":{
+      "world":"world",
+      "x":1019.5,
+      "y":28.0,
+      "z":63.5,
+      "yaw":109,
+      "pitch":0
     },
-    "skin": "old_man",
-    "look": false
+    "skin":"old_man",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "cutscene1",
-    "location": {
-      "world": "world",
-      "x": -346.5,
-      "y": 32.0,
-      "z": 57.5,
-      "yaw": 287,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"cutscene1",
+    "location":{
+      "world":"world",
+      "x":-346.5,
+      "y":32.0,
+      "z":57.5,
+      "yaw":287,
+      "pitch":0
     },
-    "skin": {
-      "texture": "",
-      "signature": ""
+    "skin":{
+      "texture":"",
+      "signature":""
     },
-    "look": false
+    "look":false
   },
-  "CreateEntity": {
-    "key": "cutscene2",
-    "location": {
-      "world": "world",
-      "x": -348.5,
-      "y": 32.0,
-      "z": 59.5,
-      "yaw": 270,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"cutscene2",
+    "location":{
+      "world":"world",
+      "x":-348.5,
+      "y":32.0,
+      "z":59.5,
+      "yaw":270,
+      "pitch":0
     },
-    "skin": {
-      "texture": "",
-      "signature": ""
+    "skin":{
+      "texture":"",
+      "signature":""
     },
-    "look": false
+    "look":false
   },
-  "CreateEntity": {
-    "key": "cutscene3",
-    "location": {
-      "world": "world",
-      "x": -346.5,
-      "y": 32.0,
-      "z": 61.5,
-      "yaw": 260,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"cutscene3",
+    "location":{
+      "world":"world",
+      "x":-346.5,
+      "y":32.0,
+      "z":61.5,
+      "yaw":260,
+      "pitch":0
     },
-    "skin": {
-      "texture": "",
-      "signature": ""
+    "skin":{
+      "texture":"",
+      "signature":""
     },
-    "look": false
+    "look":false
   },
-  "CreateEntity": {
-    "key": "pokemon1",
-    "name": "",
-    "location": {
-      "world": "world",
-      "x": 977.0,
-      "y": 64.0,
-      "z": 63.1,
-      "yaw": 295,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"pokemon1",
+    "name":"&",
+    "location":{
+      "world":"world",
+      "x":977.0,
+      "y":64.0,
+      "z":63.1,
+      "yaw":295,
+      "pitch":0
     },
-    "entity": "Armor Stand",
-    "pokemon": "weedle",
-    "look": false
+    "entity":"Armor Stand",
+    "pokemon":"weedle",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "pokemon2",
-    "name": "",
-    "location": {
-      "world": "world",
-      "x": 942.1,
-      "y": 50.0,
-      "z": 52.2,
-      "yaw": 230,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"pokemon2",
+    "name":"&",
+    "location":{
+      "world":"world",
+      "x":942.1,
+      "y":50.0,
+      "z":52.2,
+      "yaw":230,
+      "pitch":0
     },
-    "entity": "Armor Stand",
-    "pokemon": "weedle",
-    "look": false
+    "entity":"Armor Stand",
+    "pokemon":"weedle",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "pokemon3",
-    "name": "",
-    "location": {
-      "world": "world",
-      "x": 959.9,
-      "y": 33.0,
-      "z": 88.5,
-      "yaw": 64,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"pokemon3",
+    "name":"&",
+    "location":{
+      "world":"world",
+      "x":959.9,
+      "y":33.0,
+      "z":88.5,
+      "yaw":64,
+      "pitch":0
     },
-    "entity": "Armor Stand",
-    "pokemon": "weedle",
-    "look": false
+    "entity":"Armor Stand",
+    "pokemon":"weedle",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "agent",
-    "name": "&7&lStatera Agent",
-    "location": {
-      "world": "world",
-      "x": 1159.5,
-      "y": 57.0,
-      "z": -124.5,
-      "yaw": 135,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"agent",
+    "name":"&7&lStatera Agent",
+    "location":{
+      "world":"world",
+      "x":1159.5,
+      "y":57.0,
+      "z":-124.5,
+      "yaw":135,
+      "pitch":0
     },
-    "skin": {
-      "texture": "",
-      "signature": ""
+    "skin":{
+      "texture":"",
+      "signature":""
     },
-    "look": false
+    "look":false
   },
-  "CreateEntity": {
-    "key": "executive",
-    "name": "&4&lThomas",
-    "location": {
-      "world": "world",
-      "x": 784.2,
-      "y": 59.0,
-      "z": 442.3,
-      "yaw": 50,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"executive",
+    "name":"&4&lThomas",
+    "location":{
+      "world":"world",
+      "x":784.2,
+      "y":59.0,
+      "z":442.3,
+      "yaw":50,
+      "pitch":0
     },
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzM4MzU4NzA4OCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiCiAgICB9CiAgfQp9",
-      "signature": "wMBTNVjE/RKE55/UZDI8TBOW+wZxzico3LNWK4SGaqmJ/6+YLMZyDq9bwwgEgBoUctc7sMuZzY7hdrRaqYO7DZwjJ0jdgDT55dQhvZw99Ci+QhzRxvFYvJ/NfA4XkfaX6zFuaEmD27goO0gsGoqADcGSacggtGZLqbpWsEYROLLBJd8oMqHH8rAkq71zVEYU5DHnfXTXfCIa/0CpGnlX+n0nSEr9WSYOP2075w/aAkI6XJOLIC82SfpjqsJgWuJKjbEPuj5WrtsEfiuhScl79dlcMCBG2qHVS4Ab/k9KBc/0GsZy9V3YXLiVtTg88OouFv29VrSSK7IbaxT1O0Ok50ErOqZzss5M75DyG28dtJH7PHiLYWxPwj3rcLw21BfkSAdmx50orLJDpIlXzRsJQmLlX5HAYT5E62W9gOkDhxnTCW7GyNDfhpAxycIhaMy9R8NPtZq0HtniaQ57AdxI11saRVL0+L7qBpCU6Oze/J2jySeLdFBcLnKnV7u66BmgLjEYG9AuVd4kPOsa0LmvoZDlklQZ7IAQEfg6le1JvgGZevQ6yHpdHnRQUBAzpSfE36FSwaYtSkrgJDGODlC8l8ay9fsr2EszJJPamOD4J2WguYWx2vhpnIYJDFU2icAt93HSMiN8REEOI8qDt28j9gdXYihQZgX1plLFMxwp6iA="
+    "skin":{
+      "texture":"ewogICJ0aW1lc3RhbXAiIDogMTYwNzM4MzU4NzA4OCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiCiAgICB9CiAgfQp9",
+      "signature":"wMBTNVjE/RKE55/UZDI8TBOW+wZxzico3LNWK4SGaqmJ/6+YLMZyDq9bwwgEgBoUctc7sMuZzY7hdrRaqYO7DZwjJ0jdgDT55dQhvZw99Ci+QhzRxvFYvJ/NfA4XkfaX6zFuaEmD27goO0gsGoqADcGSacggtGZLqbpWsEYROLLBJd8oMqHH8rAkq71zVEYU5DHnfXTXfCIa/0CpGnlX+n0nSEr9WSYOP2075w/aAkI6XJOLIC82SfpjqsJgWuJKjbEPuj5WrtsEfiuhScl79dlcMCBG2qHVS4Ab/k9KBc/0GsZy9V3YXLiVtTg88OouFv29VrSSK7IbaxT1O0Ok50ErOqZzss5M75DyG28dtJH7PHiLYWxPwj3rcLw21BfkSAdmx50orLJDpIlXzRsJQmLlX5HAYT5E62W9gOkDhxnTCW7GyNDfhpAxycIhaMy9R8NPtZq0HtniaQ57AdxI11saRVL0+L7qBpCU6Oze/J2jySeLdFBcLnKnV7u66BmgLjEYG9AuVd4kPOsa0LmvoZDlklQZ7IAQEfg6le1JvgGZevQ6yHpdHnRQUBAzpSfE36FSwaYtSkrgJDGODlC8l8ay9fsr2EszJJPamOD4J2WguYWx2vhpnIYJDFU2icAt93HSMiN8REEOI8qDt28j9gdXYihQZgX1plLFMxwp6iA="
     },
-    "look": false
+    "look":false
   },
-  "CreateEntity": {
-    "key": "professor",
-    "name": "&c&lProfessor Hemlock",
-    "location": {
-      "world": "world",
-      "x": 1149.5,
-      "y": 58.0,
-      "z": -136.5,
-      "yaw": 318,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"professor",
+    "name":"&c&lProfessor Hemlock",
+    "location":{
+      "world":"world",
+      "x":1149.5,
+      "y":58.0,
+      "z":-136.5,
+      "yaw":318,
+      "pitch":0
     },
-    "skin": "professor_hemlock",
-    "look": false
+    "skin":"professor_hemlock",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "audino",
-    "name": "&d&lAudino",
-    "location": {
-      "world": "world",
-      "x": 1019.9,
-      "y": 28.0,
-      "z": 59.1,
-      "yaw": 56,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"audino",
+    "name":"&d&lAudino",
+    "location":{
+      "world":"world",
+      "x":1019.9,
+      "y":28.0,
+      "z":59.1,
+      "yaw":56,
+      "pitch":0
     },
-    "entity": "Armor_Stand",
-    "pokemon": "audino",
-    "look": false
+    "entity":"Armor_Stand",
+    "pokemon":"audino",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "kyogre1",
-    "location": {
-      "world": "world",
-      "x": -339.9,
-      "y": 33.0,
-      "z": 57.9,
-      "yaw": 79,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"kyogre1",
+    "location":{
+      "world":"world",
+      "x":-339.9,
+      "y":33.0,
+      "z":57.9,
+      "yaw":79,
+      "pitch":0
     },
-    "entity": "Armor_Stand",
-    "pokemon": "Kyogre",
-    "look": false
+    "entity":"Armor_Stand",
+    "pokemon":"Kyogre",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "kyogre2",
-    "location": {
-      "world": "world",
-      "x": 971.5,
-      "y": 44.9,
-      "z": 231.5,
-      "yaw": 121,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"kyogre2",
+    "location":{
+      "world":"world",
+      "x":971.5,
+      "y":44.9,
+      "z":231.5,
+      "yaw":121,
+      "pitch":0
     },
-    "entity": "Armor_Stand",
-    "pokemon": "Kyogre",
-    "look": false
+    "entity":"Armor_Stand",
+    "pokemon":"Kyogre",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "groudon1",
-    "location": {
-      "world": "world",
-      "x": -339.9,
-      "y": 32.0,
-      "z": 61.2,
-      "yaw": 103,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"groudon1",
+    "location":{
+      "world":"world",
+      "x":-339.9,
+      "y":32.0,
+      "z":61.2,
+      "yaw":103,
+      "pitch":0
     },
-    "entity": "Armor_Stand",
-    "pokemon": "Groudon",
-    "look": false
+    "entity":"Armor_Stand",
+    "pokemon":"Groudon",
+    "look":false
   },
-  "CreateEntity": {
-    "key": "groudon2",
-    "location": {
-      "world": "world",
-      "x": 1065.5,
-      "y": 46.0,
-      "z": 280.0,
-      "yaw": 332,
-      "pitch": 0
+  "CreateEntity":{
+    "key":"groudon2",
+    "location":{
+      "world":"world",
+      "x":1065.5,
+      "y":46.0,
+      "z":280.0,
+      "yaw":332,
+      "pitch":0
     },
-    "entity": "Armor_Stand",
-    "pokemon": "Groudon",
-    "look": false
+    "entity":"Armor_Stand",
+    "pokemon":"Groudon",
+    "look":false
   },
-  "Show": {
-    "oldman": false,
-    "cutscene1": false,
-    "cutscene2": false,
-    "cutscene3": false,
-    "audino": false,
-    "professor": false,
-    "agent": false,
-    "executive": true,
-    "pokemon1": false,
-    "pokemon2": false,
-    "pokemon3": false,
-    "kyogre1": false,
-    "kyogre2": false,
-    "groudon1": false,
-    "groudon2": false
+  "Show":{
+    "oldman":false,
+    "cutscene1":false,
+    "cutscene2":false,
+    "cutscene3":false,
+    "audino":false,
+    "professor":false,
+    "agent":false,
+    "executive":true,
+    "pokemon1":false,
+    "pokemon2":false,
+    "pokemon3":false,
+    "kyogre1":false,
+    "kyogre2":false,
+    "groudon1":false,
+    "groudon2":false
   },
-  "Quest": true,
-  "HighlightClickEntity": "executive",
-  "HasTrainerLevel": [
+  "Quest":true,
+  "HighlightClickEntity":[
+    "executive"
+  ],
+  "HasTrainerLevel":[
     10,
     "&cYou must be at least Trainer Level 10 to do this quest!",
     false
   ],
-  "If": [],
-  "NotCompleted": [],
-  "Skip": "first_time",
-  "Dummy": [],
-  "RandomDialog": [
+  "NotCompleted":[
+  ],
+  "Dialog":[
     {
-      "&4&lThomas": "I love visiting this bridge when I need some inspiration."
-    },
-    {
-      "&4&lThomas": "These bridges are the best thing that happened to this region in ages!",
-      "&4&lThomas": "Just imagine what we would be without them."
-    },
-    {
-      "&4&lThomas": "Shouldn't you be working for the professor?"
+      "&4&lThomas":"Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?",
+      "[PLAYER]":"A little bit... What are you doing?",
+      "&4&lThomas":"What am I doing? Oh-",
+      "&4&lThomas":"I grew up near here, so I was just admiring the view. You know this bridge was the first bridge built in Zeinova?",
+      "&4&lThomas":"It was the first step to connecting the islands together that make up &lZeinova&r. &3&lStatera&r first came to Zeinova about 100 years ago, yaknow?",
+      "&4&lThomas":"The original CEO had a dream of connecting the islands- it didn't pan out well...",
+      "[PLAYER]":"Why not?",
+      "&4&lThomas":"You want to know why?",
+      "&4&lThomas":"Well... he dreamed of creating new land masses and there are very few ways of accomplishing that.",
+      "&4&lThomas":"The only way possible to create the large amount he wanted was by the use of the Pokémon &9Kyogre&r and &cGroudon&r."
     }
   ],
-  "Dialog": [
-    {
-      "&4&lThomas": "I already told you the story about this bridge though!"
-    },
-    90
+  "Wait":[
+    20
   ],
-  "SendMessage": "&4You already completed this part of the main storyline.",
-  "Leave": [],
-
-  "Comment": "first_time",
-  "Dialog": [
-    {
-      "&4&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?",
-      "[PLAYER]": "A little bit... What are you doing?",
-      "&4&lThomas": "What am I doing? Oh-",
-      "&4&lThomas": "I grew up near here, so I was just admiring the view. You know this bridge was the first bridge built in Zeinova?",
-      "&4&lThomas": "It was the first step to connecting the islands together that make up &lZeinova&r. &3&lStatera&r first came to Zeinova about 100 years ago, yaknow?",
-      "&4&lThomas": "The original CEO had a dream of connecting the islands- it didn't pan out well...",
-      "[PLAYER]": "Why not?",
-      "&4&lThomas": "You want to know why?",
-      "&4&lThomas": "Well... he dreamed of creating new land masses and there are very few ways of accomplishing that.",
-      "&4&lThomas": "The only way possible to create the large amount he wanted was by the use of the Pokémon &9Kyogre&r and &cGroudon&r."
-    },
-    90
-  ],
-  "Wait": 20,
-  "MoveEntity": [
+  "MoveEntity":[
     "executive",
-    780.5, 59.0, 439.9
+    780.5,
+    59.0,
+    439.9
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "&4&lThomas": "It was a disaster according to the old stories. Most of the stories no longer exist, but parents read them as bedtime stories now in a more... friendly way.",
-      "&4&lThomas": "That's a story for another day though, I suppose.",
-      "&4&lThomas": "25 years ago however, a new CEO took over and he began the project of Bridge Together. That's what we call it, heh.",
-      "&4&lThomas": "We've built bridges connecting all of the islands! Who would have thought it'd be that simple?",
-      "&4&lThomas": "We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance.",
-      "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also we're united to different islands...",
-      "&4&lThomas": "Well enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure. You can head on to the next island now!"
+      "&4&lThomas":"It was a disaster according to the old stories. Most of the stories no longer exist, but parents read them as bestime stories now in a more... friendly way.",
+      "&4&lThomas":"That's a story for another day though, I suppose.",
+      "&4&lThomas":"25 years ago however, a new CEO took over and he began the project of Bridge Together. That's what we call it, heh.",
+      "&4&lThomas":"We've built bridges connecting all of the islands! Who would have thought it'd be that simple?",
+      "&4&lThomas":"We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance.",
+      "&4&lThomas":"It's baffling that we've brought not only prosperity to the region, but also we're united to different islands...",
+      "&4&lThomas":"Well enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure. You can head on to the next island now!"
     },
-    90
+    60
   ],
-  "Wait": 20,
-  "Objective": ["Cross the bridge to the next island", 3],
-  "RegionEntry": [
-    880, 1, 376,
-    911, 100, 320
+  "Wait":[
+    20
   ],
-  "SendMessage": [
+  "Objective":[
+    "Cross the bridge to the next island",
+    3
+  ],
+  "RegionEntry":[
+    880,
+    1,
+    376,
+    911,
+    100,
+    320
+  ],
+  "SendMessage":[
     "&aIncoming Pokégear Call>&r Professor Hemlock &7(Type /accept to answer)"
   ],
-  "Wait": 20,
-  "Objective": [
+  "Wait":[
+    20
+  ],
+  "Objective":[
     "Answer Professor Hemlock's call by typing /accept",
     7
   ],
-  "Command": "accept",
-  "SendMessage": "&7Connecting...",
-  "Wait": 10,
-  "SendMessage": "&aConnected",
-  "Wait": 30,
-  "Dialog": [
-    {
-      "Professor Hemlock": "Hey [PLAYER]! Are you still nearby? I need a favour!",
-      "Professor Hemlock": "My new assistant from &3Statera&r just informed me of a rumour they've been hearing around town.",
-      "[PLAYER]": "Your assistant?",
-      "Professor Hemlock": "What was that?",
-      "Professor Hemlock": "My assistant?",
-      "Professor Hemlock": "Yeah, yeah, I'll introduce you to them the next time you're around! But anyways-!",
-      "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
-      "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of workjust by this report?",
-      "Professor Hemlock": "Mindblowing!",
-      "Professor Hemlock": "Anyways... Before I get carried away... This Pokémon is said to exude Human reactions to certain stimuli.",
-      "Professor Hemlock": "Like feeling confused, or hurt, or sad. It's astounding! Well.. I'm sure it's astounding.",
-      "Professor Hemlock": "It's only been described to be a pink colouring, with large blue eyes. I wonder if it's a Psychic type?",
-      "[PLAYER]": "Let me guess... You want me to check it out for you?",
-      "Professor Hemlock": "That would be wonderful!",
-      "Professor Hemlock": "Thanks again [PLAYER]! I can't wait to hear from you soon."
-    },
-    90
+  "Command":[
+    "accept"
   ],
-  "Wait": 20,
-  "Objective": ["Find the cave near Breezelton Village", 5],
-  "Show": {
-    "audino": true,
-    "oldman": true
-  },
-  "RegionEntry": [
-    975, 60, 72,
-    994, 75, 58
+  "SendMessage":[
+    "&7Connecting..."
   ],
-  "Show": {
-    "pokemon1": true
-  },
-  "Dialog": [
-    {
-      "[PLAYER]": "Hmm, this Pokémon seems to be guarding the cave! I have to get past it!"
-    }
-  ],
-  "Wait": 20,
-  "Objective": ["Battle the wild Pokémon", 3],
-  "HighlightClickEntity": "pokemon1",
-  "Show": {
-    "pokemon1": false
-  },
-  "BattleWildPokemon": [
-    977.0, 64.0, 63.1, 295,
-    [
-      {
-        "species": "weedle",
-        "level": 1,
-        "moves": [
-          "Celebrate",
-          "Celebrate",
-          "Celebrate",
-          "Celebrate"
-        ],
-        "ability": "Shield Dust",
-        "nature": "Timid"
-      }
-    ]
-  ],
-  "Objective": ["Continue through the cave and fight the remaining guardian Pokémon", 15],
-  "RegionEntry": [
-    950, 40, 39,
-    938, 59, 64
-  ],
-  "Show": {
-    "pokemon2": true
-  },
-  "HighlightClickEntity": "pokemon2",
-  "Show": {
-    "pokemon2": false
-  },
-  "BattleWildPokemon": [
-    942.1, 50.0, 52.2, 240,
-    [
-      {
-        "species": "weedle",
-        "level": 1,
-        "moves": [
-          "Celebrate",
-          "Celebrate",
-          "Celebrate",
-          "Celebrate"
-        ],
-        "ability": "Shield Dust",
-        "nature": "Timid"
-      }
-    ]
-  ],
-  "RegionEntry": [
-    943, 45, 80,
-    966, 30, 121
-  ],
-  "Show": {
-    "pokemon3": true
-  },
-  "HighlightClickEntity": "pokemon3",
-  "Show": {
-    "pokemon3": false
-  },
-  "BattleWildPokemon": [
-    959.9, 33.0, 88.5, 64,
-    [
-      {
-        "species": "weedle",
-        "level": 1,
-        "moves": [
-          "Celebrate",
-          "Celebrate",
-          "Celebrate",
-          "Celebrate"
-        ],
-        "ability": "Shield Dust",
-        "nature": "Timid"
-      }
-    ]
-  ],
-  "Wait": 20,
-  "Dialog": [
-    {
-      "[PLAYER]": "I wonder why they were trying to guard the cave..."
-    }
-  ],
-  "Wait": 20,
-  "Objective": ["Continue deeper into the cave", 5],
-  "RegionEntry": [
-    1010, 26, 72,
-    1026, 38, 50
-  ],
-  "EntityLookAtPlayer": "oldman",
-  "Wait": 20,
-  "Dialog": [
-    {
-      "&7Old Man": "You need to leave, right now!",
-      "[PLAYER]": "Not until I get the information I need for Professor Hemlock!",
-      "&7Old Man": "Then I guess we must battle!"
-    }
-  ],
-  "Wait": 20,
-  "Objective": ["Battle the Old Man", 71],
-  "HighlightClickEntity": "oldman",
-  "AutoBattleNpc": [
-    "oldman",
-    {
-      "&7Old Man": "Don't you think you've done enough?!"
-    },
-    {
-      "&7Old Man": "My battling skills seem to be a bit out of date..."
-    },
-    {
-      "&7Old Man": "&cLeave!"
-    },
-    [
-      {
-        "species": "weedle",
-        "level": 1,
-        "moves": [
-          "Celebrate",
-          "Celebrate",
-          "Celebrate",
-          "Celebrate"
-        ],
-        "ability": "Shield Dust",
-        "nature": "Timid"
-      },
-      {
-        "species": "weedle",
-        "level": 1,
-        "moves": [
-          "Celebrate",
-          "Celebrate",
-          "Celebrate",
-          "Celebrate"
-        ],
-        "ability": "Shield Dust",
-        "nature": "Timid"
-      },
-      {
-        "species": "weedle",
-        "level": 1,
-        "moves": [
-          "Celebrate",
-          "Celebrate",
-          "Celebrate",
-          "Celebrate"
-        ],
-        "ability": "Shield Dust",
-        "nature": "Timid"
-      }
-    ]
-  ],
-  "Teleport": [1015.5, 28.0, 61.5, 270, 0],
-  "Dialog": [
-    {
-      "&7Old Man": "&dAudino&r... It's okay girl.",
-      "&7Old Man": "A trainer knows when he's been bested.",
-      "&7Old Man": "But don't fret... It's okay! Did you see this trainer's Pokémon?",
-      "&7Old Man": "This trainer is nothing like &oThem&r.",
-      "&7Old Man": "Oh &dAudino&r! You're glowing so brightly, it's okay!"
-    }
-  ],
-  "Particle": [
-    "redstone:blue",
-    1019.5, 29.0, 58.5, 2
-  ],
-  "Wait": 5,
-  "Particle": [
-    "redstone:blue",
-    1019.5, 29.0, 58.5, 2
-  ],
-  "Dialog": [
-    {
-      "&7Old Man": "It's alright &dAudino&r, a defeat is a defeat.",
-      "&7Old Man": "There's no reason to be sad...",
-      "&7Old Man": "What's your name trainer?",
-      "[PLAYER]": "I'm [PLAYER]!",
-      "&7Old Man": "[PLAYER] huh? Interesting name. You must not be from &lZeinova&r.",
-      "&7Old Man": "It's pretty interesting here to say the least... What's it like from where you're from?",
-      "[PLAYER]": "Pretty weird... We had to deal with people like Cipher, who seemed to very much dislike me...",
-      "&7Old Man": "Wow, really? That Cipher fella sounds like a real jerk.",
-      "&7Old Man": "We haven't had any issues like that in &lZeinova&r unless you want to count in the tragedy of the Bridges.",
-      "[PLAYER]": "The Bridges don't seem like a tragedy, they're there for the greater good of &lZeinova&r, well at least that's what Thomas told me...",
-      "&7Old Man": "Of course a &3Statera&r employee would say what the Company has done is for the greater good, but let me tell you...",
-      "&7Old Man": "It's brought more problems than it should have.",
-      "&7Old Man": "This &dAudino&r for example, I found it injured when the first Bridge was being built 25 years ago.",
-      "&7Old Man": "It's still feeling the effects of that injury to this day..."
-    },
-    90
-  ],
-  "Look": [
-    "audino"
-  ],
-  "Wait": [
+  "Wait":[
     10
   ],
-  "Particle": [
+  "SendMessage":[
+    "&aConnected"
+  ],
+  "Wait":[
+    30
+  ],
+  "Dialog":[
+    {
+      "Professor Hemlock":"Hey [PLAYER]! Are you still nearby? I need a favour!",
+      "Professor Hemlock":"My new assistant from &3Statera&r just informed me of a rumour they've been hearing around town.",
+      "[PLAYER]":"Your assistant?",
+      "Professor Hemlock":"What was that?",
+      "Professor Hemlock":"My assistant?",
+      "Professor Hemlock":"Yeah, yeah, I'll introduce you to them the next time you're around! But anyways-!",
+      "Professor Hemlock":"There's a cave near Breezelton Village- a Pokémon is said to reside there.",
+      "Professor Hemlock":"It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of workjust by this report?",
+      "Professor Hemlock":"Mindblowing!",
+      "Professor Hemlock":"Anyways... Before I get carried away... This Pokémon is said to exude Human reactions to certain stimuli.",
+      "Professor Hemlock":"Like feeling confused, or hurt, or sad. It's astounding! Well.. I'm sure it's astounding.",
+      "Professor Hemlock":"It's only been described to be a pink colouring, with large blue eyes. I wonder if it's a Psychic type?",
+      "[PLAYER]":"Let me guess... You want me to check it out for you?",
+      "Professor Hemlock":"That would be wonderful!",
+      "Professor Hemlock":"Thanks again [PLAYER]! I can't wait to hear from you soon."
+    },
+    60
+  ],
+  "Wait":[
+    20
+  ],
+  "Objective":[
+    "Find the cave near Breezelton Village",
+    5
+  ],
+  "Show":{
+    "audino":true,
+    "oldman":true
+  },
+  "RegionEntry":[
+    975,
+    60,
+    72,
+    994,
+    75,
+    58
+  ],
+  "Show":{
+    "pokemon1":true
+  },
+  "Dialog":[
+    {
+      "[PLAYER]":"Hmm, this Pokémon seems to be guarding the cave! I have to get past!"
+    }
+  ],
+  "Wait":[
+    20
+  ],
+  "Objective":[
+    "Battle the wild Pokémon",
+    3
+  ],
+  "HighlightClickEntity":[
+    "pokemon1"
+  ],
+  "Show":{
+    "pokemon1":false
+  },
+  "BattleWildPokemon":[
+    977.0,
+    64.0,
+    63.1,
+    295,
+    [
+      {
+        "species":"weedle",
+        "level":1,
+        "moves":[
+          "Celebrate",
+          "Celebrate",
+          "Celebrate",
+          "Celebrate"
+        ],
+        "ability":"Shield Dust",
+        "nature":"Timid"
+      }
+    ]
+  ],
+  "Objective":[
+    "Continue through the cave and fight the remaining guardian Pokémon",
+    15
+  ],
+  "RegionEntry":[
+    950,
+    40,
+    39,
+    938,
+    59,
+    64
+  ],
+  "Show":{
+    "pokemon2":true
+  },
+  "HighlightClickEntity":[
+    "pokemon2"
+  ],
+  "Show":{
+    "pokemon2":false
+  },
+  "BattleWildPokemon":[
+    942.1,
+    50.0,
+    52.2,
+    240,
+    [
+      {
+        "species":"weedle",
+        "level":1,
+        "moves":[
+          "Celebrate",
+          "Celebrate",
+          "Celebrate",
+          "Celebrate"
+        ],
+        "ability":"Shield Dust",
+        "nature":"Timid"
+      }
+    ]
+  ],
+  "RegionEntry":[
+    943,
+    45,
+    80,
+    966,
+    30,
+    121
+  ],
+  "Show":{
+    "pokemon3":true
+  },
+  "HighlightClickEntity":[
+    "pokemon3"
+  ],
+  "Show":{
+    "pokemon3":false
+  },
+  "BattleWildPokemon":[
+    959.9,
+    33.0,
+    88.5,
+    64,
+    [
+      {
+        "species":"weedle",
+        "level":1,
+        "moves":[
+          "Celebrate",
+          "Celebrate",
+          "Celebrate",
+          "Celebrate"
+        ],
+        "ability":"Shield Dust",
+        "nature":"Timid"
+      }
+    ]
+  ],
+  "Wait":[
+    20
+  ],
+  "Freeze":[
+  ],
+  "Dialog":[
+    {
+      "[PLAYER]":"I wonder why they were trying to guard the cave..."
+    }
+  ],
+  "Wait":[
+    20
+  ],
+  "Unfreeze":[
+  ],
+  "Objective":[
+    "Continue deeper into the cave",
+    5
+  ],
+  "RegionEntry":[
+    1010,
+    26,
+    72,
+    1026,
+    38,
+    50
+  ],
+  "EntityLookAtPlayer":[
+    "oldman"
+  ],
+  "Wait":[
+    20
+  ],
+  "Dialog":[
+    {
+      "&7Old Man":"You need to leave, right now!",
+      "[PLAYER]":"Not until I get the information I need for Professor Hemlock!",
+      "&7Old Man":"Then I guess we must battle!"
+    }
+  ],
+  "Wait":[
+    20
+  ],
+  "Objective":[
+    "Battle the Old Man",
+    71
+  ],
+  "HighlightClickEntity":[
+    "oldman"
+  ],
+  "AutoBattleNpc":[
+    "oldman",
+    {
+      "&7Old Man":"Don't you think you've done enough?!"
+    },
+    {
+      "&7Old Man":"My battling skills seem to be a bit out of date..."
+    },
+    {
+      "&7Old Man":"&cLeave!"
+    },
+    [
+      {
+        "species":"weedle",
+        "level":1,
+        "moves":[
+          "Celebrate",
+          "Celebrate",
+          "Celebrate",
+          "Celebrate"
+        ],
+        "ability":"Shield Dust",
+        "nature":"Timid"
+      },
+      {
+        "species":"weedle",
+        "level":1,
+        "moves":[
+          "Celebrate",
+          "Celebrate",
+          "Celebrate",
+          "Celebrate"
+        ],
+        "ability":"Shield Dust",
+        "nature":"Timid"
+      },
+      {
+        "species":"weedle",
+        "level":1,
+        "moves":[
+          "Celebrate",
+          "Celebrate",
+          "Celebrate",
+          "Celebrate"
+        ],
+        "ability":"Shield Dust",
+        "nature":"Timid"
+      }
+    ]
+  ],
+  "Teleport":[
+    1015.5,
+    28.0,
+    61.5,
+    270,
+    0
+  ],
+  "Dialog":[
+    {
+      "&7Old Man":"&dAudino&r... It's okay girl.",
+      "&7Old Man":"A trainer knows when he's been bested.",
+      "&7Old Man":"But don't fret... It's okay! Did you see this trainer's Pokémon?",
+      "&7Old Man":"This trainer is nothing like &oThem&r.",
+      "&7Old Man":"Oh &dAudino&r! You're glowing so brightly, it's okay!"
+    }
+  ],
+  "Particle":[
+    "redstone:blue",
+    1019.5,
+    29.0,
+    58.5,
+    2
+  ],
+  "Wait":[
+    5
+  ],
+  "Particle":[
+    "redstone:blue",
+    1019.5,
+    29.0,
+    58.5,
+    2
+  ],
+  "Dialog":[
+    {
+      "&7Old Man":"It's alright &dAudino&r, a defeat is a defeat.",
+      "&7Old Man":"There's no reason to be sad...",
+      "&7Old Man":"What's your name trainer?",
+      "[PLAYER]":"I'm [PLAYER]!",
+      "&7Old Man":"[PLAYER] huh? Interesting name. You must not be from &lZeinova&r.",
+      "&7Old Man":"It's pretty interesting here to say the least... What's it like from where you're from?",
+      "[PLAYER]":"Pretty weird... We had to deal with people like Cipher, who seemed to very much dislike me...",
+      "&7Old Man":"Wow, really? That Cipher fella sounds like a real jerk.",
+      "&7Old Man":"We haven't had any issues like that in &lZeinova&r unless you want to count in the tragedy of the Bridges.",
+      "[PLAYER]":"The Bridges don't seem like a tragedy, they're there for the greater good of &lZeinova&r, well at least that's what Thomas told me...",
+      "&7Old Man":"Of course a &3Statera&r employee would say what the Company has done is for the greater good, but let me tell you...",
+      "&7Old Man":"It's brought more problems than it should have.",
+      "&7Old Man":"This &dAudino&r for example, I found it injured when the first Bridge was being built 25 years ago.",
+      "&7Old Man":"It's still feeling the effects of that injury to this day..."
+    }
+  ],
+  "Look":[
+    "audino"
+  ],
+  "Wait":[
+    10
+  ],
+  "Particle":[
     "redstone:pink",
     1019.5,
     29.0,
     58.5,
     2
   ],
-  "Wait": [
+  "Wait":[
     5
   ],
-  "Particle": [
+  "Particle":[
     "redstone:pink",
     1019.5,
     29.0,
     58.5,
     2
   ],
-  "Wait": [
+  "Wait":[
     5
   ],
-  "Particle": [
+  "Particle":[
     "redstone:pink",
     1019.5,
     29.0,
     58.5,
     2
   ],
-  "Wait": [
+  "Wait":[
     5
   ],
-  "MoveEntity": [
+  "MoveEntity":[
     "audino",
     1018.0,
     28.0,
     59.5
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "&7Old Man": "Oh!",
-      "&7Old Man": "I suppose &dAudino&r is beginning to trust you... It turns that colour around its friends...",
-      "&7Old Man": "From what I've seen at least.",
-      "&7Old Man": "Ever since it was injured, it has not wanted to leave this place...",
-      "&d&lAudino": "Audi... Audino... No, dino."
+      "&7Old Man":"Oh!",
+      "&7Old Man":"I suppose &dAudino&r is beginning to trust you... It turns that colour around its friends...",
+      "&7Old Man":"From what I've seen at least.",
+      "&7Old Man":"Ever since it was injured, it has not wanted to leave this place...",
+      "&d&lAudino":"Audi... Audino... No, dino."
     }
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "&7Old Man": "When did you get to &lZeinova&r?",
-      "[PLAYER]": "Pretty recently...",
-      "&7Old Man": "Really?",
-      "&7Old Man": "Not to sound rude or anything but... What are you doing here?",
-      "&7Old Man": "YOu came from one of those big regions right?",
-      "&7Old Man": "What on Earth could be so interesting to come all the way to &lZeinova&r?",
-      "[PLAYER]": "My mentor, Professor Hemlock, has some research to do here!",
-      "&7Old Man": "So your mentor is &c&lProfessor Hemlock&r right...? He'll be doing research for &3Statera&r?",
-      "&7Old Man": "To each their own I suppose...",
-      "&7Old Man": "What kind of research?",
-      "[PLAYER]": "Pokémon behavior, I think...",
-      "&7Old Man": "Pokémon behavior? What an odd topic! Hahaha!",
-      "&7Old Man": "&dAudino&r here is perfect for research like that, you know?",
-      "&7Old Man": "It communicates flawlessly how it's feeling and what it's thinking- though not in words.",
-      "&7Old Man": "It's an incredibly expressive Pokémon. The Aura aside.",
-      "&7Old Man": "If only us humans could express ourselves as well as Pokémon, am I right?",
-      "&7Old Man": "If our ancestors had the mindset in the past to try and understand each other and work together like the Pokémon do...",
-      "&7Old Man": "I'll have to tell it to you."
+      "&7Old Man":"When did you get to &lZeinova&r?",
+      "[PLAYER]":"Pretty recently...",
+      "&7Old Man":"Really?",
+      "&7Old Man":"Not to sound rude or anything but... What are you doing here?",
+      "&7Old Man":"YOu came from one of those big regions right?",
+      "&7Old Man":"What on Earth could be so interesting to come all the way to &lZeinova&r?",
+      "[PLAYER]":"My mentor, Professor Hemlock, has some research to do here!",
+      "&7Old Man":"So your mentor is &c&lProfessor Hemlock&r right...? He'll be doing research for &3Statera&r?",
+      "&7Old Man":"To each their own I suppose...",
+      "&7Old Man":"What kind of research?",
+      "[PLAYER]":"Pokémon behavior, I think...",
+      "&7Old Man":"Pokémon behavior? What an odd topic! Hahaha!",
+      "&7Old Man":"&dAudino&r here is perfect for research like that, you know?",
+      "&7Old Man":"It communicates flawlessly how it's feeling and what it's thinking- though not in words.",
+      "&7Old Man":"It's an incredibly expressive Pokémon. The Aura aside.",
+      "&7Old Man":"If only us humans could express ourselves as well as Pokémon, am I right?",
+      "&7Old Man":"If our ancestors had the mindset in the past to try and understand each other and work together like the Pokémon do...",
+      "&7Old Man":"I'll have to tell it to you."
     }
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "Freeze": [
+  "Freeze":[
   ],
-  "Fade": [
+  "Fade":[
   ],
-  "Cinematic": [
+  "Cinematic":[
   ],
-  "HidePlayer": [
+  "HidePlayer":[
   ],
-  "Teleport": [
+  "Teleport":[
     -351.7,
     34.1,
     59.3,
     270,
     0
   ],
-  "Show": {
-    "cutscene1": true,
-    "cutscene2": true,
-    "cutscene3": true
+  "Show":{
+    "cutscene1":true,
+    "cutscene2":true,
+    "cutscene3":true
   },
-  "Look": [
+  "Look":[
     "cutscene1",
     10.0
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "&7Old Man": "Many years ago, a group of individuals wanted to bring together the lands of Zeinova. While this was a noble cause...",
-      "&7Old Man": "It was not communicated to the region what the plan was, and soon, the region of Zeinova fell.",
-      "&7Old Man": "This group brought two disasters, Kyogre and Groudon, with the intention of forcing them to work with one another to build the lands and connect the islands."
+      "&7Old Man":"Many years ago, a group of individuals wanted to bring together the lands of Zeinova. While this was a noble cause...",
+      "&7Old Man":"It was not communicated to the region what the plan was, and soon, the region of Zeinova fell.",
+      "&7Old Man":"This group brought two disasters, Kyogre and Groudon, with the intention of forcing them to work with one another to build the lands and connect the islands."
     }
   ],
-  "Particle": [
+  "Particle":[
     "explosion_large",
     -341.5,
     32.5,
@@ -681,37 +762,37 @@
     1,
     1.0
   ],
-  "Show": {
-    "kyogre1": true,
-    "groudon1": true
+  "Show":{
+    "kyogre1":true,
+    "groudon1":true
   },
-  "Look": [
+  "Look":[
     "kyogre1"
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "&7Old Man": "This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
-      "&7Old Man": "But this group had no idea the hatred that ran thick in the two Pokémon when in the presence of one another."
+      "&7Old Man":"This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
+      "&7Old Man":"But this group had no idea the hatred that ran thick in the two Pokémon when in the presence of one another."
     }
   ],
-  "Show": {
-    "kyogre1": false,
-    "kyogre2": true,
-    "groudon1": false,
-    "groudon2": true
+  "Show":{
+    "kyogre1":false,
+    "kyogre2":true,
+    "groudon1":false,
+    "groudon2":true
   },
-  "Teleport": [
+  "Teleport":[
     950.5,
     44.0,
     217.5,
     330,
     0
   ],
-  "Look": [
+  "Look":[
     "kyogre2",
     10
   ],
-  "SetWeatherRegion": [
+  "SetWeatherRegion":[
     945,
     44,
     209,
@@ -720,17 +801,17 @@
     249,
     "Rain"
   ],
-  "Wait": [
+  "Wait":[
     40
   ],
-  "SendMessage": [
+  "SendMessage":[
     "&7Old Man>&r The lands were flooded..."
   ],
 
-  "Wait": [
+  "Wait":[
     20
   ],
-  "SetBlocks": [
+  "SetBlocks":[
     940,
     41,
     204,
@@ -740,10 +821,10 @@
     "air",
     "water"
   ],
-  "Wait": [
+  "Wait":[
     40
   ],
-  "SetBlocks": [
+  "SetBlocks":[
     940,
     42,
     204,
@@ -753,14 +834,14 @@
     "air",
     "water"
   ],
-  "Wait": [
+  "Wait":[
     80
   ],
-  "Show": {
-    "kyogre2": false,
-    "groudon2": true
+  "Show":{
+    "kyogre2":false,
+    "groudon2":true
   },
-  "SetWeatherRegion": [
+  "SetWeatherRegion":[
     945,
     44,
     209,
@@ -769,23 +850,23 @@
     249,
     "Clear"
   ],
-  "Teleport": [
+  "Teleport":[
     1075.5,
     51.0,
     302.5,
     150,
     0
   ],
-  "Wait": [
+  "Wait":[
     40
   ],
-  "Look": [
+  "Look":[
     "groudon2"
   ],
-  "SendMessage": [
+  "SendMessage":[
     "&7Old Man>&r Then drought killed off the harvest..."
   ],
-  "SetBlocks": [
+  "SetBlocks":[
     1042,
     45,
     273,
@@ -795,10 +876,10 @@
     "Large Fern",
     "Air"
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "SetBlocks": [
+  "SetBlocks":[
     1042,
     45,
     273,
@@ -808,10 +889,10 @@
     "Rose Bush",
     "Air"
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "SetBlocks": [
+  "SetBlocks":[
     1042,
     45,
     273,
@@ -821,10 +902,10 @@
     "Red Tulip",
     "Air"
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "SetBlocks": [
+  "SetBlocks":[
     1042,
     45,
     273,
@@ -834,10 +915,10 @@
     "Peony",
     "Air"
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "SetBlocks": [
+  "SetBlocks":[
     1042,
     45,
     273,
@@ -847,10 +928,10 @@
     "Fern",
     "Air"
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "SetBlocks": [
+  "SetBlocks":[
     1042,
     45,
     273,
@@ -860,145 +941,145 @@
     "Azure Bluet",
     "Dead Bush"
   ],
-  "Wait": [
+  "Wait":[
     60
   ],
-  "StopCinematic": [
+  "StopCinematic":[
   ],
-  "Fade": [
+  "Fade":[
   ],
-  "ShowPlayer": [
+  "ShowPlayer":[
   ],
-  "Teleport": [
+  "Teleport":[
     1015.5,
     28.0,
     61.5,
     270,
     0
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "&7Old Man": "The two were brought together to bring prosperity to the lands, when in the end, it brought devastation.",
-      "&7Old Man": "Eventually, the two Pokémon were put back into their deep slumber. Where they were sent to is unknown..."
+      "&7Old Man":"The two were brought together to bring prosperity to the lands, when in the end, it brought devastation.",
+      "&7Old Man":"Eventually, the two Pokémon were put back into their deep slumber. Where they were sent to is unknown..."
     }
   ],
-  "Look": [
+  "Look":[
     "audino"
   ],
-  "Unfreeze": [
+  "Unfreeze":[
   ],
-  "Wait": [
+  "Wait":[
     5
   ],
-  "Particle": [
+  "Particle":[
     "redstone:white",
     1019.5,
     29.0,
     58.5,
     2
   ],
-  "Wait": [
+  "Wait":[
     5
   ],
-  "Particle": [
+  "Particle":[
     "redstone:white",
     1019.5,
     29.0,
     58.5,
     2
   ],
-  "Wait": [
+  "Wait":[
     5
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "&7Old Man": "I was told this story as a child by my parents, ad their parents passed it on to them.",
-      "&7Old Man": "It's meant to be a lesson of working with one another, or at least that's what the published works would have you believe.",
-      "&7Old Man": "It's quite a popular story here in &lZeinova&r. Though for a lot of the citizens, it sounds more like a forewarning than a tale of the past...",
-      "&7Old Man": "&3Statera&r of today surely won't pursue these same actions.",
-      "&7Old Man": "&3Statera&r actually took on the symbol of balance. They did this because of the heroes of the past.",
-      "&7Old Man": "&0&lZekrom&r and &f&lReshiram&r, they were the ones that brought peace back to the lands after taking on &cGroudon&r and &9Kyogre&r.",
-      "&7Old Man": "Though that may end up being a story for another time..."
+      "&7Old Man":"I was told this story as a child by my parents, ad their parents passed it on to them.",
+      "&7Old Man":"It's meant to be a lesson of working with one another, or at least that's what the published works would have you believe.",
+      "&7Old Man":"It's quite a popular story here in &lZeinova&r. Though for a lot of the citizens, it sounds more like a forewarning than a tale of the past...",
+      "&7Old Man":"&3Statera&r of today surely won't pursue these same actions.",
+      "&7Old Man":"&3Statera&r actually took on the symbol of balance. They did this because of the heroes of the past.",
+      "&7Old Man":"&0&lZekrom&r and &f&lReshiram&r, they were the ones that brought peace back to the lands after taking on &cGroudon&r and &9Kyogre&r.",
+      "&7Old Man":"Though that may end up being a story for another time..."
     }
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "SendMessage": [
+  "SendMessage":[
     "&f&lA few hours of talking pass... You should probably return to Professor Hemlock again..."
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "Objective": [
+  "Objective":[
     "Talk to Professor Hemlock near the bridge to Pure Harbor Heights",
     18
   ],
-  "Show": {
-    "professor": true
+  "Show":{
+    "professor":true
   },
-  "HighlightClickEntity": [
+  "HighlightClickEntity":[
     "professor"
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "SendMessage": [
+  "SendMessage":[
     "&f&oYou catch Professor Hemlock up with everything you have learned"
   ],
-  "Wait": [
+  "Wait":[
     20
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "Professor Hemlock": "There was a man way out there? Wow! That's a bit surprising...",
-      "Professor Hemlock": "From what I heard, the wilderness out there is a bit rought, it's surprising to hear someone is living out there...",
-      "Professor Hemlock": "Especially in a cave with wild Pokémon! Looks like he gave you some good data though on this...",
-      "Professor Hemlock": "What is it... &dAudino&r? Is that how it's said?",
-      "Professor Hemlock": "Interesting... I've never heard of a Pokémon like this, this will be very intriguing to learn about..."
+      "Professor Hemlock":"There was a man way out there? Wow! That's a bit surprising...",
+      "Professor Hemlock":"From what I heard, the wilderness out there is a bit rought, it's surprising to hear someone is living out there...",
+      "Professor Hemlock":"Especially in a cave with wild Pokémon! Looks like he gave you some good data though on this...",
+      "Professor Hemlock":"What is it... &dAudino&r? Is that how it's said?",
+      "Professor Hemlock":"Interesting... I've never heard of a Pokémon like this, this will be very intriguing to learn about..."
     }
   ],
-  "Show": {
-    "agent": true
+  "Show":{
+    "agent":true
   },
-  "Wait": [
+  "Wait":[
     10
   ],
-  "Look": [
+  "Look":[
     "agent"
   ],
-  "MoveEntity": [
+  "MoveEntity":[
     "agent",
     1152.5,
     58.0,
     -133.5,
     false
   ],
-  "Dialog": [
+  "Dialog":[
     {
-      "&3Statera Employee": "You shouldn't be talking to strangers in the woods like that.",
-      "&3Statera Employee": "From what you've described, that sounds like one of them old world guys, yeesh!",
-      "&3Statera Employee": "Those guys are no joke, they're real hard-core in the myths and lies.",
-      "&3Statera Employee": "Pretty sure they tried to reawaken the Weather Beasts from the myths.",
-      "&3Statera Employee": "At least that's what my parents told me as a kid... There was a radical group that tried to purge the land of humans,",
-      "&3Statera Employee": "Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
-      "&3Statera Employee": "I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
+      "&3Statera Employee":"You shouldn't be talking to strangers in the woods like that.",
+      "&3Statera Employee":"From what you've described, that sounds like one of them old world guys, yeesh!",
+      "&3Statera Employee":"Those guys are no joke, they're real hard-core in the myths and lies.",
+      "&3Statera Employee":"Pretty sure they tried to reawaken the Weather Beasts from the myths.",
+      "&3Statera Employee":"At least that's what my parents told me as a kid... There was a radical group that tried to purge the land of humans,",
+      "&3Statera Employee":"Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
+      "&3Statera Employee":"I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
     }
   ],
-  "Wait": [
+  "Wait":[
     10
   ],
-  "GiveCoins": [
+  "GiveCoins":[
     2500
   ],
-  "GiveTrainerExperience": [
+  "GiveTrainerExperience":[
     3000
   ],
-  "GiveTokens": [
+  "GiveTokens":[
     10
   ],
-  "Complete": [
+  "Complete":[
   ],
-  "SendCompleteMessage": [
+  "SendCompleteMessage":[
   ]
 }
