@@ -109,7 +109,7 @@
 
     "CreateEntity": {
         "key": "bird2",
-        "location": [1031.5, 45.5, -281.8, 142, -11],
+        "location": [1031.5, 50.0, -281.8, 142, -11],
         "pokemon": "togekiss",
         "look": false
     },
@@ -786,7 +786,6 @@
         90
     ],
     "MoveEntity": ["mike", 925.7, 48.0, -559.3, 0.1, false],
-    "MoveEntity": ["rival", 927.0, 46.9, -549.7, 0.1, false],
     "Wait": 20,
     "Dialog": [
         {
