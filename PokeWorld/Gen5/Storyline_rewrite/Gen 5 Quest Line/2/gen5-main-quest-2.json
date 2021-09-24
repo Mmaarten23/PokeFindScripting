@@ -138,9 +138,9 @@
     "CreateEntity": {
         "key": "Shrine_Pokemon",
         "location": {
-            "x": 1130.5,
+            "x": 1131.5,
             "y": 43.0,
-            "z": -602.5,
+            "z": -602.0,
             "yaw": 138,
             "pitch": 0
         },
@@ -154,7 +154,7 @@
         "location": {
             "x": 1114.5,
             "y": 43.0,
-            "z": -602.5,
+            "z": -603.0,
             "yaw": 227,
             "pitch": 0
         },
@@ -165,9 +165,9 @@
     "CreateEntity": {
         "key": "Shrine_Pokemon3",
         "location": {
-            "x": 1123.5,
+            "x": 1123.0,
             "y": 43.0,
-            "z": -602.5,
+            "z": -602.0,
             "yaw": 180,
             "pitch": 0
         },
@@ -215,7 +215,6 @@
         "lewis_bird": false,
         "player_bird_seat": true,
         "player_bird": false,
-        "bird": false,
         "disaster_1": false,
         "disaster_1_pokemon": false,
         "running": false,
@@ -332,8 +331,10 @@
     "Teleport": [934.4, 48.6, -545.1, 124, 15],
     "Wait": 8,
     "Teleport": [934.4, 48.6, -545.1, 124, 15],
-    "Wait": 2,
+    "Wait": 4,
     "Freeze": true,
+    "Wait": 4,
+    "Look": [124, 15],
     "Show": "running",
     "Show": "running_pokemon",
     "Wait": 2.0,
