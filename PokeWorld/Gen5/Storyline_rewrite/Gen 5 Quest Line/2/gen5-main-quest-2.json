@@ -3,9 +3,9 @@
 
     "Author": "Mmaarten",
     "Name": "&b&lPokémon on the loose!",
-    "Description": "Make your way across the bridge to Pure Harbor",
+    "Description": "The pokémon in Pure Harbor have gone haywire. A trainer should take a look before things get out of hand.",
     "AllowRejoining": true,
-    "Icon": "bricks",
+    "Icon": "mossy_stone_brick_wall",
     "Quest": true,
 
     "CreateEntity": {
@@ -121,7 +121,7 @@
     "CreateEntity": {
         "key": "disaster_3_pokemon",
         "pokemon": "solrock",
-        "location": [1138.4,58.0,-146.4, -58],
+        "location": [1138.4, 58.0, -146.4, -58],
         "look": false
     },
 
@@ -286,7 +286,7 @@
 
     "CreateCustomEntity": ["bird", "bird_dummy", "bird1", "lewis_bird_seat", "player_bird_seat"],
     "Server": [],
-    "TeleportEntity": ["bird", 1188.6, 40.0, -87.9],
+    "TeleportEntity": ["bird", 1188.6, 40.0, -87.9, 142, -11],
 
     "Show": {
         "lewis_bridge": true,
@@ -315,8 +315,6 @@
         "tribe_Member": false,
         "rival": false
     },
-
-    "Hide": "bird1",
 
 
     "HighlightClickEntity": "lewis_bridge",
@@ -455,7 +453,7 @@
             "&a&lXatu": "&4&lXA-TU!",
             "&e&lMike": "Aaaaaaaaaaaaaaahhhhhhhhhh!!!!!"
         },
-        70
+        50
     ],
     "Wait": 0.5,
     "SendMessage": "&7Xatu used Air Slash",
