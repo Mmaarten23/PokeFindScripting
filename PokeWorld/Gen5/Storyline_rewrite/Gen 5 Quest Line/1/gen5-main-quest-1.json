@@ -1,7 +1,7 @@
 {
     "Key": "gen5_main_quest_1",
-    "Name": "&d&lMain Quest 1",
-    "Description": "After crossing the bridge over to Breezelton Village you get a call from Professor Hemlock regarding some Pokémon in the area!",
+    "Name": "&d&lA myth or a lie?",
+    "Description": "The professor heard a rumour about pokémon behaviour. Will it be worth to verify or is it a waste of your time?",
     "AllowRejoining": true,
     "Icon": {
         "material": "Book"
@@ -250,91 +250,53 @@
         "groudon2": false
     },
     "Quest": true,
-    "HighlightClickEntity": [
-        "executive"
-    ],
-    "HasTrainerLevel": [
-        10,
-        "&cYou must be at least Trainer Level 10 to do this quest!",
-        false
-    ],
-    "NotCompleted": [
-    ],
+    "HighlightClickEntity": "executive",
+    "HasTrainerLevel": [10, "&cYou must be at least Trainer Level 10 to do this quest!", false],
+    "NotCompleted": [],
     "Dialog": [
         {
             "&4&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?",
             "[PLAYER]": "A little bit... What are you doing?",
             "&4&lThomas": "What am I doing? Oh-",
-            "&4&lThomas": "I grew up near here, so I was just admiring the view. You know this bridge was the first bridge built in Zeinova?",
-            "&4&lThomas": "It was the first step to connecting the islands together that make up &lZeinova&r. &3&lStatera&r first came to Zeinova about 100 years ago, yaknow?",
+            "&4&lThomas": "I grew up near here, I was just admiring the view. Did you know this bridge was the first bridge built in Zeinova?",
+            "&4&lThomas": "It was the first step to connecting the islands that make up &lZeinova&r. &3&lStatera&r first came to Zeinova about 100 years ago, yaknow?",
             "&4&lThomas": "The original CEO had a dream of connecting the islands- it didn't pan out well...",
             "[PLAYER]": "Why not?",
             "&4&lThomas": "You want to know why?",
-            "&4&lThomas": "Well... he dreamed of creating new land masses and there are very few ways of accomplishing that.",
-            "&4&lThomas": "The only way possible to create the large amount he wanted was by the use of the Pokémon &9Kyogre&r and &cGroudon&r."
-        }
+            "&4&lThomas": "Well... he dreamed of creating new land masses. And we all know there are very few ways of accomplishing that.",
+            "&4&lThomas": "The only way he could achieve the creation of so much new land was through the use of the Pokémon &9Kyogre&r and &cGroudon&r."
+        },
+        90
     ],
-    "Wait": [
-        20
-    ],
-    "MoveEntity": [
-        "executive",
-        780.5,
-        59.0,
-        439.9
-    ],
+    "Wait": 20,
+    "MoveEntity": ["executive", 780.5, 59.0, 439.9],
     "Dialog": [
         {
-            "&4&lThomas": "It was a disaster according to the old stories. Most of the stories no longer exist, but parents read them as bestime stories now in a more... friendly way.",
+            "&4&lThomas": "It was a disaster according to the old stories. Most of them no longer exist, but parents read them as bedtime stories now in a more... friendly way.",
             "&4&lThomas": "That's a story for another day though, I suppose.",
-            "&4&lThomas": "25 years ago however, a new CEO took over and he began the project of Bridge Together. That's what we call it, heh.",
+            "&4&lThomas": "25 years ago however, a new CEO took over and he began the project of &nBridge Together&r. That's what we call it, heh.",
             "&4&lThomas": "We've built bridges connecting all of the islands! Who would have thought it'd be that simple?",
             "&4&lThomas": "We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance.",
-            "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also we're united to different islands...",
-            "&4&lThomas": "Well enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure. You can head on to the next island now!"
+            "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also united the previously separate islands.",
+            "&4&lThomas": "Well, enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure.",
+            "&4&lThomas": "You should check out the island that is connected through this bridge. It has a nice smell to it!"
         },
-        60
+        90
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Cross the bridge to the next island",
-        3
-    ],
+    "Wait": 20,
+    "Objective": ["Cross the bridge to the next island", 3],
     "RegionEntry": [
-        880,
-        1,
-        376,
-        911,
-        100,
-        320
+        880, 1, 376,
+        911, 100, 320
     ],
-    "SendMessage": [
-        "&aIncoming Pokégear Call>&r Professor Hemlock &7(Type /accept to answer)"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Answer Professor Hemlock's call by typing /accept",
-        7
-    ],
-    "Command": [
-        "accept"
-    ],
-    "SendMessage": [
-        "&7Connecting..."
-    ],
-    "Wait": [
-        10
-    ],
-    "SendMessage": [
-        "&aConnected"
-    ],
-    "Wait": [
-        30
-    ],
+    "SendMessage": "&aIncoming Pokégear Call>&r Professor Hemlock",
+    "Wait": 20,
+    "Objective": ["Answer Professor Hemlock's call by typing /accept", 7],
+    "Command": "accept",
+    "SendMessage": "&7Connecting...",
+    "Wait": 10,
+    "SendMessage": "&aConnected",
+    "Wait": 30,
     "Dialog": [
         {
             "Professor Hemlock": "Hey [PLAYER]! Are you still nearby? I need a favour!",
@@ -344,7 +306,7 @@
             "Professor Hemlock": "My assistant?",
             "Professor Hemlock": "Yeah, yeah, I'll introduce you to them the next time you're around! But anyways-!",
             "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
-            "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of workjust by this report?",
+            "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?",
             "Professor Hemlock": "Mindblowing!",
             "Professor Hemlock": "Anyways... Before I get carried away... This Pokémon is said to exude Human reactions to certain stimuli.",
             "Professor Hemlock": "Like feeling confused, or hurt, or sad. It's astounding! Well.. I'm sure it's astounding.",
@@ -353,53 +315,30 @@
             "Professor Hemlock": "That would be wonderful!",
             "Professor Hemlock": "Thanks again [PLAYER]! I can't wait to hear from you soon."
         },
-        60
+        90
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Find the cave near Breezelton Village",
-        5
-    ],
+    "Wait": 20,
+    "Objective": ["Find the cave near Breezelton Village", 5],
     "Show": {
         "audino": true,
         "oldman": true
     },
     "RegionEntry": [
-        975,
-        60,
-        72,
-        994,
-        75,
-        58
+        975, 60, 72,
+        994, 75, 58
     ],
-    "Show": {
-        "pokemon1": true
-    },
+    "Hide": "pokemon1",
     "Dialog": [
         {
             "[PLAYER]": "Hmm, this Pokémon seems to be guarding the cave! I have to get past!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle the wild Pokémon",
-        3
-    ],
-    "HighlightClickEntity": [
-        "pokemon1"
-    ],
-    "Show": {
-        "pokemon1": false
-    },
+    "Wait": 20,
+    "Objective": ["Battle the wild Pokémon", 3],
+    "HighlightClickEntity": "pokemon1",
+    "Hide": "pokemon1",
     "BattleWildPokemon": [
-        977.0,
-        64.0,
-        63.1,
-        295,
+        977.0, 64.0, 63.1, 295,
         [
             {
                 "species": "weedle",
@@ -415,32 +354,16 @@
             }
         ]
     ],
-    "Objective": [
-        "Continue through the cave and fight the remaining guardian Pokémon",
-        15
-    ],
+    "Objective": ["Continue through the cave and fight the remaining guardian Pokémon", 15],
     "RegionEntry": [
-        950,
-        40,
-        39,
-        938,
-        59,
-        64
+        950, 40, 39,
+        938, 59, 64
     ],
-    "Show": {
-        "pokemon2": true
-    },
-    "HighlightClickEntity": [
-        "pokemon2"
-    ],
-    "Show": {
-        "pokemon2": false
-    },
+    "Show": "pokemon2",
+    "HighlightClickEntity": "pokemon2",
+    "Show": "pokemon2",
     "BattleWildPokemon": [
-        942.1,
-        50.0,
-        52.2,
-        240,
+        942.1, 50.0, 52.2, 240,
         [
             {
                 "species": "weedle",
@@ -457,27 +380,14 @@
         ]
     ],
     "RegionEntry": [
-        943,
-        45,
-        80,
-        966,
-        30,
-        121
+        943, 45, 80,
+        966, 30, 121
     ],
-    "Show": {
-        "pokemon3": true
-    },
-    "HighlightClickEntity": [
-        "pokemon3"
-    ],
-    "Show": {
-        "pokemon3": false
-    },
+    "Show": "pokemon3",
+    "HighlightClickEntity": "pokemon3",
+    "Show": "pokemon3",
     "BattleWildPokemon": [
-        959.9,
-        33.0,
-        88.5,
-        64,
+        959.9, 33.0, 88.5, 64,
         [
             {
                 "species": "weedle",
@@ -493,57 +403,33 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
-    "Freeze": [
-    ],
+    "Wait": 20,
+    "Freeze": [],
     "Dialog": [
         {
             "[PLAYER]": "I wonder why they were trying to guard the cave..."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Unfreeze": [
-    ],
-    "Objective": [
-        "Continue deeper into the cave",
-        5
-    ],
+    "Wait": 20,
+    "Unfreeze": [],
+    "Objective": ["Continue deeper into the cave", 5],
     "RegionEntry": [
-        1010,
-        26,
-        72,
-        1026,
-        38,
-        50
+        1010, 26, 72,
+        1026, 38, 50
     ],
-    "EntityLookAtPlayer": [
-        "oldman"
-    ],
-    "Wait": [
-        20
-    ],
+    "EntityLookAtPlayer": "oldman",
+    "Wait": 20,
     "Dialog": [
         {
             "&7Old Man": "You need to leave, right now!",
             "[PLAYER]": "Not until I get the information I need for Professor Hemlock!",
             "&7Old Man": "Then I guess we must battle!"
-        }
+        },
+        90
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle the Old Man",
-        71
-    ],
-    "HighlightClickEntity": [
-        "oldman"
-    ],
-    "AutoBattleNpc": [
+    "Wait": 20,
+    "Objective": ["Battle the Old Man", 71],
+    "BattleNpc": [
         "oldman",
         {
             "&7Old Man": "Don't you think you've done enough?!"
@@ -594,11 +480,7 @@
         ]
     ],
     "Teleport": [
-        1015.5,
-        28.0,
-        61.5,
-        270,
-        0
+        1015.5, 28.0, 61.5, 270, 0
     ],
     "Dialog": [
         {
@@ -607,24 +489,20 @@
             "&7Old Man": "But don't fret... It's okay! Did you see this trainer's Pokémon?",
             "&7Old Man": "This trainer is nothing like &oThem&r.",
             "&7Old Man": "Oh &dAudino&r! You're glowing so brightly, it's okay!"
-        }
+        }, 90
     ],
     "Particle": [
         "redstone:blue",
-        1019.5,
-        29.0,
-        58.5,
-        2
+        1019.5, 29.0, 58.5,
+        25,
+        0.6
     ],
-    "Wait": [
-        5
-    ],
+    "Wait": 5,
     "Particle": [
         "redstone:blue",
-        1019.5,
-        29.0,
-        58.5,
-        2
+        1019.5, 29.0, 58.5,
+        25,
+        0.6
     ],
     "Dialog": [
         {
@@ -642,50 +520,33 @@
             "&7Old Man": "It's brought more problems than it should have.",
             "&7Old Man": "This &dAudino&r for example, I found it injured when the first Bridge was being built 25 years ago.",
             "&7Old Man": "It's still feeling the effects of that injury to this day..."
-        }
+        },
+        90
     ],
-    "Look": [
-        "audino"
-    ],
-    "Wait": [
-        10
-    ],
+    "Look": "audino",
+    "Wait": 10,
     "Particle": [
         "redstone:pink",
-        1019.5,
-        29.0,
-        58.5,
-        2
+        1019.5, 29.0, 58.5,
+        25,
+        0.6
     ],
-    "Wait": [
-        5
-    ],
+    "Wait": 5,
     "Particle": [
         "redstone:pink",
-        1019.5,
-        29.0,
-        58.5,
-        2
+        1019.5, 29.0, 58.5,
+        25,
+        0.6
     ],
-    "Wait": [
-        5
-    ],
+    "Wait": 5,
     "Particle": [
         "redstone:pink",
-        1019.5,
-        29.0,
-        58.5,
-        2
+        1019.5, 29.0, 58.5,
+        25,
+        0.6
     ],
-    "Wait": [
-        5
-    ],
-    "MoveEntity": [
-        "audino",
-        1018.0,
-        28.0,
-        59.5
-    ],
+    "Wait": 5,
+    "MoveEntity": ["audino", 1018.0, 28.0, 59.5],
     "Dialog": [
         {
             "&7Old Man": "Oh!",
@@ -693,18 +554,17 @@
             "&7Old Man": "From what I've seen at least.",
             "&7Old Man": "Ever since it was injured, it has not wanted to leave this place...",
             "&d&lAudino": "Audi... Audino... No, dino."
-        }
+        },
+        90
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&7Old Man": "When did you get to &lZeinova&r?",
             "[PLAYER]": "Pretty recently...",
             "&7Old Man": "Really?",
             "&7Old Man": "Not to sound rude or anything but... What are you doing here?",
-            "&7Old Man": "YOu came from one of those big regions right?",
+            "&7Old Man": "You came from one of those big regions right?",
             "&7Old Man": "What on Earth could be so interesting to come all the way to &lZeinova&r?",
             "[PLAYER]": "My mentor, Professor Hemlock, has some research to do here!",
             "&7Old Man": "So your mentor is &c&lProfessor Hemlock&r right...? He'll be doing research for &3Statera&r?",
@@ -718,7 +578,8 @@
             "&7Old Man": "If only us humans could express ourselves as well as Pokémon, am I right?",
             "&7Old Man": "If our ancestors had the mindset in the past to try and understand each other and work together like the Pokémon do...",
             "&7Old Man": "I'll have to tell it to you."
-        }
+        },
+        90
     ],
     "Wait": [
         20
