@@ -9,7 +9,7 @@
   "Skip": "start",
 
   "Comment": "not in quest",
-  "SendMessage": "&7&oYou must be solving the puzzle in the main questline to use this button.",
+  "SendMessage": "&7&oYou must be solving the puzzle in the &bPokémon on the loose&r quest to use this button.",
   "Leave": [],
 
   "Comment": "start",
@@ -1129,14 +1129,14 @@
 
   "Comment": "FAILED",
   "Wait": 30,
-  "SendMessage": "&c&lWater flow blocked! Please try again!",
+  "SendMessage": "&c&lWater flow blocked. Please try again!",
   "Start": "gen5_main_quest_2_water_barriers",
   "PlaySound": ["block_piston_contract", 1.0, 1.0],
   "Leave": [],
 
   "Comment": "OVERFLOW",
   "Wait": 30,
-  "SendMessage": "&c&lNot enough water is reaching the end! Please try again!",
+  "SendMessage": "&c&lYou are leaking water. Please try again!",
   "Start": "gen5_main_quest_2_water_barriers",
   "PlaySound": ["block_piston_contract", 1.0, 1.0],
   "Leave": [],
@@ -1144,7 +1144,7 @@
   "Comment": "WIN",
   "Wait": 30,
   "PlaySound": ["entity_player_levelup", 1.0, 1.0],
-  "SendMessage": ["&a&lWater flow complete! Access Granted!"],
+  "SendMessage": ["&a&lWater flow complete. Access Granted!"],
   "Complete": [],
   "Progress": "gen5_main_quest_2",
   "Leave": "gen5_main_quest_2_water_update",

@@ -2,10 +2,10 @@
     "Key": "gen5_main_quest_2",
 
     "Author": "Mmaarten",
-    "Name": "",
+    "Name": "&b&lPokémon on the loose!",
     "Description": "Make your way across the bridge to Pure Harbor",
     "AllowRejoining": true,
-    "Icon": "",
+    "Icon": "bricks",
     "Quest": true,
 
     "CreateEntity": {
