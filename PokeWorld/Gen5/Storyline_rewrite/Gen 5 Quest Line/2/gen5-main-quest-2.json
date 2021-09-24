@@ -90,6 +90,42 @@
     },
 
     "CreateEntity": {
+        "key": "disaster_2",
+        "entity": "PLAYER",
+        "location": [1145.7, 58.0, -139.2, 149, 8],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg5NjU4NjcyMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0ODhlMzRiY2ZkZDg2ODhlZTNmOWU1ZjkyM2U3ZGM4ZTg0MjI3ZjRkMTgwNmQ5Mjg5ZmM2NzcyMDY2MTJhZDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "l0jAa/WRj//x+1El9VFDrJig5UdlJj9tnI1Zi6nXE4cDxv6VaMzM9vhuFNU7JCN9H5yZ9OYQRnwN99yonQtHZfdk417+UhEUNeLEoYqM5zJWGueA8DwX6b+4DDUXeMdXKDslxOdmbqikGtr0yHfDt2yE+Q7RGhPhC2AHoeQUVrPF2U4CYrN0mwfD8Zo23/5I+J51JzN88pL/cAecrnjPTZ8FFtBhHBcGotKO6E0DUbNdMH2/B6YGLrEbhsuRTU0Fw4fS8yXGnFehn7ulyflG3BwdVPJPeqc2a5b+tn2/6VTHmFDay2BAJiAJE/ayMju80UYygMiR7DGgb5MfbB8extJ380Cxlr0XmSriYGdvIe9gJp1R8BVzBixBHZnXGrpvZi9s6SeKjaycRSxAbTiIowDVPDEBFM+MKYCjRHlvou4be1UpbU5u1HSHigdW+haYo8uhb1K+PWKQInH2uW/gNXi+bVsoJoZ3/+DtpmjXF1bFVWpxyTuFcsyYPshSHGcQfCCX2DSGMvhgYaYrA0mTuVEbkHs7n1RyjkoHENhuxYgp4n1IQajhkCYrzI3ITPIzUVWKBvJOIJyBVJLygXKF2vKOCDBWFAJMRFI8KO03HUuPKEWlXxidterQcZgIYBp5XFfKTkAE7kdGMrs9tsoSTEHqkVnO/TXSfKv3AbM48nA="
+        },
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "disaster_2_pokemon",
+        "pokemon": "mr._mime",
+        "location": [1143.2, 58.0, -142.6, -28],
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "disaster_3",
+        "entity": "PLAYER",
+        "location": [1144.3, 58.0, -146.3, 116, 3],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTg5NjU4NjcyMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0ODhlMzRiY2ZkZDg2ODhlZTNmOWU1ZjkyM2U3ZGM4ZTg0MjI3ZjRkMTgwNmQ5Mjg5ZmM2NzcyMDY2MTJhZDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "l0jAa/WRj//x+1El9VFDrJig5UdlJj9tnI1Zi6nXE4cDxv6VaMzM9vhuFNU7JCN9H5yZ9OYQRnwN99yonQtHZfdk417+UhEUNeLEoYqM5zJWGueA8DwX6b+4DDUXeMdXKDslxOdmbqikGtr0yHfDt2yE+Q7RGhPhC2AHoeQUVrPF2U4CYrN0mwfD8Zo23/5I+J51JzN88pL/cAecrnjPTZ8FFtBhHBcGotKO6E0DUbNdMH2/B6YGLrEbhsuRTU0Fw4fS8yXGnFehn7ulyflG3BwdVPJPeqc2a5b+tn2/6VTHmFDay2BAJiAJE/ayMju80UYygMiR7DGgb5MfbB8extJ380Cxlr0XmSriYGdvIe9gJp1R8BVzBixBHZnXGrpvZi9s6SeKjaycRSxAbTiIowDVPDEBFM+MKYCjRHlvou4be1UpbU5u1HSHigdW+haYo8uhb1K+PWKQInH2uW/gNXi+bVsoJoZ3/+DtpmjXF1bFVWpxyTuFcsyYPshSHGcQfCCX2DSGMvhgYaYrA0mTuVEbkHs7n1RyjkoHENhuxYgp4n1IQajhkCYrzI3ITPIzUVWKBvJOIJyBVJLygXKF2vKOCDBWFAJMRFI8KO03HUuPKEWlXxidterQcZgIYBp5XFfKTkAE7kdGMrs9tsoSTEHqkVnO/TXSfKv3AbM48nA="
+        },
+        "look": false
+    },
+
+    "CreateEntity": {
+        "key": "disaster_3_pokemon",
+        "pokemon": "solrock",
+        "location": [1138.4,58.0,-146.4, -58],
+        "look": false
+    },
+
+    "CreateEntity": {
         "key": "running",
         "entity": "PLAYER",
         "location": [925.7, 48.0, -559.3],
@@ -261,6 +297,10 @@
         "player_bird": false,
         "disaster_1": false,
         "disaster_1_pokemon": false,
+        "disaster_2": false,
+        "disaster_2_pokemon": false,
+        "disaster_3": false,
+        "disaster_3_pokemon": false,
         "running": false,
         "running_pokemon": false,
         "bird2": false,
@@ -319,7 +359,11 @@
     "Show": {
         "player_bird": true,
         "disaster_1": true,
-        "disaster_1_pokemon": true
+        "disaster_1_pokemon": true,
+        "disaster_2": true,
+        "disaster_2_pokemon": true,
+        "disaster_3": true,
+        "disaster_3_pokemon": true
     },
     "Start": "gen5_main_quest_2_cin1_cam",
     "Wait": 5,
@@ -358,24 +402,42 @@
     "Wait": 0.5,
     "ProgressiveMoveEntity": ["disaster_1", 1165.9, 58.0, -118.3],
     "ProgressiveMoveEntity": ["disaster_1_pokemon", 1165.9, 58.3, -118.3],
-    "Wait": 5.0,
-    "Hide": "disaster_1",
-    "Hide": "disaster_1_pokemon",
+    "Wait": 2.0,
+    "Dialog": [
+        {
+            "&5&lCarlos": "Please Mr. Mime! Please don't hurt me!",
+            "&dMr. Mime": "&c&oMime! &c&lMime! &c&nMime! &c&kMime! &c&o&l&nMime!"
+        }
+    ],
 
-    "Comment": "TODO: add more interactions",
-    "Wait": 10.0,
-
+    "Dialog": [
+        {
+            "&6Mia": "Solrock, can we talk about this?",
+            "&dSolrock": "&lSOLROCK!"
+        }
+    ],
+    "Wait": 10,
     "Dialog": [
         {
             "&7&lLewis": "Even our houses aren't safe anymore..."
         },
         70
     ],
+
+    "Show": {
+        "bird": false,
+        "disaster_1": false,
+        "disaster_1_pokemon": false,
+        "disaster_2": false,
+        "disaster_2_pokemon": false,
+        "disaster_3": false,
+        "disaster_3_pokemon": false
+    },
+
     "Leave": "gen5_main_quest_2_cin1_cam",
     "Cinematic": [],
     "Unfreeze": [],
     "Wait": 2,
-    "Hide": "bird",
     "Fade": [],
     "Teleport": [934.4, 48.6, -545.1, 124, 15],
     "Wait": 4,
