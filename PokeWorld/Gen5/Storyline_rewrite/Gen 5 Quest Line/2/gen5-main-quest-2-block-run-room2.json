@@ -19,6 +19,7 @@
     "Server": [],
     "Hide": "guide",
 
+    "Comment": "Restart",
     "NotCompleted": [],
     "Show": "guide",
     "HighlightClickEntity": "guide",
