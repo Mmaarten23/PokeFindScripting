@@ -270,7 +270,7 @@
         "Shrine_Pokemon3": false,
         "Shrine_Pokemon4": false,
         "guide": false,
-        "tribe_member": false,
+        "tribe_Member": false,
         "rival": false
     },
 
