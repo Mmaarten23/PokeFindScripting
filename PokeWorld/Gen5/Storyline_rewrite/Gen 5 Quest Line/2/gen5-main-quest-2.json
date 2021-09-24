@@ -706,7 +706,7 @@
             "&2&lGuide": "You did it! Goodluck figuring out what's going on!"
         }
     ],
-    "Show": "tribe_member",
+    "Show": "tribe_Member",
     "Objective": ["Continue into the next room of the shrine", 6],
     "RegionEntry": [
         1091, 1, -447,
