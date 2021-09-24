@@ -17,6 +17,7 @@
     },
     "Server": [],
     "Hide": "guide",
+
     "Comment": "Restart",
     "NotCompleted": [],
     "Show": "guide",
@@ -1359,6 +1360,9 @@
         "&a&lCongratulations! You win!"
     ],
     "Progress": "gen5_main_quest_2",
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", 1034.0, 21.0, -531.5, 50, 0.6],
+    "Hide": "guide",
     "Complete": [
     ],
     "Leave": [

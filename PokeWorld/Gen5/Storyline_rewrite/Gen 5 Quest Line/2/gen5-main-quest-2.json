@@ -204,6 +204,22 @@
         }
     },
 
+    "CreateEntity": {
+        "key": "tribe_Member",
+        "name": "&6&lAncient Tribe Member",
+        "location": {
+            "x": 1082.5,
+            "y": 6.0,
+            "z": -431.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjQ4MDg2Mzk2OCwKICAicHJvZmlsZUlkIiA6ICJkMGI4MjE1OThmMTE0NzI1ODBmNmNiZTliOGUxYmU3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJqYmFydHl5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlhMDY0ZGJjZmU0MjQ2ZjI1N2M4NDFjMzIzYzU2M2E0NDZkMWJmMTI4NjM2YTBmYTIyOGE2NTRhOGMyNDA4MTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "At3n/g6bguBB2WSdn+6hOZ9VjQxzbcttIp0LjsPaSh447fDvikPkyPkOtVlKU1mmTRoYU0drTBqnVn+NgvCWK9bvDXLIF58l9BcwQApowugLVZr6Nwo6jOpT2ekVP9e80i+/QaLRuLm5+lJbJ1EFPR1ecyAxWKGdFBZAWfz6JxHn2vw9sh9or21BUN0aJrqpSpNPLv7L/c6RTomP5KCqbDrQkY/VpE91Cr7levB4+5H80FgTy9wA2nJBzIVcGEc47isa+A5eNRlFFBZF12G7g2uxkd+gYBsDrjeOEO9i+T64xJaW/8Vw4GFUymbjsliwnePaQJD+rtmysvLVgXYkIEfQlBLWL7ePVocylvPGLge2jmb+ydFSfuxfi6JH4SyaccfDEtXlerlzQQGCZQV4Nw/fAxzZa7HoXIXYjuuIhj0gOA+8RRW1Otrr+zBzvZVRGilfF+WSZkbue5rh9cPIxGNGwlR/4A/8tMenHygJY9RAmgj27TyadWnNBzXtZMMPy73WANSsuPpy5xdOl9fm0jPfSNRsP1q10Eoz0UoF7uy6ibKhnkjA9CtiYvpN6ARVVamhXdcSz3M83bFUBgwrZomUFVShmItpx9sdyQFJDVY9tS/q7jEJ08+dKj4ARJzLJeywdw2M6mEPCYbXB8jp02Tx2/+n5MorFJFzd3XY6fw="
+        }
+    },
+
 
 
     "CreateCustomEntity": ["bird", "bird1", "lewis_bird_seat", "player_bird_seat"],
@@ -227,7 +243,8 @@
         "Shrine_Pokemon2": false,
         "Shrine_Pokemon3": false,
         "Shrine_Pokemon4": false,
-        "guide": false
+        "guide": false,
+        "tribe_member": false
     },
 
 
@@ -412,6 +429,7 @@
         1112, 1, -693,
         1086, 51, -722
     ],
+    "Hide": "mike",
     "Wait": 20,
     "Dialog": [
         {
@@ -557,6 +575,7 @@
     "Objective": ["Talk to the Guide in the first room", 8],
     "Start": "gen5_main_quest_2_block_run_room1",
     "Hold": [],
+    "PlaySound": ["entity_player_levelup", 1.0, 1.0],
     "ProgressiveWall": [
         1040, 23, -520,
         1038, 20, -520,
@@ -581,6 +600,7 @@
     "Objective": ["Talk to the Guide in the second room", 3],
     "Start": "gen5_main_quest_2_block_run_room2",
     "Hold": [],
+    "PlaySound": ["entity_player_levelup", 1.0, 1.0],
     "ProgressiveWall": [
         1051, 24, -513,
         1051, 19, -511,
@@ -590,7 +610,124 @@
         {
             "&2&lGuide": "You did it! Goodluck figuring out what's going on!"
         }
+    ],
+    "Show": "tribe_member",
+    "Objective": ["Continue into the next room of the shrine", 6],
+    "RegionEntry": [
+        1091, 1, -447,
+        1072, 20, -422
+    ],
+    "Look": "tribe_Member",
+    "Wait": 1,
+    "Freeze": true,
+    "EntityLookAtPlayer": "tribe_Member",
+    "Wait": 10,
+    "Dialog": [
+        {
+            "&6&lDahli": "What is that?!",
+            "&6&lDahli": "A &3Statera&r emblem?",
+            "&6&lDahli": "You lot did this...",
+            "&6&lDahli": "You shouldn't have taken what doesn't belong to you! It didn't belong to US!",
+            "&6&lDahli": "It belongs to the &lPokémon&r and you removed it!",
+            "&6&lDahli": "Disrespect!",
+            "[PLAYER]": "I...",
+            "&6&lDahli": "Battle me! And you will see who is the strongest here!"
+        }
+    ],
+    "Unfreeze": [],
+    "Wait": 1.0,
+    "Objective": ["Battle the Ancient Tribe Member", 7],
+    "BattleNpc": [
+        "tribe_Member",
+        {
+            "&6&lDahli": "You must pay for what you have done!"
+        },
+        {
+            "&6&lDahli": "It seems &3Statera&r has grown stronger...",
+            "&6&lDahli": "I shouldn't have expected a company member to show any form of respect.",
+            "&6&lDahli": "We will bounce back. Mark my words!"
+        },
+        {
+            "&6&lDahli": "There's no way you'll defeat me!",
+            "&6&lDahli": "My pokémons will never disobey me. Whatever you try!"
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            }
+        ]
+    ],
+    "Wait": 20,
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", 1082.5, 7.0, -431.5, 50, 0.6],
+    "Hide": "tribe_Member",
+    "Wait": 10,
+    "Dialog": [
+        {
+            "[PLAYER]": "I need to know what is going on here.",
+            "[PLAYER]": "Maybe Statera HQ has some more info on what happened."
+        },
+        90
+    ],
+    "Wait": 10,
+    "Objective": ["Call Statera HQ to see what's going on (/call statera hq)", 5],
+    "Command": "call statera hq",
+    "Wait": 20,
+    "Start": "song_statera_intro",
+    "Dialog": [
+        {
+            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b3&r people in front of you.",
+            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b2&r people in front of you.",
+            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b1&r people in front of you."
+        },
+        240
+    ],
+    "Leave": "song_statera_intro",
+    "Dialog": [
+        {
+            "&3&lStatera HQ": "Hello there, this is Statera HQ. How may I help you?",
+            "[PLAYER]": "Hello, it's [PLAYER]... I'm just calling to see what's going on!",
+            "[PLAYER]": "I'm in [TOWN] and all the Pokémon have gone rogue!",
+            "&3&lStatera HQ": "Don't worry about it [PLAYER], we'll have this handled soon.",
+            "&3&lStatera HQ": "Tell the village to stay indoors, we'll have the Pokémon calm soon and everything will be back to normal!"
+        }
     ]
-
 
 }

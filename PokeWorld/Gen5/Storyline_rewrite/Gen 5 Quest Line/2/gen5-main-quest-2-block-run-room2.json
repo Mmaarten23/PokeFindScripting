@@ -19,8 +19,7 @@
     "Server": [],
     "Hide": "guide",
 
-
-
+    "NotCompleted": [],
     "Show": "guide",
     "HighlightClickEntity": "guide",
     "Dialog": [
@@ -730,6 +729,9 @@
     "Wait": 20,
     "SendMessage": "&a&lCongratulations! You win!",
     "Progress": "gen5_main_quest_2",
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", 1047.8, 20.0, -513.5, 50, 0.6],
+    "Hide": "guide",
     "Complete": [],
     "Leave": [],
 
@@ -737,5 +739,5 @@
     "Comment": "Lose",
     "Wait": 20,
     "SendMessage": "&c&lSorry, you lose... Try Again!",
-    "Start": "gen5_main_quest_2_block_run_room2"
+    "Skip": "Restart"
 }
