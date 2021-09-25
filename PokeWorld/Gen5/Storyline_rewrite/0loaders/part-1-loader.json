@@ -2,6 +2,5 @@
     "Key": "part_1_loader",
     "Author": "Mmaarten",
 
-    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Storyline_rewrite/0loaders/part-1-loader.json",
-    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Storyline_rewrite/0loaders/part-2-loader.json"
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Storyline_rewrite/Gen%205%20Quest%20Line/1/gen5-main-quest-1.json"
 }
