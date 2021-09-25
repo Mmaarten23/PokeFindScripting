@@ -581,45 +581,29 @@
         },
         90
     ],
-    "Wait": [
-        20
-    ],
-    "Freeze": [
-    ],
-    "Fade": [
-    ],
-    "Cinematic": [
-    ],
-    "HidePlayer": [
-    ],
-    "Teleport": [
-        -351.7,
-        34.1,
-        59.3,
-        270,
-        0
-    ],
+    "Wait": 20,
+    "Freeze": [],
+    "Fade": [],
+    "Cinematic": [],
+    "HidePlayer": [],
+    "Teleport": [-351.7, 34.1, 59.3, 270, 0],
     "Show": {
         "cutscene1": true,
         "cutscene2": true,
         "cutscene3": true
     },
-    "Look": [
-        "cutscene1",
-        10.0
-    ],
+    "Look": ["cutscene1", 10.0],
     "Dialog": [
         {
             "&7Old Man": "Many years ago, a group of individuals wanted to bring together the lands of Zeinova. While this was a noble cause...",
             "&7Old Man": "It was not communicated to the region what the plan was, and soon, the region of Zeinova fell.",
             "&7Old Man": "This group brought two disasters, Kyogre and Groudon, with the intention of forcing them to work with one another to build the lands and connect the islands."
-        }
+        },
+        90
     ],
     "Particle": [
         "explosion_large",
-        -341.5,
-        32.5,
-        59.5,
+        -341.5, 32.5, 59.5,
         1,
         1.0
     ],
@@ -627,14 +611,13 @@
         "kyogre1": true,
         "groudon1": true
     },
-    "Look": [
-        "kyogre1"
-    ],
+    "Look": "kyogre1",
     "Dialog": [
         {
             "&7Old Man": "This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
             "&7Old Man": "But this group had no idea the hatred that ran thick in the two Pokémon when in the presence of one another."
-        }
+        },
+        90
     ],
     "Show": {
         "kyogre1": false,
@@ -642,216 +625,113 @@
         "groudon1": false,
         "groudon2": true
     },
-    "Teleport": [
-        950.5,
-        44.0,
-        217.5,
-        330,
-        0
-    ],
-    "Look": [
-        "kyogre2",
-        10
-    ],
+    "Teleport": [950.5, 44.0, 217.5, 330, 0],
+    "Look": ["kyogre2", 10],
     "SetWeatherRegion": [
-        945,
-        44,
-        209,
-        976,
-        60,
-        249,
+        945, 44, 209,
+        976, 60, 249,
         "Rain"
     ],
-    "Wait": [
-        40
-    ],
-    "SendMessage": [
-        "&7Old Man>&r The lands were flooded..."
-    ],
+    "Wait": 40,
+    "SendMessage": "&7Old Man>&r The lands were flooded...",
 
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "SetBlocks": [
-        940,
-        41,
-        204,
-        964,
-        41,
-        260,
+        940, 41, 204,
+        964, 41, 260,
         "air",
         "water"
     ],
-    "Wait": [
-        40
-    ],
+    "Wait": 40,
     "SetBlocks": [
-        940,
-        42,
-        204,
-        968,
-        42,
-        260,
+        940, 42, 204,
+        968, 42, 260,
         "air",
         "water"
     ],
-    "Wait": [
-        80
-    ],
+    "Wait": 80,
     "Show": {
         "kyogre2": false,
         "groudon2": true
     },
     "SetWeatherRegion": [
-        945,
-        44,
-        209,
-        976,
-        60,
-        249,
+        945, 44, 209,
+        976, 60, 249,
         "Clear"
     ],
-    "Teleport": [
-        1075.5,
-        51.0,
-        302.5,
-        150,
-        0
-    ],
-    "Wait": [
-        40
-    ],
-    "Look": [
-        "groudon2"
-    ],
-    "SendMessage": [
-        "&7Old Man>&r Then drought killed off the harvest..."
-    ],
+    "Teleport": [1075.5, 51.0, 302.5, 150, 0],
+    "Wait": 40,
+    "Look": "groudon2",
+    "SendMessage": "&7Old Man>&r Then drought killed off the harvest...",
     "SetBlocks": [
-        1042,
-        45,
-        273,
-        1093,
-        48,
-        298,
+        1042, 45, 273,
+        1093, 48, 298,
         "Large Fern",
         "Air"
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "SetBlocks": [
-        1042,
-        45,
-        273,
-        1093,
-        48,
-        298,
+        1042, 45, 273,
+        1093, 48, 298,
         "Rose Bush",
         "Air"
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "SetBlocks": [
-        1042,
-        45,
-        273,
-        1093,
-        48,
-        298,
+        1042, 45, 273,
+        1093, 48, 298,
         "Red Tulip",
         "Air"
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "SetBlocks": [
-        1042,
-        45,
-        273,
-        1093,
-        48,
-        298,
+        1042, 45, 273,
+        1093, 48, 298,
         "Peony",
         "Air"
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "SetBlocks": [
-        1042,
-        45,
-        273,
-        1093,
-        48,
-        298,
+        1042, 45, 273,
+        1093, 48, 298,
         "Fern",
         "Air"
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "SetBlocks": [
-        1042,
-        45,
-        273,
-        1093,
-        48,
-        298,
+        1042, 45, 273,
+        1093, 48, 298,
         "Azure Bluet",
         "Dead Bush"
     ],
-    "Wait": [
-        60
-    ],
-    "StopCinematic": [
-    ],
-    "Fade": [
-    ],
-    "ShowPlayer": [
-    ],
-    "Teleport": [
-        1015.5,
-        28.0,
-        61.5,
-        270,
-        0
-    ],
+    "Wait": 60,
+    "StopCinematic": [],
+    "Fade": [],
+    "ShowPlayer": [],
+    "Teleport": [1015.5, 28.0, 61.5, 270, 0],
     "Dialog": [
         {
             "&7Old Man": "The two were brought together to bring prosperity to the lands, when in the end, it brought devastation.",
             "&7Old Man": "Eventually, the two Pokémon were put back into their deep slumber. Where they were sent to is unknown..."
-        }
+        }, 90
     ],
-    "Look": [
-        "audino"
-    ],
-    "Unfreeze": [
-    ],
-    "Wait": [
-        5
-    ],
+    "Look": "audino",
+    "Unfreeze": [],
+    "Wait": 5,
     "Particle": [
         "redstone:white",
-        1019.5,
-        29.0,
-        58.5,
-        2
+        1019.5, 29.0, 58.5,
+        25,
+        0.6
     ],
-    "Wait": [
-        5
-    ],
+    "Wait": 5,
     "Particle": [
         "redstone:white",
-        1019.5,
-        29.0,
-        58.5,
-        2
+        1019.5, 29.0, 58.5,
+        25,
+        0.6
     ],
-    "Wait": [
-        5
-    ],
+    "Wait": 5,
     "Dialog": [
         {
             "&7Old Man": "I was told this story as a child by my parents, ad their parents passed it on to them.",
@@ -861,36 +741,18 @@
             "&7Old Man": "&3Statera&r actually took on the symbol of balance. They did this because of the heroes of the past.",
             "&7Old Man": "&0&lZekrom&r and &f&lReshiram&r, they were the ones that brought peace back to the lands after taking on &cGroudon&r and &9Kyogre&r.",
             "&7Old Man": "Though that may end up being a story for another time..."
-        }
+        },
+        90
     ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&f&lA few hours of talking pass... You should probably return to Professor Hemlock again..."
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Talk to Professor Hemlock near the bridge to Pure Harbor Heights",
-        18
-    ],
-    "Show": {
-        "professor": true
-    },
-    "HighlightClickEntity": [
-        "professor"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&f&oYou catch Professor Hemlock up with everything you have learned"
-    ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
+    "SendMessage": "&f&lA few hours of talking pass... You should probably return to Professor Hemlock again...",
+    "Wait": 20,
+    "Objective": ["Talk to Professor Hemlock near the bridge to Pure Harbor Heights", 18],
+    "Show": "professor",
+    "HighlightClickEntity": "professor",
+    "Wait": 20,
+    "SendMessage": "&f&oYou catch Professor Hemlock up with everything you have learned",
+    "Wait": 20,
     "Dialog": [
         {
             "Professor Hemlock": "There was a man way out there? Wow! That's a bit surprising...",
@@ -898,24 +760,12 @@
             "Professor Hemlock": "Especially in a cave with wild Pokémon! Looks like he gave you some good data though on this...",
             "Professor Hemlock": "What is it... &dAudino&r? Is that how it's said?",
             "Professor Hemlock": "Interesting... I've never heard of a Pokémon like this, this will be very intriguing to learn about..."
-        }
+        }, 90
     ],
-    "Show": {
-        "agent": true
-    },
-    "Wait": [
-        10
-    ],
-    "Look": [
-        "agent"
-    ],
-    "MoveEntity": [
-        "agent",
-        1152.5,
-        58.0,
-        -133.5,
-        false
-    ],
+    "Show": "agent",
+    "Wait": 10,
+    "Look": "agent",
+    "MoveEntity": ["agent", 1152.5, 58.0, -133.5, false],
     "Dialog": [
         {
             "&3Statera Employee": "You shouldn't be talking to strangers in the woods like that.",
@@ -925,22 +775,17 @@
             "&3Statera Employee": "At least that's what my parents told me as a kid... There was a radical group that tried to purge the land of humans,",
             "&3Statera Employee": "Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
             "&3Statera Employee": "I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
-        }
+        }, 90
     ],
-    "Wait": [
-        10
+    "Wait": 10,
+    "GiveCoins": 2500,
+    "GiveTrainerExperience": 3000,
+    "GiveTokens": 10,
+    "Complete": [],
+    "SetTitle": [
+        "&d&lA myth or a lie?",
+        "&7! Quest complete !",
+        true
     ],
-    "GiveCoins": [
-        2500
-    ],
-    "GiveTrainerExperience": [
-        3000
-    ],
-    "GiveTokens": [
-        10
-    ],
-    "Complete": [
-    ],
-    "SendCompleteMessage": [
-    ]
+    "PlaySound": "ui_toast_challenge_complete"
 }

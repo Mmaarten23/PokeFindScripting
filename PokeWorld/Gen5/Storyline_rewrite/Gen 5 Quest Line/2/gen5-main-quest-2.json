@@ -363,6 +363,7 @@
         "disaster_3": true,
         "disaster_3_pokemon": true
     },
+    "HidePlayer": [],
     "Start": "gen5_main_quest_2_cin1_cam",
     "Wait": 5,
     "MoveEntity": ["bird", 1183.7, 56.0, -94.6, 0.2, false],
@@ -474,6 +475,7 @@
     "Wait": 2,
     "Fade": [],
     "Teleport": [1028.3, 50.0, -279.6, -138],
+    "ShowPlayer": [],
     "Wait": 4,
     "Show": "bird2",
     "Show": "lewis_bridge2",
@@ -564,7 +566,7 @@
     "HighlightClickEntity": "Shrine_Pokemon",
     "Hide": "Shrine_Pokemon",
     "BattleWildPokemon": [
-        1130.5, 43.0, -602.5, 138,
+        1131.5, 43.0, -602.0, 138,
         [
             {
                 "species": "weedle",
@@ -583,7 +585,7 @@
     "HighlightClickEntity": "Shrine_Pokemon2",
     "Hide": "Shrine_Pokemon2",
     "BattleWildPokemon": [
-        1114.5, 43.0, -602.5, 227,
+        1114.5, 43.0, -602.0, 227,
         [
             {
                 "species": "weedle",
@@ -602,7 +604,7 @@
     "HighlightClickEntity": "Shrine_Pokemon3",
     "Hide": "Shrine_Pokemon3",
     "BattleWildPokemon": [
-        1123.5, 43.0, -602.5, 180,
+        1123.0, 43.0, -603.0, 180,
         [
             {
                 "species": "weedle",
@@ -621,7 +623,7 @@
     "HighlightClickEntity": "Shrine_Pokemon4",
     "Hide": "Shrine_Pokemon4",
     "BattleWildPokemon": [
-        1115.4, 43.0, -583.6, -151,
+        1115.5, 43.0, -583.6, -151,
         [
             {
                 "species": "weedle",
