@@ -18,7 +18,7 @@
             "pitch": 0
         },
         "skin": "old_man",
-        "look": false
+        "look": true
     },
     "CreateEntity": {
         "key": "cutscene1",
@@ -70,7 +70,6 @@
     },
     "CreateEntity": {
         "key": "pokemon1",
-        "name": "&",
         "location": {
             "world": "world",
             "x": 977.0,
@@ -85,7 +84,6 @@
     },
     "CreateEntity": {
         "key": "pokemon2",
-        "name": "&",
         "location": {
             "world": "world",
             "x": 942.1,
@@ -100,7 +98,6 @@
     },
     "CreateEntity": {
         "key": "pokemon3",
-        "name": "&",
         "location": {
             "world": "world",
             "x": 959.9,
@@ -320,8 +317,12 @@
     "Wait": 20,
     "Objective": ["Find the cave near Breezelton Village", 5],
     "Show": {
+        "executive": false,
         "audino": true,
-        "oldman": true
+        "oldman": true,
+        "pokemon1": true,
+        "pokemon2": true,
+        "pokemon3": true
     },
     "RegionEntry": [
         975, 60, 72,
@@ -355,13 +356,8 @@
         ]
     ],
     "Objective": ["Continue through the cave and fight the remaining guardian Pokémon", 15],
-    "RegionEntry": [
-        950, 40, 39,
-        938, 59, 64
-    ],
-    "Show": "pokemon2",
     "HighlightClickEntity": "pokemon2",
-    "Show": "pokemon2",
+    "Hide": "pokemon2",
     "BattleWildPokemon": [
         942.1, 50.0, 52.2, 240,
         [
@@ -379,13 +375,8 @@
             }
         ]
     ],
-    "RegionEntry": [
-        943, 45, 80,
-        966, 30, 121
-    ],
-    "Show": "pokemon3",
     "HighlightClickEntity": "pokemon3",
-    "Show": "pokemon3",
+    "Hide": "pokemon3",
     "BattleWildPokemon": [
         959.9, 33.0, 88.5, 64,
         [
@@ -417,13 +408,12 @@
         1010, 26, 72,
         1026, 38, 50
     ],
-    "EntityLookAtPlayer": "oldman",
     "Wait": 20,
     "Dialog": [
         {
-            "&7Old Man": "You need to leave, right now!",
+            "&7&lOld Man": "You need to leave, right now!",
             "[PLAYER]": "Not until I get the information I need for Professor Hemlock!",
-            "&7Old Man": "Then I guess we must battle!"
+            "&7&lOld Man": "Then I guess we must battle!"
         },
         90
     ],
@@ -432,13 +422,13 @@
     "BattleNpc": [
         "oldman",
         {
-            "&7Old Man": "Don't you think you've done enough?!"
+            "&7&lOld Man": "Don't you think you've done enough?!"
         },
         {
-            "&7Old Man": "My battling skills seem to be a bit out of date..."
+            "&7&lOld Man": "My battling skills seem to be a bit out of date..."
         },
         {
-            "&7Old Man": "&cLeave!"
+            "&7&lOld Man": "&cLeave!"
         },
         [
             {
@@ -484,11 +474,11 @@
     ],
     "Dialog": [
         {
-            "&7Old Man": "&dAudino&r... It's okay girl.",
-            "&7Old Man": "A trainer knows when he's been bested.",
-            "&7Old Man": "But don't fret... It's okay! Did you see this trainer's Pokémon?",
-            "&7Old Man": "This trainer is nothing like &oThem&r.",
-            "&7Old Man": "Oh &dAudino&r! You're glowing so brightly, it's okay!"
+            "&7&lOld Man": "&dAudino&r... It's okay girl.",
+            "&7&lOld Man": "A trainer knows when he's been bested.",
+            "&7&lOld Man": "But don't fret... It's okay! Did you see this trainer's Pokémon?",
+            "&7&lOld Man": "This trainer is nothing like &othem&r.",
+            "&7&lOld Man": "Oh &dAudino&r! You're glowing so brightly, it's okay!"
         }, 90
     ],
     "Particle": [
