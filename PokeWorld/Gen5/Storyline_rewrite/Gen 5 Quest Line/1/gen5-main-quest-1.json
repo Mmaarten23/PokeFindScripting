@@ -37,6 +37,19 @@
         "look": false
     },
     "CreateEntity": {
+        "key": "cutscene1_cam",
+        "entity": "ARMOR_STAND",
+        "location": {
+            "world": "world",
+            "x": -346.5,
+            "y": 32.0,
+            "z": 57.5,
+            "yaw": 287,
+            "pitch": 0
+        },
+        "visible": false
+    },
+    "CreateEntity": {
         "key": "cutscene2",
         "location": {
             "world": "world",
@@ -585,7 +598,7 @@
         "cutscene2": true,
         "cutscene3": true
     },
-    "Look": ["cutscene1", 10.0],
+    "Look": ["cutscene1_cam"],
     "Dialog": [
         {
             "&7&lOld man": "Many years ago, a group of individuals wanted to bring together the lands of Zeinova. While this was a noble cause...",
@@ -604,7 +617,7 @@
         "kyogre1": true,
         "groudon1": true
     },
-    "Look": "kyogre1",
+    "ProgressiveMoveEntity": ["cutscene1_cam", -339.9, 33.0, 57.9, 0.1, false],
     "Dialog": [
         {
             "&7&lOld man": "This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
@@ -697,7 +710,10 @@
         "Azure Bluet",
         "Dead Bush"
     ],
+
+
     "Wait": 60,
+    "Hide": "groudon2",
     "StopCinematic": [],
     "Fade": [],
     "ShowPlayer": [],
@@ -753,7 +769,8 @@
             "Professor Hemlock": "Especially in a cave with wild Pokémon! Looks like he gave you some good data though on this...",
             "Professor Hemlock": "What is it... &dAudino&r? Is that how it's said?",
             "Professor Hemlock": "Interesting... I've never heard of a Pokémon like this, this will be very intriguing to learn about..."
-        }, 90
+        },
+        90
     ],
     "Show": "agent",
     "Wait": 10,

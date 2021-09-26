@@ -1,0 +1,2136 @@
+{
+    "Key": "gen5_main_quest_3",
+    "Name": "",
+    "Description": "Travel to Spiritvale",
+    "AllowRejoining": true,
+    "Icon": "",
+    "CreateEntity": {
+        "key": "BridgeCitizen1",
+        "name": "&9Townie",
+        "location": {
+            "world": "world",
+            "x": 390.5,
+            "y": 53.5,
+            "z": -18.5,
+            "yaw": 126,
+            "pitch": 52
+        },
+        "skin": ""
+    },
+    "CreateEntity": {
+        "key": "BridgeCitizen2",
+        "name": "&eTownie",
+        "location": {
+            "world": "world",
+            "x": 393.5,
+            "y": 53.9,
+            "z": -27.5,
+            "yaw": 294,
+            "pitch": 0
+        },
+        "skin": ""
+    },
+    "CreateEntity": {
+        "key": "BridgeCitizen3",
+        "name": "&bTownie",
+        "location": {
+            "world": "world",
+            "x": 398.5,
+            "y": 57.0,
+            "z": -10.5,
+            "yaw": 309,
+            "pitch": 0
+        },
+        "skin": ""
+    },
+    "CreateEntity": {
+        "key": "BridgeCitizen4",
+        "name": "&dTownie",
+        "location": {
+            "world": "world",
+            "x": 383.5,
+            "y": 52.0,
+            "z": -17.5,
+            "yaw": 223,
+            "pitch": 0
+        },
+        "skin": ""
+    },
+    "CreateEntity": {
+        "key": "BridgeCitizen5",
+        "name": "&5Townie",
+        "location": {
+            "world": "world",
+            "x": 384.1,
+            "y": 55.0,
+            "z": -24.5,
+            "yaw": 217,
+            "pitch": 78
+        },
+        "skin": ""
+    },
+    "CreateEntity": {
+        "key": "BridgePokemon1",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 388.5,
+            "y": 52.9,
+            "z": -19.5,
+            "yaw": 310,
+            "pitch": -1
+        },
+        "entity": "armor_stand",
+        "pokemon": ""
+    },
+    "CreateEntity": {
+        "key": "BridgePokemon2",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 395.5,
+            "y": 53.9,
+            "z": -26.7,
+            "yaw": 117,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": ""
+    },
+    "CreateEntity": {
+        "key": "BridgePokemon3",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 401.0,
+            "y": 57.0,
+            "z": -8.5,
+            "yaw": 137,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": ""
+    },
+    "CreateEntity": {
+        "key": "BridgePokemon4",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 385.5,
+            "y": 53.0,
+            "z": -18.5,
+            "yaw": 64,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": ""
+    },
+    "CreateEntity": {
+        "key": "BridgePokemon5",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 384.8,
+            "y": 53.0,
+            "z": -24.6,
+            "yaw": 54,
+            "pitch": -33
+        },
+        "entity": "armor_stand",
+        "pokemon": ""
+    },
+    "CreateEntity": {
+        "key": "Anni_Snorlax",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 472.5,
+            "y": 66.0,
+            "z": 39.0,
+            "yaw": 145,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": "Snorlax",
+        "skin": "Anniversary"
+    },
+    "CreateEntity": {
+        "key": "Guard1",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 375.5,
+            "y": 53.0,
+            "z": -53.5,
+            "yaw": 14,
+            "pitch": 53
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        }
+    },
+    "CreateEntity": {
+        "key": "Guard2",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 411.5,
+            "y": 55.0,
+            "z": -95.5,
+            "yaw": 270,
+            "pitch": 23
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        }
+    },
+    "CreateEntity": {
+        "key": "Guard3",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 405.5,
+            "y": 58.0,
+            "z": -48.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        }
+    },
+    "CreateEntity": {
+        "key": "Guard4",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 396.5,
+            "y": 53.9,
+            "z": -110.5,
+            "yaw": 35,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Representative1",
+        "name": "&4&lThomas",
+        "location": {
+            "world": "world",
+            "x": 385.5,
+            "y": 52.9,
+            "z": -34.1,
+            "yaw": 345,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Representative2",
+        "name": "&4&lThomas",
+        "location": {
+            "world": "world",
+            "x": 386.5,
+            "y": 52.9,
+            "z": -28.5,
+            "yaw": 340,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
+        }
+    },
+    "Show": {
+        "BridgeCitizen1": false,
+        "BridgeCitizen2": false,
+        "BridgeCitizen3": false,
+        "BridgeCitizen4": false,
+        "BridgeCitizen5": false,
+        "BridgePokemon1": false,
+        "BridgePokemon2": false,
+        "BridgePokemon3": false,
+        "BridgePokemon4": false,
+        "BridgePokemon5": false,
+        "AnniSnorlax": false,
+        "Guard1": false,
+        "Guard2": false,
+        "Guard3": false,
+        "Guard4": false,
+        "Statera_Representative1": false,
+        "Statera_Representative2": false
+    },
+    "Quest": true,
+    "RegionEntry": [
+        295,
+        1,
+        -152,
+        507,
+        100,
+        49
+    ],
+    "NotCompleted": [
+    ],
+    "Completed": [
+        "GYM2"
+    ],
+    "Show": {
+        "BridgeCitizen1": true,
+        "BridgeCitizen2": true,
+        "BridgeCitizen3": true,
+        "BridgeCitizen4": true,
+        "BridgeCitizen5": true,
+        "BridgePokemon1": true,
+        "BridgePokemon2": true,
+        "BridgePokemon3": true,
+        "BridgePokemon4": true,
+        "BridgePokemon5": true,
+        "AnniSnorlax": true,
+        "Guard1": false,
+        "Guard2": false,
+        "Guard3": false,
+        "Guard4": false
+    },
+    "SendMessage": [
+        "&a&lIncoming Pokecall> Statera HQ (Type /accept to accept)"
+    ],
+    "Wait": [
+        10
+    ],
+    "Objective": [
+        "Accept the call from Statera HQ by typing /accept",
+        6
+    ],
+    "Command": [
+        "Accept"
+    ],
+    "Wait": [
+        10
+    ],
+    "SendMessage": [
+        "&a&lCall accepted"
+    ],
+    "Wait": [
+        10
+    ],
+    "Dialog": [
+        {
+            "&3&lStatera": "Hey [PLAYER], it looks like you just entered Spiritvale from what our GPS is showing, can you check out the area for us?",
+            "&3&lStatera": "There has been more suspicious Pokémon activity again and we need you to help the locals.",
+            "[PLAYER]": "I'll get right to it!",
+            "&3&lStatera": "We'll be checking in with you later, thanks again!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Investigate what's going on at the bridge in Spiritvale",
+        10
+    ],
+    "RegionEntry": [
+        365,
+        1,
+        -39,
+        427,
+        100,
+        -5
+    ],
+    "Freeze": [
+    ],
+    "Fade": [
+    ],
+    "HidePlayer": [
+    ],
+    "Teleport": [
+        385.5,
+        55.0,
+        -33.5,
+        344,
+        0
+    ],
+    "Look": [
+        "BridgeCitizen1"
+    ],
+    "Dialog": [
+        {
+            "&9Townie": "AHH! Please stop attacking us!"
+        }
+    ],
+    "Unfreeze": [
+    ],
+    "ShowPlayer": [
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Talk to the citizens at the bridge to see how you can help calm the Pokemon",
+        7
+    ],
+    "HighlightClickEntity": [
+        "BridgeCitizen1"
+    ],
+    "Dialog": [
+        {
+            "&9Townie": "You must be new around here...",
+            "&9Townie": "I promise things are not normally this hectic...",
+            "&9&lTownie": "I wish this wasn't your first impression of [NORMALTOWN]..."
+        }
+    ],
+    "HighlightClickEntity": [
+        "BridgeCitizen2"
+    ],
+    "Dialog": [
+        {
+            "&eTownie": "Hey, maybe you could help us out!",
+            "&eTownie": "You're a trainer right?",
+            "&eTownie": "Normally the Nurse handles this... She has a flute she plays to calm down the local Pokémon.",
+            "&eTownie": "They get spooked every now and then hahaha..."
+        }
+    ],
+    "HighlightClickEntity": [
+        "BridgeCitizen3"
+    ],
+    "Dialog": [
+        {
+            "&bTownie": "Do you think you could grab the flute from her chest? She keeps it in a chest above the doorway of her house.",
+            "&bTownie": "We'd ask her but she's away on business for &3Statera."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Go to Nurse [NURSENAME]'s home and find her flute (Hint> Her house is near a gym structure outside of town)",
+        3
+    ],
+    "RegionEntry": [
+        464,
+        1,
+        28,
+        476,
+        80,
+        46
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hmm... The flute should be in the chest above the doorway!",
+            "[PLAYER]": "I need to be quiet though so I don't wake up Nurse [NURSENAME]'s Snorlax though..."
+        }
+    ],
+    "Wait": [
+        10
+    ],
+    "Objective": [
+        "Try to find Nurse [NURSENAME]'s flute in the chest",
+        3
+    ],
+    "ClickBlocks": [
+        469,
+        69,
+        33,
+        470,
+        69,
+        33
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hmm... It looks like it needs a code!",
+            "[PLAYER]": "There's a paper here...",
+            "[PLAYER]": "It says 'To find the first digit of the code speak to [GUARD1] in case of emergency'...",
+            "[PLAYER]": "I guess I have to go talk to [GUARD1]!"
+        }
+    ],
+    "Wait": [
+        10
+    ],
+    "Objective": [
+        "Try to find the four digits to unlock the chest (Talk to [GUARD1] for the first digit!)",
+        3
+    ],
+    "Show": {
+        "Guard1": true
+    },
+    "HighlightClickEntity": [
+        "Guard1"
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hi there! I was wondering if you have the first digit to Nurse [NURSENAME]'s chest...",
+            "[PLAYER]": "I need it to calm the Pokémon down...",
+            "[GUARD1]": "I might... But I'm not going to give it up that easily! I need you to do something for me first!",
+            "[GUARD1]": "I would like for you to bring me a Normal type Pokémon and then the first digit of the code is yours!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Bring a Normal type Pokemon to [GUARD1]",
+        4
+    ],
+    "ProvidePokemonType": [
+        "Guard1",
+        "Normal"
+    ],
+    "Wait": [
+        10
+    ],
+    "Dialog": [
+        {
+            "[GUARD1]": "Thanks! Okay the first digit of the code is 9. Good luck!",
+            "[PLAYER]": "Do you know who has the second digit?",
+            "[GUARD1]": "[GUARD2] should have it."
+        }
+    ],
+    "Wait": [
+        10
+    ],
+    "Objective": [
+        "Find the second digit of the code by talking to [GUARD2]",
+        3
+    ],
+    "Show": {
+        "Guard1": false,
+        "Guard2": true
+    },
+    "HighlightClickEntity": [
+        "Guard2"
+    ],
+    "Dialog": [
+        {
+            "[GUARD2]": "What do you want?",
+            "[PLAYER]": "I just need the second digit to Nurse [NURSENAME]'s chest so I can get her flute!",
+            "[PLAYER]": "The Pokémon are out of control again...",
+            "[GUARD2]": "Okay then... Just bring me [ITEM] and I'll give you the second digit to the code!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Give [GUARD2] a [ITEM]",
+        4
+    ],
+    "ProvideItem": [
+        "Guard2",
+        ""
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "[GUARD2]": "Perfect! Okay, get ready! The second digit is 7!",
+            "[GUARD2]": "I assume you want to know where to find the third digit? Just talk to [GUARD3]!",
+            "[PLAYER]": "Alright! Thank you!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Find the third digit of the code by talking to [GUARD3]",
+        3
+    ],
+    "Show": {
+        "Guard2": false,
+        "Guard3": true
+    },
+    "HighlightClickEntity": [
+        "Guard3"
+    ],
+    "Dialog": [
+        {
+            "[GUARD3]": "Yo! What brings you here today?",
+            "[PLAYER]": "I was told you have the third digit to Nurse [NURSENAME]'s chest?",
+            "[GUARD3]": "I sure do! However, you have to solve a riddle first!",
+            "[PLAYER]": "Alright, what's the riddle?",
+            "[GUARD3]": "[RIDDLE]"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Solve the riddle: [RIDDLE] (Answer by typing /youranswer)",
+        4
+    ],
+    "Command": [
+        ""
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "[GUARD3]": "Great job! The third digit is 4!",
+            "[GUARD3]": "[GUARD4] has the final digit! Good luck!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Find the last digit of the code by talking to [GUARD4]",
+        3
+    ],
+    "Show": {
+        "Guard3": false,
+        "Guard4": true
+    },
+    "HighlightClickEntity": [
+        "Guard4"
+    ],
+    "Dialog": [
+        {
+            "[GUARD4]": "Why hello there... I've been expecting you...",
+            "[PLAYER]": "You have?",
+            "[GUARD4]": "Of course! I heard you want the final digit?",
+            "[GUARD4]": "Well, you'll have to battle me for it!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Battle [GUARD4]",
+        4
+    ],
+    "BattleNpc": [
+        "Guard4",
+        {
+            "[GUARD4]": "Let's see if you are worthy for the final digit!"
+        },
+        {
+            "[GUARD4]": "Yes, you are worthy to know what the final digit is..."
+        },
+        {
+            "[GUARD4]": "Better luck next time..."
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "[GUARD4]": "You have proved that you are worthy... The final digit is 0!",
+            "[GUARD4]": "Good luck calming the Pokémon..."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Click the chest to enter the code digit by digit (The code is 9740)",
+        61
+    ],
+    "Skip": [
+        1
+    ],
+    "SendMessage": [
+        "&cWrong digit! Try again!"
+    ],
+    "ClickBlocks": [
+        469,
+        69,
+        33,
+        470,
+        69,
+        33
+    ],
+    "Menu": [
+        "Code",
+        4,
+        {
+            "3": {
+                "name": "&a1",
+                "description": [
+                    "&7Click to enter the number 1"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "4": {
+                "name": "&a2",
+                "description": [
+                    "&7Click to enter the number 2"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "5": {
+                "name": "&a3",
+                "description": [
+                    "&7Click to enter the number 3"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "12": {
+                "name": "&a4",
+                "description": [
+                    "&7Click to enter the number 4"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "13": {
+                "name": "&a5",
+                "description": [
+                    "&7Click to enter the number 5"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "14": {
+                "name": "&a6",
+                "description": [
+                    "&7Click to enter the number 6"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "21": {
+                "name": "&a7",
+                "description": [
+                    "&7Click to enter the number 7"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "22": {
+                "name": "&a8",
+                "description": [
+                    "&7Click to enter the number 8"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "23": {
+                "name": "&a9",
+                "description": [
+                    "&7Click to enter the number 9"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "31": {
+                "name": "&a0",
+                "description": [
+                    "&7Click to enter the number 0"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
+                    "signature": ""
+                }
+            }
+        }
+    ],
+    "Skip": [
+        -2
+    ],
+    "Skip": [
+        -3
+    ],
+    "Skip": [
+        -4
+    ],
+    "Skip": [
+        -5
+    ],
+    "Skip": [
+        -6
+    ],
+    "Skip": [
+        -7
+    ],
+    "Skip": [
+        -8
+    ],
+    "Skip": [
+        -9
+    ],
+    "Skip": [
+        3
+    ],
+    "Skip": [
+        -11
+    ],
+    "SendMessage": [
+        "&cWrong Digit! Try again"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&aPlease enter the second digit 9 _ _ _"
+    ],
+    "Menu": [
+        "Code",
+        4,
+        {
+            "3": {
+                "name": "&a1",
+                "description": [
+                    "&7Click to enter the number 1"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "4": {
+                "name": "&a2",
+                "description": [
+                    "&7Click to enter the number 2"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "5": {
+                "name": "&a3",
+                "description": [
+                    "&7Click to enter the number 3"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "12": {
+                "name": "&a4",
+                "description": [
+                    "&7Click to enter the number 4"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "13": {
+                "name": "&a5",
+                "description": [
+                    "&7Click to enter the number 5"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "14": {
+                "name": "&a6",
+                "description": [
+                    "&7Click to enter the number 6"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "21": {
+                "name": "&a7",
+                "description": [
+                    "&7Click to enter the number 7"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "22": {
+                "name": "&a8",
+                "description": [
+                    "&7Click to enter the number 8"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "23": {
+                "name": "&a9",
+                "description": [
+                    "&7Click to enter the number 9"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "31": {
+                "name": "&a0",
+                "description": [
+                    "&7Click to enter the number 0"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
+                    "signature": ""
+                }
+            }
+        }
+    ],
+    "Skip": [
+        -3
+    ],
+    "Skip": [
+        -4
+    ],
+    "Skip": [
+        -5
+    ],
+    "Skip": [
+        -6
+    ],
+    "Skip": [
+        -7
+    ],
+    "Skip": [
+        -8
+    ],
+    "Skip": [
+        5
+    ],
+    "Skip": [
+        -10
+    ],
+    "Skip": [
+        -11
+    ],
+    "Skip": [
+        -12
+    ],
+    "SendMessage": [
+        "&cWrong Digit! Try again"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&aPlease enter the third digit 9 7 _ _"
+    ],
+    "Menu": [
+        "Code",
+        4,
+        {
+            "3": {
+                "name": "&a1",
+                "description": [
+                    "&7Click to enter the number 1"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "4": {
+                "name": "&a2",
+                "description": [
+                    "&7Click to enter the number 2"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "5": {
+                "name": "&a3",
+                "description": [
+                    "&7Click to enter the number 3"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "12": {
+                "name": "&a4",
+                "description": [
+                    "&7Click to enter the number 4"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "13": {
+                "name": "&a5",
+                "description": [
+                    "&7Click to enter the number 5"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "14": {
+                "name": "&a6",
+                "description": [
+                    "&7Click to enter the number 6"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "21": {
+                "name": "&a7",
+                "description": [
+                    "&7Click to enter the number 7"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "22": {
+                "name": "&a8",
+                "description": [
+                    "&7Click to enter the number 8"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "23": {
+                "name": "&a9",
+                "description": [
+                    "&7Click to enter the number 9"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "31": {
+                "name": "&a0",
+                "description": [
+                    "&7Click to enter the number 0"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
+                    "signature": ""
+                }
+            }
+        }
+    ],
+    "Skip": [
+        -3
+    ],
+    "Skip": [
+        -4
+    ],
+    "Skip": [
+        -5
+    ],
+    "Skip": [
+        8
+    ],
+    "Skip": [
+        -7
+    ],
+    "Skip": [
+        -8
+    ],
+    "Skip": [
+        -9
+    ],
+    "Skip": [
+        -10
+    ],
+    "Skip": [
+        -11
+    ],
+    "Skip": [
+        -12
+    ],
+    "SendMessage": [
+        "&cWrong Digit! Try again"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&aPlease enter the fourth digit 9 7 4 _"
+    ],
+    "Menu": [
+        "Code",
+        4,
+        {
+            "3": {
+                "name": "&a1",
+                "description": [
+                    "&7Click to enter the number 1"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "4": {
+                "name": "&a2",
+                "description": [
+                    "&7Click to enter the number 2"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "5": {
+                "name": "&a3",
+                "description": [
+                    "&7Click to enter the number 3"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "12": {
+                "name": "&a4",
+                "description": [
+                    "&7Click to enter the number 4"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "13": {
+                "name": "&a5",
+                "description": [
+                    "&7Click to enter the number 5"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "14": {
+                "name": "&a6",
+                "description": [
+                    "&7Click to enter the number 6"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "21": {
+                "name": "&a7",
+                "description": [
+                    "&7Click to enter the number 7"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "22": {
+                "name": "&a8",
+                "description": [
+                    "&7Click to enter the number 8"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "23": {
+                "name": "&a9",
+                "description": [
+                    "&7Click to enter the number 9"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
+                    "signature": ""
+                }
+            },
+            "31": {
+                "name": "&a0",
+                "description": [
+                    "&7Click to enter the number 0"
+                ],
+                "material": "Player Head",
+                "data": 3,
+                "skin": {
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
+                    "signature": ""
+                }
+            }
+        }
+    ],
+    "Skip": [
+        -3
+    ],
+    "Skip": [
+        -4
+    ],
+    "Skip": [
+        -5
+    ],
+    "Skip": [
+        -6
+    ],
+    "Skip": [
+        -7
+    ],
+    "Skip": [
+        -8
+    ],
+    "Skip": [
+        -9
+    ],
+    "Skip": [
+        -10
+    ],
+    "Skip": [
+        -11
+    ],
+    "SendMessage": [
+        "&aAccess Granted"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&e&l+1 Flute"
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "I got it!",
+            "&7&lSnorlax": "Snor... lax!",
+            "[PLAYER]": "Uh oh! It looks like I woke up the Snorlax! It seems very angry!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Fight Nurse [NURSENAME]'s Snorlax",
+        7
+    ],
+    "HighlightClickEntity": [
+        "AnniSnorlax"
+    ],
+    "Show": {
+        "AnniSnorlax": false
+    },
+    "BattleWildPokemon": [
+        472.5,
+        66.0,
+        39.0,
+        145,
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Whew! That was a close call! Hey it dropped a piece of paper... Maybe that will help me!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&e&l+1 &8Sheet Music"
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Return to the bridge and play the flute to calm down the Pokemon",
+        3
+    ],
+    "RegionEntry": [
+        374,
+        1,
+        -32,
+        423,
+        100,
+        1
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Here we go!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Type /Sheet Music to view the order of the notes (Type /flute when you are ready to play!)",
+        74
+    ],
+    "GlobalCommand": [
+        "Sheet Music"
+    ],
+    "Book": [
+        "&6&lLullaby of the Ancient Times\n &aLime &bLightBlue &eYellow &aLime &dPink &6Orange &4Red"
+    ],
+    "Skip": [
+        1
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Oops! That's not right! I'll try again..."
+        }
+    ],
+    "Command": [
+        "Flute"
+    ],
+    "Menu": [
+        "Flute",
+        3,
+        {
+            "10": {
+                "name": "&4&lRed",
+                "description": [
+                    "&7&lClick me to play Red!"
+                ],
+                "material": "Red Wool"
+            },
+            "11": {
+                "name": "&6&lOrange",
+                "description": [
+                    "&7&lClick me to play Orange!"
+                ],
+                "material": "Orange Wool"
+            },
+            "12": {
+                "name": "&e&lYellow",
+                "description": [
+                    "&7&lClick me to play Yellow!"
+                ],
+                "material": "Yellow Wool"
+            },
+            "13": {
+                "name": "&a&lLime",
+                "description": [
+                    "&7&lClick me to play Lime!"
+                ],
+                "material": "Lime Wool"
+            },
+            "14": {
+                "name": "&b&lLight Blue",
+                "description": [
+                    "&7&lClick me to play Light Blue!"
+                ],
+                "material": "Light Blue Wool"
+            },
+            "15": {
+                "name": "&d&lPink",
+                "description": [
+                    "&7&lClick me to play Pink!"
+                ],
+                "material": "Pink Wool"
+            },
+            "16": {
+                "name": "&5&lPurple",
+                "description": [
+                    "&7&lClick me to play Purple!"
+                ],
+                "material": "Purple Wool"
+            }
+        }
+    ],
+    "Skip": [
+        -2
+    ],
+    "Skip": [
+        -3
+    ],
+    "Skip": [
+        -4
+    ],
+    "Skip": [
+        3
+    ],
+    "Skip": [
+        -6
+    ],
+    "Skip": [
+        -7
+    ],
+    "Skip": [
+        -8
+    ],
+    "PlaySound": [
+        "block_note_block_flute",
+        1.0,
+        1.0
+    ],
+    "Wait": [
+        20
+    ],
+    "Menu": [
+        "Flute",
+        3,
+        {
+            "10": {
+                "name": "&4&lRed",
+                "description": [
+                    "&7&lClick me to play Red!"
+                ],
+                "material": "Red Wool"
+            },
+            "11": {
+                "name": "&6&lOrange",
+                "description": [
+                    "&7&lClick me to play Orange!"
+                ],
+                "material": "Orange Wool"
+            },
+            "12": {
+                "name": "&e&lYellow",
+                "description": [
+                    "&7&lClick me to play Yellow!"
+                ],
+                "material": "Yellow Wool"
+            },
+            "13": {
+                "name": "&a&lLime",
+                "description": [
+                    "&7&lClick me to play Lime!"
+                ],
+                "material": "Lime Wool"
+            },
+            "14": {
+                "name": "&b&lLight Blue",
+                "description": [
+                    "&7&lClick me to play Light Blue!"
+                ],
+                "material": "Light Blue Wool"
+            },
+            "15": {
+                "name": "&d&lPink",
+                "description": [
+                    "&7&lClick me to play Pink!"
+                ],
+                "material": "Pink Wool"
+            },
+            "16": {
+                "name": "&5&lPurple",
+                "description": [
+                    "&7&lClick me to play Purple!"
+                ],
+                "material": "Purple Wool"
+            }
+        }
+    ],
+    "Skip": [
+        -12
+    ],
+    "Skip": [
+        -13
+    ],
+    "Skip": [
+        -14
+    ],
+    "Skip": [
+        -15
+    ],
+    "Skip": [
+        2
+    ],
+    "Skip": [
+        -17
+    ],
+    "Skip": [
+        -18
+    ],
+    "PlaySound": [
+        "block_note_block_flute",
+        0.9,
+        1.0
+    ],
+    "Wait": [
+        20
+    ],
+    "Menu": [
+        "Flute",
+        3,
+        {
+            "10": {
+                "name": "&4&lRed",
+                "description": [
+                    "&7&lClick me to play Red!"
+                ],
+                "material": "Red Wool"
+            },
+            "11": {
+                "name": "&6&lOrange",
+                "description": [
+                    "&7&lClick me to play Orange!"
+                ],
+                "material": "Orange Wool"
+            },
+            "12": {
+                "name": "&e&lYellow",
+                "description": [
+                    "&7&lClick me to play Yellow!"
+                ],
+                "material": "Yellow Wool"
+            },
+            "13": {
+                "name": "&a&lLime",
+                "description": [
+                    "&7&lClick me to play Lime!"
+                ],
+                "material": "Lime Wool"
+            },
+            "14": {
+                "name": "&b&lLight Blue",
+                "description": [
+                    "&7&lClick me to play Light Blue!"
+                ],
+                "material": "Light Blue Wool"
+            },
+            "15": {
+                "name": "&d&lPink",
+                "description": [
+                    "&7&lClick me to play Pink!"
+                ],
+                "material": "Pink Wool"
+            },
+            "16": {
+                "name": "&5&lPurple",
+                "description": [
+                    "&7&lClick me to play Purple!"
+                ],
+                "material": "Purple Wool"
+            }
+        }
+    ],
+    "Skip": [
+        -22
+    ],
+    "Skip": [
+        -23
+    ],
+    "Skip": [
+        4
+    ],
+    "Skip": [
+        -25
+    ],
+    "Skip": [
+        -26
+    ],
+    "Skip": [
+        -27
+    ],
+    "Skip": [
+        -28
+    ],
+    "PlaySound": [
+        "block_note_block_flute",
+        1.1,
+        1.0
+    ],
+    "Wait": [
+        20
+    ],
+    "Menu": [
+        "Flute",
+        3,
+        {
+            "10": {
+                "name": "&4&lRed",
+                "description": [
+                    "&7&lClick me to play Red!"
+                ],
+                "material": "Red Wool"
+            },
+            "11": {
+                "name": "&6&lOrange",
+                "description": [
+                    "&7&lClick me to play Orange!"
+                ],
+                "material": "Orange Wool"
+            },
+            "12": {
+                "name": "&e&lYellow",
+                "description": [
+                    "&7&lClick me to play Yellow!"
+                ],
+                "material": "Yellow Wool"
+            },
+            "13": {
+                "name": "&a&lLime",
+                "description": [
+                    "&7&lClick me to play Lime!"
+                ],
+                "material": "Lime Wool"
+            },
+            "14": {
+                "name": "&b&lLight Blue",
+                "description": [
+                    "&7&lClick me to play Light Blue!"
+                ],
+                "material": "Light Blue Wool"
+            },
+            "15": {
+                "name": "&d&lPink",
+                "description": [
+                    "&7&lClick me to play Pink!"
+                ],
+                "material": "Pink Wool"
+            },
+            "16": {
+                "name": "&5&lPurple",
+                "description": [
+                    "&7&lClick me to play Purple!"
+                ],
+                "material": "Purple Wool"
+            }
+        }
+    ],
+    "Skip": [
+        -32
+    ],
+    "Skip": [
+        -33
+    ],
+    "Skip": [
+        -34
+    ],
+    "Skip": [
+        3
+    ],
+    "Skip": [
+        -36
+    ],
+    "Skip": [
+        -37
+    ],
+    "Skip": [
+        -38
+    ],
+    "PlaySound": [
+        "block_note_block_flute",
+        1.0,
+        1.0
+    ],
+    "Wait": [
+        20
+    ],
+    "Menu": [
+        "Flute",
+        3,
+        {
+            "10": {
+                "name": "&4&lRed",
+                "description": [
+                    "&7&lClick me to play Red!"
+                ],
+                "material": "Red Wool"
+            },
+            "11": {
+                "name": "&6&lOrange",
+                "description": [
+                    "&7&lClick me to play Orange!"
+                ],
+                "material": "Orange Wool"
+            },
+            "12": {
+                "name": "&e&lYellow",
+                "description": [
+                    "&7&lClick me to play Yellow!"
+                ],
+                "material": "Yellow Wool"
+            },
+            "13": {
+                "name": "&a&lLime",
+                "description": [
+                    "&7&lClick me to play Lime!"
+                ],
+                "material": "Lime Wool"
+            },
+            "14": {
+                "name": "&b&lLight Blue",
+                "description": [
+                    "&7&lClick me to play Light Blue!"
+                ],
+                "material": "Light Blue Wool"
+            },
+            "15": {
+                "name": "&d&lPink",
+                "description": [
+                    "&7&lClick me to play Pink!"
+                ],
+                "material": "Pink Wool"
+            },
+            "16": {
+                "name": "&5&lPurple",
+                "description": [
+                    "&7&lClick me to play Purple!"
+                ],
+                "material": "Purple Wool"
+            }
+        }
+    ],
+    "Skip": [
+        -42
+    ],
+    "Skip": [
+        -43
+    ],
+    "Skip": [
+        -44
+    ],
+    "Skip": [
+        -45
+    ],
+    "Skip": [
+        -46
+    ],
+    "Skip": [
+        1
+    ],
+    "Skip": [
+        -48
+    ],
+    "PlaySound": [
+        "block_note_block_flute",
+        0.8,
+        1.0
+    ],
+    "Wait": [
+        20
+    ],
+    "Menu": [
+        "Flute",
+        3,
+        {
+            "10": {
+                "name": "&4&lRed",
+                "description": [
+                    "&7&lClick me to play Red!"
+                ],
+                "material": "Red Wool"
+            },
+            "11": {
+                "name": "&6&lOrange",
+                "description": [
+                    "&7&lClick me to play Orange!"
+                ],
+                "material": "Orange Wool"
+            },
+            "12": {
+                "name": "&e&lYellow",
+                "description": [
+                    "&7&lClick me to play Yellow!"
+                ],
+                "material": "Yellow Wool"
+            },
+            "13": {
+                "name": "&a&lLime",
+                "description": [
+                    "&7&lClick me to play Lime!"
+                ],
+                "material": "Lime Wool"
+            },
+            "14": {
+                "name": "&b&lLight Blue",
+                "description": [
+                    "&7&lClick me to play Light Blue!"
+                ],
+                "material": "Light Blue Wool"
+            },
+            "15": {
+                "name": "&d&lPink",
+                "description": [
+                    "&7&lClick me to play Pink!"
+                ],
+                "material": "Pink Wool"
+            },
+            "16": {
+                "name": "&5&lPurple",
+                "description": [
+                    "&7&lClick me to play Purple!"
+                ],
+                "material": "Purple Wool"
+            }
+        }
+    ],
+    "Skip": [
+        -52
+    ],
+    "Skip": [
+        5
+    ],
+    "Skip": [
+        -54
+    ],
+    "Skip": [
+        -55
+    ],
+    "Skip": [
+        -56
+    ],
+    "Skip": [
+        -57
+    ],
+    "Skip": [
+        -58
+    ],
+    "PlaySound": [
+        "block_note_block_flute",
+        0.7,
+        1.0
+    ],
+    "Wait": [
+        20
+    ],
+    "Menu": [
+        "Flute",
+        3,
+        {
+            "10": {
+                "name": "&4&lRed",
+                "description": [
+                    "&7&lClick me to play Red!"
+                ],
+                "material": "Red Wool"
+            },
+            "11": {
+                "name": "&6&lOrange",
+                "description": [
+                    "&7&lClick me to play Orange!"
+                ],
+                "material": "Orange Wool"
+            },
+            "12": {
+                "name": "&e&lYellow",
+                "description": [
+                    "&7&lClick me to play Yellow!"
+                ],
+                "material": "Yellow Wool"
+            },
+            "13": {
+                "name": "&a&lLime",
+                "description": [
+                    "&7&lClick me to play Lime!"
+                ],
+                "material": "Lime Wool"
+            },
+            "14": {
+                "name": "&b&lLight Blue",
+                "description": [
+                    "&7&lClick me to play Light Blue!"
+                ],
+                "material": "Light Blue Wool"
+            },
+            "15": {
+                "name": "&d&lPink",
+                "description": [
+                    "&7&lClick me to play Pink!"
+                ],
+                "material": "Pink Wool"
+            },
+            "16": {
+                "name": "&5&lPurple",
+                "description": [
+                    "&7&lClick me to play Purple!"
+                ],
+                "material": "Purple Wool"
+            }
+        }
+    ],
+    "Skip": [
+        6
+    ],
+    "Skip": [
+        -63
+    ],
+    "Skip": [
+        -64
+    ],
+    "Skip": [
+        -65
+    ],
+    "Skip": [
+        -66
+    ],
+    "Skip": [
+        -67
+    ],
+    "Skip": [
+        -68
+    ],
+    "PlaySound": [
+        "block_note_block_flute",
+        1.2,
+        1.0
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "It worked! Thank goodness!"
+        }
+    ],
+    "Look": [
+        "BridgeCitizen4"
+    ],
+    "Wait": [
+        10
+    ],
+    "Dialog": [
+        {
+            "&dTownie": "Wow, that was quick work!",
+            "&bTownie": "You're from &3Statera&r right?",
+            "[PLAYER]": "Yeah! They sent me here to help!",
+            "&eTownie": "Really? They sent you out here?",
+            "&eTownie": "Wow... that's actually pretty impressive...",
+            "&bTownie": "Almost makes it seem like they care, huh?",
+            "&dTownie": "I've been telling you guys all along! Geez.",
+            "&dTownie": "Stuck in the ways of old, I swear..."
+        }
+    ],
+    "Look": [
+        "BridgeCitizen5"
+    ],
+    "Wait": [
+        10
+    ],
+    "Dialog": [
+        {
+            "&5Townie": "I mean, it's just the fact that the Pokémon didn't start going bonkers until &3Statera&r showed up!",
+            "&eTownie": "It's just awfully sus, yaknow?",
+            "&dTownie": "Ever heard of 'coincidence'? Aye?",
+            "&9Townie": "Y'all shush... there's a representative coming..."
+        }
+    ],
+    "Show": {
+        "Statera_Representative1": true
+    },
+    "Look": [
+        "Statera_Representative1"
+    ],
+    "MoveEntity": [
+        "Statera_Representative1",
+        386.5,
+        52.9,
+        -28.5
+    ],
+    "Show": {
+        "Statera_Representative1": false,
+        "Statera_Representative2": true
+    },
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&4&lThomas": "Can you come here for a moment, [PLAYER]?",
+            "&4&lThomas": "Thanks for doing this, I was running behind from the last time they pinged our GPS...",
+            "&4&lThomas": "You did good work though, it was definitely a better deision to send you here rather than me.",
+            "&4&lThomas": "Here, take this for all the trouble!",
+            "&4&lThomas": "I'll take care of things from here! Good luck training for your gym battle!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "GiveCoins": [
+
+    ],
+    "GiveTokens": [
+
+    ],
+    "GiveTrainerExperience": [
+
+    ],
+    "GiveItem": [
+        ""
+
+    ],
+    "Wait": [
+        20
+    ],
+    "SendCompleteMessage": [
+    ],
+    "Complete": [
+    ]
+}
