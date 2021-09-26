@@ -278,11 +278,7 @@
         100,
         49
     ],
-    "NotCompleted": [
-    ],
-    "Completed": [
-        "GYM2"
-    ],
+    "Comment": "\"NotCompleted\": [\n    ],\n    \"Completed\": [\n        \"GYM2\"\n    ],",
     "Show": {
         "BridgeCitizen1": true,
         "BridgeCitizen2": true,
