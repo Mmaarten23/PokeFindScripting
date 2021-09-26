@@ -248,6 +248,9 @@
     },
     "Quest": true,
     "HighlightClickEntity": "executive",
+    "SendMessage": "DEBUG: skipping",
+    "Wait": 2.0,
+    "Skip": "debug_skip",
     "HasTrainerLevel": [10, "&cYou must be at least Trainer Level 10 to do this quest!", false],
     "NotCompleted": [],
     "Dialog": [
@@ -256,7 +259,7 @@
             "[PLAYER]": "A little bit... What are you doing?",
             "&4&lThomas": "What am I doing? Oh-",
             "&4&lThomas": "I grew up near here, I was just admiring the view. Did you know this bridge was the first bridge built in Zeinova?",
-            "&4&lThomas": "It was the first step to connecting the islands that make up &lZeinova&r. &3&lStatera&r first came to Zeinova about 100 years ago, yaknow?",
+            "&4&lThomas": "It was the first step to connecting the islands that make up &lZeinova&r. &3Statera&r first came to Zeinova about 100 years ago, yaknow?",
             "&4&lThomas": "The original CEO had a dream of connecting the islands- it didn't pan out well...",
             "[PLAYER]": "Why not?",
             "&4&lThomas": "You want to know why?",
@@ -495,20 +498,20 @@
     ],
     "Dialog": [
         {
-            "&7Old Man": "It's alright &dAudino&r, a defeat is a defeat.",
-            "&7Old Man": "There's no reason to be sad...",
-            "&7Old Man": "What's your name trainer?",
+            "&7&lOld man": "It's alright &dAudino&r, a defeat is a defeat.",
+            "&7&lOld man": "There's no reason to be sad...",
+            "&7&lOld man": "What's your name trainer?",
             "[PLAYER]": "I'm [PLAYER]!",
-            "&7Old Man": "[PLAYER] huh? Interesting name. You must not be from &lZeinova&r.",
-            "&7Old Man": "It's pretty interesting here to say the least... What's it like from where you're from?",
+            "&7&lOld man": "[PLAYER] huh? Interesting name. You must not be from &lZeinova&r.",
+            "&7&lOld man": "It's pretty interesting here to say the least... What's it like from where you're from?",
             "[PLAYER]": "Pretty weird... We had to deal with people like Cipher, who seemed to very much dislike me...",
-            "&7Old Man": "Wow, really? That Cipher fella sounds like a real jerk.",
-            "&7Old Man": "We haven't had any issues like that in &lZeinova&r unless you want to count in the tragedy of the Bridges.",
+            "&7&lOld man": "Wow, really? That Cipher fella sounds like a real jerk.",
+            "&7&lOld man": "We haven't had any issues like that in &lZeinova&r unless you want to count in the tragedy of the Bridges.",
             "[PLAYER]": "The Bridges don't seem like a tragedy, they're there for the greater good of &lZeinova&r, well at least that's what Thomas told me...",
-            "&7Old Man": "Of course a &3Statera&r employee would say what the Company has done is for the greater good, but let me tell you...",
-            "&7Old Man": "It's brought more problems than it should have.",
-            "&7Old Man": "This &dAudino&r for example, I found it injured when the first Bridge was being built 25 years ago.",
-            "&7Old Man": "It's still feeling the effects of that injury to this day..."
+            "&7&lOld man": "Of course a &3Statera&r employee would say what the Company has done is for the greater good, but let me tell you...",
+            "&7&lOld man": "It's brought more problems than it should have.",
+            "&7&lOld man": "This &dAudino&r for example, I found it injured when the first Bridge was being built 25 years ago.",
+            "&7&lOld man": "It's still feeling the effects of that injury to this day..."
         },
         90
     ],
@@ -538,10 +541,10 @@
     "MoveEntity": ["audino", 1018.0, 28.0, 59.5],
     "Dialog": [
         {
-            "&7Old Man": "Oh!",
-            "&7Old Man": "I suppose &dAudino&r is beginning to trust you... It turns that colour around its friends...",
-            "&7Old Man": "From what I've seen at least.",
-            "&7Old Man": "Ever since it was injured, it has not wanted to leave this place...",
+            "&7&lOld man": "Oh!",
+            "&7&lOld man": "I suppose &dAudino&r is beginning to trust you... It turns that colour around its friends...",
+            "&7&lOld man": "From what I've seen at least.",
+            "&7&lOld man": "Ever since it was injured, it has not wanted to leave this place...",
             "&d&lAudino": "Audi... Audino... No, dino."
         },
         90
@@ -549,27 +552,28 @@
     "Wait": 20,
     "Dialog": [
         {
-            "&7Old Man": "When did you get to &lZeinova&r?",
+            "&7&lOld man": "When did you get to &lZeinova&r?",
             "[PLAYER]": "Pretty recently...",
-            "&7Old Man": "Really?",
-            "&7Old Man": "Not to sound rude or anything but... What are you doing here?",
-            "&7Old Man": "You came from one of those big regions right?",
-            "&7Old Man": "What on Earth could be so interesting to come all the way to &lZeinova&r?",
+            "&7&lOld man": "Really?",
+            "&7&lOld man": "Not to sound rude or anything but... What are you doing here?",
+            "&7&lOld man": "You came from one of those big regions right?",
+            "&7&lOld man": "What on Earth could be so interesting to come all the way to &lZeinova&r?",
             "[PLAYER]": "My mentor, Professor Hemlock, has some research to do here!",
-            "&7Old Man": "So your mentor is &c&lProfessor Hemlock&r right...? He'll be doing research for &3Statera&r?",
-            "&7Old Man": "To each their own I suppose...",
-            "&7Old Man": "What kind of research?",
+            "&7&lOld man": "So your mentor is &c&lProfessor Hemlock&r right...? He'll be doing research for &3Statera&r?",
+            "&7&lOld man": "To each their own I suppose...",
+            "&7&lOld man": "What kind of research?",
             "[PLAYER]": "Pokémon behavior, I think...",
-            "&7Old Man": "Pokémon behavior? What an odd topic! Hahaha!",
-            "&7Old Man": "&dAudino&r here is perfect for research like that, you know?",
-            "&7Old Man": "It communicates flawlessly how it's feeling and what it's thinking- though not in words.",
-            "&7Old Man": "It's an incredibly expressive Pokémon. The Aura aside.",
-            "&7Old Man": "If only us humans could express ourselves as well as Pokémon, am I right?",
-            "&7Old Man": "If our ancestors had the mindset in the past to try and understand each other and work together like the Pokémon do...",
-            "&7Old Man": "I'll have to tell it to you."
+            "&7&lOld man": "Pokémon behavior? What an odd topic! Hahaha!",
+            "&7&lOld man": "&dAudino&r here is perfect for research like that, you know?",
+            "&7&lOld man": "It communicates flawlessly how it's feeling and what it's thinking- though not in words.",
+            "&7&lOld man": "It's an incredibly expressive Pokémon. The Aura aside.",
+            "&7&lOld man": "If only us humans could express ourselves as well as Pokémon, am I right?",
+            "&7&lOld man": "If our ancestors had the mindset in the past to try and understand each other and work together like the Pokémon do...",
+            "&7&lOld man": "I'll have to tell it to you."
         },
         90
     ],
+    "Comment": "debug_skip",
     "Wait": 20,
     "Freeze": [],
     "Fade": [],
@@ -584,9 +588,9 @@
     "Look": ["cutscene1", 10.0],
     "Dialog": [
         {
-            "&7Old Man": "Many years ago, a group of individuals wanted to bring together the lands of Zeinova. While this was a noble cause...",
-            "&7Old Man": "It was not communicated to the region what the plan was, and soon, the region of Zeinova fell.",
-            "&7Old Man": "This group brought two disasters, Kyogre and Groudon, with the intention of forcing them to work with one another to build the lands and connect the islands."
+            "&7&lOld man": "Many years ago, a group of individuals wanted to bring together the lands of Zeinova. While this was a noble cause...",
+            "&7&lOld man": "It was not communicated to the region what the plan was, and soon, the region of Zeinova fell.",
+            "&7&lOld man": "This group brought two disasters, Kyogre and Groudon, with the intention of forcing them to work with one another to build the lands and connect the islands."
         },
         90
     ],
@@ -603,8 +607,8 @@
     "Look": "kyogre1",
     "Dialog": [
         {
-            "&7Old Man": "This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
-            "&7Old Man": "But this group had no idea the hatred that ran thick in the two Pokémon when in the presence of one another."
+            "&7&lOld man": "This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
+            "&7&lOld man": "But this group had no idea the hatred that ran thick in the two Pokémon when in the presence of one another."
         },
         90
     ],
@@ -622,7 +626,7 @@
         "Rain"
     ],
     "Wait": 40,
-    "SendMessage": "&7Old Man>&r The lands were flooded...",
+    "SendMessage": "&7&lOld man>&r The lands were flooded...",
 
     "Wait": 20,
     "SetBlocks": [
@@ -651,11 +655,11 @@
     "Teleport": [1075.5, 51.0, 302.5, 150, 0],
     "Wait": 40,
     "Look": "groudon2",
-    "SendMessage": "&7Old Man>&r Then drought killed off the harvest...",
+    "SendMessage": "&7&lOld man>&r Then drought killed off the harvest...",
     "SetBlocks": [
         1042, 45, 273,
         1093, 48, 298,
-        "Large Fern",
+        "Fern",
         "Air"
     ],
     "Wait": 20,
@@ -700,8 +704,8 @@
     "Teleport": [1015.5, 28.0, 61.5, 270, 0],
     "Dialog": [
         {
-            "&7Old Man": "The two were brought together to bring prosperity to the lands, when in the end, it brought devastation.",
-            "&7Old Man": "Eventually, the two Pokémon were put back into their deep slumber. Where they were sent to is unknown..."
+            "&7&lOld man": "The two were brought together to bring prosperity to the lands, when in the end, it brought devastation.",
+            "&7&lOld man": "Eventually, the two Pokémon were put back into their deep slumber. Where they were sent to is unknown..."
         }, 90
     ],
     "Look": "audino",
@@ -723,13 +727,13 @@
     "Wait": 5,
     "Dialog": [
         {
-            "&7Old Man": "I was told this story as a child by my parents, ad their parents passed it on to them.",
-            "&7Old Man": "It's meant to be a lesson of working with one another, or at least that's what the published works would have you believe.",
-            "&7Old Man": "It's quite a popular story here in &lZeinova&r. Though for a lot of the citizens, it sounds more like a forewarning than a tale of the past...",
-            "&7Old Man": "&3Statera&r of today surely won't pursue these same actions.",
-            "&7Old Man": "&3Statera&r actually took on the symbol of balance. They did this because of the heroes of the past.",
-            "&7Old Man": "&0&lZekrom&r and &f&lReshiram&r, they were the ones that brought peace back to the lands after taking on &cGroudon&r and &9Kyogre&r.",
-            "&7Old Man": "Though that may end up being a story for another time..."
+            "&7&lOld man": "I was told this story as a child by my parents, ad their parents passed it on to them.",
+            "&7&lOld man": "It's meant to be a lesson of working with one another, or at least that's what the published works would have you believe.",
+            "&7&lOld man": "It's quite a popular story here in &lZeinova&r. Though for a lot of the citizens, it sounds more like a forewarning than a tale of the past...",
+            "&7&lOld man": "&3Statera&r of today surely won't pursue these same actions.",
+            "&7&lOld man": "&3Statera&r actually took on the symbol of balance. They did this because of the heroes of the past.",
+            "&7&lOld man": "&8&lZekrom&r and &f&lReshiram&r, they were the ones that brought peace back to the lands after taking on &cGroudon&r and &9Kyogre&r.",
+            "&7&lOld man": "Though that may end up being a story for another time..."
         },
         90
     ],
@@ -757,13 +761,13 @@
     "MoveEntity": ["agent", 1152.5, 58.0, -133.5, false],
     "Dialog": [
         {
-            "&3Statera Employee": "You shouldn't be talking to strangers in the woods like that.",
-            "&3Statera Employee": "From what you've described, that sounds like one of them old world guys, yeesh!",
-            "&3Statera Employee": "Those guys are no joke, they're real hard-core in the myths and lies.",
-            "&3Statera Employee": "Pretty sure they tried to reawaken the Weather Beasts from the myths.",
-            "&3Statera Employee": "At least that's what my parents told me as a kid... There was a radical group that tried to purge the land of humans,",
-            "&3Statera Employee": "Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
-            "&3Statera Employee": "I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
+            "&3&lStatera Employee": "You shouldn't be talking to strangers in the woods like that.",
+            "&3&lStatera Employee": "From what you've described, that sounds like one of them old world guys, yeesh!",
+            "&3&lStatera Employee": "Those guys are no joke, they're real hard-core in the myths and lies.",
+            "&3&lStatera Employee": "Pretty sure they tried to reawaken the Weather Beasts from the myths.",
+            "&3&lStatera Employee": "At least that's what my parents told me as a kid... There was a radical group that tried to purge the land of humans,",
+            "&3&lStatera Employee": "Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
+            "&3&lStatera Employee": "I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
         }, 90
     ],
     "Wait": 10,
@@ -773,7 +777,7 @@
     "Complete": [],
     "SetTitle": [
         "&d&lA myth or a lie?",
-        "&7! Quest complete !",
+        "&a! Quest complete !",
         true
     ],
     "PlaySound": "ui_toast_challenge_complete"

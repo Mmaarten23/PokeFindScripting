@@ -949,7 +949,7 @@
     "GiveTrainerExperience": 1,
     "SetTitle": [
         "&b&lPokémon on the loose",
-        "&7! Quest complete !",
+        "&a! Quest complete !",
         true
     ],
     "PlaySound": "ui_toast_challenge_complete"
