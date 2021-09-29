@@ -590,13 +590,13 @@
     "Fade": [],
     "Cinematic": [],
     "HidePlayer": [],
-    "Teleport": [-351.7, 34.1, 59.3, 270, 0],
+    "Teleport": [-351.5, 34.1, 59.5, 270, 0],
     "Show": {
         "cutscene1": true,
         "cutscene2": true,
         "cutscene3": true
     },
-    "Look": ["cutscene2_cam", 10.0],
+    "Look": ["cutscene2_cam", 30.0],
     "Dialog": [
         {
             "&7&lOld man": "Many years ago, a group of individuals wanted to bring together the lands of Zeinova. While this was a noble cause...",
@@ -615,7 +615,7 @@
         "kyogre1": true,
         "groudon1": true
     },
-    "ProgressiveMoveEntity": ["cutscene2_cam", -339.9, 33.0, 57.9, 0.1, false],
+    "ProgressiveMoveEntity": ["cutscene2_cam", -339.5, 33.0, 59.5, 0.1, false],
     "Dialog": [
         {
             "&7&lOld man": "This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
@@ -632,6 +632,7 @@
     "Unfreeze": [],
     "Teleport": [950.5, 44.0, 217.5, 330, 0],
     "Look": ["kyogre2"],
+    "Wait": 3,
     "Freeze": true,
     "SetWeatherRegion": [
         945, 44, 209,
@@ -679,7 +680,7 @@
     ],
     "Unfreeze": [],
     "Teleport": [1075.5, 51.0, 302.5, 150, 0],
-    "Wait": 1,
+    "Wait": 3,
     "Freeze": true,
     "Wait": 40,
     "Look": "groudon2",
