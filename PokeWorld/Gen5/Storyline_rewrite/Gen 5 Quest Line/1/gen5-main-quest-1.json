@@ -656,6 +656,18 @@
         "water"
     ],
     "Wait": 80,
+    "SetBlocks": [
+        940, 41, 204,
+        964, 41, 260,
+        "water",
+        "air"
+    ],
+    "SetBlocks": [
+        940, 42, 204,
+        968, 42, 260,
+        "water",
+        "air"
+    ],
     "Show": {
         "kyogre2": false,
         "groudon2": true
@@ -680,7 +692,7 @@
         1042, 45, 273,
         1093, 48, 298,
         "Rose Bush",
-        "Air"
+        "barrier"
     ],
     "Wait": 20,
     "SetBlocks": [

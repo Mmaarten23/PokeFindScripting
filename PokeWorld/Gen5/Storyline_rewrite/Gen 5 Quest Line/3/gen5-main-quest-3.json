@@ -299,25 +299,12 @@
     "SendMessage": [
         "&a&lIncoming Pokecall> Statera HQ (Type /accept to accept)"
     ],
-    "Wait": [
-        10
-    ],
-    "Objective": [
-        "Accept the call from Statera HQ by typing /accept",
-        6
-    ],
-    "Command": [
-        "Accept"
-    ],
-    "Wait": [
-        10
-    ],
-    "SendMessage": [
-        "&a&lCall accepted"
-    ],
-    "Wait": [
-        10
-    ],
+    "Wait": 10,
+    "Objective": ["Accept the call from Statera HQ by typing /accept", 6],
+    "Command": "Accept",
+    "Wait": 10,
+    "SendMessage": "&a&lCall accepted",
+    "Wait": 10,
     "Dialog": [
         {
             "&3&lStatera": "Hey [PLAYER], it looks like you just entered Spiritvale from what our GPS is showing, can you check out the area for us?",
@@ -326,56 +313,27 @@
             "&3&lStatera": "We'll be checking in with you later, thanks again!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Investigate what's going on at the bridge in Spiritvale",
-        10
-    ],
+    "Wait": 20,
+    "Objective": ["Investigate what's going on at the bridge in Spiritvale", 10],
     "RegionEntry": [
-        365,
-        1,
-        -39,
-        427,
-        100,
-        -5
+        365, 1, -39,
+        427, 100, -5
     ],
-    "Freeze": [
-    ],
-    "Fade": [
-    ],
-    "HidePlayer": [
-    ],
-    "Teleport": [
-        385.5,
-        55.0,
-        -33.5,
-        344,
-        0
-    ],
-    "Look": [
-        "BridgeCitizen1"
-    ],
+    "Freeze": [],
+    "Fade": [],
+    "HidePlayer": [],
+    "Teleport": [385.5, 55.0, -33.5, 344, 0],
+    "Look": "BridgeCitizen1",
     "Dialog": [
         {
             "&9Townie": "AHH! Please stop attacking us!"
         }
     ],
-    "Unfreeze": [
-    ],
-    "ShowPlayer": [
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Talk to the citizens at the bridge to see how you can help calm the Pokemon",
-        7
-    ],
-    "HighlightClickEntity": [
-        "BridgeCitizen1"
-    ],
+    "Unfreeze": [],
+    "ShowPlayer": [],
+    "Wait": 20,
+    "Objective": ["Talk to the citizens at the bridge to see how you can help calm the Pokemon", 7],
+    "HighlightClickEntity": "BridgeCitizen1",
     "Dialog": [
         {
             "&9Townie": "You must be new around here...",
@@ -383,9 +341,7 @@
             "&9&lTownie": "I wish this wasn't your first impression of [NORMALTOWN]..."
         }
     ],
-    "HighlightClickEntity": [
-        "BridgeCitizen2"
-    ],
+    "HighlightClickEntity": "BridgeCitizen2",
     "Dialog": [
         {
             "&eTownie": "Hey, maybe you could help us out!",
@@ -394,29 +350,20 @@
             "&eTownie": "They get spooked every now and then hahaha..."
         }
     ],
-    "HighlightClickEntity": [
-        "BridgeCitizen3"
-    ],
+    "HighlightClickEntity": "BridgeCitizen3",
     "Dialog": [
         {
             "&bTownie": "Do you think you could grab the flute from her chest? She keeps it in a chest above the doorway of her house.",
             "&bTownie": "We'd ask her but she's away on business for &3Statera."
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Objective": [
-        "Go to Nurse [NURSENAME]'s home and find her flute (Hint> Her house is near a gym structure outside of town)",
-        3
+        "Go to Nurse [NURSENAME]'s home and find her flute (Hint> Her house is near a gym structure outside of town)", 3
     ],
     "RegionEntry": [
-        464,
-        1,
-        28,
-        476,
-        80,
-        46
+        464, 1, 28,
+        476, 80, 46
     ],
     "Dialog": [
         {
@@ -424,20 +371,11 @@
             "[PLAYER]": "I need to be quiet though so I don't wake up Nurse [NURSENAME]'s Snorlax though..."
         }
     ],
-    "Wait": [
-        10
-    ],
-    "Objective": [
-        "Try to find Nurse [NURSENAME]'s flute in the chest",
-        3
-    ],
+    "Wait": 10,
+    "Objective": ["Try to find Nurse [NURSENAME]'s flute in the chest", 3],
     "ClickBlocks": [
-        469,
-        69,
-        33,
-        470,
-        69,
-        33
+        469, 69, 33,
+        470, 69, 33
     ],
     "Dialog": [
         {
@@ -447,19 +385,12 @@
             "[PLAYER]": "I guess I have to go talk to [GUARD1]!"
         }
     ],
-    "Wait": [
-        10
-    ],
-    "Objective": [
-        "Try to find the four digits to unlock the chest (Talk to [GUARD1] for the first digit!)",
-        3
-    ],
+    "Wait": 10,
+    "Objective": ["Try to find the four digits to unlock the chest (Talk to [GUARD1] for the first digit!)", 3],
     "Show": {
         "Guard1": true
     },
-    "HighlightClickEntity": [
-        "Guard1"
-    ],
+    "HighlightClickEntity": "Guard1",
     "Dialog": [
         {
             "[PLAYER]": "Hi there! I was wondering if you have the first digit to Nurse [NURSENAME]'s chest...",
@@ -468,20 +399,10 @@
             "[GUARD1]": "I would like for you to bring me a Normal type Pokémon and then the first digit of the code is yours!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Bring a Normal type Pokemon to [GUARD1]",
-        4
-    ],
-    "ProvidePokemonType": [
-        "Guard1",
-        "Normal"
-    ],
-    "Wait": [
-        10
-    ],
+    "Wait": 20,
+    "Objective": ["Bring a Normal type Pokemon to [GUARD1]", 4],
+    "ProvidePokemonType": ["Guard1", "Normal"],
+    "Wait": 10,
     "Dialog": [
         {
             "[GUARD1]": "Thanks! Okay the first digit of the code is 9. Good luck!",
@@ -489,20 +410,13 @@
             "[GUARD1]": "[GUARD2] should have it."
         }
     ],
-    "Wait": [
-        10
-    ],
-    "Objective": [
-        "Find the second digit of the code by talking to [GUARD2]",
-        3
-    ],
+    "Wait": 10,
+    "Objective": ["Find the second digit of the code by talking to [GUARD2]", 3],
     "Show": {
         "Guard1": false,
         "Guard2": true
     },
-    "HighlightClickEntity": [
-        "Guard2"
-    ],
+    "HighlightClickEntity": "Guard2",
     "Dialog": [
         {
             "[GUARD2]": "What do you want?",
@@ -511,20 +425,10 @@
             "[GUARD2]": "Okay then... Just bring me [ITEM] and I'll give you the second digit to the code!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Give [GUARD2] a [ITEM]",
-        4
-    ],
-    "ProvideItem": [
-        "Guard2",
-        ""
-    ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
+    "Objective": ["Give [GUARD2] a [ITEM]", 4],
+    "ProvideItem": ["Guard2", ""],
+    "Wait": 20,
     "Dialog": [
         {
             "[GUARD2]": "Perfect! Okay, get ready! The second digit is 7!",
@@ -532,20 +436,13 @@
             "[PLAYER]": "Alright! Thank you!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Find the third digit of the code by talking to [GUARD3]",
-        3
-    ],
+    "Wait": 20,
+    "Objective": ["Find the third digit of the code by talking to [GUARD3]", 3],
     "Show": {
         "Guard2": false,
         "Guard3": true
     },
-    "HighlightClickEntity": [
-        "Guard3"
-    ],
+    "HighlightClickEntity": "Guard3",
     "Dialog": [
         {
             "[GUARD3]": "Yo! What brings you here today?",
@@ -555,39 +452,26 @@
             "[GUARD3]": "[RIDDLE]"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Objective": [
         "Solve the riddle: [RIDDLE] (Answer by typing /youranswer)",
         4
     ],
-    "Command": [
-        ""
-    ],
-    "Wait": [
-        20
-    ],
+    "Command": "",
+    "Wait": 20,
     "Dialog": [
         {
             "[GUARD3]": "Great job! The third digit is 4!",
             "[GUARD3]": "[GUARD4] has the final digit! Good luck!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Find the last digit of the code by talking to [GUARD4]",
-        3
-    ],
+    "Wait": 20,
+    "Objective": ["Find the last digit of the code by talking to [GUARD4]", 3],
     "Show": {
         "Guard3": false,
         "Guard4": true
     },
-    "HighlightClickEntity": [
-        "Guard4"
-    ],
+    "HighlightClickEntity": "Guard4",
     "Dialog": [
         {
             "[GUARD4]": "Why hello there... I've been expecting you...",
@@ -596,13 +480,8 @@
             "[GUARD4]": "Well, you'll have to battle me for it!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle [GUARD4]",
-        4
-    ],
+    "Wait": 20,
+    "Objective": ["Battle [GUARD4]", 4],
     "BattleNpc": [
         "Guard4",
         {
@@ -665,35 +544,20 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "[GUARD4]": "You have proved that you are worthy... The final digit is 0!",
             "[GUARD4]": "Good luck calming the Pokémon..."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Click the chest to enter the code digit by digit (The code is 9740)",
-        61
-    ],
-    "Skip": [
-        1
-    ],
-    "SendMessage": [
-        "&cWrong digit! Try again!"
-    ],
+    "Wait": 20,
+    "Objective": ["Click the chest to enter the code digit by digit (The code is 9740)", 61],
+    "Skip": 1,
+    "SendMessage": "&cWrong digit! Try again!",
     "ClickBlocks": [
-        469,
-        69,
-        33,
-        470,
-        69,
-        33
+        469, 69, 33,
+        470, 69, 33
     ],
     "Menu": [
         "Code",
@@ -821,45 +685,19 @@
             }
         }
     ],
-    "Skip": [
-        -2
-    ],
-    "Skip": [
-        -3
-    ],
-    "Skip": [
-        -4
-    ],
-    "Skip": [
-        -5
-    ],
-    "Skip": [
-        -6
-    ],
-    "Skip": [
-        -7
-    ],
-    "Skip": [
-        -8
-    ],
-    "Skip": [
-        -9
-    ],
-    "Skip": [
-        3
-    ],
-    "Skip": [
-        -11
-    ],
-    "SendMessage": [
-        "&cWrong Digit! Try again"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&aPlease enter the second digit 9 _ _ _"
-    ],
+    "Skip": -2,
+    "Skip": -3,
+    "Skip": -4,
+    "Skip": -5,
+    "Skip": -6,
+    "Skip": -7,
+    "Skip": -8,
+    "Skip": -9,
+    "Skip": 3,
+    "Skip": -11,
+    "SendMessage": "&cWrong Digit! Try again",
+    "Wait": 20,
+    "SendMessage": "&aPlease enter the second digit 9 _ _ _",
     "Menu": [
         "Code",
         4,
@@ -986,45 +824,19 @@
             }
         }
     ],
-    "Skip": [
-        -3
-    ],
-    "Skip": [
-        -4
-    ],
-    "Skip": [
-        -5
-    ],
-    "Skip": [
-        -6
-    ],
-    "Skip": [
-        -7
-    ],
-    "Skip": [
-        -8
-    ],
-    "Skip": [
-        5
-    ],
-    "Skip": [
-        -10
-    ],
-    "Skip": [
-        -11
-    ],
-    "Skip": [
-        -12
-    ],
-    "SendMessage": [
-        "&cWrong Digit! Try again"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&aPlease enter the third digit 9 7 _ _"
-    ],
+    "Skip": -3,
+    "Skip": -4,
+    "Skip": -5,
+    "Skip": -6,
+    "Skip": -7,
+    "Skip": -8,
+    "Skip": 5,
+    "Skip": -10,
+    "Skip": -11,
+    "Skip": -12,
+    "SendMessage": "&cWrong Digit! Try again",
+    "Wait": 20,
+    "SendMessage": "&aPlease enter the third digit 9 7 _ _",
     "Menu": [
         "Code",
         4,
@@ -1151,45 +963,19 @@
             }
         }
     ],
-    "Skip": [
-        -3
-    ],
-    "Skip": [
-        -4
-    ],
-    "Skip": [
-        -5
-    ],
-    "Skip": [
-        8
-    ],
-    "Skip": [
-        -7
-    ],
-    "Skip": [
-        -8
-    ],
-    "Skip": [
-        -9
-    ],
-    "Skip": [
-        -10
-    ],
-    "Skip": [
-        -11
-    ],
-    "Skip": [
-        -12
-    ],
-    "SendMessage": [
-        "&cWrong Digit! Try again"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&aPlease enter the fourth digit 9 7 4 _"
-    ],
+    "Skip": -3,
+    "Skip": -4,
+    "Skip": -5,
+    "Skip": 8,
+    "Skip": -7,
+    "Skip": -8,
+    "Skip": -9,
+    "Skip": -10,
+    "Skip": -11,
+    "Skip": -12,
+    "SendMessage": "&cWrong Digit! Try again",
+    "Wait": 20,
+    "SendMessage": "&aPlease enter the fourth digit 9 7 4 _",
     "Menu": [
         "Code",
         4,
@@ -1316,45 +1102,19 @@
             }
         }
     ],
-    "Skip": [
-        -3
-    ],
-    "Skip": [
-        -4
-    ],
-    "Skip": [
-        -5
-    ],
-    "Skip": [
-        -6
-    ],
-    "Skip": [
-        -7
-    ],
-    "Skip": [
-        -8
-    ],
-    "Skip": [
-        -9
-    ],
-    "Skip": [
-        -10
-    ],
-    "Skip": [
-        -11
-    ],
-    "SendMessage": [
-        "&aAccess Granted"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&e&l+1 Flute"
-    ],
-    "Wait": [
-        20
-    ],
+    "Skip": -3,
+    "Skip": -4,
+    "Skip": -5,
+    "Skip": -6,
+    "Skip": -7,
+    "Skip": -8,
+    "Skip": -9,
+    "Skip": -10,
+    "Skip": -11,
+    "SendMessage": "&aAccess Granted",
+    "Wait": 20,
+    "SendMessage": "&e&l+1 Flute",
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "I got it!",
@@ -1362,16 +1122,9 @@
             "[PLAYER]": "Uh oh! It looks like I woke up the Snorlax! It seems very angry!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Fight Nurse [NURSENAME]'s Snorlax",
-        7
-    ],
-    "HighlightClickEntity": [
-        "AnniSnorlax"
-    ],
+    "Wait": 20,
+    "Objective": ["Fight Nurse [NURSENAME]'s Snorlax", 7],
+    "HighlightClickEntity": "AnniSnorlax",
     "Show": {
         "AnniSnorlax": false
     },
@@ -1395,64 +1148,38 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "Whew! That was a close call! Hey it dropped a piece of paper... Maybe that will help me!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&e&l+1 &8Sheet Music"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Return to the bridge and play the flute to calm down the Pokemon",
-        3
-    ],
+    "Wait": 20,
+    "SendMessage": "&e&l+1 &8Sheet Music",
+    "Wait": 20,
+    "Objective": ["Return to the bridge and play the flute to calm down the Pokemon", 3],
     "RegionEntry": [
-        374,
-        1,
-        -32,
-        423,
-        100,
-        1
+        374, 1, -32,
+        423, 100, 1
     ],
     "Dialog": [
         {
             "[PLAYER]": "Here we go!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Type /Sheet Music to view the order of the notes (Type /flute when you are ready to play!)",
-        74
-    ],
-    "GlobalCommand": [
-        "Sheet Music"
-    ],
+    "Wait": 20,
+    "Objective": ["Type /Sheet Music to view the order of the notes (Type /flute when you are ready to play!)", 74],
+    "GlobalCommand": "Sheet Music",
     "Book": [
         "&6&lLullaby of the Ancient Times\n &aLime &bLightBlue &eYellow &aLime &dPink &6Orange &4Red"
     ],
-    "Skip": [
-        1
-    ],
+    "Skip": 1,
     "Dialog": [
         {
             "[PLAYER]": "Oops! That's not right! I'll try again..."
         }
     ],
-    "Command": [
-        "Flute"
-    ],
+    "Command": "Flute",
     "Menu": [
         "Flute",
         3,
@@ -1508,35 +1235,15 @@
             }
         }
     ],
-    "Skip": [
-        -2
-    ],
-    "Skip": [
-        -3
-    ],
-    "Skip": [
-        -4
-    ],
-    "Skip": [
-        3
-    ],
-    "Skip": [
-        -6
-    ],
-    "Skip": [
-        -7
-    ],
-    "Skip": [
-        -8
-    ],
-    "PlaySound": [
-        "block_note_block_flute",
-        1.0,
-        1.0
-    ],
-    "Wait": [
-        20
-    ],
+    "Skip": -2,
+    "Skip": -3,
+    "Skip": -4,
+    "Skip": 3,
+    "Skip": -6,
+    "Skip": -7,
+    "Skip": -8,
+    "PlaySound": ["block_note_block_flute", 1.0, 1.0],
+    "Wait": 20,
     "Menu": [
         "Flute",
         3,
@@ -1592,35 +1299,15 @@
             }
         }
     ],
-    "Skip": [
-        -12
-    ],
-    "Skip": [
-        -13
-    ],
-    "Skip": [
-        -14
-    ],
-    "Skip": [
-        -15
-    ],
-    "Skip": [
-        2
-    ],
-    "Skip": [
-        -17
-    ],
-    "Skip": [
-        -18
-    ],
-    "PlaySound": [
-        "block_note_block_flute",
-        0.9,
-        1.0
-    ],
-    "Wait": [
-        20
-    ],
+    "Skip": -12,
+    "Skip": -13,
+    "Skip": -14,
+    "Skip": -15,
+    "Skip": 2,
+    "Skip": -17,
+    "Skip": -18,
+    "PlaySound": ["block_note_block_flute", 0.9, 1.0],
+    "Wait": 20,
     "Menu": [
         "Flute",
         3,
@@ -1676,35 +1363,15 @@
             }
         }
     ],
-    "Skip": [
-        -22
-    ],
-    "Skip": [
-        -23
-    ],
-    "Skip": [
-        4
-    ],
-    "Skip": [
-        -25
-    ],
-    "Skip": [
-        -26
-    ],
-    "Skip": [
-        -27
-    ],
-    "Skip": [
-        -28
-    ],
-    "PlaySound": [
-        "block_note_block_flute",
-        1.1,
-        1.0
-    ],
-    "Wait": [
-        20
-    ],
+    "Skip": -22,
+    "Skip": -23,
+    "Skip": 4,
+    "Skip": -25,
+    "Skip": -26,
+    "Skip": -27,
+    "Skip": -28,
+    "PlaySound": ["block_note_block_flute", 1.1, 1.0],
+    "Wait": 20,
     "Menu": [
         "Flute",
         3,
@@ -1760,35 +1427,15 @@
             }
         }
     ],
-    "Skip": [
-        -32
-    ],
-    "Skip": [
-        -33
-    ],
-    "Skip": [
-        -34
-    ],
-    "Skip": [
-        3
-    ],
-    "Skip": [
-        -36
-    ],
-    "Skip": [
-        -37
-    ],
-    "Skip": [
-        -38
-    ],
-    "PlaySound": [
-        "block_note_block_flute",
-        1.0,
-        1.0
-    ],
-    "Wait": [
-        20
-    ],
+    "Skip": -32,
+    "Skip": -33,
+    "Skip": -34,
+    "Skip": 3,
+    "Skip": -36,
+    "Skip": -37,
+    "Skip": -38,
+    "PlaySound": ["block_note_block_flute", 1.0, 1.0],
+    "Wait": 20,
     "Menu": [
         "Flute",
         3,
@@ -1844,35 +1491,15 @@
             }
         }
     ],
-    "Skip": [
-        -42
-    ],
-    "Skip": [
-        -43
-    ],
-    "Skip": [
-        -44
-    ],
-    "Skip": [
-        -45
-    ],
-    "Skip": [
-        -46
-    ],
-    "Skip": [
-        1
-    ],
-    "Skip": [
-        -48
-    ],
-    "PlaySound": [
-        "block_note_block_flute",
-        0.8,
-        1.0
-    ],
-    "Wait": [
-        20
-    ],
+    "Skip": -42,
+    "Skip": -43,
+    "Skip": -44,
+    "Skip": -45,
+    "Skip": -46,
+    "Skip": 1,
+    "Skip": -48,
+    "PlaySound": ["block_note_block_flute", 0.8, 1.0],
+    "Wait": 20,
     "Menu": [
         "Flute",
         3,
@@ -1928,35 +1555,15 @@
             }
         }
     ],
-    "Skip": [
-        -52
-    ],
-    "Skip": [
-        5
-    ],
-    "Skip": [
-        -54
-    ],
-    "Skip": [
-        -55
-    ],
-    "Skip": [
-        -56
-    ],
-    "Skip": [
-        -57
-    ],
-    "Skip": [
-        -58
-    ],
-    "PlaySound": [
-        "block_note_block_flute",
-        0.7,
-        1.0
-    ],
-    "Wait": [
-        20
-    ],
+    "Skip": -52,
+    "Skip": 5,
+    "Skip": -54,
+    "Skip": -55,
+    "Skip": -56,
+    "Skip": -57,
+    "Skip": -58,
+    "PlaySound": ["block_note_block_flute", 0.7, 1.0],
+    "Wait": 20,
     "Menu": [
         "Flute",
         3,
@@ -2012,46 +1619,22 @@
             }
         }
     ],
-    "Skip": [
-        6
-    ],
-    "Skip": [
-        -63
-    ],
-    "Skip": [
-        -64
-    ],
-    "Skip": [
-        -65
-    ],
-    "Skip": [
-        -66
-    ],
-    "Skip": [
-        -67
-    ],
-    "Skip": [
-        -68
-    ],
-    "PlaySound": [
-        "block_note_block_flute",
-        1.2,
-        1.0
-    ],
-    "Wait": [
-        20
-    ],
+    "Skip": 6,
+    "Skip": -63,
+    "Skip": -64,
+    "Skip": -65,
+    "Skip": -66,
+    "Skip": -67,
+    "Skip": -68,
+    "PlaySound": ["block_note_block_flute", 1.2, 1.0],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "It worked! Thank goodness!"
         }
     ],
-    "Look": [
-        "BridgeCitizen4"
-    ],
-    "Wait": [
-        10
-    ],
+    "Look": "BridgeCitizen4",
+    "Wait": 10,
     "Dialog": [
         {
             "&dTownie": "Wow, that was quick work!",
@@ -2064,12 +1647,8 @@
             "&dTownie": "Stuck in the ways of old, I swear..."
         }
     ],
-    "Look": [
-        "BridgeCitizen5"
-    ],
-    "Wait": [
-        10
-    ],
+    "Look": "BridgeCitizen5",
+    "Wait": 10,
     "Dialog": [
         {
             "&5Townie": "I mean, it's just the fact that the Pokémon didn't start going bonkers until &3Statera&r showed up!",
@@ -2081,22 +1660,13 @@
     "Show": {
         "Statera_Representative1": true
     },
-    "Look": [
-        "Statera_Representative1"
-    ],
-    "MoveEntity": [
-        "Statera_Representative1",
-        386.5,
-        52.9,
-        -28.5
-    ],
+    "Look": "Statera_Representative1",
+    "MoveEntity": ["Statera_Representative1", 386.5, 52.9, -28.5],
     "Show": {
         "Statera_Representative1": false,
         "Statera_Representative2": true
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&4&lThomas": "Can you come here for a moment, [PLAYER]?",
@@ -2106,27 +1676,18 @@
             "&4&lThomas": "I'll take care of things from here! Good luck training for your gym battle!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "GiveCoins": [
+    "Wait": 20,
+    "GiveCoins": 1,
+    "GiveTokens": 1,
+    "GiveTrainerExperience": 1,
+    "GiveItem": "apple",
+    "Wait": 20,
 
+    "Complete": [],
+    "SetTitle": [
+        "&d&lA myth or a lie?",
+        "&a! Quest complete !",
+        true
     ],
-    "GiveTokens": [
-
-    ],
-    "GiveTrainerExperience": [
-
-    ],
-    "GiveItem": [
-        ""
-
-    ],
-    "Wait": [
-        20
-    ],
-    "SendCompleteMessage": [
-    ],
-    "Complete": [
-    ]
+    "PlaySound": "ui_toast_challenge_complete"
 }
