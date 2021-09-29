@@ -615,7 +615,7 @@
         "kyogre1": true,
         "groudon1": true
     },
-    "ProgressiveMoveEntity": ["cutscene1_cam", -339.9, 33.0, 57.9, 0.1, false],
+    "ProgressiveMoveEntity": ["cutscene2_cam", -339.9, 33.0, 57.9, 0.1, false],
     "Dialog": [
         {
             "&7&lOld man": "This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
