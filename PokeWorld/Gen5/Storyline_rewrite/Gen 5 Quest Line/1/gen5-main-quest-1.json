@@ -31,8 +31,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNTg3MzQ4NywKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kOGY4YzEzNmU1OTk4ZjhjZDQ0M2Y5OTgwNDgyMjEzYWI2NDg1Njg1NjI2ZTJhOTA0MWEyMWRkZDcyMTRmZWE2IgogICAgfQogIH0KfQ==",
+            "signature": "rHP+T5G1rofgFgoIwmCihZtLeTloLOC7zBa3uXICYgcIDFJpi7V0EYIldEmrYIXW4wUtlODxRV/Ng1NMRPIS8SZAQcCY4/nko2j4hJaHZ2WUbYqvudfjTKl8XklHDXDGlUILRkuDrxTx3U9+ejANYiR+YvSNNlXTukPaqn4ab2+IazYPKUUczH2OhbnZmRkFAHuFra/1fWkRkOKfBiSyt+QBi+iTpYqXaqZ89yfnpcxrD/eZa5eTcDR5lmSWKOHVTqNjJvf5aUXqsZIcL0V9ZPOWujGdjCaaWaweoD8oBcqPEoI6+nJicJ1vy4dQPkGM0R6jsG/lEwaot/QMOJUkQfZdMtnl98g7oNxqU8h8hDaKnhKcKHtVeQ3dyXm5EwDwTXKiyPGJ6Pk86t/SwaMhFJGV2MsITz4gvzkCl3wYOl0oKKSdLUh8VLzEvXXreAa1DlsPIM9slMSN4yzj+rTzV5NbUCSCoTJ+l0bvn3H8yHLdpOPuUOWLDOJSPDQ6lqCq2pSwaMLwO6QKaeNADmImmHTpTJRIP9sP4GniQ607vgE/9ynvCUWLhg4HaHIbkxBGSfpJlciiI7Z65ApevDJxJI6uNZzex/2LT1NPXynOH00SrCgXcc27+rN6CoD7nReywPWbJREdtMTtevfEs8eStPij5KdlirBTTsXwoL+YCHE="
         },
         "look": false
     },
@@ -58,8 +58,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ1NjIzMjEzNCwKICAicHJvZmlsZUlkIiA6ICIyM2YxYTU5ZjQ2OWI0M2RkYmRiNTM3YmZlYzEwNDcxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyODA3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhmYmE3ZTlmYTg5NDI0NjAyMjkzMGRlMTMyMDM2OGQwMTM1NDRkNjk1M2YxOTJjNjI1NjFjMTQyM2JiNDRkZDUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "twqNCAOW38dhggKXyvp7WZ3aKYI6S6XhZzPtmuTyZU1uXskp1qU1wr3lhHgZ8tx6Qne+52H7bVqGpU7JtzEROtEEF+/qMe1CSAlIANaYlGHJPN1OjjS67BlLo5SOIESRg0JwbKtk0Zyi2bwfc9iOnADpzmUH2eoPGjK+xZr/yq/5FzR2lxL2kNKfF32rTD+m1KRrwGYylRkdOoZfnXatvRGhpOj0/jO8RSCLqI6aTXvJbcZ4rnNtpfanLFKNzEhxDT3V+xpl04QpNmSHuwTHKZOgr9YA24xPUabEhrGm0X5zecg3L3kjh3G7hz+cifjGWk599ECQNnSFvvA3/J83V2Y0kd9A89t0cvS2c8HCuQeVm/Lzyhq1kZHEAVkp64P8tibzUiGA2ZOAIGAs84XIJ17ZXUh9E1VMF2GnKOhvYpFMeNtkHoorpBEFONe+2fxoVlz0uYsPmQHP8/PCAMYddPslPcJznnQc6fCw36yBvA2ERO76vntMN7YbCW7mTjzFGvp9WOK72KYESB7qnPEjrS6h+JE3wqow/wwdmrOEp/4HmVOBSi5L08fv5HFBFqNFzi/Bzixyqzkab5rMp+l0jHMRyr2CB+S5p5YoEDkZ5VOzE+yBnKx33Wm6knXOdT65UaKVAAPsF53V63TAV7BkMoe8NLI1SF2QnO9E+L9MvQc="
         },
         "look": false
     },
@@ -74,8 +74,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg4OTI0MjE1OSwKICAicHJvZmlsZUlkIiA6ICI4YmM3MjdlYThjZjA0YWUzYTI4MDVhY2YzNjRjMmQyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3RpbnZlbnRpdmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY1YTNkNmRlZWQ0NmRjYjdhNWFmMWExNDE0ZTUwZmFjMWRkMGIxZDhkOTg2NjU5NmJiYmM2M2E1NGUyODk0NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "a+DYGppLhQAChKcZsA+oM99QZGlhcL6babdqBrHBoUpPnxXx3G1W1u6KRo2dO4cO2/KjeBur2OWjIFzy9dhKVFLE/zbND6vCzPd6l520KozTn5iBYdOjGOHxPtj+ZHT/nm56jYs0CHGIXygAb1rnglphKyHS2GBGS+tpS2Tl0AX3kiOEIXmT+qcewzFmMICo0NbHjYmAPhWoD5ya5cag4rtYw83cF5ULwDcWrMkZZDAbQYvUYUJxPoR7UeLziOJSYDrzY7G3UjylAWbej7WhBi+0zXvmabMHeJQhpl267188j3aQP1FVDd43n9O02WIKarBJs13stWAVqNZ+sr1RgqmfEECL8K67qbn2zn7ck6966O5RBR1jVT8zg38nf4xXamN22QKe62QMiC4ODV/fYQ/SZhU1d998dAouRznyejj6wfVSUST59NcVfromC2ZnEPkxzBxhgOFLyt0ex6v1etgeTJUn69ySQD0usix+RTagPszE8FgF46tM/+2OdS3UxvAWmcWvq914UNF9P2Ge2VqCpkudmwFVKq58jNR7S9TPBjSyF6uNAJV1rfkG42t3iUb2wLT0CD7mrZt8daNi6oSkBDcOVGbW0EAep7WFHaWb1R1lTeZdYd7+ZeKMwhjzePCe+7dPr+qFqKb52hH8P0oAG3XFPXQNmHRRcPJ1Ybw="
         },
         "look": false
     },
@@ -133,8 +133,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
         },
         "look": false
     },
@@ -684,50 +684,52 @@
     "Freeze": true,
     "Wait": 40,
     "Look": "groudon2",
-    "SendMessage": "&7&lOld man>&r Then drought killed off the harvest...",
+    "ProgressiveDialog": [
+        {
+            "&7&lOld man": "Then drought killed off the harvest..."
+        }
+    ],
     "SetBlocks": [
-        1014,37,264,
-        1134,53,318,
+        1014, 37, 264,
+        1134, 53, 318,
         "Fern",
         "Air"
     ],
     "Wait": 20,
     "SetBlocks": [
-        1014,37,264,
-        1134,53,318,
+        1014, 37, 264,
+        1134, 53, 318,
         "Rose Bush",
-        "barrier"
+        "air"
     ],
     "Wait": 20,
     "SetBlocks": [
-        1014,37,264,
-        1134,53,318,
+        1014, 37, 264,
+        1134, 53, 318,
         "Red Tulip",
         "Air"
     ],
     "Wait": 20,
     "SetBlocks": [
-        1014,37,264,
-        1134,53,318,
+        1014, 37, 264,
+        1134, 53, 318,
         "Peony",
         "Air"
     ],
     "Wait": 20,
     "SetBlocks": [
-        1014,37,264,
-        1134,53,318,
+        1014, 37, 264,
+        1134, 53, 318,
         "Fern",
         "Air"
     ],
     "Wait": 20,
     "SetBlocks": [
-        1014,37,264,
-        1134,53,318,
+        1014, 37, 264,
+        1134, 53, 318,
         "Azure Bluet",
         "Dead Bush"
     ],
-
-
     "Wait": 60,
     "Hide": "groudon2",
     "StopCinematic": [],
@@ -817,6 +819,10 @@
     "Particle": ["portal", 1152.5, 59.0, -133.5, 50, 0.6],
     "PlaySound": "entity_enderman_teleport",
     "Particle": ["portal", 1149.5, 58.0, -136.5, 50, 0.6],
+    "Hide": {
+        "professor": true,
+        "agent": true
+    },
     "Wait": 10,
     "SetTitle": [
         "&d&lA myth or a lie?",
