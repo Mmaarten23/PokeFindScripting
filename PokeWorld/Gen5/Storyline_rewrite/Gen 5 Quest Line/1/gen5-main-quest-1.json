@@ -632,7 +632,7 @@
     "Unfreeze": [],
     "Teleport": [950.5, 44.0, 217.5, 330, 0],
     "Look": ["kyogre2"],
-    "Wait": 3,
+    "Wait": 10,
     "Freeze": true,
     "SetWeatherRegion": [
         945, 44, 209,
@@ -680,7 +680,7 @@
     ],
     "Unfreeze": [],
     "Teleport": [1075.5, 51.0, 302.5, 150, 0],
-    "Wait": 3,
+    "Wait": 10,
     "Freeze": true,
     "Wait": 40,
     "Look": "groudon2",
