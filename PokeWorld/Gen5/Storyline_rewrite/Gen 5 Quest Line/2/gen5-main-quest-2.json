@@ -8,6 +8,9 @@
     "Icon": "mossy_stone_brick_wall",
     "Quest": true,
 
+    "HighlightClickEntity": "lewis_bridge",
+    "Skip": "start",
+
     "CreateEntity": {
         "key": "lewis_bridge",
         "entity": "PLAYER",
@@ -311,13 +314,12 @@
         "rival": false
     },
 
-
     "CreateCustomEntity": ["bird", "bird_dummy", "bird1", "lewis_bird_seat", "player_bird_seat"],
     "Server": [],
     "TeleportEntity": ["bird", 1188.6, 40.0, -87.9, 142, -11],
 
+    "Comment": "start",
 
-    "HighlightClickEntity": "lewis_bridge",
     "Comment": "\"NotCompleted\": [\"gen5_main_quest_2\", \"\"],\n  \"Completed\": [\"GYM1\", true, \"\"],\n  \"Completed\": [\"gen5_main_quest_1\", true, \"\"],",
 
     "Dialog": [
