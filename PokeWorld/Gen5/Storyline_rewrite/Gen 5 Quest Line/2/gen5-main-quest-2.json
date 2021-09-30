@@ -319,7 +319,7 @@
         {
             "&7&lLewis": "Hey trainer! Are you planning to cross that bridge?",
             "[PLAYER]": "Yes! I am participating in the gym challenge.",
-            "&7&lLewis": "I see. I must warn you though, the pokemon on the other side have gone a little crazy.",
+            "&7&lLewis": "I see. I must warn you though, the pokémon on the other side have gone a little crazy.",
             "&7&lLewis": "Crossing on foot is near impossible but I can take you across on my Braviary?",
             "[PLAYER]": "Sounds like a plan!"
         },
@@ -400,7 +400,7 @@
     "Dialog": [
         {
             "&5&lCarlos": "Please Mr. Mime! Please don't hurt me!",
-            "&dMr. Mime": "&c&oMime! &c&lMime! &c&nMime! &c&kMime! &c&o&l&nMime!"
+            "&dMr. Mime": "&c&oMime! &c&lMime! &c&nMime!&r &c&o&l&nMime!"
         }
     ],
 

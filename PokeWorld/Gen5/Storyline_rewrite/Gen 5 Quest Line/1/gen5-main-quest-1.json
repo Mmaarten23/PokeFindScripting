@@ -758,7 +758,7 @@
     "Wait": 5,
     "Dialog": [
         {
-            "&7&lOld man": "I was told this story as a child by my parents, ad their parents passed it on to them.",
+            "&7&lOld man": "I was told this story as a child by my parents, and their parents passed it on to them.",
             "&7&lOld man": "It's meant to be a lesson of working with one another, or at least that's what the published works would have you believe.",
             "&7&lOld man": "It's quite a popular story here in &lZeinova&r. Though for a lot of the citizens, it sounds more like a forewarning than a tale of the past...",
             "&7&lOld man": "&3Statera&r of today surely won't pursue these same actions.",
@@ -780,7 +780,7 @@
     "Dialog": [
         {
             "Professor Hemlock": "There was a man way out there? Wow! That's a bit surprising...",
-            "Professor Hemlock": "From what I heard, the wilderness out there is a bit rought, it's surprising to hear someone is living out there...",
+            "Professor Hemlock": "From what I heard, the wilderness out there is a bit rough, it's surprising to hear someone is living out there...",
             "Professor Hemlock": "Especially in a cave with wild Pokémon! Looks like he gave you some good data though on this...",
             "Professor Hemlock": "What is it... &dAudino&r? Is that how it's said?",
             "Professor Hemlock": "Interesting... I've never heard of a Pokémon like this, this will be very intriguing to learn about..."

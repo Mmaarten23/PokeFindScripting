@@ -396,7 +396,7 @@
     "Dialog": [
         {
             "[PLAYER]": "Hmm... The flute should be in the chest above the doorway!",
-            "[PLAYER]": "I need to be quiet though so I don't wake up Nurse Daisy's Snorlax though..."
+            "[PLAYER]": "I need to be quiet though so I don't wake up Nurse Daisy's Snorlax..."
         },
         90
     ],
@@ -455,7 +455,7 @@
             "[PLAYER]": "I just need the second digit to Nurse Daisy's chest so I can get her flute!",
             "[PLAYER]": "The Pokémon are out of control again...",
             "&a&lAmelia": "Okay then... but... I am running late on my mail rounds so I wont be able to stop by the pokémart today.",
-            "&a&lAmelia": "Could you bring me Just bring me a &emax revive&r and I'll give you the second digit to the code!"
+            "&a&lAmelia": "Could you just bring me a &emax revive&r and I'll give you the second digit to the code!"
         },
         90
     ],
