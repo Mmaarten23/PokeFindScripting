@@ -271,7 +271,7 @@
     ],
     "Wait": 20,
     "Objective": ["Solve the magma puzzle (Don't step on the same block twice!)", 3],
-    "Start": ["gen5_ice_puzzle", "Start"],
+    "Start": ["gen5_main_quest_4_ice_puzzle", 1.0, "Start"],
     "Hold": [],
     "ProgressiveWall": [
         -792, 51, 728,
