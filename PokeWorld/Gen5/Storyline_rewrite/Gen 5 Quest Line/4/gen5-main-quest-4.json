@@ -25,7 +25,7 @@
         "key": "Representative1",
         "name": [
             "&c&lAgent Ty",
-            "&3&lStatera Agent"
+            "&3Statera Agent"
         ],
         "location": {
             "x": 78.5,
@@ -63,19 +63,6 @@
         },
         "skin": "danielle"
     },
-    "CreateEntity": {
-        "key": "Rival3",
-        "name": "&d&lDanielle",
-        "location": {
-            "x": -829.5,
-            "y": 17.8,
-            "z": 682.5,
-            "yaw": 332,
-            "pitch": 0
-        },
-        "skin": "danielle"
-    },
-
     "CreateEntity": {
         "key": "balance_white",
         "location": {
@@ -259,7 +246,6 @@
         "Representative1": false,
         "Rival1": false,
         "Rival2": false,
-        "Rival3": false,
         "Tribe_Member1": false,
         "Tribe_Member2": false,
         "Tribe_Member3": false,
@@ -349,7 +335,6 @@
     "Teleport": [-790.5, 51.0, 727.5, 180],
     "Objective": ["Enter the cave and find the Ancient Tribe Elders", 3],
     "Show": {
-        "Rival3": true,
         "Rival2": false,
         "Tribe_Member1": true,
         "Tribe_Member2": true,
@@ -416,6 +401,7 @@
         90
     ],
     "Wait": 20,
+    "EntityLookAtPlayer": "Tribe_Leader",
     "Dialog": [
         {
             "[PLAYER]": "I can't hear them... I'll have to move closer...",
@@ -816,7 +802,7 @@
             "[PLAYER]": "Wait! &eAstrid&r also said that &3Statera&r is corrupt and that we're threatening the lives and the balance of the Zeinova Region...",
             "&c&lAgent Ty": "Hahaha... You're listening to that old crone?",
             "&c&lAgent Ty": "Don't, [PLAYER]. &6Sophro&r is a tribe of liars, they're twisting words and actions around to benefit themselves, so that they no longer look like the bad guys.",
-            "&c&lAgent Ty": "Have you heard that story yet, about &9Kyogre&r and &9Groudon&r?",
+            "&c&lAgent Ty": "Have you heard that story yet, about &9Kyogre&r and &cGroudon&r?",
             "&c&lAgent Ty": "There have been many different versions of it, even one accusing &3Statera of being behind it...",
             "&c&lAgent Ty": "&6Sophro&r has been active in Zeinova for hundreds of years, only they would have the knowledge to pull off something like taming the Wild Legends.",
             "&c&lAgent Ty": "They've endangered Zeinova before, and we've held them at bay. They're read to do it again.",
