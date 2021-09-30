@@ -334,7 +334,7 @@
     "AnimateEntity": ["lewis_bridge", "Swing Main Hand"],
     "Wait": 0.5,
     "Show": "bird1",
-    "TeleportEntity": ["bird", 1188.6, 50.0, -87.9],
+    "TeleportEntity": ["bird", 1188.6, 50.0, -87.9, 142, -11],
     "MoveEntity": ["lewis_bridge", 1189.0, 51.0, -88.4, 0.2, false],
     "Hide": "lewis_bridge",
     "Show": "lewis_bird",
