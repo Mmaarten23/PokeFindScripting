@@ -8,9 +8,6 @@
     "Icon": "mossy_stone_brick_wall",
     "Quest": true,
 
-    "HighlightClickEntity": "lewis_bridge",
-    "Skip": "start",
-
     "CreateEntity": {
         "key": "lewis_bridge",
         "entity": "PLAYER",
@@ -284,6 +281,9 @@
             "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
         }
     },
+
+    "HighlightClickEntity": "lewis_bridge",
+    "Skip": "start",
 
     "Server": [],
     "Show": {
