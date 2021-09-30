@@ -16,7 +16,10 @@
             "yaw": 90,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzMxMTM1OCwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyNzg2MGI2YThlNDQ1ZGZmZTJmZWM0NzdhN2UyZDEwMzgwYjMwYzIwNGIzYThlM2UyMzRlMGZjYWNlOTIyODIiCiAgICB9CiAgfQp9",
+            "signature": "t2vmKNXinnY7Um/29ZulZLCJawoXJkbopoyTMpR2fF2cjCuBpHeL7HRmGChgqY38kuzRDnQuJfMLkB/JCbXDAuwj+hHGJ/mYqKfJupxcXPmOexCcDgt3ECUAOfstbhYWCd2MtvVOVfz04YUPGgNqPlKirDYwCKX0I/zfp6izp3Rj42NMw26H0HWqqXWmehsWUdrEZPV7TOKTLu2487ekeMqbae5WBWwFx+1NI0DgcmhmFjB8K2MHwcOMXJLvLuylhB4UbNVzaMQYg0fSiROyORDFwJWUvPtT6bWdFdJ05PcT2QuwaQ/bU6LTcqQkag2hDLqBzGfrpiVcOLdMoUpa7HBr6B0wJM7gDAJMJcPeCVXZVmOjZMfuQTZ0uifs6dZLQ8F3nZhXNqAQ0BVUpwf5Q2qfSfFk9zcOdX6ki+kYcmF427Va1By+ghPp3o9GTuXNE2DQtKXvoywx1t6g/Ve+73IIgmLZijsiDjS+V297tHnMVj8FRn+R6/RAiESovpoE+X7+d6nRRA8obaLshTgsjXk7OGrqpmKM8LiLQZmzcctnsUJQdJBc42Um+T12JcXfBXBYoK1H4JCLp0ybkQGAeM41gkTKZiAg77ZxXsE7dq9md0JO+GaWncqnhKzuzG7VDokSGwMNjflMOHgaeVTm9Gf3NmSzg7khrUqHD7y8bSc="
+        }
     },
     "CreateEntity": {
         "key": "Representative1",
@@ -31,7 +34,10 @@
             "yaw": 130,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
+        }
     },
     "CreateEntity": {
         "key": "Rival1",
@@ -69,6 +75,29 @@
         },
         "skin": "danielle"
     },
+
+    "CreateEntity": {
+        "key": "balance_white",
+        "location": {
+            "x": -816.5,
+            "y": 40.5,
+            "z": 677.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "pokemon": "Reshiram"
+    },
+    "CreateEntity": {
+        "key": "balance_black",
+        "location": {
+            "x": -812.5,
+            "y": 40.5,
+            "z": 677.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "pokemon": "Zekrom"
+    },
     "CreateEntity": {
         "key": "Tribe_Member1",
         "name": "&6&lSophro Elder",
@@ -79,7 +108,10 @@
             "yaw": 28,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjczOTY5MTIxNCwKICAicHJvZmlsZUlkIiA6ICJiZmIyOTcyMDI4ZTA0YTdhOTk0N2U2YTJkZDc5YzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYWxleCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOTI4ZjAyZmJhMzI4MGIxM2QyMWQxYmE3MjhkODA1Njc1MDgzM2Y5ZWU3ZjM4Nzg5ZTA0MjU3NGJkZGZmYzNlIgogICAgfQogIH0KfQ==",
+            "signature": "oEfYkc6TLXc13zXh/kZR2Vqw41uZb2RUva6bSzehKji85Cje8jeNTqlqRPnSGZkBXGI4dRBlF2ZsAI055v7sxXMUmMtMEgd0HxkzmthhczzkRjNu298f+3ji/OEj0yHMGk/I9xxUaymK8rb8gBc1FXCZN4Lvw6HEhhYCrFQABvIIbqWNxudf0YwJPXaQE/irw4jmyI0qZ/r3FwegPBGoOVD9eDyFQfAADR18t+DpbAvDnGN224f3nm3TkEJo3H4NP+85pF5sDAdRCNSs1i/q0ztweasK6rw5mUUGxJGdWkQ79LybgaHYLWkMvZFBKI1Vkz4nKeBsdk4xWofHZyhejxar+1pM869+RdbXUOIRdfbL3pvls5bJ3NnN0v84QNDVdGMz1Hqz2GmL2j/W7zKJcuA6QkwK745G8lG0FtA42N1c5oQXOWJc1TLELH60KtdIMvZz7SGuBN5ib3G2RLCN+Aof8PdNWbvCxHboaU4ft4p+lkxqHI2mYj9QGfAP2L4Ib5yS++gvH42+28J3L+n39iWCMdvPOd7lW+5XJDzZiyV6HBxuPsL0DwfNY4R4Hk1vyF1PbfKCLmMO6HPBTOD9MK7acJJkVEyv//YMB6pRLSApZCz0Fsu+vJwKqkW/kSs/T6NAyU74erHPArMw4rmS+5VtN9k88I/c4O+dk8nQOsA="
+        }
     },
     "CreateEntity": {
         "key": "Tribe_Member2",
@@ -91,7 +123,10 @@
             "yaw": 131,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
+        }
     },
     "CreateEntity": {
         "key": "Tribe_Member3",
@@ -103,7 +138,10 @@
             "yaw": 233,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzU3MzAzNywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzNDQ0NGNlNTgyYzVkY2E4MTVhNGQ4Zjk0MTY3MDgwMTZiMjBjMjA5MWQ4ZGRmMWY4Yjg1ZDlkYTg3NmUzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "pbyS2IhUMWF67m9D3Wy0v6EFcMH3D93z+995uW9r0PXIDFQP3CcOrB7iPPjPVxAWBVlfTX8dCaPtr6HnuPHHaDw8Tf9y0hFcqDgK8e57gLLaqkKA+S8SsaLsKFKTxY853oJ1hQCqpt3u5s8BMpOdmLwWW20xgB+GjcHsf7D7whGTBQCNANz0LkhYm5oW/PhOFJxMZ8EDEc6awiwL4MkF4xzGqdyDEU9YcdZhv9MW5YGXbUyhxFMUoDam+s24OLlOx0bAyoLvkZr8lGtdpa1WLxB9XdvUV01VFHtH2RWbBLi1kk+pUeUQukT0zeC9K0ZhhlWT5wCbm1pXCKQuGaja2Kchu7z1akFvbB1RrxDA/UQvoKHea+mi2pD+LZPj81N8JT7lfRPAO7EKxjWq0JVG/dtpnXQZE28QBwEBOC3yKHUx46PZ24WPjCI1BSKAHYIgKhgKQOAwz5FJmqXS/BIXiPgYNJARi3AKY2fQwSz4sKIoODbmUt5yJVwg4CKzSO4M06BQ35Fd/3ypaujUlcS4JeJR9C+wFg0QI/3KwGZVVzztRxdzlSHGX5QBB2Iqc26j/B8AxsN7h13o3s/XpOJIMl5FpUkhr/TkYwjBFfasXxIYomh+YvgFR/LMaAJOM6hErFqzvP9ITwzlneBI6rEkD65otpPe9/ppMSyOSH8xGd4="
+        }
     },
     "CreateEntity": {
         "key": "Tribe_Member4",
@@ -115,7 +153,10 @@
             "yaw": 273,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODc2OTg2NzY1MCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjZhZDE4ZTliNjc1NzU4ZWU0YWQwYzc3YWVjYzYxMWE2NTU2NDAwYTZhYWMxNDA5MGY3YTFkYzFjMjQzMjkwIgogICAgfQogIH0KfQ==",
+            "signature": "v0vvCY3pRML3QbeyQZrduyKhiEUgUS7t9+LVVa0fB7qTOcufDVWWlwEyy4OFe/KQXy8hgJ10BVqCYfEFlCA+RFs+yBuNfMsauCvQr9B+C7GIssdD363jCCsdx5DPiLTKOECnFExsjztKPzav6QfexvcVhMUKa7qTXaZ6G0JhC95VLrtZBSHtPCa6AGz6/feCfbD+jyRNUoU91mNj5O6PlAiEfGIr72r8Dnldy6eNW5K+DErQKSCnRgt8M+FbU4Va0l/y4UQg9OI9U4bsfJY2BPJXto/DNdzCW2JVR9RwogIm2/IXC49vDPsf2mKZmVS7YGMlVYHxWtHeSgRo2MBuUXPElRwbwgRCKpNIuX7c81Se8g6IBf2FU1GKBSN4fq9WPYq5aJzb0pQlOC89NY639JwM9iVlOPh52RfXkZwUzCi5XMdpqjHVmQPO+mqsRLuBrrcAx62pHk7dFCT8u4QcBHi9WoCPQTsUMxvRItn4gD9wgK8nQj8hmmjJ44oRCXo0ZyVZmqH6r/XZR9m7kdw8//lX+/yjLHB+mFcCLNQh9P2rWXEHfcGAlOvabGgNbUFsRj9UveCzLrFNSsILtCQQAT1aeoNb5lt6qw5S3+J6i+ntxU9n5QvVEm7bRPAdq2zHsHLw1jK+mj4HEZZv6ilHz778RcCLOQciYZlc9LO4iO8="
+        }
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Member1",
@@ -127,43 +168,55 @@
             "yaw": 2,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjczOTY5MTIxNCwKICAicHJvZmlsZUlkIiA6ICJiZmIyOTcyMDI4ZTA0YTdhOTk0N2U2YTJkZDc5YzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYWxleCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOTI4ZjAyZmJhMzI4MGIxM2QyMWQxYmE3MjhkODA1Njc1MDgzM2Y5ZWU3ZjM4Nzg5ZTA0MjU3NGJkZGZmYzNlIgogICAgfQogIH0KfQ==",
+            "signature": "oEfYkc6TLXc13zXh/kZR2Vqw41uZb2RUva6bSzehKji85Cje8jeNTqlqRPnSGZkBXGI4dRBlF2ZsAI055v7sxXMUmMtMEgd0HxkzmthhczzkRjNu298f+3ji/OEj0yHMGk/I9xxUaymK8rb8gBc1FXCZN4Lvw6HEhhYCrFQABvIIbqWNxudf0YwJPXaQE/irw4jmyI0qZ/r3FwegPBGoOVD9eDyFQfAADR18t+DpbAvDnGN224f3nm3TkEJo3H4NP+85pF5sDAdRCNSs1i/q0ztweasK6rw5mUUGxJGdWkQ79LybgaHYLWkMvZFBKI1Vkz4nKeBsdk4xWofHZyhejxar+1pM869+RdbXUOIRdfbL3pvls5bJ3NnN0v84QNDVdGMz1Hqz2GmL2j/W7zKJcuA6QkwK745G8lG0FtA42N1c5oQXOWJc1TLELH60KtdIMvZz7SGuBN5ib3G2RLCN+Aof8PdNWbvCxHboaU4ft4p+lkxqHI2mYj9QGfAP2L4Ib5yS++gvH42+28J3L+n39iWCMdvPOd7lW+5XJDzZiyV6HBxuPsL0DwfNY4R4Hk1vyF1PbfKCLmMO6HPBTOD9MK7acJJkVEyv//YMB6pRLSApZCz0Fsu+vJwKqkW/kSs/T6NAyU74erHPArMw4rmS+5VtN9k88I/c4O+dk8nQOsA="
+        }
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Member2",
         "name": "&6&lSophro Elder",
         "location": {
-            "x": -832.5,
-            "y": 13.0,
-            "z": 630.5,
-            "yaw": 270,
+            "x": -864.0,
+            "y": 28.0,
+            "z": 696.3,
+            "yaw": -124,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
+        }
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Member3",
         "name": "&6&lSophro Elder",
         "location": {
-            "x": -846.5,
+            "x": -891.5,
             "y": 20.0,
-            "z": 677.5,
-            "yaw": 180,
+            "z": 667.5,
+            "yaw": 270,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzU3MzAzNywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzNDQ0NGNlNTgyYzVkY2E4MTVhNGQ4Zjk0MTY3MDgwMTZiMjBjMjA5MWQ4ZGRmMWY4Yjg1ZDlkYTg3NmUzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "pbyS2IhUMWF67m9D3Wy0v6EFcMH3D93z+995uW9r0PXIDFQP3CcOrB7iPPjPVxAWBVlfTX8dCaPtr6HnuPHHaDw8Tf9y0hFcqDgK8e57gLLaqkKA+S8SsaLsKFKTxY853oJ1hQCqpt3u5s8BMpOdmLwWW20xgB+GjcHsf7D7whGTBQCNANz0LkhYm5oW/PhOFJxMZ8EDEc6awiwL4MkF4xzGqdyDEU9YcdZhv9MW5YGXbUyhxFMUoDam+s24OLlOx0bAyoLvkZr8lGtdpa1WLxB9XdvUV01VFHtH2RWbBLi1kk+pUeUQukT0zeC9K0ZhhlWT5wCbm1pXCKQuGaja2Kchu7z1akFvbB1RrxDA/UQvoKHea+mi2pD+LZPj81N8JT7lfRPAO7EKxjWq0JVG/dtpnXQZE28QBwEBOC3yKHUx46PZ24WPjCI1BSKAHYIgKhgKQOAwz5FJmqXS/BIXiPgYNJARi3AKY2fQwSz4sKIoODbmUt5yJVwg4CKzSO4M06BQ35Fd/3ypaujUlcS4JeJR9C+wFg0QI/3KwGZVVzztRxdzlSHGX5QBB2Iqc26j/B8AxsN7h13o3s/XpOJIMl5FpUkhr/TkYwjBFfasXxIYomh+YvgFR/LMaAJOM6hErFqzvP9ITwzlneBI6rEkD65otpPe9/ppMSyOSH8xGd4="
+        }
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Member4",
         "name": "&6&lSophro Elder",
         "location": {
-            "x": -865.5,
-            "y": 28.0,
-            "z": 701.5,
-            "yaw": 225,
+            "x": -849.5,
+            "y": 13.0,
+            "z": 835.5,
+            "yaw": 180,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODc2OTg2NzY1MCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjZhZDE4ZTliNjc1NzU4ZWU0YWQwYzc3YWVjYzYxMWE2NTU2NDAwYTZhYWMxNDA5MGY3YTFkYzFjMjQzMjkwIgogICAgfQogIH0KfQ==",
+            "signature": "v0vvCY3pRML3QbeyQZrduyKhiEUgUS7t9+LVVa0fB7qTOcufDVWWlwEyy4OFe/KQXy8hgJ10BVqCYfEFlCA+RFs+yBuNfMsauCvQr9B+C7GIssdD363jCCsdx5DPiLTKOECnFExsjztKPzav6QfexvcVhMUKa7qTXaZ6G0JhC95VLrtZBSHtPCa6AGz6/feCfbD+jyRNUoU91mNj5O6PlAiEfGIr72r8Dnldy6eNW5K+DErQKSCnRgt8M+FbU4Va0l/y4UQg9OI9U4bsfJY2BPJXto/DNdzCW2JVR9RwogIm2/IXC49vDPsf2mKZmVS7YGMlVYHxWtHeSgRo2MBuUXPElRwbwgRCKpNIuX7c81Se8g6IBf2FU1GKBSN4fq9WPYq5aJzb0pQlOC89NY639JwM9iVlOPh52RfXkZwUzCi5XMdpqjHVmQPO+mqsRLuBrrcAx62pHk7dFCT8u4QcBHi9WoCPQTsUMxvRItn4gD9wgK8nQj8hmmjJ44oRCXo0ZyVZmqH6r/XZR9m7kdw8//lX+/yjLHB+mFcCLNQh9P2rWXEHfcGAlOvabGgNbUFsRj9UveCzLrFNSsILtCQQAT1aeoNb5lt6qw5S3+J6i+ntxU9n5QvVEm7bRPAdq2zHsHLw1jK+mj4HEZZv6ilHz778RcCLOQciYZlc9LO4iO8="
+        }
     },
     "CreateEntity": {
         "key": "Tribe_Leader",
@@ -178,7 +231,10 @@
             "yaw": 299,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
+        }
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Leader",
@@ -187,13 +243,16 @@
             "&e&lAstrid"
         ],
         "location": {
-            "x": -891.5,
-            "y": 20.0,
-            "z": 667.5,
-            "yaw": 270,
+            "x": -847.5,
+            "y": 13.0,
+            "z": 887.5,
+            "yaw": 180,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
+        }
     },
     "Show": {
         "Happy": true,
@@ -248,12 +307,12 @@
             "&c&lAgent Ty": "[PLAYER], you will be assigned to help us take down the Ancient Tribe also known as &6Sophro&r, they are, and have proven time and time again that they are a major threat to the region and our unity.",
             "&c&lAgent Ty": "You will need to infiltrate their meeting, it's to take place today in their main hall. It's located in a Volcano in an underground cavern, directly in the middle of the region.",
             "&c&lAgent Ty": "Find out what they are planning, and put an end to this meeting!",
-            "&c&lAgent Ty": "You should be able to find the hidden entrance to their base near the Volcano at [FIRETOWN]! Goodluck!"
+            "&c&lAgent Ty": "You should be able to find the hidden entrance to their base near the Volcano at Redgrove! Good luck!"
         },
         90
     ],
     "Wait": 20,
-    "Objective": ["Head over to [FIRETOWN] and find the secret entrance to their base by the Volcano", 3],
+    "Objective": ["Head over to Redgrove and find the secret entrance to their base by the Volcano", 3],
     "Show": {
         "Rival1": false,
         "Rival2": true
@@ -271,6 +330,7 @@
     ],
     "Wait": 20,
     "Objective": ["Solve the magma puzzle (Don't step on the same block twice!)", 3],
+    "SendMessage": "DEBUG: Puzzle currently broken. Manually progress 1 stage!",
     "Start": ["gen5_main_quest_4_ice_puzzle", 1.0, "Start"],
     "Hold": [],
     "ProgressiveWall": [
@@ -284,7 +344,9 @@
         },
         90
     ],
+    "SendMessage": "DEBUG: Map needs to be updated, teleporting you manually through the gate for now!",
     "Wait": 20,
+    "Teleport": [-790.5, 51.0, 727.5, 180],
     "Objective": ["Enter the cave and find the Ancient Tribe Elders", 3],
     "Show": {
         "Rival3": true,
@@ -296,27 +358,27 @@
         "Tribe_Leader": true
     },
     "RegionEntry": [
-        -801, 40, 688,
-        -812, 55, 703
+        -794, 50, 725,
+        -788, 55, 724
     ],
     "Freeze": [],
     "Dialog": [
         {
-            "[PLAYER]": "Looks like there is some ancient markings on the wall...",
+            "[PLAYER]": "Looks like there are some ancient markings on the wall...",
             "[PLAYER]": "There's the volcano!"
         },
         90
     ],
     "Unfreeze": [],
     "RegionEntry": [
-        -805, 35, 685,
-        -822, 50, 674
+        -805, 39, 684,
+        -822, 53, 684
     ],
     "Freeze": [],
     "Dialog": [
         {
             "[PLAYER]": "Why are those two Pokémon standing on each side? They're coloured Black and White?",
-            "[PLAYER]": "Oh! It's telling a story!"
+            "[PLAYER]": "The balance between them is just... perfect!"
         },
         90
     ],
@@ -325,17 +387,16 @@
         -820, 50, 656,
         -833, 1, 672
     ],
-    "Freeze": [],
+
     "Dialog": [
         {
-            "[PLAYER]": "Those two Pokemon appear so happy..."
+            "[PLAYER]": "Those two Pokemon looked so happy..."
         },
-        90
+        1
     ],
-    "Unfreeze": [],
     "RegionEntry": [
-        -833, 1, 672,
-        -821, 40, 683
+        -821, 17, 671,
+        -834, 33, 671
     ],
     "Freeze": [],
     "Teleport": [-823.5, 18.0, 682.5, 13, 0],
@@ -346,7 +407,7 @@
         {
             "&6&lSophro Elder": "...It cannot be-",
             "&6&lSophro Elder": "... But... Teth-",
-            "&6&lSophro Elder": "&3Stratera&r CEO...",
+            "&6&lSophro Elder": "&3Statera&r CEO...",
             "&6&lSophro Elder": "His Pokemon...",
             "&6&lSophro Elder": "... No Weak-",
             "&6&lSophro Elder": "We took the Boss’s...-",
@@ -369,6 +430,7 @@
     "ProgressiveMoveEntity": ["Tribe_Member3", -818.5, 17.5, 698.5, false],
     "ProgressiveMoveEntity": ["Tribe_Member4", -819.5, 18.5, 698.5, false],
     "MoveEntity": ["Tribe_Member1", -818.5, 18.0, 696.5, false],
+    "Fade": [],
     "Show": {
         "Tribe_Member1": false,
         "Tribe_Member2": false,
@@ -721,9 +783,9 @@
     "Dialog": [
         {
             "&e&lAstrid": "As I said before... my name is &eAstrid&r, I am the new leader of the Tribe of &eSophro&r. You’ve bested me in battle, but I plead with you...",
-            "&e&lAstrid": "Do not interfere further... &3Stratera&r is corrupt, they are putting our very lives on the line, they are unbalancing what the universe has spent thousands upon thousands of years to put into motion.",
+            "&e&lAstrid": "Do not interfere further... &3Statera&r is corrupt, they are putting our very lives on the line, they are unbalancing what the universe has spent thousands upon thousands of years to put into motion.",
             "&e&lAstrid": "They care nothing for our lands, or our people. They are greedy! They must be stopped before they ruin our futures!",
-            "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up? We have far more meeting locations than &3Stratera&r could possibly be aware of.",
+            "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up? We have far more meeting locations than &3Statera&r could possibly be aware of.",
             "[PLAYER]": "What did you steal from &3Statera?!",
             "&e&lAstrid": "You heard us mention that...? Well...",
             "&e&lAstrid": "We did capture &3Statera&r's Boss's Pokémon.",
@@ -731,7 +793,7 @@
             "&e&lAstrid": "I think it's best you are not aware of any of that...",
             "&e&lAstrid": "Soon, it will no longer be an issue. It is for the good of the Pokémon... and of our region.",
             "&e&lAstrid": "Our Swords will bring Justice to this land, and bring Balance back to Zeinova!",
-            "&e&lAstrid": "&3Statera&r's &oExperiements&r will do no good with our plans!",
+            "&e&lAstrid": "&3Statera&r's &oExperiments&r will do no good with our plans!",
             "&e&lAstrid": "Now leave! You've gotten the information you've come for, no? I'll see you another day, I suppose, when &3Statera&r sends their lap dog back to bark up our tree."
         },
         90
@@ -744,6 +806,7 @@
         "Representative1": true
     },
     "HighlightClickEntity": "Representative1",
+    "Hide": "Battle_Tribe_Leader",
     "Dialog": [
         {
             "&c&lAgent Ty": "Welcome back, [PLAYER]! I take it your task was successful?",
@@ -754,10 +817,10 @@
             "&c&lAgent Ty": "Hahaha... You're listening to that old crone?",
             "&c&lAgent Ty": "Don't, [PLAYER]. &6Sophro&r is a tribe of liars, they're twisting words and actions around to benefit themselves, so that they no longer look like the bad guys.",
             "&c&lAgent Ty": "Have you heard that story yet, about &9Kyogre&r and &9Groudon&r?",
-            "&c&lAgent Ty": "There've been many different versions of it, even one accusing &3Statera of being behind it...",
+            "&c&lAgent Ty": "There have been many different versions of it, even one accusing &3Statera of being behind it...",
             "&c&lAgent Ty": "&6Sophro&r has been active in Zeinova for hundreds of years, only they would have the knowledge to pull off something like taming the Wild Legends.",
             "&c&lAgent Ty": "They've endangered Zeinova before, and we've held them at bay. They're read to do it again.",
-            "&c&lAgent Ty": "Oh! Before I forget! Here, take these! For all your amazing work today!"
+            "&c&lAgent Ty": "Oh! Before I forget! Here, take these, for all your amazing work today!"
         },
         90
     ],
@@ -769,14 +832,15 @@
     "GiveItem": [
         "carrot"
     ],
-    "Wait":
-        20
-    ,
+    "Wait": 20,
     "SetTitle": [
         "&5&lA soothing melody",
         "&a! Quest complete !",
         true
     ],
-    "PlaySound": "ui_toast_challenge_complete"
-
+    "PlaySound": "ui_toast_challenge_complete",
+    "Hide": {
+        "Representative1": true,
+        "Rival1": true
+    }
 }
