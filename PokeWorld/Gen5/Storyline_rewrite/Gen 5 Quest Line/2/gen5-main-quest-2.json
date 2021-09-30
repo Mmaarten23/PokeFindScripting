@@ -281,7 +281,7 @@
     "Server": [],
     "Show": {
         "lewis_bridge": true,
-        "bird1": false,
+        "bird1": true,
         "lewis_bird_seat": true,
         "lewis_bird": false,
         "player_bird_seat": true,
