@@ -1,9 +1,9 @@
 {
     "Key": "gen5_main_quest_3",
-    "Name": "",
-    "Description": "Travel to Spiritvale",
+    "Name": "&k&lA soothing melody",
+    "Description": "Music is said to be one of the most powerful forces of nature. And in times of trouble, that is exactly what you need!",
     "AllowRejoining": true,
-    "Icon": "",
+    "Icon": "jukebox",
     "CreateEntity": {
         "key": "BridgeCitizen1",
         "name": "&9Tommy",
@@ -100,7 +100,7 @@
             "pitch": -1
         },
         "entity": "armor_stand",
-        "pokemon": ""
+        "pokemon": "eevee"
     },
 
     "CreateEntity": {
@@ -114,7 +114,7 @@
             "pitch": 0
         },
         "entity": "armor_stand",
-        "pokemon": ""
+        "pokemon": "Watchog"
     },
 
     "CreateEntity": {
@@ -128,7 +128,7 @@
             "pitch": 0
         },
         "entity": "armor_stand",
-        "pokemon": ""
+        "pokemon": "Stoutland"
     },
 
     "CreateEntity": {
@@ -142,7 +142,7 @@
             "pitch": 0
         },
         "entity": "armor_stand",
-        "pokemon": ""
+        "pokemon": "Unfezant"
     },
 
     "CreateEntity": {
@@ -156,7 +156,7 @@
             "pitch": -33
         },
         "entity": "armor_stand",
-        "pokemon": ""
+        "pokemon": "Sawsbuck"
     },
 
     "CreateEntity": {
