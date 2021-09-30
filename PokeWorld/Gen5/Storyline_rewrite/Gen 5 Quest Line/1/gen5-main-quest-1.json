@@ -17,7 +17,7 @@
             "yaw": 109,
             "pitch": 0
         },
-        "skin": "old_man",
+        "skin": "SURF_OLD_MAN",
         "look": true
     },
     "CreateEntity": {
