@@ -259,9 +259,7 @@
     },
     "Quest": true,
     "HighlightClickEntity": "executive",
-    "SendMessage": "DEBUG: skipping",
-    "Wait": 2.0,
-    "Skip": "debug_skip",
+
     "HasTrainerLevel": [10, "&cYou must be at least Trainer Level 10 to do this quest!", false],
     "NotCompleted": [],
     "Dialog": [
@@ -584,7 +582,6 @@
         },
         90
     ],
-    "Comment": "debug_skip",
     "Wait": 20,
     "Freeze": [],
     "Fade": [],
