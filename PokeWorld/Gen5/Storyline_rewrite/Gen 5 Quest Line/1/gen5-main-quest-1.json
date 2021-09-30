@@ -136,7 +136,7 @@
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
             "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
         },
-        "look": false
+        "look": true
     },
     "CreateEntity": {
         "key": "executive",
@@ -167,7 +167,7 @@
             "pitch": 0
         },
         "skin": "professor_hemlock",
-        "look": false
+        "look": true
     },
     "CreateEntity": {
         "key": "audino",
@@ -812,9 +812,7 @@
             "&3&lStatera Employee": "Professor, &3Statera HQ&r has requested your presence. Please follow me."
         }
     ],
-    "PlaySound": "entity_enderman_teleport",
     "Particle": ["portal", 1152.5, 59.0, -133.5, 50, 0.6],
-    "PlaySound": "entity_enderman_teleport",
     "Particle": ["portal", 1149.5, 58.0, -136.5, 50, 0.6],
     "Hide": {
         "professor": true,
