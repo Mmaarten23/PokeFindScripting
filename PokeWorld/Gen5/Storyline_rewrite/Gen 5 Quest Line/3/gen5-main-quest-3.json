@@ -445,10 +445,10 @@
     "Wait": 10,
     "Objective": ["Find the second digit of the code by talking to Amelia", 3],
     "Show": {
-        "Guard1": false,
         "Guard2": true
     },
     "HighlightClickEntity": "Guard2",
+    "Hide": "Guard1",
     "Dialog": [
         {
             "&a&lAmelia": "What do you want?",
@@ -474,10 +474,10 @@
     "Wait": 20,
     "Objective": ["Find the third digit of the code by talking to Mia", 3],
     "Show": {
-        "Guard2": false,
         "Guard3": true
     },
     "HighlightClickEntity": "Guard3",
+    "Hide": "Guard2",
     "Dialog": [
         {
             "&5&lMia": "Yo! What brings you here today?",
@@ -512,10 +512,10 @@
     "Wait": 20,
     "Objective": ["Find the last digit of the code by talking to Kevin", 3],
     "Show": {
-        "Guard3": false,
         "Guard4": true
     },
     "HighlightClickEntity": "Guard4",
+    "Hide": "Guard3",
     "Dialog": [
         {
             "&6&lKevin": "Why hello there... I've been expecting you...",
@@ -1158,6 +1158,7 @@
     "Skip": -10,
     "Skip": -11,
     "SendMessage": "&aAccess Granted",
+    "Hide": "Guard4",
     "Wait": 20,
     "SendMessage": "&e&l+1 Flute",
     "Wait": 20,
