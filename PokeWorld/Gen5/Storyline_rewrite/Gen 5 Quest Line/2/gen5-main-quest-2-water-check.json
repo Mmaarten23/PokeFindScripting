@@ -1145,7 +1145,6 @@
   "Wait": 30,
   "PlaySound": ["entity_player_levelup", 1.0, 1.0],
   "SendMessage": ["&a&lWater flow complete. Access Granted!"],
-  "Complete": [],
   "Progress": "gen5_main_quest_2",
   "Leave": "gen5_main_quest_2_water_update",
   "Leave": []

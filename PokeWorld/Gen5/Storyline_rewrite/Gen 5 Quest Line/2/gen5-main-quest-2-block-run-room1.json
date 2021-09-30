@@ -1363,8 +1363,6 @@
     "PlaySound": "entity_enderman_teleport",
     "Particle": ["portal", 1034.0, 21.0, -531.5, 50, 0.6],
     "Hide": "guide",
-    "Complete": [
-    ],
     "Leave": [
     ],
     "Comment": [
