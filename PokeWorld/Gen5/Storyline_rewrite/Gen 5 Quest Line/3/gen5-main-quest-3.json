@@ -160,7 +160,7 @@
     },
 
     "CreateEntity": {
-        "key": "Anni_Snorlax",
+        "key": "AnniSnorlax",
         "location": {
             "world": "world",
             "x": 472.5,
