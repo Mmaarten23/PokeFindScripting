@@ -23,13 +23,6 @@
     },
 
     "CreateEntity": {
-        "key": "bird_dummy",
-        "location": [1188.6, 50.0, -87.9, 142, -11],
-        "entity": "ARMOR_STAND",
-        "visible": false
-    },
-
-    "CreateEntity": {
         "key": "bird1",
         "location": [1188.6, 50.0, -87.9, 142, -11],
         "pokemon": "togekiss",
@@ -314,7 +307,7 @@
         "rival": false
     },
 
-    "CreateCustomEntity": ["bird", "bird_dummy", "bird1", "lewis_bird_seat", "player_bird_seat"],
+    "CreateCustomEntity": ["bird", "bird1", "lewis_bird_seat", "player_bird_seat"],
     "Server": [],
     "TeleportEntity": ["bird", 1188.6, 40.0, -87.9, 142, -11],
 
