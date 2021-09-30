@@ -6,7 +6,7 @@
     "Icon": "",
     "CreateEntity": {
         "key": "BridgeCitizen1",
-        "name": "&9Townie",
+        "name": "&9Tommy",
         "location": {
             "world": "world",
             "x": 390.5,
@@ -15,11 +15,15 @@
             "yaw": 126,
             "pitch": 52
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzMDkxMjU5NywKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFkMzhmY2UyM2NhOTcwN2E1ZDBlMTZmM2FlZDk0NTgxN2YyOWIwM2QzMmIzMzUxMGNkMjM3ZTExOGM0ZmI1ODAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "QJmKackHb40HRjP01KM/b6Q9UaJWxGGqttc7RT3MExCCeNTc1hQ0X9ZpWj5unKt035rV3qXP+c77Z+H2tz0SNvxGVLKkLvOwdCotesJqopxpnNzlvZ6LfBB7S59CWT2kUm+p0IpGhjoPiOBNP5KQh0WpTWLssK+HNs4VzWgAPe3xJEBKK7/gJD7ZOWGxpt4a0+0WDYlbJxH443rxCIa872wSZtlmT1oQuqkQBhPEZunXc7m+CjFEr2KwrFik8oKjbrIKkpkNEPuRkPEyCCtzWDjDRTby77sdknofiTIiyBQbt4c2J6W2gd/227VySFWE7X7bbyqpB5Ekcs5FHCRSl/63CbNTEvbDGHrlhY9pV1Ird2GwKTQre4txO6gn9HFJUyjBbC6FVJMS4reDnwoawp2EsevA9ezhUaoshugakVuGgDUqlSAnpLk3jCwdW1hOHna44AJfHotXEXZbSLtlA9CcYGgzEdKQwnJzuv60YxBjHRX54zcCiCMI2DXrFVsJi2jfSNbtYrM6C0yWSpsFl5sudR56zjxAdGvV0+i+Uc3iOuox9iS/0t8T8n65EXWQoLNIJjXtYL0eC1pKVjbpQShdm/hb7/r65U2XQ5/E2NyTkp6sqLHfW/OexmawCz8pnrpwm/4akHmzpyFNjFmtB3zxAqqltHDk0pfRw90dwyk="
+        }
     },
+
     "CreateEntity": {
         "key": "BridgeCitizen2",
-        "name": "&eTownie",
+        "name": "&eIssa",
         "location": {
             "world": "world",
             "x": 393.5,
@@ -28,11 +32,15 @@
             "yaw": 294,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MjkwMTg5OSwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWVydGVsdG9hc3RpaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FhNWQxODUxNjg3MGQ5MTEzZTRmNmUxMmY4OGRmMGEwMDZjMmVkM2ZlMTkyZTU0NWIyNDg5MDNiNWU5YmNhOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "puOszBmfpQ9XClm1zcKsQcRMVMiIe5nCnGTwmDMnUOx0dfJRoQ8P7p5P2p+98BI0yz58/Ax3Ehpf5AunI/zp3h6piP5QIIe5GOc9URQalQ/OhrvBG6nTv3xanNIRL8Fiis/trG/wKMT3QehWWvxApV7Ahtod2ZA8IGoqH/jghzfzjAF+jK4+eRQt/kp1yhzXq7M+tY6MfPrpCZZDNeyTx297CedeF3IeBArXi5GGTByGT1Zm5dSin6QoqlT3vYcAZ1THSKv/E8cim/LmuA4FY2ImOGAPU1J9Fu7+uXItu2fIckn7QDWfEf2L3A0nM5xFHXP6yOQADgxYrANFcIw2D3TGw0j0zAo6/PVqck47bM3LogyjRl8OlLhkL/+/igkQyY3YarYxzzt92kw5bLdHE3HivYHhAdZa5/On9BlUMI6K71fUUeuQblMYPCFir8oqp9AB26C0lb2NfEo3TyPxF9OoBMZQXgcbYVcRlGD2cS2SsdHOBAlq7mvB9y+8802hp+et16plK7vZ1/id+EWOYX7XNAwemMv76TTVh167BCosir5B6k1AP5WE3jdyNtvDoNfo/jUamPH5TvhphBZa0YvfSSPS2fuy68eCEEYG6A5vPqblvUEHuHuWpUz+h/cxzdOJp4J3LmUEYdlEPOdcUiREZwOVyebhaask/Tr6hk0="
+        }
     },
+
     "CreateEntity": {
         "key": "BridgeCitizen3",
-        "name": "&bTownie",
+        "name": "&bSparkle",
         "location": {
             "world": "world",
             "x": 398.5,
@@ -41,11 +49,15 @@
             "yaw": 309,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MzA1MTY2OCwKICAicHJvZmlsZUlkIiA6ICJhYzYxZjQwZGJhNDE0YzkwOWU0NWJkMTgwMmY5MTYxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmlmYW5pIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3YTVkOTU2MWU5YTMyMjkyZDM5ODBhM2VmZDIxNDQ1ZWZjYTgwY2Y5YTY4ZGZjZjgyMDc1N2JjNTNhYjM0ZmYiCiAgICB9CiAgfQp9",
+            "signature": "NBwx2cjoEeOIg35XcbwyDRKQniFpeQytIar7q9gtaoDW70StS7147NTZ/sMYth2oE+1mRdbjnLdhXcKpd2vUv7FurWz52TaRVHWmuAkvKyX3K+IIndZ+hE6BajF662yZ5s8YRpeeRilaWPWKxvN3SUwVo+SM2S69axUYUE89gUzViKDriNJ7tV/JSwn2IL5uqxWkShjjOx2CyQ4s9G31PF2A4qHc1p55ZnnYZUC71nUuvm6jiVXCEn1eZt5/6uUWwy/42XMkxzDNnzngCvFcPeqJG2na2YmkRlqj757OYfFpFWcl4b4lCgeblmg1tIDC2hKMtFT4TfKnf0DhtwP9p3uMMtzqKrsSRo8kgV9u5GFASl3lr5AEzNUOulxAv4w9DSl7UIx/xI8dYqfwEx4/opoKwYLa45WWc4X2JXv5bm7elE7JaZGRZQRTe/RFFTsA8f8CDq3VwLHFHsk8Sfr9nfienTpM7tiTpZaHR5PIyuePPvmPz5n6/6HuXl4mwy2lva3Z9RUH1fYUIJHtNWVB5NhkYgczOd2+hV0fndZ8+wuRmaNsQjQPb0d4ecMWvFgZMkkqLuwgI5fd5ffSZUF5AJ3l4iz/857VloWFtMVaHt88P18S+LZNvK+hmdZBhotDYwoyUUjOKVxfnRZx7yoY1HO9BvCQuhqKsFpj/gmzMO8="
+        }
     },
+
     "CreateEntity": {
         "key": "BridgeCitizen4",
-        "name": "&dTownie",
+        "name": "&dIggy",
         "location": {
             "world": "world",
             "x": 383.5,
@@ -54,11 +66,15 @@
             "yaw": 223,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MzI0NDgwOSwKICAicHJvZmlsZUlkIiA6ICIzZjM4YmViZGYwMWQ0MjNkYWI4MjczZjUwNGFiNGEyNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJjazM0Nzk0MjM1NzUzNzMxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlMDI1NDE0ZmUwMTNmZjliOTJhNGE3MWE5ZTkwZmYwODY3OWRhMWZhMjYxM2I2NTNkMDk3NzkxYjMyYTY4NDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "keu8NrnYygRTvVES/Y/XTMEJfQfDpAERejEEjURKgxsAJxzWlsz1a895+rxLu4hZrGOwsiRlYYxGzlUBznaBQHiaNjWJReCV+Cm6vr2rZZ7XrZJxJhA0WJZHyXe32BsVGoifS/sJc4nJrkk+u4dH9nX1OAlbHqteuAS+2rvoH1x6A8byGRBMUJ8gMIUzwKM+X4rCb1qnd/l7A6Dbo6asNeN0sNLzPyKb5vot65p75/+f87Kche1XA7HdUwP7FZacy36FQPD/NPyeTbvfkXay5awXh+aQuWl2ijSDHxbmWRvYnOQrZOOqPOzqoAjD+vnUe2BqW1c5WLhrrJCSuRQhrNOhApRauhFMPxEXEhsIkXzUFLKOGWhZhqCn/HYavmKa37WR2y9UjjsGxknOl56b94mi4r3El9serIvC2dvGahN1DKOpw8Zb3HS6XqxRzIOr3l0Z3R/JaOdSv8KPD/kmIziz9tdkRbGfJBe3NeNa5u5Yq49VW37XePFQmFg4SKaTnmtK+NoBXHGbl6gS6v5kFYES61eJPFMmWvbyH3lyKYjEEO+lyOjKjsS7xIQ3C1eyQ1qkefN4hqNZDtIWE8beq1cOnbOPABSLgjElLiY2xctKGbasP1/RNeQAClQyM014f3OcHx7yoQzJ9PLJ0zE3PSmX7cwlJvteklrho4vWLaM="
+        }
     },
+
     "CreateEntity": {
         "key": "BridgeCitizen5",
-        "name": "&5Townie",
+        "name": "&5Tessa",
         "location": {
             "world": "world",
             "x": 384.1,
@@ -67,11 +83,14 @@
             "yaw": 217,
             "pitch": 78
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MzM5NzA5NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA2Zjg2MWU1MWI5NmViNTI5NGIyNmFhYmRlMDczOWQ2MDRkYzQ5OWIzZjhkMWRhZGQ2ODY4ODAwODU2NzQ5MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "Cn87nfRwNrjOUf7b9gOKe3PMc08Lai4Q8am+GAUYQNExNXWYVUFq4eUyiV3jZtjsr+iKMTykRnWYPZ7/JP5fMD51h5gJu0vzOmsgSnHKjpaY0RnQYNyHYwL1I+ZUkOB3AErEVZC9Zfcbdi3XTmI0RZmxh4EAy84QqCFYti+0XZtg0kPSrbwg8RNUQdPWjc2CS+1ZdU5yZNXCJ6/SbHsdUAuPkoDtgnPz7HSpV0dla/33p/Ts6iMcQauYxGNsSc6BMIvPtPUMBR7MhG/J29TKbb6j4rzQqsCPuy8PFrhWCg9EZpJtvOgKQbQDAY1QUekbGWhvvTfndehw1nBHL3YhT+BjgtsnhTFI/dDkMc8NtVLYpSQCq8TyAX3q+JrFyIw1dRinzD9Kh0gfpTLWseEK5D+TOvhTuxGPJFSIL5YtqKVePajlxDtfopEchJKmV+2Y4QxWjYTz26nKiT4i7niX5MX4PSgHDl5c7ekYJgETwlRL24yKCm/nnqNpf4o6pPQxTK4h9ZJW33R56XKO6cvjUx/jpGTcTeP97qTbRVKFVDN1Nmw/H7zdmJZS6ATR5pl92SxIZbp45MqKR2Mn2FXPKrWG2DhgZ+uP6Gx/N88VaROvNufMRQVtsNuggyChei30Aw0sBy9iLemOC80e6JxGX5p7qSNGioBRGWLq+ILYBtA="
+        }
     },
+
     "CreateEntity": {
         "key": "BridgePokemon1",
-        "name": "",
         "location": {
             "world": "world",
             "x": 388.5,
@@ -83,9 +102,9 @@
         "entity": "armor_stand",
         "pokemon": ""
     },
+
     "CreateEntity": {
         "key": "BridgePokemon2",
-        "name": "",
         "location": {
             "world": "world",
             "x": 395.5,
@@ -97,9 +116,9 @@
         "entity": "armor_stand",
         "pokemon": ""
     },
+
     "CreateEntity": {
         "key": "BridgePokemon3",
-        "name": "",
         "location": {
             "world": "world",
             "x": 401.0,
@@ -111,9 +130,9 @@
         "entity": "armor_stand",
         "pokemon": ""
     },
+
     "CreateEntity": {
         "key": "BridgePokemon4",
-        "name": "",
         "location": {
             "world": "world",
             "x": 385.5,
@@ -125,9 +144,9 @@
         "entity": "armor_stand",
         "pokemon": ""
     },
+
     "CreateEntity": {
         "key": "BridgePokemon5",
-        "name": "",
         "location": {
             "world": "world",
             "x": 384.8,
@@ -139,9 +158,9 @@
         "entity": "armor_stand",
         "pokemon": ""
     },
+
     "CreateEntity": {
         "key": "Anni_Snorlax",
-        "name": "",
         "location": {
             "world": "world",
             "x": 472.5,
@@ -154,9 +173,10 @@
         "pokemon": "Snorlax",
         "skin": "Anniversary"
     },
+
     "CreateEntity": {
         "key": "Guard1",
-        "name": "",
+        "name": "&6Michael",
         "location": {
             "world": "world",
             "x": 375.5,
@@ -166,13 +186,14 @@
             "pitch": 53
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MzkzOTUyMiwKICAicHJvZmlsZUlkIiA6ICI2MjM5ZWRhM2ExY2Y0YjJiYWMyODk2NGQ0NmNlOWVhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYXRGYXRHb2QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiNWQxMWYyM2NkZjBkNDVhODNlZGQ1YjBjNGQ3YmY3ZWY4ZWM5NTMxODljNDRlY2UxNmQ5ZDRjYTNjYzY1MSIKICAgIH0KICB9Cn0=",
+            "signature": "Sewrhe4Lrf3eA2q3kUECs5QtFFfS8voKly1oAg4y5gk6kSx5iaVB25W7tTOd0Dwi0SJgqz8rAptnyHrlnu9WrXNefS5bo4xVcwcnGClXB/nzvBm5wJHQmqgtm78nRxRlrXVBPSttsIvWYkYMUmqCjt9FnPKe/SS9qpK1Lg2k7CJE+6lqdzxXj+haVm4tZrjXlmahMQHzM0dapZmS3tMJlUvl6/K1AeONVT3fOKE7U6ZAa8eJXYh9HkeTHjxfxr8iAxOoItQVtbDH0JEA4UXLo5aVsqgiewQU1/8UQ9YLWPGhaehMC9nqTzQMXT2byhpEXoEWjvRWNV4J29wNHqrcGHkk95lmSne1u8Xr9Atf7JpsLktKKUUnnBl0OiTcRPZAw1/guD4CJlL3npghKvpMKwDtFiGu6t2cRMoNRu21qcnagC1kVJnodQkGfrZNWgDQLDeK5xesL9O6KfGUmWPCrPMW6ey99BdJrMv8DBjlm3VNw+N3OiLBL6JaDuuDOU0yZy2PG6tz54P1F/7msdjYO8xfHb/mNKL2JlQiYq4N1g1+FImP0ovmaQWeIJHazoLDV3XKUvVBFXdfdGcppsOHhxf1s0gao+ZYzxQ9n4epkTwDZDvemPyKFoVU6muGed+y4z/O6sfC3US74qL36V2o4H3FkGC+vO6d6jn2ashcb3E="
         }
     },
+
     "CreateEntity": {
         "key": "Guard2",
-        "name": "",
+        "name": "&aAmelia",
         "location": {
             "world": "world",
             "x": 411.5,
@@ -182,13 +203,14 @@
             "pitch": 23
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0NDI2MDkyOSwKICAicHJvZmlsZUlkIiA6ICJkYmNlZjMyZjI5ZDc0Y2UzOTUzOWMwYjBhMTE1YjZiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJyYW1waXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjY2VmZjViNmQwMGY2M2I5NTIzMWRhZDhiMWI5ZjA4NjUwMzNkMjUxYzlmMjk0ZjcwYWFkOThjZWRiMDk4ZTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "Juq5rcV5YU6VPlwKDhTJP0EU+rj67XgkDDvABp2L9HPpIeUBhSTmvcJ71GwRc3z5wswHvtml0FiErfRRa+7XoEu0bV5txrUFVzdCrP0U/z8j5Asn57yVSKUFBWHj5rvPGA/saeeAMOCBdbFYofXKZ3LQfl3oq0uHNOR7393Exd4IpOb0xxsCuu5GIvBvTG7pHRI4drGOZgej2u38zjcWTI7620OonPZwCB+71u29//1cddWN2Y1GxBJQo7YtKBDwdhZcsh+eHx0AzXxvQhJMW5l8l74SvzQNj6UiMiK5n+4DiXC4V3P5D65bLm9mGs+3L5g2SsS2jGJN2b/QbatBXvUJWjqDgzk4bikc2d8uSjg+kkC0nf94mAA6ZIAAdjcr47FuU+yJLNAJcZui/HRJbyVxxXv8QEPGvTQmo0poJGlK+WVAPqaU93FujkxdNzlaFS88bx5F4xriWAY9NSA2L8Qpwg/h4TLfH//8tKOP9r9UFdtwMpII04i0fSify9ERCpQ+5Qy7AJ0ZIhNisGD/HjeQzDhdX0A1bF80cWWWFYho9hf6PoNdqB3kcfy2I9mD9PnAZeXRZALjsDPRIh1F5tebpBD6Y1emj6xDJKXF6kitFjKug5vvJ9s2w7qO6Y0v2RIGnrIm33LdCpMcURO/rVhHXHE8akyZqa5hV/D9Q6Y="
         }
     },
+
     "CreateEntity": {
         "key": "Guard3",
-        "name": "",
+        "name": "&5Mia",
         "location": {
             "world": "world",
             "x": 405.5,
@@ -198,13 +220,14 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0NDM3MDk5NCwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyOThiOGM0MzkwMGNkYzJlOTM1ZjVkNjcxYWZmYTUwY2QwMDI4N2ZmYzM0YThhOTY3NTQ3ZDM1NmY5OWQyYzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "WP3CZ5dnp/wyqamYH+mMJfddjyMdUGe9BUAv9wRSiZGZjermJCvZGOSU79VCVlJ8Q0av5n3NvLitnqqH12wWK0ju9uwYasC3oGpGdvET6vyoPdqg3wkBgKgGgJz/ghJk7uAmIu5MV6PDJZ9D8VpBxHodwpShvp2hskndIata3IBzm87M5d+TOQVbJJosa5Tk+1Opz575nNU5oAwk4k2e5Z20KtjHOOp01uJsiZMcMiBGF2VsxPNVaTCqO8UIY05R0WgRCPX5HvN1B4wBkfsbvNLH3/TjoiKb42/VZ7SLknJQ/+PGGltg7WXH/YTQd5bUODhstw4lWvEq8oz+QRdqUDUb0qVddxuK59fkHL/cVU6ThUCrXiMSG0lp/W3MEg4npPrOXkP8EkNsPNmELd3jpfD8SE2HIkkza/d5+oh6bQZxmEkbOfK5CkeyzM2JOC7KRzYZcJU9/ynMScICJNd389ycLRkQ3LOVAsGLh7Gjw3Bt73tIUoJg3sStpzzSS+W50Bltjv7zT+a8BH3WFgnOgsBDqQrhiJCbalJO84wEd84ekuGygNh23GBbNRI3WY4DsroYzFnYlvWhbZbDfUyEVxoFe1bFh3VU4jm3MAt9w10Iz1NSe4vbl2nwosUukIW5x3SjphZfUCZOpyMuskQwn22h61t/fzpa5OVdrksnJ+M="
         }
     },
+
     "CreateEntity": {
         "key": "Guard4",
-        "name": "",
+        "name": "&6Kevin",
         "location": {
             "world": "world",
             "x": 396.5,
@@ -214,10 +237,11 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMzIzMDIwMjkzNiwKICAicHJvZmlsZUlkIiA6ICI3NDM3MGQ1Mjk5Mjk0ZThjODRlYjRlODlhYjc2MGY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQdXRZb3VySmFzT2ZmIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1MDhiNTYxOGJlZTZjYThhZDA1MjRlMzZiYjRmYTRiMDZjNjRiODRlZjRjNjllZmQ1MmYyZGY1ZjJhMzA5NDgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "ZY5iFxRjhP8AoGUgdwf2barD5Pjn6UjB9Mep4wHG1gI6BZ7LpWPkXCytzacT9ZkosSNlGppukNQaA555CtXXUhFxJQxKRuyDrs+61+0CXZ1sskgywyVTEM/9t5r+xU2IWae/aHTGAoFJ0QL7lnJ2vlWCGD6y95qlwus5ikuANgk1USxy5tSm71Ab7HCV9O7ODQ8TiGm18HQsCWNFr7rdtg2Kb/u+eBobEyes2d93gxL1z4GZm99mgCxR2ojWS1HczCmUk/JTQR0+PKGsYAcqIxeLCr2JIKVBGhaih/BPDmfaH9YKhrAVUvM9y/V5x7jF1Ccl3cGgzxtofoxYTVqKwG5yAGvssLgdkls4FbtmJ+z2zchc0jqScir9YB9fN+CXwM6E2ZeJp4XwXine4yeGmEZA9gwhCuy+MAWMvJDtdT8n4sHS9/nXNwbLarx/I0Z6GiHfe3zO8A8PCj96bua07VdB+rzpDR9V7Qsh35Ib/bBlIF48Yqix3pv7CbQ4wH6g+cEc3yhgy/B/5zumsfQmmzfBc+BNi2750D14hqEe9TVRnyWuGZAbSDD8SpNmU6bY8fg3T3ENjmNyLuozWYferjZnNygT/RHAqPuYRTcBEgO3RNhoTOqo/rpMmCfbfV1fyFtoswOiDHzd1UGiqJ2y534wf30PQqJni3TKo3mvJJ8="
         }
     },
+
     "CreateEntity": {
         "key": "Statera_Representative1",
         "name": "&4&lThomas",
@@ -234,6 +258,7 @@
             "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
         }
     },
+
     "CreateEntity": {
         "key": "Statera_Representative2",
         "name": "&4&lThomas",
@@ -250,6 +275,7 @@
             "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
         }
     },
+
     "Show": {
         "BridgeCitizen1": false,
         "BridgeCitizen2": false,
@@ -307,7 +333,7 @@
     "Wait": 10,
     "Dialog": [
         {
-            "&3&lStatera": "Hey [PLAYER], it looks like you just entered Spiritvale from what our GPS is showing, can you check out the area for us?",
+            "&3&lStatera": "Hey [PLAYER], it looks like you just entered &lSpiritvale&r from what our GPS is showing, can you check out the area for us?",
             "&3&lStatera": "There has been more suspicious Pokémon activity again and we need you to help the locals.",
             "[PLAYER]": "I'll get right to it!",
             "&3&lStatera": "We'll be checking in with you later, thanks again!"
@@ -319,14 +345,15 @@
         365, 1, -39,
         427, 100, -5
     ],
-    "Freeze": [],
+    "Freeze": true,
+    "Wait": 4,
     "Fade": [],
     "HidePlayer": [],
     "Teleport": [385.5, 55.0, -33.5, 344, 0],
     "Look": "BridgeCitizen1",
     "Dialog": [
         {
-            "&9Townie": "AHH! Please stop attacking us!"
+            "&9&lTommy": "AHH! Please stop attacking us!"
         }
     ],
     "Unfreeze": [],
@@ -336,30 +363,30 @@
     "HighlightClickEntity": "BridgeCitizen1",
     "Dialog": [
         {
-            "&9Townie": "You must be new around here...",
-            "&9Townie": "I promise things are not normally this hectic...",
-            "&9&lTownie": "I wish this wasn't your first impression of [NORMALTOWN]..."
+            "&9&lTommy": "You must be new around here...",
+            "&9&lTommy": "I promise things are not normally this hectic...",
+            "&9&lTommy": "I wish this wasn't your first impression of &lSpiritvale&r..."
         }
     ],
     "HighlightClickEntity": "BridgeCitizen2",
     "Dialog": [
         {
-            "&eTownie": "Hey, maybe you could help us out!",
-            "&eTownie": "You're a trainer right?",
-            "&eTownie": "Normally the Nurse handles this... She has a flute she plays to calm down the local Pokémon.",
-            "&eTownie": "They get spooked every now and then hahaha..."
+            "&e&lIssa": "Hey, maybe you could help us out!",
+            "&e&lIssa": "You're a trainer right?",
+            "&e&lIssa": "Normally the Nurse handles this... She has a flute she plays to calm down the local Pokémon.",
+            "&e&lIssa": "They get spooked every now and then hahaha..."
         }
     ],
     "HighlightClickEntity": "BridgeCitizen3",
     "Dialog": [
         {
-            "&bTownie": "Do you think you could grab the flute from her chest? She keeps it in a chest above the doorway of her house.",
-            "&bTownie": "We'd ask her but she's away on business for &3Statera."
+            "&bSparkle": "Do you think you could grab the flute from her chest? She keeps it in a chest above the doorway of her house.",
+            "&bSparkle": "We'd ask her but she's away on business for &3Statera&r."
         }
     ],
     "Wait": 20,
     "Objective": [
-        "Go to Nurse [NURSENAME]'s home and find her flute (Hint> Her house is near a gym structure outside of town)", 3
+        "Go to Nurse Daisy's home and find her flute (Hint> Her house is near a gym structure outside of town)", 3
     ],
     "RegionEntry": [
         464, 1, 28,
@@ -368,11 +395,11 @@
     "Dialog": [
         {
             "[PLAYER]": "Hmm... The flute should be in the chest above the doorway!",
-            "[PLAYER]": "I need to be quiet though so I don't wake up Nurse [NURSENAME]'s Snorlax though..."
+            "[PLAYER]": "I need to be quiet though so I don't wake up Nurse Daisy's Snorlax though..."
         }
     ],
     "Wait": 10,
-    "Objective": ["Try to find Nurse [NURSENAME]'s flute in the chest", 3],
+    "Objective": ["Try to find Nurse Daisy's flute in the chest", 3],
     "ClickBlocks": [
         469, 69, 33,
         470, 69, 33
@@ -381,37 +408,37 @@
         {
             "[PLAYER]": "Hmm... It looks like it needs a code!",
             "[PLAYER]": "There's a paper here...",
-            "[PLAYER]": "It says 'To find the first digit of the code speak to [GUARD1] in case of emergency'...",
-            "[PLAYER]": "I guess I have to go talk to [GUARD1]!"
+            "[PLAYER]": "It says 'To find the first digit of the code speak to &6Michael&r in case of emergency'...",
+            "[PLAYER]": "I guess I have to go talk to &6Michael&r!"
         }
     ],
     "Wait": 10,
-    "Objective": ["Try to find the four digits to unlock the chest (Talk to [GUARD1] for the first digit!)", 3],
+    "Objective": ["Try to find the four digits to unlock the chest (Talk to Michael)", 3],
     "Show": {
         "Guard1": true
     },
     "HighlightClickEntity": "Guard1",
     "Dialog": [
         {
-            "[PLAYER]": "Hi there! I was wondering if you have the first digit to Nurse [NURSENAME]'s chest...",
+            "[PLAYER]": "Hi there! I was wondering if you have the first digit to Nurse Daisy's chest...",
             "[PLAYER]": "I need it to calm the Pokémon down...",
-            "[GUARD1]": "I might... But I'm not going to give it up that easily! I need you to do something for me first!",
-            "[GUARD1]": "I would like for you to bring me a Normal type Pokémon and then the first digit of the code is yours!"
+            "&6&lMichael": "I might... But I need to know I can trust you! I need you to do something for me first.",
+            "&6&lMichael": "Prove that you can catch and give me a normal type pokemon and the first digit of the code is yours!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Bring a Normal type Pokemon to [GUARD1]", 4],
+    "Objective": ["Bring a Normal type Pokemon to Michael", 4],
     "ProvidePokemonType": ["Guard1", "Normal"],
     "Wait": 10,
     "Dialog": [
         {
-            "[GUARD1]": "Thanks! Okay the first digit of the code is 9. Good luck!",
+            "&6&lMichael": "Thanks! Okay the first digit of the code is 9. Good luck!",
             "[PLAYER]": "Do you know who has the second digit?",
-            "[GUARD1]": "[GUARD2] should have it."
+            "&6&lMichael": "&aAmelia&r should have it."
         }
     ],
     "Wait": 10,
-    "Objective": ["Find the second digit of the code by talking to [GUARD2]", 3],
+    "Objective": ["Find the second digit of the code by talking to Amelia", 3],
     "Show": {
         "Guard1": false,
         "Guard2": true
@@ -419,25 +446,26 @@
     "HighlightClickEntity": "Guard2",
     "Dialog": [
         {
-            "[GUARD2]": "What do you want?",
-            "[PLAYER]": "I just need the second digit to Nurse [NURSENAME]'s chest so I can get her flute!",
+            "&a&lAmelia": "What do you want?",
+            "[PLAYER]": "I just need the second digit to Nurse Daisy's chest so I can get her flute!",
             "[PLAYER]": "The Pokémon are out of control again...",
-            "[GUARD2]": "Okay then... Just bring me [ITEM] and I'll give you the second digit to the code!"
+            "&a&lAmelia": "Okay then... but... I am running late on my mail rounds so I wont be able to stop by the pokémart today.",
+            "&a&lAmelia": "Could you bring me Just bring me a &emax revive&r and I'll give you the second digit to the code!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Give [GUARD2] a [ITEM]", 4],
-    "ProvideItem": ["Guard2", ""],
+    "Objective": ["Give Amelia a max revive", 4],
+    "ProvideItem": ["Guard2", "max_revive"],
     "Wait": 20,
     "Dialog": [
         {
-            "[GUARD2]": "Perfect! Okay, get ready! The second digit is 7!",
-            "[GUARD2]": "I assume you want to know where to find the third digit? Just talk to [GUARD3]!",
+            "&a&lAmelia": "Perfect! Okay, get ready! The second digit is 7!",
+            "&a&lAmelia": "I assume you want to know where to find the third digit? Just talk to &5Mia&r!",
             "[PLAYER]": "Alright! Thank you!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Find the third digit of the code by talking to [GUARD3]", 3],
+    "Objective": ["Find the third digit of the code by talking to Mia", 3],
     "Show": {
         "Guard2": false,
         "Guard3": true
@@ -445,28 +473,35 @@
     "HighlightClickEntity": "Guard3",
     "Dialog": [
         {
-            "[GUARD3]": "Yo! What brings you here today?",
-            "[PLAYER]": "I was told you have the third digit to Nurse [NURSENAME]'s chest?",
-            "[GUARD3]": "I sure do! However, you have to solve a riddle first!",
+            "&5&lMia": "Yo! What brings you here today?",
+            "[PLAYER]": "I was told you have the third digit to Nurse Daisy's chest?",
+            "&5&lMia": "I sure do! However, I have this riddle that I cannot solve. If you can help me, I will give you the code!",
             "[PLAYER]": "Alright, what's the riddle?",
-            "[GUARD3]": "[RIDDLE]"
+            "&5&lMia": "It's right up here."
         }
     ],
-    "Wait": 20,
-    "Objective": [
-        "Solve the riddle: [RIDDLE] (Answer by typing /youranswer)",
-        4
+    "Hologram": [
+        413.5, 57.8, -48.5,
+        "&d&l~Mia's riddle~&9&l",
+        "&9------------------------&9",
+        "&fI appeared in all, even one.",
+        "&fMy skills are greater than none.",
+        "&fJust take a swim and you will see",
+        "&fHow common I might just be.",
+        "&aWho am I?"
     ],
-    "Command": "",
+    "Wait": 20,
+    "Objective": ["Solve the riddle located near Mia (Answer by typing /youranswer)", 4],
+    "Command": "magikarp",
     "Wait": 20,
     "Dialog": [
         {
-            "[GUARD3]": "Great job! The third digit is 4!",
-            "[GUARD3]": "[GUARD4] has the final digit! Good luck!"
+            "&5&lMia": "That makes perfect sense... Great job! The third digit is 4!",
+            "&5&lMia": "&6Kevin&r has the final digit! Good luck!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Find the last digit of the code by talking to [GUARD4]", 3],
+    "Objective": ["Find the last digit of the code by talking to Kevin", 3],
     "Show": {
         "Guard3": false,
         "Guard4": true
@@ -474,24 +509,24 @@
     "HighlightClickEntity": "Guard4",
     "Dialog": [
         {
-            "[GUARD4]": "Why hello there... I've been expecting you...",
+            "&6&lKevin": "Why hello there... I've been expecting you...",
             "[PLAYER]": "You have?",
-            "[GUARD4]": "Of course! I heard you want the final digit?",
-            "[GUARD4]": "Well, you'll have to battle me for it!"
+            "&6&lKevin": "Of course! I heard you want the final digit?",
+            "&6&lKevin": "Well, I haven't battled in a while so before I give you the digit, I want to battle against a real trainer!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Battle [GUARD4]", 4],
+    "Objective": ["Battle Kevin", 4],
     "BattleNpc": [
         "Guard4",
         {
-            "[GUARD4]": "Let's see if you are worthy for the final digit!"
+            "&6&lKevin": "Let's see if you are worthy for the final digit!"
         },
         {
-            "[GUARD4]": "Yes, you are worthy to know what the final digit is..."
+            "&6&lKevin": "Oh wow..."
         },
         {
-            "[GUARD4]": "Better luck next time..."
+            "&6&lKevin": "Better luck next time..."
         },
         [
             {
@@ -547,8 +582,8 @@
     "Wait": 20,
     "Dialog": [
         {
-            "[GUARD4]": "You have proved that you are worthy... The final digit is 0!",
-            "[GUARD4]": "Good luck calming the Pokémon..."
+            "&6&lKevin": "I really need to get back into batteling!... The final digit is 0!",
+            "&6&lKevin": "Good luck calming the Pokémon..."
         }
     ],
     "Wait": 20,
@@ -1123,7 +1158,7 @@
         }
     ],
     "Wait": 20,
-    "Objective": ["Fight Nurse [NURSENAME]'s Snorlax", 7],
+    "Objective": ["Fight Nurse Daisy's Snorlax", 7],
     "HighlightClickEntity": "AnniSnorlax",
     "Show": {
         "AnniSnorlax": false
@@ -1155,7 +1190,7 @@
         }
     ],
     "Wait": 20,
-    "SendMessage": "&e&l+1 &8Sheet Music",
+    "SendMessage": "&e&l+1 Sheet Music",
     "Wait": 20,
     "Objective": ["Return to the bridge and play the flute to calm down the Pokemon", 3],
     "RegionEntry": [
@@ -1637,24 +1672,24 @@
     "Wait": 10,
     "Dialog": [
         {
-            "&dTownie": "Wow, that was quick work!",
-            "&bTownie": "You're from &3Statera&r right?",
+            "&d&lIggy": "Wow, that was quick work!",
+            "&b&lSparkle": "You're from &3Statera&r right?",
             "[PLAYER]": "Yeah! They sent me here to help!",
-            "&eTownie": "Really? They sent you out here?",
-            "&eTownie": "Wow... that's actually pretty impressive...",
-            "&bTownie": "Almost makes it seem like they care, huh?",
-            "&dTownie": "I've been telling you guys all along! Geez.",
-            "&dTownie": "Stuck in the ways of old, I swear..."
+            "&e&lIssa": "Really? They sent you out here?",
+            "&e&lIssa": "Wow... that's actually pretty impressive...",
+            "&b&lSparkle": "Almost makes it seem like they care, huh?",
+            "&d&lIggy": "I've been telling you guys all along! Geez.",
+            "&d&lIggy": "Stuck in the ways of old, I swear..."
         }
     ],
     "Look": "BridgeCitizen5",
     "Wait": 10,
     "Dialog": [
         {
-            "&5Townie": "I mean, it's just the fact that the Pokémon didn't start going bonkers until &3Statera&r showed up!",
-            "&eTownie": "It's just awfully sus, yaknow?",
-            "&dTownie": "Ever heard of 'coincidence'? Aye?",
-            "&9Townie": "Y'all shush... there's a representative coming..."
+            "&5&lTessa": "I mean, it's just the fact that the Pokémon didn't start going bonkers until &3Statera&r showed up!",
+            "&e&lIssa": "It's just awfully sus, yaknow?",
+            "&d&lIggy": "Ever heard of 'coincidence'? Aye?",
+            "&9&lTommy": "Y'all shush... there's a representative coming..."
         }
     ],
     "Show": {
@@ -1671,7 +1706,7 @@
         {
             "&4&lThomas": "Can you come here for a moment, [PLAYER]?",
             "&4&lThomas": "Thanks for doing this, I was running behind from the last time they pinged our GPS...",
-            "&4&lThomas": "You did good work though, it was definitely a better deision to send you here rather than me.",
+            "&4&lThomas": "You did good work though, it was definitely a better decision to send you here rather than me.",
             "&4&lThomas": "Here, take this for all the trouble!",
             "&4&lThomas": "I'll take care of things from here! Good luck training for your gym battle!"
         }
