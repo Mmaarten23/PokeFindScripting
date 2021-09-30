@@ -283,11 +283,6 @@
     },
 
 
-
-    "CreateCustomEntity": ["bird", "bird_dummy", "bird1", "lewis_bird_seat", "player_bird_seat"],
-    "Server": [],
-    "TeleportEntity": ["bird", 1188.6, 40.0, -87.9, 142, -11],
-
     "Show": {
         "lewis_bridge": true,
         "bird1": false,
@@ -315,6 +310,11 @@
         "tribe_Member": false,
         "rival": false
     },
+
+
+    "CreateCustomEntity": ["bird", "bird_dummy", "bird1", "lewis_bird_seat", "player_bird_seat"],
+    "Server": [],
+    "TeleportEntity": ["bird", 1188.6, 40.0, -87.9, 142, -11],
 
 
     "HighlightClickEntity": "lewis_bridge",
