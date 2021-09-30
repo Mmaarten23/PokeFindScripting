@@ -9,7 +9,7 @@
         -789,
         51,
         750,
-        "Magma",
+        "magma_block",
         "Obsidian"
     ],
     "PlaySound":[
@@ -24,7 +24,7 @@
         -786,
         52,
         755,
-        "Magma",
+        "magma_block",
         "Obsidian"
     ],
     "PlaySound":[
@@ -39,7 +39,7 @@
         -782,
         53,
         746,
-        "Magma",
+        "magma_block",
         "Obsidian"
     ],
     "Delay":[
