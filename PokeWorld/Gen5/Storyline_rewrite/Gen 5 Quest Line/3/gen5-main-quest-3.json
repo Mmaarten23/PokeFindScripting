@@ -1,6 +1,6 @@
 {
     "Key": "gen5_main_quest_3",
-    "Name": "&k&lA soothing melody",
+    "Name": "&5&lA soothing melody",
     "Description": "Music is said to be one of the most powerful forces of nature. And in times of trouble, that is exactly what you need!",
     "AllowRejoining": true,
     "Icon": "jukebox",
@@ -297,12 +297,8 @@
     },
     "Quest": true,
     "RegionEntry": [
-        295,
-        1,
-        -152,
-        507,
-        100,
-        49
+        295,        1,        -152,
+        507,        100,        49
     ],
     "Comment": "\"NotCompleted\": [\n    ],\n    \"Completed\": [\n        \"GYM2\"\n    ],",
     "Show": {
@@ -340,7 +336,7 @@
         }
     ],
     "Wait": 20,
-    "Objective": ["Investigate what's going on at the bridge in Spiritvale", 10],
+    "Objective": ["Investigate what's going on at all the bridges in Spiritvale", 10],
     "RegionEntry": [
         365, 1, -39,
         427, 100, -5
@@ -1206,7 +1202,7 @@
     "Objective": ["Type /Sheet Music to view the order of the notes (Type /flute when you are ready to play!)", 74],
     "GlobalCommand": "Sheet Music",
     "Book": [
-        "&6&lLullaby of the Ancient Times\n &aLime &bLightBlue &eYellow &aLime &dPink &6Orange &4Red"
+        "&6&lLullaby of the Ancient Times\n\n &a&l♪ &b&l♪ &e&l♪ &a&l♪ &d&l♪ &6&l♪ &4&l♪"
     ],
     "Skip": 1,
     "Dialog": [
@@ -1720,7 +1716,7 @@
 
     "Complete": [],
     "SetTitle": [
-        "&d&lA myth or a lie?",
+        "&5&lA soothing melody",
         "&a! Quest complete !",
         true
     ],
