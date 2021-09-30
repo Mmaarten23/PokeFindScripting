@@ -275,10 +275,6 @@
         }
     },
 
-    "HighlightClickEntity": "lewis_bridge",
-    "Skip": "start",
-
-    "Server": [],
     "Show": {
         "lewis_bridge": true,
         "bird1": true,
@@ -306,6 +302,10 @@
         "tribe_Member": false,
         "rival": false
     },
+
+    "HighlightClickEntity": "lewis_bridge",
+    "Skip": "start",
+
 
     "CreateCustomEntity": ["bird", "bird1", "lewis_bird_seat", "player_bird_seat"],
     "Server": [],
