@@ -240,6 +240,14 @@
         "pokemon": "Groudon",
         "look": false
     },
+
+    "SetBlocks": [
+        976, 64, 61,
+        976, 68, 65,
+        "air",
+        "barrier"
+    ],
+
     "Show": {
         "oldman": false,
         "cutscene1": false,
@@ -365,6 +373,13 @@
                 "nature": "Timid"
             }
         ]
+    ],
+    "SetBlocks": [
+        976, 64, 61,
+        976, 68, 65,
+        "barrier",
+        "air",
+        false
     ],
     "Objective": ["Continue through the cave and fight the remaining guardian Pokémon", 15],
     "HighlightClickEntity": "pokemon2",

@@ -1,0 +1,12 @@
+{
+    "Key": "bridge_test",
+    "Author": "Mmaarten",
+
+    "CreateCustomEntity": [
+        "bridge",
+        -1049.3, 44.1, 375.1,
+        "gen5_main_quest_1_bridge.schematic"
+    ],
+
+    "MoveEntity": ["bridge", -1050.7, 44.1, 404.8, 0.1, false]
+}
