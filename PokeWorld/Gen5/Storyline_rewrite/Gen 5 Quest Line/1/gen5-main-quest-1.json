@@ -240,14 +240,6 @@
         "pokemon": "Groudon",
         "look": false
     },
-
-    "SetBlocks": [
-        976, 64, 61,
-        976, 68, 65,
-        "air",
-        "barrier"
-    ],
-
     "Show": {
         "oldman": false,
         "cutscene1": false,
@@ -267,6 +259,14 @@
     },
     "Quest": true,
     "HighlightClickEntity": "executive",
+
+    "Comment": "Set up barriers to the cave.",
+    "SetBlocks": [
+        976, 64, 61,
+        976, 68, 65,
+        "air",
+        "barrier"
+    ],
 
     "HasTrainerLevel": [10, "&cYou must be at least Trainer Level 10 to do this quest!", false],
     "NotCompleted": [],
@@ -378,8 +378,7 @@
         976, 64, 61,
         976, 68, 65,
         "barrier",
-        "air",
-        false
+        "air"
     ],
     "Objective": ["Continue through the cave and fight the remaining guardian Pokémon", 15],
     "HighlightClickEntity": "pokemon2",
