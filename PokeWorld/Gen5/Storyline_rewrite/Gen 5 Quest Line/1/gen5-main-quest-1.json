@@ -357,7 +357,7 @@
     ],
     "Fade": [],
     "Teleport": [1069.4, 54.8, 170.4, 149, 42],
-    "EntityTeleport": ["cave_cinematic", 1061.8, 45.9, 158.0],
+    "TeleportEntity": ["cave_cinematic", 1061.8, 45.9, 158.0],
     "Cinematic": [],
     "Wait": 4,
     "Look": ["camera", "cave_cinematic"],
