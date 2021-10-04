@@ -274,14 +274,14 @@
         "barrier"
     ],
     "SetBlocks": [
-        938,50,42,
-        938,55,53,
+        938, 50, 42,
+        938, 55, 53,
         "air",
         "barrier"
     ],
     "SetBlocks": [
-        963,34,78,
-        963,47,101,
+        963, 34, 78,
+        963, 47, 101,
         "air",
         "barrier"
     ],
@@ -293,8 +293,8 @@
             "&4&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?",
             "[PLAYER]": "A little bit... What are you doing?",
             "&4&lThomas": "What am I doing? Oh-",
-            "&4&lThomas": "I grew up near here, I was just admiring the view. Did you know this bridge was the first bridge built in Zeinova?",
-            "&4&lThomas": "It was the first step to connecting the islands that make up &lZeinova&r. &3Statera&r first came to Zeinova about 100 years ago, yaknow?",
+            "&4&lThomas": "I grew up near here, I was just admiring the view. Did you know this bridge was the first bridge built in &lZeinova&r?",
+            "&4&lThomas": "It was the first step to connecting the islands that make up &lZeinova&r. &3Statera&r first came to &lZeinova&r about 100 years ago, yaknow?",
             "&4&lThomas": "The original CEO had a dream of connecting the islands- it didn't pan out well...",
             "[PLAYER]": "Why not?",
             "&4&lThomas": "You want to know why?",
@@ -324,13 +324,12 @@
         880, 1, 376,
         911, 100, 320
     ],
-    "SendMessage": "&aIncoming Pokégear Call>&r Professor Hemlock",
+    "SendMessage": "\n&2&lIncoming Pokégear Call\n   &cProfessor Hemlock&r is trying to reach you.\n",
+    "SendMessageOptions": ["&aAccept"],
     "Wait": 20,
-    "Objective": ["Answer Professor Hemlock's call by typing /accept", 7],
-    "Command": "accept",
-    "SendMessage": "&7Connecting...",
+    "SendMessage": "  &7Connecting...",
     "Wait": 10,
-    "SendMessage": "&aConnected",
+    "SendMessage": "  &aConnected!",
     "Wait": 30,
     "Dialog": [
         {
@@ -425,8 +424,8 @@
         "air"
     ],
     "SetBlocks": [
-        938,50,42,
-        938,55,53,
+        938, 50, 42,
+        938, 55, 53,
         "air",
         "air"
     ],
@@ -450,8 +449,8 @@
         ]
     ],
     "SetBlocks": [
-        963,34,78,
-        963,47,101,
+        963, 34, 78,
+        963, 47, 101,
         "air",
         "air"
     ],
@@ -646,8 +645,8 @@
     "Look": ["cutscene2_cam", 30.0],
     "Dialog": [
         {
-            "&7&lOld man": "Many years ago, a group of individuals wanted to bring together the lands of Zeinova. While this was a noble cause...",
-            "&7&lOld man": "It was not communicated to the region what the plan was, and soon, the region of Zeinova fell.",
+            "&7&lOld man": "Many years ago, a group of individuals wanted to bring together the lands of &lZeinova&r. While this was a noble cause...",
+            "&7&lOld man": "It was not communicated to the region what the plan was, and soon, the region of &lZeinova&r fell.",
             "&7&lOld man": "This group brought two disasters, Kyogre and Groudon, with the intention of forcing them to work with one another to build the lands and connect the islands."
         },
         90
@@ -819,12 +818,20 @@
         90
     ],
     "Wait": 20,
+    "Fade": [],
+    "Potion": ["blindness", 80, 1],
     "SendMessage": "&f&lA few hours of talking pass... You should probably return to Professor Hemlock again...",
+    "Wait": 20,
+    "SendMessage": "&7&oA soft breeze offers to bring you to the exit.",
+    "SendMessageOptions": ["&a&lAccept", "&c&lReject"],
+    "Teleport": [1016.1, 49.0, 97.1, -43, 0],
+    "Dummy": [],
     "Wait": 20,
     "Objective": ["Talk to Professor Hemlock near the bridge to Pure Harbor Heights", 18],
     "Show": "professor",
     "HighlightClickEntity": "professor",
     "Wait": 20,
+    "Fade": [],
     "SendMessage": "&f&oYou catch Professor Hemlock up with everything you have learned",
     "Wait": 20,
     "Dialog": [
@@ -859,7 +866,7 @@
     "GiveTokens": 10,
     "Dialog": [
         {
-            "&3&lStatera Employee": "Professor, &3Statera HQ&r has requested your presence. Please follow me."
+            "&3&lStatera Employee": "&cProfessor Hemlock&r, &3Statera HQ&r has requested your presence. Please follow me."
         }
     ],
     "Particle": ["portal", 1152.5, 59.0, -133.5, 50, 0.6],
