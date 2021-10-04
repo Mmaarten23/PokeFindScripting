@@ -367,7 +367,19 @@
         {
             "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
             "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?",
-            "Professor Hemlock": "Mindblowing!",
+            "Professor Hemlock": "Mindblowing!"
+        },
+        90
+    ],
+    "Fade": [],
+    "Unfreeze": [],
+    "Wait": 4,
+    "Teleport": [896.1,58.2,348.8, -132, 16],
+    "StopCinematic": [],
+
+    "Wait": 20,
+    "Dialog": [
+        {
             "Professor Hemlock": "Anyways... Before I get carried away... This Pokémon is said to exude Human reactions to certain stimuli.",
             "Professor Hemlock": "Like feeling confused, or hurt, or sad. It's astounding! Well.. I'm sure it's astounding.",
             "Professor Hemlock": "It's only been described to be a pink colouring, with large blue eyes. I wonder if it's a Psychic type?",
@@ -377,7 +389,6 @@
         },
         90
     ],
-
 
     "Wait": 20,
     "Objective": ["Find the cave near Breezelton Village", 5],
