@@ -80,6 +80,18 @@
         "look": false
     },
     "CreateEntity": {
+        "key": "cave_cinematic",
+        "location": {
+            "world": "world",
+            "x": 1061.8,
+            "y": 45.9,
+            "z": 158.0,
+            "yaw": 260,
+            "pitch": 0
+        },
+        "visible": false
+    },
+    "CreateEntity": {
         "key": "pokemon1",
         "location": {
             "world": "world",
@@ -324,7 +336,7 @@
         880, 1, 376,
         911, 100, 320
     ],
-    "SendMessage": "\n&2&lIncoming Pokégear Call\n   &cProfessor Hemlock&r is trying to reach you.\n",
+    "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &cProfessor Hemlock&r is trying to reach you.\n\n",
     "SendMessageOptions": ["&aAccept"],
     "Wait": 20,
     "SendMessage": "  &7Connecting...",
@@ -338,7 +350,18 @@
             "[PLAYER]": "Your assistant?",
             "Professor Hemlock": "What was that?",
             "Professor Hemlock": "My assistant?",
-            "Professor Hemlock": "Yeah, yeah, I'll introduce you to them the next time you're around! But anyways-!",
+            "Professor Hemlock": "Yeah, yeah, I'll introduce you to them the next time you're around! But anyways-!"
+        },
+        90
+    ],
+    "Teleport": [1069.4, 54.8, 170.4, 149, 42],
+    "Wait": 4,
+    "Look": ["camera", "cave_cinematic"],
+    "ProgressiveMoveEntity": ["camera", 1037.7, 55.9, 125.8, 0.1, false],
+    "ProgressiveMoveEntity": ["cave_cinematic", 1016.1, 49.0, 96.9, 0.2, false],
+
+    "Dialog": [
+        {
             "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
             "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?",
             "Professor Hemlock": "Mindblowing!",
@@ -351,6 +374,8 @@
         },
         90
     ],
+
+
     "Wait": 20,
     "Objective": ["Find the cave near Breezelton Village", 5],
     "Show": {
