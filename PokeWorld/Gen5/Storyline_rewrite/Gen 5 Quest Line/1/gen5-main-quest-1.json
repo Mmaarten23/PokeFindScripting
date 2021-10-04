@@ -374,7 +374,7 @@
     "Fade": [],
     "Unfreeze": [],
     "Wait": 4,
-    "Teleport": [896.1,58.2,348.8, -132, 16],
+    "Teleport": [896.1, 58.2, 348.8, -132, 16],
     "StopCinematic": [],
 
     "Wait": 20,
@@ -716,14 +716,10 @@
     },
     "Unfreeze": [],
     "Teleport": [950.5, 44.0, 217.5, 330, 0],
-    "Look": ["kyogre2"],
+    "Look": ["kyogre2", 10.5],
     "Wait": 10,
     "Freeze": true,
-    "SetWeatherRegion": [
-        945, 44, 209,
-        976, 60, 249,
-        "Rain"
-    ],
+    "SetWeather": "Rain",
     "Wait": 40,
     "SendMessage": "&7&lOld man>&r The lands were flooded...",
 
@@ -741,28 +737,37 @@
         "air",
         "water"
     ],
-    "Wait": 80,
+    "Wait": 40,
+    "SetBlocks": [
+        940, 43, 204,
+        968, 43, 260,
+        "air",
+        "water"
+    ],
+    "Wait": 40,
     "SetBlocks": [
         940, 41, 204,
         964, 41, 260,
-        "water",
+        "air",
         "air"
     ],
     "SetBlocks": [
         940, 42, 204,
         968, 42, 260,
-        "water",
+        "air",
+        "air"
+    ],
+    "SetBlocks": [
+        940, 43, 204,
+        968, 43, 260,
+        "air",
         "air"
     ],
     "Show": {
         "kyogre2": false,
         "groudon2": true
     },
-    "SetWeatherRegion": [
-        945, 44, 209,
-        976, 60, 249,
-        "Clear"
-    ],
+    "SetWeather": "Clear",
     "Unfreeze": [],
     "Teleport": [1075.5, 51.0, 302.5, 150, 0],
     "Wait": 10,
