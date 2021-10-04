@@ -267,6 +267,24 @@
         "air",
         "barrier"
     ],
+    "SetBlocks": [
+        939, 50, 54,
+        948, 59, 54,
+        "air",
+        "barrier"
+    ],
+    "SetBlocks": [
+        938,50,42,
+        938,55,53,
+        "air",
+        "barrier"
+    ],
+    "SetBlocks": [
+        963,34,78,
+        963,47,101,
+        "air",
+        "barrier"
+    ],
 
     "HasTrainerLevel": [10, "&cYou must be at least Trainer Level 10 to do this quest!", false],
     "NotCompleted": [],
@@ -377,7 +395,7 @@
     "SetBlocks": [
         976, 64, 61,
         976, 68, 65,
-        "barrier",
+        "air",
         "air"
     ],
     "Objective": ["Continue through the cave and fight the remaining guardian Pokémon", 15],
@@ -400,6 +418,18 @@
             }
         ]
     ],
+    "SetBlocks": [
+        939, 50, 54,
+        948, 59, 54,
+        "air",
+        "air"
+    ],
+    "SetBlocks": [
+        938,50,42,
+        938,55,53,
+        "air",
+        "air"
+    ],
     "HighlightClickEntity": "pokemon3",
     "Hide": "pokemon3",
     "BattleWildPokemon": [
@@ -418,6 +448,12 @@
                 "nature": "Timid"
             }
         ]
+    ],
+    "SetBlocks": [
+        963,34,78,
+        963,47,101,
+        "air",
+        "air"
     ],
     "Wait": 20,
     "Freeze": [],
