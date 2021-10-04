@@ -81,6 +81,7 @@
     },
     "CreateEntity": {
         "key": "cave_cinematic",
+        "entity": "ARMOR_STAND",
         "location": {
             "world": "world",
             "x": 1061.8,
@@ -354,12 +355,14 @@
         },
         90
     ],
+    "Fade": [],
     "Teleport": [1069.4, 54.8, 170.4, 149, 42],
+    "Cinematic": [],
     "Wait": 4,
     "Look": ["camera", "cave_cinematic"],
-    "ProgressiveMoveEntity": ["camera", 1037.7, 55.9, 125.8, 0.1, false],
-    "ProgressiveMoveEntity": ["cave_cinematic", 1016.1, 49.0, 96.9, 0.2, false],
-
+    "ProgressiveMoveEntity": ["camera", 1037.7, 55.9, 125.8, 0.2, false],
+    "ProgressiveMoveEntity": ["cave_cinematic", 1016.1, 49.0, 96.9, 0.4, false],
+    "Wait": 20,
     "Dialog": [
         {
             "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
