@@ -394,7 +394,7 @@
     "NewDialog": [
         {
             "Professor Hemlock": "Hey [PLAYER]! Are you still nearby? I need a favour!",
-            "Professor Hemlock": "My new assistant from &3Statera&r just informed me of a rumour they've been hearing around town.",
+            "Professor Hemlock": "My new assistant from &3Statera&r just informed me of a rumour they've been hearing around town."
 
         },
         90, true, true, "male_normal"
