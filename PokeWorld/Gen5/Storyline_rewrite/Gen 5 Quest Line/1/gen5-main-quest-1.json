@@ -301,6 +301,9 @@
 
     "HasTrainerLevel": [10, "&cYou must be at least Trainer Level 10 to do this quest!", false],
     "NotCompleted": [],
+    "SendMessage": "DEBUG: Skipping. . .",
+    "Wait": 5,
+    "Skip": "DEBUG",
     "Dialog": [
         {
             "&4&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?",
@@ -332,13 +335,17 @@
         90
     ],
     "Wait": 20,
+    "Comment": "DEBUG",
     "Objective": ["Cross the bridge to the next island", 3],
     "RegionEntry": [
         880, 1, 376,
         911, 100, 320
     ],
+    "Start": "gen5_main_quest_1_call",
+    "Wait": 10,
     "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &cProfessor Hemlock&r is trying to reach you.\n\n",
     "SendMessageOptions": ["&aAccept"],
+    "Leave": "gen5_main_quest_1_call",
     "Wait": 20,
     "SendMessage": "  &7Connecting...",
     "Wait": 10,
@@ -370,10 +377,15 @@
     "Dialog": [
         {
             "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
-            "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?",
-            "Professor Hemlock": "Mindblowing!"
+            "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?"
         },
         90
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "Mindblowing!"
+        },
+        45
     ],
     "Fade": [],
     "Unfreeze": [],
@@ -825,6 +837,11 @@
         "Dead Bush"
     ],
     "Wait": 60,
+    "SetBlocks": [
+        1014, 37, 264,
+        1134, 53, 318,
+        "Air"
+    ],
     "Hide": "groudon2",
     "StopCinematic": [],
     "Fade": [],

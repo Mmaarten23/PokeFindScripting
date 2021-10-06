@@ -1,0 +1,13 @@
+{
+  "Key": "gen5_main_quest_1_call",
+  "Author": "Mmaarten",
+  "PlaySound": ["block_note_block_harp", 0.890899, 1.00],
+  "Wait": 1,
+  "PlaySound": ["block_note_block_harp", 0.500000, 1.00],
+  "Wait": 1,
+  "PlaySound": ["block_note_block_harp", 0.890899, 1.00],
+  "Wait": 1,
+  "PlaySound": ["block_note_block_harp", 1.122462, 1.00],
+  "Wait": 40,
+  "Start": "gen5_main_quest_1_call"
+}
