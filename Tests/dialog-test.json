@@ -1,0 +1,16 @@
+{
+    "Key": "dialog_test",
+    "Author": "Mmaarten",
+    "NewDialog": [
+        {
+            "&4test": "woopwoop",
+            "&6Line 2": "yes yes",
+            "more dialog": "this is lit!",
+            "chicken is a chicken": "no joke"
+        },
+        90,
+        true,
+        false,
+        "male_norma"
+    ]
+}
