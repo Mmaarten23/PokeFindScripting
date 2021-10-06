@@ -364,9 +364,10 @@
     ],
     "Fade": [],
     "Teleport": [1069.4, 54.8, 170.4, 149, 42],
+    "Wait": 3,
     "TeleportEntity": ["cave_cinematic", 1061.8, 45.9, 158.0],
     "Cinematic": [],
-    "Wait": 4,
+    "Wait": 3,
     "Look": ["camera", "cave_cinematic"],
     "ProgressiveMoveEntity": ["camera", 1037.7, 55.9, 125.8, 0.2, false],
     "Wait": 1,
@@ -734,7 +735,6 @@
     "Teleport": [950.5, 44.0, 217.5, 330, 0],
     "Look": ["kyogre2", 10.5],
     "Wait": 10,
-    "Freeze": true,
     "SetWeather": "Rain",
     "Wait": 40,
     "SendMessage": "&7&lOld man>&r The lands were flooded...",
@@ -897,6 +897,7 @@
     "HighlightClickEntity": "professor",
     "Wait": 20,
     "Fade": [],
+    "Teleport": [1152.0,58.0,-133.9, 137, 8],
     "SendMessage": "&f&oYou catch Professor Hemlock up with everything you have learned",
     "Wait": 20,
     "Dialog": [
@@ -946,5 +947,5 @@
         "&a! Quest complete !",
         true
     ],
-    "PlaySound": "ui_toast_challenge_complete"
+    "PlayCustomSound": "sfx.quest_complete"
 }
