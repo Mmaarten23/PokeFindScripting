@@ -364,6 +364,8 @@
     "ProgressiveMoveEntity": ["camera", 1037.7, 55.9, 125.8, 0.2, false],
     "Wait": 1,
     "ProgressiveMoveEntity": ["cave_cinematic", 1016.1, 49.0, 96.9, 0.4, false],
+
+
     "Wait": 20,
     "Dialog": [
         {
