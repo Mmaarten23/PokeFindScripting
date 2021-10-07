@@ -321,13 +321,13 @@
             "&4&lThomas": "The original CEO had a dream of connecting the islands- it didn't pan out well..."
 
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
     "NewDialog": [
         {
             "[PLAYER]": "Why not?"
         },
-        90, true, true
+        60, true, true
     ],
     "NewDialog": [
         {
@@ -340,7 +340,7 @@
             "&4&lThomas": "Well... he dreamed of creating new land masses. And we all know there are very few ways of accomplishing that.",
             "&4&lThomas": "The only way he could achieve the creation of so much new land was through the use of the Pokémon &9Kyogre&r and &cGroudon&r."
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
 
     "Wait": 20,
@@ -351,14 +351,14 @@
             "&4&lThomas": "That's a story for another day though, I suppose."
 
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
     "NewDialog": [
         {
             "&4&lThomas": "25 years ago however, a new CEO took over and he began the project of &nBridge Together&r. That's what we call it, heh.",
             "&4&lThomas": "We've built bridges connecting all the islands! Who would have thought it'd be that simple?"
         },
-        90, true, true, "male_excited"
+        110, true, true, "male_excited"
     ],
     "NewDialog": [
         {
@@ -368,7 +368,7 @@
             "&4&lThomas": "You should check out the island that is connected through this bridge. It has a nice smell to it!"
 
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
 
     "Wait": 20,
@@ -399,14 +399,14 @@
         {
             "[PLAYER]": "Your assistant?"
         },
-        90, true, true
+        60, true, true
     ],
     "NewDialog": [
         {
             "Professor Hemlock": "What was that?",
             "Professor Hemlock": "My assistant?"
         },
-        90, true, true, "male_question"
+        60, true, true, "male_question"
     ],
     "NewDialog": [
         {
@@ -434,7 +434,7 @@
             "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
             "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?"
         },
-        90, true, false, "male_normal"
+        110, true, false, "male_normal"
     ],
     "NewDialog": [
         {
@@ -702,7 +702,7 @@
         {
             "[PLAYER]": "I'm [PLAYER]!"
         },
-        90, true, true
+        60, true, true
     ],
     "NewDialog": [
         {
@@ -728,7 +728,7 @@
         {
             "[PLAYER]": "The Bridges don't seem like a tragedy, they're there for the greater good of &lZeinova&r, well at least that's what Thomas told me..."
         },
-        90, true, true
+        110, true, true
     ],
     "NewDialog": [
         {
@@ -850,9 +850,9 @@
         {
             "&7&lOld man": "If only us humans could express ourselves as well as Pokémon, am I right?",
             "&7&lOld man": "If our ancestors had the mindset in the past to try and understand each other and work together like the Pokémon do...",
-            "&7&lOld man": "I'll have to tell it to you."
+            "&7&lOld man": "I'll have to tell you the whole story..."
         },
-        90, true, true, "male_scared"
+        110, true, true, "male_scared"
     ],
     "Wait": 20,
     "Freeze": [],
@@ -890,7 +890,7 @@
             "&7&lOld man": "This was pursued with very little information on Kyogre and Groudon. The group knew how to bring them from their slumber, and knew how to subdue them into this bidding...",
             "&7&lOld man": "But this group had no idea the hatred that ran thick in the two Pokémon when in the presence of one another."
         },
-        90, true, false, "male_angry"
+        110, true, false, "male_angry"
     ],
     "Show": {
         "kyogre1": false,
@@ -1074,14 +1074,14 @@
             "&7&lOld man": "&8&lZekrom&r and &f&lReshiram&r, they were the ones that brought peace back to the lands after taking on &cGroudon&r and &9Kyogre&r.",
             "&7&lOld man": "Though that may end up being a story for another time..."
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
     "Wait": 20,
     "Fade": [],
     "Teleport": [1015.6, 28.0, 61.5, -66, 0],
     "Potion": ["blindness", 80, 1],
     "SendMessage": "&7&oA few hours of talking pass... You should probably return to Professor Hemlock again...",
-    "Wait": 80,
+    "Wait": 120,
     "SendMessage": "&7&oA soft breeze offers to bring you to the exit.",
     "SendMessageOptions": ["&a&lAccept", "&c&lReject"],
     "Teleport": [1016.1, 49.0, 97.1, -43, 0],
@@ -1135,7 +1135,7 @@
             "&3&lStatera Employee": "Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
             "&3&lStatera Employee": "I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
     "Wait": 10,
     "Complete": [],
