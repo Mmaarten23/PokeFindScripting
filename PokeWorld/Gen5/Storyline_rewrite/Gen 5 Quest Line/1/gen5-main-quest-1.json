@@ -493,7 +493,8 @@
     "NewDialog": [
         {
             "[PLAYER]": "Hmm, this Pokémon seems to be guarding the cave! I have to get past!"
-        }
+        },
+        1, true, true
     ],
     "Wait": 20,
     "Objective": ["Battle the wild Pokémon", 3],
@@ -584,7 +585,8 @@
     "NewDialog": [
         {
             "[PLAYER]": "I wonder why they were trying to guard the cave..."
-        }
+        },
+        1, true, false
     ],
     "Wait": 20,
     "Unfreeze": [],
@@ -899,7 +901,7 @@
     },
     "Unfreeze": [],
     "Teleport": [950.5, 44.0, 217.5, 330, 0],
-    "Look": ["kyogre2", 10.5],
+    "Look": ["kyogre2", 12],
     "Wait": 10,
     "SetWeather": "Rain",
     "Wait": 40,
@@ -998,26 +1000,47 @@
     "SetBlocks": [
         1014, 37, 264,
         1134, 53, 318,
+        "Azure Bluet",
+        "Dead Bush"
+    ],
+    "Wait": 60,
+    "Comment": "reset area",
+    "SetBlocks": [
+        1014, 37, 264,
+        1134, 53, 318,
+        "Rose Bush",
+        "Rose Bush"
+    ],
+    "SetBlocks": [
+        1014, 37, 264,
+        1134, 53, 318,
+        "Red Tulip",
+        "Red Tulip"
+    ],
+    "SetBlocks": [
+        1014, 37, 264,
+        1134, 53, 318,
+        "Peony",
+        "Peony"
+    ],
+    "SetBlocks": [
+        1014, 37, 264,
+        1134, 53, 318,
         "Fern",
-        "Air"
+        "Fern"
     ],
     "Wait": 20,
     "SetBlocks": [
         1014, 37, 264,
         1134, 53, 318,
         "Azure Bluet",
-        "Dead Bush"
-    ],
-    "Wait": 60,
-    "SetBlocks": [
-        1014, 37, 264,
-        1134, 53, 318,
-        "Air"
+        "Azure Bluet"
     ],
     "Hide": "groudon2",
     "StopCinematic": [],
     "Fade": [],
     "ShowPlayer": [],
+    "Unfreeze": [],
     "Teleport": [1015.5, 28.0, 61.5, 270, 0],
     "NewDialog": [
         {
@@ -1027,7 +1050,7 @@
         90, true, true, "male_normal"
     ],
     "Look": "audino",
-    "Unfreeze": [],
+
     "Wait": 5,
     "Particle": [
         "redstone:white",
@@ -1060,7 +1083,7 @@
     "Teleport": [1015.6, 28.0, 61.5, -66, 0],
     "Potion": ["blindness", 80, 1],
     "SendMessage": "&7&oA few hours of talking pass... You should probably return to Professor Hemlock again...",
-    "Wait": 20,
+    "Wait": 80,
     "SendMessage": "&7&oA soft breeze offers to bring you to the exit.",
     "SendMessageOptions": ["&a&lAccept", "&c&lReject"],
     "Teleport": [1016.1, 49.0, 97.1, -43, 0],
@@ -1118,6 +1141,7 @@
     ],
     "Wait": 10,
     "Complete": [],
+    "PlaySound": "entity_player_levelup",
     "GiveCoins": 2500,
     "GiveTrainerExperience": 3000,
     "GiveTokens": 10,
@@ -1134,7 +1158,7 @@
         "professor": true,
         "agent": true
     },
-    "Wait": 10,
+    "Wait": 40,
     "SetTitle": [
         "&d&lA myth or a lie?",
         "&a! Quest complete !",
