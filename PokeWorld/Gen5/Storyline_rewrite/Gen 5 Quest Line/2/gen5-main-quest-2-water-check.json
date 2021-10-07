@@ -1136,7 +1136,7 @@
 
   "Comment": "OVERFLOW",
   "Wait": 30,
-  "SendMessage": "&c&lYou are leaking water. Please try again!",
+  "SendMessage": "&cMake sure the water cannot reach the fire!",
   "Start": "gen5_main_quest_2_water_barriers",
   "PlaySound": ["block_piston_contract", 1.0, 1.0],
   "Leave": [],

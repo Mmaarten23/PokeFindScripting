@@ -226,7 +226,7 @@
 
     "CreateEntity": {
         "key": "guide",
-        "name": "&2&lGuide",
+        "entity": "STRAY",
         "location": {
             "x": 1056.0,
             "y": 21.0,
@@ -234,9 +234,9 @@
             "yaw": 270,
             "pitch": 0
         },
-        "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjQ2ODk4MzM0NiwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jOGMxOTY4Yjk1NmFiMjQwNWNjMzcwNzc5ZWQzM2QyNjVmMjQ2N2M1YjQ1NDQ1NjQ4MDgzNGEwZTU5YWUxOGU5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-            "signature": "AiCe7THAfvIQiL6YYsjhF2t0ltgMwn8DLvTkuzeY08hmh1dMfkKQXSF60lNqnztXZEE2hu+Y3S4Yhzd9jzMEWl+kTPhhNhdrCvCrLRgfGZEJG7YTinyuZ4P/As9OjaAvgnjjZp0THs5IC64J3QgX4Wx5qSxLNlXSrmX+lQMlbKCwbU2kLEhahoB9qPN1/VTLqi5Lwupg2SH0j1TJfXFyI94ZMMSEFN/IMa3jkMkZbDVtJqjhiS/xjo8Or8FPhQMHnLQ9fk8FsNylqWTdwVzk90iMgF6/VExYzSfkVH/+j7dQfzoayJLGhSu0GbHMfwgqdqlPWGCJvlpqBvDYa1kQxuND2i4Xe8uHitZtOM7C7SI9AXc3fVpAUeKE9XGqpQ+OngLbpn0oVlQENoJ0Zet7JbYndQVKW4bWB9Mz61cWKpHagznovJn7ZIA38lx0m5GEn6KXGqPVUoGkuht3VopIobvC08J2bW1LrXxzAk6AboGCW0oxFDXn8D4JRfwiiZGoshLG5AAyU29Ke99hg0M6VI0gohRWImrV1VWteW1AO8C33SBArX6yQHU13ofsQewvFw1kVQufoS4zhu5XrkK8sFlBwFogH3ATzuMECAUHf/2t6G79+6mGekNeS9PQ2Ia2BXa+OwBF/4IBm/FH2UNcKgqQXzQLqUOjCoTFk3c3Y4Y="
+        "hand": {
+            "material": "Trident",
+            "glow": true
         }
     },
 
@@ -304,6 +304,26 @@
     },
 
     "HighlightClickEntity": "lewis_bridge",
+    "Comment": "Set up barriers to the cave.",
+    "SetBlocks": [
+        1111, 43, -596,
+        1133, 50, -596,
+        "air",
+        "barrier"
+    ],
+
+    "SetBlocks": [
+        1110, 35, -581,
+        1125, 51, -581,
+        "air",
+        "barrier"
+    ],
+    "SetBlocks": [
+        1110, 35, -581,
+        1110, 51, -595,
+        "air",
+        "barrier"
+    ],
     "Skip": "start",
 
 
@@ -318,7 +338,7 @@
     "Dialog": [
         {
             "&7&lLewis": "Hey trainer! Are you planning to cross that bridge?",
-            "[PLAYER]": "Yes! I am participating in the gym challenge.",
+            "[PLAYER]": "Yes! I am participating in the Pure harbor gym challenge.",
             "&7&lLewis": "I see. I must warn you though, the pokémon on the other side have gone a little crazy.",
             "&7&lLewis": "Crossing on foot is near impossible but I can take you across on my Braviary?",
             "[PLAYER]": "Sounds like a plan!"
@@ -486,15 +506,15 @@
     "Particle": ["portal", 1033.9, 51.5, -283.1, 50, 0.6],
     "Hide": "lewis_bridge2",
     "Hide": "bird2",
-    "Objective": ["Help the citizen stuck in their house.", 3],
+    "Objective": ["Help the citizen stuck in their homes", 3],
     "Show": "mike",
     "HighlightClickEntity": "mike",
     "Dialog": [
         {
             "&e&lMike": "Please... help us.",
             "&e&lMike": "This has been going on since this morning...",
-            "&e&lMike": "There's a shrine at the top of the waterfall... It was opened a few days ago by the towns officials.",
-            "&e&lMike": "The Statera council wanted the item removed... and moved somewhere \"safe\".",
+            "&e&lMike": "There's a shrine at the top of the waterfall... It was opened right before dawn by the towns officials.",
+            "&e&lMike": "The &3Statera&r council wanted the item removed... and moved somewhere \"safe\".",
             "[PLAYER]": "Which item?",
             "&e&lMike": "There's an ancient item we've kept safe for many decades... The Statera council no longer deemed us suitable as guards.",
             "&e&lMike": "Ever since it's been moved... our Pokémon and the wild Pokémon have been out of control!",
@@ -509,8 +529,9 @@
         1104.5, 45.5, -708.5,
         "&9&l~Water Shrine Puzzle~&9&l",
         "&9------------------------&9",
-        "&fLead the water to the &eGlowstone block&f by putting up barriers!",
-        "&aRight click&f the lever to toggle the corresponding barrier!",
+        "&fLead the water to the &eGlowstone block&f by putting up barriers",
+        "&aRight click&f the lever to toggle the corresponding barrier",
+        "&fBe careful to not put out the &6fires&r!",
         "&fClick the &7button&f to start the water flow!"
     ],
     "RegionEntry": [
@@ -615,6 +636,12 @@
     ],
     "Wait": 10,
     "SendMessage": "&ePokemon 3/4 defeated!",
+    "SetBlocks": [
+        1111, 43, -596,
+        1133, 50, -596,
+        "air",
+        "air"
+    ],
     "HighlightClickEntity": "Shrine_Pokemon4",
     "Hide": "Shrine_Pokemon4",
     "BattleWildPokemon": [
@@ -634,6 +661,18 @@
     ],
     "Wait": 10,
     "SendMessage": "&ePokemon 4/4 defeated!",
+    "SetBlocks": [
+        1110, 35, -581,
+        1125, 51, -581,
+        "air",
+        "air"
+    ],
+    "SetBlocks": [
+        1110, 35, -581,
+        1110, 51, -595,
+        "air",
+        "air"
+    ],
     "Wait": 10,
     "Dialog": [
         {
@@ -641,28 +680,49 @@
         }
     ],
     "Wait": 20,
-    "Objective": ["Complete the second parkour and speak to the Guide", 5],
-    "Show": "guide",
-    "HighlightClickEntity": "guide",
-    "Dialog": [
-        {
-            "&2&lGuide": "Hi there! How can I help you today?",
-            "[PLAYER]": "I'm trying to figure out what's going on with the Pokémon.",
-            "&2&lGuide": "Ah, makes sense. Well, I was doing that too but I got stuck in the next room.",
-            "&2&lGuide": "I think I can help you find your way through it though. You look way faster than me!",
-            "[PLAYER]": "What's in the next room?",
-            "&2&lGuide": "I like to call it &oBlock Run&r! You have 5 seconds to stand on the correct block!",
-            "&2&lGuide": "I'll be here to tell you which block to stand on, but it's up to you to stand on it in time.",
-            "[PLAYER]": "Sounds easy enough...",
-            "&2&lGuide": "Perfect! Let's go! Talk to me inside the first room when you're ready to start."
-        }
+    "Objective": ["Complete the second parkour", 5],
+    "RegionEntry": [
+        1057, 21, -535,
+        1059, 27, -540
     ],
+    "Wait": 1.0,
+    "Fade": [],
+    "Teleport": [1059.0, 21.0, -537.0, 90, 0],
+    "Cinematic": [],
+    "Wait": 2,
+    "Freeze": true,
 
-    "PlaySound": "entity_enderman_teleport",
-    "Particle": ["portal", 1056.0, 22.0, -537.1, 50, 0.6],
+    "Wait": 40,
+    "Show": "guide",
+    "PlaySound": "entity_lightning_bolt_thunder",
+    "Particle": ["squid_ink", 1056.0, 21.0, -537.1, 50, 0.6],
+    "NewDialog": [
+        {
+            "&7&lSpirit": "&lWho are you! How dare you awake me?",
+            "[PLAYER]": "I am [PLAYER]&r, I'm trying to figure out what's going on with the Pokémon.",
+            "&7&lSpirit": "Pokémon, pokémon, pokémon. Always pokémon. &lNOBODY&r cares about me.",
+            "&7&lSpirit": "You will pay for this. You will learn to &lRESPECT&r me!",
+            "[PLAYER]": "I do respect you. Can I pass now?",
+            "&7&lSpirit": "Not so fast &otrainer&r.",
+            "&7&lSpirit": "I have been stuck in this cave for a long time and I didn't let that time go to waste.",
+            "&7&lSpirit": "I made the perfect puzzle to stop intruders! You will never solve it! &lmuhahahaha!",
+            "[PLAYER]": "What is the puzzle?",
+            "&7&lSpirit": "I like to call it &oBlock Run&r! You have 5 seconds to stand on the correct block!",
+            "&7&lSpirit": "Every round, a block is chosen at random. It's up to you to stand on it in time.",
+            "[PLAYER]": "Sounds easy enough...",
+            "&7&lSpirit": "Famous last words..."
+        },
+        90, true, true
+    ],
+    "MoveEntity": ["guide", 1049.8,21.0,-537.1, 0.1, false],
+    "Fade": [],
+    "Teleport": [1059.0, 21.0, -537.0, 90, 0],
+    "Unfreeze": [],
+    "StopCinematic": [],
     "Hide": "guide",
+
     "Wait": 20,
-    "Objective": ["Talk to the Guide in the first room", 8],
+    "Objective": ["Talk to the spirit in the first room", 8],
     "Start": "gen5_main_quest_2_block_run_room1",
     "Hold": [],
     "PlaySound": ["entity_player_levelup", 1.0, 1.0],
@@ -683,11 +743,11 @@
     ],
     "Dialog": [
         {
-            "&2&lGuide": "Nice job! You finished the first room! Now get ready for room 2!"
+            "&7&lSpirit": "Hmm, you may have beaten the first room but you will never get past room 2!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Talk to the Guide in the second room", 3],
+    "Objective": ["Talk to the spirit in the second room", 3],
     "Start": "gen5_main_quest_2_block_run_room2",
     "Hold": [],
     "PlaySound": ["entity_player_levelup", 1.0, 1.0],
@@ -698,7 +758,7 @@
     ],
     "Dialog": [
         {
-            "&2&lGuide": "You did it! Goodluck figuring out what's going on!"
+            "&7&lSpirit": "How did you do that?! Ugh... now I have to make a new puzzle. Get out of my sight!"
         }
     ],
     "Show": "tribe_Member",
