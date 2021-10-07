@@ -301,9 +301,6 @@
 
     "HasTrainerLevel": [10, "&cYou must be at least Trainer Level 10 to do this quest!", false],
     "NotCompleted": [],
-    "SendMessage": "DEBUG: Skipping. . .",
-    "Wait": 5,
-    "Skip": "DEBUG",
     "NewDialog": [
         {
             "&4&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?"
@@ -375,7 +372,6 @@
     ],
 
     "Wait": 20,
-    "Comment": "DEBUG",
     "Objective": ["Cross the bridge to the next island", 3],
     "RegionEntry": [
         880, 1, 376,
