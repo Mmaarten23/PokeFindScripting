@@ -1,5 +1,5 @@
 {
-    "Key": "block_test",
+    "Key": "gen5_main_quest_2_block_run_room1",
     "Author": "Mmaarten",
     "AllowRejoining": true,
 
@@ -7,10 +7,10 @@
         "key": "guide",
         "entity": "STRAY",
         "location": {
-            "x": 1034.0,
-            "y": 20.0,
-            "z": -531.5,
-            "yaw": 300,
+            "x": 1047.8,
+            "y": 19.0,
+            "z": -513.5,
+            "yaw": 77,
             "pitch": 0
         }
     },
