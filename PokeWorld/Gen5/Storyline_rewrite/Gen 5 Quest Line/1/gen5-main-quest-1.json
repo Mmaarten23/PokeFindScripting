@@ -419,9 +419,8 @@
     "Fade": [],
     "Teleport": [1069.4, 54.8, 170.4, 149, 42],
     "Wait": 3,
-    "TeleportEntity": ["cave_cinematic", 1061.8, 45.9, 158.0],
     "Cinematic": [],
-    "Wait": 3,
+    "Wait": 2.0,
     "Look": ["camera", "cave_cinematic"],
     "ProgressiveMoveEntity": ["camera", 1037.7, 55.9, 125.8, 0.2, false],
     "Wait": 1,
@@ -434,7 +433,7 @@
             "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
             "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?"
         },
-        110, true, false, "male_normal"
+        100, true, false, "male_normal"
     ],
     "NewDialog": [
         {
