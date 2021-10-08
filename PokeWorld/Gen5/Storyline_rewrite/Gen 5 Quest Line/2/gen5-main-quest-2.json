@@ -85,7 +85,7 @@
     "CreateEntity": {
         "key": "disaster_2",
         "entity": "PLAYER",
-        "location": [1145.7, 58.0, -139.2, 149, 8],
+        "location": [1145.7, 57.7, -139.2, 149, 8],
         "skin": {
             "texture": "eyJ0aW1lc3RhbXAiOjE1ODcwNTQ3ODYxNTMsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA2YTIzZDIwMzdlMTI2NjMzNzQzMjQ3ZWI4Yzg0Mzg3NjE1NGExMzA2MTRkYjUzY2JmMjBhYzJlNjZkMTUxIn19fQ==",
             "signature": "ykBz9zDwTzAGowdPqkA/UZ9sWisDlqFoJ2SjiojdEDSCFKGBkAqUu+hMTV/NDrLbW3wbbtil63pH64Sq6+67L7p4NAPwjlYUuoeLqCz2FPtIyGsOmKPgyvKCH6RmITA70i/QYm9lsnqCfth0P39UvwvU/g5AhP9DGfJLe74v/X7SdVgYCVDA474N0smw2NYpbbB9V0QmX+/oyWD22lbVLw0lUSlXzuc0MrNMoH6IZdQW8aCcOVeouMWKsy7oivSwRm/mjLUDy3hyKMgvkn7wJEnyIF++AXw1GIvZkuh38LjbRYtrVNO7XSXNNm6/MmU0zfVM9k+qMttCmdZ3JGCPW2GxVJEg2t+cnsEbPM6GcvbqI4ytdokf9kZ+6ghqAPmvL2AaExDxh0QidhJBqChVk80Llq5U3oc5fIPa9VM5MGTsIozz5gM8fg2K2dABPDvRe1fKMUt38KDceEXnp8UvUQ3mzaJ8e7crQQVXH5vrFg8N2b052KXeMQKevKM39Ixe6hcSC9WEoSZHcmeyCPL76geqGLLFxxXphKmLJbq8FSvqHxRNDineUHMq7RtKKV/O8AG6pOajbazuIh/Zdxm4ynnV7pVxj3q6EroJyHUwSJ+y/qI9T31nJSwGNZaHLz/zi9nO8+ONk59rHDFyMq6DIkXpZzuulj5yf6pMXotJHU8="
