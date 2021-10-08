@@ -275,6 +275,22 @@
         }
     },
 
+    "CreateEntity": {
+        "key": "rival_battle",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": 928.8,
+            "y": 47.0,
+            "z": -550.2,
+            "yaw": 133,
+            "pitch": -6
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDE1NTU1MDQwMTMsInByb2ZpbGVJZCI6ImMxZWQ5N2Q0ZDE2NzQyYzI5OGI1ODFiZmRiODhhMjFmIiwicHJvZmlsZU5hbWUiOiJ5b2xvX21hdGlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTUyYmZiNGVmNjM3MGE0ZTFjYjg4M2VmYjdjYzIzYTliOGViMDAwNjEyMmEzZTlmNTM4ZDE0NDE2MTQ0MGYxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+            "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
+        }
+    },
+
     "Show": {
         "lewis_bridge": true,
         "bird1": true,
@@ -300,7 +316,8 @@
         "Shrine_Pokemon4": false,
         "guide": false,
         "tribe_Member": false,
-        "rival": false
+        "rival": false,
+        "rival_battle": false
     },
 
     "HighlightClickEntity": "lewis_bridge",
@@ -502,13 +519,11 @@
         90
     ],
     "Wait": 1.0,
-    "PlaySound": "entity_enderman_teleport",
-    "Particle": ["portal", 1033.9, 51.5, -283.1, 50, 0.6],
-    "Hide": "lewis_bridge2",
-    "Hide": "bird2",
     "Objective": ["Help the citizen stuck in their homes", 3],
     "Show": "mike",
     "HighlightClickEntity": "mike",
+    "Hide": "lewis_bridge2",
+    "Hide": "bird2",
     "Dialog": [
         {
             "&e&lMike": "Please... help us.",
@@ -538,16 +553,65 @@
         1112, 1, -693,
         1086, 51, -722
     ],
+    "Fade": [],
+    "Teleport": [1097.5, 46.2, -699.5, 0, 0],
+    "HidePlayer": [],
+    "Cinematic": [],
+
+    "Freeze": true,
     "Wait": 20,
     "Dialog": [
         {
-            "[PLAYER]": "Hmm... That door seems to be locked",
-            "[PLAYER]": "What's this? It looks like a puzzle of some sort...",
-            "[PLAYER]": "Are there instructions somewhere?",
-            "[PLAYER]": "I guess I have to pull a lever to get started..."
+            "[PLAYER]": "&oHmm... That door seems to be locked"
         },
         90
     ],
+
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [1093.5, 54.0, -708.5, 90, 90],
+    "Wait": 2,
+    "Freeze": true,
+    "Wait": 20,
+    "Dialog": [
+        {
+            "[PLAYER]": "&oWhat's this? It looks like a puzzle of some sort..."
+        },
+        90
+    ],
+
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [1108.5, 45.0, -708.5, 90],
+    "Wait": 2,
+    "Freeze": true,
+    "Wait": 20,
+    "Dialog": [
+        {
+            "[PLAYER]": "&oAre there instructions somewhere?"
+        },
+        90
+    ],
+
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [1113.7, 45.5, -708.5, 90, 35],
+    "Wait": 2,
+    "Freeze": true,
+    "Wait": 20,
+    "Dialog": [
+        {
+            "[PLAYER]": "&oI guess I have to pull a lever to get started..."
+        },
+        90
+    ],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [1111.5, 43.0, -708.5, 90, 0],
+    "ShowPlayer": [],
+    "StopCinematic": [],
+
+
     "Wait": 20,
     "Objective": ["Lead the water to the gate using the barriers (Pull a lever to get started)", 6],
     "Start": "gen5_main_quest_2_water_barriers",
@@ -714,7 +778,7 @@
         },
         90, true, true
     ],
-    "MoveEntity": ["guide", 1049.8,21.0,-537.1, 0.1, false],
+    "MoveEntity": ["guide", 1049.8, 21.0, -537.1, 0.1, false],
     "Fade": [],
     "Teleport": [1059.0, 21.0, -537.0, 90, 0],
     "Unfreeze": [],
@@ -913,6 +977,7 @@
     "Show": "rival",
     "MoveEntity": ["mike", 925.5, 48.0, -553.0, 0.2, false],
     "Wait": 20,
+    "ProgressiveMoveEntity": ["rival", 928.8, 47.0, -550.2, 133, -6, 0.2, false],
 
     "Dialog": [
         {
@@ -931,8 +996,12 @@
     ],
     "Wait": 20,
     "Objective": ["Have a friendly battle with your rival", 8],
+    "Show": {
+        "rival": false,
+        "rival_battle": true
+    },
     "BattleNpc": [
-        "rival",
+        "rival_battle",
         {
             "&d&lDanielle": "I sure hope you're ready to face your defeat!"
         },
@@ -994,19 +1063,23 @@
         },
         90
     ],
-    "Wait": 20,
-    "Hide": "rival",
-    "Hide": "mike",
     "Complete": [],
-    "Wait": 1,
+    "PlaySound": "entity_player_levelup",
     "GiveCoins": 1,
     "GiveTokens": 1,
     "GiveTrainerExperience": 1,
+    "Wait": 20,
+    "Fade": [],
+    "Hide": {
+        "rival_battle": true,
+        "mike": true
+    },
+    "Wait": 40,
     "SetTitle": [
         "&b&lPokémon on the loose",
-        "&a! Quest complete !",
+        "&aQuest complete",
         true
     ],
-    "PlaySound": "ui_toast_challenge_complete"
+    "PlayCustomSound": "sfx.quest_complete"
 
 }
