@@ -1,5 +1,5 @@
 {
-    "Key": "gen5_main_quest_2_block_run_room1",
+    "Key": "gen5_main_quest_2_block_run_room2",
     "Author": "Mmaarten",
     "AllowRejoining": true,
 
@@ -38,6 +38,7 @@
         90, true, false, "female_excited"
     ],
     "Comment": "next_round",
+    "SendMessage": "starting new round",
     "RandomOption": 44,
     "Set": ["gen5_main_quest_2_block", "snow"],
     "Set": ["gen5_main_quest_2_block", "note_block"],
@@ -141,6 +142,7 @@
         },
         90, true, false, "female_angry"
     ],
+    "SendMessage": "skipping",
     "Skip": "next_round",
 
     "Comment": "2",
@@ -155,7 +157,7 @@
     "Comment": "3",
     "NewDialog": [
         {
-            "&7&lSpirit": "You know, you don't &ohave&r to complete this puzzle. You can just go back to where you came from."
+            "&7&lSpirit": "You are getting too far! STOP!"
         },
         90, true, false, "female_angry"
     ],
@@ -164,7 +166,7 @@
     "Comment": "4",
     "NewDialog": [
         {
-            "&7&lSpirit": "I put too much time into this puzzle to lose!"
+            "&7&lSpirit": "I put too much time into this puzzle to lose now!"
         },
         90, true, false, "female_angry"
     ],
@@ -182,7 +184,7 @@
     "Comment": "6",
     "NewDialog": [
         {
-            "&7&lSpirit": "You are on the last one. Last chance to do the right thing!"
+            "&7&lSpirit": "You are on the last one. Last chance to give up!"
         },
         90, true, false, "female_angry"
     ],
