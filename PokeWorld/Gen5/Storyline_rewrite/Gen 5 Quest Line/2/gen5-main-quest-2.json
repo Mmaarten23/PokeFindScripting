@@ -977,7 +977,7 @@
     "Show": "rival",
     "MoveEntity": ["mike", 925.5, 48.0, -553.0, 0.2, false],
     "Wait": 20,
-    "ProgressiveMoveEntity": ["rival", 928.8, 47.0, -550.2, 133, -6, 0.2, false],
+    "ProgressiveMoveEntity": ["rival", 928.8, 47.0, -550.2, 133, -6],
 
     "Dialog": [
         {
