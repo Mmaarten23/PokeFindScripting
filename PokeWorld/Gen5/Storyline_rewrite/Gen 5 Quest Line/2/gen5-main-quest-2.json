@@ -440,7 +440,7 @@
         {
             "&d&lMew": "&4&lMEW!"
         },
-        70, true, false
+        70
     ],
     "Teleport": [1137.0, 59.0, -132.0],
     "PlaySound": "entity_lightning_bolt_impact",
