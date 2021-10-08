@@ -352,16 +352,33 @@
 
     "Comment": "\"NotCompleted\": [\"gen5_main_quest_2\", \"\"],\n  \"Completed\": [\"GYM1\", true, \"\"],\n  \"Completed\": [\"gen5_main_quest_1\", true, \"\"],",
 
-    "Dialog": [
+    "NewDialog": [
         {
-            "&7&lLewis": "Hey trainer! Are you planning to cross that bridge?",
-            "[PLAYER]": "Yes! I am participating in the Pure harbor gym challenge.",
+            "&7&lLewis": "Hey trainer! Are you planning to cross that bridge?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Yes! I am participating in the Pure harbor gym challenge."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&7&lLewis": "I see. I must warn you though, the pokémon on the other side have gone a little crazy.",
-            "&7&lLewis": "Crossing on foot is near impossible but I can take you across on my Braviary?",
+            "&7&lLewis": "Crossing on foot is near impossible but I can take you across on my Braviary?"
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "Sounds like a plan!"
         },
-        90
+        90, true, true
     ],
+
+
     "ProgressiveDialog": [
         {
             "&7&lLewis": "&7Go! Braviary!"
@@ -375,10 +392,11 @@
     "MoveEntity": ["lewis_bridge", 1189.0, 51.0, -88.4, 0.2, false],
     "Hide": "lewis_bridge",
     "Show": "lewis_bird",
-    "Dialog": [
+    "NewDialog": [
         {
             "&7&lLewis": "Hop on!"
-        }
+        },
+        1, true, true, "male_excited"
     ],
     "Objective": ["Join Lewis for a ride across the bridge.", 2],
     "InRegion": [
@@ -406,21 +424,23 @@
         },
         90
     ],
+    "PlayCustomSound": "sfx.male_excited",
     "MoveEntity": ["bird", 1179.4, 59.0, -98.5, 0.2, false],
     "MoveEntity": ["bird", 1172.4, 61.0, -108.4, 0.15, false],
     "MoveEntity": ["bird", 1158.5, 63.0, -125.5, 0.1, false],
     "ProgressiveMoveEntity": ["bird", 1095.6, 63.0, -201.6, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&b&lClaire": "Mewtwo, return!"
         },
-        70
+        70, true, false, "female_scared"
     ],
     "SendMessage": "&7Mewtwo used &eThunderbolt&7.",
     "ProgressiveDialog": [
         {
             "&d&lMew": "&4&lMEW!"
-        }
+        },
+        70, true, false
     ],
     "Teleport": [1137.0, 59.0, -132.0],
     "PlaySound": "entity_lightning_bolt_impact",
@@ -434,25 +454,27 @@
     "ProgressiveMoveEntity": ["disaster_1", 1165.9, 58.0, -118.3],
     "ProgressiveMoveEntity": ["disaster_1_pokemon", 1165.9, 58.3, -118.3],
     "Wait": 2.0,
-    "Dialog": [
+    "NewDialog": [
         {
             "&5&lCarlos": "Please Mr. Mime! Please don't hurt me!",
             "&dMr. Mime": "&c&oMime! &c&lMime! &c&nMime!&r &c&o&l&nMime!"
-        }
+        },
+        70, true, false, "male_confused"
     ],
 
-    "Dialog": [
+    "NewDialog": [
         {
             "&6Mia": "Solrock, can we talk about this?",
             "&dSolrock": "&lSOLROCK!"
-        }
+        },
+        70, true, false, "female_scared"
     ],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "&7&lLewis": "Even our houses aren't safe anymore..."
         },
-        70
+        70, true, false, "male_normal"
     ],
 
     "Show": {
@@ -500,6 +522,7 @@
         0.7
     ],
     "Wait": 2.0,
+    "PlayCustomSound": "sfx.male_scared",
     "MoveEntity": ["running", 925.7, 48.0, -559.3, 0.2, false],
     "Unfreeze": [],
     "StopCinematic": [],
@@ -511,12 +534,17 @@
     "Wait": 4,
     "Show": "bird2",
     "Show": "lewis_bridge2",
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "I have to help them!",
+            "[PLAYER]": "I have to help them!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&7&lLewis": "Best of luck young trainer!"
         },
-        90
+        90, true, true, "male_normal"
     ],
     "Wait": 1.0,
     "Objective": ["Help the citizen stuck in their homes", 3],
@@ -524,20 +552,37 @@
     "HighlightClickEntity": "mike",
     "Hide": "lewis_bridge2",
     "Hide": "bird2",
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lMike": "Please... help us.",
             "&e&lMike": "This has been going on since this morning...",
             "&e&lMike": "There's a shrine at the top of the waterfall... It was opened right before dawn by the towns officials.",
-            "&e&lMike": "The &3Statera&r council wanted the item removed... and moved somewhere \"safe\".",
-            "[PLAYER]": "Which item?",
+            "&e&lMike": "The &3Statera&r council wanted the item removed... and moved somewhere \"safe\"."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Which item?"
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
             "&e&lMike": "There's an ancient item we've kept safe for many decades... The Statera council no longer deemed us suitable as guards.",
             "&e&lMike": "Ever since it's been moved... our Pokémon and the wild Pokémon have been out of control!",
-            "&e&lMike": "They've been incredibly aggressive. Can you please go check out the Shrine?",
+            "&e&lMike": "They've been incredibly aggressive. Can you please go check out the Shrine?"
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "Sure!"
         },
-        90
+        60, true, true
     ],
+
+
     "Wait": 1.0,
     "Objective": ["Investigate the shrine on top of the waterfall", 4],
     "Hologram": [
@@ -560,7 +605,7 @@
     "Wait": 4,
     "Freeze": true,
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oHmm... That door seems to be locked"
         },
@@ -573,7 +618,7 @@
     "Wait": 2,
     "Freeze": true,
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oWhat's this? It looks like a puzzle of some sort..."
         },
@@ -586,7 +631,7 @@
     "Wait": 2,
     "Freeze": true,
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oAre there instructions somewhere?"
         },
@@ -599,7 +644,7 @@
     "Wait": 2,
     "Freeze": true,
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oI guess I have to pull a lever to get started..."
         },
@@ -636,9 +681,9 @@
         1137, 50, -598
     ],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Uh oh! Those angry Pokémon are blocking my way! I need to get past them!"
+            "[PLAYER]": "&oUh oh! Those angry Pokémon are blocking my way! I need to get past them!"
         }
     ],
     "Wait": 20,
@@ -738,9 +783,9 @@
         "air"
     ],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Perfect, now I can keep going."
+            "[PLAYER]": "&oPerfect, now I can keep going."
         }
     ],
     "Wait": 20,
@@ -763,21 +808,57 @@
     "NewDialog": [
         {
             "&7&lSpirit": "&lWho are you! How dare you awake me?",
-            "[PLAYER]": "I am [PLAYER]&r, I'm trying to figure out what's going on with the Pokémon.",
-            "&7&lSpirit": "Pokémon, pokémon, pokémon. Always pokémon. &lNOBODY&r cares about me.",
-            "&7&lSpirit": "You will pay for this. You will learn to &lRESPECT&r me!",
-            "[PLAYER]": "I do respect you. Can I pass now?",
-            "&7&lSpirit": "Not so fast &otrainer&r.",
-            "&7&lSpirit": "I have been stuck in this cave for a long time and I didn't let that time go to waste.",
-            "&7&lSpirit": "I made the perfect puzzle to stop intruders! You will never solve it! &lmuhahahaha!",
-            "[PLAYER]": "What is the puzzle?",
-            "&7&lSpirit": "I like to call it &oBlock Run&r! You have 5 seconds to stand on the correct block!",
-            "&7&lSpirit": "Every round, a block is chosen at random. It's up to you to stand on it in time.",
-            "[PLAYER]": "Sounds easy enough...",
-            "&7&lSpirit": "Famous last words..."
+            "[PLAYER]": "I am [PLAYER]&r, I'm trying to figure out what's going on with the Pokémon."
         },
         90, true, true
     ],
+    "NewDialog": [
+        {
+            "&7&lSpirit": "Pokémon, pokémon, pokémon. Always pokémon. &lNOBODY&r cares about me.",
+            "&7&lSpirit": "You will pay for this. You will learn to &lRESPECT&r me!"
+        },
+        90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I do respect you. Can I pass now?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&7&lSpirit": "Not so fast &otrainer&r.",
+            "&7&lSpirit": "I have been stuck in this cave for a long time and I didn't let that time go to waste.",
+            "&7&lSpirit": "I made the perfect puzzle to stop intruders! You will never solve it! &lmuhahahaha!"
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "What is the puzzle?"
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
+            "&7&lSpirit": "I like to call it &oBlock Run&r! You have 5 seconds to stand on the correct block!",
+            "&7&lSpirit": "Every round, a block is chosen at random. It's up to you to stand on it in time."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Sounds easy enough..."
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
+            "&7&lSpirit": "Famous last words..."
+        },
+        60, true, true, "female_scared"
+    ],
+
     "MoveEntity": ["guide", 1049.8, 21.0, -537.1, 0.1, false],
     "Fade": [],
     "Teleport": [1059.0, 21.0, -537.0, 90, 0],
@@ -805,10 +886,11 @@
         1046, 23, -520,
         -5
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&7&lSpirit": "Hmm, you may have beaten the first room but you will never get past room 2!"
-        }
+        },
+        1, true, true, "female_angry"
     ],
     "Wait": 20,
     "Objective": ["Talk to the spirit in the second room", 3],
@@ -820,10 +902,11 @@
         1051, 19, -511,
         -7
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&7&lSpirit": "How did you do that?! Ugh... now I have to make a new puzzle. Get out of my sight!"
-        }
+        },
+        1, true, true, "female_angry"
     ],
     "Show": "tribe_Member",
     "Objective": ["Continue into the next room of the shrine", 6],
@@ -836,19 +919,40 @@
     "Freeze": true,
     "EntityLookAtPlayer": "tribe_Member",
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&6&lDahli": "What is that?!",
+            "&6&lDahli": "What is that?!"
+        },
+        60, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
             "&6&lDahli": "A &3Statera&r emblem?",
-            "&6&lDahli": "You lot did this...",
+            "&6&lDahli": "You lot did this..."
+        },
+        60, true, true, "male_angry"
+    ],
+    "NewDialog": [
+        {
             "&6&lDahli": "You shouldn't have taken what doesn't belong to you! It didn't belong to US!",
             "&6&lDahli": "It belongs to the &lPokémon&r and you removed it!",
-            "&6&lDahli": "Disrespect!",
-            "[PLAYER]": "I...",
+            "&6&lDahli": "Disrespect!"
+        },
+        90, true, true, "male_angry"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I..."
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
             "&6&lDahli": "Battle me! And you will see who is the strongest here!"
         },
-        90
+        90, true, true
     ],
+
     "Unfreeze": [],
     "Wait": 1.0,
     "Objective": ["Battle the Ancient Tribe Member", 7],
@@ -910,14 +1014,13 @@
         ]
     ],
     "Wait": 20,
-    "PlaySound": "entity_enderman_teleport",
-    "Particle": ["portal", 1082.5, 7.0, -431.5, 50, 0.6],
+    "Fade": [],
     "Hide": "tribe_Member",
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "I need to know what is going on here.",
-            "[PLAYER]": "Maybe Statera HQ has some more info on what happened."
+            "[PLAYER]": "&oI need to know what is going on here.",
+            "[PLAYER]": "&oMaybe Statera HQ has some more info on what happened."
         },
         90
     ],
@@ -926,7 +1029,7 @@
     "Command": "call statera hq",
     "Wait": 20,
     "Start": "song_statera_intro",
-    "Dialog": [
+    "NewDialog": [
         {
             "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b3&r people in front of you.",
             "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b2&r people in front of you.",
@@ -935,19 +1038,45 @@
         240
     ],
     "Leave": "song_statera_intro",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&3&lStatera HQ": "Hello there, this is Statera HQ. How may I help you?",
+            "&3&lStatera HQ": "Hello there, this is Statera HQ. How may I help you?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "Hello, it's [PLAYER]... I'm just calling to see what's going on!",
-            "[PLAYER]": "I'm in Pure Harbor and all the Pokémon have gone rogue!",
+            "[PLAYER]": "I'm in Pure Harbor and all the Pokémon have gone rogue!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lStatera HQ": "Don't worry about it [PLAYER], we'll have this handled soon.",
-            "&3&lStatera HQ": "Tell the village to stay indoors, we'll have the Pokémon calm soon and everything will be back to normal!",
-            "[PLAYER]": "Are you sure?",
-            "&3&lStatera HQ": "Yes, You take care of the villagers and we will take care of the pokémon.",
+            "&3&lStatera HQ": "Tell the village to stay indoors, we'll have the Pokémon calm soon and everything will be back to normal!"
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Are you sure?"
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
+            "&3&lStatera HQ": "Yes, You take care of the villagers and we will take care of the pokémon."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "Alright, thank you for the confirmation."
         },
-        90
+        60, true, true
     ],
+
     "SendMessage": "&7&oThe magic shrine offers you a quick teleport to its exit.",
     "SendMessageOptions": ["&a&lAccept", "&c&lReject"],
     "Teleport": [1103.5, 77.0, -665.5, 0, 0],
@@ -957,17 +1086,42 @@
     "Objective": ["Check on the Citizen who was trapped in their house", 9],
     "HighlightClickEntity": "mike",
     "Show": "rival",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lMike": "You're back? Did you figure it out?",
-            "[PLAYER]": "Not really... But &3Statera&r said everything will be back to normal soon!",
+            "&e&lMike": "You're back? Did you figure it out?"
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Not really... But &3Statera&r said everything will be back to normal soon!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&e&lMike": "Oh, thank goodness! &3Statera&r really said that?",
-            "&e&lMike": "That's such a relief... Thank you so much...",
-            "&e&lMike": "I never caught your name...",
-            "[PLAYER]": "I'm [PLAYER]",
+            "&e&lMike": "That's such a relief... Thank you so much..."
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "&e&lMike": "I never caught your name..."
+        },
+        60, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I'm [PLAYER]"
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
             "&e&lMike": "What a lovely name... My name is &eMike&r."
         },
-        90
+        90, true, true, "male_normal"
     ],
     "ProgressiveDialog": [
         {
@@ -980,20 +1134,40 @@
     "Wait": 20,
     "ProgressiveMoveEntity": ["rival", 928.8, 47.0, -550.2, 0.2, false],
 
-    "Dialog": [
+    "NewDialog": [
         {
-            "&d&lDanielle": "Hey [PLAYER]! What happened here?",
-            "[PLAYER]": "The Pokémon here were out of control and attacking everyone!",
+            "&d&lDanielle": "Hey [PLAYER]! What happened here?"
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "The Pokémon here were out of control and attacking everyone!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "Yeah... I just came from the west and the same was occurring in that town as well...",
             "&d&lDanielle": "I only managed to faint some Pokémon though, I never ran into any &3Statera&r employees.",
             "&d&lDanielle": "It ended pretty suddenly. Well hey, at least it stopped here!",
-            "&d&lDanielle": "Probably no thanks to you.",
-            "[PLAYER]": "Excuse me?",
+            "&d&lDanielle": "Probably no thanks to you."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Excuse me?"
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "I said what I said, miffed?",
             "&d&lDanielle": "We're in a new region now, [PLAYER].",
             "&d&lDanielle": "I bet I'm a lot stronger than you are, let's go!"
         },
-        90
+        60, true, true, "female_excited"
     ],
     "Wait": 20,
     "Objective": ["Have a friendly battle with your rival", 8],
@@ -1057,12 +1231,12 @@
     ],
 
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Next time for sure...",
             "&d&lDanielle": "It won't be like &6Shiloh&r!"
         },
-        90
+        90, true, true, "female_angry"
     ],
     "Complete": [],
     "PlaySound": "entity_player_levelup",

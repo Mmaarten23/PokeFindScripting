@@ -27,7 +27,7 @@
             "&7&lSpirit": "You thought you could beat my perfect game? Jokes on you!",
             "&7&lSpirit": "Talk to me if you think you are ready to fail again."
         },
-        90, true, false, "female_excited"
+        90, true, false, "female_normal"
     ],
     "Set": ["gen5_main_quest_2_count", 0],
     "HighlightClickEntity": "guide",
@@ -35,7 +35,7 @@
         {
             "&7&lSpirit": "prepare to get destroyed!"
         },
-        90, true, false, "female_excited"
+        90, true, false, "female_normal"
     ],
     "Comment": "next_round",
     "RandomOption": 39,
@@ -83,7 +83,7 @@
         {
             "&7&lSpirit": "You have 5 seconds to stand on a &a&l[gen5_main_quest_2_block]&r!"
         },
-        1
+        1, true, false, "female_excited"
     ],
     "Wait": 2.0,
     "PlaySound": "ui_button_click",
