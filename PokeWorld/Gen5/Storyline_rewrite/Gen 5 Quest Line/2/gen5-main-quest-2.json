@@ -282,7 +282,7 @@
             "x": 928.8,
             "y": 47.0,
             "z": -550.2,
-            "yaw": 133,
+            "yaw": 107,
             "pitch": -6
         },
         "skin": {
@@ -557,7 +557,7 @@
     "Teleport": [1097.5, 46.2, -699.5, 0, 0],
     "HidePlayer": [],
     "Cinematic": [],
-
+    "Wait": 4,
     "Freeze": true,
     "Wait": 20,
     "Dialog": [
@@ -954,8 +954,9 @@
     "Dummy": [],
     "Hide": "running_pokemon",
     "Wait": 10,
-    "Objective": ["Check on the Citizen who was trapped in the house", 9],
+    "Objective": ["Check on the Citizen who was trapped in their house", 9],
     "HighlightClickEntity": "mike",
+    "Show": "rival",
     "Dialog": [
         {
             "&e&lMike": "You're back? Did you figure it out?",
@@ -974,7 +975,7 @@
         },
         90
     ],
-    "Show": "rival",
+
     "MoveEntity": ["mike", 925.5, 48.0, -553.0, 0.2, false],
     "Wait": 20,
     "ProgressiveMoveEntity": ["rival", 928.8, 47.0, -550.2, 0.2, false],
