@@ -1,0 +1,16 @@
+{
+    "Key": "gen5_main_quest_3_riddle",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+    "Hologram": [
+        413.5, 57.8, -48.5,
+        "&d&l~Mia's riddle~&9&l",
+        "&9------------------------&9",
+        "&fI appeared in all, even one.",
+        "&fMy skills are greater than none.",
+        "&fJust take a swim and you will see",
+        "&fHow common I might just be.",
+        "&aWho am I?"
+    ],
+    "Hold": []
+}

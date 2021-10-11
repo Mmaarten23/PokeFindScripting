@@ -355,7 +355,13 @@
     ],
     "NewDialog": [
         {
-            "&4&lThomas": "25 years ago however, a new CEO took over and he began the project of &nBridge Together&r. That's what we call it, heh.",
+            "&4&lThomas": "25 years ago however, a new CEO took over and he began the project of &nBridge Together&r. That's what we call it, heh."
+        },
+        110, true, true, "male_excited"
+    ],
+    "Fade": [],
+    "NewDialog": [
+        {
             "&4&lThomas": "We've built bridges connecting all the islands! Who would have thought it'd be that simple?"
         },
         110, true, true, "male_excited"

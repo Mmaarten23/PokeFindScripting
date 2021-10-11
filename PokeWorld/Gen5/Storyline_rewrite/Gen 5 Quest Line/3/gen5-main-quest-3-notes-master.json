@@ -1,0 +1,52 @@
+{
+    "Key": "gen5_main_quest_3_notes",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+
+    "CreateEntity": {
+        "key": "start_button",
+        "entity": "SLIME",
+        "location": [385.5, 54.5, -29.5],
+        "size": 2,
+        "glow": true,
+        "visible": false,
+        "look": false
+    },
+    "Server": [],
+    "Hide": "start_button",
+
+
+
+
+
+    "Skip": "restart",
+
+    "Start": "gen5_main_quest_3_notes_1",
+
+    "Comment": "start",
+    "SendMessage": "Get ready to play the notes",
+    "PlaySound": "ui_button_click",
+    "SetTitle": ["&a&l3", "", 5, 10, 5],
+    "Wait": 1.0,
+    "PlaySound": "ui_button_click",
+    "SetTitle": ["&6&l2", "", 5, 10, 5],
+    "Wait": 1.0,
+    "PlaySound": "ui_button_click",
+    "SetTitle": ["&c&l1", "", 5, 10, 5],
+    "Wait": 1.0,
+
+    "Comment": "restart",
+    "Hologram": [
+        385.5, 55.0, -29.5,
+        "&e&l~A magical melody~&e&l",
+        "&e------------------------&e",
+        "Click the notes while they are falling",
+        "down to play them. Play them in &dorder&r",
+        "and &9don't miss&r one!",
+        "&7&oClick to start"
+    ],
+    "Show": "start_button",
+    "ClickEntity": "start_button",
+    "Hide": "start_button",
+    "Skip": "start"
+}

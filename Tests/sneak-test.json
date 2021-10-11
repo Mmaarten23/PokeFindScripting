@@ -1,0 +1,16 @@
+{
+    "Key": "sneak_test",
+
+    "CreateEntity": {
+        "key": "oldman",
+        "name": "&7Old Man",
+        "location": {
+            "x": -256.6,
+            "y": 30.0,
+            "z": 825.9
+        },
+        "skin": "SURF_OLD_MAN",
+        "look": true
+    },
+    "ToggleSneak": "oldman"
+}

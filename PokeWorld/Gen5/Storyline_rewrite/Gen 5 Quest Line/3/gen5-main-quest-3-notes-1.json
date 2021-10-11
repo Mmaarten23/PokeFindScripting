@@ -1,0 +1,51 @@
+{
+    "Key": "gen5_main_quest_3_notes_1",
+    "Author": "Mmaarten",
+    "CreateEntity": {
+        "key": "note_item",
+        "entity": "ARMOR_STAND",
+        "location": [-1201.5, 51.6, -866.5, -90],
+        "visible": false,
+        "helmet": {
+            "material": "lime_terracotta",
+            "glow": true
+        }
+    },
+    "CreateEntity": {
+        "key": "note_detection",
+        "entity": "SLIME",
+        "location": [-1201.5, 53.5, -866.5],
+        "size": 2,
+        "visible": false,
+        "look": false
+    },
+
+    "CreateCustomEntity": ["note", "note_detection", "note_item"],
+    "Server": [],
+    "Hide": "note",
+    "Server": [],
+    "TeleportEntity": ["note", 385.5, 57.5, -29.5],
+    "GlobalClickEntity": "note",
+    "Skip": "hit",
+    "LeaveScript": [],
+    "Hide": "note_1_item",
+
+    "Show": "note",
+    "TeleportEntity": ["note", 385.5, 57.5, -29.5],
+    "MoveEntityRelative": ["note", 0.0, -5.0, 0.0, 0.15, false],
+    "Skip": "bottom_reached",
+
+
+    "Comment": "hit",
+    "PlaySound": "entity_player_levelup",
+    "TeleportEntity": ["note", 385.5, 57.5, -29.5],
+    "Wait": 1,
+    "Hide": "note",
+    "Leave": [],
+
+    "Comment": "bottom_reached",
+    "TeleportEntity": ["note", 385.5, 57.5, -29.5],
+    "Wait": 1,
+    "Hide": "note",
+    "SendMessage": "mark failure"
+}

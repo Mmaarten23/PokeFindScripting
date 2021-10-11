@@ -77,11 +77,11 @@
         "name": "&5Tessa",
         "location": {
             "world": "world",
-            "x": 384.1,
+            "x": 383.7,
             "y": 55.0,
-            "z": -24.5,
-            "yaw": 217,
-            "pitch": 78
+            "z": -23.6,
+            "yaw": -141,
+            "pitch": 51
         },
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MzM5NzA5NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA2Zjg2MWU1MWI5NmViNTI5NGIyNmFhYmRlMDczOWQ2MDRkYzQ5OWIzZjhkMWRhZGQ2ODY4ODAwODU2NzQ5MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
@@ -247,11 +247,11 @@
         "name": "&4&lThomas",
         "location": {
             "world": "world",
-            "x": 385.5,
+            "x": 381.2,
             "y": 52.9,
-            "z": -34.1,
-            "yaw": 345,
-            "pitch": 0
+            "z": -45.9,
+            "yaw": -15,
+            "pitch": 9
         },
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
@@ -297,8 +297,8 @@
     },
     "Quest": true,
     "RegionEntry": [
-        295,        1,        -152,
-        507,        100,        49
+        295, 1, -152,
+        507, 100, 49
     ],
     "Comment": "\"NotCompleted\": [\n    ],\n    \"Completed\": [\n        \"GYM2\"\n    ],",
     "Show": {
@@ -318,15 +318,16 @@
         "Guard3": false,
         "Guard4": false
     },
-    "SendMessage": [
-        "&a&lIncoming Pokecall> Statera HQ (Type /accept to accept)"
-    ],
+    "Start": "gen5_main_quest_1_call",
     "Wait": 10,
-    "Objective": ["Accept the call from Statera HQ by typing /accept", 6],
-    "Command": "Accept",
+    "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &bStatera HQ&r is trying to reach you.\n\n",
+    "SendMessageOptions": ["&aAccept"],
+    "Leave": "gen5_main_quest_1_call",
+    "Wait": 20,
+    "SendMessage": "  &7Connecting...",
     "Wait": 10,
-    "SendMessage": "&a&lCall accepted",
-    "Wait": 10,
+    "SendMessage": "  &aConnected!",
+    "Wait": 30,
     "Dialog": [
         {
             "&3&lStatera": "Hey [PLAYER], it looks like you just entered &lSpiritvale&r from what our GPS is showing, can you check out the area for us?",
@@ -438,7 +439,8 @@
         {
             "&6&lMichael": "Thanks! Okay the first digit of the code is 9. Good luck!",
             "[PLAYER]": "Do you know who has the second digit?",
-            "&6&lMichael": "&aAmelia&r should have it."
+            "&6&lMichael": "&aAmelia&r should have it.",
+            "&6&lMichael": "She should be on her rounds around town delivering mail."
         },
         90
     ],
@@ -454,19 +456,20 @@
             "&a&lAmelia": "What do you want?",
             "[PLAYER]": "I just need the second digit to Nurse Daisy's chest so I can get her flute!",
             "[PLAYER]": "The Pokémon are out of control again...",
-            "&a&lAmelia": "Okay then... but... I am running late on my mail rounds so I wont be able to stop by the pokémart today.",
-            "&a&lAmelia": "Could you just bring me a &emax revive&r and I'll give you the second digit to the code!"
+            "&a&lAmelia": "Okay then... but... I am running late on my mail rounds so I wont be able to stop by the post office today.",
+            "&a&lAmelia": "Could you just bring me a &epostcard&r I can send to my grandma and I'll give you the second digit to the code?"
         },
         90
     ],
     "Wait": 20,
-    "Objective": ["Give Amelia a max revive", 4],
-    "ProvideItem": ["Guard2", "max_revive"],
+    "Objective": ["Give Amelia a postcard", 4],
+    "ProvideItem": ["Guard2", "writeable_book"],
     "Wait": 20,
     "Dialog": [
         {
             "&a&lAmelia": "Perfect! Okay, get ready! The second digit is 7!",
-            "&a&lAmelia": "I assume you want to know where to find the third digit? Just talk to &5Mia&r!",
+            "&a&lAmelia": "I assume you want to know where to find the third digit?",
+            "&a&lAmelia": "Just talk to &5Mia&r! Those 2 keep sending letters to each other. Mia must know something.",
             "[PLAYER]": "Alright! Thank you!"
         },
         90
@@ -488,16 +491,8 @@
         },
         90
     ],
-    "Hologram": [
-        413.5, 57.8, -48.5,
-        "&d&l~Mia's riddle~&9&l",
-        "&9------------------------&9",
-        "&fI appeared in all, even one.",
-        "&fMy skills are greater than none.",
-        "&fJust take a swim and you will see",
-        "&fHow common I might just be.",
-        "&aWho am I?"
-    ],
+    "Start": "gen5_main_quest_3_riddle",
+    "MoveEntity": ["Guard2", 410.5, 58.0, -48.1, 0.2, false],
     "Wait": 20,
     "Objective": ["Solve the riddle located near Mia (Answer by typing /youranswer)", 4],
     "Command": "magikarp",
@@ -505,7 +500,8 @@
     "Dialog": [
         {
             "&5&lMia": "That makes perfect sense... Great job! The third digit is 4!",
-            "&5&lMia": "&6Kevin&r has the final digit! Good luck!"
+            "&5&lMia": "Oh and &6Kevin&r has the final digit!",
+            "&5&lMia": "He is studying pokémon medicine so you can probably find him near the pokécenter."
         },
         90
     ],
@@ -515,6 +511,7 @@
         "Guard4": true
     },
     "HighlightClickEntity": "Guard4",
+    "Leave": "gen5_main_quest_3_riddle",
     "Hide": "Guard3",
     "Dialog": [
         {
@@ -1715,7 +1712,7 @@
         "Statera_Representative1": true
     },
     "Look": "Statera_Representative1",
-    "MoveEntity": ["Statera_Representative1", 386.5, 52.9, -28.5],
+    "MoveEntity": ["Statera_Representative1", 383.7, 52.9, -37.9],
     "Show": {
         "Statera_Representative1": false,
         "Statera_Representative2": true
@@ -1723,7 +1720,17 @@
     "Wait": 20,
     "Dialog": [
         {
-            "&4&lThomas": "Can you come here for a moment, [PLAYER]?",
+            "&4&lThomas": "Can you come here for a moment, [PLAYER]?"
+        },
+        90
+    ],
+    "Objective": ["Talk to Thomas at the bridge in Spiritvale.", 3],
+    "InRegion": [
+        387, 52, -33,
+        381, 57, -40
+    ],
+    "Dialog": [
+        {
             "&4&lThomas": "Thanks for doing this, I was running behind from the last time they pinged our GPS...",
             "&4&lThomas": "You did good work though, it was definitely a better decision to send you here rather than me.",
             "&4&lThomas": "Here, take this for all the trouble!",

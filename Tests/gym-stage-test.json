@@ -1,0 +1,9 @@
+{
+    "Key": "gym_stage_test",
+
+    "ProvideGymPokemon": [],
+    "SendMessage": "started script!",
+    "Wait": 5,
+    "ProvideGymPokemon": [],
+    "SendMessage": "progressed!"
+}
