@@ -28,7 +28,7 @@
     "GlobalClickEntity": "note",
     "Skip": "hit",
     "LeaveScript": [],
-    "Hide": "note_1_item",
+    "Hide": "note_item",
 
     "Show": "note",
     "TeleportEntity": ["note", 385.5, 57.5, -29.5],
