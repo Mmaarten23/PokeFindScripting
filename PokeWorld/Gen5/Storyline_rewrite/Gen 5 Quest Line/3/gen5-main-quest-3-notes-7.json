@@ -42,6 +42,7 @@
     "TeleportEntity": ["note", 385.5, 61.5, -29.5],
     "Wait": 1,
     "Hide": "note",
+    "Progress": "gen5_main_quest_3_notes_master",
     "Leave": [],
 
     "Comment": "bottom_reached",
