@@ -1,0 +1,31 @@
+{
+    "Key": "postcard_test",
+    "Author": "Mmaarten",
+    "CreateEntity": {
+        "key": "Guard2",
+        "name": "&aAmelia",
+        "location": {
+            "world": "world",
+            "x": 411.5,
+            "y": 55.0,
+            "z": -95.5,
+            "yaw": 270,
+            "pitch": 23
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0NDI2MDkyOSwKICAicHJvZmlsZUlkIiA6ICJkYmNlZjMyZjI5ZDc0Y2UzOTUzOWMwYjBhMTE1YjZiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJyYW1waXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjY2VmZjViNmQwMGY2M2I5NTIzMWRhZDhiMWI5ZjA4NjUwMzNkMjUxYzlmMjk0ZjcwYWFkOThjZWRiMDk4ZTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "Juq5rcV5YU6VPlwKDhTJP0EU+rj67XgkDDvABp2L9HPpIeUBhSTmvcJ71GwRc3z5wswHvtml0FiErfRRa+7XoEu0bV5txrUFVzdCrP0U/z8j5Asn57yVSKUFBWHj5rvPGA/saeeAMOCBdbFYofXKZ3LQfl3oq0uHNOR7393Exd4IpOb0xxsCuu5GIvBvTG7pHRI4drGOZgej2u38zjcWTI7620OonPZwCB+71u29//1cddWN2Y1GxBJQo7YtKBDwdhZcsh+eHx0AzXxvQhJMW5l8l74SvzQNj6UiMiK5n+4DiXC4V3P5D65bLm9mGs+3L5g2SsS2jGJN2b/QbatBXvUJWjqDgzk4bikc2d8uSjg+kkC0nf94mAA6ZIAAdjcr47FuU+yJLNAJcZui/HRJbyVxxXv8QEPGvTQmo0poJGlK+WVAPqaU93FujkxdNzlaFS88bx5F4xriWAY9NSA2L8Qpwg/h4TLfH//8tKOP9r9UFdtwMpII04i0fSify9ERCpQ+5Qy7AJ0ZIhNisGD/HjeQzDhdX0A1bF80cWWWFYho9hf6PoNdqB3kcfy2I9mD9PnAZeXRZALjsDPRIh1F5tebpBD6Y1emj6xDJKXF6kitFjKug5vvJ9s2w7qO6Y0v2RIGnrIm33LdCpMcURO/rVhHXHE8akyZqa5hV/D9Q6Y="
+        }
+    },
+
+    "ProvideItem": [
+        "Guard2",
+        {
+            "name": "&7Generic Mail",
+            "description": "&fWrite a letter and sign it so that you can mail it out to another trainer",
+            "material": "Writable Book",
+            "model": 48
+        }
+    ],
+    "SendMessage": "WOOHOOO"
+}

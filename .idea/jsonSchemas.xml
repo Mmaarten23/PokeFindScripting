@@ -179,10 +179,10 @@
                     <option name="path" value="PokeWorld/Gen5/standalone/watterstone-city-elevator.json" />
                   </Item>
                   <Item>
-                    <option name="path" value="Songs/sad_fairytale.json" />
+                    <option name="path" value="PokeWorld/Gen5/Storyline_rewrite/Gen 5 Quest Line/gen5-main-quest-2.json" />
                   </Item>
                   <Item>
-                    <option name="path" value="PokeWorld/Gen5/Storyline_rewrite/Gen 5 Quest Line/gen5-main-quest-2.json" />
+                    <option name="path" value="Songs/sad_fairytale.json" />
                   </Item>
                 </list>
               </option>

@@ -411,7 +411,7 @@
         {
             "[PLAYER]": "Hmm... It looks like it needs a code!",
             "[PLAYER]": "There's a paper here...",
-            "[PLAYER]": "It says 'To find the first digit of the code speak to &6Michael&r in case of emergency'...",
+            "[PLAYER]": "It says 'To find the first digit of the code speak to my gardener, &6Michael&r in case of emergency'...",
             "[PLAYER]": "I guess I have to go talk to &6Michael&r!"
         },
         90
@@ -457,13 +457,21 @@
             "[PLAYER]": "I just need the second digit to Nurse Daisy's chest so I can get her flute!",
             "[PLAYER]": "The Pokémon are out of control again...",
             "&a&lAmelia": "Okay then... but... I am running late on my mail rounds so I wont be able to stop by the post office today.",
-            "&a&lAmelia": "Could you just bring me a &epostcard&r I can send to my grandma and I'll give you the second digit to the code?"
+            "&a&lAmelia": "Could you just bring me a &egeneric postcard&r I can send to my grandma and I'll give you the second digit to the code?"
         },
         90
     ],
     "Wait": 20,
-    "Objective": ["Give Amelia a postcard", 4],
-    "ProvideItem": ["Guard2", "writable_book"],
+    "Objective": ["Give Amelia a generic postcard", 4],
+    "ProvideItem": [
+        "Guard2",
+        {
+            "name": "&7Generic Mail",
+            "description": "&fWrite a letter and sign it so that you can mail it out to another trainer",
+            "material": "Writable Book",
+            "model": 48
+        }
+    ],
     "Wait": 20,
     "Dialog": [
         {
@@ -1207,7 +1215,7 @@
     "Wait": 20,
     "Start": "gen5_main_quest_3_notes_master",
     "Hold": [],
-    "Wait": 2.0
+    "Wait": 2.0,
     "PlaySound": ["block_note_block_flute", 1.0, 1.0],
     "Wait": 1.0,
     "PlaySound": ["block_note_block_flute", 0.9, 1.0],
