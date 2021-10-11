@@ -24,14 +24,14 @@
     "Server": [],
     "Hide": "note",
     "Server": [],
-    "TeleportEntity": ["note", 385.5, 61.5, -29.5],
+    "TeleportEntity": ["note", 387.5, 61.5, -29.5],
     "GlobalClickEntity": "note",
     "Skip": "hit",
     "LeaveScript": [],
     "Hide": "note_item",
 
     "Show": "note",
-    "TeleportEntity": ["note", 385.5, 61.5, -29.5],
+    "TeleportEntity": ["note", 387.5, 61.5, -29.5],
     "Wait": 5,
     "MoveEntityRelative": ["note", 0.0, -8.0, 0.0, 0.1, false],
     "Skip": "bottom_reached",
@@ -39,14 +39,14 @@
 
     "Comment": "hit",
     "PlaySound": ["block_note_block_flute", 0.7, 1.0],
-    "TeleportEntity": ["note", 385.5, 61.5, -29.5],
+    "TeleportEntity": ["note", 387.5, 61.5, -29.5],
     "Wait": 1,
     "Hide": "note",
     "Leave": [],
 
     "Comment": "bottom_reached",
     "SendMessage": "&cThat didn't sound quite right! Please try again.",
-    "TeleportEntity": ["note", 385.5, 61.5, -29.5],
+    "TeleportEntity": ["note", 387.5, 61.5, -29.5],
     "Wait": 1,
     "Hide": "note",
     "Start": ["gen5_main_quest_3_notes_master"]
