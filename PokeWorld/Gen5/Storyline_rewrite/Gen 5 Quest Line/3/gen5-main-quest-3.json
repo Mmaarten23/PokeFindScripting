@@ -463,7 +463,7 @@
     ],
     "Wait": 20,
     "Objective": ["Give Amelia a postcard", 4],
-    "ProvideItem": ["Guard2", "writeable_book"],
+    "ProvideItem": ["Guard2", "writable_book"],
     "Wait": 20,
     "Dialog": [
         {
