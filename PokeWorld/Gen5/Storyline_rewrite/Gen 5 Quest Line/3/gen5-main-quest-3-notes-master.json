@@ -18,10 +18,9 @@
 
 
 
-
     "Skip": "restart",
 
-    "Comment": "start",
+    "Comment": "start_notes",
     "SendMessage": "Get ready to play the notes",
     "PlaySound": "ui_button_click",
     "SetTitle": ["&a&l3", "", 5, 10, 5],
@@ -34,16 +33,20 @@
     "Wait": 1.0,
 
     "Start": "gen5_main_quest_3_notes_1",
-
+    "Wait": 1.0,
+    "Start": "gen5_main_quest_3_notes_2",
     "Hold": [],
+
+
+    "Comment": "FAILED",
+    "Leave": "gen5_main_quest_3_notes_1",
 
     "Comment": "restart",
     "Start": "gen5_main_quest_3_notes_instructions",
     "Show": "start_button",
     "ClickEntity": "start_button",
     "Wait": 0.5,
-    "SendMessage": "debug",
     "Hide": "start_button",
-    "Progress": "gen5_main_quest_3_notes_instructions",
-    "Skip": "start"
+    "Leave": "gen5_main_quest_3_notes_instructions",
+    "Skip": "start_notes"
 }
