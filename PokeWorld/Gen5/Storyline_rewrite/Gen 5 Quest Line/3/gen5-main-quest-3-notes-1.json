@@ -44,8 +44,9 @@
     "Leave": [],
 
     "Comment": "bottom_reached",
+    "SendMessage": "&cThat didn't sound quite right! Please try again.",
     "TeleportEntity": ["note", 385.5, 57.5, -29.5],
     "Wait": 1,
     "Hide": "note",
-    "Progress": ["FAILED", 1.0, "gen5_main_quest_3_notes_master"]
+    "Start": ["gen5_main_quest_3_notes_master"]
 }
