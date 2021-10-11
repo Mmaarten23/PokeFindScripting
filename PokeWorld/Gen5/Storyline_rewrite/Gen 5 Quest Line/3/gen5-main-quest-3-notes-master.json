@@ -40,6 +40,8 @@
 
     "Comment": "FAILED",
     "Leave": "gen5_main_quest_3_notes_1",
+    "Leave": "gen5_main_quest_3_notes_2",
+    "SendMessage": "&cThat didn't sound quite right! Please try again.",
 
     "Comment": "restart",
     "Start": "gen5_main_quest_3_notes_instructions",
