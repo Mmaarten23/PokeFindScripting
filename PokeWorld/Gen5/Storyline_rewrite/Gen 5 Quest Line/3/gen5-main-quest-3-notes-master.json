@@ -41,6 +41,8 @@
     "Start": "gen5_main_quest_3_notes_instructions",
     "Show": "start_button",
     "ClickEntity": "start_button",
+    "Wait": 0.5,
+    "SendMessage": "debug",
     "Hide": "start_button",
     "Progress": "gen5_main_quest_3_notes_instructions",
     "Skip": "start"
