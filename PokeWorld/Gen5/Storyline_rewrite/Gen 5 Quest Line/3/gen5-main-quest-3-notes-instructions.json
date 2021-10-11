@@ -1,0 +1,15 @@
+{
+    "Key": "gen5_main_quest_3_notes_instructions",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+    "Hologram": [
+        385.5, 55.0, -29.5,
+        "&e&l~A magical melody~&e&l",
+        "&e------------------------&e",
+        "Click the notes while they are falling",
+        "down to play them. Play them in &dorder&r",
+        "and &9don't miss&r one!",
+        "&7&oClick to start"
+    ],
+    "Hold": []
+}

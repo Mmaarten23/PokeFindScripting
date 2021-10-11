@@ -1,5 +1,5 @@
 {
-    "Key": "gen5_main_quest_3_notes",
+    "Key": "gen5_main_quest_3_notes_master",
     "Author": "Mmaarten",
     "AllowRejoining": true,
 
@@ -21,8 +21,6 @@
 
     "Skip": "restart",
 
-    "Start": "gen5_main_quest_3_notes_1",
-
     "Comment": "start",
     "SendMessage": "Get ready to play the notes",
     "PlaySound": "ui_button_click",
@@ -35,18 +33,15 @@
     "SetTitle": ["&c&l1", "", 5, 10, 5],
     "Wait": 1.0,
 
+    "Start": "gen5_main_quest_3_notes_1",
+
+    "Hold": [],
+
     "Comment": "restart",
-    "Hologram": [
-        385.5, 55.0, -29.5,
-        "&e&l~A magical melody~&e&l",
-        "&e------------------------&e",
-        "Click the notes while they are falling",
-        "down to play them. Play them in &dorder&r",
-        "and &9don't miss&r one!",
-        "&7&oClick to start"
-    ],
+    "Start": "gen5_main_quest_3_notes_instructions",
     "Show": "start_button",
     "ClickEntity": "start_button",
     "Hide": "start_button",
+    "Leave": "gen5_main_quest_3_notes_instructions",
     "Skip": "start"
 }
