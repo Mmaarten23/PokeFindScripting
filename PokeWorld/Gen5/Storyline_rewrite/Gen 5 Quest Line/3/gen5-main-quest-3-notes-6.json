@@ -1,5 +1,5 @@
 {
-    "Key": "gen5_main_quest_3_notes_1",
+    "Key": "gen5_main_quest_3_notes_6",
     "Author": "Mmaarten",
     "CreateEntity": {
         "key": "note_item",
@@ -24,7 +24,7 @@
     "Server": [],
     "Hide": "note",
     "Server": [],
-    "TeleportEntity": ["note", 382.5, 61.5, -29.5],
+    "TeleportEntity": ["note", 385.5, 61.5, -29.5],
     "GlobalClickEntity": "note",
     "Skip": "hit",
     "LeaveScript": [],
@@ -38,7 +38,7 @@
 
 
     "Comment": "hit",
-    "PlaySound": ["block_note_block_flute", 1.0, 1.0],
+    "PlaySound": ["block_note_block_flute", 0.7, 1.0],
     "TeleportEntity": ["note", 385.5, 57.5, -29.5],
     "Wait": 1,
     "Hide": "note",
