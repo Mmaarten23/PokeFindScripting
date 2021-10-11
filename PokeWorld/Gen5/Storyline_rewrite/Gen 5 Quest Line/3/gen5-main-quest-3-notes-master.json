@@ -42,6 +42,6 @@
     "Show": "start_button",
     "ClickEntity": "start_button",
     "Hide": "start_button",
-    "Leave": "gen5_main_quest_3_notes_instructions",
+    "Progress": "gen5_main_quest_3_notes_instructions",
     "Skip": "start"
 }
