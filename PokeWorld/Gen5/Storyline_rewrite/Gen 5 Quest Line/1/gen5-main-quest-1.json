@@ -494,7 +494,7 @@
         {
             "&4&lThomas": "We've built bridges connecting all the islands! Who would have thought it'd be that simple?"
         },
-        1, true, true, "male_excited"
+        1, true, false, "male_excited"
     ],
     "Wait": 10,
     "ProgressiveMoveEntity": ["worker2", -1047.8, 44.0, 338.8],
@@ -510,7 +510,7 @@
         {
             "&4&lThomas": "We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance."
         },
-        60, true, true, "male_normal"
+        60, true, false, "male_normal"
     ],
     "ProgressiveMoveEntity": ["worker3", -1049.4,44.0,362.3],
     "Wait": 10,
@@ -523,7 +523,7 @@
         {
             "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also united the previously separate islands."
         },
-        50, true, true, "male_normal"
+        50, true, false, "male_normal"
     ],
     "Hide": {
         "worker1": true,
