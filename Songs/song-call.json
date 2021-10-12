@@ -27,5 +27,5 @@
   "Wait": 8,
   "PlaySound": ["block_note_block_chime", 0.594604, 1.00],
   "Wait": 32,
-  "Start": "gen5_main_quest_1_call"
+  "Start": "song_call"
 }
