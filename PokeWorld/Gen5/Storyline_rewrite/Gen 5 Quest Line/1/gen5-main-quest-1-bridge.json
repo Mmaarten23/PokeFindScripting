@@ -1,31 +1,11 @@
 {
-    "Key": "bridge_test",
+    "Key": "gen5_main_quest_1_bridge",
     "Author": "Mmaarten",
 
     "SetBlocks": [
         -1041, 41, 352,
         -1059, 47, 364,
         "barrier"
-    ],
-    "SetBlocks": [
-        -1052, 44, 354,
-        -1052, 54, 354,
-        "iron_bars"
-    ],
-    "SetBlocks": [
-        -1048, 44, 354,
-        -1048,54,354,
-        "iron_bars"
-    ],
-    "SetBlocks": [
-        -1048,44,362,
-        -1048,54,362,
-        "iron_bars"
-    ],
-    "SetBlocks": [
-        -1052,44,362,
-        -1052,54,362,
-        "iron_bars"
     ],
     "SetBlocks": [
         -1041, 33, 352,
@@ -48,6 +28,7 @@
     "Hide": "bridge",
 
     "Show": "bridge",
+    "Hold": [],
     "MoveEntity": ["bridge", -1054.5, 32.0, 352.5, 0.1, false],
     "Hide": "bridge"
 }
