@@ -484,8 +484,11 @@
         -1052, 54, 362,
         "iron_bars"
     ],
-    "Wait": 4,
+    "Wait": 10,
+    "Teleport": [-1064.9, 54.9, 351.7, -90, 37],
+    "Wait": 1,
     "Freeze": true,
+
     "NewDialog": [
         {
             "&4&lThomas": "We've built bridges connecting all the islands! Who would have thought it'd be that simple?"
