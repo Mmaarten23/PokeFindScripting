@@ -1,5 +1,5 @@
 {
-  "Key": "gen5_main_quest_1_call",
+  "Key": "song_call",
   "Author": "Mmaarten",
   "PlaySound": ["block_note_block_chime", 0.890899, 1.00],
   "Wait": 4,

@@ -561,7 +561,6 @@
         {
             "&4&lThomas": "Well, enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure.",
             "&4&lThomas": "You should check out the island that is connected through this bridge. It has a nice smell to it!"
-
         },
         110, true, true, "male_normal"
     ],
@@ -572,11 +571,11 @@
         880, 1, 376,
         911, 100, 320
     ],
-    "Start": "gen5_main_quest_1_call",
+    "Start": "song_call",
     "Wait": 10,
     "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &cProfessor Hemlock&r is trying to reach you.\n\n",
     "SendMessageOptions": ["&aAccept"],
-    "Leave": "gen5_main_quest_1_call",
+    "Leave": "song_call",
     "Wait": 20,
     "SendMessage": "  &7Connecting...",
     "Wait": 10,

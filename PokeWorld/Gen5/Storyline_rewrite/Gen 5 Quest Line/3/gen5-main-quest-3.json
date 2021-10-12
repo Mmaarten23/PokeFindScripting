@@ -318,11 +318,11 @@
         "Guard3": false,
         "Guard4": false
     },
-    "Start": "gen5_main_quest_1_call",
+    "Start": "song_call",
     "Wait": 10,
     "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &bStatera HQ&r is trying to reach you.\n\n",
     "SendMessageOptions": ["&aAccept"],
-    "Leave": "gen5_main_quest_1_call",
+    "Leave": "song_call",
     "Wait": 20,
     "SendMessage": "  &7Connecting...",
     "Wait": 10,
