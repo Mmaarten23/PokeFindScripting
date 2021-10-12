@@ -4,6 +4,149 @@
     "Description": "Music is said to be one of the most powerful forces of nature. And in times of trouble, that is exactly what you need!",
     "AllowRejoining": true,
     "Icon": "jukebox",
+
+    "Store": [
+        "gen5_main_quest_3_lock_1", {
+            "name": "&a1",
+            "description": [
+                "&7Click to enter the number 1"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_2", {
+            "name": "&a2",
+            "description": [
+                "&7Click to enter the number 2"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_3", {
+            "name": "&a3",
+            "description": [
+                "&7Click to enter the number 3"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_4", {
+            "name": "&a4",
+            "description": [
+                "&7Click to enter the number 4"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_5", {
+            "name": "&a5",
+            "description": [
+                "&7Click to enter the number 5"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_6", {
+            "name": "&a6",
+            "description": [
+                "&7Click to enter the number 6"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_7", {
+            "name": "&a7",
+            "description": [
+                "&7Click to enter the number 7"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_8", {
+            "name": "&a8",
+            "description": [
+                "&7Click to enter the number 8"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_9", {
+            "name": "&a9",
+            "description": [
+                "&7Click to enter the number 9"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Store": [
+        "gen5_main_quest_3_lock_0", {
+            "name": "&a0",
+            "description": [
+                "&7Click to enter the number 0"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+
+
     "CreateEntity": {
         "key": "BridgeCitizen1",
         "name": "&9Tommy",
@@ -328,14 +471,25 @@
     "Wait": 10,
     "SendMessage": "  &aConnected!",
     "Wait": 30,
-    "Dialog": [
+    "NewDialog": [
         {
             "&3&lStatera": "Hey [PLAYER], it looks like you just entered &lSpiritvale&r from what our GPS is showing, can you check out the area for us?",
-            "&3&lStatera": "There has been more suspicious Pokémon activity again and we need you to help the locals.",
+            "&3&lStatera": "There has been more suspicious Pokémon activity again and we need you to help the locals."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "I'll get right to it!",
             "&3&lStatera": "We'll be checking in with you later, thanks again!"
         },
-        90
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&3&lStatera": "We'll be checking in with you later, thanks again!"
+        },
+        90, true, true, "female_normal"
     ],
     "Wait": 20,
     "Objective": ["Investigate what's going on at all the bridges in Spiritvale", 10],
@@ -349,43 +503,43 @@
     "HidePlayer": [],
     "Teleport": [385.5, 55.0, -33.5, 344, 0],
     "Look": "BridgeCitizen1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&9&lTommy": "AHH! Please stop attacking us!"
         },
-        90
+        90, true, true, "male_scared"
     ],
     "Unfreeze": [],
     "ShowPlayer": [],
     "Wait": 20,
     "Objective": ["Talk to the citizens at the bridge to see how you can help calm the Pokemon", 2],
     "HighlightClickEntity": "BridgeCitizen1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&9&lTommy": "You must be new around here...",
             "&9&lTommy": "I promise things are not normally this hectic...",
             "&9&lTommy": "I wish this wasn't your first impression of &lSpiritvale&r..."
         },
-        90
+        90, true, true, "male_normal"
     ],
     "Objective": ["Learn more from the other citizens", 5],
     "HighlightClickEntity": "BridgeCitizen2",
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lIssa": "Hey, maybe you could help us out!",
             "&e&lIssa": "You're a trainer right?",
             "&e&lIssa": "Normally the Nurse handles this... She has a flute she plays to calm down the local Pokémon.",
             "&e&lIssa": "They get spooked every now and then hahaha..."
         },
-        90
+        90, true, true, "female_normal"
     ],
     "HighlightClickEntity": "BridgeCitizen3",
-    "Dialog": [
+    "NewDialog": [
         {
             "&bSparkle": "Do you think you could grab the flute from her chest? She keeps it in a chest above the doorway of her house.",
             "&bSparkle": "We'd ask her but she's away on business for &3Statera&r."
         },
-        90
+        90, true, true, "male_normal"
     ],
     "Wait": 20,
     "Objective": [
@@ -395,12 +549,12 @@
         464, 1, 28,
         476, 80, 46
     ],
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Hmm... The flute should be in the chest above the doorway!",
-            "[PLAYER]": "I need to be quiet though so I don't wake up Nurse Daisy's Snorlax..."
+            "[PLAYER]": "&oHmm... The flute should be in the chest above the doorway!",
+            "[PLAYER]": "&oI need to be quiet though so I don't wake up Nurse Daisy's Snorlax..."
         },
-        90
+        90, true, true
     ],
     "Wait": 10,
     "Objective": ["Try to find Nurse Daisy's flute in the chest", 3],
@@ -408,14 +562,14 @@
         469, 69, 33,
         470, 69, 33
     ],
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Hmm... It looks like it needs a code!",
-            "[PLAYER]": "There's a paper here...",
-            "[PLAYER]": "It says 'To find the first digit of the code speak to my gardener, &6Michael&r in case of emergency'...",
+            "[PLAYER]": "&oHmm... It looks like it needs a code!",
+            "[PLAYER]": "&oThere's a paper here...",
+            "[PLAYER]": "&oIt says 'In case of emergency speak to my gardener, &6Michael&r'...",
             "[PLAYER]": "I guess I have to go talk to &6Michael&r!"
         },
-        90
+        90, true, true
     ],
     "Wait": 10,
     "Objective": ["Try to find the four digits to unlock the chest (Talk to Michael)", 3],
@@ -423,27 +577,42 @@
         "Guard1": true
     },
     "HighlightClickEntity": "Guard1",
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "Hi there! I was wondering if you have the first digit to Nurse Daisy's chest...",
-            "[PLAYER]": "I need it to calm the Pokémon down...",
+            "[PLAYER]": "I need it to calm the Pokémon down..."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&6&lMichael": "I might... But I need to know I can trust you! I need you to do something for me first.",
             "&6&lMichael": "Prove that you can catch and give me a normal type pokemon and the first digit of the code is yours!"
         },
-        90
+        90, true, true, "male_normal"
     ],
     "Wait": 20,
     "Objective": ["Bring a Normal type Pokemon to Michael", 4],
     "ProvidePokemonType": ["Guard1", "Normal"],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&6&lMichael": "Thanks! Okay the first digit of the code is 9. Good luck!",
-            "[PLAYER]": "Do you know who has the second digit?",
+            "&6&lMichael": "Thanks! Okay the first digit of the code is 9. Good luck!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Do you know who has the second digit?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&6&lMichael": "&aAmelia&r should have it.",
             "&6&lMichael": "She should be on her rounds around town delivering mail."
         },
-        90
+        90, true, true, "male_normal"
     ],
     "Wait": 10,
     "Objective": ["Find the second digit of the code by talking to Amelia", 3],
@@ -452,15 +621,25 @@
     },
     "HighlightClickEntity": "Guard2",
     "Hide": "Guard1",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&a&lAmelia": "What do you want?",
+            "&a&lAmelia": "What do you want?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "I just need the second digit to Nurse Daisy's chest so I can get her flute!",
-            "[PLAYER]": "The Pokémon are out of control again...",
+            "[PLAYER]": "The Pokémon are out of control again..."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&a&lAmelia": "Okay then... but... I am running late on my mail rounds so I wont be able to stop by the post office today.",
             "&a&lAmelia": "Could you just bring me a &egeneric postcard&r I can send to my grandma and I'll give you the second digit to the code?"
         },
-        90
+        90, true, true, "female_normal"
     ],
     "Wait": 20,
     "Objective": ["Give Amelia a generic postcard", 4],
@@ -474,14 +653,19 @@
         }
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&a&lAmelia": "Perfect! Okay, get ready! The second digit is 7!",
             "&a&lAmelia": "I assume you want to know where to find the third digit?",
-            "&a&lAmelia": "Just talk to &5Mia&r! Those 2 keep sending letters to each other. Mia must know something.",
+            "&a&lAmelia": "Just talk to &5Mia&r! Those 2 keep sending letters to each other. Mia must know something."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "Alright! Thank you!"
         },
-        90
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Find the third digit of the code by talking to Mia", 3],
@@ -490,15 +674,35 @@
     },
     "HighlightClickEntity": "Guard3",
     "Hide": "Guard2",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&5&lMia": "Yo! What brings you here today?",
-            "[PLAYER]": "I was told you have the third digit to Nurse Daisy's chest?",
-            "&5&lMia": "I sure do! However, I have this riddle that I cannot solve. If you can help me, I will give you the code!",
-            "[PLAYER]": "Alright, what's the riddle?",
+            "&5&lMia": "Yo! What brings you here today?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I was told you have the third digit to Nurse Daisy's chest?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&5&lMia": "I sure do! However, I have this riddle that I cannot solve. If you can help me, I will give you the code!"
+        },
+        90, true, true, "female_excited"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Alright, what's the riddle?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&5&lMia": "It's right up here."
         },
-        90
+        90, true, true, "female_normal"
     ],
     "Start": "gen5_main_quest_3_riddle",
     "MoveEntity": ["Guard3", 410.5, 58.0, -48.1, 0.2, false],
@@ -506,13 +710,13 @@
     "Objective": ["Solve the riddle located near Mia (Answer by typing /youranswer)", 4],
     "Command": "magikarp",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&5&lMia": "That makes perfect sense... Great job! The third digit is 4!",
             "&5&lMia": "Oh and &6Kevin&r has the final digit!",
             "&5&lMia": "He is studying pokémon medicine so you can probably find him near the pokécenter."
         },
-        90
+        90, true, true, "female_excited"
     ],
     "Wait": 20,
     "Objective": ["Find the last digit of the code by talking to Kevin", 3],
@@ -522,14 +726,24 @@
     "HighlightClickEntity": "Guard4",
     "Leave": "gen5_main_quest_3_riddle",
     "Hide": "Guard3",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&6&lKevin": "Why hello there... I've been expecting you...",
-            "[PLAYER]": "You have?",
+            "&6&lKevin": "Why hello there... I've been expecting you..."
+        },
+        90, true, true, "male_scared"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "You have?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&6&lKevin": "Of course! I heard you want the final digit?",
             "&6&lKevin": "Well, I haven't battled in a while so before I give you the digit, I want to battle against a real trainer!"
         },
-        90
+        90, true, true, "male_question"
     ],
     "Wait": 20,
     "Objective": ["Battle Kevin", 4],
@@ -596,12 +810,12 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lKevin": "I really need to get back into batteling!... The final digit is 0!",
             "&6&lKevin": "Good luck calming the Pokémon..."
         },
-        90
+        90, true, true, "male_normal"
     ],
     "Wait": 20,
     "Objective": ["Click the chest to enter the code digit by digit (The code is 9740)", 61],
@@ -615,126 +829,16 @@
         "Code",
         4,
         {
-            "3": {
-                "name": "&a1",
-                "description": [
-                    "&7Click to enter the number 1"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "4": {
-                "name": "&a2",
-                "description": [
-                    "&7Click to enter the number 2"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "5": {
-                "name": "&a3",
-                "description": [
-                    "&7Click to enter the number 3"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "12": {
-                "name": "&a4",
-                "description": [
-                    "&7Click to enter the number 4"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "13": {
-                "name": "&a5",
-                "description": [
-                    "&7Click to enter the number 5"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "14": {
-                "name": "&a6",
-                "description": [
-                    "&7Click to enter the number 6"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "21": {
-                "name": "&a7",
-                "description": [
-                    "&7Click to enter the number 7"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "22": {
-                "name": "&a8",
-                "description": [
-                    "&7Click to enter the number 8"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "23": {
-                "name": "&a9",
-                "description": [
-                    "&7Click to enter the number 9"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "31": {
-                "name": "&a0",
-                "description": [
-                    "&7Click to enter the number 0"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
-                    "signature": ""
-                }
-            }
+            "3": "[gen5_main_quest_3_lock_1]",
+            "4": "[gen5_main_quest_3_lock_2]",
+            "5": "[gen5_main_quest_3_lock_3]",
+            "12": "[gen5_main_quest_3_lock_4]",
+            "13": "[gen5_main_quest_3_lock_5]",
+            "14": "[gen5_main_quest_3_lock_6]",
+            "21": "[gen5_main_quest_3_lock_7]",
+            "22": "[gen5_main_quest_3_lock_8]",
+            "23": "[gen5_main_quest_3_lock_9]",
+            "31": "[gen5_main_quest_3_lock_0]"
         }
     ],
     "Skip": -2,
@@ -754,126 +858,16 @@
         "Code",
         4,
         {
-            "3": {
-                "name": "&a1",
-                "description": [
-                    "&7Click to enter the number 1"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "4": {
-                "name": "&a2",
-                "description": [
-                    "&7Click to enter the number 2"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "5": {
-                "name": "&a3",
-                "description": [
-                    "&7Click to enter the number 3"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "12": {
-                "name": "&a4",
-                "description": [
-                    "&7Click to enter the number 4"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "13": {
-                "name": "&a5",
-                "description": [
-                    "&7Click to enter the number 5"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "14": {
-                "name": "&a6",
-                "description": [
-                    "&7Click to enter the number 6"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "21": {
-                "name": "&a7",
-                "description": [
-                    "&7Click to enter the number 7"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "22": {
-                "name": "&a8",
-                "description": [
-                    "&7Click to enter the number 8"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "23": {
-                "name": "&a9",
-                "description": [
-                    "&7Click to enter the number 9"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "31": {
-                "name": "&a0",
-                "description": [
-                    "&7Click to enter the number 0"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
-                    "signature": ""
-                }
-            }
+            "3": "[gen5_main_quest_3_lock_1]",
+            "4": "[gen5_main_quest_3_lock_2]",
+            "5": "[gen5_main_quest_3_lock_3]",
+            "12": "[gen5_main_quest_3_lock_4]",
+            "13": "[gen5_main_quest_3_lock_5]",
+            "14": "[gen5_main_quest_3_lock_6]",
+            "21": "[gen5_main_quest_3_lock_7]",
+            "22": "[gen5_main_quest_3_lock_8]",
+            "23": "[gen5_main_quest_3_lock_9]",
+            "31": "[gen5_main_quest_3_lock_0]"
         }
     ],
     "Skip": -3,
@@ -893,126 +887,16 @@
         "Code",
         4,
         {
-            "3": {
-                "name": "&a1",
-                "description": [
-                    "&7Click to enter the number 1"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "4": {
-                "name": "&a2",
-                "description": [
-                    "&7Click to enter the number 2"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "5": {
-                "name": "&a3",
-                "description": [
-                    "&7Click to enter the number 3"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "12": {
-                "name": "&a4",
-                "description": [
-                    "&7Click to enter the number 4"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "13": {
-                "name": "&a5",
-                "description": [
-                    "&7Click to enter the number 5"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "14": {
-                "name": "&a6",
-                "description": [
-                    "&7Click to enter the number 6"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "21": {
-                "name": "&a7",
-                "description": [
-                    "&7Click to enter the number 7"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "22": {
-                "name": "&a8",
-                "description": [
-                    "&7Click to enter the number 8"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "23": {
-                "name": "&a9",
-                "description": [
-                    "&7Click to enter the number 9"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "31": {
-                "name": "&a0",
-                "description": [
-                    "&7Click to enter the number 0"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
-                    "signature": ""
-                }
-            }
+            "3": "[gen5_main_quest_3_lock_1]",
+            "4": "[gen5_main_quest_3_lock_2]",
+            "5": "[gen5_main_quest_3_lock_3]",
+            "12": "[gen5_main_quest_3_lock_4]",
+            "13": "[gen5_main_quest_3_lock_5]",
+            "14": "[gen5_main_quest_3_lock_6]",
+            "21": "[gen5_main_quest_3_lock_7]",
+            "22": "[gen5_main_quest_3_lock_8]",
+            "23": "[gen5_main_quest_3_lock_9]",
+            "31": "[gen5_main_quest_3_lock_0]"
         }
     ],
     "Skip": -3,
@@ -1032,126 +916,16 @@
         "Code",
         4,
         {
-            "3": {
-                "name": "&a1",
-                "description": [
-                    "&7Click to enter the number 1"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "4": {
-                "name": "&a2",
-                "description": [
-                    "&7Click to enter the number 2"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "5": {
-                "name": "&a3",
-                "description": [
-                    "&7Click to enter the number 3"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "12": {
-                "name": "&a4",
-                "description": [
-                    "&7Click to enter the number 4"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "13": {
-                "name": "&a5",
-                "description": [
-                    "&7Click to enter the number 5"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "14": {
-                "name": "&a6",
-                "description": [
-                    "&7Click to enter the number 6"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "21": {
-                "name": "&a7",
-                "description": [
-                    "&7Click to enter the number 7"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "22": {
-                "name": "&a8",
-                "description": [
-                    "&7Click to enter the number 8"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "23": {
-                "name": "&a9",
-                "description": [
-                    "&7Click to enter the number 9"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
-                    "signature": ""
-                }
-            },
-            "31": {
-                "name": "&a0",
-                "description": [
-                    "&7Click to enter the number 0"
-                ],
-                "material": "Player Head",
-                "data": 3,
-                "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
-                    "signature": ""
-                }
-            }
+            "3": "[gen5_main_quest_3_lock_1]",
+            "4": "[gen5_main_quest_3_lock_2]",
+            "5": "[gen5_main_quest_3_lock_3]",
+            "12": "[gen5_main_quest_3_lock_4]",
+            "13": "[gen5_main_quest_3_lock_5]",
+            "14": "[gen5_main_quest_3_lock_6]",
+            "21": "[gen5_main_quest_3_lock_7]",
+            "22": "[gen5_main_quest_3_lock_8]",
+            "23": "[gen5_main_quest_3_lock_9]",
+            "31": "[gen5_main_quest_3_lock_0]"
         }
     ],
     "Skip": -3,
@@ -1168,13 +942,13 @@
     "Wait": 20,
     "SendMessage": "&e&l+1 Flute",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "I got it!",
+            "[PLAYER]": "&oI got it!",
             "&7&lSnorlax": "Snor... lax!",
-            "[PLAYER]": "Uh oh! It looks like I woke up the Snorlax! It seems very angry!"
+            "[PLAYER]": "&oUh oh! It looks like I woke up the Snorlax! It seems very angry!"
         },
-        90
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Fight Nurse Daisy's Snorlax", 7],
@@ -1203,14 +977,12 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Whew! That was a close call! Hey it dropped a piece of paper... Maybe that will help me!"
+            "[PLAYER]": "&oWhew! That was a close call!"
         },
-        90
+        90, true, true
     ],
-    "Wait": 20,
-    "SendMessage": "&e&l+1 Sheet Music",
     "Wait": 20,
     "Objective": ["Return to the bridge and play the flute to calm down the Pokemon", 3],
     "Wait": 20,
@@ -1231,35 +1003,60 @@
     "Wait": 1.0,
     "PlaySound": ["block_note_block_flute", 1.2, 1.0],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "It worked! Thank goodness!"
+            "[PLAYER]": "&oIt worked! Thank goodness!"
         },
-        90
+        90, true, true
     ],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&d&lIggy": "Wow, that was quick work!",
-            "&b&lSparkle": "You're from &3Statera&r right?",
-            "[PLAYER]": "Yeah! They sent me here to help!",
-            "&e&lIssa": "Really? They sent you out here?",
+            "&d&lIggy": "Wow, that was quick work!"
+        },
+        90, true, true, "female_excited"
+    ],
+    "NewDialog": [
+        {
+            "&b&lSparkle": "You're from &3Statera&r right?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Yeah! They sent me here to help!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&e&lIssa": "Really? They sent you out here?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&e&lIssa": "Wow... that's actually pretty impressive...",
             "&b&lSparkle": "Almost makes it seem like they care, huh?",
             "&d&lIggy": "I've been telling you guys all along! Geez.",
             "&d&lIggy": "Stuck in the ways of old, I swear..."
         },
-        90
+        90, true, true, "female_normal"
     ],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "&5&lTessa": "I mean, it's just the fact that the Pokémon didn't start going bonkers until &3Statera&r showed up!",
             "&e&lIssa": "It's just awfully sus, yaknow?",
-            "&d&lIggy": "Ever heard of 'coincidence'? Aye?",
+            "&d&lIggy": "Ever heard of 'coincidence'? Aye?"
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&9&lTommy": "Y'all shush... there's a representative coming..."
         },
-        90
+        90, true, true, "male_angry"
     ],
     "Show": {
         "Statera_Representative1": true
@@ -1271,25 +1068,25 @@
         "Statera_Representative2": true
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&4&lThomas": "Can you come here for a moment, [PLAYER]?"
         },
-        90
+        90, true, true, "male_question"
     ],
     "Objective": ["Talk to Thomas at the bridge in Spiritvale.", 3],
     "InRegion": [
         387, 52, -33,
         381, 57, -40
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&4&lThomas": "Thanks for doing this, I was running behind from the last time they pinged our GPS...",
             "&4&lThomas": "You did good work though, it was definitely a better decision to send you here rather than me.",
             "&4&lThomas": "Here, take this for all the trouble!",
             "&4&lThomas": "I'll take care of things from here! Good luck training for your gym battle!"
         },
-        90
+        90, true, true, "male_normal"
     ],
     "Wait": 20,
     "Complete": [],
