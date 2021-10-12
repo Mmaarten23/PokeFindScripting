@@ -495,16 +495,34 @@
         },
         1, true, true, "male_excited"
     ],
-    "Wait": 50,
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["worker2", -1047.8, 44.0, 338.8],
+    "Wait": 15,
+    "ProgressiveMoveEntity": ["worker4", -1048.8, 44.0, 343.1],
+    "Wait": 25,
     "Progress": "gen5_main_quest_1_bridge",
 
-    "Wait": 60,
+    "Wait": 20,
+    "ProgressiveMoveEntity": ["worker1", -1052.1, 44.0, 350.8],
+    "Wait": 40,
     "NewDialog": [
         {
-            "&4&lThomas": "We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance.",
+            "&4&lThomas": "We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance."
+        },
+        60, true, true, "male_normal"
+    ],
+    "ProgressiveMoveEntity": ["worker3", -1049.4,44.0,362.3],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["worker2", -1051.3,44.0,330.3],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["worker4", -1047.4,44.0,362.3],
+    "Wait": 20,
+    "ProgressiveMoveEntity": ["worker1", -1049.3,44.0,330.3],
+    "NewDialog": [
+        {
             "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also united the previously separate islands."
         },
-        110, true, true, "male_normal"
+        50, true, true, "male_normal"
     ],
     "Hide": {
         "worker1": true,
@@ -534,9 +552,10 @@
     ],
     "Unfreeze": [],
     "Fade": [],
-    "Teleport": [782.1,59.0,444.4, -133],
+    "Teleport": [782.1, 59.0, 444.4, -133],
     "StopCinematic": [],
     "ShowPlayer": [],
+    "Wait": 60,
     "NewDialog": [
         {
             "&4&lThomas": "Well, enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure.",
