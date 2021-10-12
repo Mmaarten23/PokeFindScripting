@@ -264,9 +264,9 @@
         "name": "&4&lThomas",
         "location": {
             "world": "world",
-            "x": 386.5,
+            "x": 383.7,
             "y": 52.9,
-            "z": -28.5,
+            "z": -37.9,
             "yaw": 340,
             "pitch": 0
         },
@@ -358,7 +358,7 @@
     "Unfreeze": [],
     "ShowPlayer": [],
     "Wait": 20,
-    "Objective": ["Talk to the citizens at the bridge to see how you can help calm the Pokemon", 7],
+    "Objective": ["Talk to the citizens at the bridge to see how you can help calm the Pokemon", 2],
     "HighlightClickEntity": "BridgeCitizen1",
     "Dialog": [
         {
@@ -368,6 +368,7 @@
         },
         90
     ],
+    "Objective": ["Learn more from the other citizens", 5],
     "HighlightClickEntity": "BridgeCitizen2",
     "Dialog": [
         {
@@ -500,7 +501,7 @@
         90
     ],
     "Start": "gen5_main_quest_3_riddle",
-    "MoveEntity": ["Guard2", 410.5, 58.0, -48.1, 0.2, false],
+    "MoveEntity": ["Guard3", 410.5, 58.0, -48.1, 0.2, false],
     "Wait": 20,
     "Objective": ["Solve the riddle located near Mia (Answer by typing /youranswer)", 4],
     "Command": "magikarp",
@@ -1236,7 +1237,6 @@
         },
         90
     ],
-    "Look": "BridgeCitizen4",
     "Wait": 10,
     "Dialog": [
         {
@@ -1251,7 +1251,6 @@
         },
         90
     ],
-    "Look": "BridgeCitizen5",
     "Wait": 10,
     "Dialog": [
         {
@@ -1299,14 +1298,7 @@
     "GiveTrainerExperience": 1,
     "GiveItem": "apple",
     "Wait": 20,
-
-
-    "SetTitle": [
-        "&5&lA soothing melody",
-        "&a! Quest complete !",
-        true
-    ],
-    "PlaySound": "ui_toast_challenge_complete",
+    "Fade": [],
     "Hide": {
         "BridgePokemon1": true,
         "BridgePokemon2": true,
@@ -1319,5 +1311,15 @@
         "BridgeCitizen4": true,
         "BridgeCitizen5": true,
         "Statera_Representative2": true
-    }
+    },
+    "Wait": 20,
+
+
+    "SetTitle": [
+        "&5&lA soothing melody",
+        "&a! Quest complete !",
+        true
+    ],
+    "PlaySound": "ui_toast_challenge_complete",
+
 }
