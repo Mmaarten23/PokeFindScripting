@@ -499,7 +499,43 @@
     "NewDialog": [
         {
             "&4&lThomas": "We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance.",
-            "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also united the previously separate islands.",
+            "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also united the previously separate islands."
+        },
+        110, true, true, "male_normal"
+    ],
+    "Hide": {
+        "worker1": true,
+        "worker2": true,
+        "worker3": true,
+        "worker4": true
+    },
+    "SetBlocks": [
+        -1052, 44, 354,
+        -1052, 54, 354,
+        "air"
+    ],
+    "SetBlocks": [
+        -1048, 44, 354,
+        -1048, 54, 354,
+        "air"
+    ],
+    "SetBlocks": [
+        -1048, 44, 362,
+        -1048, 54, 362,
+        "air"
+    ],
+    "SetBlocks": [
+        -1052, 44, 362,
+        -1052, 54, 362,
+        "air"
+    ],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [777.5, 59.0, 443.0, -129],
+    "StopCinematic": [],
+    "ShowPlayer": [],
+    "NewDialog": [
+        {
             "&4&lThomas": "Well, enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure.",
             "&4&lThomas": "You should check out the island that is connected through this bridge. It has a nice smell to it!"
 
