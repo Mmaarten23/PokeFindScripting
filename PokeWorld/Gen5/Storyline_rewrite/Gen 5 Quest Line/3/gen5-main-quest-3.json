@@ -480,8 +480,7 @@
     ],
     "NewDialog": [
         {
-            "[PLAYER]": "I'll get right to it!",
-            "&3&lStatera": "We'll be checking in with you later, thanks again!"
+            "[PLAYER]": "I'll get right to it!"
         },
         90, true, true
     ],
@@ -1090,6 +1089,7 @@
     ],
     "Wait": 20,
     "Complete": [],
+    "PlaySound": "entity_player_levelup",
     "GiveCoins": 1,
     "GiveTokens": 1,
     "GiveTrainerExperience": 1,
@@ -1114,9 +1114,9 @@
 
     "SetTitle": [
         "&5&lA soothing melody",
-        "&a! Quest complete !",
+        "&aQuest complete",
         true
     ],
-    "PlaySound": "ui_toast_challenge_complete"
+    "PlayCustomSound": "sfx.quest_complete"
 
 }

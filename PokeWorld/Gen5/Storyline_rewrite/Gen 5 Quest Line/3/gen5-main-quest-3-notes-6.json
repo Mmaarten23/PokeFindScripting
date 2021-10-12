@@ -33,7 +33,7 @@
     "Show": "note",
     "TeleportEntity": ["note", 387.5, 61.5, -29.5],
     "Wait": 5,
-    "MoveEntityRelative": ["note", 0.0, -8.0, 0.0, 0.1, false],
+    "MoveEntityRelative": ["note", 0.0, -8.5, 0.0, 0.1, false],
     "Skip": "bottom_reached",
 
 
