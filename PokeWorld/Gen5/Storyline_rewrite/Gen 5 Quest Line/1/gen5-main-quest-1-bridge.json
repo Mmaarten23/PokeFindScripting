@@ -18,27 +18,6 @@
         "sand",
         "sand"
     ],
-    "SetBlocks": [
-        -1052, 44, 354,
-        -1052, 54, 354,
-        "iron_bars"
-    ],
-    "SetBlocks": [
-        -1048, 44, 354,
-        -1048, 54, 354,
-        "iron_bars"
-    ],
-    "SetBlocks": [
-        -1048, 44, 362,
-        -1048, 54, 362,
-        "iron_bars"
-    ],
-    "SetBlocks": [
-        -1052, 44, 362,
-        -1052, 54, 362,
-        "iron_bars"
-    ],
-
     "CreateCustomEntity": [
         "bridge",
         -1058.5, 41.0, 352.5,
