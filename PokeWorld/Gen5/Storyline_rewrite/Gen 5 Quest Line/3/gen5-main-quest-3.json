@@ -1105,6 +1105,7 @@
     "GiveItem": "apple",
     "Wait": 20,
     "Fade": [],
+    "Teleport": [385.5, 52.9, -35.9, 154],
     "Hide": {
         "BridgePokemon1": true,
         "BridgePokemon2": true,

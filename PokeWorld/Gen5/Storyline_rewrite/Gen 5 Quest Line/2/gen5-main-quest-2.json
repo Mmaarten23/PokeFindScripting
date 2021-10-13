@@ -787,7 +787,7 @@
     "NewDialog": [
         {
             "[PLAYER]": "&oPerfect, now I can keep going."
-        },60, true, true
+        }, 60, true, true
     ],
     "Wait": 20,
     "Objective": ["Complete the second parkour", 5],
@@ -1015,6 +1015,7 @@
     ],
     "Wait": 20,
     "Fade": [],
+    "Teleport": [1082.5, 6.0, -436.5],
     "Hide": "tribe_Member",
     "Wait": 10,
     "NewDialog": [
@@ -1035,7 +1036,7 @@
             "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b2&r people in front of you.",
             "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b1&r people in front of you."
         },
-        240,true, true
+        240, true, true
     ],
     "Leave": "song_statera_intro",
     "NewDialog": [
@@ -1245,6 +1246,7 @@
     "GiveTrainerExperience": 1,
     "Wait": 20,
     "Fade": [],
+    "Teleport": [922.1,47.0,-551.1, -85],
     "Hide": {
         "rival_battle": true,
         "mike": true
