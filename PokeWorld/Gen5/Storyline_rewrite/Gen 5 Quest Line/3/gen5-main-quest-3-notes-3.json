@@ -41,7 +41,7 @@
     "PlaySound": ["block_note_block_flute", 1.1, 1.0],
     "TeleportEntity": ["note", 385.5, 61.5, -29.5],
     "Wait": 1,
-    "Hide": "note",
+    "Hide": "note_item",
     "Leave": [],
 
     "Comment": "bottom_reached",

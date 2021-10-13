@@ -5,147 +5,6 @@
     "AllowRejoining": true,
     "Icon": "jukebox",
 
-    "Store": [
-        "gen5_main_quest_3_lock_1", {
-            "name": "&a1",
-            "description": [
-                "&7Click to enter the number 1"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_2", {
-            "name": "&a2",
-            "description": [
-                "&7Click to enter the number 2"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_3", {
-            "name": "&a3",
-            "description": [
-                "&7Click to enter the number 3"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_4", {
-            "name": "&a4",
-            "description": [
-                "&7Click to enter the number 4"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_5", {
-            "name": "&a5",
-            "description": [
-                "&7Click to enter the number 5"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_6", {
-            "name": "&a6",
-            "description": [
-                "&7Click to enter the number 6"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_7", {
-            "name": "&a7",
-            "description": [
-                "&7Click to enter the number 7"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_8", {
-            "name": "&a8",
-            "description": [
-                "&7Click to enter the number 8"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_9", {
-            "name": "&a9",
-            "description": [
-                "&7Click to enter the number 9"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-    "Store": [
-        "gen5_main_quest_3_lock_0", {
-            "name": "&a0",
-            "description": [
-                "&7Click to enter the number 0"
-            ],
-            "material": "Player Head",
-            "data": 3,
-            "skin": {
-                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
-                "signature": ""
-            }
-        }
-    ],
-
 
     "CreateEntity": {
         "key": "BridgeCitizen1",
@@ -824,6 +683,146 @@
         469, 69, 33,
         470, 69, 33
     ],
+    "Set": [
+        "gen5_main_quest_3_lock_1", {
+            "name": "&a1",
+            "description": [
+                "&7Click to enter the number 1"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_2", {
+            "name": "&a2",
+            "description": [
+                "&7Click to enter the number 2"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_3", {
+            "name": "&a3",
+            "description": [
+                "&7Click to enter the number 3"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_4", {
+            "name": "&a4",
+            "description": [
+                "&7Click to enter the number 4"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_5", {
+            "name": "&a5",
+            "description": [
+                "&7Click to enter the number 5"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_6", {
+            "name": "&a6",
+            "description": [
+                "&7Click to enter the number 6"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_7", {
+            "name": "&a7",
+            "description": [
+                "&7Click to enter the number 7"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_8", {
+            "name": "&a8",
+            "description": [
+                "&7Click to enter the number 8"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_9", {
+            "name": "&a9",
+            "description": [
+                "&7Click to enter the number 9"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
+    "Set": [
+        "gen5_main_quest_3_lock_0", {
+            "name": "&a0",
+            "description": [
+                "&7Click to enter the number 0"
+            ],
+            "material": "Player Head",
+            "data": 3,
+            "skin": {
+                "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZDE5NzJjZTJmMmI3OWIyZGYwN2FkNWM1NzRmOWNjZDBlY2ViMjA0MTQzZGY5NjZkMzAxYjE4ZTkyYjBiNiJ9fX0=",
+                "signature": ""
+            }
+        }
+    ],
     "Menu": [
         "Code",
         4,
@@ -937,6 +936,16 @@
     "Skip": -10,
     "Skip": -11,
     "SendMessage": "&aAccess Granted",
+    "Set": ["gen5_main_quest_3_lock_1", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_2", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_3", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_4", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_5", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_6", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_7", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_8", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_9", "REMOVE"],
+    "Set": ["gen5_main_quest_3_lock_0", "REMOVE"],
     "Hide": "Guard4",
     "Wait": 20,
     "SendMessage": "&e&l+1 Flute",
