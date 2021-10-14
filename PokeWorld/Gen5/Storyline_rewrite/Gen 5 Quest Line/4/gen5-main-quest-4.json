@@ -322,6 +322,7 @@
     "Objective": ["Solve the magma puzzle inside the volcano", 3],
     "Skip": "first_ice",
     "Comment": "restart_ice",
+    "Wait": 2.0,
     "Teleport": [-796.5, 51.0, 752.5, -90],
     "SendMessage": "&cThat turned into a hot mess! Try again.",
     "Comment": "first_ice",
