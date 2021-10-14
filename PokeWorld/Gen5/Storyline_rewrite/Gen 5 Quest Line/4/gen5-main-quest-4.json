@@ -289,13 +289,13 @@
     ],
     "SetBlocks": [
         -865, 12, 837,
-        -839, 35, 837,
+        -836, 35, 837,
         "air",
         "barrier"
     ],
     "Comment": "\"NotCompleted\": [\n    ],\n    \"Completed\": [\n        \"GYM3\"\n    ],",
     "Completed": "gen5_main_quest_3",
-    "Dialog": [
+    "NewDialog": [
         {
             "&3H.A.P.P.Y.": "Welcome to &3Statera HQ&r, [PLAYER]. Agent Ty is waiting for you inside."
         },
@@ -303,69 +303,69 @@
     ],
     "Objective": ["Talk to Agent Ty near Danielle", 2],
     "HighlightClickEntity": "Representative1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lAgent Ty": "You must be [PLAYER], my name is &c&lAgent Ty&r and I am here to inform you of some wonderful news!",
             "&c&lAgent Ty": "You and your friend &dDanielle&r-"
         },
         90, true, true, "male_normal"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Hardly friends..."
         },
         60, true, true, "female_angry"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lAgent Ty": "What was that &dDanielle&r?"
         },
         60, true, true, "male_question"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Oh nothing, sorry, I had a catch in my throat..."
         },
         90, true, true, "female_scared"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lAgent Ty": "Oh... alright then... Well, the two of you have been promoted!",
             "&c&lAgent Ty": "You will now have official titles with our company as &2Field Operators&r!"
         },
         90, true, true, "male_excited"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "What does that mean...?"
         },
         60, true, true, "female_question"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lAgent Ty": "Well both of you are incredibly skilled Pokémon trainers, so we would like you to work for us more hands-on in the field."
         },
         90, true, true, "male_normal"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lAgent Ty": "Do you accept?"
         },
         60, true, true, "male_question"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "Of course!"
         },
         30, true, true
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Yes!"
         },
         60, true, true, "female_excited"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
 
             "&c&lAgent Ty": "Great! I'm glad both of you have accepted. Let's continue into your first task then.",
@@ -387,7 +387,7 @@
     ],
     "Hide": "Rival1",
     "Start": "gen5_main_quest_4_ice_puzzle_instructions",
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "It looks like the door to the base is shut... We probably have to solve this puzzle to open it.",
             "&d&lDanielle": "You do it. You always want to prove you are &obetter&r than me anyway."
@@ -410,12 +410,17 @@
         -790, 55, 728,
         5
     ],
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "It opened!",
+            "[PLAYER]": "It opened!"
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "Phuh, I could have done that 10 times quicker!"
         },
-        90
+        90, true, true, "female_angry"
     ],
     "Objective": ["Enter the cave and find the Ancient Tribe Elders", 3],
     "Show": {
@@ -431,12 +436,12 @@
         -788, 55, 724
     ],
     "Freeze": [],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oLooks like there are some ancient markings on the wall...",
             "[PLAYER]": "&oAre we... inside the volcano??"
         },
-        90
+        60, true, true
     ],
     "Unfreeze": [],
     "RegionEntry": [
@@ -444,12 +449,12 @@
         -822, 53, 684
     ],
     "Freeze": [],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "Why are those two Pokémon standing on each side? They're coloured Black and White?",
             "[PLAYER]": "The balance between them is just... perfect!"
         },
-        90
+        60, true, true
     ],
     "Unfreeze": [],
     "RegionEntry": [
@@ -457,11 +462,11 @@
         -833, 1, 672
     ],
 
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oThose two Pokemon looked so happy..."
         },
-        1
+        1, true, false
     ],
     "RegionEntry": [
         -821, 17, 671,
@@ -472,27 +477,42 @@
     "Wait": 10,
     "Look": "Tribe_Leader",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lSophro Elder": "...It cannot be-",
-            "&6&lSophro Elder": "... But... Teth-",
+            "&6&lSophro Elder": "... But... Teth-"
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "&6&lSophro Elder": "&3Statera&r CEO...",
-            "&6&lSophro Elder": "His Pokemon...",
+            "&6&lSophro Elder": "His Pokemon..."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&6&lSophro Elder": "... No Weak-",
             "&6&lSophro Elder": "We took the Boss’s...-",
             "&6&lSophro Elder": "They will not be an issue..."
         },
-        90
+        90, true, true, "male_normal"
     ],
     "Wait": 20,
-    "EntityLookAtPlayer": "Tribe_Leader",
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "I can't hear them... I'll have to move closer...",
-            "&6&lSophro Elder": "What was that?! Is someone here?!",
-            "&6&lSophro Elder": "Quick! Go to your invasion positions!"
+            "[PLAYER]": "I can't hear them... I'll have to move closer..."
         },
-        90
+        90, true, true
+    ],
+    "EntityLookAtPlayer": "Tribe_Leader",
+    "NewDialog": [
+        {
+            "&e&lAstrid": "What was that?! Is someone here?!",
+            "&e&lAstrid": "Quick! Go to your invasion positions!"
+        },
+        90, true, true, "female_angry"
     ],
     "Wait": 20,
     "ProgressiveMoveEntity": ["Tribe_Leader", -817.5, 17.5, 700.5, false],
@@ -807,9 +827,9 @@
     ],
     "SetBlocks": [
         -865, 12, 837,
-        -839, 35, 837,
+        -836, 35, 837,
         "air",
-        "barrier"
+        "air"
     ],
     "Wait": 20,
     "Show": {
@@ -880,13 +900,13 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "As I said before... my name is &eAstrid&r, I am the new leader of the Tribe of &eSophro&r. You’ve bested me in battle, but I plead with you...",
             "&e&lAstrid": "Do not interfere further... &3Statera&r is corrupt, they are putting our very lives on the line, they are unbalancing what the universe has spent thousands upon thousands of years to put into motion.",
             "&e&lAstrid": "They care nothing for our lands, or our people. They are greedy! They must be stopped before they ruin our futures!",
             "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up? We have far more meeting locations than &3Statera&r could possibly be aware of.",
-            "[PLAYER]": "What did you steal from &3Statera?!",
+            "[PLAYER]": "What did you steal from &3Statera&r?!",
             "&e&lAstrid": "You heard us mention that...? Well...",
             "&e&lAstrid": "We did capture &3Statera&r's Boss's Pokémon.",
             "[PLAYER]": "Why? Which one? Where did you hide it?!",
@@ -907,7 +927,7 @@
     },
     "HighlightClickEntity": "Representative1",
     "Hide": "Battle_Tribe_Leader",
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lAgent Ty": "Welcome back, [PLAYER]! I take it your task was successful?",
             "[PLAYER]": "Yes... You'll never guess what I overheard! They said they stole the Boss's Pokémon!",
@@ -917,7 +937,7 @@
             "&c&lAgent Ty": "Hahaha... You're listening to that old crone?",
             "&c&lAgent Ty": "Don't, [PLAYER]. &6Sophro&r is a tribe of liars, they're twisting words and actions around to benefit themselves, so that they no longer look like the bad guys.",
             "&c&lAgent Ty": "Have you heard that story yet, about &9Kyogre&r and &cGroudon&r?",
-            "&c&lAgent Ty": "There have been many different versions of it, even one accusing &3Statera of being behind it...",
+            "&c&lAgent Ty": "There have been many different versions of it, even one accusing &3Statera&r of being behind it...",
             "&c&lAgent Ty": "&6Sophro&r has been active in Zeinova for hundreds of years, only they would have the knowledge to pull off something like taming the Wild Legends.",
             "&c&lAgent Ty": "They've endangered Zeinova before, and we've held them at bay. They're read to do it again.",
             "&c&lAgent Ty": "Oh! Before I forget! Here, take these, for all your amazing work today!"
@@ -926,21 +946,25 @@
     ],
     "Wait": 20,
     "Complete": [],
+    "PlaySound": "entity_player_levelup",
     "GiveCoins": 1,
     "GiveTokens": 1,
     "GiveTrainerExperience": 1,
-    "GiveItem": [
-        "carrot"
-    ],
+    "GiveItem": "carrot",
     "Wait": 20,
-    "SetTitle": [
-        "&5&lA soothing melody",
-        "&a! Quest complete !",
-        true
-    ],
-    "PlaySound": "ui_toast_challenge_complete",
+    "Fade": [],
+    "Teleport": [70.5,53.0,337.5, -90],
     "Hide": {
         "Representative1": true,
-        "Rival1": true
-    }
+        "Rival1": true,
+        "Happy": true
+    },
+    "Wait": 20,
+
+    "SetTitle": [
+        "&6&lAn ancient encounter",
+        "&aQuest complete",
+        true
+    ],
+    "PlayCustomSound": "sfx.quest_complete"
 }
