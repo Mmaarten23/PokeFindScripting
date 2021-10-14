@@ -297,59 +297,109 @@
     "Completed": "gen5_main_quest_3",
     "Dialog": [
         {
-            "&3H.A.P.P.Y.": "Welcome to &3Statera HQ&r [PLAYER]. Agent Ty is waiting for you inside."
+            "&3H.A.P.P.Y.": "Welcome to &3Statera HQ&r, [PLAYER]. Agent Ty is waiting for you inside."
         },
-        90
+        90, true, false, "male_normal"
     ],
-    "Wait": 20,
     "Objective": ["Talk to Agent Ty near Danielle", 2],
     "HighlightClickEntity": "Representative1",
     "Dialog": [
         {
             "&c&lAgent Ty": "You must be [PLAYER], my name is &c&lAgent Ty&r and I am here to inform you of some wonderful news!",
-            "&c&lAgent Ty": "You and your friend &dDanielle&r-",
-            "&d&lDanielle": "Hardly friends...",
-            "&c&lAgent Ty": "What was that &dDanielle&r?",
-            "&d&lDanielle": "Oh nothing, sorry, I had a catch in my throat...",
+            "&c&lAgent Ty": "You and your friend &dDanielle&r-"
+        },
+        90, true, true, "male_normal"
+    ],
+    "Dialog": [
+        {
+            "&d&lDanielle": "Hardly friends..."
+        },
+        60, true, true, "female_angry"
+    ],
+    "Dialog": [
+        {
+            "&c&lAgent Ty": "What was that &dDanielle&r?"
+        },
+        60, true, true, "male_question"
+    ],
+    "Dialog": [
+        {
+            "&d&lDanielle": "Oh nothing, sorry, I had a catch in my throat..."
+        },
+        90, true, true, "female_scared"
+    ],
+    "Dialog": [
+        {
             "&c&lAgent Ty": "Oh... alright then... Well, the two of you have been promoted!",
-            "&c&lAgent Ty": "You will now have official titles with our company as &2Field Operators&r!",
-            "&d&lDanielle": "What does that mean...?",
-            "&c&lAgent Ty": "Well both of you are incredibly skilled Pokémon trainers, so we would like you to work for us more hands-on in the field.",
-            "&c&lAgent Ty": "Do you accept?",
-            "[PLAYER]": "Of course!",
-            "&d&lDanielle": "Yes!",
+            "&c&lAgent Ty": "You will now have official titles with our company as &2Field Operators&r!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "Dialog": [
+        {
+            "&d&lDanielle": "What does that mean...?"
+        },
+        60, true, true, "female_question"
+    ],
+    "Dialog": [
+        {
+            "&c&lAgent Ty": "Well both of you are incredibly skilled Pokémon trainers, so we would like you to work for us more hands-on in the field."
+        },
+        90, true, true, "male_normal"
+    ],
+    "Dialog": [
+        {
+            "&c&lAgent Ty": "Do you accept?"
+        },
+        60, true, true, "male_question"
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Of course!"
+        },
+        30, true, true
+    ],
+    "Dialog": [
+        {
+            "&d&lDanielle": "Yes!"
+        },
+        60, true, true, "female_excited"
+    ],
+    "Dialog": [
+        {
+
             "&c&lAgent Ty": "Great! I'm glad both of you have accepted. Let's continue into your first task then.",
             "&c&lAgent Ty": "[PLAYER], you will be assigned to help us take down the Ancient Tribe also known as &6Sophro&r, they are, and have proven time and time again that they are a major threat to the region and our unity.",
             "&c&lAgent Ty": "You will need to infiltrate their meeting, it's to take place today in their main hall. It's located in a Volcano in an underground cavern, directly in the middle of the region.",
             "&c&lAgent Ty": "Find out what they are planning, and put an end to this meeting!",
             "&c&lAgent Ty": "You should be able to find the hidden entrance to their base near the Volcano at Redgrove! Good luck!"
         },
-        90
+        60, true, true, "male_normal"
     ],
+
+
     "Wait": 20,
     "Objective": ["Head over to Redgrove and find the secret entrance to their base by the Volcano", 3],
-    "Show": {
-        "Rival1": false,
-        "Rival2": true
-    },
+    "Show": "Rival2",
     "RegionEntry": [
         -777, 1, 776,
         -813, 70, 750
     ],
+    "Hide": "Rival1",
     "Start": "gen5_main_quest_4_ice_puzzle_instructions",
     "Dialog": [
         {
             "&d&lDanielle": "It looks like the door to the base is shut... We probably have to solve this puzzle to open it.",
             "&d&lDanielle": "You do it. You always want to prove you are &obetter&r than me anyway."
         },
-        90
+        90, true, true, "female_normal"
     ],
     "Objective": ["Solve the magma puzzle inside the volcano", 3],
     "Skip": "first_ice",
     "Comment": "restart_ice",
     "Wait": 2.0,
     "Teleport": [-796.5, 51.0, 752.5, -90],
-    "SendMessage": "&cThat turned into a hot mess! Try again.",
+    "SendMessage": "&cThat turned into a hot mess! Try again...",
     "Comment": "first_ice",
     "Start": ["gen5_main_quest_4_ice_puzzle", 1.0, "Start"],
     "Hold": [],

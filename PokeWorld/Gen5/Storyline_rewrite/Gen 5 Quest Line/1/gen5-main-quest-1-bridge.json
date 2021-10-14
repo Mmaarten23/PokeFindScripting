@@ -25,8 +25,10 @@
     ],
     "Server": [],
     "Hide": "bridge",
+
     "Wait": 3,
     "Show": "bridge",
+    "Wait": 3,
     "TeleportEntity": ["bridge", -1054.5, 41.0, 352.5],
     "Hold": [],
     "MoveEntity": ["bridge", -1054.5, 32.0, 352.5, 0.1, false],
