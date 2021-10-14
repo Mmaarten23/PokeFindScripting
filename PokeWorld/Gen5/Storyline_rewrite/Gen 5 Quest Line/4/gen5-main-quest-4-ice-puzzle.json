@@ -2,10 +2,7 @@
     "Key": "gen5_main_quest_4_ice_puzzle",
     "Hold": [],
 
-    "LeaveScript": [],
-    "Teleport": [-796.5, 51.0, 752.5, -90],
-    "LeaveScript": [],
-    "SendMessage": "&cThat turned into a hot mess! Try again.",
+
     "LeaveScript": [],
     "Progress": "gen5_main_quest_4",
     "Comment": "Start",
