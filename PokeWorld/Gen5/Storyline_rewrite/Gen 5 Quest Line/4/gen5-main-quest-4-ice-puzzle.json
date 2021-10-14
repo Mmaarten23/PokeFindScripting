@@ -1,26 +1,34 @@
 {
     "Key": "gen5_main_quest_4_ice_puzzle",
     "Hold": [],
+
+    "LeaveScript": [],
+    "Teleport": [-796.5, 51.0, 752.5, -90],
+    "LeaveScript": [],
+    "SendMessage": "&cThat turned into a hot mess! Try again.",
+    "LeaveScript": [],
+    "Progress": "gen5_main_quest_4",
     "Comment": "Start",
+
     "BlockEntry": [
-        -793,        51,        750,
-        -789,        51,        750,
+        -793, 51, 750,
+        -789, 51, 754,
         "magma_block",
         "Obsidian"
     ],
     "PlaySound": [
-        "",
+        "entity_player_levelup",
         1.0,
         1.0
     ],
     "BlockEntry": [
-        -780,        52,        749,
-        -786,        52,        755,
+        -780, 52, 749,
+        -786, 52, 755,
         "magma_block",
         "Obsidian"
     ],
     "PlaySound": [
-        "",
+        "entity_player_levelup",
         1.0,
         1.0
     ],
@@ -30,27 +38,12 @@
         "magma_block",
         "Obsidian"
     ],
+    "PlaySound": [
+        "entity_player_levelup",
+        1.0,
+        1.0
+    ],
     "Delay": 20,
-    "Progress": "gen5_main_quest_4",
-    "Complete": [],
-    "Leave": [],
-    "GlobalRegionEntry": [
-        -793, 48, 754,
-        -788, 50, 750
-    ],
-    "Teleport": [
-        -796.5, 51.0,
-        752.5, 270,
-        0
-    ],
-    "GlobalRegionEntry": [
-        -786, 49, 755,
-        -779, 51, 749
-    ],
-    "Teleport": [-786.5, 53.0, 752.5, 270, 0],
-    "GlobalRegionEntry": [
-        -782, 50, 746,
-        -788, 52, 739
-    ],
-    "Teleport": [-784.5, 54.0, 747.5, 180, 0]
+    "Progress": [2, "gen5_main_quest_4"],
+    "Leave": []
 }

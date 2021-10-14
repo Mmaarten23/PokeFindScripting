@@ -243,8 +243,8 @@
     },
     "Show": {
         "Happy": true,
-        "Representative1": false,
-        "Rival1": false,
+        "Representative1": true,
+        "Rival1": true,
         "Rival2": false,
         "Tribe_Member1": false,
         "Tribe_Member2": false,
@@ -267,11 +267,6 @@
         },
         90
     ],
-    "Show": {
-        "Representative1": true,
-        "Rival1": true,
-        "Happy": false
-    },
     "Wait": 20,
     "Objective": ["Talk to Agent Ty near Danielle", 2],
     "HighlightClickEntity": "Representative1",
@@ -307,18 +302,28 @@
         -777, 1, 776,
         -813, 70, 750
     ],
+    "Hologram": [
+        385.5, 55.0, -29.5,
+        "&6&l~A hot mess~&r",
+        "&6------------------------&r",
+        "Turn all the &cmagma&r blocks into &8obsidian&r blocks",
+        "by stepping on them but be careful!",
+        "Stepping on an &8obsidian&r block or moving &4diagonally&r",
+        "leads to unexpected chaos!"
+
+    ],
     "Dialog": [
         {
-            "&d&lDanielle": "It looks like the door to the base is shut... Maybe we have to solve the puzzles to open the door?",
-            "&3H.A.P.P.Y.": "To open the door simply step on all the Magma Blocks! Just don't step on the same block twice!"
+            "&d&lDanielle": "It looks like the door to the base is shut... Maybe we have to solve the puzzles to open the door?"
         },
         90
     ],
     "Wait": 20,
-    "Objective": ["Solve the magma puzzle (Don't step on the same block twice!)", 3],
-    "SendMessage": "DEBUG: Puzzle currently broken. Manually progress 1 stage!",
+    "Objective": ["Solve the magma puzzle inside the volcano", 3],
+    "Comment": "restart_ice",
     "Start": ["gen5_main_quest_4_ice_puzzle", 1.0, "Start"],
     "Hold": [],
+    "Skip": "restart_ice",
     "ProgressiveWall": [
         -792, 51, 728,
         -790, 55, 728,
@@ -330,9 +335,6 @@
         },
         90
     ],
-    "SendMessage": "DEBUG: Map needs to be updated, teleporting you manually through the gate for now!",
-    "Wait": 20,
-    "Teleport": [-790.5, 51.0, 727.5, 180],
     "Objective": ["Enter the cave and find the Ancient Tribe Elders", 3],
     "Show": {
         "Rival2": false,
