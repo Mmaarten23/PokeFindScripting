@@ -89,10 +89,10 @@
         "key": "Tribe_Member1",
         "name": "&6&lSophro Elder",
         "location": {
-            "x": -822.5,
+            "x": -822.7,
             "y": 19.0,
-            "z": 692.5,
-            "yaw": 28,
+            "z": 693.7,
+            "yaw": 45,
             "pitch": 0
         },
         "skin": {
@@ -104,10 +104,10 @@
         "key": "Tribe_Member2",
         "name": "&6&lSophro Elder",
         "location": {
-            "x": -822.5,
+            "x": -822.7,
             "y": 19.0,
-            "z": 698.5,
-            "yaw": 131,
+            "z": 699.3,
+            "yaw": 135,
             "pitch": 0
         },
         "skin": {
@@ -119,10 +119,10 @@
         "key": "Tribe_Member3",
         "name": "&6&lSophro Elder",
         "location": {
-            "x": -829.5,
+            "x": -828.3,
             "y": 19.0,
-            "z": 699.5,
-            "yaw": 233,
+            "z": 693.7,
+            "yaw": -45,
             "pitch": 0
         },
         "skin": {
@@ -212,10 +212,10 @@
             "&e&lAstrid"
         ],
         "location": {
-            "x": -827.5,
-            "y": 19.5,
-            "z": 694.5,
-            "yaw": 299,
+            "x": -825.5,
+            "y": 19.0,
+            "z": 692.5,
+            "yaw": 0,
             "pitch": 0
         },
         "skin": {
@@ -905,18 +905,47 @@
             "&e&lAstrid": "As I said before... my name is &eAstrid&r, I am the new leader of the Tribe of &eSophro&r. You’ve bested me in battle, but I plead with you...",
             "&e&lAstrid": "Do not interfere further... &3Statera&r is corrupt, they are putting our very lives on the line, they are unbalancing what the universe has spent thousands upon thousands of years to put into motion.",
             "&e&lAstrid": "They care nothing for our lands, or our people. They are greedy! They must be stopped before they ruin our futures!",
-            "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up? We have far more meeting locations than &3Statera&r could possibly be aware of.",
-            "[PLAYER]": "What did you steal from &3Statera&r?!",
-            "&e&lAstrid": "You heard us mention that...? Well...",
-            "&e&lAstrid": "We did capture &3Statera&r's Boss's Pokémon.",
-            "[PLAYER]": "Why? Which one? Where did you hide it?!",
+            "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up? We have far more meeting locations than &3Statera&r could possibly be aware of."
+        },
+        90, true, true, "female_scared"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "What did you steal from &3Statera&r?!"
+        },
+        60, true, true
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "You heard us mention that...? Well..."
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "We did capture &3Statera&r's Boss's Pokémon."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Why? Which one? Where did you hide it?!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "I think it's best you are not aware of any of that...",
             "&e&lAstrid": "Soon, it will no longer be an issue. It is for the good of the Pokémon... and of our region.",
-            "&e&lAstrid": "Our Swords will bring Justice to this land, and bring Balance back to Zeinova!",
-            "&e&lAstrid": "&3Statera&r's &oExperiments&r will do no good with our plans!",
-            "&e&lAstrid": "Now leave! You've gotten the information you've come for, no? I'll see you another day, I suppose, when &3Statera&r sends their lap dog back to bark up our tree."
+            "&e&lAstrid": "Our Swords will bring Justice to this land, and bring Balance back to Zeinova!"
         },
-        90
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "&3Statera&r's &oExperiments&r will do no good with our plans!"
+        },
+        90, true, true, "female_excited"
     ],
     "Wait": 20,
     "Objective": ["Return to Agent Ty with this new information", 3],
@@ -929,21 +958,63 @@
     "Hide": "Battle_Tribe_Leader",
     "NewDialog": [
         {
-            "&c&lAgent Ty": "Welcome back, [PLAYER]! I take it your task was successful?",
-            "[PLAYER]": "Yes... You'll never guess what I overheard! They said they stole the Boss's Pokémon!",
+            "&c&lAgent Ty": "Welcome back, [PLAYER]! I take it your task was successful?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Yes... You'll never guess what I overheard! They said they stole the Boss's Pokémon!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&c&lAgent Ty": "Boss's Pokémon huh...? Now that is interesting.",
-            "&c&lAgent Ty": "Thanks [PLAYER], go get some rest, I'll ring you if something else comes up.",
-            "[PLAYER]": "Wait! &eAstrid&r also said that &3Statera&r is corrupt and that we're threatening the lives and the balance of the Zeinova Region...",
-            "&c&lAgent Ty": "Hahaha... You're listening to that old crone?",
-            "&c&lAgent Ty": "Don't, [PLAYER]. &6Sophro&r is a tribe of liars, they're twisting words and actions around to benefit themselves, so that they no longer look like the bad guys.",
-            "&c&lAgent Ty": "Have you heard that story yet, about &9Kyogre&r and &cGroudon&r?",
+            "&c&lAgent Ty": "Thanks [PLAYER], go get some rest, I'll ring you if something else comes up."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Wait! &eAstrid&r also said that &3Statera&r is corrupt and that we're threatening the lives and the balance of the Zeinova Region..."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&c&lAgent Ty": "Hahaha... You're listening to that old crone?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "&c&lAgent Ty": "Don't, [PLAYER]. &6Sophro&r is a tribe of liars, they're twisting words and actions around to benefit themselves, so that they no longer look like the bad guys."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "&c&lAgent Ty": "Have you heard that story yet, about &9Kyogre&r and &cGroudon&r?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
             "&c&lAgent Ty": "There have been many different versions of it, even one accusing &3Statera&r of being behind it...",
             "&c&lAgent Ty": "&6Sophro&r has been active in Zeinova for hundreds of years, only they would have the knowledge to pull off something like taming the Wild Legends.",
-            "&c&lAgent Ty": "They've endangered Zeinova before, and we've held them at bay. They're read to do it again.",
+            "&c&lAgent Ty": "They've endangered Zeinova before, and we've held them at bay. They're read to do it again."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "&c&lAgent Ty": "Oh! Before I forget! Here, take these, for all your amazing work today!"
         },
-        90
+        90, true, true, "male_excited"
     ],
+
+
     "Wait": 20,
     "Complete": [],
     "PlaySound": "entity_player_levelup",
@@ -953,7 +1024,7 @@
     "GiveItem": "carrot",
     "Wait": 20,
     "Fade": [],
-    "Teleport": [70.5,53.0,337.5, -90],
+    "Teleport": [70.5, 53.0, 337.5, -90],
     "Hide": {
         "Representative1": true,
         "Rival1": true,
