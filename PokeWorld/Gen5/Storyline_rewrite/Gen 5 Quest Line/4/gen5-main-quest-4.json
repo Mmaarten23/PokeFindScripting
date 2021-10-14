@@ -336,7 +336,7 @@
         -777, 1, 776,
         -813, 70, 750
     ],
-    "Comment": "\"Hologram\": [\n        -790.5, 52.5, 757.5,\n        \"&6&l~A hot mess~&r\",\n        \"&6------------------------&r\",\n        \"Turn all the &cmagma&r blocks into &8obsidian&r blocks\",\n        \"by stepping on them but be careful!\",\n        \"Stepping on an &8obsidian&r block or moving &4diagonally&r\",\n        \"leads to unexpected chaos!\"\n\n    ],",
+    "Start": "gen5_main_quest_4_ice_puzzle_instructions",
     "Dialog": [
         {
             "&d&lDanielle": "It looks like the door to the base is shut... We probably have to solve this puzzle to open it.",
@@ -354,6 +354,7 @@
     "Start": ["gen5_main_quest_4_ice_puzzle", 1.0, "Start"],
     "Hold": [],
     "Skip": "restart_ice",
+    "Leave": "gen5_main_quest_4_ice_puzzle_instructions",
     "ProgressiveWall": [
         -792, 51, 728,
         -790, 55, 728,
@@ -362,7 +363,7 @@
     "Dialog": [
         {
             "[PLAYER]": "It opened!",
-            "&d&lDanielle": "I could have done that 10 times quicker!"
+            "&d&lDanielle": "Phuh, I could have done that 10 times quicker!"
         },
         90
     ],

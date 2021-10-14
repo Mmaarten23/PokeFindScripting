@@ -1,0 +1,15 @@
+{
+    "Key": "gen5_main_quest_4_ice_puzzle_instructions",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+    "Hologram": [
+        -790.5, 52.5, 757.5,
+        "&6&l~A hot mess~&r",
+        "&6------------------------&r",
+        "Turn all the &cmagma&r blocks into &8obsidian&r blocks",
+        "by stepping on them but be careful!",
+        "Stepping on an &8obsidian&r block or moving &4diagonally&r",
+        "leads to unexpected chaos!"
+    ],
+    "Hold": []
+}
