@@ -1,11 +1,15 @@
 {
     "Key": "gen5_main_quest_4_ice_puzzle",
+    "AllowRejoining": true,
     "Hold": [],
 
 
     "LeaveScript": [],
     "Progress": "gen5_main_quest_4",
     "Comment": "Start",
+    "SetBlock": [-788, 52, 752, "barrier"],
+    "SetBlock": [-785, 53, 748, "barrier"],
+    "SetBlock": [-785, 54, 739, "barrier"],
 
     "BlockEntry": [
         -793, 51, 750,
@@ -18,6 +22,7 @@
         1.0,
         1.0
     ],
+    "SetBlock": [-788, 52, 752, "air"],
     "BlockEntry": [
         -780, 52, 749,
         -786, 52, 755,
@@ -29,6 +34,7 @@
         1.0,
         1.0
     ],
+    "SetBlock": [-785, 53, 748, "air"],
     "BlockEntry": [
         -788, 53, 740,
         -782, 53, 746,
@@ -40,6 +46,7 @@
         1.0,
         1.0
     ],
+    "SetBlock": [-785, 54, 739, "air"],
     "Delay": 20,
     "Progress": [2, "gen5_main_quest_4"],
     "Leave": []

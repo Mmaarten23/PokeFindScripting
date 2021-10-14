@@ -258,12 +258,46 @@
         "Battle_Tribe_Leader": false
     },
     "Quest": true,
+
+
+
     "HighlightClickEntity": "Happy",
+    "Comment": "Set up barriers to the cave.",
+    "SetBlocks": [
+        -823, 1, 644,
+        -791, 22, 644,
+        "air",
+        "barrier"
+    ],
+    "SetBlocks": [
+        -868, 27, 688,
+        -861, 31, 688,
+        "air",
+        "barrier"
+    ],
+    "SetBlocks": [
+        -908, 20, 685,
+        -908, 27, 675,
+        "air",
+        "barrier"
+    ],
+    "SetBlocks": [
+        -908, 20, 685,
+        -871, 40, 685,
+        "air",
+        "barrier"
+    ],
+    "SetBlocks": [
+        -865, 12, 837,
+        -839, 35, 837,
+        "air",
+        "barrier"
+    ],
     "Comment": "\"NotCompleted\": [\n    ],\n    \"Completed\": [\n        \"GYM3\"\n    ],",
     "Completed": "gen5_main_quest_3",
     "Dialog": [
         {
-            "&3H.A.P.P.Y.": "Hey! You made it! Head on inside and talk to &c&lAgent Ty&r to get started!"
+            "&3H.A.P.P.Y.": "Welcome to &3Statera HQ&r [PLAYER]. Agent Ty is waiting for you inside."
         },
         90
     ],
@@ -302,23 +336,14 @@
         -777, 1, 776,
         -813, 70, 750
     ],
-    "Hologram": [
-        -790.5, 52.5, 757.5,
-        "&6&l~A hot mess~&r",
-        "&6------------------------&r",
-        "Turn all the &cmagma&r blocks into &8obsidian&r blocks",
-        "by stepping on them but be careful!",
-        "Stepping on an &8obsidian&r block or moving &4diagonally&r",
-        "leads to unexpected chaos!"
-
-    ],
+    "Comment": "\"Hologram\": [\n        -790.5, 52.5, 757.5,\n        \"&6&l~A hot mess~&r\",\n        \"&6------------------------&r\",\n        \"Turn all the &cmagma&r blocks into &8obsidian&r blocks\",\n        \"by stepping on them but be careful!\",\n        \"Stepping on an &8obsidian&r block or moving &4diagonally&r\",\n        \"leads to unexpected chaos!\"\n\n    ],",
     "Dialog": [
         {
-            "&d&lDanielle": "It looks like the door to the base is shut... Maybe we have to solve the puzzles to open the door?"
+            "&d&lDanielle": "It looks like the door to the base is shut... We probably have to solve this puzzle to open it.",
+            "&d&lDanielle": "You do it. You always want to prove you are &obetter&r than me anyway."
         },
         90
     ],
-    "Wait": 20,
     "Objective": ["Solve the magma puzzle inside the volcano", 3],
     "Skip": "first_ice",
     "Comment": "restart_ice",
@@ -336,7 +361,8 @@
     ],
     "Dialog": [
         {
-            "[PLAYER]": "It opened!"
+            "[PLAYER]": "It opened!",
+            "&d&lDanielle": "I could have done that 10 times quicker!"
         },
         90
     ],
@@ -356,8 +382,8 @@
     "Freeze": [],
     "Dialog": [
         {
-            "[PLAYER]": "Looks like there are some ancient markings on the wall...",
-            "[PLAYER]": "There's the volcano!"
+            "[PLAYER]": "&oLooks like there are some ancient markings on the wall...",
+            "[PLAYER]": "&oAre we... inside the volcano??"
         },
         90
     ],
@@ -382,7 +408,7 @@
 
     "Dialog": [
         {
-            "[PLAYER]": "Those two Pokemon looked so happy..."
+            "[PLAYER]": "&oThose two Pokemon looked so happy..."
         },
         1
     ],
@@ -501,6 +527,12 @@
             }
         ]
     ],
+    "SetBlocks": [
+        -823, 1, 644,
+        -791, 22, 644,
+        "air",
+        "air"
+    ],
     "Wait": 20,
     "Show": {
         "Battle_Tribe_Member1": false
@@ -569,6 +601,12 @@
             }
         ]
     ],
+    "SetBlocks": [
+        -868, 27, 688,
+        -861, 31, 688,
+        "air",
+        "air"
+    ],
     "Wait": 20,
     "Show": {
         "Battle_Tribe_Member2": false
@@ -635,6 +673,18 @@
                 "nature": "Timid"
             }
         ]
+    ],
+    "SetBlocks": [
+        -908, 20, 685,
+        -908, 27, 675,
+        "air",
+        "air"
+    ],
+    "SetBlocks": [
+        -908, 20, 685,
+        -871, 40, 685,
+        "air",
+        "air"
     ],
     "Wait": 20,
     "Show": {
@@ -703,6 +753,12 @@
                 "nature": "Timid"
             }
         ]
+    ],
+    "SetBlocks": [
+        -865, 12, 837,
+        -839, 35, 837,
+        "air",
+        "barrier"
     ],
     "Wait": 20,
     "Show": {
