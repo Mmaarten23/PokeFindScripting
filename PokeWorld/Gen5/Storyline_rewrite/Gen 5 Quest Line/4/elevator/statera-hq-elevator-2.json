@@ -9,7 +9,7 @@
         3,
         {
             "11": {
-                "name": "&6&lGround floor",
+                "name": "&b&lGround floor",
                 "material": "Player Head",
                 "data": 3,
                 "skin": {
@@ -28,7 +28,7 @@
                 }
             },
             "13": {
-                "name": "&b&lFloor 2",
+                "name": "&6&lFloor 2",
                 "material": "Player Head",
                 "description": [
                     "&7You are here!"
@@ -70,6 +70,12 @@
 
 
     "Comment": "to_g",
+    "If": [],
+    "InRegion": [
+        82, 69, 345,
+        84, 74, 347
+    ],
+    "Dummy": [],
     "Teleport": [83.5, 69.0, 346.5, 90],
     "SetBlocks": [
         82, 53, 346,
@@ -108,14 +114,14 @@
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_anvil_place",
-    "Teleport": [83.5, 61.0, 346.5, 90],
+    "RelativeTeleport": [0.0, -8.0, 0.0],
     "Wait": 10,
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_anvil_place",
-    "Teleport": [83.5, 53.0, 346.5, 90],
+    "RelativeTeleport": [0.0, -8.0, 0.0],
     "Wait": 10,
     "PlaySound": "block_anvil_place",
     "Wait": 10,
@@ -123,6 +129,12 @@
     "Leave": [],
 
     "Comment": "to_1",
+    "If": [],
+    "InRegion": [
+        82, 69, 345,
+        84, 74, 347
+    ],
+    "Dummy": [],
     "Teleport": [83.5, 69.0, 346.5, 90],
     "SetBlocks": [
         82, 53, 346,
@@ -161,7 +173,8 @@
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_anvil_place",
-    "Teleport": [83.5, 69.0, 346.5, 90],
+    "Wait": 10,
+    "RelativeTeleport": [0.0, -8.0, 0.0],
     "Wait": 10,
     "PlaySound": "block_anvil_place",
     "Wait": 10,
@@ -169,7 +182,13 @@
     "Leave": [],
 
     "Comment": "to_3",
-    "Teleport": [83.5, 61.0, 346.5, 90],
+    "If": [],
+    "InRegion": [
+        82, 69, 345,
+        84, 74, 347
+    ],
+    "Dummy": [],
+    "Teleport": [83.5, 69.0, 346.5, 90],
     "SetBlocks": [
         82, 53, 346,
         82, 56, 346,
@@ -207,14 +226,7 @@
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_anvil_place",
-    "Teleport": [83.5, 69.0, 346.5, 90],
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Teleport": [83.5, 77.0, 346.5, 90],
+    "RelativeTeleport": [0.0, 8.0, 0.0],
     "Wait": 10,
     "PlaySound": "block_anvil_place",
     "Wait": 10,

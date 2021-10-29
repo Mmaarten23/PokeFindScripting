@@ -1,22 +1,19 @@
 {
-    "Key": "statera_hq_elevator_g",
+    "Key": "statera_hq_elevator_3",
     "Author": "Mmaarten",
 
 
-    "ClickBlock": [84, 54, 346],
+    "ClickBlock": [84, 78, 346],
     "Menu": [
         "Cranky elevator",
         3,
         {
             "11": {
-                "name": "&6&lGround floor",
-                "description": [
-                    "&7You are here!"
-                ],
+                "name": "&b&lGround floor",
                 "material": "Player Head",
                 "data": 3,
                 "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFkMTQzN2QxNzEzYzVmMmU4ODBkYzk1YzM5NDU5NzEwZGJjYjRmNzNiNTEwNGQ2ODhkZmRhNzdiYzhiYjkifX19",
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdjYThiOWM3MTY5YTc0M2Y4MmU4ZTlmZDY4ZjExYzBmMzEwNzBhNTNjOTI4NjM4ODRlNjczMTM3ZmJhZjEifX19",
                     "signature": ""
                 }
             },
@@ -40,11 +37,14 @@
                 }
             },
             "14": {
-                "name": "&b&lFloor 3",
+                "name": "&d&lFloor 3",
                 "material": "Player Head",
+                "description": [
+                    "&7You are here!"
+                ],
                 "data": 3,
                 "skin": {
-                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFlNGVhNTliNTRjYzk5NDE2YmM5ZjYyNDU0OGRkYWMyYTM4ZWVhNmEyZGJmNmU0Y2NkODNjZWM3YWM5NjkifX19",
+                    "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY4ZTdhY2Y3MjQyYWZhNTg2YzNkMDk1Zjg3ZmU5ZGU3YjdjYTI0YzRhMjhhNTYwNDAzNDdjNjU3OTYwZTM2In19fQ==",
                     "signature": ""
                 }
             },
@@ -61,22 +61,22 @@
         },
         false
     ],
-    "Skip": "fail",
+    "Skip": "to_g",
     "Skip": "to_1",
     "Skip": "to_2",
-    "Skip": "to_3",
+    "Skip": "fail",
     "Skip": "fail",
 
 
 
-    "Comment": "to_1",
+    "Comment": "to_g",
     "If": [],
     "InRegion": [
-        82, 53, 345,
-        84, 58, 347
+        82, 77, 345,
+        84, 82, 347
     ],
     "Dummy": [],
-    "Teleport": [83.5, 53.0, 346.5, 90],
+    "Teleport": [83.5, 77.0, 346.5, 90],
     "SetBlocks": [
         82, 53, 346,
         82, 56, 346,
@@ -114,7 +114,82 @@
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_anvil_place",
-    "RelativeTeleport": [0.0, 8.0, 0.0],
+    "RelativeTeleport": [0.0, -8.0, 0.0],
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "RelativeTeleport": [0.0, -8.0, 0.0],
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "RelativeTeleport": [0.0, -8.0, 0.0],
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_iron_door_open",
+    "Leave": [],
+
+    "Comment": "to_1",
+    "If": [],
+    "InRegion": [
+        82, 77, 345,
+        84, 82, 347
+    ],
+    "Dummy": [],
+    "Teleport": [83.5, 77.0, 346.5, 90],
+    "SetBlocks": [
+        82, 53, 346,
+        82, 56, 346,
+        {
+            "material": "iron_door",
+            "face": "east"
+        }
+    ],
+    "SetBlocks": [
+        82, 61, 346,
+        82, 64, 346,
+        {
+            "material": "iron_door",
+            "face": "east"
+        }
+    ],
+    "SetBlocks": [
+        82, 69, 346,
+        82, 72, 346,
+        {
+            "material": "iron_door",
+            "face": "east"
+        }
+    ],
+    "SetBlocks": [
+        82, 77, 346,
+        82, 80, 346,
+        {
+            "material": "iron_door",
+            "face": "east"
+        }
+    ],
+    "PlaySound": "block_iron_door_close",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "RelativeTeleport": [0.0, -8.0, 0.0],
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "RelativeTeleport": [0.0, -8.0, 0.0],
     "Wait": 10,
     "PlaySound": "block_anvil_place",
     "Wait": 10,
@@ -124,11 +199,11 @@
     "Comment": "to_2",
     "If": [],
     "InRegion": [
-        82, 53, 345,
-        84, 58, 347
+        82, 77, 345,
+        84, 82, 347
     ],
     "Dummy": [],
-    "Teleport": [83.5, 53.0, 346.5, 90],
+    "Teleport": [83.5, 77.0, 346.5, 90],
     "SetBlocks": [
         82, 53, 346,
         82, 56, 346,
@@ -166,81 +241,7 @@
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "RelativeTeleport": [0.0, 8.0, 0.0],
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "RelativeTeleport": [0.0, 8.0, 0.0],
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_iron_door_open",
-    "Leave": [],
-
-    "Comment": "to_3",
-    "If": [],
-    "InRegion": [
-        82, 53, 345,
-        84, 58, 347
-    ],
-    "Dummy": [],
-    "Teleport": [83.5, 53.0, 346.5, 90],
-    "SetBlocks": [
-        82, 53, 346,
-        82, 56, 346,
-        {
-            "material": "iron_door",
-            "face": "east"
-        }
-    ],
-    "SetBlocks": [
-        82, 61, 346,
-        82, 64, 346,
-        {
-            "material": "iron_door",
-            "face": "east"
-        }
-    ],
-    "SetBlocks": [
-        82, 69, 346,
-        82, 72, 346,
-        {
-            "material": "iron_door",
-            "face": "east"
-        }
-    ],
-    "SetBlocks": [
-        82, 77, 346,
-        82, 80, 346,
-        {
-            "material": "iron_door",
-            "face": "east"
-        }
-    ],
-    "PlaySound": "block_iron_door_close",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "RelativeTeleport": [0.0, 8.0, 0.0],
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "RelativeTeleport": [0.0, 8.0, 0.0],
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "Wait": 10,
-    "PlaySound": "block_anvil_place",
-    "RelativeTeleport": [0.0, 8.0, 0.0],
+    "RelativeTeleport": [0.0, -8.0, 0.0],
     "Wait": 10,
     "PlaySound": "block_anvil_place",
     "Wait": 10,
