@@ -166,7 +166,6 @@
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_anvil_place",
-    "Wait": 10,
     "RelativeTeleport": [0.0, 8.0, 0.0],
     "Wait": 10,
     "PlaySound": "block_anvil_place",
