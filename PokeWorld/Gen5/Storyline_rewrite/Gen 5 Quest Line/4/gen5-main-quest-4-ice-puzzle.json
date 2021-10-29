@@ -22,6 +22,7 @@
         1.0,
         1.0
     ],
+    "SendMessage": ["&aPart 1/3 solved."],
     "SetBlock": [-788, 52, 752, "air"],
     "BlockEntry": [
         -780, 52, 749,
@@ -34,6 +35,7 @@
         1.0,
         1.0
     ],
+    "SendMessage": ["&aPart 2/3 solved."],
     "SetBlock": [-785, 53, 748, "air"],
     "BlockEntry": [
         -788, 53, 740,
@@ -46,6 +48,7 @@
         1.0,
         1.0
     ],
+    "SendMessage": ["&aPart 3/3 solved."],
     "SetBlock": [-785, 54, 739, "air"],
     "Delay": 20,
     "Progress": [2, "gen5_main_quest_4"],

@@ -28,10 +28,10 @@
             "&3Statera Agent"
         ],
         "location": {
-            "x": 78.5,
-            "y": 53.0,
-            "z": 342.5,
-            "yaw": 130,
+            "x": 76.3,
+            "y": 77.0,
+            "z": 341.1,
+            "yaw": -44,
             "pitch": 0
         },
         "skin": {
@@ -43,10 +43,10 @@
         "key": "Rival1",
         "name": "&d&lDanielle",
         "location": {
-            "x": 79.5,
-            "y": 53.0,
-            "z": 340.5,
-            "yaw": 102,
+            "x": 75.0,
+            "y": 77.1,
+            "z": 344.0,
+            "yaw": -143,
             "pitch": 0
         },
         "skin": "danielle"
@@ -55,13 +55,46 @@
         "key": "Rival2",
         "name": "&d&lDanielle",
         "location": {
-            "x": -798.5,
+            "x": -791.5,
             "y": 51.0,
-            "z": 749.5,
-            "yaw": 294,
+            "z": 772.5,
+            "yaw": -180,
             "pitch": 0
         },
         "skin": "danielle"
+    },
+    "CreateEntity": {
+        "key": "Rival3",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": -796.4,
+            "y": 54.0,
+            "z": 742.5,
+            "yaw": -53,
+            "pitch": 0
+        },
+        "skin": "danielle"
+    },
+    "CreateEntity": {
+        "key": "volcano_player",
+        "location": {
+            "x": -789.5,
+            "y": 51.0,
+            "z": 772.5,
+            "yaw": -180,
+            "pitch": 0
+        },
+        "skin": "[PLAYER]"
+    },
+    "CreateEntity": {
+        "key": "volcano_cam",
+        "entity": "ARMOR_STAND",
+        "location": {
+            "x": -795.6,
+            "y": 52.0,
+            "z": 768.5
+        },
+        "visible": false
     },
     "CreateEntity": {
         "key": "balance_white",
@@ -84,6 +117,17 @@
             "pitch": 0
         },
         "pokemon": "Zekrom"
+    },
+    "CreateEntity": {
+        "key": "meeting_player",
+        "location": {
+            "x": -822.9,
+            "y": 18.0,
+            "z": 682.4,
+            "yaw": 15,
+            "pitch": 0
+        },
+        "skin": "[PLAYER]"
     },
     "CreateEntity": {
         "key": "Tribe_Member1",
@@ -246,6 +290,8 @@
         "Representative1": true,
         "Rival1": true,
         "Rival2": false,
+        "volcano_player": false,
+        "meeting_player": false,
         "Tribe_Member1": false,
         "Tribe_Member2": false,
         "Tribe_Member3": false,
@@ -315,16 +361,17 @@
         },
         90, true, true, "male_angry"
     ],
+    "Objective": ["Provide H.A.P.P.Y. with the password to enter the headquarters. (/youranswer)", 2],
     "Command": "statera",
-    "Start": "gen5_main_quest_4_entry_blocker",
+    "Leave": "gen5_main_quest_4_entry_blocker",
     "NewDialog": [
         {
             "&3H.A.P.P.Y.": "Welcome back [PLAYER]!",
-            "&3H.A.P.P.Y.": "Agent Ty is waiting for you inside."
+            "&3H.A.P.P.Y.": "Agent Ty is waiting for you on the third floor."
         },
         90, true, false, "male_normal"
     ],
-    "Objective": ["Talk to Agent Ty near Danielle", 2],
+    "Objective": ["Talk to Agent Ty on the third floor", 2],
     "HighlightClickEntity": "Representative1",
     "NewDialog": [
         {
@@ -390,26 +437,46 @@
     ],
     "NewDialog": [
         {
-
-            "&c&lAgent Ty": "Great! I'm glad both of you have accepted. Let's continue into your first task then.",
+            "&c&lAgent Ty": "Great! I'm glad both of you have accepted. Let's continue into your first task then."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "&c&lAgent Ty": "[PLAYER], you will be assigned to help us take down the Ancient Tribe also known as &6Sophro&r, they are, and have proven time and time again that they are a major threat to the region and our unity.",
-            "&c&lAgent Ty": "You will need to infiltrate their meeting, it's to take place today in their main hall. It's located in a Volcano in an underground cavern, directly in the middle of the region.",
+            "&c&lAgent Ty": "You will need to infiltrate their meeting, it's to take place today in their main hall. It's located in a Volcano in an underground cavern, directly in the middle of the region."
+        },
+        120, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "&c&lAgent Ty": "Find out what they are planning, and put an end to this meeting!",
             "&c&lAgent Ty": "You should be able to find the hidden entrance to their base near the Volcano at Redgrove! Good luck!"
         },
-        60, true, true, "male_normal"
+        90, true, true, "male_normal"
     ],
 
 
     "Wait": 20,
     "Objective": ["Head over to Redgrove and find the secret entrance to their base by the Volcano", 3],
-    "Show": "Rival2",
     "RegionEntry": [
         -777, 1, 776,
         -813, 70, 750
     ],
-    "Hide": "Rival1",
-    "Start": "gen5_main_quest_4_ice_puzzle_instructions",
+    "Fade": [],
+    "Teleport": [-787.0, 59.0, 760.5, 23, 36],
+    "Cinematic": [],
+    "Show": {
+        "volcano_player": true,
+        "Rival2": true,
+        "Rival1": false
+    },
+    "Look": ["volcano_cam", 30.0],
+    "ProgressiveMoveEntity": ["Rival2", -791.5, 51.0, 758.5, 0.1, false],
+    "ProgressiveMoveEntity": ["volcano_player", -789.5, 51.0, 758.5, 0.1, false],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["volcano_cam", -795.5, 51.5, 740.5, 0.2, false],
+    "Wait": 5,
     "NewDialog": [
         {
             "&d&lDanielle": "It looks like the door to the base is shut... We probably have to solve this puzzle to open it.",
@@ -417,6 +484,18 @@
         },
         90, true, true, "female_normal"
     ],
+    "Unfreeze": [],
+    "Wait": 2,
+    "Fade": [],
+    "Teleport": [-790.5, 51.0, 760.5, 179, -17],
+    "StopCinematic": [],
+    "Hide": {
+        "volcano_player": true,
+        "Rival2": true,
+        "Rival3": false
+    },
+    "Start": "gen5_main_quest_4_ice_puzzle_instructions",
+
     "Objective": ["Solve the magma puzzle inside the volcano", 3],
     "Skip": "first_ice",
     "Comment": "restart_ice",
@@ -433,6 +512,9 @@
         -790, 55, 728,
         5
     ],
+    "PlaySound": "block_anvil_place",
+    "Wait": 10,
+    "PlaySound": "block_anvil_place",
     "NewDialog": [
         {
             "[PLAYER]": "It opened!"
@@ -441,7 +523,8 @@
     ],
     "NewDialog": [
         {
-            "&d&lDanielle": "Phuh, I could have done that 10 times quicker!"
+            "&d&lDanielle": "Phuh, I could have done that 10 times quicker!",
+            "&d&lDanielle": "I will watch that nobody comes in after us. You go and do the dirty work!"
         },
         90, true, true, "female_angry"
     ],
@@ -458,20 +541,27 @@
         -794, 50, 725,
         -788, 55, 724
     ],
-    "Freeze": [],
+    "Cinematic": [],
+    "Look": [-160, 0],
+    "Wait": 2,
+    "Freeze": true,
     "NewDialog": [
         {
             "[PLAYER]": "&oLooks like there are some ancient markings on the wall...",
-            "[PLAYER]": "&oAre we... inside the volcano??"
+            "[PLAYER]": "&oAm I... inside the volcano??"
         },
         60, true, true
     ],
     "Unfreeze": [],
+    "StopCinematic": [],
     "RegionEntry": [
         -805, 39, 684,
         -822, 53, 684
     ],
-    "Freeze": [],
+    "Cinematic": [],
+    "Look": [160, 0],
+    "Wait": 2,
+    "Freeze": true,
     "NewDialog": [
         {
             "[PLAYER]": "Why are those two Pokémon standing on each side? They're coloured Black and White?",
@@ -480,11 +570,11 @@
         60, true, true
     ],
     "Unfreeze": [],
+    "StopCinematic": [],
     "RegionEntry": [
         -820, 50, 656,
         -833, 1, 672
     ],
-
     "NewDialog": [
         {
             "[PLAYER]": "&oThose two Pokemon looked so happy..."
@@ -495,10 +585,14 @@
         -821, 17, 671,
         -834, 33, 671
     ],
-    "Freeze": [],
-    "Teleport": [-823.5, 18.0, 682.5, 13, 0],
-    "Wait": 10,
-    "Look": "Tribe_Leader",
+    "Fade": [],
+    "Cinematic": [],
+    "Teleport": [-827.1, 22.9, 679.1, -21, 28],
+    "Show": {
+        "meeting_player": true
+    },
+    "Wait": 2,
+    "Freeze": true,
     "Wait": 20,
     "NewDialog": [
         {
@@ -525,7 +619,7 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "[PLAYER]": "I can't hear them... I'll have to move closer..."
+            "[PLAYER]": "&oI can't hear them... I'll have to move closer..."
         },
         90, true, true
     ],
@@ -544,6 +638,7 @@
     "ProgressiveMoveEntity": ["Tribe_Member4", -819.5, 18.5, 698.5, false],
     "MoveEntity": ["Tribe_Member1", -818.5, 18.0, 696.5, false],
     "Fade": [],
+    "Teleport": [-822.9, 18.0, 682.4, 15],
     "Show": {
         "Tribe_Member1": false,
         "Tribe_Member2": false,
@@ -558,6 +653,12 @@
     },
     "Unfreeze": [],
     "Wait": 20,
+    "NewDialog": [
+        {
+            "[PLAYER]": "Oh no, did I say that out loud? I have to know what they are up to!"
+        },
+        90, true, true
+    ],
     "Objective": ["Battle the first Sophro Elder", 3],
     "BattleNpc": [
         "Battle_Tribe_Member1",
@@ -994,7 +1095,7 @@
     "NewDialog": [
         {
             "&c&lAgent Ty": "Boss's Pokémon huh...? Now that is interesting.",
-            "&c&lAgent Ty": "Thanks [PLAYER], go get some rest, I'll ring you if something else comes up."
+            "&c&lAgent Ty": "Thanks [PLAYER] and &dDanielle&r, go get some rest, I'll ring you if something else comes up."
         },
         90, true, true, "male_normal"
     ],
@@ -1026,7 +1127,7 @@
         {
             "&c&lAgent Ty": "There have been many different versions of it, even one accusing &3Statera&r of being behind it...",
             "&c&lAgent Ty": "&6Sophro&r has been active in Zeinova for hundreds of years, only they would have the knowledge to pull off something like taming the Wild Legends.",
-            "&c&lAgent Ty": "They've endangered Zeinova before, and we've held them at bay. They're read to do it again."
+            "&c&lAgent Ty": "They've endangered Zeinova before, and we've held them at bay. They're ready to do it again."
         },
         90, true, true, "male_normal"
     ],
