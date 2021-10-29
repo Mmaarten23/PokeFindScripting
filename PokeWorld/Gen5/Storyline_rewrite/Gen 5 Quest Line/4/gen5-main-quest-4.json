@@ -262,6 +262,7 @@
 
 
     "HighlightClickEntity": "Happy",
+    "Start": "gen5_main_quest_4_entry_blocker",
     "Comment": "Set up barriers to the cave.",
     "SetBlocks": [
         -823, 1, 644,
@@ -297,7 +298,29 @@
     "Completed": "gen5_main_quest_3",
     "NewDialog": [
         {
-            "&3H.A.P.P.Y.": "Welcome to &3Statera HQ&r, [PLAYER]. Agent Ty is waiting for you inside."
+            "&3H.A.P.P.Y.": "Welcome to &3Statera HQ&r. Please verify yourself."
+        },
+        90, true, false, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Eeuh, my name is [PLAYER]. I am Professor Hemlock's assistant."
+        },
+        90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y.": "I am &ls&rorry, you need the password to en&lt&rer this f&la&rcili&lt&ry. Com&le&r back when you are &lr&re&la&rdy.",
+            "&3H.A.P.P.Y.": "Answer by typing /youranswer ."
+        },
+        90, true, true, "male_angry"
+    ],
+    "Command": "statera",
+    "Start": "gen5_main_quest_4_entry_blocker",
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y.": "Welcome back [PLAYER]!",
+            "&3H.A.P.P.Y.": "Agent Ty is waiting for you inside."
         },
         90, true, false, "male_normal"
     ],

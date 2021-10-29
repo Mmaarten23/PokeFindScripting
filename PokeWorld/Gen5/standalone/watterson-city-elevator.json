@@ -1,367 +1,367 @@
 {
-  "Key": "watterson_city_elevator_2",
-  "Author": "Mmaarten",
+    "Key": "watterson_city_elevator_2",
+    "Author": "Mmaarten",
 
-  "InRegion": [
-    80, 52, 350,
-    87, 86, 343
-  ],
-  "Set": [
-    "elevator_g.current",
-    {
-      "material": "magenta_stained_glass_pane",
-      "name": "&5&lCurrent floor",
-      "description": [
-        "&7You are currently on the &dground &7floor."
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_g.down",
-    {
-      "material": "red_stained_glass_pane",
-      "name": "&c&l↓ Go down ↓",
-      "description": [
-        "&4&lYou are already on the &dground &4floor!"
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_g.up",
-    {
-      "material": "lime_stained_glass_pane",
-      "name": "&2&l↑ Go up ↑",
-      "description": [
-        "&aMove to the &dsecond &afloor!"
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_1.current",
-    {
-      "material": "magenta_stained_glass_pane",
-      "name": "&5&lCurrent floor",
-      "description": [
-        "&7You are currently on the &dfirst &7floor."
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_1.down",
-    {
-      "material": "lime_stained_glass_pane",
-      "name": "&2&l↓ Go down ↓",
-      "description": [
-        "&aMove to the &dground &afloor!"
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_1.up",
-    {
-      "material": "lime_stained_glass_pane",
-      "name": "&2&l↑ Go up ↑",
-      "description": [
-        "&aMove to the &dsecond &afloor!"
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_2.current",
-    {
-      "material": "magenta_stained_glass_pane",
-      "name": "&5&lCurrent floor",
-      "description": [
-        "&7You are currently on the &dsecond &7floor."
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_2.down",
-    {
-      "material": "lime_stained_glass_pane",
-      "name": "&2&l↓ Go down ↓",
-      "description": [
-        "&aMove to the &dfirst &afloor!"
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_2.up",
-    {
-      "material": "lime_stained_glass_pane",
-      "name": "&2&l↑ Go up ↑",
-      "description": [
-        "&aMove to the &dtop &afloor!"
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_t.current",
-    {
-      "material": "magenta_stained_glass_pane",
-      "name": "&5&lCurrent floor",
-      "description": [
-        "&7You are currently on the &dtop &7floor."
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_t.down",
-    {
-      "material": "lime_stained_glass_pane",
-      "name": "&2&l↓ Go down ↓",
-      "description": [
-        "&aMove to the &dsecond &afloor!"
-      ]
-    }
-  ],
-  "Set": [
-    "elevator_t.up",
-    {
-      "material": "red_stained_glass_pane",
-      "name": "&c&l↑ Go up ↑",
-      "description": [
-        "&4&lYou are already on the &dtop &4floor!"
-      ]
-    }
-  ],
-
-
-
-
-  "Skip": "wait_for_leave",
-
-  "GlobalClickBlock": [84, 54, 346],
-  "Skip": "floor_ground",
-  "GlobalClickBlock": [84, 62, 346],
-  "Skip": "floor_1",
-  "GlobalClickBlock": [84, 70, 346],
-  "Skip": "floor_2",
-  "GlobalClickBlock": [84, 78, 346],
-  "Skip": "floor_top",
-
-  "Comment": "floor_ground",
-  "Menu": [
-    "Cranky elevator",
-    4,
-    {
-      "3": "[elevator_g.current]",
-      "4": "[elevator_g.current]",
-      "5": "[elevator_g.current]",
-      "12": "[elevator_g.current]",
-      "21": "[elevator_g.current]",
-      "23": "[elevator_g.current]",
-      "30": "[elevator_g.current]",
-      "31": "[elevator_g.current]",
-      "32": "[elevator_g.current]",
-
-      "9": "[elevator_g.down]",
-      "10": "[elevator_g.down]",
-      "18": "[elevator_g.down]",
-      "19": "[elevator_g.down]",
-
-      "16": "[elevator_g.up]",
-      "17": "[elevator_g.up]",
-      "25": "[elevator_g.up]",
-      "26": "[elevator_g.up]"
-
-    },
-    false
-  ],
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-
-  "Skip": "move_1",
-  "Skip": "move_1",
-  "Skip": "move_1",
-  "Skip": "move_1",
+    "InRegion": [
+        80, 52, 350,
+        87, 86, 343
+    ],
+    "Set": [
+        "elevator_g.current",
+        {
+            "material": "magenta_stained_glass_pane",
+            "name": "&5&lCurrent floor",
+            "description": [
+                "&7You are currently on the &dground &7floor."
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_g.down",
+        {
+            "material": "red_stained_glass_pane",
+            "name": "&c&l↓ Go down ↓",
+            "description": [
+                "&4&lYou are already on the &dground &4floor!"
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_g.up",
+        {
+            "material": "lime_stained_glass_pane",
+            "name": "&2&l↑ Go up ↑",
+            "description": [
+                "&aMove to the &dsecond &afloor!"
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_1.current",
+        {
+            "material": "magenta_stained_glass_pane",
+            "name": "&5&lCurrent floor",
+            "description": [
+                "&7You are currently on the &dfirst &7floor."
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_1.down",
+        {
+            "material": "lime_stained_glass_pane",
+            "name": "&2&l↓ Go down ↓",
+            "description": [
+                "&aMove to the &dground &afloor!"
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_1.up",
+        {
+            "material": "lime_stained_glass_pane",
+            "name": "&2&l↑ Go up ↑",
+            "description": [
+                "&aMove to the &dsecond &afloor!"
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_2.current",
+        {
+            "material": "magenta_stained_glass_pane",
+            "name": "&5&lCurrent floor",
+            "description": [
+                "&7You are currently on the &dsecond &7floor."
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_2.down",
+        {
+            "material": "lime_stained_glass_pane",
+            "name": "&2&l↓ Go down ↓",
+            "description": [
+                "&aMove to the &dfirst &afloor!"
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_2.up",
+        {
+            "material": "lime_stained_glass_pane",
+            "name": "&2&l↑ Go up ↑",
+            "description": [
+                "&aMove to the &dtop &afloor!"
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_t.current",
+        {
+            "material": "magenta_stained_glass_pane",
+            "name": "&5&lCurrent floor",
+            "description": [
+                "&7You are currently on the &dtop &7floor."
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_t.down",
+        {
+            "material": "lime_stained_glass_pane",
+            "name": "&2&l↓ Go down ↓",
+            "description": [
+                "&aMove to the &dsecond &afloor!"
+            ]
+        }
+    ],
+    "Set": [
+        "elevator_t.up",
+        {
+            "material": "red_stained_glass_pane",
+            "name": "&c&l↑ Go up ↑",
+            "description": [
+                "&4&lYou are already on the &dtop &4floor!"
+            ]
+        }
+    ],
 
 
 
-  "Comment": "floor_1",
-  "Menu": [
-    "Cranky elevator",
-    4,
-    {
-      "4": "[elevator_1.current]",
-      "12": "[elevator_1.current]",
-      "13": "[elevator_1.current]",
-      "22": "[elevator_1.current]",
-      "30": "[elevator_1.current]",
-      "31": "[elevator_1.current]",
-      "32": "[elevator_1.current]",
 
-      "9": "[elevator_1.down]",
-      "10": "[elevator_1.down]",
-      "18": "[elevator_1.down]",
-      "19": "[elevator_1.down]",
+    "Skip": "wait_for_leave",
 
-      "16": "[elevator_1.up]",
-      "17": "[elevator_1.up]",
-      "25": "[elevator_1.up]",
-      "26": "[elevator_1.up]"
+    "GlobalClickBlock": [84, 54, 346],
+    "Skip": "floor_ground",
+    "GlobalClickBlock": [84, 62, 346],
+    "Skip": "floor_1",
+    "GlobalClickBlock": [84, 70, 346],
+    "Skip": "floor_2",
+    "GlobalClickBlock": [84, 78, 346],
+    "Skip": "floor_top",
 
-    },
-    false
-  ],
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
+    "Comment": "floor_ground",
+    "Menu": [
+        "Cranky elevator",
+        4,
+        {
+            "3": "[elevator_g.current]",
+            "4": "[elevator_g.current]",
+            "5": "[elevator_g.current]",
+            "12": "[elevator_g.current]",
+            "21": "[elevator_g.current]",
+            "23": "[elevator_g.current]",
+            "30": "[elevator_g.current]",
+            "31": "[elevator_g.current]",
+            "32": "[elevator_g.current]",
 
-  "Skip": "move_ground",
-  "Skip": "move_ground",
-  "Skip": "move_ground",
-  "Skip": "move_ground",
+            "9": "[elevator_g.down]",
+            "10": "[elevator_g.down]",
+            "18": "[elevator_g.down]",
+            "19": "[elevator_g.down]",
 
-  "Skip": "move_2",
-  "Skip": "move_2",
-  "Skip": "move_2",
-  "Skip": "move_2",
+            "16": "[elevator_g.up]",
+            "17": "[elevator_g.up]",
+            "25": "[elevator_g.up]",
+            "26": "[elevator_g.up]"
 
-  "Comment": "floor_2",
-  "Menu": [
-    "Cranky elevator",
-    4,
-    {
-      "3": "[elevator_2.current]",
-      "4": "[elevator_2.current]",
-      "14": "[elevator_2.current]",
-      "22": "[elevator_2.current]",
-      "30": "[elevator_2.current]",
-      "31": "[elevator_2.current]",
-      "32": "[elevator_2.current]",
+        },
+        false
+    ],
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
 
-      "9": "[elevator_2.down]",
-      "10": "[elevator_2.down]",
-      "18": "[elevator_2.down]",
-      "19": "[elevator_2.down]",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
 
-      "16": "[elevator_2.up]",
-      "17": "[elevator_2.up]",
-      "25": "[elevator_2.up]",
-      "26": "[elevator_2.up]"
-
-    },
-    false
-  ],
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-
-  "Skip": "move_1",
-  "Skip": "move_1",
-  "Skip": "move_1",
-  "Skip": "move_1",
-
-  "Skip": "move_top",
-  "Skip": "move_top",
-  "Skip": "move_top",
-  "Skip": "move_top",
-
-  "Comment": "floor_top",
-  "Menu": [
-    "Cranky elevator",
-    4,
-    {
-      "3": "[elevator_t.current]",
-      "4": "[elevator_t.current]",
-      "5": "[elevator_t.current]",
-      "13": "[elevator_t.current]",
-      "22": "[elevator_t.current]",
-      "31": "[elevator_t.current]",
-
-      "9": "[elevator_t.down]",
-      "10": "[elevator_t.down]",
-      "18": "[elevator_t.down]",
-      "19": "[elevator_t.down]",
-
-      "16": "[elevator_t.up]",
-      "17": "[elevator_t.up]",
-      "25": "[elevator_t.up]",
-      "26": "[elevator_t.up]"
-
-    },
-    false
-  ],
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-
-  "Skip": "move_2",
-  "Skip": "move_2",
-  "Skip": "move_2",
-  "Skip": "move_2",
-
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
-  "Skip": "wait_for_leave",
+    "Skip": "move_1",
+    "Skip": "move_1",
+    "Skip": "move_1",
+    "Skip": "move_1",
 
 
 
-  "Comment": "move_ground",
-  "PlaySound": "block_iron_door_close",
-  "Wait": 3,
-  "PlaySound": "block_anvil_place",
-  "Teleport": [83.5, 53.0, 346.5, 90],
-  "Wait": 1.0,
-  "PlaySound": "block_iron_door_open",
-  "Skip": "wait_for_leave",
+    "Comment": "floor_1",
+    "Menu": [
+        "Cranky elevator",
+        4,
+        {
+            "4": "[elevator_1.current]",
+            "12": "[elevator_1.current]",
+            "13": "[elevator_1.current]",
+            "22": "[elevator_1.current]",
+            "30": "[elevator_1.current]",
+            "31": "[elevator_1.current]",
+            "32": "[elevator_1.current]",
 
-  "Comment": "move_1",
-  "PlaySound": "block_iron_door_close",
-  "Wait": 3,
-  "PlaySound": "block_anvil_place",
-  "Teleport": [83.5, 61.0, 346.5, 90],
-  "Wait": 1.0,
-  "PlaySound": "block_iron_door_open",
-  "Skip": "wait_for_leave",
+            "9": "[elevator_1.down]",
+            "10": "[elevator_1.down]",
+            "18": "[elevator_1.down]",
+            "19": "[elevator_1.down]",
 
-  "Comment": "move_2",
-  "PlaySound": "block_iron_door_close",
-  "Wait": 3,
-  "PlaySound": "block_anvil_place",
-  "Teleport": [83.5, 69.0, 346.5, 90],
-  "Wait": 1.0,
-  "PlaySound": "block_iron_door_open",
-  "Skip": "wait_for_leave",
+            "16": "[elevator_1.up]",
+            "17": "[elevator_1.up]",
+            "25": "[elevator_1.up]",
+            "26": "[elevator_1.up]"
 
-  "Comment": "move_top",
-  "PlaySound": "block_iron_door_close",
-  "Wait": 3,
-  "PlaySound": "block_anvil_place",
-  "Teleport": [83.5, 77.0, 346.5, 90],
-  "Wait": 1.0,
-  "PlaySound": "block_iron_door_open",
-  "Skip": "wait_for_leave",
+        },
+        false
+    ],
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
 
-  "Comment": "wait_for_leave",
-  "RegionExit": [
-    80, 52, 350,
-    87, 86, 343
-  ]
+    "Skip": "move_ground",
+    "Skip": "move_ground",
+    "Skip": "move_ground",
+    "Skip": "move_ground",
+
+    "Skip": "move_2",
+    "Skip": "move_2",
+    "Skip": "move_2",
+    "Skip": "move_2",
+
+    "Comment": "floor_2",
+    "Menu": [
+        "Cranky elevator",
+        4,
+        {
+            "3": "[elevator_2.current]",
+            "4": "[elevator_2.current]",
+            "14": "[elevator_2.current]",
+            "22": "[elevator_2.current]",
+            "30": "[elevator_2.current]",
+            "31": "[elevator_2.current]",
+            "32": "[elevator_2.current]",
+
+            "9": "[elevator_2.down]",
+            "10": "[elevator_2.down]",
+            "18": "[elevator_2.down]",
+            "19": "[elevator_2.down]",
+
+            "16": "[elevator_2.up]",
+            "17": "[elevator_2.up]",
+            "25": "[elevator_2.up]",
+            "26": "[elevator_2.up]"
+
+        },
+        false
+    ],
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+
+    "Skip": "move_1",
+    "Skip": "move_1",
+    "Skip": "move_1",
+    "Skip": "move_1",
+
+    "Skip": "move_top",
+    "Skip": "move_top",
+    "Skip": "move_top",
+    "Skip": "move_top",
+
+    "Comment": "floor_top",
+    "Menu": [
+        "Cranky elevator",
+        4,
+        {
+            "3": "[elevator_t.current]",
+            "4": "[elevator_t.current]",
+            "5": "[elevator_t.current]",
+            "13": "[elevator_t.current]",
+            "22": "[elevator_t.current]",
+            "31": "[elevator_t.current]",
+
+            "9": "[elevator_t.down]",
+            "10": "[elevator_t.down]",
+            "18": "[elevator_t.down]",
+            "19": "[elevator_t.down]",
+
+            "16": "[elevator_t.up]",
+            "17": "[elevator_t.up]",
+            "25": "[elevator_t.up]",
+            "26": "[elevator_t.up]"
+
+        },
+        false
+    ],
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+
+    "Skip": "move_2",
+    "Skip": "move_2",
+    "Skip": "move_2",
+    "Skip": "move_2",
+
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+    "Skip": "wait_for_leave",
+
+
+
+    "Comment": "move_ground",
+    "PlaySound": "block_iron_door_close",
+    "Wait": 3,
+    "PlaySound": "block_anvil_place",
+    "Teleport": [83.5, 53.0, 346.5, 90],
+    "Wait": 1.0,
+    "PlaySound": "block_iron_door_open",
+    "Skip": "wait_for_leave",
+
+    "Comment": "move_1",
+    "PlaySound": "block_iron_door_close",
+    "Wait": 3,
+    "PlaySound": "block_anvil_place",
+    "Teleport": [83.5, 61.0, 346.5, 90],
+    "Wait": 1.0,
+    "PlaySound": "block_iron_door_open",
+    "Skip": "wait_for_leave",
+
+    "Comment": "move_2",
+    "PlaySound": "block_iron_door_close",
+    "Wait": 3,
+    "PlaySound": "block_anvil_place",
+    "Teleport": [83.5, 69.0, 346.5, 90],
+    "Wait": 1.0,
+    "PlaySound": "block_iron_door_open",
+    "Skip": "wait_for_leave",
+
+    "Comment": "move_top",
+    "PlaySound": "block_iron_door_close",
+    "Wait": 3,
+    "PlaySound": "block_anvil_place",
+    "Teleport": [83.5, 77.0, 346.5, 90],
+    "Wait": 1.0,
+    "PlaySound": "block_iron_door_open",
+    "Skip": "wait_for_leave",
+
+    "Comment": "wait_for_leave",
+    "RegionExit": [
+        80, 52, 350,
+        87, 86, 343
+    ]
 }

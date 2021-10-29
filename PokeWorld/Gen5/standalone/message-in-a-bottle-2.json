@@ -1,0 +1,1397 @@
+{
+    "Key": "message_in_a_bottle_2",
+    "Name": "&bMessage in a Bottle &7- part 2",
+    "Author": "eicanfly",
+    "Description": "Remember that note? I wonder if it is dry already...",
+    "AddProperty": ["location", "Everhallow"],
+    "Quest": true,
+    "AllowRejoining": true,
+    "Icon": {
+        "material": "glass_bottle"
+    },
+    "CreateEntity": {
+        "key": "locals_one",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjIyNzM3Mzg1MSwKICAicHJvZmlsZUlkIiA6ICI5MGQ1NDY0OGEzNWE0YmExYTI2Yjg1YTg4NTU4OGJlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdW4wbWlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM2NjgyMmQ3OWI2MWNhNzg2NGU1YjViOTZkYjlmNTlmNDhkOGE2NTRmYTUyN2RiZjQ5MDUzZTNjMTliNTQ5M2QiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "tiJk1/Ys9KEzSlNn8lNvMlDhAlU9gkDKtAM89HCz0Pw1hRwifzsqZCW4WJ8Na564Dd0D7pFQrtxQkKQsGFKlwa2Jm7lHpMuzGdHgaKh8rJFMtWD890WgwZQ1rnipU73end+NwOV1/G22PmvvbTu+fY/3E/Ub+1bIlMiNDKCCIEWtfjGwFvLRywFYAeLvUjsXSeD/bE/WgP1s/Tho4MiaQiR7Fsldx4zK04+uWetYk1SbJADtALEKzswdm5H6v0StGJVPYO7YQfsSakk623Kcdc6FTyTYvjd1n18dvsoviJOB0Blyg125IUPyRUo+To9oenTlMbEdaJ0U27xzfxkfXipm64tb5qxBA0vTqL7kkHWwbgaY1uDsd7S0Mr74XU6OwfyD541Z6Muiy9uw6oLLdKtovQHWFFkB9PjnZGXfordOtCoMx1Y/16zUFvNmN/f/TsNF40B0zvH6GpZR63FtL9Bi1Y4rE+UhM20f5U5u2hAeS9/0P5dpUH18zXw676YtxeTPTCX9q0vDJjkrs1bDzpDP9MO0od5D6v6YQCzl9QZHXTIgfbTB4NwJmk/2Cq3Uiax5LSdjXVT5LuUokVNXwvQztBYk3lXgptSBwo5GJCRom88golOLUzXAyvs8Gozfmyubj8QOsHSgj36VQSH0enCgH472uiDesUKaizTISfk="
+        },
+        "location": [-819.5, 49.0, -270.5, 180],
+        "name": "&6Avery",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "locals_two",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzUwMTY5OTQxNSwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNmMjkwMWFkOTNlOWM1ZmYxOTZmMDdlYjc3MmRkZTk0MDgyMjg1YTEzYmNhYTUyMjRhMjVmOTlmNmI2MmM4NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "hNp+T/oEdOIhCaz1nYGNRYm4LULPpUaRdkeLxqRpVecn8d9zDI4vpK99kjMrtMR4Gc5ttcxD/Psm7ULfzYYQ4AK8rIyvP3ZHmrQraq6OHOfAIUOhjYDxUfDsOUlyd8y+JnwoKyCf3GTPHGGw9xmAjpf6mSycSYZDi5dt3xvrP7QO82KW2b4+eFamUyzWJomTaLOC3uMoT9OoUfxbZd/MFbsEEey2drtoVDw9VM1NG4xXL3nOz4W+Rur3YwdmdWOATNP//EjA1hF7dd5YkAw/i9mLeLh1p17b0pbhTGBahQhMRqyktD8ws6L1dDi9vVg0Vt539hckqe1FmA1we8l54MXOTv3rIPeEIrFLVR7C5KMx0Y1crYvfpDV2o22jdEzOr/uqEl72m4mWjx3Gy6jbkEEJnVAqVqHb5wZElaDOzsohWzIzxUCJoRrTP3o+i8Hx4YbePG3Jo603+fn5cgdLPsprAUH04+lLBO4nXReGNg2iOWqNppGS76sJbq8FdXUAFZ182z35sNdirrpIIr0wgyFUZGwBdzPsskKzDjEGjRiWe7d2egv8/15WAwqOvccPNuk4AIj9AWNKkCJDmU8cvhRAYRyz6YGgWEk7r1YGPApxwFPYf9UKkbTUpU9IjuiuEDSrkIuLYIaBYNM0LtzgNGPXodllCFSHpYKyisDzau4="
+        },
+        "location": [-584.5, 57.9, -471.5, 90],
+        "name": "&4Phoenix",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "locals_three",
+        "skin": {
+            "texture": "ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNTRhMmJiNDNlZjgyNDcyNTg3NjU0NGVmZWIyODdlOTgiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2UzNjdjZjUxMmM4MzY2NzBkM2FjMTU0OGUxNDljOWNjZTY2ZDlkYjdmNWJjZDQzYzUxMWFhODJjYzljMDdhYiIsCiAgICAgICJwcm9maWxlSWQiIDogIjRkNzA0ODZmNTA5MjRkMzM4NmJiZmM5YzEyYmFiNGFlIiwKICAgICAgInRleHR1cmVJZCIgOiAiN2UzNjdjZjUxMmM4MzY2NzBkM2FjMTU0OGUxNDljOWNjZTY2ZDlkYjdmNWJjZDQzYzUxMWFhODJjYzljMDdhYiIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiNTRhMmJiNDNlZjgyNDcyNTg3NjU0NGVmZWIyODdlOTgiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZTM2N2NmNTEyYzgzNjY3MGQzYWMxNTQ4ZTE0OWM5Y2NlNjZkOWRiN2Y1YmNkNDNjNTExYWE4MmNjOWMwN2FiIiwKICAgICJwcm9maWxlSWQiIDogIjRkNzA0ODZmNTA5MjRkMzM4NmJiZmM5YzEyYmFiNGFlIiwKICAgICJ0ZXh0dXJlSWQiIDogIjdlMzY3Y2Y1MTJjODM2NjcwZDNhYzE1NDhlMTQ5YzljY2U2NmQ5ZGI3ZjViY2Q0M2M1MTFhYTgyY2M5YzA3YWIiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=",
+            "signature": "PDJP875sm7gpyHX9GQTjXcTp5m8R7I8U9ME8bQPQpef5IIhGGbCe94lqXLfFJ+u/gTnkfgs55dIe+0MbKWGUrOCI9We48tRfinCxFh/KvAcC9AjPdd8+jPVQO/O96scPLy14CEW4ZZraHqGWB6hoXp26cSZ/rJxSVHOsNxbHc4644VYypEkMAvKcRR+oGbZfduKXgPNwJTwSDTX6b1JTTIsFjovsTWSK4GW7jELefO7TraRlWa+eCqseNBYhiwDUe31DFrhTxwNx2yTWObHRF1f3Uymy4BqOaWzcx7bQh6nstx83IVdsfxYBaZnQJRXwvWEwQ+dzMsVqUjtSqlsSt1TnHqg+8PsPT11HDed2RO+5+JXQAJJwE6k3DurYdIkc8vOjSbLu4iXdgi2m1GaZwnnuCaMOXGH5gQTdbccetDj4KulRLoWSHY8zc57Sw17ZcGvzI7eoVbjayAKWYvuX/m5Cfz0YIH9Hhs7hAjgd7CTt8WJ/1/DPjQMyqFWe1djjFcAswtEXWhs63kcD5yslpjQwexwnTWkXvq1vZZhDIauctpCZvkMG3wlMIBPaj6V34w5S7WVS3TuhPhpZdLxyuIKFjM7pA3/+uSzfXhaT9dHWtFnqbru4kwKcK3plvX8DyJEcv4H7OI7yVELjNBcJdc7SVF9PCzMyhFNzAHZPKQ0="
+        },
+        "location": [-849.5, 75.5, -428.5, 0],
+        "name": "&bMateo",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "locals_four_one",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODYyMDI5Njg4NjcsInByb2ZpbGVJZCI6ImVlZmViZTY4NzgzZTQ3NTY5YTNmNjc2NzhjYmI4NzJkIiwicHJvZmlsZU5hbWUiOiJWYXFpbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVlNGYzZmMzYjBkNDEwOTdjYWFiMjA3YTE2Mzc4OTc3MDIxM2Q5ZDU5Mjk1MzljNTdlNGY4MGRiOTMyYjI4ZSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+            "signature": "mTXwjI6QJwL9RDLiQi+AhCt6tBcf1M9p9KhqiBB6rQMQ0dFENu7qJPp1WseSjAU7R4NVeB9CTF1Sk93eY+v1OwPgMiu97Mp2KBSO/hPkqWBDtq7Gpdo2V7BxqoEzBxirWLTshVVxtamdT13p5mpVbxVYCa6r6o6ykRed1VfvGmjs/AsHK4rqkOQzLAfxCv9SPfq9vMXXmhiBgf0y7FtD5EdYDETZryz3VTD5uEWznUwfLPJVU9Uqos+I5/Xk0GP6OgtSe4M09vpZ+aI7kBmnAKKSfhks835nKctxDACNZlXalJnaM7swhSq9zy3xaZYYJIFRCU1+U7AKo3PYiJFU5PXA1ghfc4vCV2tWF/SdpCFOhRYjweHxbUNLgGfkcz6ietz+Nqq0NCa4utdUPrEifv/xgz1fPdaVYZ6Pf9IUr9yGs9ClNLBuvZm/HYjF3xWuO2uaCZ6X66UOfF+YpOm05z0t2GtjZXOoeOeoQa6cy7XPJfcva6cFlUrlvLY+3cFNPMk+lZ45HMBlU/xyKDUfwtTsHfNattUFVutNYBdpUIK0Ue4H9pklGViVkR9QydvgJxrx1cmyizXtvyq4YoW3BgoePExxCqbbmYbwox6XyrCNN6AEIz+P0J7IdfFeMaOeqs5QtD+MdtMvc2WtQ2RbrBKbH6pd3bBb3EZdoSagl1U="
+        },
+        "location": [-826.5, 48.0, -271.5, 180],
+        "name": "&dAmber",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "locals_four_two",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODYyMDI5Njg4NjcsInByb2ZpbGVJZCI6ImVlZmViZTY4NzgzZTQ3NTY5YTNmNjc2NzhjYmI4NzJkIiwicHJvZmlsZU5hbWUiOiJWYXFpbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVlNGYzZmMzYjBkNDEwOTdjYWFiMjA3YTE2Mzc4OTc3MDIxM2Q5ZDU5Mjk1MzljNTdlNGY4MGRiOTMyYjI4ZSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+            "signature": "mTXwjI6QJwL9RDLiQi+AhCt6tBcf1M9p9KhqiBB6rQMQ0dFENu7qJPp1WseSjAU7R4NVeB9CTF1Sk93eY+v1OwPgMiu97Mp2KBSO/hPkqWBDtq7Gpdo2V7BxqoEzBxirWLTshVVxtamdT13p5mpVbxVYCa6r6o6ykRed1VfvGmjs/AsHK4rqkOQzLAfxCv9SPfq9vMXXmhiBgf0y7FtD5EdYDETZryz3VTD5uEWznUwfLPJVU9Uqos+I5/Xk0GP6OgtSe4M09vpZ+aI7kBmnAKKSfhks835nKctxDACNZlXalJnaM7swhSq9zy3xaZYYJIFRCU1+U7AKo3PYiJFU5PXA1ghfc4vCV2tWF/SdpCFOhRYjweHxbUNLgGfkcz6ietz+Nqq0NCa4utdUPrEifv/xgz1fPdaVYZ6Pf9IUr9yGs9ClNLBuvZm/HYjF3xWuO2uaCZ6X66UOfF+YpOm05z0t2GtjZXOoeOeoQa6cy7XPJfcva6cFlUrlvLY+3cFNPMk+lZ45HMBlU/xyKDUfwtTsHfNattUFVutNYBdpUIK0Ue4H9pklGViVkR9QydvgJxrx1cmyizXtvyq4YoW3BgoePExxCqbbmYbwox6XyrCNN6AEIz+P0J7IdfFeMaOeqs5QtD+MdtMvc2WtQ2RbrBKbH6pd3bBb3EZdoSagl1U="
+        },
+        "location": [-863.5, 46.0, -335.5, 0],
+        "name": "&dAmber",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "locals_four_three",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODYyMDI5Njg4NjcsInByb2ZpbGVJZCI6ImVlZmViZTY4NzgzZTQ3NTY5YTNmNjc2NzhjYmI4NzJkIiwicHJvZmlsZU5hbWUiOiJWYXFpbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVlNGYzZmMzYjBkNDEwOTdjYWFiMjA3YTE2Mzc4OTc3MDIxM2Q5ZDU5Mjk1MzljNTdlNGY4MGRiOTMyYjI4ZSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+            "signature": "mTXwjI6QJwL9RDLiQi+AhCt6tBcf1M9p9KhqiBB6rQMQ0dFENu7qJPp1WseSjAU7R4NVeB9CTF1Sk93eY+v1OwPgMiu97Mp2KBSO/hPkqWBDtq7Gpdo2V7BxqoEzBxirWLTshVVxtamdT13p5mpVbxVYCa6r6o6ykRed1VfvGmjs/AsHK4rqkOQzLAfxCv9SPfq9vMXXmhiBgf0y7FtD5EdYDETZryz3VTD5uEWznUwfLPJVU9Uqos+I5/Xk0GP6OgtSe4M09vpZ+aI7kBmnAKKSfhks835nKctxDACNZlXalJnaM7swhSq9zy3xaZYYJIFRCU1+U7AKo3PYiJFU5PXA1ghfc4vCV2tWF/SdpCFOhRYjweHxbUNLgGfkcz6ietz+Nqq0NCa4utdUPrEifv/xgz1fPdaVYZ6Pf9IUr9yGs9ClNLBuvZm/HYjF3xWuO2uaCZ6X66UOfF+YpOm05z0t2GtjZXOoeOeoQa6cy7XPJfcva6cFlUrlvLY+3cFNPMk+lZ45HMBlU/xyKDUfwtTsHfNattUFVutNYBdpUIK0Ue4H9pklGViVkR9QydvgJxrx1cmyizXtvyq4YoW3BgoePExxCqbbmYbwox6XyrCNN6AEIz+P0J7IdfFeMaOeqs5QtD+MdtMvc2WtQ2RbrBKbH6pd3bBb3EZdoSagl1U="
+        },
+        "location": [-815.5, 44.0, -388.5, 180],
+        "name": "&dAmber",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "locals_four_four",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODYyMDI5Njg4NjcsInByb2ZpbGVJZCI6ImVlZmViZTY4NzgzZTQ3NTY5YTNmNjc2NzhjYmI4NzJkIiwicHJvZmlsZU5hbWUiOiJWYXFpbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVlNGYzZmMzYjBkNDEwOTdjYWFiMjA3YTE2Mzc4OTc3MDIxM2Q5ZDU5Mjk1MzljNTdlNGY4MGRiOTMyYjI4ZSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+            "signature": "mTXwjI6QJwL9RDLiQi+AhCt6tBcf1M9p9KhqiBB6rQMQ0dFENu7qJPp1WseSjAU7R4NVeB9CTF1Sk93eY+v1OwPgMiu97Mp2KBSO/hPkqWBDtq7Gpdo2V7BxqoEzBxirWLTshVVxtamdT13p5mpVbxVYCa6r6o6ykRed1VfvGmjs/AsHK4rqkOQzLAfxCv9SPfq9vMXXmhiBgf0y7FtD5EdYDETZryz3VTD5uEWznUwfLPJVU9Uqos+I5/Xk0GP6OgtSe4M09vpZ+aI7kBmnAKKSfhks835nKctxDACNZlXalJnaM7swhSq9zy3xaZYYJIFRCU1+U7AKo3PYiJFU5PXA1ghfc4vCV2tWF/SdpCFOhRYjweHxbUNLgGfkcz6ietz+Nqq0NCa4utdUPrEifv/xgz1fPdaVYZ6Pf9IUr9yGs9ClNLBuvZm/HYjF3xWuO2uaCZ6X66UOfF+YpOm05z0t2GtjZXOoeOeoQa6cy7XPJfcva6cFlUrlvLY+3cFNPMk+lZ45HMBlU/xyKDUfwtTsHfNattUFVutNYBdpUIK0Ue4H9pklGViVkR9QydvgJxrx1cmyizXtvyq4YoW3BgoePExxCqbbmYbwox6XyrCNN6AEIz+P0J7IdfFeMaOeqs5QtD+MdtMvc2WtQ2RbrBKbH6pd3bBb3EZdoSagl1U="
+        },
+        "location": [-753.5, 47.0, -456.5, 50],
+        "name": "&dAmber",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "locals_five",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTk1NDk0NjUyOCwKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIzNDFiYTk5MzM4OTZlMDVkZmQ2Yzk1Mzk3YWRlZDQyZWRiYjc1ZjJjZDBhOTFhYTNiYzMxNDQ4OGFjYjBhMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "JLvq0FQqRJbQxFwiBOB00xli+h+yGMDL4UdEsSYyFBAD0EQJAzBglNfoZxdgivLZ3l/BX4Lgsuyu/LI9QRQbQGu6lILG4uylOEe4ziIXI6GGuDpkVktR2G2ZVNXDWm8+N6dwk7vEOpMXBIPNzl2zvzvDYd8J1D3taGk7b/VJnlz5f0UA/X7/U+h2eACmz0DbnzQtaEJB6OAhBCqih7bbRiLSg5TBqulxKRJwIAgQoB28eOP+JraDZcYBDMx4N3jle7pDpvjslnh8/LVkEwV8F9hgcXfHPhFKMa1B5VwCBz226fvXGvRlo903L8nGM4sx5MuFZKInFTU3Q9PC3um/vVMfPJbrQRGMEtYzt9G4Nlm0wopCNqeD8XeGH7jfUUOykuwIVTsT+vGxx+Cbx10/r6j63HgTgdfj7B+YBc0/TTLXueZyuu2oR2lKkvvg6Kw5zagqngMglyhCxiPZa92+eNPecgatIYI2lJSULn+kApkk7ZFLvlMPyhF3weVVC3iozFfqbHb1bv1gnUVhEUGTCmVUyvh13F/vfGEf19UC8hxOy0MlCIY3+5E9gIPPXnhTi6g6xPnk1K7UAup7YN7WFi2vd1JHlO429vC/DN93IuCxq0jPLp87ngjMji1czc7zwHUhoh6e33eGuAFKyXdfb6JttuAODwXjBMz70p3MNnk="
+        },
+        "location": [-829.5, 44.0, -245.5, 0],
+        "name": "&aLane",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "locals_six",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDY4MTg3MzE1NSwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAwNTgzNzQ2YWU0NjdiMWViNWQ0MTBjODNmYmJmNmQzOWIyM2Y0NzA3NzkyYTg5ZWFlYTNiOWI4NjE4ZDQ4ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "ezSS0lLZmjl6PzROu1903j+jEqC0CG2QLAyhn4owdAY/HZ+V62lOpPo/oyiWEp5Snn+kU3/Nj8VEmyE1BsNlSn3N5hzw19V4wmkSp5Qwj8cbNzAr/eo1/CuXVZAyeDDZNxmj0Hz4gW+fk7WeGODjBn4KB+vrrAYuQUtyD7SBJfeSHjs1dhdzKf8Cx99N4UD7evA/NCQJzq/n51xImzFvNXV01yObtVpDN/0xt+Y8wnXUXEBzn1POzEGRlnp3zKMg/PgjNplSu52qBh0+mYC5WTlNkAaSRGHXF/OVVAACNRrn1DHEXg/AGoJxlsuKAKZ3RVBvWeZRsE4Ls8OP4pyNdAvsXUjPEocT7xKXlG4krIMUIYg3N8+1Cn2dp0hurj0B7ULE8SsEgFZWXvi0/XrIi4flwKB8MZf9h1XcTvc4ouK+QsjgaukCOlHm9uiSqcNJU3PvuBncOcmKKqjgSoxgoV8RD89UktTP1VI+tqT/g+YM1/HiGKmo5GUWeJZz35bYjoT38Qr2FLxnKPwF66VVVkp8GUgTMUhY71Dx1hksPT1gkA//ytWyDN4dhfR/0NUHbmFM2SYiI9zFNARa+9/rCy5zlG4/iic92moTlmXzG92mOLH78+jI+H/HPD0sVz5yesY/cU6S8U4HXOWMViOAhDFAQ9rohiEfkjBDCunCFFs="
+        },
+        "location": [-749.5, 43.0, -195.5, 0],
+        "name": "&3Sydney",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "sister_one",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzMyMzQxMTY5MSwKICAicHJvZmlsZUlkIiA6ICI5NDg3Nzc4MTcxMzY0OTZlODUwZDY2ZDFjZDA5MjE0MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbWlseV9Qcm9fWVQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1YjhhMWJkZTZkMmMwNDE0MDMzMTFkNjAyMzA2ZGVjZTMwNjQ3ZTRiNTJhZjUyNzBlZGIwOGFjYWVlMjY5NCIKICAgIH0KICB9Cn0=",
+            "signature": "UutB4QtCXKJdNobp9GmVp7WUwWPaEemx6x/mKqBryCt+mQ1wrbY8C8Rl4g6SWCgQUJN+UD8Po+7Mj54KpnPRyjlSEIWtorzoKX1tIBfu/mh7iTvjRZag4IXui+zYMcmoZy3psoZxVahBpSLCuwGukF6WYZv3av75D4JSK5kUR1V0qOAY5a4gQn/iQBsDHPfeYUFSJ7KkDKU4Hcz3r2ScPWAJ/YDn18H3vwE6LYNDma2zazQk9P9UKUfYLYRckR3KT2tAY7g4IDcosgVzB0H8CITphIjX++0nO/mc9Z++jlklzZWtDW3IVc3pEjlsK+8yxyf5rHx5im1g2Lf/9KVKf4qzIC+fJnjfCMHdmzr5ivlQFwl6pTNqJ9Sy/oTv7Z6NSBSbGPMTH0JYEQTRksavlJHTIw0gjhd0igBSlPBce7qOq6BTtpmUa02Hy7BckNEAuv2WdGyAk4z/a1J5xSR4UzgzllOH9OzB36lvxYEzUNQoF3HfgYWVZaw1YmcUU13SdXxILK7nKuFpIXCj94WkeOnzzeFcThBLolXNnegsulsKY7jsbKhCwJIGd6gHT0VRoexqFvnsgvL1FZxYsxO91xsaq0r8SloTgc/mCe/SVFjaBR7Ivb8bb0gim/fEoG3VmwNVYqXIv8lc0GbrQi3/rBDQFn8X30l6drT3cuOW518="
+        },
+        "location": [-1111.5, 48.0, 132.5, 270],
+        "name": "&5Katherine",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "sister_two",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzMyMzQxMTY5MSwKICAicHJvZmlsZUlkIiA6ICI5NDg3Nzc4MTcxMzY0OTZlODUwZDY2ZDFjZDA5MjE0MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbWlseV9Qcm9fWVQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1YjhhMWJkZTZkMmMwNDE0MDMzMTFkNjAyMzA2ZGVjZTMwNjQ3ZTRiNTJhZjUyNzBlZGIwOGFjYWVlMjY5NCIKICAgIH0KICB9Cn0=",
+            "signature": "UutB4QtCXKJdNobp9GmVp7WUwWPaEemx6x/mKqBryCt+mQ1wrbY8C8Rl4g6SWCgQUJN+UD8Po+7Mj54KpnPRyjlSEIWtorzoKX1tIBfu/mh7iTvjRZag4IXui+zYMcmoZy3psoZxVahBpSLCuwGukF6WYZv3av75D4JSK5kUR1V0qOAY5a4gQn/iQBsDHPfeYUFSJ7KkDKU4Hcz3r2ScPWAJ/YDn18H3vwE6LYNDma2zazQk9P9UKUfYLYRckR3KT2tAY7g4IDcosgVzB0H8CITphIjX++0nO/mc9Z++jlklzZWtDW3IVc3pEjlsK+8yxyf5rHx5im1g2Lf/9KVKf4qzIC+fJnjfCMHdmzr5ivlQFwl6pTNqJ9Sy/oTv7Z6NSBSbGPMTH0JYEQTRksavlJHTIw0gjhd0igBSlPBce7qOq6BTtpmUa02Hy7BckNEAuv2WdGyAk4z/a1J5xSR4UzgzllOH9OzB36lvxYEzUNQoF3HfgYWVZaw1YmcUU13SdXxILK7nKuFpIXCj94WkeOnzzeFcThBLolXNnegsulsKY7jsbKhCwJIGd6gHT0VRoexqFvnsgvL1FZxYsxO91xsaq0r8SloTgc/mCe/SVFjaBR7Ivb8bb0gim/fEoG3VmwNVYqXIv8lc0GbrQi3/rBDQFn8X30l6drT3cuOW518="
+        },
+        "location": [-1099.5, 49.0, 198.5, 235],
+        "name": "&5Katherine",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "sister_three",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzMyMzQxMTY5MSwKICAicHJvZmlsZUlkIiA6ICI5NDg3Nzc4MTcxMzY0OTZlODUwZDY2ZDFjZDA5MjE0MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbWlseV9Qcm9fWVQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1YjhhMWJkZTZkMmMwNDE0MDMzMTFkNjAyMzA2ZGVjZTMwNjQ3ZTRiNTJhZjUyNzBlZGIwOGFjYWVlMjY5NCIKICAgIH0KICB9Cn0=",
+            "signature": "UutB4QtCXKJdNobp9GmVp7WUwWPaEemx6x/mKqBryCt+mQ1wrbY8C8Rl4g6SWCgQUJN+UD8Po+7Mj54KpnPRyjlSEIWtorzoKX1tIBfu/mh7iTvjRZag4IXui+zYMcmoZy3psoZxVahBpSLCuwGukF6WYZv3av75D4JSK5kUR1V0qOAY5a4gQn/iQBsDHPfeYUFSJ7KkDKU4Hcz3r2ScPWAJ/YDn18H3vwE6LYNDma2zazQk9P9UKUfYLYRckR3KT2tAY7g4IDcosgVzB0H8CITphIjX++0nO/mc9Z++jlklzZWtDW3IVc3pEjlsK+8yxyf5rHx5im1g2Lf/9KVKf4qzIC+fJnjfCMHdmzr5ivlQFwl6pTNqJ9Sy/oTv7Z6NSBSbGPMTH0JYEQTRksavlJHTIw0gjhd0igBSlPBce7qOq6BTtpmUa02Hy7BckNEAuv2WdGyAk4z/a1J5xSR4UzgzllOH9OzB36lvxYEzUNQoF3HfgYWVZaw1YmcUU13SdXxILK7nKuFpIXCj94WkeOnzzeFcThBLolXNnegsulsKY7jsbKhCwJIGd6gHT0VRoexqFvnsgvL1FZxYsxO91xsaq0r8SloTgc/mCe/SVFjaBR7Ivb8bb0gim/fEoG3VmwNVYqXIv8lc0GbrQi3/rBDQFn8X30l6drT3cuOW518="
+        },
+        "location": [-1138.5, 49.0, 190.5, 330],
+        "name": "&5Katherine",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "sister_four",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzMyMzQxMTY5MSwKICAicHJvZmlsZUlkIiA6ICI5NDg3Nzc4MTcxMzY0OTZlODUwZDY2ZDFjZDA5MjE0MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbWlseV9Qcm9fWVQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1YjhhMWJkZTZkMmMwNDE0MDMzMTFkNjAyMzA2ZGVjZTMwNjQ3ZTRiNTJhZjUyNzBlZGIwOGFjYWVlMjY5NCIKICAgIH0KICB9Cn0=",
+            "signature": "UutB4QtCXKJdNobp9GmVp7WUwWPaEemx6x/mKqBryCt+mQ1wrbY8C8Rl4g6SWCgQUJN+UD8Po+7Mj54KpnPRyjlSEIWtorzoKX1tIBfu/mh7iTvjRZag4IXui+zYMcmoZy3psoZxVahBpSLCuwGukF6WYZv3av75D4JSK5kUR1V0qOAY5a4gQn/iQBsDHPfeYUFSJ7KkDKU4Hcz3r2ScPWAJ/YDn18H3vwE6LYNDma2zazQk9P9UKUfYLYRckR3KT2tAY7g4IDcosgVzB0H8CITphIjX++0nO/mc9Z++jlklzZWtDW3IVc3pEjlsK+8yxyf5rHx5im1g2Lf/9KVKf4qzIC+fJnjfCMHdmzr5ivlQFwl6pTNqJ9Sy/oTv7Z6NSBSbGPMTH0JYEQTRksavlJHTIw0gjhd0igBSlPBce7qOq6BTtpmUa02Hy7BckNEAuv2WdGyAk4z/a1J5xSR4UzgzllOH9OzB36lvxYEzUNQoF3HfgYWVZaw1YmcUU13SdXxILK7nKuFpIXCj94WkeOnzzeFcThBLolXNnegsulsKY7jsbKhCwJIGd6gHT0VRoexqFvnsgvL1FZxYsxO91xsaq0r8SloTgc/mCe/SVFjaBR7Ivb8bb0gim/fEoG3VmwNVYqXIv8lc0GbrQi3/rBDQFn8X30l6drT3cuOW518="
+        },
+        "location": [-1136.8, 49.0, 195.7, 150],
+        "name": "&5Katherine",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "brother_one",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MTA0Mjg5MDgzMiwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NTA4NzFlZTMwYThjNWY2Yjc0N2RjYmFkYTAxYTEzN2UyNTY1YTc1NGZkN2NkNjhhOTc5YmQ5ZGQ3MmFmNzAzIgogICAgfQogIH0KfQ==",
+            "signature": "B+ICBSQxbZ8HHmO7Spxx/Es9OqCYdIsqq4pdn3j6aHQ5DowBTmPm6GGzlaSyKOop3Oa1KslQk+C8dbSzP9Tppvaw8STf9+bko+2ZsVQazhCNHhvLvxi+nm0eSqxjIWD8qe2qS8GhJwQV+6BKkTMYXGJ+ClVWAvPxjOwUx+fazQ7fWLcNqGPab14JEfG0xVYIv8l2af6kvjUKnzjeR7a9gZatyZJFTMEsr60ectwRyhOVmTFZBzb8wNyUanyEPdiBlNiiWdNIts+z7CdhiBz97H26u439cEygEOb9JMvlurfH2l8ugfyysejcDQGmTUxnr4oL0vFb6QPmDSST7S1sgkahPneXQUec61C9O7WJRDQOTqocwN8J2cscL8wWHusHecmJ6PBhlQ/SW2W+j/UBXdAmGWJcbaoydxaEKvind8S9II0VAgh3rusF3ctXPhnqDdoc2cYvIdq3Qf3qhKU8l/51ITZNDTT7ZJcumRzb4vRvef1t46WJuocmd8hW5qCW9BUWeIbgPbD4Tgaqf7MVEgDUvxbrrf/I/LmS14KmOUsKPLxIViiaMNkariVfbGw+yuxok+5A+w1CMh2Kl0T2lY9/Q9NRkmOKF3L0YcyQD8R3DuQRHhKI5oCTtddhJJr9oq+0+U2bf0Wjj5qM3U2TY0RApXfKVrDYEo0qtGJxJgU="
+        },
+        "location": [-1177.5, 45.0, 199.5, 90],
+        "name": "&7Nathan",
+        "look": true,
+        "hand_pose": "none"
+    },
+    "CreateEntity": {
+        "key": "brother_two",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MTA0Mjg5MDgzMiwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NTA4NzFlZTMwYThjNWY2Yjc0N2RjYmFkYTAxYTEzN2UyNTY1YTc1NGZkN2NkNjhhOTc5YmQ5ZGQ3MmFmNzAzIgogICAgfQogIH0KfQ==",
+            "signature": "B+ICBSQxbZ8HHmO7Spxx/Es9OqCYdIsqq4pdn3j6aHQ5DowBTmPm6GGzlaSyKOop3Oa1KslQk+C8dbSzP9Tppvaw8STf9+bko+2ZsVQazhCNHhvLvxi+nm0eSqxjIWD8qe2qS8GhJwQV+6BKkTMYXGJ+ClVWAvPxjOwUx+fazQ7fWLcNqGPab14JEfG0xVYIv8l2af6kvjUKnzjeR7a9gZatyZJFTMEsr60ectwRyhOVmTFZBzb8wNyUanyEPdiBlNiiWdNIts+z7CdhiBz97H26u439cEygEOb9JMvlurfH2l8ugfyysejcDQGmTUxnr4oL0vFb6QPmDSST7S1sgkahPneXQUec61C9O7WJRDQOTqocwN8J2cscL8wWHusHecmJ6PBhlQ/SW2W+j/UBXdAmGWJcbaoydxaEKvind8S9II0VAgh3rusF3ctXPhnqDdoc2cYvIdq3Qf3qhKU8l/51ITZNDTT7ZJcumRzb4vRvef1t46WJuocmd8hW5qCW9BUWeIbgPbD4Tgaqf7MVEgDUvxbrrf/I/LmS14KmOUsKPLxIViiaMNkariVfbGw+yuxok+5A+w1CMh2Kl0T2lY9/Q9NRkmOKF3L0YcyQD8R3DuQRHhKI5oCTtddhJJr9oq+0+U2bf0Wjj5qM3U2TY0RApXfKVrDYEo0qtGJxJgU="
+        },
+        "location": [-1100.5, 49.0, 202.5, 90],
+        "name": "&7Nathan",
+        "look": true
+    },
+    "CreateEntity": {
+        "key": "bottle_one",
+        "entity": "dropped_item",
+        "location": [-1188.5, 46.5, 200.5, 0],
+        "item": "glass_bottle"
+    },
+    "CreateEntity": {
+        "key": "cofagrigus_one",
+        "location": [-1125.5, 49.2, 202.5, 0],
+        "pokemon": "cofagrigus"
+    },
+    "Show": {
+        "locals_one": false,
+        "locals_two": false,
+        "locals_three": false,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "ClickToStart": [],
+    "Completed": ["message_in_a_bottle_1", "&cYou have not completed &bMessage in a Bottle &7 - part 1&c."],
+    "NotCompleted": ["message_in_a_bottle_1", 0, 1, 0, "&cThe note has not dried yet. Please try again later."],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oIt's been a couple of days since I've left the note out to dry...",
+            "[PLAYER]": "&oI should check up on it.",
+            "[PLAYER]": "&oLooks like it is dry enough to read"
+        },
+        90
+    ],
+    "Wait": 4,
+    "Book": [
+        "&bDear,&0\nTo the person who finds this note, Reading this note means that things didn't go well for me and I must be missing with my sister very worried. I have one gigantic favor to ask of you, stranger.\n\n\n                       &op.t.o",
+        "Please deliver this note to my little sister who might still be living in Baremaw. I want her to know what happened to me so she can rest easy.\n\n- &7Nathan&0."
+    ],
+    "Wait": 20,
+    "Objective": ["Head to Baremaw", 4],
+    "RegionEntry": [
+        -726, 3, -194,
+        -973, 150, -382
+    ],
+    "Wait": 20,
+    "Dialog": [
+        {
+            "[PLAYER]": "&oWow, I have no idea where Nathan's sister could be...",
+            "[PLAYER]": "&oI need to ask somebody for help."
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Look around Baremaw and ask a local for help", 5],
+    "Show": {
+        "locals_one": true,
+        "locals_two": false,
+        "locals_three": false,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "HighlightClickEntity": ["locals_one"],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hey, excuse me!",
+            "&6&lAvery": "You're a new face... What do you want?",
+            "[PLAYER]": "Sorry to bother you, but I'm looking for Nathan's sister, and I believe she lives in this town. Do you happen to know where she could be?",
+            "&6&lAvery": "Hmm... unfortunately, I don't take kindly to strangers interrupting my work. How do I know if I can trust you with my knowledge?",
+            "[PLAYER]": "Well, is there something that I could help you with in exchange?",
+            "&6&lAvery": "I suppose I could use an extra hand...",
+            "&6&lAvery": "Alright then, I've been meaning to do some research on the weedle species. If you can bring me three weedle, I'll tell you what I know.",
+            "[PLAYER]": "Sound like a deal!"
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Catch a weedle and bring it to Avery", 3],
+    "ProvidePokemon": ["locals_one", "weedle"],
+    "Wait": 2,
+    "Objective": ["Catch a second weedle and bring it to Avery", 3],
+    "ProvidePokemon": ["locals_one", "weedle"],
+    "Wait": 2,
+    "Objective": ["Catch a third weedle and bring it to Avery", 5],
+    "ProvidePokemon": ["locals_one", "weedle"],
+    "Wait": 2,
+    "Dialog": [
+        {
+            "&6&lAvery": "I've got to say, I'm surprised!",
+            "&6&lAvery": "Unfortunate for you though, I can't say I know Nathan's sister.",
+            "[PLAYER]": "Oh...",
+            "&6&lAvery": "&4Phoenix&r has lived here a while though, I suggest you try your luck with him.",
+            "&6&lAvery": "They live close to the Baremaw Pokémart.",
+            "[PLAYER]": "Alright, I'll be on my way then! Thanks for your time."
+        }
+    ],
+    "Wait": 4,
+    "Objective": ["Speak to Phoenix near the Baremaw pokemart", 8],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": false,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "HighlightClickEntity": ["locals_two"],
+    "Dialog": [
+        {
+            "&4&lPhoenix": "Ah!",
+            "&4&lPhoenix": "Oh, hi there! You scared me!",
+            "[PLAYER]": "Sorry about that! I just have a quick question for you.",
+            "&4&lPhoenix": "Of course! How can I help?",
+            "[PLAYER]": "I have a message that I need to relay to Nathan's sister, and I've heard that you might know her.",
+            "[PLAYER]": "Do you know her whereabouts, by chance?",
+            "&4&lPhoenix": "Hmm...",
+            "&4&lPhoenix": "You know, I can't say I've ever heard of the lad in my years here, much less his sister.",
+            "&4&lPhoenix": "There's someone in this town who knows a bunch about a bunch of people though. I just can't seem to remember their name.",
+            "&4&lPhoenix": "Agh, my brain! It can't seem to keep up recently.",
+            "&4&lPhoenix": "Say, you look like quite the capable trainer. Why don't we battle and you give me a moment to think."
+        },
+        90
+    ],
+    "BattleNpc": [
+        "locals_two",
+        {
+            "&4&lPhoenix": "A battle always jogs my memory."
+        },
+        {
+            "&4&lPhoenix": "Good battle!"
+        },
+        {
+            "&4&lPhoenix": "You can do better than that!"
+        },
+        [
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            }
+        ],
+        {
+            "automatically_start": true
+        }
+    ],
+    "Wait": 4,
+    "Dialog": [
+        {
+            "[PLAYER]": "Do you think you could remember their name now?",
+            "&4&lPhoenix": "Yes! His name is &bMateo&r and you'll probably find him by the Baremaw gym. He loves to keep tabs on everything that goes on around here.",
+            "[PLAYER]": "Awesome! Thanks so much!"
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Speak to Mateo near the Baremaw gym", 5],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": true,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "HighlightClickEntity": ["locals_three"],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hey, are you Mateo?",
+            "&b&lMateo": "Sure am. Need something?",
+            "[PLAYER]": "There's someone I'm looking for and I was wondering if you could help.",
+            "&b&lMateo": "I bet I could, but it won't be that easy for you.",
+            "[PLAYER]": "What do you mean?",
+            "&b&lMateo": "I've lost six evolution stones around town, and I kind of need them back ya kno?.",
+            "&b&lMateo": "Without them, I cannot become the very best...",
+            "[PLAYER]": "Sure! This should be easy.",
+            "&b&lMateo": "I've spend a lot of time looking around already... Trust me, it won't be easy."
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Find the six evolution stones around Baremaw", 12],
+    "CumulativePickupItem": [
+        -854.5, 42.0, -222.5,
+        "&bMateo's &cFire stone",
+        "fire_stone"
+    ],
+    "SendMessage": "&a+1 &7Evolution stone",
+    "PlaySound": "entity_item_pickup",
+    "CumulativePickupItem": [
+        -881.5, 74.0, -433.5,
+        "&bMateo's &bWater stone",
+        "water_stone"
+    ],
+    "SendMessage": "&a+1 &7Evolution stone",
+    "PlaySound": "entity_item_pickup",
+    "CumulativePickupItem": [
+        -562.5, 58.0, -473.5,
+        "&bMateo's &6Dawn stone",
+        "dawn_stone"
+    ],
+    "SendMessage": "&a+1 &7Evolution stone",
+    "PlaySound": "entity_item_pickup",
+    "CumulativePickupItem": [
+        -766.5, 47.0, -459.5,
+        "&bMateo's &aLeaf stone",
+        "leaf_stone"
+    ],
+    "SendMessage": "&a+1 &7Evolution stone",
+    "PlaySound": "entity_item_pickup",
+    "CumulativePickupItem": [
+        -823.5, 65.0, -479.5,
+        "&bMateo's &eThunder stone",
+        "thunder_stone"
+    ],
+    "SendMessage": "&a+1 &7Evolution stone",
+    "PlaySound": "entity_item_pickup",
+    "CumulativePickupItem": [
+        -730.5, 45.0, -470.5,
+        "&bMateo's &7Moon stone",
+        "moon_stone"
+    ],
+    "SendMessage": "&a+1 &7Evolution stone",
+    "PlaySound": "entity_item_pickup",
+    "Wait": 4,
+    "Objective": ["Return to Mateo", 3],
+    "HighlightClickEntity": ["locals_three"],
+    "Dialog": [
+        {
+            "[PLAYER]": "There you go! All six stones.",
+            "&b&lMateo": "Wow, I'm impressed!",
+            "&b&lMateo": "As a thanks, I will try to answer the question you have.",
+            "[PLAYER]": "I have a message from Nathan that I need to deliver to his sister.",
+            "[PLAYER]": "I was told she lives in this town, but I don't know where she is... do you?",
+            "&b&lMateo": "Oh, uh... I-",
+            "&b&lMateo": "I actually don't know that one.",
+            "[PLAYER]": "Oh.",
+            "[PLAYER]": "Do you know anybody who could?",
+            "&b&lMateo": "No, I haven't ever heard that name in my life. You're on your own for this one, sorry buddy."
+        },
+        90
+    ],
+    "Objective": ["Speak to another local near the pokécenter", 11],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": true,
+        "locals_four_one": true,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "HighlightClickEntity": ["locals_four_one"],
+    "Dialog": [
+        {
+            "&d&lAmber": "What?!",
+            "[PLAYER]": "Hey, I have-",
+            "&d&lAmber": "I've got to go! I have no time!",
+            "[PLAYER]": "I just-"
+        },
+        90
+    ],
+    "Wait": 1,
+    "Freeze": [],
+    "MoveEntity": ["locals_four_one", -836.5, 48.0, -275.5],
+    "ProgressiveMoveEntity": ["locals_four_one", -840.5, 48.0, -293.5],
+    "Wait": 2,
+    "Dialog": [
+        {
+            "[PLAYER]": "&oUh, okay.",
+            "[PLAYER]": "&oI suppose I should go after her..."
+        },
+        90
+    ],
+    "Unfreeze": [],
+    "Wait": 2,
+    "Fade": [],
+    "RelativeTeleport": [0.0, 0.5, 0.0],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": true,
+        "locals_four_one": false,
+        "locals_four_two": true,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "Objective": ["Chase Amber", 7],
+    "HighlightClickEntity": ["locals_four_two"],
+    "Dialog": [
+        {
+            "[PLAYER]": "Please, I just need a moment.",
+            "&d&lAmber": "No! I have no moments!"
+        },
+        90
+    ],
+    "Wait": 1,
+    "Freeze": [],
+    "MoveEntity": ["locals_four_two", -863.5, 46.0, -346.5],
+    "MoveEntity": ["locals_four_two", -857.5, 46.0, -354.5],
+    "Unfreeze": [],
+    "Wait": 2,
+    "Fade": [],
+    "RelativeTeleport": [0.0, 0.5, 0.0],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": true,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": true,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "Objective": ["Continue chasing Amber", 8],
+    "HighlightClickEntity": ["locals_four_three"],
+    "Dialog": [
+        {
+            "&d&lAmber": "What?! Can't you see that I'm busy?"
+        },
+        90
+    ],
+    "Wait": 1,
+    "Freeze": [],
+    "MoveEntity": ["locals_four_three", -805.5, 44.0, -389.5],
+    "MoveEntity": ["locals_four_three", -802.5, 45.0, -389.5],
+    "ProgressiveMoveEntity": ["locals_four_three", -796.5, 45.0, -400.5],
+    "Wait": 4,
+    "Unfreeze": [],
+    "Wait": 2,
+    "Fade": [],
+    "RelativeTeleport": [0.0, 0.5, 0.0],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": true,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": true,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "Objective": ["Continue chasing Amber", 3],
+    "HighlightClickEntity": ["locals_four_four"],
+    "Dialog": [
+        {
+            "&d&lAmber": "You really don't give up, do you?!",
+            "[PLAYER]": "I just needed some help. What are you in such a rush for?",
+            "&d&lAmber": "Uh...",
+            "[PLAYER]": "You were just standing around before I got to you... why are you running?",
+            "&d&lAmber": "...Fair.",
+            "&d&lAmber": "Okay, you got me. What do you want?",
+            "[PLAYER]": "Would you happen to know someone named Nathan?",
+            "&d&lAmber": "No.",
+            "[PLAYER]": "Oh, uh.",
+            "[PLAYER]": "Okay, sorry for taking your time then...",
+            "&d&lAmber": "Yeah. You should be.",
+            "[PLAYER]": "I'll leave you alone now, good day."
+        },
+        90
+    ],
+    "Objective": ["Speak to another local on the docks", 4],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": true,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": true,
+        "locals_five": true,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "HighlightClickEntity": ["locals_five"],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hi!",
+            "&a&lLane": "Oh, hi there!",
+            "[PLAYER]": "Sorry to be a bother... I'm looking for someone and I need some help.",
+            "&a&lLane": "Oh sure! Who are you looking for?",
+            "[PLAYER]": "Do you know Nathan? I'm looking for his sister.",
+            "&a&lLane": "Nathan... I haven't heard that name in a very long time.",
+            "&a&lLane": "I don't know him or his sister personally, but luckily, I know that &3Sydney&r grew up with them. She'll be able to help.",
+            "&a&lLane": "Sydney lives on the remote island connected to Baremaw.",
+            "[PLAYER]": "Alright, I really hope so...",
+            "[PLAYER]": "Thanks for your time."
+        },
+        90
+    ],
+    "Objective": ["Speak to Sydney on the island next to Baremaw", 5],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": true,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": true,
+        "locals_five": true,
+        "locals_six": true,
+        "sister_one": false,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "HighlightClickEntity": ["locals_six"],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hello! Could I ask you something?",
+            "&3&lSydney": "Oh, hi!",
+            "&3&lSydney": "What is it that you need?",
+            "[PLAYER]": "Would you happen to know Nathan's sister? I need to deliver her a message from her brother.",
+            "&3&lSydney": "Katherine?! Yes!",
+            "[PLAYER]": "You know her?",
+            "&3&lSydney": "Yes! I grew up with them!",
+            "&3&lSydney": "Katherine left town a while ago after Nathan disappeared. She wanted to see him again but hasn't returned since.",
+            "&3&lSydney": "Wow, I really miss them...",
+            "[PLAYER]": "So she's not in town anymore?",
+            "&3&lSydney": "No. I believe she moved to Sandgate. You'll have to check there.",
+            "[PLAYER]": "Okay! Thank you so much for your help!",
+            "&3&lSydney": "Wait, before you go, could we possibly have a battle? I've been meaning to recently.",
+            "[PLAYER]": "Sure!"
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Battle Sydney", 5],
+    "BattleNpc": [
+        "locals_six",
+        {
+            "&3&lSydney": "You're not ready for my team!"
+        },
+        {
+            "&3&lSydney": "Wow! You're good!"
+        },
+        {
+            "&3&lSydney": "Is that the best you've got?"
+        },
+        [
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            },
+            {
+                "species": "Aerodactyl",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Fissure",
+                    "Crunch",
+                    "Roost"
+                ],
+                "ability": "Pressure",
+                "nature": "Jolly",
+                "evs": {
+                    "attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                },
+                "ivs": {
+                    "attack": 31,
+                    "special_attack": 31,
+                    "defense": 31,
+                    "special_defense": 31,
+                    "speed": 31,
+                    "hp": 31
+                }
+            }
+        ]
+    ],
+    "Wait": 2,
+    "Dialog": [
+        {
+            "&3&lSydney": "Thanks for the battle!",
+            "[PLAYER]": "Of course! I should get going now.",
+            "&3&lSydney": "Good luck!"
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Find Katherine at Sandgate", 22],
+    "Show": {
+        "locals_one": true,
+        "locals_two": true,
+        "locals_three": true,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": true,
+        "locals_five": true,
+        "locals_six": true,
+        "sister_one": true,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": true,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "HighlightClickEntity": ["sister_one"],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hey! Katherine, right?",
+            "&5&lKatherine": "Yes... and who are you?",
+            "[PLAYER]": "Oh, my apologies. I'm [PLAYER]. There's something that I think you should have.",
+            "&5&lKatherine": "Is this important? I'm not really in the mood, otherwise.",
+            "[PLAYER]": "Yes. It's from your brother, actually.",
+            "&5&lKatherine": "Oh!",
+            "&5&lKatherine": "Nathan?! I've been looking for him everywhere! I miss him so much...",
+            "[PLAYER]": "Here, why don't you take a look."
+        },
+        90
+    ],
+    "Wait": 4,
+    "SendMessage": "&7-1 Glass Bottle",
+    "Wait": 4,
+    "Dialog": [
+        {
+            "&5&lKatherine": "My goodness! This is his writing... It really is from him!",
+            "&5&lKatherine": "I feel weird...",
+            "&5&lKatherine": "I... I see... NATHAN!!!"
+        },
+        90
+    ],
+    "ProgressiveDialog": [
+        {
+            "&5&lKatherine": "Nathan, what are you doing?!"
+        }
+    ],
+    "Fade": [],
+    "Teleport": [-1176.5, 56.0, 187.5, 25, 50],
+    "Cinematic": [],
+    "Wait": 4,
+    "Teleport": [-1176.5, 56.0, 187.5, 25, 50],
+    "Freeze": true,
+    "Wait": 2.0,
+    "MoveEntity": ["brother_one", -1186.5, 45.0, 200.5],
+    "AnimateEntity": ["brother_one", "Swing Main Hand"],
+    "Show": {
+        "locals_one": false,
+        "locals_two": false,
+        "locals_three": false,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": true,
+        "sister_two": false,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": true,
+        "brother_two": true,
+        "bottle_one": true,
+        "cofagrigus_one": true
+    },
+    "MoveEntity": ["bottle_one", -1193.5, 41.0, 200.5, 0.3, true],
+    "Wait": 1.0,
+    "Unfreeze": [],
+    "Wait": 4,
+    "Fade": [],
+    "Teleport": [-1096.5, 55.5, 202.5, 90, 35],
+    "Wait": 4,
+    "Teleport": [-1096.5, 55.5, 202.5, 90, 35],
+    "Freeze": true,
+    "Wait": 2.0,
+    "MoveEntity": ["brother_two", -1120.5, 49.0, 202.5],
+    "ParticleLine": ["Flame", -1125.5, 50.5, 202.5, -1121.5, 50.5, 202.5, 0.1],
+    "AnimateEntity": ["brother_two", "Damage"],
+    "Particle": ["explosion_large", -1121.5, 50.5, 202.5, 1],
+    "PlaySound": ["entity_generic_explode", 1.0],
+    "Wait": 1.0,
+    "Unfreeze": [],
+    "StopCinematic": [],
+    "Teleport": [-1107.5, 48.0, 131.5, 90, 0],
+    "Dialog": [
+        {
+            "&5&lKatherine": "Wow... I can't believe he's gone.",
+            "&5&lKatherine": "Well, thank you [PLAYER]. I'm glad I finally found out what happened to him.",
+            "[PLAYER]": "Not a problem at all!",
+            "[PLAYER]": "I'm gonna head back now, it was nice meeting you.",
+            "&5&lKatherine": "Wait, actually... would you do me a really big favor?",
+            "[PLAYER]": "What's on your mind?",
+            "&5&lKatherine": "I really want to find the pyramid where my brother lays and pay my last respects.",
+            "&5&lKatherine": "Would you please come with me?",
+            "[PLAYER]": "Yeah! Of course I'll come."
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Meet Katherine at the pyramid", 11],
+    "Show": {
+        "locals_one": false,
+        "locals_two": false,
+        "locals_three": false,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": true,
+        "sister_two": true,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "HighlightClickEntity": ["sister_two"],
+    "Show": {
+        "locals_one": false,
+        "locals_two": false,
+        "locals_three": false,
+        "locals_four_one": false,
+        "locals_four_two": false,
+        "locals_four_three": false,
+        "locals_four_four": false,
+        "locals_five": false,
+        "locals_six": false,
+        "sister_one": false,
+        "sister_two": true,
+        "sister_three": false,
+        "sister_four": false,
+        "brother_one": false,
+        "brother_two": false,
+        "bottle_one": false,
+        "cofagrigus_one": false
+    },
+    "Dialog": [
+        {
+            "[PLAYER]": "I think this is the pyramid!",
+            "&5&lKatherine": "I think it is...",
+            "[PLAYER]": "Let's head in and investigate."
+        },
+        90
+    ],
+    "Wait": 2,
+    "PlaySound": ["entity_generic_explode", 1.0],
+    "Particle": ["explosion_huge", -1121.5, 50.5, 202.5, 1],
+    "Wait": 2,
+    "Dialog": [
+        {
+            "[PLAYER]": "...",
+            "&5&lKatherine": "Oh boy.",
+            "[PLAYER]": "Well, here goes nothing."
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Investigate the pyramid", 5],
+    "Comment": "retry_entry",
+    "InRegion": [-1121, 49, 201, -1124, 55, 206],
+    "If": [],
+    "HasWorldTime": [13000, 23000],
+    "Skip": "enter_pyramid",
+    "SendMessage": "&cYou must wait until night to enter the pyramid.",
+    "Teleport": [-1116.0, 49.0, 202.5, -90],
+    "Wait": 10.0,
+    "Skip": "retry_entry",
+    "Comment": "enter_pyramid",
+    "Dialog": [
+        {
+            "&8Cofagrigus": "cofagrigus!",
+            "[PLAYER]": "Oh no..."
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Battle through the pyramid to Nathan's tomb", 3],
+    "RegionEntry": [
+        -1125, 46, 200,
+        -1130, 53, 207
+    ],
+    "Wait": 2,
+    "BattleWildPokemon": [
+        -1127.5, 49.1, 204.5, 215,
+        [
+            {
+                "species": "Jolteon",
+                "level": 53,
+                "moves": [
+                    "Thunderbolt",
+                    "Volt Switch",
+                    "Signal Beam",
+                    "Hidden Power"
+                ],
+                "gender": "Female",
+                "ability": "Volt Absorb",
+                "nature": "Timid",
+                "item": "Choice Specs",
+                "evs": {
+                    "special_attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                }
+            }
+        ]
+    ],
+    "RegionEntry": [
+        -1130, 53, 207,
+        -1125, 46, 211
+    ],
+    "Wait": 2,
+    "BattleWildPokemon": [
+        -1127.5, 49.1, 209.5, 180,
+        [
+            {
+                "species": "Jolteon",
+                "level": 53,
+                "moves": [
+                    "Thunderbolt",
+                    "Volt Switch",
+                    "Signal Beam",
+                    "Hidden Power"
+                ],
+                "gender": "Female",
+                "ability": "Volt Absorb",
+                "nature": "Timid",
+                "item": "Choice Specs",
+                "evs": {
+                    "special_attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                }
+            }
+        ]
+    ],
+    "RegionEntry": [
+        -1125, 46, 211,
+        -1131, 53, 215
+    ],
+    "Wait": 2,
+    "BattleWildPokemon": [
+        -1130.5, 49.1, 213.5, 240,
+        [
+            {
+                "species": "Jolteon",
+                "level": 53,
+                "moves": [
+                    "Thunderbolt",
+                    "Volt Switch",
+                    "Signal Beam",
+                    "Hidden Power"
+                ],
+                "gender": "Female",
+                "ability": "Volt Absorb",
+                "nature": "Timid",
+                "item": "Choice Specs",
+                "evs": {
+                    "special_attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                }
+            }
+        ]
+    ],
+    "RegionEntry": [
+        -1131, 53, 215,
+        -1135, 46, 209
+    ],
+    "Wait": 2,
+    "BattleWildPokemon": [
+        -1133.5, 49.1, 210.5, 335,
+        [
+            {
+                "species": "Jolteon",
+                "level": 53,
+                "moves": [
+                    "Thunderbolt",
+                    "Volt Switch",
+                    "Signal Beam",
+                    "Hidden Power"
+                ],
+                "gender": "Female",
+                "ability": "Volt Absorb",
+                "nature": "Timid",
+                "item": "Choice Specs",
+                "evs": {
+                    "special_attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                }
+            }
+        ]
+    ],
+    "RegionEntry": [
+        -1135, 46, 209,
+        -1131, 53, 203
+    ],
+    "Wait": 2,
+    "BattleWildPokemon": [
+        -1133.5, 49.1, 202.5, 0,
+        [
+            {
+                "species": "Jolteon",
+                "level": 53,
+                "moves": [
+                    "Thunderbolt",
+                    "Volt Switch",
+                    "Signal Beam",
+                    "Hidden Power"
+                ],
+                "gender": "Female",
+                "ability": "Volt Absorb",
+                "nature": "Timid",
+                "item": "Choice Specs",
+                "evs": {
+                    "special_attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                }
+            }
+        ]
+    ],
+    "RegionEntry": [
+        -1131, 53, 203,
+        -1135, 46, 195
+    ],
+    "Wait": 2,
+    "BattleWildPokemon": [
+        -1133.5, 49.1, 196.5, 0,
+        [
+            {
+                "species": "Jolteon",
+                "level": 53,
+                "moves": [
+                    "Thunderbolt",
+                    "Volt Switch",
+                    "Signal Beam",
+                    "Hidden Power"
+                ],
+                "gender": "Female",
+                "ability": "Volt Absorb",
+                "nature": "Timid",
+                "item": "Choice Specs",
+                "evs": {
+                    "special_attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                }
+            }
+        ]
+    ],
+    "RegionEntry": [
+        -1135, 52, 191,
+        -1135, 46, 195
+    ],
+    "Wait": 2,
+    "BattleWildPokemon": [
+        -1138.5, 49.0, 193.5, 0,
+        [
+            {
+                "species": "Jolteon",
+                "level": 53,
+                "moves": [
+                    "Thunderbolt",
+                    "Volt Switch",
+                    "Signal Beam",
+                    "Hidden Power"
+                ],
+                "gender": "Female",
+                "ability": "Volt Absorb",
+                "nature": "Timid",
+                "item": "Choice Specs",
+                "evs": {
+                    "special_attack": 252,
+                    "speed": 252,
+                    "defense": 4
+                }
+            }
+        ]
+    ]
+}
+
+

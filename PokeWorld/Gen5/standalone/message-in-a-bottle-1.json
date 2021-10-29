@@ -1,0 +1,59 @@
+{
+    "Key": "message_in_a_bottle_1",
+    "Name": "&bMessage in a Bottle &7- part 1",
+    "Author": "eicanfly",
+    "Description": "While fishing around Everhallow, you find something quite peculiar...",
+    "AddProperty": ["location", "Everhallow"],
+    "Quest": true,
+    "AllowRejoining": true,
+    "Icon": {
+        "material": "glass_bottle"
+    },
+    "ClickToStart": [],
+    "Wait": 2,
+    "Objective": ["Go fishing around the Squirtle fountain near Everhallow", 7],
+    "InRegion": [
+        -89, 19, -128,
+        -130, 75, -90
+    ],
+    "Fish": true,
+    "Wait": 1.0,
+    "SendMessage": "&7+1 Glass Bottle",
+    "Wait": 4,
+    "Dialog": [
+        {
+            "[PLAYER]": "&oA glass bottle?",
+            "[PLAYER]": "&oThere seems to be a message inside...",
+            "[PLAYER]": "&oHmm, I can't quite read the message. Maybe a Wide Lens will help."
+        },
+        90
+    ],
+    "Wait": 4,
+    "Objective": ["Get a Wide Lens to read the message.", 13],
+    "Comment": "retry_lens",
+    "If": [],
+    "HasItem": "Wide Lens",
+    "Skip": "has_lens",
+    "Dummy": [],
+    "Comment": "Check every 2 seconds if the player has the Wide Lens in their inventory",
+    "Wait": 2.0,
+    "Skip": "retry_lens",
+    "Comment": "has_lens",
+    "Wait": 2,
+    "Dialog": [
+        {
+            "[PLAYER]": "&o...",
+            "[PLAYER]": "&oHmmm, the message reads:",
+            "&b&lD-o,": "i0 i-- q-_5om...",
+            "[PLAYER]": "&oThis is impossible to read! The water must have ruined the ink.",
+            "[PLAYER]": "&oI'll wait a couple of days for it to dry out and see if it works then."
+        },
+        90
+    ],
+    "Wait": 1.0,
+    "Objective": ["Wait two in-game days for the message to dry.", 1],
+    "Wait": 1.0,
+    "Complete": []
+}
+
+

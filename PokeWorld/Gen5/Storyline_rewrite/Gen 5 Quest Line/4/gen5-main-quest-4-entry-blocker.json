@@ -1,0 +1,21 @@
+{
+    "Key": "gen5_main_quest_4_entry_blocker",
+    "GlobalRegionEntry": [
+        72, 53, 329,
+        84, 70, 348
+    ],
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y.": "I am &ls&rorry, you need the password to en&lt&rer this f&la&rcili&lt&ry. Com&le&r back when you are &lr&re&la&rdy."
+        },
+        1, true, true, "male_angry"
+    ],
+
+    "GlobalRegionEntry": [
+        72, 53, 329,
+        84, 70, 348
+    ],
+    "Teleport": [61.5, 53.0, 337.5, -90],
+
+    "Hold": []
+}
