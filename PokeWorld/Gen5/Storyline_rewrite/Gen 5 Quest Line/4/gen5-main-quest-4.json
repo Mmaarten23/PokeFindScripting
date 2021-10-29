@@ -446,7 +446,7 @@
             "&c&lAgent Ty": "[PLAYER], you will be assigned to help us take down the Ancient Tribe also known as &6Sophro&r, they are, and have proven time and time again that they are a major threat to the region and our unity.",
             "&c&lAgent Ty": "You will need to infiltrate their meeting, it's to take place today in their main hall. It's located in a Volcano in an underground cavern, directly in the middle of the region."
         },
-        120, true, true, "male_normal"
+        160, true, true, "male_normal"
     ],
     "NewDialog": [
         {
@@ -645,12 +645,14 @@
         "Tribe_Member3": false,
         "Tribe_Member4": false,
         "Tribe_Leader": false,
+        "volcano_player": true,
         "Battle_Tribe_Member1": true,
         "Battle_Tribe_Member2": true,
         "Battle_Tribe_Member3": true,
         "Battle_Tribe_Member4": true,
         "Battle_Tribe_Leader": true
     },
+    "StopCinematic": [],
     "Unfreeze": [],
     "Wait": 20,
     "NewDialog": [
