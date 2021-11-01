@@ -51,7 +51,7 @@
     "Equals": ["gen5_main_quest_3_notes_playing", false],
     "Leave": [],
     "Set": ["gen5_main_quest_3_notes_playing", false],
-    "SendMessage": "&cThat didn't sound quite right! Please try again.",
+    "SendMessage": "&cThat didn't sound quite right! Please try again. 7",
     "Wait": 1,
     "Hide": "note",
     "Start": ["gen5_main_quest_3_notes_master"]
