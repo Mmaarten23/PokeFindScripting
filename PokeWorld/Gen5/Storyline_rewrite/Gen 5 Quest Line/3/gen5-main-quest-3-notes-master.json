@@ -20,6 +20,12 @@
     "Skip": "restart",
 
     "Comment": "start_notes",
+    "SetBlocks": [
+        383, 62, -29,
+        388, 62, -29,
+        "note_block"
+    ],
+    "Teleport": [384.8,52.9,-35.4, 0, -45],
     "SendMessage": "Get ready to play the notes",
     "PlaySound": "ui_button_click",
     "SetTitle": ["&a&l3", "", 5, 10, 5],
@@ -50,6 +56,11 @@
 
 
     "Comment": "restart",
+    "SetBlocks": [
+        383, 62, -29,
+        388, 62, -29,
+        "air"
+    ],
     "Leave": "gen5_main_quest_3_notes_1",
     "Leave": "gen5_main_quest_3_notes_2",
     "Leave": "gen5_main_quest_3_notes_3",
