@@ -1,0 +1,19 @@
+{
+    "Key": "gen5_main_quest_reward",
+    "Author": "Mmaarten",
+
+    "Comment": "Players will receive a random custom reward item upon completing an episode of the main quest line. They can then change a full set into special rewards.",
+    "RandomOption": 8,
+    "GiveItem": {
+        "material": "apple",
+        "name": "&c&lAn apple a day...",
+        "description": "&0At &bStatera&0, healthy food is really important. Employees nom away on these bad boys all day long!\n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "GiveItem": {
+        "material": "water_bottle",
+        "name": "&b&lCompany cooled water",
+        "description": "&0At &bStatera&0, healthy food is really important. Employees nom away on these bad boys all day long!\n\n&7&oMain Quest item",
+        "glow": true
+    }
+}

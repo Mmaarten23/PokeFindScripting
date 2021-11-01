@@ -362,9 +362,7 @@
     },
     "Quest": true,
     "HighlightClickEntity": "Rival1",
-    "Completed": "GYM4",
-    "Completed": "gen5_main_quest_4",
-    "NotCompleted": [],
+    "Comment": "\"Completed\": \"GYM4\",\n    \"Completed\": \"gen5_main_quest_4\",\n    \"NotCompleted\": [],",
     "Dialog": [
         {
             "&d&lDanielle": "Hey! I've gotten new badges and I'm much stronger since our last battle!",

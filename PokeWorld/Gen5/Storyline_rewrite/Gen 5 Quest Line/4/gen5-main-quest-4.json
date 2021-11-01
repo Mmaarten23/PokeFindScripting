@@ -290,6 +290,7 @@
         "Representative1": true,
         "Rival1": true,
         "Rival2": false,
+        "Rival3": false,
         "volcano_player": false,
         "meeting_player": false,
         "Tribe_Member1": false,
@@ -464,7 +465,7 @@
         -813, 70, 750
     ],
     "Fade": [],
-    "Teleport": [-787.0, 59.0, 760.5, 23, 36],
+    "Teleport": [-786.3, 55.8, 759.8, 23, 36],
     "Cinematic": [],
     "Show": {
         "volcano_player": true,
@@ -564,8 +565,8 @@
     "Freeze": true,
     "NewDialog": [
         {
-            "[PLAYER]": "Why are those two Pokémon standing on each side? They're coloured Black and White?",
-            "[PLAYER]": "The balance between them is just... perfect!"
+            "[PLAYER]": "&oWhy are those two Pokémon standing on each side? They're coloured Black and White?",
+            "[PLAYER]": "&oThe balance between them is just... perfect!"
         },
         60, true, true
     ],
@@ -1028,8 +1029,9 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "&e&lAstrid": "As I said before... my name is &eAstrid&r, I am the new leader of the Tribe of &eSophro&r. You’ve bested me in battle, but I plead with you...",
-            "&e&lAstrid": "Do not interfere further... &3Statera&r is corrupt, they are putting our very lives on the line, they are unbalancing what the universe has spent thousands upon thousands of years to put into motion.",
+            "&e&lAstrid": "I am the new leader of the Tribe of &eSophro&r. You’ve bested me in battle, but I plead with you...",
+            "&e&lAstrid": "Do not interfere further... &3Statera&r is corrupt, they are putting our very lives on the line.",
+            "&e&lAstrid": "They are unbalancing what the universe has spent thousands upon thousands of years to put into motion.",
             "&e&lAstrid": "They care nothing for our lands, or our people. They are greedy! They must be stopped before they ruin our futures!",
             "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up? We have far more meeting locations than &3Statera&r could possibly be aware of."
         },
