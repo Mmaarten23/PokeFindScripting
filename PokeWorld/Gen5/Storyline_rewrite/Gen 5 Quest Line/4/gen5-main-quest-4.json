@@ -208,10 +208,10 @@
         "key": "Battle_Tribe_Member2",
         "name": "&6&lSophro Elder",
         "location": {
-            "x": -864.0,
+            "x": -865.8,
             "y": 28.0,
-            "z": 696.3,
-            "yaw": -124,
+            "z": 683.4,
+            "yaw": -22,
             "pitch": 0
         },
         "skin": {
@@ -238,10 +238,10 @@
         "key": "Battle_Tribe_Member4",
         "name": "&6&lSophro Elder",
         "location": {
-            "x": -849.5,
-            "y": 13.0,
-            "z": 835.5,
-            "yaw": 180,
+            "x": -849.4,
+            "y": 14.0,
+            "z": 815.5,
+            "yaw": -180,
             "pitch": 0
         },
         "skin": {
@@ -336,8 +336,8 @@
         "barrier"
     ],
     "SetBlocks": [
-        -865, 12, 837,
-        -836, 35, 837,
+        -848,14,820,
+        -852,19,820,
         "air",
         "barrier"
     ],
@@ -624,7 +624,7 @@
         },
         90, true, true
     ],
-    "EntityLookAtPlayer": "Tribe_Leader",
+    "EntityLook": ["Tribe_Leader", "volcano_player"],
     "NewDialog": [
         {
             "&e&lAstrid": "What was that?! Is someone here?!",
@@ -633,10 +633,10 @@
         90, true, true, "female_angry"
     ],
     "Wait": 20,
-    "ProgressiveMoveEntity": ["Tribe_Leader", -817.5, 17.5, 700.5, false],
+    "ProgressiveMoveEntity": ["Tribe_Leader", -818.9, 18.5, 696.2, false],
     "ProgressiveMoveEntity": ["Tribe_Member2", -818.5, 17.5, 701.5, false],
-    "ProgressiveMoveEntity": ["Tribe_Member3", -818.5, 17.5, 698.5, false],
-    "ProgressiveMoveEntity": ["Tribe_Member4", -819.5, 18.5, 698.5, false],
+    "ProgressiveMoveEntity": ["Tribe_Member3", -826.8, 19.0, 701.0, false],
+    "ProgressiveMoveEntity": ["Tribe_Member4", -826.8, 19.0, 701.0, false],
     "MoveEntity": ["Tribe_Member1", -818.5, 18.0, 696.5, false],
     "Fade": [],
     "Teleport": [-822.9, 18.0, 682.4, 15],
@@ -646,7 +646,7 @@
         "Tribe_Member3": false,
         "Tribe_Member4": false,
         "Tribe_Leader": false,
-        "volcano_player": true,
+        "volcano_player": false,
         "Battle_Tribe_Member1": true,
         "Battle_Tribe_Member2": true,
         "Battle_Tribe_Member3": true,
@@ -735,8 +735,31 @@
     "Show": {
         "Battle_Tribe_Member1": false
     },
-    "Objective": ["Head to the next room and battle the second Sophro Elder", 3],
-
+    "Objective": ["Head to the next room", 3],
+    "RegionEntry": [
+        -851, 31, 692,
+        -851, 28, 686
+    ],
+    "Look": 57,
+    "Wait": 1,
+    "Freeze": true,
+    "Cinematic": [],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThis looks like another one of those magma puzzles..."
+        },
+        90, true, true
+    ],
+    "StopCinematic": [],
+    "Unfreeze": [],
+    "SendMessage": "DEBUG: Add puzzle based on feedback",
+    "Objective": ["Defeat the second Tribe Elder", 3],
+    "SetBlocks": [
+        -868, 27, 688,
+        -861, 31, 688,
+        "air",
+        "air"
+    ],
     "BattleNpc": [
         "Battle_Tribe_Member2",
         {
@@ -798,12 +821,6 @@
                 "nature": "Timid"
             }
         ]
-    ],
-    "SetBlocks": [
-        -868, 27, 688,
-        -861, 31, 688,
-        "air",
-        "air"
     ],
     "Wait": 20,
     "Show": {
@@ -953,8 +970,8 @@
         ]
     ],
     "SetBlocks": [
-        -865, 12, 837,
-        -836, 35, 837,
+        -848,14,820,
+        -852,19,820,
         "air",
         "air"
     ],
@@ -1033,7 +1050,8 @@
             "&e&lAstrid": "Do not interfere further... &3Statera&r is corrupt, they are putting our very lives on the line.",
             "&e&lAstrid": "They are unbalancing what the universe has spent thousands upon thousands of years to put into motion.",
             "&e&lAstrid": "They care nothing for our lands, or our people. They are greedy! They must be stopped before they ruin our futures!",
-            "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up? We have far more meeting locations than &3Statera&r could possibly be aware of."
+            "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up?",
+            "&e&lAstrid": "We have far more meeting locations than &3Statera&r could possibly be aware of."
         },
         90, true, true, "female_scared"
     ],
@@ -1075,7 +1093,7 @@
         },
         90, true, true, "female_excited"
     ],
-    "Teleport": [-843.6, 13.2, 884.8, 36],
+    "Teleport": [-843.6, 13.2, 884.8, 70],
     "Cinematic": [],
     "Wait": 2,
     "Freeze": true,
@@ -1083,6 +1101,7 @@
     "Unfreeze": [],
     "Fade": [],
     "Teleport": [-790.5, 56.0, 781.5, 0],
+    "StopCinematic": [],
     "Wait": 20,
     "Objective": ["Return to Agent Ty with this new information", 3],
     "Show": {
