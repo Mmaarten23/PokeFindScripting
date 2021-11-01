@@ -47,7 +47,7 @@
     "Comment": "bottom_reached",
     "TeleportEntity": ["note", 385.5, 61.5, -29.5],
     "If": [],
-    "Equals": ["gen5_main_quest_3_notes_playing", "<=", 2],
+    "Equals": ["gen5_main_quest_3_notes_playing", ">=", 3],
     "Skip": "end",
     "Set": ["gen5_main_quest_3_notes_playing", 3],
     "SendMessage": "&cThat didn't sound quite right! Please try again. 3",
