@@ -1075,6 +1075,14 @@
         },
         90, true, true, "female_excited"
     ],
+    "Teleport": [-843.6, 13.2, 884.8, 36],
+    "Cinematic": [],
+    "Wait": 2,
+    "Freeze": true,
+    "MoveEntity": ["Battle_Tribe_Leader", -847.4, 13.0, 880.1, 0.2, false],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-790.5, 56.0, 781.5, 0],
     "Wait": 20,
     "Objective": ["Return to Agent Ty with this new information", 3],
     "Show": {

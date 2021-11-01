@@ -48,10 +48,13 @@
     "TeleportEntity": ["note", 387.5, 61.5, -29.5],
     "If": [],
     "Equals": ["gen5_main_quest_3_notes_playing", "<=", 1],
-    "Leave": [],
+    "Skip": "end",
     "Set": ["gen5_main_quest_3_notes_playing", 2],
     "SendMessage": "&cThat didn't sound quite right! Please try again. 2",
     "Wait": 1,
     "Hide": "note",
-    "Start": ["gen5_main_quest_3_notes_master"]
+    "Start": ["gen5_main_quest_3_notes_master"],
+
+    "Comment": "end",
+    "Set": ["gen5_main_quest_3_notes_playing", 2]
 }
