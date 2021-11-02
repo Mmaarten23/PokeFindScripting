@@ -39,7 +39,8 @@
 
     "Comment": "hit",
     "PlaySound": ["block_note_block_flute", 0.9, 1.0],
-    "TeleportEntity": ["note", 387.5, 161.5, -29.5],
+    "StopMovement": "note",
+    "TeleportEntity": ["note", 387.5, 61.5, -29.5],
     "Wait": 1,
     "Hide": "note_item",
     "Leave": [],
