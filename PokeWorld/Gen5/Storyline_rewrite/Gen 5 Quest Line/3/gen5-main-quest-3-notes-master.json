@@ -28,7 +28,7 @@
         "note_block"
     ],
     "Teleport": [385.0, 53.0, -35.4, 0, -45],
-    "SendMessage": "Get ready to play the notes",
+    "SendMessage": "&a&lGet ready to play the notes",
     "PlaySound": "ui_button_click",
     "SetTitle": ["&a&l3", "", 5, 10, 5],
     "Wait": 1.0,
@@ -74,6 +74,7 @@
     "Start": "gen5_main_quest_3_notes_7",
     "Skip": "restart",
     "Hold": [],
+    "SendMessage": "&aThat sounded wonderful!",
     "Progress": "gen5_main_quest_3",
     "Leave": [],
 

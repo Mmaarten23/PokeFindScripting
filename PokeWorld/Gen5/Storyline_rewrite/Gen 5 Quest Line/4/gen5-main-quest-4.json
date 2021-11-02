@@ -1176,7 +1176,7 @@
     "GiveCoins": 1,
     "GiveTokens": 1,
     "GiveTrainerExperience": 1,
-    "GiveItem": "carrot",
+    "Start": "gen5_main_quest_reward",
     "Wait": 20,
     "Fade": [],
     "Teleport": [78.5,77.0,345.0, 135, 5],

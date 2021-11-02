@@ -1244,6 +1244,7 @@
     "GiveCoins": 1,
     "GiveTokens": 1,
     "GiveTrainerExperience": 1,
+    "Start": "gen5_main_quest_reward",
     "Wait": 20,
     "Fade": [],
     "Teleport": [922.1,47.0,-551.1, -85],
