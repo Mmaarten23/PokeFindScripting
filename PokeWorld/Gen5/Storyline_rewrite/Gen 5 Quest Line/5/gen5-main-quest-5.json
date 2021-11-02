@@ -128,10 +128,10 @@
     "CreateEntity": {
         "key": "Zekrom1",
         "location": {
-            "x": .5,
-            "y": .0,
-            "z": .5,
-            "yaw":,
+            "x": -319.5,
+            "y": 48.9,
+            "z": -24.9,
+            "yaw": -60,
             "pitch": 0
         },
         "entity": "armor_stand",
@@ -298,11 +298,11 @@
         "key": "Dragon1",
         "name": "",
         "location": {
-            "x": .5,
-            "y": .0,
-            "z": .5,
-            "yaw":,
-            "pitch": 0
+            "x": -1317.9,
+            "y": 51.0,
+            "z": 255.8,
+            "yaw": -112,
+            "pitch": 17
         },
         "entity": "armor_stand",
         "pokemon": ""
@@ -496,7 +496,7 @@
             "&d&lDanielle": "Let us go! &3Statera&r needs us back!",
             "&d&lDanielle": "You &6Sophro&r goons are done for! You’ve crossed the line now.",
             "&7&lCaptain": "&oNow&r? You have it all wrong young &dDanielle..",
-            "&d&lDanielle": "How did you know my name...",
+            "&d&lDanielle": "How do you know my name...",
             "&7&lCaptain": "This Rivalry of factions far exceeds any noted historian, I assure you. &3Statera&r and &6Sophro&r are just another torch being passed down the timeline.",
             "&7&lCaptain": "Ever since the day you both arrived on that ship with that researcher, your &dAura&r has been the only thing I’ve sensed.",
             "&d&lDanielle": "You’re NUTS! &dAURA&r?! What are you babbling about?",
@@ -733,7 +733,6 @@
     "Wait": 20,
     "Objective": [
         "Meet Astrid in the next room"
-
     ],
     "ProgressiveWall": [
         -504, 63, 45,
@@ -764,63 +763,23 @@
         }
     ],
     "Show": {
-        "Cinematic_Tribe_Leader1": true,
-        "Cinematic_Statera_Leader1": true,
         "Dragon1": true
     },
     "Wait": 20,
     "Cinematic": [],
 
-
-
-
-    "Fade": [
-    ],
-    "Teleport": [
-        .5,
-        .0,
-        .5,
-        ,
-        0
-    ],
-    "Look": [
-        "Dragon1"
-    ],
-    "Wait": [
-        20
-    ],
+    "Fade": [],
+    "Teleport": [-1282.5, 54.5, 243.8, 90, 16],
+    "Cinematic": [],
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "Long ago two siblings created the region of Zeinova. An older sister and a younger brother, we will call the sister Yin and the brother Yang.",
             "&e&lAstrid": "When they were young in age, they used the power of an ancient Dragon Pokémon to create the region."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "SetBlocks": [
-        ,,,,,,
-    "Sand"
-],
-    "SetBlocks": [
-        ,,,,,,
-    "Sand"
-],
-    "SetBlocks": [
-        ,,,,,,
-    "Sand"
-],
-    "SetBlocks": [
-        ,,,,,,
-    "Dirt"
-],
-    "SetBlocks": [
-        ,,,,,,
-    "Grass Block"
-],
-    "Wait": [
-        30
-    ],
+    "Wait": 20,
+    "Wait": 30,
     "Dialog": [
         {
             "&e&lAstrid": "After Zeinova was created and the siblings grew older in age, they began to have different views of how the region should prosper for future generations...",
@@ -833,9 +792,6 @@
     ],
     "EntityLook": [
         "Cinematic_Tribe_Leader1"
-
-
-
     ],
     "EntityLook": [
         "Cinematic_Statera_Leader1"
@@ -1026,9 +982,7 @@
             "[PLAYER]": "&oAstrid and Vidar are the siblings from the story?!"
         }
     ],
-    "Wait":
-        30
-    ,
+    "Wait": 30,
     "Dialog": [
         {
             "&e&lAstrid": "Your 'efforts' are tearing apart the balance of Zeinova &8Vidar&r!",
@@ -1045,18 +999,10 @@
             "&e&lAstrid": "You have not even tried, &8Vidar&r."
         }
     ],
-    "Wait":
-        20
-    ,
-    "EntityLookAtPlayer":
-        "Statera_Leader2"
-    ,
-    "EntityLookAtPlayer":
-        "Tribe_Leader2"
-    ,
-    "Wait":
-        20
-    ,
+    "Wait": 20,
+    "EntityLookAtPlayer": "Statera_Leader2",
+    "EntityLookAtPlayer": "Tribe_Leader2",
+    "Wait": 20,
     "Dialog": [
         {
             "&8&lVidar": "Arguing with you &eAstrid&r is the equivalant of arguing with a concrete wall. I am taking the kids with me, let’s go &dDanielle&r, [PLAYER]. We’re heading back to HQ.",
@@ -1066,9 +1012,7 @@
             "&b&lBoth": "What will you choose?"
         }
     ],
-    "Wait":
-        20
-    ,
+    "Wait": 20,
     "Objective": [
         "Choose which side you want to be on (Statera or Sophro)"
 
