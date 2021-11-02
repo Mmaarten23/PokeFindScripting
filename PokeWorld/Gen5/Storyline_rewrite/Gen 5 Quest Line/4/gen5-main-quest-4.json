@@ -624,7 +624,7 @@
         },
         90, true, true
     ],
-    "EntityLook": ["Tribe_Leader", "volcano_player"],
+    "EntityLook": ["Tribe_Leader", "meeting_player"],
     "NewDialog": [
         {
             "&e&lAstrid": "What was that?! Is someone here?!",
@@ -646,7 +646,7 @@
         "Tribe_Member3": false,
         "Tribe_Member4": false,
         "Tribe_Leader": false,
-        "volcano_player": false,
+        "meeting_player": false,
         "Battle_Tribe_Member1": true,
         "Battle_Tribe_Member2": true,
         "Battle_Tribe_Member3": true,
@@ -1053,7 +1053,7 @@
             "&e&lAstrid": "They’ve sent a mere CHILD to spy upon us? You’ve succeeded in ending today's meeting but how long can you keep that up?",
             "&e&lAstrid": "We have far more meeting locations than &3Statera&r could possibly be aware of."
         },
-        90, true, true, "female_scared"
+        100, true, true, "female_scared"
     ],
     "NewDialog": [
         {
@@ -1085,7 +1085,7 @@
             "&e&lAstrid": "Soon, it will no longer be an issue. It is for the good of the Pokémon... and of our region.",
             "&e&lAstrid": "Our Swords will bring Justice to this land, and bring Balance back to Zeinova!"
         },
-        90, true, true, "female_normal"
+        100, true, true, "female_normal"
     ],
     "NewDialog": [
         {
@@ -1102,7 +1102,7 @@
     "Fade": [],
     "Teleport": [-790.5, 56.0, 781.5, 0],
     "StopCinematic": [],
-    "Wait": 20,
+    "Wait": 40,
     "Objective": ["Return to Agent Ty with this new information", 3],
     "Show": {
         "Rival4": false,
@@ -1179,7 +1179,7 @@
     "GiveItem": "carrot",
     "Wait": 20,
     "Fade": [],
-    "Teleport": [70.5, 53.0, 337.5, -90],
+    "Teleport": [78.5,77.0,345.0, 135, 5],
     "Hide": {
         "Representative1": true,
         "Rival1": true,

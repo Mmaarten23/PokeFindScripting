@@ -350,7 +350,7 @@
         90, true, true, "female_normal"
     ],
     "Wait": 20,
-    "Objective": ["Investigate what's going on at all the bridges in Spiritvale", 10],
+    "Objective": ["Locate the suspicious activity in Spiritvale", 10],
     "RegionEntry": [
         365, 1, -39,
         427, 100, -5
