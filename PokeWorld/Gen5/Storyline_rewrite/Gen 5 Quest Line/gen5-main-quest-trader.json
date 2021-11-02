@@ -323,6 +323,7 @@
     "GiveTokens": 50000,
     "GiveGems": 200,
     "GiveTrainerExperience": 1000000000,
+    "PlaySound": "entity_player_levelup",
     "NewDialog": [
         {
             "&7&lMikhail": "Pleasure doing business with you"
