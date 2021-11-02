@@ -1,0 +1,332 @@
+{
+    "Key": "gen5_main_quest_trader",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "trader",
+        "name": [
+            "&8Mikhail",
+            "&7Shady Merchant"
+        ],
+        "location": {
+            "x": 626.5,
+            "y": 49.0,
+            "z": 608.3,
+            "yaw": -1,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NjcxOTk1NDY3NiwKICAicHJvZmlsZUlkIiA6ICI3NTYzODk0ZmFhZmU0OTI2YjVhZWFhMWJmNDZjOWZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJlc3F1aU1UIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3MzViNDI5NDFiNDMxZjY3NDNjMTUzMjc4ODgzODM3ODNlY2M0ODY0ZDgzMDc3OWM2NDUwZDk3OTg5NTlmOWYiCiAgICB9CiAgfQp9",
+            "signature": "GYMPbN0dfp/oKr1KTrrHl8waM2CnEVVLNwcf7AiuoOr3xcZhckjvIAXArPOVouLhlJYTas8h7rlW5t35uks/ZhapyyOEicEg9a4M/k507A/P+9HJYF2sHQPgM0P40trDn1fhWCxRsc72CLh2h6sDMJluO3jJD2rMnCGDsYuYh5qxP2rLiUzPZ4Kl5eHAAbuEpyll1DGrkMrbSF4hEtqFq7M5kUpliSCcJLaoMEipl8c5jXDu9y26Uk5BGzzAEYze0D2jQBs8x6PJX+dBk1FiLlB5v2f3gUS/vmBT2CiWXIhkhwIv8KoRkoFhItsAEKt05KgcJoXwFwb4c1/QGHAqtIVZ0/jJs9SYqWFV2BZJh4RlGSmZgR64AmdcB3x/wcpJXTZdnJ3AYPGeKeBNNUvEkhq8qXPpLuL+8J2Ldn5KiCb0ykvjLVp/g9hCUb4nEsIQOteH5GYquDaRPNklr3bkoDCqDV5CHXIi1Lmsn0vlrbwXY9bArNHpp91JD4VVRI6Eot2SVPUNtydoK+RnnKE8q1vs21kdFD+/1Mgu7DO03J7FI0YmNemFAw6B8xw0PZJrzlfLjOkzJ8/zVfcfFVVTMlgqbc8+RHKze88xq1ElI7vqtxztdGXeqmDzHHhwKHqY0n4qkZzJQAw22AZALwebC82BAvlcq5vJZpJc9ReseHc="
+        }
+    },
+    "ClickEntity": "trader",
+    "If": [],
+    "NotCompleted": "gen5_main_quest_trader",
+    "Skip": "first_time",
+    "Skip": "returning",
+
+    "Comment": "first_time",
+    "NewDialog": [
+        {
+            "&7&lMikhail": "Yoo, psst. You there.",
+            "&7&lMikhail": "I heard that you are working for that &oStatera&r company.",
+            "&7&lMikhail": "They give out special gadgets to their employees whenever they come back from a mission.",
+            "&7&lMikhail": "They are pretty useless but if you bring me a full set of &l8&r gadgets, I might have something for you."
+        },
+        90, true, true
+    ],
+    "Complete": [],
+    "Leave": [],
+
+    "Comment": "returning",
+    "NewDialog": [
+        {
+            "&7&lMikhail": "Let's see what you got."
+        },
+        10, true, true
+    ],
+    "Menu": [
+        "Shady Merchant",
+        5,
+        {
+            "4": {
+                "material": "book",
+                "name": "&b&lInfo",
+                "description": [
+                    "Completing tasks for the &bStatera&f company may be rewarded with some special collectibles.",
+                    "",
+                    "These don't have any effect just by themselves but if you have a full set of 8 different ones, they become very valuable!",
+                    "",
+                    "Trade them with a &7Shady Merchant&f and receive a &cm&6y&es&at&9e&br&5y &f reward."
+                ]
+            },
+            "18": {
+                "material": "apple",
+                "name": "&c&lAn apple a day...",
+                "glow": true
+            },
+            "19": {
+                "material": "minecraft:potion",
+                "name": "&d&lCompany cooled strawberry juice",
+                "glow": true
+            },
+            "20": {
+                "material": "carrot",
+                "name": "&6&lA snowman's nose",
+                "glow": true
+            },
+            "21": {
+                "material": "sweet_berries",
+                "name": "&4&lPrickly friend",
+                "glow": true
+            },
+            "23": {
+                "material": "enchanted_golden_apple",
+                "name": "&e&lA heart of gold",
+                "glow": true
+            },
+            "24": {
+                "material": "melon_slice",
+                "name": "&4&lA watery mess",
+                "glow": true
+            },
+            "25": {
+                "material": "cookie",
+                "name": "&b&lSoulfood",
+                "glow": true
+            },
+            "26": {
+                "material": "bread",
+                "name": "&6&lBread",
+                "glow": true
+            },
+            "31": {
+                "material": "sunflower",
+                "name": "&e&lTRADE",
+                "description": [
+                    "&7Start trading your &bStatera&7 items with Mikhail",
+                    "",
+                    "",
+                    "&c&l!! &cOnly do this if you have one of all 8 items"
+                ],
+                "glow": true
+            }
+        },
+        false
+    ],
+    "Leave": [],
+    "Leave": [],
+    "Leave": [],
+    "Leave": [],
+    "Leave": [],
+    "Leave": [],
+    "Leave": [],
+    "Leave": [],
+    "Leave": [],
+    "Dummy": [],
+    "NewDialog": [
+        {
+            "&7&lMikhail": "So you want to trade your items huh?",
+            "&7&lMikhail": "I only deal with serious people so once you start trading, &cthere is no turning back!",
+            "&7&lMikhail": "Are you okay with that?"
+        },
+        90, true, true
+    ],
+    "SendMessageOptions": [
+        "&cNo, cancel the trade.",
+        "&aYes, I am all good"
+    ],
+    "Skip": "leaving",
+    "Skip": "trading",
+
+    "Comment": "leaving",
+    "NewDialog": [
+        {
+            "&7&lMikhail": "No harm, no foul.",
+            "&7&lMikhail": "Feel free to come back later."
+        },
+        90, true, true
+    ],
+    "Leave": [],
+
+    "Comment": "trading",
+    "If": [],
+    "HasItem": [
+        {
+            "material": "apple",
+            "name": "&c&lAn apple a day...",
+            "description": "&fAt &bStatera&f, healthy food is really important. Employees nom away on these bad boys all day long!\n\n&7&oMain Quest item",
+            "glow": true
+        }
+    ],
+    "Skip": "check_2",
+    "Skip": "fail",
+
+    "Comment": "check_2",
+    "If": [],
+    "HasItem": [
+        {
+            "material": "minecraft:potion",
+            "name": "&d&lCompany cooled strawberry juice",
+            "description": "&fAll that training can make a trainer thirsty. Enjoy some fresh strawberry juice provided by our sponsor &bStatera&f!\n\n&7&oMain Quest item",
+            "glow": true
+        }
+    ],
+    "Skip": "check_3",
+    "Skip": "fail",
+
+
+    "Comment": "check_3",
+    "If": [],
+    "HasItem": [
+        {
+            "material": "carrot",
+            "name": "&6&lA snowman's nose",
+            "description": "&fImagine being a carrot, everyone would be rooting for you! Proudly sponsored by &bStatera&f!\n\n&7&oMain Quest item",
+            "glow": true
+        }
+    ],
+    "Skip": "check_4",
+    "Skip": "fail",
+
+
+    "Comment": "check_4",
+    "If": [],
+    "HasItem": [
+        {
+            "material": "sweet_berries",
+            "name": "&4&lPrickly friend",
+            "description": "&bStatera&f provides these lovely berries as friends. They might seem delicious at first but watch out for those thorns! \n\n&7&oMain Quest item",
+            "glow": true
+        }
+    ],
+    "Skip": "check_5",
+    "Skip": "fail",
+
+
+    "Comment": "check_5",
+    "If": [],
+    "HasItem": [
+        {
+            "material": "enchanted_golden_apple",
+            "name": "&e&lA heart of gold",
+            "description": "&fCourtesy of &bStatera&f, everyone can enjoy a healthy snack!\n\n&7&oMain Quest item",
+            "glow": true
+        }
+    ],
+    "Skip": "check_6",
+    "Skip": "fail",
+
+
+    "Comment": "check_6",
+    "If": [],
+    "HasItem": [
+        {
+            "material": "melon_slice",
+            "name": "&4&lA watery mess",
+            "description": "&fCan you eat this without making a mess? &bStatera&f bets you can!\n\n&7&oMain Quest item",
+            "glow": true
+        }
+    ],
+    "Skip": "check_7",
+    "Skip": "fail",
+
+
+    "Comment": "check_7",
+    "If": [],
+    "HasItem": [
+        {
+            "material": "cookie",
+            "name": "&b&lSoulfood",
+            "description": "&fEveryone at &bStatera&f loves these. Keep yours safe before a colleague \"loses\" it!\n\n&7&oMain Quest item",
+            "glow": true
+        }
+    ],
+    "Skip": "check_8",
+    "Skip": "fail",
+    "Comment": "check_8",
+    "If": [],
+    "HasItem": [
+        {
+            "material": "bread",
+            "name": "&6&lBread",
+            "description": "&fPair it with some cheese and this loaf of bread becomes a real &bStatera&f sandwich!\n\n&7&oMain Quest item",
+            "glow": true
+        }
+    ],
+    "Skip": "success",
+    "Skip": "fail",
+
+
+    "Comment": "fail",
+    "NewDialog": [
+        {
+            "&7&lMikhail": "You don't even have the stuff!",
+            "&7&lMikhail": "Stop wasting my time."
+        },
+        90, true, true
+    ],
+    "Leave": [],
+
+
+    "Comment": "success",
+    "TakeItem": {
+        "material": "apple",
+        "name": "&c&lAn apple a day...",
+        "description": "&fAt &bStatera&f, healthy food is really important. Employees nom away on these bad boys all day long!\n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "TakeItem": {
+        "material": "minecraft:potion",
+        "name": "&d&lCompany cooled strawberry juice",
+        "description": "&fAll that training can make a trainer thirsty. Enjoy some fresh strawberry juice provided by our sponsor &bStatera&f!\n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "TakeItem": {
+        "material": "carrot",
+        "name": "&6&lA snowman's nose",
+        "description": "&fImagine being a carrot, everyone would be rooting for you! Proudly sponsored by &bStatera&f!\n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "TakeItem": {
+        "material": "sweet_berries",
+        "name": "&4&lPrickly friend",
+        "description": "&bStatera&f provides these lovely berries as friends. They might seem delicious at first but watch out for those thorns! \n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "TakeItem": {
+        "material": "enchanted_golden_apple",
+        "name": "&e&lA heart of gold",
+        "description": "&fCourtesy of &bStatera&f, everyone can enjoy a healthy snack!\n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "TakeItem": {
+        "material": "melon_slice",
+        "name": "&4&lA watery mess",
+        "description": "&fCan you eat this without making a mess? &bStatera&f bets you can!\n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "TakeItem": {
+        "material": "cookie",
+        "name": "&b&lSoulfood",
+        "description": "&fEveryone at &bStatera&f loves these. Keep yours safe before a colleague \"loses\" it!\n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "TakeItem": {
+        "material": "bread",
+        "name": "&6&lBread",
+        "description": "&fPair it with some cheese and this loaf of bread becomes a real &bStatera&f sandwich!\n\n&7&oMain Quest item",
+        "glow": true
+    },
+    "RandomOption": 3,
+    "GiveTokens": 50000,
+    "GiveGems": 200,
+    "GiveTrainerExperience": 1000000000,
+    "NewDialog": [
+        {
+            "&7&lMikhail": "Pleasure doing business with you"
+        },
+        90, true, true
+    ]
+}

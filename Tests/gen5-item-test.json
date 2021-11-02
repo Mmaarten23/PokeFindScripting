@@ -1,10 +1,6 @@
 {
-    "Key": "gen5_main_quest_reward",
+    "Key": "gen5_item_test",
     "Author": "Mmaarten",
-
-    "Comment": "Players will receive a random custom reward item upon completing an episode of the main quest line. They can then change a full set into special rewards.",
-    "Comment": "another_one",
-    "RandomOption": 8,
     "GiveItem": {
         "material": "apple",
         "name": "&c&lAn apple a day...",
@@ -52,11 +48,5 @@
         "name": "&6&lBread",
         "description": "&fPair it with some cheese and this loaf of bread becomes a real &bStatera&f sandwich!\n\n&7&oMain Quest item",
         "glow": true
-    },
-
-    "Comment": "Players have a 1/8 chance to get another item with each item they get.",
-    "If": [],
-    "Chance": 0.125,
-    "Skip": "another_one",
-    "Dummy": []
+    }
 }
