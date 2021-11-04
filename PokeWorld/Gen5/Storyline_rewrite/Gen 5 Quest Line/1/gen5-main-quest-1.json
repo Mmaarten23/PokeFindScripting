@@ -343,6 +343,7 @@
         "pokemon": "Groudon",
         "look": false
     },
+
     "Show": {
         "worker1": false,
         "worker2": false,
@@ -512,13 +513,13 @@
         },
         60, true, false, "male_normal"
     ],
-    "ProgressiveMoveEntity": ["worker3", -1049.4,44.0,362.3],
+    "ProgressiveMoveEntity": ["worker3", -1049.4, 44.0, 362.3],
     "Wait": 10,
-    "ProgressiveMoveEntity": ["worker2", -1051.3,44.0,330.3],
+    "ProgressiveMoveEntity": ["worker2", -1051.3, 44.0, 330.3],
     "Wait": 10,
-    "ProgressiveMoveEntity": ["worker4", -1047.4,44.0,362.3],
+    "ProgressiveMoveEntity": ["worker4", -1047.4, 44.0, 362.3],
     "Wait": 20,
-    "ProgressiveMoveEntity": ["worker1", -1049.3,44.0,330.3],
+    "ProgressiveMoveEntity": ["worker1", -1049.3, 44.0, 330.3],
     "NewDialog": [
         {
             "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also united the previously separate islands."
@@ -1317,7 +1318,7 @@
     "Wait": 10,
     "Teleport": [1152.0, 58.0, -133.9, 137, 8],
     "Look": "agent",
-    "MoveEntity": ["agent", 1152.5, 58.0, -133.5, false],
+    "MoveEntity": ["agent", 1153.6, 58.0, -132.5, false],
     "NewDialog": [
         {
             "&3&lStatera Employee": "You shouldn't be talking to strangers in the woods like that.",
