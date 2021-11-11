@@ -4,6 +4,7 @@
     "Description": "Talk to H.A.P.P.Y. outside of the Statera HQ in Watterson city",
     "AllowRejoining": true,
     "Icon": "skeleton_skull",
+
     "CreateEntity": {
         "key": "Happy",
         "name": [
@@ -285,6 +286,7 @@
             "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         }
     },
+
     "Show": {
         "Happy": true,
         "Representative1": true,
@@ -312,6 +314,12 @@
     "Start": "gen5_main_quest_4_entry_blocker",
     "Comment": "Set up barriers to the cave.",
     "SetBlocks": [
+        -792, 51, 727,
+        -790, 55, 727,
+        "air",
+        "barrier"
+    ],
+    "SetBlocks": [
         -823, 1, 644,
         -791, 22, 644,
         "air",
@@ -336,8 +344,8 @@
         "barrier"
     ],
     "SetBlocks": [
-        -848,14,820,
-        -852,19,820,
+        -848, 14, 820,
+        -852, 19, 820,
         "air",
         "barrier"
     ],
@@ -357,18 +365,23 @@
     ],
     "NewDialog": [
         {
-            "&3H.A.P.P.Y.": "I am &ls&rorry, you need the password to en&lt&rer this f&la&rcili&lt&ry. Com&le&r back when you are &lr&re&la&rdy.",
+            "&3H.A.P.P.Y.": "i am Sorry, you need the password to enTer this fAciliTy. comE back when you are ReAdy.",
+            "&3H.A.P.P.Y.": "If you need the instructions again, come talk to me.",
             "&3H.A.P.P.Y.": "Answer by typing /youranswer ."
         },
         90, true, true, "male_angry"
     ],
+    "MoveEntity": ["Happy", 74.5, 53.0, 337.5],
+    "EntityLook": 90,
     "Objective": ["Provide H.A.P.P.Y. with the password to enter the headquarters. (/youranswer)", 2],
     "Command": "statera",
     "Leave": "gen5_main_quest_4_entry_blocker",
     "NewDialog": [
         {
             "&3H.A.P.P.Y.": "Welcome back [PLAYER]!",
-            "&3H.A.P.P.Y.": "Agent Ty is waiting for you on the third floor."
+            "&3H.A.P.P.Y.": "Agent Ty is waiting for you on the third floor.",
+            "&3H.A.P.P.Y.": "The elevator on the right side of the building will take you there.",
+            "&3H.A.P.P.Y.": "Just press the button and select the desired floor."
         },
         90, true, false, "male_normal"
     ],
@@ -530,6 +543,12 @@
         90, true, true, "female_angry"
     ],
     "Objective": ["Enter the cave and find the Ancient Tribe Elders", 3],
+    "SetBlocks": [
+        -792, 51, 727,
+        -790, 55, 727,
+        "air",
+        "air"
+    ],
     "Show": {
         "Rival2": false,
         "Tribe_Member1": true,
@@ -538,7 +557,7 @@
         "Tribe_Member4": true,
         "Tribe_Leader": true
     },
-    "RegionEntry": [
+    "InRegion": [
         -794, 50, 725,
         -788, 55, 724
     ],
@@ -622,8 +641,17 @@
         {
             "[PLAYER]": "&oI can't hear them... I'll have to move closer..."
         },
-        90, true, true
+        10, true, true
     ],
+    "ProgressiveMoveEntity": ["meeting_player", -823.9, 18.0, 682.7, 0.05, false],
+    "PlaySound": "block_stone_step",
+    "Wait": 5,
+    "PlaySound": "block_stone_step",
+    "Wait": 5,
+    "PlaySound": "block_stone_step",
+    "Wait": 5,
+    "PlaySound": "block_stone_step",
+    "Wait": 5,
     "EntityLook": ["Tribe_Leader", "meeting_player"],
     "NewDialog": [
         {
@@ -752,7 +780,31 @@
     ],
     "StopCinematic": [],
     "Unfreeze": [],
-    "SendMessage": "DEBUG: Add puzzle based on feedback",
+    "RandomOption": 2,
+    "Skip": "first_ice_1",
+    "Skip": "first_ice_2",
+
+
+    "Comment": "restart_ice_1",
+    "Wait": 2.0,
+    "Teleport": [-853.5,28.0,692.5, 90],
+    "SendMessage": "&cThat turned into a hot mess! Try again...",
+    "Comment": "first_ice_1",
+    "Start": ["gen5_main_quest_4_big_ice_1", 1.0, "Start"],
+    "Hold": [],
+    "Skip": "restart_ice_1",
+
+    "Comment": "restart_ice_2",
+    "Wait": 2.0,
+    "Teleport": [-853.5,28.0,692.5, 90],
+    "SendMessage": "&cThat turned into a hot mess! Try again...",
+    "Comment": "first_ice_2",
+    "Start": ["gen5_main_quest_4_big_ice_2", 1.0, "Start"],
+    "Hold": [],
+    "Skip": "restart_ice_2",
+
+
+
     "Objective": ["Defeat the second Tribe Elder", 3],
     "SetBlocks": [
         -868, 27, 688,
@@ -970,8 +1022,8 @@
         ]
     ],
     "SetBlocks": [
-        -848,14,820,
-        -852,19,820,
+        -848, 14, 820,
+        -852, 19, 820,
         "air",
         "air"
     ],
@@ -1179,7 +1231,7 @@
     "Start": "gen5_main_quest_reward",
     "Wait": 20,
     "Fade": [],
-    "Teleport": [78.5,77.0,345.0, 135, 5],
+    "Teleport": [78.5, 77.0, 345.0, 135, 5],
     "Hide": {
         "Representative1": true,
         "Rival1": true,

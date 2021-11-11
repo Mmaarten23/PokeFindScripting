@@ -1,0 +1,40 @@
+{
+    "Key": "gen5_main_quest_4_big_ice_1",
+    "AllowRejoining": true,
+    "Hold": [],
+
+
+    "LeaveScript": [],
+    "SendMessage": "TODO: replace with progressquest",
+    "Comment": "Start",
+    "SetBlock": [-865, 28, 690, "barrier"],
+
+    "SetBlocks": [-856, 27, 697, -857, 27, 697, "nether_bricks"],
+    "SetBlocks": [-856, 28, 697, -857, 28, 697, "nether_brick_slab"],
+    "SetBlocks": [-859, 27, 696, -859, 27, 699, "nether_bricks"],
+    "SetBlocks": [-859, 28, 696, -859, 28, 699, "nether_brick_slab"],
+    "SetBlocks": [-861, 27, 700, -862, 27, 700, "nether_bricks"],
+    "SetBlocks": [-861, 28, 700, -862, 28, 700, "nether_brick_slab"],
+    "SetBlocks": [-864, 27, 699, -865, 27, 698, "nether_bricks"],
+    "SetBlocks": [-864, 28, 699, -865, 28, 698, "nether_brick_slab"],
+    "SetBlocks": [-863, 27, 697, -863, 27, 696, "nether_bricks"],
+    "SetBlocks": [-863, 28, 697, -863, 28, 696, "nether_brick_slab"],
+    "SetBlocks": [-861, 27, 693, -862, 27, 693, "nether_bricks"],
+    "SetBlocks": [-861, 28, 693, -862, 28, 693, "nether_brick_slab"],
+    "SetBlock": [-860, 27, 697, "nether_bricks", false],
+    "SetBlock": [-860, 28, 697, "nether_brick_slab", false],
+
+    "BlockEntry": [
+        -856, 27, 701,
+        -867, 27, 691,
+        "magma_block",
+        "Obsidian"
+    ],
+    "PlaySound": [
+        "entity_player_levelup",
+        1.0,
+        1.0
+    ],
+    "SendMessage": ["&aPuzzle complete!"],
+    "SetBlock": [-865, 28, 690, "air"]
+}

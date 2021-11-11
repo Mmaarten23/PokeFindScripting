@@ -1,0 +1,51 @@
+{
+    "Key": "gen5_main_quest_4_big_ice_2",
+    "AllowRejoining": true,
+    "Hold": [],
+
+
+    "LeaveScript": [],
+    "SendMessage": "TODO: replace with progressquest",
+    "Comment": "Start",
+    "SetBlock": [-865, 28, 690, "barrier"],
+
+    "SetBlocks": [-863, 27, 701, -863, 27, 699, "nether_bricks"],
+    "SetBlocks": [-863, 28, 701, -863, 28, 699, "nether_brick_slab"],
+    "SetBlocks": [-861, 27, 695, -862, 27, 695, "nether_bricks"],
+    "SetBlocks": [-861, 28, 695, -862, 28, 695, "nether_brick_slab"],
+
+    "SetBlock": [-857, 27, 698, "nether_bricks", false],
+    "SetBlock": [-857, 28, 698, "nether_brick_slab", false],
+    "SetBlock": [-858, 27, 700, "nether_bricks", false],
+    "SetBlock": [-858, 28, 700, "nether_brick_slab", false],
+    "SetBlock": [-860, 27, 701, "nether_bricks", false],
+    "SetBlock": [-860, 28, 701, "nether_brick_slab", false],
+    "SetBlock": [-865, 27, 698, "nether_bricks", false],
+    "SetBlock": [-865, 28, 698, "nether_brick_slab", false],
+    "SetBlock": [-867, 27, 701, "nether_bricks", false],
+    "SetBlock": [-867, 28, 701, "nether_brick_slab", false],
+    "SetBlock": [-860, 27, 693, "nether_bricks", false],
+    "SetBlock": [-860, 28, 693, "nether_brick_slab", false],
+    "SetBlock": [-864, 27, 692, "nether_bricks", false],
+    "SetBlock": [-864, 28, 692, "nether_brick_slab", false],
+    "SetBlock": [-866, 27, 693, "nether_bricks", false],
+    "SetBlock": [-866, 28, 693, "nether_brick_slab", false],
+    "SetBlock": [-856, 27, 693, "nether_bricks", false],
+    "SetBlock": [-856, 28, 693, "nether_brick_slab", false],
+    "SetBlock": [-860, 27, 698, "nether_bricks", false],
+    "SetBlock": [-860, 28, 698, "nether_brick_slab", false],
+
+    "BlockEntry": [
+        -856, 27, 701,
+        -867, 27, 691,
+        "glass",
+        "Obsidian"
+    ],
+    "PlaySound": [
+        "entity_player_levelup",
+        1.0,
+        1.0
+    ],
+    "SendMessage": ["&aPuzzle complete!"],
+    "SetBlock": [-865, 28, 690, "air"]
+}
