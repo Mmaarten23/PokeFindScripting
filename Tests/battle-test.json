@@ -2,5 +2,16 @@
     "Key": "battle_test",
     "ApplyToBattles": [],
     "DisablePokemon": { "species": "weedle" },
+    "HasPokemon": [
+        true,
+        "arceus"
+    ],
+    "HasPokemonInParty": [
+        "pikachu",
+        2
+    ],
+    "HasPokemonUnderLevel": 2,
+    "LimitPokemon": "hoothoot",
+    "DisableMove": "barrier",
     "Hold": []
 }
