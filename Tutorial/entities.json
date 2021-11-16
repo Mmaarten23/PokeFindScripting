@@ -1,0 +1,17 @@
+{
+    "Key": "json_explanation",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tutorial",
+        "name": "&4T&cu&6t&eo&ar&2i&1a&9l &dn&5p&4c",
+        "location": {
+            "x": -355.5,
+            "y": 36.0,
+            "z": 493.0
+        },
+        "skin": "gentleman"
+    },
+    "HighlightClickEntity": ["tutorial"],
+    "SendMessage": "Woop woop! My first script!"
+}

@@ -1,0 +1,30 @@
+{
+    "Key": "entity_pose_test",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tester",
+        "entity": "PLAYER",
+        "location": [-347.5, 36.0, 510.5],
+        "skin": "[PLAYER]",
+        "look": true
+    },
+    "Comment": "restart",
+    "EntityPose": ["tester", "crouching"],
+    "Wait": 1.0,
+    "EntityPose": ["tester", "Standing"],
+    "Wait": 1.0,
+    "EntityPose": ["tester", "swimming"],
+    "Wait": 1.0,
+    "EntityPose": ["tester", "spin_attack"],
+    "Wait": 1.0,
+    "EntityPose": ["tester", "crouching"],
+    "Wait": 1.0,
+    "EntityPose": ["tester", "long_jumping"],
+    "Wait": 1.0,
+    "EntityPose": ["tester", "dying"],
+    "Wait": 1.0,
+    "EntityPose": ["tester", "sleeping"],
+    "Wait": 1.0,
+    "Skip": "restart"
+}
