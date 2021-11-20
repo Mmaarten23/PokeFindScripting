@@ -76,7 +76,7 @@
     "CreateEntity": {
         "key": "Statera_Member4",
         "name": [
-            "&3&lMark",
+            "&3&lSteven",
             "&7Statera Member"
         ],
         "location": {
@@ -209,6 +209,19 @@
         "look": false
     },
 
+    "CreateEntity": {
+        "key": "Bird2",
+        "location": {
+            "x": 69.4,
+            "y": 62.0,
+            "z": 345.4,
+            "yaw": -86,
+            "pitch": 26
+        },
+        "pokemon": "pidgeotto",
+        "look": false
+    },
+
     "Show": {
         "Happy1": true,
         "Statera_Member1": true,
@@ -222,7 +235,8 @@
         "Rival2": false,
         "Farmer1": false,
         "Grandma1": false,
-        "Bird": false
+        "Bird": false,
+        "Bird2": false
     },
     "Quest": true,
     "HighlightClickEntity": "Happy1",
@@ -259,7 +273,7 @@
     "Dialog": [
         {
             "&2&lFarmer": "Meloooooons! Delicious, delicious meloooooooooons!",
-            "[Player]": "Excuse me?",
+            "[PLAYER]": "Excuse me?",
             "&2&lFarmer": "Oh hello there! What can I do for you today?",
             "[PLAYER]": "I am here for the... you know...",
             "&2&lFarmer": "The...? The melons? Oh perfect! we have tons of those!",
@@ -281,7 +295,7 @@
             "[PLAYER]": "I did."
         }
     ],
-    "SendMessage": "&e-1 &7Secret package",
+    "SendMessage": "&c-1 &7Secret package",
     "Wait": 20,
     "Dialog": [
         {
@@ -340,14 +354,14 @@
         }
     ],
     "Objective": ["Pick up the obsidian sample", 4],
-    "PickupItem": [-558.5, 67.5, 874.5, "&0&lObsidian", "Obsidian"],
+    "PickupItem": [-558.5, 67.5, 874.5, "&8&lObsidian", "Obsidian"],
     "Wait": 20,
-    "SendMessage": "&e&l+1 &8&lObsidian",
+    "SendMessage": "&e+1 &7Obsidian",
     "Wait": 20,
     "Objective": ["Bring the obsidian sample back to Mark", 9],
     "HighlightClickEntity": "Statera_Member2",
     "Wait": 20,
-    "SendMessage": "&c&l-1 &0&lObsidian",
+    "SendMessage": "&c-1 &7Obsidian",
     "Wait": 20,
     "Dialog": [
         {
@@ -368,7 +382,7 @@
             "[PLAYER]": "That is what everyone seems to call me around here, yes.",
             "&3&lEvan": "Hmm. There might be something.",
             "&3&lEvan": "One of our field agents has reported important findings in Findale Harbor.",
-            "&3&lEvan": "Meet her and bring back her report.",
+            "&3&lEvan": "Meet her and bring her report to the HQ.",
             "[PLAYER]": "Ugh, sure."
         }
     ],
@@ -435,78 +449,68 @@
     "Wait": 20,
     "Objective": ["Make sure Evan received the recipe", 8],
     "HighlightClickEntity": "Statera_Member3",
-    "Wait": [
-        20
-    ],
+    "Show": {
+        "Grandma1": false,
+        "Bird2": true
+    },
+    "Wait": 20,
     "Dialog": [
         {
-            "": ""
+            "&3&lEvan": "Ah you made it. The recipe just arrived.",
+            "&3&lEvan": "Good boy, thank you!"
         }
     ],
-    "EntityLookAtPlayer": [
-        "Statera_Member4"
-    ],
+    "ProgressiveMoveEntity": ["Bird2", 62.4, 69.0, 345.1, 0.15, false],
     "Dialog": [
         {
-            "": ""
+            "[PLAYER]": "A field report huh?",
+            "&3&lEvan": "It was a very important matter. That is what counts.",
+            "&3&lEvan": "Don't let Steven wait for too long btw. He already asked about you 4 times."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Find a Lily of the Valley in the garden in Findale Harbor (HINT> It's near /spawn)",
-        3
-    ],
-    "PickupItem": [
-        618.5,
-        49.0,
-        575.5,
-        "",
-        "Lily Of The Valley"
-    ],
-    "SendMessage": [
-        "&&e&l+1 &f&lRare Lily of the Valley"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Bring the rare Lily of the Valley back to [MEMBER4]",
-        10
-    ],
-    "HighlightClickEntity": [
-        "Statera_Member4"
-    ],
-    "SendMessage": [
-        "&c&l-1 &f&lRare Lily of the Valley"
-    ],
-    "Wait": [
-        20
-    ],
+    "Hide": "Bird2",
+
+    "Objective": ["Ask Steven why he asked about you", 8],
+    "HighlightClickEntity": "Statera_Member4",
     "Dialog": [
         {
-            "&3&lStatera Member": "Hey, thanks [PLAYER]! THat was some awesome work, thanks for putting up with my silly task! Haha!",
-            "&3&lStatera Member": "O-oh, hey Boss! How's it hangin'?",
-            "&8&lVidar": "What are you doing?"
+            "[PLAYER]": "Heya, you aske-",
+            "&3&lSteven": "WHERE HAVE YOU BEEN?",
+            "&3&lSteven": "Nevermind that, I don't care.",
+            "&3&lSteven": "I cannot finish my research without a crucial ingredient.",
+            "[PLAYER]": "A cruci-",
+            "&3&lSteven": "Dont care. Go to Findale Habor and find me a lily of the valley.",
+            "&3&lSteven": "Without that, I can scrap my whole project!"
+        }
+    ],
+    "Objective": ["Find a Lily of the Valley in the garden in Findale Harbor (HINT> It's near /spawn)", 3],
+    "PickupItem": [618.5, 49.0, 575.5, "", "Lily Of The Valley"],
+    "SendMessage": ["&e+1 &7Rare Lily of the Valley"],
+    "Wait": 20,
+    "Objective": ["Bring the rare Lily of the Valley back to Steven", 10],
+    "HighlightClickEntity": "Statera_Member4",
+    "SendMessage": ["&c-1 &fRare Lily of the Valley"],
+    "Dialog": [
+        {
+            "&3&lSteven": "Hey, thanks [PLAYER]! That was some awesome work. I don't really need the flower but hey",
+            "&3&lSteven": "you had to do something right? HAHAHAHA!!!"
         }
     ],
     "Show": {
         "Statera_Leader1": true
     },
-    "Look": [
-        "Statera_Leader1"
-    ],
     "MoveEntity": [
         "Statera_Leader1",
         75.5,
         61.0,
         335.0
     ],
-    "Show": {
-        "Statera_Leader1": false,
-        "Statera_Leader2": true
-    },
+    "Dialog": [
+        {
+            "&3&lSteven": "O-oh, hey Boss! How's it hangin'?",
+            "&8&lVidar": "What are you doing?"
+        }
+    ],
     "Dialog": [
         {
             "&8&lVidar": "It’s time to get back to work, you guys have been slacking off quite a bit today while teasing [PLAYER]",
@@ -515,76 +519,50 @@
             "&8&lVidar": "Our research has come to a stand still, and I need the help of a powerful Pokémon to continue so that we can restore the balance to Zeinova.",
             "[PLAYER]": "Does this have something to do with my &dAura&r?",
             "&8&lVidar": "Haha, no no, this has nothing to do with your &dAura&r. If it did I would really be in a bad spot without both you and &dDanielle&r.",
-            "&8&lVidar": "Recently we found &0Zekrom&r... where he has been resting.",
+            "&8&lVidar": "Recently we found &8Zekrom&r... where he has been resting.",
             "&8&lVidar": "I need you to go to him, and bring him to me.",
             "&8&lVidar": "It will be so relieving to see my long-lost friend again... It has been many decades.",
-            "&8&lVidar": "&0Zekrom&r left after a battle to regain his strength... I have not seen or heard from him since then aside from seeing signs of him in the skies during storms.",
-            "&8&lVidar": "&0Zekroms&r power will be used to power our facilities, so that we can finish our research that we have been striving after for over 20 years."
+            "&8&lVidar": "&8Zekrom&r left after a battle to regain his strength... I have not seen or heard from him since then aside from seeing signs of him in the skies during storms.",
+            "&8&lVidar": "&8Zekroms&r power will be used to power our facilities, so that we can finish our research that we have been striving after for over 20 years."
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Objective": [
         "Travel back to the Ancient Temple in Greenholm to catch Zekrom",
         11
     ],
     "RegionEntry": [
-        -354,
-        1,
-        86,
-        -336,
-        50,
-        33
+        -354, 1, 86,
+        -336, 50, 33
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Rival1": true
     },
-    "Freeze": [
-    ],
-    "Look": [
-        "Rival1"
-    ],
-    "MoveEntity": [
-        "Rival1",
-        -327.5,
-        33.0,
-        59.5
-    ],
+    "Freeze": [],
+    "Look": "Rival1",
+    "MoveEntity": ["Rival1", -327.5, 33.0, 59.5],
     "Show": {
         "Rival1": false,
         "Rival2": true
     },
-    "Unfreeze": [
-    ],
-    "Wait": [
-        20
-    ],
+    "Unfreeze": [],
+    "Wait": 20,
     "Dialog": [
         {
-            "&d&lDanielle": "Leave [PLAYER]! You will not be taking &0Zekrom&r.",
-            "[PLAYER]": "&0Zekrom&r belongs with &8Vidar&r not you!",
-            "&d&lDanielle": "&0Zekrom&r is restrained here, he’s &lhas&r to serve that CEO due to their bond. Madam &eAstrid&r just prevented it…",
-            "&d&lDanielle": "&fReshiram&r kept watch over &0Zekrom&r beforehand, and now it my turn!"
+            "&d&lDanielle": "Leave [PLAYER]! You will not be taking &8Zekrom&r.",
+            "[PLAYER]": "&8Zekrom&r belongs with &8Vidar&r not you!",
+            "&d&lDanielle": "&8Zekrom&r is restrained here, he’s &lhas&r to serve that CEO due to their bond. Madam &eAstrid&r just prevented it…",
+            "&d&lDanielle": "&fReshiram&r kept watch over &8Zekrom&r beforehand, and now it my turn!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle Danielle",
-        5
-    ],
-    "HighlightClickEntity": [
-        "Rival2"
-    ],
+    "Wait": 20,
+    "Objective": ["Battle Danielle", 5],
+    "HighlightClickEntity": "Rival2",
     "AutoBattleNpc": [
         "Rival2",
         {
-            "&d&lDanielle": "You'll never take away &0Zekrom&r!"
+            "&d&lDanielle": "You'll never take away &8Zekrom&r!"
         },
         {
             "&d&lDanielle": "I've let the entire region down...",
@@ -650,62 +628,33 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Rival2": false
     },
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Pick up the masterball with Zekrom inside",
-        4
-    ],
-    "PickupItem": [
-        -313.5,
-        36.0,
-        59.5,
-        "&0&lZekrom",
-        "Master_ball"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&8&lZekrom collected"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Bring Zekrom to the Statera Leader",
-        6
-    ],
-    "HighlightClickEntity": [
-        "Statera_Leader2"
-    ],
+    "Wait": 20,
+    "Objective": ["Pick up the masterball with Zekrom inside", 4],
+    "PickupItem": [-313.5, 36.0, 59.5, "&8&lZekrom", "Master_ball"],
+    "Wait": 20,
+    "SendMessage": "&8&lZekrom collected",
+    "Wait": 20,
+    "Objective": ["Bring Zekrom to the Statera Leader", 6],
+    "HighlightClickEntity": "Statera_Leader1",
     "Dialog": [
         {
             "&8&lVidar": "Magnificent, [PLAYER]! You have helped us so much!",
             "&8&lVidar": "Here, take these rewards as celebration for this great victory!"
         }
     ],
-    "Wait": [
-        20
+    "Wait": 20,
+    "GiveCoins": 2500,
+    "GiveTokens": 25,
+    "GiveTrainerExperience": 2500,
+    "SetTitle": [
+        "&9&lTasks of a Newbie",
+        "&aQuest complete",
+        true
     ],
-    "GiveCoins": [
-        2500
-    ],
-    "GiveTokens": [
-        25
-    ],
-    "GiveTrainerExperience": [
-        2500
-    ],
-    "SendCompleteMessage": [
-    ],
-    "Complete": [
-    ]
+    "PlayCustomSound": "sfx.quest_complete",
+    "Complete": []
 }
