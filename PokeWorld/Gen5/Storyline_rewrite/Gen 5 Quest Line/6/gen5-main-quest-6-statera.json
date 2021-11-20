@@ -200,7 +200,7 @@
         "key": "Bird",
         "location": {
             "x": 614.8,
-            "y": 51.0,
+            "y": 50.3,
             "z": 596.5,
             "yaw": -89,
             "pitch": 44
@@ -437,7 +437,7 @@
     "StopCinematic": [],
     "Hide": "Bird",
     "Fade": [],
-    "Teleport": [615.3, 50.0, 598.0],
+    "Teleport": [615.3, 50.0, 598.0, 180, 0],
     "Wait": 10,
     "Dialog": [
         {
@@ -447,11 +447,13 @@
         }
     ],
     "Wait": 20,
+    "Show": {
+        "Bird2": true
+    },
     "Objective": ["Make sure Evan received the recipe", 8],
     "HighlightClickEntity": "Statera_Member3",
     "Show": {
-        "Grandma1": false,
-        "Bird2": true
+        "Grandma1": false
     },
     "Wait": 20,
     "Dialog": [
@@ -489,7 +491,7 @@
     "Wait": 20,
     "Objective": ["Bring the rare Lily of the Valley back to Steven", 10],
     "HighlightClickEntity": "Statera_Member4",
-    "SendMessage": ["&c-1 &fRare Lily of the Valley"],
+    "SendMessage": ["&c-1 &7Rare Lily of the Valley"],
     "Dialog": [
         {
             "&3&lSteven": "Hey, thanks [PLAYER]! That was some awesome work. I don't really need the flower but hey",
@@ -499,12 +501,7 @@
     "Show": {
         "Statera_Leader1": true
     },
-    "MoveEntity": [
-        "Statera_Leader1",
-        75.5,
-        61.0,
-        335.0
-    ],
+    "MoveEntity": [        "Statera_Leader1",        75.5,        61.0,        335.0    ],
     "Dialog": [
         {
             "&3&lSteven": "O-oh, hey Boss! How's it hangin'?",
@@ -527,10 +524,7 @@
         }
     ],
     "Wait": 20,
-    "Objective": [
-        "Travel back to the Ancient Temple in Greenholm to catch Zekrom",
-        11
-    ],
+    "Objective": [        "Travel back to the Ancient Temple in Greenholm to catch Zekrom",        11    ],
     "RegionEntry": [
         -354, 1, 86,
         -336, 50, 33
@@ -647,14 +641,36 @@
         }
     ],
     "Wait": 20,
+    "Complete": [],
+    "PlaySound": "entity_player_levelup",
     "GiveCoins": 2500,
     "GiveTokens": 25,
     "GiveTrainerExperience": 2500,
+
+    "Wait": 20,
+    "Fade": [],
+    "Teleport": [63.5,53.0,337.5, -90, 0],
+    "Show": {
+        "Happy1": false,
+        "Statera_Member1": false,
+        "Statera_Member2": false,
+        "Statera_Member3": false,
+        "Statera_Member4": false,
+        "Statera_Memebr5": false,
+        "Statera_Leader1": false,
+        "Statera_Leader2": false,
+        "Rival1": false,
+        "Rival2": false,
+        "Farmer1": false,
+        "Grandma1": false,
+        "Bird": false,
+        "Bird2": false
+    },
+    "Wait": 20,
     "SetTitle": [
         "&9&lTasks of a Newbie",
         "&aQuest complete",
         true
     ],
-    "PlayCustomSound": "sfx.quest_complete",
-    "Complete": []
+    "PlayCustomSound": "sfx.quest_complete"
 }
