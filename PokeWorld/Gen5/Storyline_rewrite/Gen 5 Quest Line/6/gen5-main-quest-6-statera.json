@@ -1,0 +1,711 @@
+{
+    "Key": "gen5_main_quest_6_statera",
+    "Name": "&9&lTasks of a Newbie",
+    "Description": "Now that you're a member of Statera you should talk to H.A.P.P.Y. at Statera HQ",
+    "AllowRejoining": true,
+    "Icon": "writable_book",
+    "CreateEntity": {
+        "key": "Happy1",
+        "name": "&3H.A.P.P.Y.",
+        "location": {
+            "x": 67.5,
+            "y": 53.0,
+            "z": 337.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzMxMTM1OCwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyNzg2MGI2YThlNDQ1ZGZmZTJmZWM0NzdhN2UyZDEwMzgwYjMwYzIwNGIzYThlM2UyMzRlMGZjYWNlOTIyODIiCiAgICB9CiAgfQp9",
+            "signature": "t2vmKNXinnY7Um/29ZulZLCJawoXJkbopoyTMpR2fF2cjCuBpHeL7HRmGChgqY38kuzRDnQuJfMLkB/JCbXDAuwj+hHGJ/mYqKfJupxcXPmOexCcDgt3ECUAOfstbhYWCd2MtvVOVfz04YUPGgNqPlKirDYwCKX0I/zfp6izp3Rj42NMw26H0HWqqXWmehsWUdrEZPV7TOKTLu2487ekeMqbae5WBWwFx+1NI0DgcmhmFjB8K2MHwcOMXJLvLuylhB4UbNVzaMQYg0fSiROyORDFwJWUvPtT6bWdFdJ05PcT2QuwaQ/bU6LTcqQkag2hDLqBzGfrpiVcOLdMoUpa7HBr6B0wJM7gDAJMJcPeCVXZVmOjZMfuQTZ0uifs6dZLQ8F3nZhXNqAQ0BVUpwf5Q2qfSfFk9zcOdX6ki+kYcmF427Va1By+ghPp3o9GTuXNE2DQtKXvoywx1t6g/Ve+73IIgmLZijsiDjS+V297tHnMVj8FRn+R6/RAiESovpoE+X7+d6nRRA8obaLshTgsjXk7OGrqpmKM8LiLQZmzcctnsUJQdJBc42Um+T12JcXfBXBYoK1H4JCLp0ybkQGAeM41gkTKZiAg77ZxXsE7dq9md0JO+GaWncqnhKzuzG7VDokSGwMNjflMOHgaeVTm9Gf3NmSzg7khrUqHD7y8bSc="
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Member1",
+        "name": [
+            "&3&lJeff",
+            "&7Statera Member"
+        ],
+        "location": {
+            "x": 76.5,
+            "y": 61.0,
+            "z": 347.5,
+            "yaw": 202,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI0Mjk2NzMxMiwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZDE3NjhkZTI0ZDMxYWE5MmUxYjFkNWI2YWM0ZjFiNGRkOGI4MDZhOGQ3MjI5MjY4NjM4Zjk1ZGZhMzJjMCIKICAgIH0KICB9Cn0=",
+            "signature": "uuCP+6VO/TYmGsXVGuztP/dnmnqQ7k9mEEm2R+bmTWqTVQ1Wkxr51kh60SXbbMeYutEzHcrUArh1Kbt/KgtbsW1gMKTEBLRY7jnkMplDwuGRWC7ZsZYf06FE6eRpUy4jDac7vyyVuGVZOshu7e+lNDAfiQUvSS/ZOE2diF/pAC5LnAJPz68RgIADD7lR9JFH5q2QuX0Gtah2Gh2HQU3dJHZzCKZtct+40ggDt9IBRhYPc28UtcIL/lkEHm5YVgLlVYJfLWJ+Y36lJkQktTFbHkzHrJNxJQ0iYvRzn3Ulr9EbHAZ+rLCg3IQwbuml0SSBRPdxFCqcAbyhqdZmN9SnbOb+EKmu0EeWWUvSKUAisly5Yo0J/bLLGZuA+cDF9jOUWuBSQa3uKUOrXXP6Vx9c/CEJ5wXp+MeD/tv5mQaia3ETKxMwIn77JDZmkMvDjNEhJtT9V+dGR94Qeq9FwAmBkclVHeCL5r1kBoY0DYkK1msLJUS7ukUSvBiwUXDZ1ssEd/oaDgsOsXftucPjyTicslxZOZcstJJkmqqQt1su8KHv0Wmie/PDRWGHvKSSeUa0Z4t0x2kle25rhp5WtlOeMiG0qY4KrFjV0zxjAKS2idujlD0ij9NAXGYdBzJp4yuFOYyLopHVCc6ScDiS7YSLLrXjyuySOWsGO9dzdjwC8z8="
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Member2",
+        "name": [
+            "&3&lMark",
+            "&7Statera Member"
+        ],
+        "location": {
+            "x": 73.5,
+            "y": 61.0,
+            "z": 346.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODc0NzIwMCwKICAicHJvZmlsZUlkIiA6ICI4YjgyM2E1YmU0Njk0YjhiOTE0NmE5MWRhMjk4ZTViNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXBoaXRpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjE0ZTg1YzQ2YTgwMjQwY2VhODcxMDI1NGQ0YjFiNjZjZTNjMGQ0YjBhMjhkN2FjYWM1MzQzOTgwOTM1NWQ3IgogICAgfQogIH0KfQ==",
+            "signature": "yWeXNRwJh0+t3LdCGAXsctati2Tk5Ag17zriep4uiMidmcSn17vPS14Nt7MDs+aYM+hWZ3+XVy0oMCZLrhh8yfu4I/NEcTlHDustG2vVqm0PKWXF3xKmEInz/oMw+yyWYa0LPskVUSCjUoFllfHa5mYboWbx0Qc6S46gM0WTMB9xaV6nx95Og3+3jRZvWG5jNkMBTzq94p1qQqWTKlG8r9oyp4BPLDcVPffWiczUUVXVY2BPgLkJIqusK+HvrEzjclld3VYALWBFaLF5jYENmPJ0SD1mrWzCKB+4T3DCrJjTyPmDpmuy6HXttCXlGdavCs/DpPS3kUNhX7dWaRgCjcANBbFTDTSvVFld6X9rfm1rf5t2fOrvjd3jcDLpcnpFIH1cQKUHElXYdZMqZiAZIJZlR5vNgeF24t+XqZ5fGxPFo63TgCdGMs00zr0gAnA/e5bXz+p89ZScEgktTQcYiXxzN1IWEt7KlGgNrt2SntKbVRbuTpbxNfy/Bf5KK5VgkQT+1g4oE73szriKIxiE0oZIwyvPKUNrIMj5ohPv+6ECfZK+S1Ux1L3xbhJ7BTDKzCht0qVfvk9fsy7LKTwc+Ik4874PMiUTCqzRVvOy/vLSE8L/cDf7iQipzkLlN6vYa28qZLDsDKwRjt6UIyUxk9wzw3adY7sJIYjg7I8pBpM="
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Member3",
+        "name": [
+            "&3&lEvan",
+            "&7Statera Member"
+        ],
+        "location": {
+            "x": 71.5,
+            "y": 61.0,
+            "z": 345.5,
+            "yaw": 90,
+            "pitch": -28
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkxMzcxNjQwOSwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY4YzE1YWE4NGRkOTlmZWFlMWJiYTZiYTMyODcxOGJjY2FiOTU4MGE4NzExMGM0MWZmMTU1MzhiM2I0OTNjOCIKICAgIH0KICB9Cn0=",
+            "signature": "keG+pBnZkqwYJwrHBsiawjjAZkaiD7dSzUHctbpqj9m4fCDxNVa3zt1MSWtSYo7oZu3+nUACacXEjdpaKA1AsJbK7By5kVfSg+JfRWJb93ac1QcysduOZt6mkhiHj75o0CUKnph/7RPxlgE5ci2AROa2y9GQkWWlEo8I0eykZxlAY+tWVWiMYfFXYK4eHENzhE4XnNS0GJDSJgOCOodFkTSNnI3Co867qpo149ccnGHp9cZUCXJLaPKSYJKnEzYGxBk//Y4UYuqW2NSjMmEPgvjXElmL0D9k9/M+sHaZASgOPNQIOBfODS7lK4HWJWlgV79IuzaMwMQs7HUEu6ohXDw/SVmj+dsOOfL4cIkEUw0SQYHhzHKOCKJ2MTuJrSuw5QF8NbKkJ/2n59RV/d9H7DgKgDvIDkGPo8KiJ0dwY0NuZfB3EPdd+JWUa+d72thvMf8SU3ElW4SgO/TMOZLI99gi9XjsALReBW2+OEz6UivKRBaopm886V7wTquXNyfNqH2TF7jf6YgDPQLnaLJr6+FXmGr4Rh8rsv2gXXm3h1qMmXGVrM1bFhRcVS581roTA9dwG0Ca4ivZawH9JoU3mcrNxdqyfRcOPXEUrUvU6WXp/m9HVa6r5JGRVmMJ/tqgrvPU0tBHwg2yDxRMMfKgUiJEy5x9YeBSJAs2HHmzj70="
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Member4",
+        "name": [
+            "&3&lMark",
+            "&7Statera Member"
+        ],
+        "location": {
+            "x": 72.5,
+            "y": 61.0,
+            "z": 335.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODgxMzMyNSwKICAicHJvZmlsZUlkIiA6ICI4ODBiZWMwYTE0MmM0YzRlYTJlZjliMTFiMTBkNWNiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmZ2FiIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlODUwNzY1YjlhMzVkOWRjNmQ1M2Y3ZTM1ZjYzODU5NjhjOTc4MDE1MDJjZmFhMmRhNjg3ZjVjYTE2NWQyZWQiCiAgICB9CiAgfQp9",
+            "signature": "xs9WOJU4r4pIMSXv4CvAQjHFqjaz70fSDAqrACQq9i7sWEKNVkSz1KlAxIZ4sU6/1K/zSUGnosaowFUyH8IVM6qOFryueZa2NaKYdCfs1fQEgpdgHgTv2+Uq4ssE/AjHNvXqEFsaIax/Dt+95FvdkZjPclWlTOREWjvkVma2Pv4aiSh6jOINIYc5wmBsmObe3H2ypk9UKHgKU8ETMi96iIDNdYT4NVGt4lLe4nyF0GcdLudRN9C+MDLiJJ2G0pcytJqZq9NpNql5Qv//JItvoFY3o64rouWzz5arzSjM3m2QcV3rZG6rOcIYLovnQtvDluUHoAud3/wbGx8AfNq1SnpPnZ4bhyRDRxFnI/ZS7ssFcONSFRpXSMhPi+q1muUwTRomjor0D6rZA6EVot923cgAvjVlEoDAO3/2e2Nck4pB4EcjelaF3LcNetY4Td810wjbCcA3NsQMy13WnzgZwO119puZjN69s2ZiHUvNjWelbKQSb/RonfJATkGM/rSk5YmYJAOj0K1ySVuJ5Ryd+R3zczVRUJ5f3CWHjz0FNcVAsJHwY5mWGaFx2jTjVenVeWwt7Z5zIwCxS4b8COhKm8l6Wwg507Hb0pyi5k0c2hEJNvSnNk+nOx17iOcw72UnTqmIlH5Ut0KNiOiY7jwKQQP0YIQ1qYhd31qwQ87S5lM="
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Member5",
+        "name": [
+            "&3&lZhang",
+            "&7Statera Member"
+        ],
+        "location": {
+            "x": 73.5,
+            "y": 61.0,
+            "z": 330.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkzODQ5Mjg3NSwKICAicHJvZmlsZUlkIiA6ICIxYWZhZjc2NWI1ZGY0NjA3YmY3ZjY1ZGYzYWIwODhhOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3lfQmxvb2RBbmdlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZTVmODU4NjZhYTU3ZjNiNmQ4MDJlOGYwYzViMTFmYmU1NDNkMTdiZjU4ZDE3ZjMxOWE3N2MxOGI3YjY5MTM2IgogICAgfQogIH0KfQ==",
+            "signature": "axpIIDS2XpoTf0FKknHKl/IB0KND9gsX3HmyqkmdaOyrlD5oFvyMOx9RPDgEBs3RxcptLevJu/lQzS2yV4Kbtu+OnEnl8DNCsRJM5mJwqD6h/2l4NqQyeeV04WyHL/WRH8J77QZ3VVhVpa2sQd9ZEFwE1WJfyX2UV/CNOvpflGsLQbgF4ItmcpeQ6twNnsRlibrbZ5mHBSNlzMzDgBRcSeyhQYBTYx2nZ1Vs4j24G5Gmyj5Z+DnyzfdM4UUDEOkgshzghdNnPxQzFqhmwpmS5YdwalO55AxbrLkHSfN3aKeSPQKQxGDZDQEL4SMpI7Z6oqvhY6xG5yCm1rjqxunYXejYseF05iMhzfA96S7BxlhXClItnn0xPpDJrVsuzu2gSjK9LKX0dSRKDK2MG/+PMlvvhbusrDaginv5wxqB06ojQIH2qD824YfOW7ksTWu9+0/18y3zq5/pMEpsjh8xxpt+Rox2VHyOvzAjucWPskHDDstLmmIR1eV+IJLCRVHef7WKo2kEdXPxkTtS7saKJzFgXL3niBXB5KaqjKzo8NZfFz3ErznTsbfzdVZCG8VXrz2YUdahcbc2LcLbmUmtf/XaIHndJfRp86j5bEAnx9kIuh0RltiGkidVVAQtu5avlAK5Y05QEK/wdllNJQXrOozbaXHIc2WaWoUziJqfJos="
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Leader1",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Executive"
+        ],
+        "location": {
+            "x": 78.5,
+            "y": 61.1,
+            "z": 337.5,
+            "yaw": 138,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
+        }
+    },
+    "CreateEntity": {
+        "key": "Statera_Leader2",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Executive"
+        ],
+        "location": {
+            "x": 75.5,
+            "y": 61.0,
+            "z": 335.0,
+            "yaw": 119,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
+        }
+    },
+    "CreateEntity": {
+        "key": "Rival1",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": -322.5,
+            "y": 35.0,
+            "z": 59.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": "danielle"
+    },
+    "CreateEntity": {
+        "key": "Rival2",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": -327.5,
+            "y": 33.0,
+            "z": 59.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": "danielle"
+    },
+    "CreateEntity": {
+        "key": "Farmer1",
+        "name": "&2&lFarmer",
+        "location": {
+            "x": 538.5,
+            "y": 55.0,
+            "z": 545.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": "farmer"
+    },
+    "CreateEntity": {
+        "key": "Grandma1",
+        "name": [
+            "&d&lGrandma Lucy",
+            "&7Field agent"
+        ],
+        "location": {
+            "x": 615.5,
+            "y": 50.0,
+            "z": 596.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": "grandma"
+    },
+    "CreateEntity": {
+        "key": "Bird",
+        "location": {
+            "x": 614.8,
+            "y": 51.0,
+            "z": 596.5,
+            "yaw": -89,
+            "pitch": 44
+        },
+        "pokemon": "pidgeotto",
+        "look": false
+    },
+
+    "Show": {
+        "Happy1": true,
+        "Statera_Member1": true,
+        "Statera_Member2": true,
+        "Statera_Member3": true,
+        "Statera_Member4": true,
+        "Statera_Memebr5": false,
+        "Statera_Leader1": false,
+        "Statera_Leader2": false,
+        "Rival1": false,
+        "Rival2": false,
+        "Farmer1": false,
+        "Grandma1": false,
+        "Bird": false
+    },
+    "Quest": true,
+    "HighlightClickEntity": "Happy1",
+    "Dialog": [
+        {
+            "&3H.A.P.P.Y": "Hey [PLAYER]! It’s H.A.P.P.Y! I’m glad you’ve chosen to stay with us! I will miss &dDanielle&r though...",
+            "[PLAYER]": "I will miss her too... in a way... Do you have any notes for me?",
+            "&3H.A.P.P.Y": "I do. Your presence has been requested on the first floor.",
+            "&3H.A.P.P.Y": "Enjoy your day!"
+        }
+    ],
+    "Wait": 20,
+    "Objective": ["Talk to the Statera Members", 4],
+    "HighlightClickEntity": "Statera_Member1",
+    "Dialog": [
+        {
+            "&3&lJeff": "Ah, you must be the new one!",
+            "&3&lJeff": "I was just looking for you. The company has a very secret mission prepared.",
+            "&3&lJeff": "And we need you to carry out the plan.",
+            "[PLAYER]": "Super secret you say huh?",
+            "&3&lJeff": "It is a matter of the upmost importance!",
+            "&3&lJeff": "A special delivery has to be picked up in Findale Harbor at our undercover employee.",
+            "&3&lJeff": "He went undercover as a farmer. Go speak to him and bring the delivery straight to the HQ.",
+            "&3&lJeff": "Make sure you do not get followed and don't tell anyone about this.",
+            "[PLAYER]": "Euuh, alright... Was that all?",
+            "&3&lJeff": "One more thing, make sure the delivery gets here by noon!"
+        }
+    ],
+    "Show": {
+        "Farmer1": true
+    },
+    "Objective": ["Pick up the super secret delivery from the farmer in Findale Harbor", 5],
+    "HighlightClickEntity": "Farmer1",
+    "Dialog": [
+        {
+            "&2&lFarmer": "Meloooooons! Delicious, delicious meloooooooooons!",
+            "[Player]": "Excuse me?",
+            "&2&lFarmer": "Oh hello there! What can I do for you today?",
+            "[PLAYER]": "I am here for the... you know...",
+            "&2&lFarmer": "The...? The melons? Oh perfect! we have tons of those!",
+            "[PLAYER]": "I am not here for melons. Don't you have a... &ospecial delivery&r for me?",
+            "&2&lFarmer": "I am not sure what you mean. The only delivery I have is for the Statera HQ but-",
+            "[PLAYER]": "That is the one I am here for. I will make sure it arrives there safely.",
+            "&2&lFarmer": "O- okay. Here it is."
+        }
+    ],
+    "Wait": 20,
+    "SendMessage": "&e+1 &7Secret package",
+    "Wait": 20,
+    "Objective": ["Return the package to Jeff", 8],
+    "HighlightClickEntity": "Statera_Member1",
+    "Wait": 20,
+    "Dialog": [
+        {
+            "&3&lJeff": "I see you made it back before noon! Did you get the package?",
+            "[PLAYER]": "I did."
+        }
+    ],
+    "SendMessage": "&e-1 &7Secret package",
+    "Wait": 20,
+    "Dialog": [
+        {
+            "&3&lJeff": "Hmm. This looks like the real deal.",
+            "&3&lMark": "JEFF?",
+            "&3&lJeff": "YEE?",
+            "&3&lMark": "Did the new one pick up your lunch?",
+            "&3&lJeff": "Yep! You owe me 10 bucks!",
+            "&3&lMark": "Oof, I expected more of them. When you are ready, can you send them my way?",
+            "&3&lMark": "This field research is not going to do itself!",
+            "[PLAYER]": "Wait... so that delivery was your ... lunch?",
+            "&3&lJeff": "A fresh watermelon salad prepared by the farmer themself! You can't get any better around here.",
+            "&3&lJeff": "Mark is waiting for you though. He has some field research to do."
+        }
+    ],
+    "Objective": ["Speak to Mark", 8],
+    "HighlightClickEntity": "Statera_Member2",
+    "Dialog": [
+        {
+            "&3&lMark": "You must be the new one!",
+            "[PLAYER]": "And you must be another one who forgot their lunch?",
+            "&3&lMark": "I will choose to ignore that comment.",
+            "&3&lMark": "Here at &3Statera&r, we conduct a lot of serious research.",
+            "&3&lMark": "My assistant was supposed to pick up a sample of volcanic stone to investigate this morning but they called in sick.",
+            "&3&lMark": "That is why you get to pick it up. Sample the lava fountain in Redgrove and do it fast!"
+        }
+    ],
+    "Wait": 20,
+    "Objective": ["Collect a small sample of obsidian from the lava fountain in Redgrove", 4],
+    "RegionEntry": [
+        -549, 1, 865,
+        -570, 70, 881
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oI will need to faint this weedle to reach the fountain."
+        }
+    ],
+    "BattleWildPokemon": [
+        -564.5, 52.0, 874.5, 90,
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            }
+        ]
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oPfew, that was close. Looks like I can get a sample at the top of the fountain though!"
+        }
+    ],
+    "Objective": ["Pick up the obsidian sample", 4],
+    "PickupItem": [-558.5, 67.5, 874.5, "&0&lObsidian", "Obsidian"],
+    "Wait": 20,
+    "SendMessage": "&e&l+1 &8&lObsidian",
+    "Wait": 20,
+    "Objective": ["Bring the obsidian sample back to Mark", 9],
+    "HighlightClickEntity": "Statera_Member2",
+    "Wait": 20,
+    "SendMessage": "&c&l-1 &0&lObsidian",
+    "Wait": 20,
+    "Dialog": [
+        {
+            "&3&lMark": "I didn't ask you to thow it at me.",
+            "&3&lMark": "We are a serious company here!",
+            "[PLAYER]": "I am sorry. I hope it is still of use?",
+            "&3&lMark": "Hmm, sure. Now get out of my sight! Can't you see I am busy??"
+        }
+    ],
+    "Objective": ["Check up on Evan", 9],
+    "HighlightClickEntity": "Statera_Member3",
+    "Dialog": [
+        {
+            "&3&lEvan": "Hmm?",
+            "[PLAYER]": "Heya, is there anything I can do around here?",
+            "&3&lEvan": "What about not bothering me?",
+            "&3&lEvan": "You are the new one right?",
+            "[PLAYER]": "That is what everyone seems to call me around here, yes.",
+            "&3&lEvan": "Hmm. There might be something.",
+            "&3&lEvan": "One of our field agents has reported important findings in Findale Harbor.",
+            "&3&lEvan": "Meet her and bring back her report.",
+            "[PLAYER]": "Ugh, sure."
+        }
+    ],
+    "Show": {
+        "Grandma1": true,
+        "Farmer1": false
+    },
+    "Objective": ["Collect the report from the field agent in Findale Harbor", 3],
+    "HighlightClickEntity": "Grandma1",
+    "Dialog": [
+        {
+            "[PLAYER]": "Hey, do you have a report for me?",
+            "&d&lGrandma Lucy": "A what my dear? I don't hear so well anymore.",
+            "[PLAYER]": "A report? For Statera?!",
+            "&d&lGrandma Lucy": "You don't have to shout my dear...",
+            "&d&lGrandma Lucy": "I don't know about a report, darling? My grandson works at that Statueria company though.",
+            "&d&lGrandma Lucy": "He asked me for my secret pie recipe to make for his friends.",
+            "[PLAYER]": "Pretty sure that is why I am here. He asked me to bring it to the company.",
+            "&d&lGrandma Lucy": "Not so fast my sweetheart. This recipe is a &ofamily&r recipe. No way that you can touch it!",
+            "&d&lGrandma Lucy": "If you want to deliver it, catch me a pidgeotto. They will fly it to my grandson.",
+            "[PLAYER]": "I don't really have anything else to do I guess...",
+            "&d&lGrandma Lucy": "Good luck sweetie!"
+        }
+    ],
+    "Objective": ["Bring a pidgeotto to Grandma Lucy", 6],
+    "ProvidePokemon": [
+        "Grandma1",
+        {
+            "species": "pidgeotto"
+        }
+    ],
+    "Wait": 20,
+    "Dialog": [
+        {
+            "&d&lGrandma Lucy": "Oh this is perfect my dear!"
+        }
+    ],
+    "Fade": [],
+    "Teleport": [613.6, 52.2, 602.2, -166, 20],
+    "HidePlayer": [],
+    "Freeze": true,
+    "Cinematic": [],
+    "Show": "Bird",
+    "Dialog": [
+        {
+            "&d&lGrandma Lucy": "Here little boy, take this to my grandson."
+        }
+    ],
+    "MoveEntity": ["Bird", 603.9, 55.8, 595.9, 0.2, false],
+    "ShowPlayer": [],
+    "Unfreeze": [],
+    "StopCinematic": [],
+    "Hide": "Bird",
+    "Fade": [],
+    "Teleport": [615.3, 50.0, 598.0],
+    "Wait": 10,
+    "Dialog": [
+        {
+            "&d&lGrandma Lucy": "Oh sweetie, would you mind making sure the recipe arrives there safe and sound?",
+            "[PLAYER]": "&osigh&r Sure.",
+            "&d&lGrandma Lucy": "You are such a honeyloop! You should come visit when I made a pie!"
+        }
+    ],
+    "Wait": 20,
+    "Objective": ["Make sure Evan received the recipe", 8],
+    "HighlightClickEntity": "Statera_Member3",
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "": ""
+        }
+    ],
+    "EntityLookAtPlayer": [
+        "Statera_Member4"
+    ],
+    "Dialog": [
+        {
+            "": ""
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Find a Lily of the Valley in the garden in Findale Harbor (HINT> It's near /spawn)",
+        3
+    ],
+    "PickupItem": [
+        618.5,
+        49.0,
+        575.5,
+        "",
+        "Lily Of The Valley"
+    ],
+    "SendMessage": [
+        "&&e&l+1 &f&lRare Lily of the Valley"
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Bring the rare Lily of the Valley back to [MEMBER4]",
+        10
+    ],
+    "HighlightClickEntity": [
+        "Statera_Member4"
+    ],
+    "SendMessage": [
+        "&c&l-1 &f&lRare Lily of the Valley"
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&3&lStatera Member": "Hey, thanks [PLAYER]! THat was some awesome work, thanks for putting up with my silly task! Haha!",
+            "&3&lStatera Member": "O-oh, hey Boss! How's it hangin'?",
+            "&8&lVidar": "What are you doing?"
+        }
+    ],
+    "Show": {
+        "Statera_Leader1": true
+    },
+    "Look": [
+        "Statera_Leader1"
+    ],
+    "MoveEntity": [
+        "Statera_Leader1",
+        75.5,
+        61.0,
+        335.0
+    ],
+    "Show": {
+        "Statera_Leader1": false,
+        "Statera_Leader2": true
+    },
+    "Dialog": [
+        {
+            "&8&lVidar": "It’s time to get back to work, you guys have been slacking off quite a bit today while teasing [PLAYER]",
+            "&3&lStatera Member": "Yes sir! Later [PLAYER]!",
+            "&8&lVidar": "You chose to stay with us, [PLAYER], so I think it’s time to tell you the full truth.",
+            "&8&lVidar": "Our research has come to a stand still, and I need the help of a powerful Pokémon to continue so that we can restore the balance to Zeinova.",
+            "[PLAYER]": "Does this have something to do with my &dAura&r?",
+            "&8&lVidar": "Haha, no no, this has nothing to do with your &dAura&r. If it did I would really be in a bad spot without both you and &dDanielle&r.",
+            "&8&lVidar": "Recently we found &0Zekrom&r... where he has been resting.",
+            "&8&lVidar": "I need you to go to him, and bring him to me.",
+            "&8&lVidar": "It will be so relieving to see my long-lost friend again... It has been many decades.",
+            "&8&lVidar": "&0Zekrom&r left after a battle to regain his strength... I have not seen or heard from him since then aside from seeing signs of him in the skies during storms.",
+            "&8&lVidar": "&0Zekroms&r power will be used to power our facilities, so that we can finish our research that we have been striving after for over 20 years."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Travel back to the Ancient Temple in Greenholm to catch Zekrom",
+        11
+    ],
+    "RegionEntry": [
+        -354,
+        1,
+        86,
+        -336,
+        50,
+        33
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Rival1": true
+    },
+    "Freeze": [
+    ],
+    "Look": [
+        "Rival1"
+    ],
+    "MoveEntity": [
+        "Rival1",
+        -327.5,
+        33.0,
+        59.5
+    ],
+    "Show": {
+        "Rival1": false,
+        "Rival2": true
+    },
+    "Unfreeze": [
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&d&lDanielle": "Leave [PLAYER]! You will not be taking &0Zekrom&r.",
+            "[PLAYER]": "&0Zekrom&r belongs with &8Vidar&r not you!",
+            "&d&lDanielle": "&0Zekrom&r is restrained here, he’s &lhas&r to serve that CEO due to their bond. Madam &eAstrid&r just prevented it…",
+            "&d&lDanielle": "&fReshiram&r kept watch over &0Zekrom&r beforehand, and now it my turn!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Battle Danielle",
+        5
+    ],
+    "HighlightClickEntity": [
+        "Rival2"
+    ],
+    "AutoBattleNpc": [
+        "Rival2",
+        {
+            "&d&lDanielle": "You'll never take away &0Zekrom&r!"
+        },
+        {
+            "&d&lDanielle": "I've let the entire region down...",
+            "[PLAYER]": "No, you helped save it."
+        },
+        {
+            "&d&lDanielle": "Now get out of here!"
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            },
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "Celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Rival2": false
+    },
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Pick up the masterball with Zekrom inside",
+        4
+    ],
+    "PickupItem": [
+        -313.5,
+        36.0,
+        59.5,
+        "&0&lZekrom",
+        "Master_ball"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&8&lZekrom collected"
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Bring Zekrom to the Statera Leader",
+        6
+    ],
+    "HighlightClickEntity": [
+        "Statera_Leader2"
+    ],
+    "Dialog": [
+        {
+            "&8&lVidar": "Magnificent, [PLAYER]! You have helped us so much!",
+            "&8&lVidar": "Here, take these rewards as celebration for this great victory!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "GiveCoins": [
+        2500
+    ],
+    "GiveTokens": [
+        25
+    ],
+    "GiveTrainerExperience": [
+        2500
+    ],
+    "SendCompleteMessage": [
+    ],
+    "Complete": [
+    ]
+}
