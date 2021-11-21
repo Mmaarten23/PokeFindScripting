@@ -714,7 +714,7 @@
         {
             "[PLAYER]": "A cruci-"
         },
-        90, true, true
+        45, true, true
     ],
     "NewDialog": [
         {
@@ -755,7 +755,7 @@
     ],
     "NewDialog": [
         {
-            "&8&lVidar": "It’s time to get back to work, you guys have been slacking off quite a bit today while teasing [PLAYER]",
+            "&8&lVidar": "It’s time to get back to work, you guys have been slacking off quite a bit today while teasing [PLAYER].",
             "&3&lSteven": "Yes sir! Later [PLAYER]!",
             "&8&lVidar": "You chose to stay with us, [PLAYER], so I think it’s time to tell you the full truth.",
             "&8&lVidar": "Our research has come to a stand still, and I need the help of a powerful Pokémon to continue.",
@@ -807,7 +807,7 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "&d&lDanielle": "Leave [PLAYER]! You will not be taking &8alZekrom&r."
+            "&d&lDanielle": "Leave [PLAYER]! You will not be taking &8&lZekrom&r."
         },
         90, true, true, "female_angry"
     ],
