@@ -208,7 +208,6 @@
         "pokemon": "pidgeotto",
         "look": false
     },
-
     "CreateEntity": {
         "key": "Bird2",
         "location": {
@@ -240,48 +239,128 @@
     },
     "Quest": true,
     "HighlightClickEntity": "Happy1",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&3H.A.P.P.Y": "Hey [PLAYER]! It’s H.A.P.P.Y! I’m glad you’ve chosen to stay with us! I will miss &dDanielle&r though...",
+            "&3H.A.P.P.Y": "Hey [PLAYER]! It’s H.A.P.P.Y! I’m glad you’ve chosen to stay with us! I will miss &dDanielle&r though..."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "I will miss her too... in a way... Do you have any notes for me?",
             "&3H.A.P.P.Y": "I do. Your presence has been requested on the first floor.",
             "&3H.A.P.P.Y": "Enjoy your day!"
-        }
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y": "I do. Your presence has been requested on the first floor.",
+            "&3H.A.P.P.Y": "Enjoy your day!"
+        },
+        90, true, true, "male_normal"
     ],
     "Wait": 20,
     "Objective": ["Talk to the Statera Members", 4],
     "HighlightClickEntity": "Statera_Member1",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&3&lJeff": "Ah, you must be the new one!",
+            "&3&lJeff": "Ah, you must be the new one!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
             "&3&lJeff": "I was just looking for you. The company has a very secret mission prepared.",
-            "&3&lJeff": "And we need you to carry out the plan.",
-            "[PLAYER]": "Super secret you say huh?",
+            "&3&lJeff": "And we need you to carry out the plan."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Super secret you say huh?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lJeff": "It is a matter of the upmost importance!",
             "&3&lJeff": "A special delivery has to be picked up in Findale Harbor at our undercover employee.",
             "&3&lJeff": "He went undercover as a farmer. Go speak to him and bring the delivery straight to the HQ.",
-            "&3&lJeff": "Make sure you do not get followed and don't tell anyone about this.",
-            "[PLAYER]": "Euuh, alright... Was that all?",
+            "&3&lJeff": "Make sure you do not get followed and don't tell anyone about this."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Euuh, alright... Was that all?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lJeff": "One more thing, make sure the delivery gets here by noon!"
-        }
+        },
+        90, true, true, "male_excited"
     ],
     "Show": {
         "Farmer1": true
     },
     "Objective": ["Pick up the super secret delivery from the farmer in Findale Harbor", 5],
     "HighlightClickEntity": "Farmer1",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&2&lFarmer": "Meloooooons! Delicious, delicious meloooooooooons!",
-            "[PLAYER]": "Excuse me?",
-            "&2&lFarmer": "Oh hello there! What can I do for you today?",
-            "[PLAYER]": "I am here for the... you know...",
-            "&2&lFarmer": "The...? The melons? Oh perfect! we have tons of those!",
-            "[PLAYER]": "I am not here for melons. Don't you have a... &ospecial delivery&r for me?",
-            "&2&lFarmer": "I am not sure what you mean. The only delivery I have is for the Statera HQ but-",
-            "[PLAYER]": "That is the one I am here for. I will make sure it arrives there safely.",
+            "&2&lFarmer": "Meloooooons! Delicious, delicious meloooooooooons!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Excuse me?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&2&lFarmer": "Oh hello there! What can I do for you today?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I am here for the... you know..."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&2&lFarmer": "The...? The melons? Oh perfect! we have tons of those!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I am not here for melons. Don't you have a... &ospecial delivery&r for me?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&2&lFarmer": "I am not sure what you mean. The only delivery I have is for the Statera HQ but-"
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "That is the one I am here for. I will make sure it arrives there safely."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&2&lFarmer": "O- okay. Here it is."
-        }
+        },
+        90, true, true, "male_confused"
     ],
     "Wait": 20,
     "SendMessage": "&e+1 &7Secret package",
@@ -289,39 +368,87 @@
     "Objective": ["Return the package to Jeff", 8],
     "HighlightClickEntity": "Statera_Member1",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&3&lJeff": "I see you made it back before noon! Did you get the package?",
+            "&3&lJeff": "I see you made it back before noon! Did you get the package?"
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "I did."
-        }
+        },
+        90, true, true
     ],
     "SendMessage": "&c-1 &7Secret package",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&3&lJeff": "Hmm. This looks like the real deal.",
+            "&3&lJeff": "Hmm. This looks like the real deal."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "&3&lMark": "JEFF?",
-            "&3&lJeff": "YEE?",
-            "&3&lMark": "Did the new one pick up your lunch?",
-            "&3&lJeff": "Yep! You owe me 10 bucks!",
+            "&3&lJeff": "YEE?"
+        },
+        90, true, true, "male_angry"
+    ],
+    "NewDialog": [
+        {
+            "&3&lMark": "Did the new one pick up your lunch?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "&3&lJeff": "Yep! You owe me 10 bucks!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
             "&3&lMark": "Oof, I expected more of them. When you are ready, can you send them my way?",
-            "&3&lMark": "This field research is not going to do itself!",
-            "[PLAYER]": "Wait... so that delivery was your ... lunch?",
+            "&3&lMark": "This field research is not going to do itself!"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Wait... so that delivery was your ... lunch?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lJeff": "A fresh watermelon salad prepared by the farmer themself! You can't get any better around here.",
             "&3&lJeff": "Mark is waiting for you though. He has some field research to do."
-        }
+        },
+        90, true, true, "male_normal"
     ],
     "Objective": ["Speak to Mark", 8],
     "HighlightClickEntity": "Statera_Member2",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&3&lMark": "You must be the new one!",
-            "[PLAYER]": "And you must be another one who forgot their lunch?",
+            "&3&lMark": "You must be the new one!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "And you must be another one who forgot their lunch?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lMark": "I will choose to ignore that comment.",
             "&3&lMark": "Here at &3Statera&r, we conduct a lot of serious research.",
             "&3&lMark": "My assistant was supposed to pick up a sample of volcanic stone to investigate this morning but they called in sick.",
             "&3&lMark": "That is why you get to pick it up. Sample the lava fountain in Redgrove and do it fast!"
-        }
+        },
+        90, true, true, "male_angry"
     ],
     "Wait": 20,
     "Objective": ["Collect a small sample of obsidian from the lava fountain in Redgrove", 4],
@@ -329,10 +456,11 @@
         -549, 1, 865,
         -570, 70, 881
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oI will need to faint this weedle to reach the fountain."
-        }
+        },
+        1, true, false
     ],
     "BattleWildPokemon": [
         -564.5, 52.0, 874.5, 90,
@@ -348,10 +476,11 @@
             }
         ]
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oPfew, that was close. Looks like I can get a sample at the top of the fountain though!"
-        }
+        },
+        1, true, false
     ],
     "Objective": ["Pick up the obsidian sample", 4],
     "PickupItem": [-558.5, 67.5, 874.5, "&8&lObsidian", "Obsidian"],
@@ -363,17 +492,28 @@
     "Wait": 20,
     "SendMessage": "&c-1 &7Obsidian",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&3&lMark": "I didn't ask you to thow it at me.",
-            "&3&lMark": "We are a serious company here!",
-            "[PLAYER]": "I am sorry. I hope it is still of use?",
+            "&3&lMark": "We are a serious company here!"
+        },
+        90, true, true, "male_angry"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I am sorry. I hope it is still of use?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lMark": "Hmm, sure. Now get out of my sight! Can't you see I am busy??"
-        }
+        },
+        90, true, true, "male_question"
     ],
     "Objective": ["Check up on Evan", 9],
     "HighlightClickEntity": "Statera_Member3",
-    "Dialog": [
+    "NewDialog": [
         {
             "&3&lEvan": "Hmm?",
             "[PLAYER]": "Heya, is there anything I can do around here?",
@@ -392,7 +532,7 @@
     },
     "Objective": ["Collect the report from the field agent in Findale Harbor", 3],
     "HighlightClickEntity": "Grandma1",
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "Hey, do you have a report for me?",
             "&d&lGrandma Lucy": "A what my dear? I don't hear so well anymore.",
@@ -415,7 +555,7 @@
         }
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lGrandma Lucy": "Oh this is perfect my dear!"
         }
@@ -426,7 +566,7 @@
     "Freeze": true,
     "Cinematic": [],
     "Show": "Bird",
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lGrandma Lucy": "Here little boy, take this to my grandson."
         }
@@ -439,7 +579,7 @@
     "Fade": [],
     "Teleport": [615.3, 50.0, 598.0, 180, 0],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lGrandma Lucy": "Oh sweetie, would you mind making sure the recipe arrives there safe and sound?",
             "[PLAYER]": "&osigh&r Sure.",
@@ -456,14 +596,14 @@
         "Grandma1": false
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&3&lEvan": "Ah you made it. The recipe just arrived.",
             "&3&lEvan": "Good boy, thank you!"
         }
     ],
     "ProgressiveMoveEntity": ["Bird2", 62.4, 69.0, 345.1, 0.15, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "A field report huh?",
             "&3&lEvan": "It was a very important matter. That is what counts.",
@@ -474,7 +614,7 @@
 
     "Objective": ["Ask Steven why he asked about you", 8],
     "HighlightClickEntity": "Statera_Member4",
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "Heya, you aske-",
             "&3&lSteven": "WHERE HAVE YOU BEEN?",
@@ -492,7 +632,7 @@
     "Objective": ["Bring the rare Lily of the Valley back to Steven", 10],
     "HighlightClickEntity": "Statera_Member4",
     "SendMessage": ["&c-1 &7Rare Lily of the Valley"],
-    "Dialog": [
+    "NewDialog": [
         {
             "&3&lSteven": "Hey, thanks [PLAYER]! That was some awesome work. I don't really need the flower but hey",
             "&3&lSteven": "you had to do something right? HAHAHAHA!!!"
@@ -501,14 +641,14 @@
     "Show": {
         "Statera_Leader1": true
     },
-    "MoveEntity": [        "Statera_Leader1",        75.5,        61.0,        335.0    ],
-    "Dialog": [
+    "MoveEntity": ["Statera_Leader1", 75.5, 61.0, 335.0],
+    "NewDialog": [
         {
             "&3&lSteven": "O-oh, hey Boss! How's it hangin'?",
             "&8&lVidar": "What are you doing?"
         }
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "It’s time to get back to work, you guys have been slacking off quite a bit today while teasing [PLAYER]",
             "&3&lStatera Member": "Yes sir! Later [PLAYER]!",
@@ -524,7 +664,7 @@
         }
     ],
     "Wait": 20,
-    "Objective": [        "Travel back to the Ancient Temple in Greenholm to catch Zekrom",        11    ],
+    "Objective": ["Travel back to the Ancient Temple in Greenholm to catch Zekrom", 11],
     "RegionEntry": [
         -354, 1, 86,
         -336, 50, 33
@@ -542,7 +682,7 @@
     },
     "Unfreeze": [],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Leave [PLAYER]! You will not be taking &8Zekrom&r.",
             "[PLAYER]": "&8Zekrom&r belongs with &8Vidar&r not you!",
@@ -634,7 +774,7 @@
     "Wait": 20,
     "Objective": ["Bring Zekrom to the Statera Leader", 6],
     "HighlightClickEntity": "Statera_Leader1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Magnificent, [PLAYER]! You have helped us so much!",
             "&8&lVidar": "Here, take these rewards as celebration for this great victory!"
@@ -649,7 +789,7 @@
 
     "Wait": 20,
     "Fade": [],
-    "Teleport": [63.5,53.0,337.5, -90, 0],
+    "Teleport": [63.5, 53.0, 337.5, -90, 0],
     "Show": {
         "Happy1": false,
         "Statera_Member1": false,
