@@ -1,0 +1,49 @@
+{
+    "Key": "gen5_main_quest_happy_controller",
+    "Author": "Mmaarten",
+
+    "HighlightClickEntity": "gen5_main_quest_happy",
+    "If": [],
+        "NotCompleted": "gen5_main_quest_3",
+            "Skip": "too_early",
+            "Dummy": [],
+    "If": [],
+        "NotCompleted": "gen5_main_quest_4",
+            "Skip": "check_4",
+            "Dummy": [],
+    "If": [],
+        "HasStoryTeam": "tribe",
+            "Skip": "tribe",
+            "Dummy": [],
+
+
+
+    "Comment": "too_early",
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y": "Access denied. You do not have the required authorization to enter this building."
+        },
+        1, true, false, "male_normal"
+    ],
+    "SendMessage": "&7&oProgress in the main storyline to unlock this building.",
+    "Leave": [],
+
+    "Comment": "check_4",
+    "If": [],
+        "In": "gen5_main_quest_4",
+            "Leave": [],
+            "Start": "gen5_main_quest_4",
+
+
+    "Leave": [],
+
+    "Comment": "tribe",
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y": "Access denied. It was your choice to leave us [PLAYER]."
+        },
+        1, true, false, "male_normal"
+    ],
+    "SendMessage": "&7&oYou cannot access this building while a member of the tribe.",
+    "Leave": []
+}

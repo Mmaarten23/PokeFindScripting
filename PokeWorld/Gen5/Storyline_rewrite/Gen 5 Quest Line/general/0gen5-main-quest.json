@@ -1,0 +1,21 @@
+{
+    "Key": "gen5_main_quest",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "gen5_main_quest_happy",
+        "name": "&3H.A.P.P.Y.",
+        "location": {
+            "x": 67.5,
+            "y": 53.0,
+            "z": 337.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzMxMTM1OCwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyNzg2MGI2YThlNDQ1ZGZmZTJmZWM0NzdhN2UyZDEwMzgwYjMwYzIwNGIzYThlM2UyMzRlMGZjYWNlOTIyODIiCiAgICB9CiAgfQp9",
+            "signature": "t2vmKNXinnY7Um/29ZulZLCJawoXJkbopoyTMpR2fF2cjCuBpHeL7HRmGChgqY38kuzRDnQuJfMLkB/JCbXDAuwj+hHGJ/mYqKfJupxcXPmOexCcDgt3ECUAOfstbhYWCd2MtvVOVfz04YUPGgNqPlKirDYwCKX0I/zfp6izp3Rj42NMw26H0HWqqXWmehsWUdrEZPV7TOKTLu2487ekeMqbae5WBWwFx+1NI0DgcmhmFjB8K2MHwcOMXJLvLuylhB4UbNVzaMQYg0fSiROyORDFwJWUvPtT6bWdFdJ05PcT2QuwaQ/bU6LTcqQkag2hDLqBzGfrpiVcOLdMoUpa7HBr6B0wJM7gDAJMJcPeCVXZVmOjZMfuQTZ0uifs6dZLQ8F3nZhXNqAQ0BVUpwf5Q2qfSfFk9zcOdX6ki+kYcmF427Va1By+ghPp3o9GTuXNE2DQtKXvoywx1t6g/Ve+73IIgmLZijsiDjS+V297tHnMVj8FRn+R6/RAiESovpoE+X7+d6nRRA8obaLshTgsjXk7OGrqpmKM8LiLQZmzcctnsUJQdJBc42Um+T12JcXfBXBYoK1H4JCLp0ybkQGAeM41gkTKZiAg77ZxXsE7dq9md0JO+GaWncqnhKzuzG7VDokSGwMNjflMOHgaeVTm9Gf3NmSzg7khrUqHD7y8bSc="
+        },
+        "global": true
+    }
+}

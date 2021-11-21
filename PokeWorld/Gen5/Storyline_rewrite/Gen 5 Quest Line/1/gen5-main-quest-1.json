@@ -1337,7 +1337,6 @@
     "GiveCoins": 2500,
     "GiveTrainerExperience": 3000,
     "GiveTokens": 10,
-    "Start": "gen5_main_quest_reward",
     "Wait": 40,
     "NewDialog": [
         {
