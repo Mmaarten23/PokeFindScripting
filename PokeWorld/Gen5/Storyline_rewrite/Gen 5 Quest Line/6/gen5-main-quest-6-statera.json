@@ -393,7 +393,7 @@
             "&3&lMark": "JEFF?",
             "&3&lJeff": "YEE?"
         },
-        90, true, true, "male_angry"
+        45, true, true, "male_angry"
     ],
     "NewDialog": [
         {
@@ -494,7 +494,7 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "&3&lMark": "I didn't ask you to thow it at me.",
+            "&3&lMark": "I didn't ask you to throw it at me.",
             "&3&lMark": "We are a serious company here!"
         },
         90, true, true, "male_angry"
@@ -515,16 +515,42 @@
     "HighlightClickEntity": "Statera_Member3",
     "NewDialog": [
         {
-            "&3&lEvan": "Hmm?",
-            "[PLAYER]": "Heya, is there anything I can do around here?",
+            "&3&lEvan": "Hmm?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Heya, is there anything I can do around here?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lEvan": "What about not bothering me?",
-            "&3&lEvan": "You are the new one right?",
-            "[PLAYER]": "That is what everyone seems to call me around here, yes.",
+            "&3&lEvan": "You are the new one right?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "That is what everyone seems to call me around here, yes."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lEvan": "Hmm. There might be something.",
             "&3&lEvan": "One of our field agents has reported important findings in Findale Harbor.",
-            "&3&lEvan": "Meet her and bring her report to the HQ.",
+            "&3&lEvan": "Meet her and bring her report to the HQ."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "Ugh, sure."
-        }
+        },
+        90, true, true
     ],
     "Show": {
         "Grandma1": true,
@@ -534,18 +560,54 @@
     "HighlightClickEntity": "Grandma1",
     "NewDialog": [
         {
-            "[PLAYER]": "Hey, do you have a report for me?",
-            "&d&lGrandma Lucy": "A what my dear? I don't hear so well anymore.",
-            "[PLAYER]": "A report? For Statera?!",
+            "[PLAYER]": "Hey, do you have a report for me?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&d&lGrandma Lucy": "A what my dear? I don't hear so well anymore."
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "A report? For Statera?!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&d&lGrandma Lucy": "You don't have to shout my dear...",
-            "&d&lGrandma Lucy": "I don't know about a report, darling? My grandson works at that Statueria company though.",
-            "&d&lGrandma Lucy": "He asked me for my secret pie recipe to make for his friends.",
-            "[PLAYER]": "Pretty sure that is why I am here. He asked me to bring it to the company.",
-            "&d&lGrandma Lucy": "Not so fast my sweetheart. This recipe is a &ofamily&r recipe. No way that you can touch it!",
-            "&d&lGrandma Lucy": "If you want to deliver it, catch me a pidgeotto. They will fly it to my grandson.",
-            "[PLAYER]": "I don't really have anything else to do I guess...",
+            "&d&lGrandma Lucy": "I don't know about a report, darling? My grandson works at that Staitueria company though.",
+            "&d&lGrandma Lucy": "He asked me for my secret pie recipe to make for his friends."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Pretty sure that is why I am here. He asked me to bring it to the company."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&d&lGrandma Lucy": "Not so fast my sweetheart. This recipe is a &ofamily&r secret. I cannot give it to you!",
+            "&d&lGrandma Lucy": "If you want to deliver it, catch me a pidgeotto. They will fly it to my grandson."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I don't really have anything else to do I guess..."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&d&lGrandma Lucy": "Good luck sweetie!"
-        }
+        },
+        90, true, true, "female_excited"
     ],
     "Objective": ["Bring a pidgeotto to Grandma Lucy", 6],
     "ProvidePokemon": [
@@ -558,7 +620,8 @@
     "NewDialog": [
         {
             "&d&lGrandma Lucy": "Oh this is perfect my dear!"
-        }
+        },
+        90, true, true, "female_excited"
     ],
     "Fade": [],
     "Teleport": [613.6, 52.2, 602.2, -166, 20],
@@ -569,7 +632,8 @@
     "NewDialog": [
         {
             "&d&lGrandma Lucy": "Here little boy, take this to my grandson."
-        }
+        },
+        90, true, false, "female_normal"
     ],
     "MoveEntity": ["Bird", 603.9, 55.8, 595.9, 0.2, false],
     "ShowPlayer": [],
@@ -581,10 +645,21 @@
     "Wait": 10,
     "NewDialog": [
         {
-            "&d&lGrandma Lucy": "Oh sweetie, would you mind making sure the recipe arrives there safe and sound?",
-            "[PLAYER]": "&osigh&r Sure.",
+            "&d&lGrandma Lucy": "Oh sweetie, would you mind making sure the recipe arrives there safe and sound?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&osigh&r Sure."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&d&lGrandma Lucy": "You are such a honeyloop! You should come visit when I made a pie!"
-        }
+        },
+        90, true, true, "female_excited"
     ],
     "Wait": 20,
     "Show": {
@@ -600,15 +675,22 @@
         {
             "&3&lEvan": "Ah you made it. The recipe just arrived.",
             "&3&lEvan": "Good boy, thank you!"
-        }
+        },
+        90, true, true, "male_normal"
     ],
     "ProgressiveMoveEntity": ["Bird2", 62.4, 69.0, 345.1, 0.15, false],
     "NewDialog": [
         {
-            "[PLAYER]": "A field report huh?",
+            "[PLAYER]": "A field report huh?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lEvan": "It was a very important matter. That is what counts.",
             "&3&lEvan": "Don't let Steven wait for too long btw. He already asked about you 4 times."
-        }
+        },
+        90, true, true, "male_normal"
     ],
     "Hide": "Bird2",
 
@@ -616,14 +698,30 @@
     "HighlightClickEntity": "Statera_Member4",
     "NewDialog": [
         {
-            "[PLAYER]": "Heya, you aske-",
+            "[PLAYER]": "Heya, you aske-"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lSteven": "WHERE HAVE YOU BEEN?",
             "&3&lSteven": "Nevermind that, I don't care.",
-            "&3&lSteven": "I cannot finish my research without a crucial ingredient.",
-            "[PLAYER]": "A cruci-",
+            "&3&lSteven": "I cannot finish my research without a crucial ingredient."
+        },
+        90, true, true, "male_angry"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "A cruci-"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&3&lSteven": "Dont care. Go to Findale Habor and find me a lily of the valley.",
             "&3&lSteven": "Without that, I can scrap my whole project!"
-        }
+        },
+        90, true, true, "male_angry"
     ],
     "Objective": ["Find a Lily of the Valley in the garden in Findale Harbor (HINT> It's near /spawn)", 3],
     "PickupItem": [618.5, 49.0, 575.5, "", "Lily Of The Valley"],
@@ -636,7 +734,8 @@
         {
             "&3&lSteven": "Hey, thanks [PLAYER]! That was some awesome work. I don't really need the flower but hey",
             "&3&lSteven": "you had to do something right? HAHAHAHA!!!"
-        }
+        },
+        90, true, true, "male_excited"
     ],
     "Show": {
         "Statera_Leader1": true
@@ -644,24 +743,48 @@
     "MoveEntity": ["Statera_Leader1", 75.5, 61.0, 335.0],
     "NewDialog": [
         {
-            "&3&lSteven": "O-oh, hey Boss! How's it hangin'?",
+            "&3&lSteven": "O-oh, hey Boss! How's it hangin'?"
+        },
+        90, true, true, "male_scared"
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "What are you doing?"
-        }
+        },
+        90, true, true, "male_question"
     ],
     "NewDialog": [
         {
             "&8&lVidar": "It’s time to get back to work, you guys have been slacking off quite a bit today while teasing [PLAYER]",
-            "&3&lStatera Member": "Yes sir! Later [PLAYER]!",
+            "&3&lSteven": "Yes sir! Later [PLAYER]!",
             "&8&lVidar": "You chose to stay with us, [PLAYER], so I think it’s time to tell you the full truth.",
-            "&8&lVidar": "Our research has come to a stand still, and I need the help of a powerful Pokémon to continue so that we can restore the balance to Zeinova.",
-            "[PLAYER]": "Does this have something to do with my &dAura&r?",
-            "&8&lVidar": "Haha, no no, this has nothing to do with your &dAura&r. If it did I would really be in a bad spot without both you and &dDanielle&r.",
-            "&8&lVidar": "Recently we found &8Zekrom&r... where he has been resting.",
+            "&8&lVidar": "Our research has come to a stand still, and I need the help of a powerful Pokémon to continue.",
+            "&8&lVidar": "Only then can we restore the balance in Zeinova."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Does this have something to do with my &dAura&r?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&8&lVidar": "Haha, no no, this has nothing to do with your &dAura&r.",
+            "&8&lVidar": "If it did I would really be in a bad spot without both you and &dDanielle&r.",
+            "&8&lVidar": "Recently we found &8&lZekrom&r... where he has been resting.",
             "&8&lVidar": "I need you to go to him, and bring him to me.",
-            "&8&lVidar": "It will be so relieving to see my long-lost friend again... It has been many decades.",
-            "&8&lVidar": "&8Zekrom&r left after a battle to regain his strength... I have not seen or heard from him since then aside from seeing signs of him in the skies during storms.",
-            "&8&lVidar": "&8Zekroms&r power will be used to power our facilities, so that we can finish our research that we have been striving after for over 20 years."
-        }
+            "&8&lVidar": "It will be so relieving to see my long-lost friend again... It has been many decades."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "&8&lVidar": "&8&lZekrom&r left after a battle to regain his strength... I have not seen or heard from him since then aside from seeing signs of him in the skies during storms.",
+            "&8&lVidar": "&8&lZekroms&r power will be used to power our facilities, so that we can finish our research that we have been striving after for over 20 years."
+        },
+        130, true, true, "male_normal"
     ],
     "Wait": 20,
     "Objective": ["Travel back to the Ancient Temple in Greenholm to catch Zekrom", 11],
@@ -684,11 +807,22 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "&d&lDanielle": "Leave [PLAYER]! You will not be taking &8Zekrom&r.",
-            "[PLAYER]": "&8Zekrom&r belongs with &8Vidar&r not you!",
-            "&d&lDanielle": "&8Zekrom&r is restrained here, he’s &lhas&r to serve that CEO due to their bond. Madam &eAstrid&r just prevented it…",
-            "&d&lDanielle": "&fReshiram&r kept watch over &8Zekrom&r beforehand, and now it my turn!"
-        }
+            "&d&lDanielle": "Leave [PLAYER]! You will not be taking &8alZekrom&r."
+        },
+        90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&8&lZekrom&r belongs with &8Vidar&r not you!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&d&lDanielle": "&8&lZekrom&r is restrained here, he’s &lhas&r to serve that CEO due to their bond. Madam &eAstrid&r just prevented it…",
+            "&d&lDanielle": "&f&lReshiram&r kept watch over &8&lZekrom&r beforehand, and now it my turn!"
+        },
+        90, true, true, "female_angry"
     ],
     "Wait": 20,
     "Objective": ["Battle Danielle", 5],
@@ -696,7 +830,7 @@
     "AutoBattleNpc": [
         "Rival2",
         {
-            "&d&lDanielle": "You'll never take away &8Zekrom&r!"
+            "&d&lDanielle": "You'll never take away &8&lZekrom&r!"
         },
         {
             "&d&lDanielle": "I've let the entire region down...",
@@ -778,7 +912,8 @@
         {
             "&8&lVidar": "Magnificent, [PLAYER]! You have helped us so much!",
             "&8&lVidar": "Here, take these rewards as celebration for this great victory!"
-        }
+        },
+        90, true, true, "male_excited"
     ],
     "Wait": 20,
     "Complete": [],
