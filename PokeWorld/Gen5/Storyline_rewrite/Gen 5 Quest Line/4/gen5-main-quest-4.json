@@ -353,7 +353,7 @@
         90, true, true, "male_angry"
     ],
     "MoveEntity": ["gen5_main_quest_happy", 74.5, 53.0, 337.5],
-    "EntityLook": 90,
+    "EntityLook": ["gen5_main_quest_happy", 90],
     "Objective": ["Provide H.A.P.P.Y. with the password to enter the headquarters. (/youranswer)", 2],
     "Command": "statera",
     "Leave": "gen5_main_quest_4_entry_blocker",
