@@ -72,8 +72,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
-            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzU3MzAzNywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzNDQ0NGNlNTgyYzVkY2E4MTVhNGQ4Zjk0MTY3MDgwMTZiMjBjMjA5MWQ4ZGRmMWY4Yjg1ZDlkYTg3NmUzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "pbyS2IhUMWF67m9D3Wy0v6EFcMH3D93z+995uW9r0PXIDFQP3CcOrB7iPPjPVxAWBVlfTX8dCaPtr6HnuPHHaDw8Tf9y0hFcqDgK8e57gLLaqkKA+S8SsaLsKFKTxY853oJ1hQCqpt3u5s8BMpOdmLwWW20xgB+GjcHsf7D7whGTBQCNANz0LkhYm5oW/PhOFJxMZ8EDEc6awiwL4MkF4xzGqdyDEU9YcdZhv9MW5YGXbUyhxFMUoDam+s24OLlOx0bAyoLvkZr8lGtdpa1WLxB9XdvUV01VFHtH2RWbBLi1kk+pUeUQukT0zeC9K0ZhhlWT5wCbm1pXCKQuGaja2Kchu7z1akFvbB1RrxDA/UQvoKHea+mi2pD+LZPj81N8JT7lfRPAO7EKxjWq0JVG/dtpnXQZE28QBwEBOC3yKHUx46PZ24WPjCI1BSKAHYIgKhgKQOAwz5FJmqXS/BIXiPgYNJARi3AKY2fQwSz4sKIoODbmUt5yJVwg4CKzSO4M06BQ35Fd/3ypaujUlcS4JeJR9C+wFg0QI/3KwGZVVzztRxdzlSHGX5QBB2Iqc26j/B8AxsN7h13o3s/XpOJIMl5FpUkhr/TkYwjBFfasXxIYomh+YvgFR/LMaAJOM6hErFqzvP9ITwzlneBI6rEkD65otpPe9/ppMSyOSH8xGd4="
         },
         "sitting": true
     },
@@ -127,8 +127,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
-            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzU3MzAzNywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzNDQ0NGNlNTgyYzVkY2E4MTVhNGQ4Zjk0MTY3MDgwMTZiMjBjMjA5MWQ4ZGRmMWY4Yjg1ZDlkYTg3NmUzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "pbyS2IhUMWF67m9D3Wy0v6EFcMH3D93z+995uW9r0PXIDFQP3CcOrB7iPPjPVxAWBVlfTX8dCaPtr6HnuPHHaDw8Tf9y0hFcqDgK8e57gLLaqkKA+S8SsaLsKFKTxY853oJ1hQCqpt3u5s8BMpOdmLwWW20xgB+GjcHsf7D7whGTBQCNANz0LkhYm5oW/PhOFJxMZ8EDEc6awiwL4MkF4xzGqdyDEU9YcdZhv9MW5YGXbUyhxFMUoDam+s24OLlOx0bAyoLvkZr8lGtdpa1WLxB9XdvUV01VFHtH2RWbBLi1kk+pUeUQukT0zeC9K0ZhhlWT5wCbm1pXCKQuGaja2Kchu7z1akFvbB1RrxDA/UQvoKHea+mi2pD+LZPj81N8JT7lfRPAO7EKxjWq0JVG/dtpnXQZE28QBwEBOC3yKHUx46PZ24WPjCI1BSKAHYIgKhgKQOAwz5FJmqXS/BIXiPgYNJARi3AKY2fQwSz4sKIoODbmUt5yJVwg4CKzSO4M06BQ35Fd/3ypaujUlcS4JeJR9C+wFg0QI/3KwGZVVzztRxdzlSHGX5QBB2Iqc26j/B8AxsN7h13o3s/XpOJIMl5FpUkhr/TkYwjBFfasXxIYomh+YvgFR/LMaAJOM6hErFqzvP9ITwzlneBI6rEkD65otpPe9/ppMSyOSH8xGd4="
         }
     },
     "CreateEntity": {
@@ -702,89 +702,64 @@
         },
         [
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
                 ],
-                "nature": "",
-                "ability": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             },
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
                 ],
-                "nature": "",
-                "ability": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             },
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
                 ],
-                "nature": "",
-                "ability": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             },
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
                 ],
-                "nature": "",
-                "ability": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             },
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate",
+                    "Celebrate"
                 ],
-                "nature": "",
-                "ability": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             }
         ]
     ],
@@ -796,14 +771,7 @@
     "Show": {
         "Ferrothorn": true
     },
-    "PartyPokemonEntity": [
-        -340.5,
-        32.0,
-        59.5,
-        90,
-        1,
-        10
-    ],
+    "PartyPokemonEntity": [-340.5, 32.0, 59.5, 90, 1, 10],
     "Show": {
         "Health_Red": true,
         "Health_Dead": false
@@ -816,12 +784,10 @@
             "&d&lDanielle": "Ferrothorn, use Metal Claw!"
         }
     ],
-    "PlaySound": [
-        "block_anvil_land"
-    ],
-    "Wait": [
+    "PlaySound": "block_anvil_land",
+    "Wait":
         30
-    ],
+    ,
     "Show": {
         "Health_Red": false,
         "Health_Dead": true,
