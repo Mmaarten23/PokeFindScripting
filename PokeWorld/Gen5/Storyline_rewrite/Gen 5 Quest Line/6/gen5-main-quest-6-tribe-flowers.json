@@ -4,11 +4,11 @@
     "AllowRejoining": true,
 
     "Comment": "start",
-    "Particle": ["VILLAGER_HAPPY", -364, 47, -58, 10, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -364.5, 47.0, -58.5, 10, 0.5],
     "Wait": 5,
-    "Particle": ["VILLAGER_HAPPY", -363, 47, -62, 10, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -363.5, 47.0, -62.5, 10, 0.5],
     "Wait": 5,
-    "Particle": ["VILLAGER_HAPPY", -367, 46, -61, 10, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -367.5, 46.0, -61, 10.5, 0.5],
     "Wait": 5,
     "Skip": "start"
 }
