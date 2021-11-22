@@ -61,7 +61,7 @@
     "CreateEntity": {
         "key": "Tribe_Member3",
         "name": [
-            "&6&lBill",
+            "&6&lBeth",
             "&7Sophro Member"
         ],
         "location": {
@@ -116,7 +116,7 @@
     "CreateEntity": {
         "key": "Tribe_Member6",
         "name": [
-            "&6&lBill",
+            "&6&lBeth",
             "&7Sophro Member"
         ],
         "location": {
@@ -419,76 +419,18 @@
     "Wait": [
         20
     ],
-    "Objective": [
-        "Plant some flowers by clicking the sparkling podzol",
-        24
-    ],
-    "GlobalParticle": [
-        "VILLAGER_HAPPY",
-        -363.5,
-        47.0,
-        -57.5,
-        1,
-        1.0
-    ],
-    "ClickBlock": [
-        -364,
-        46,
-        -58
-    ],
-    "SetBlock": [
-        -364,
-        46,
-        -58,
-        "Lily Of the Valley"
-    ],
-    "SendMessage": [
-        "&c&lFlower 1/3"
-    ],
-    "GlobalParticle": [
-        "VILLAGER_HAPPY",
-        -362.5,
-        47.0,
-        -61.5,
-        1,
-        1.0
-    ],
-    "ClickBlock": [
-        -363,
-        46,
-        -62
-    ],
-    "SetBlock": [
-        -363,
-        46,
-        -62,
-        "Poppy"
-    ],
-    "SendMessage": [
-        "&c&lFlowers 2/3"
-    ],
-    "GlobalParticle": [
-        "VILLAGER_HAPPY",
-        -366.5,
-        47.0,
-        -60.5,
-        1,
-        1.0
-    ],
-    "ClickBlock": [
-        -367,
-        46,
-        -61
-    ],
-    "SetBlock": [
-        -367,
-        46,
-        -61,
-        "Dandelion"
-    ],
-    "SendMessage": [
-        "&c&lFlowers 3/3"
-    ],
+    "Objective": ["Plant some flowers by clicking the sparkling podzol", 24],
+    "Start": "gen5_main_quest_6_tribe_flower1",
+    "Start": "gen5_main_quest_6_tribe_flower2",
+    "Start": "gen5_main_quest_6_tribe_flower3",
+    "Start": "gen5_main_quest_6_tribe_flowers",
+    "Hold": [],
+    "SendMessage": "&7Flower 1/3",
+    "Hold": [],
+    "SendMessage": "&7Flower 2/3",
+    "Hold": [],
+    "SendMessage": "&7Flower 3/3",
+    "Leave": "gen5_main_quest_6_tribe_flowers",
     "Dialog": [
         {
             "[PLAYER]": "All done! That looks great!",
@@ -501,18 +443,12 @@
     "Show": {
         "Tribe_Leader1": true
     },
-    "Freeze": [
-    ],
-    "Teleport": [
-        -357.5,
-        46.9,
-        -63.0,
-        26,
-        0
-    ],
-    "Look": [
-        "Tribe_Leader1"
-    ],
+    "Freeze": [],
+    "Teleport": [-357.5, 46.9, -63.0, 26, 0],
+    "Leave": "gen5_main_quest_6_tribe_flower1",
+    "Leave": "gen5_main_quest_6_tribe_flower2",
+    "Leave": "gen5_main_quest_6_tribe_flower3",
+    "Look": "Tribe_Leader1",
     "MoveEntity": [
         "Tribe_Leader1",
         -358.5,
@@ -523,9 +459,7 @@
         "Tribe_Leader1": false,
         "Tribe_Leader2": true
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "Are you enjoying yourself?",
@@ -771,7 +705,7 @@
     "Show": {
         "Ferrothorn": true
     },
-    "PartyPokemonEntity": [-340.5, 32.0, 59.5, 90, 1, 10],
+    "PartyPokemonEntity": [-340.5, 32.0, 59.5, 90, 1, 10.0],
     "Show": {
         "Health_Red": true,
         "Health_Dead": false
@@ -785,9 +719,7 @@
         }
     ],
     "PlaySound": "block_anvil_land",
-    "Wait":
-        30
-    ,
+    "Wait": 30,
     "Show": {
         "Health_Red": false,
         "Health_Dead": true,

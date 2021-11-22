@@ -1,0 +1,14 @@
+{
+    "Key": "gen5_main_quest_6_tribe_flowers",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+
+    "Comment": "start",
+    "Particle": ["VILLAGER_HAPPY", -364, 47, -58, 10, 0.5],
+    "Wait": 5,
+    "Particle": ["VILLAGER_HAPPY", -363, 47, -62, 10, 0.5],
+    "Wait": 5,
+    "Particle": ["VILLAGER_HAPPY", -367, 46, -61, 10, 0.5],
+    "Wait": 5,
+    "Skip": "start"
+}

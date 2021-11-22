@@ -1,0 +1,12 @@
+{
+    "Key": "gen5_main_quest_6_tribe_flower3",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+
+    "SetBlock": [-367, 46, -61, "podzol"],
+    "ClickBlock": [-367, 46, -61],
+    "SetBlock": [-367, 46, -61, "grass_block"],
+    "SetBlock": [-367, 47, -61, "Poppy"],
+    "Progress": "gen5_main_quest_6_tribe",
+    "Hold": []
+}
