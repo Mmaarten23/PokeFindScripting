@@ -210,7 +210,7 @@
         "skin": "danielle"
     },
     "CreateEntity": {
-        "key": "gen5_main_quest_part_6_tribe_sewaddle",
+        "key": "Sewaddle",
         "name": "&a&lSewaddle",
         "location": {
             "x": -474.5,
@@ -325,7 +325,7 @@
         "Tribe_Leader3": false,
         "Purrloin1": false,
         "Purrloin2": false,
-        "gen5_main_quest_part_6_tribe_sewaddle": false,
+        "Sewaddle": false,
         "Rival1": false,
         "Rival2": false,
         "Ferrothorn": false,
@@ -542,11 +542,11 @@
         "Return to the Ancient Shrine and solve the new sewaddle puzzle",
         5
     ],
-    "Show": "gen5_main_quest_part_6_tribe_sewaddle",
-    "Start": "gen5_main_quest_6_tribe_sewaddle",
+    "Show": "Sewaddle",
+    "Start": ["gen5_main_quest_6_tribe_sewaddle", 1.0, "script_entry"],
     "Wait": 1,
     "ControlledTrack": [
-        "gen5_main_quest_part_6_tribe_sewaddle"
+        "Sewaddle"
     ],
     "ProgressiveWall": [
         -465,
@@ -560,7 +560,7 @@
     "Show": {
         "Tribe_Leader2": false,
         "Tribe_Leader3": true,
-        "gen5_main_quest_part_6_tribe_sewaddle": false
+        "Sewaddle": false
     },
     "Objective": [
         "Speak to Astrid at the end of the Shrine",

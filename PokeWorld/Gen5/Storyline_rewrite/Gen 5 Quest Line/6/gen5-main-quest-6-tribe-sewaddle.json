@@ -1,5 +1,6 @@
 {
     "Key": "gen5_main_quest_6_tribe_sewaddle",
+    "AllowRejoining": true,
     "Hold": [],
     "Comment": "script_entry",
     "EntityRegionEntry": [
