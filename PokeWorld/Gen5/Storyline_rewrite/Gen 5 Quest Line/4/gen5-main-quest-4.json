@@ -292,7 +292,7 @@
 
 
     "Comment": "This script will be started by the H.A.P.P.Y. controller.",
-    "HasTrainerLevel": [50, "You do not have the required level to start this quest."],
+
     "Start": "gen5_main_quest_4_entry_blocker",
     "Comment": "Set up barriers to the cave.",
     "SetBlocks": [

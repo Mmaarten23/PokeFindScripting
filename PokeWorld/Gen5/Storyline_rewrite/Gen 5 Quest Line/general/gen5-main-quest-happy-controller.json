@@ -15,7 +15,22 @@
         "HasStoryTeam": "sophro",
             "Skip": "tribe",
             "Dummy": [],
-    "SendMessage": "welcome",
+    "If": [],
+        "NotCompleted": "gen5_main_quest_5",
+            "Skip": "return",
+            "Dummy": [],
+    "If": [],
+        "NotCompleted": "gen5_main_quest_6_statera",
+            "Skip": "check_6",
+            "Dummy": [],
+
+    "Comment": "return",
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y": "Access granted. Welcome back [PLAYER]."
+        },
+        1, true, false, "male_normal"
+    ],
     "Leave": [],
 
 
@@ -35,8 +50,6 @@
         "In": "gen5_main_quest_4",
             "Leave": [],
             "Start": "gen5_main_quest_4",
-
-
     "Leave": [],
 
     "Comment": "tribe",
@@ -47,5 +60,13 @@
         1, true, false, "male_normal"
     ],
     "SendMessage": "&7&oYou cannot access this building while a member of the tribe.",
+    "Leave": [],
+
+
+    "Comment": "check_6",
+    "If": [],
+        "In": "gen5_main_quest_6_statera",
+            "Leave": [],
+            "Start": "gen5_main_quest_6_statera",
     "Leave": []
 }
