@@ -433,18 +433,17 @@
     "Leave": "gen5_main_quest_6_tribe_flowers",
     "Dialog": [
         {
-            "[PLAYER]": "All done! That looks great!",
-            "&e&lAstrid": "Hey [PLAYER]!"
+            "[PLAYER]": "&oAll done! That looks great!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
+    "Fade": [],
     "Show": {
         "Tribe_Leader1": true
     },
-    "Freeze": [],
-    "Teleport": [-357.5, 46.9, -63.0, 26, 0],
+    "Teleport": [-357.5, 47.0, -63.0, 26, 0],
+    "Cinematic": [],
+    "Freeze": true,
     "Leave": "gen5_main_quest_6_tribe_flower1",
     "Leave": "gen5_main_quest_6_tribe_flower2",
     "Leave": "gen5_main_quest_6_tribe_flower3",
@@ -455,13 +454,12 @@
         47.0,
         -58.5
     ],
-    "Show": {
-        "Tribe_Leader1": false,
-        "Tribe_Leader2": true
-    },
+    "Wait": 1,
+    "EntityLookAtPlayer": "Tribe_Leader1",
     "Wait": 20,
     "Dialog": [
         {
+            "&e&lAstrid": "Heya there [PLAYER]!",
             "&e&lAstrid": "Are you enjoying yourself?",
             "&e&lAstrid": "If you're not busy, do you mind meeting me inside the Shrine?",
             "&e&lAstrid": "You'll have to solve a new sewaddle puzzle to open the second door."
@@ -470,39 +468,26 @@
     "Wait": [
         20
     ],
-    "Unfreeze": [
+    "Fade": [],
+    "Unfreeze": [],
+    "Hide": "Tribe_Leader1",
+    "Objective": ["Return to the Ancient Shrine and solve the new sewaddle puzzle", 2],
+    "RegionEntry": [
+        -487, 38, 61,
+        -485, 44, 57
     ],
-    "Objective": [
-        "Return to the Ancient Shrine and solve the new sewaddle puzzle",
-        5
-    ],
+    "Objective": ["Guide the Sewaddle to the oxeye daisy to unlock the door", 5],
     "Show": "Sewaddle",
     "Start": ["gen5_main_quest_6_tribe_sewaddle", 1.0, "script_entry"],
     "Wait": 1,
-    "ControlledTrack": [
-        "Sewaddle"
-    ],
-    "ProgressiveWall": [
-        -465,
-        37,
-        58,
-        -465,
-        34,
-        60,
-        3
-    ],
+    "ControlledTrack": "Sewaddle",
+    "ProgressiveWall": [-465, 37, 58, -465, 34, 60, 3],
     "Show": {
-        "Tribe_Leader2": false,
         "Tribe_Leader3": true,
         "Sewaddle": false
     },
-    "Objective": [
-        "Speak to Astrid at the end of the Shrine",
-        11
-    ],
-    "HighlightClickEntity": [
-        "Tribe_Leader3"
-    ],
+    "Objective": ["Speak to Astrid at the end of the Shrine", 11],
+    "HighlightClickEntity": "Tribe_Leader3",
     "Dialog": [
         {
             "&e&lAstrid": "Thank you for meeting me... We have important matters to discuss.",
