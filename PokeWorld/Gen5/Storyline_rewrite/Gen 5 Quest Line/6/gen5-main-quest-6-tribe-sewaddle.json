@@ -1,23 +1,15 @@
 {
     "Key": "gen5_main_quest_6_tribe_sewaddle",
-    "NotCompleted": [
-        "part_6_sewaddle_completed",
-        ""
-    ],
+    "Hold": [],
+    "Comment": "script_entry",
     "EntityRegionEntry": [
         -468, 33, 59,
         -468, 33, 59
-    ],
-    "In": [
-        "gen5_main_quest_6_tribe",
-        ""
     ],
     "SendMessage": [
         "&a&lPuzzle Solved!"
     ],
     "Progress": [
         "gen5_main_quest_6_tribe"
-    ],
-    "Complete": [
     ]
 }

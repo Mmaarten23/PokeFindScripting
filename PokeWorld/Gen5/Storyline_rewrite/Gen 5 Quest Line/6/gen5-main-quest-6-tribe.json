@@ -236,19 +236,6 @@
         "pokemon": "Purrloin"
     },
     "CreateEntity": {
-        "key": "Sewaddle",
-        "name": "&a&lSewaddle",
-        "location": {
-            "x": -474.5,
-            "y": 33.0,
-            "z": 59.5,
-            "yaw": 270,
-            "pitch": 0
-        },
-        "entity": "armor stand",
-        "pokemon": "Sewaddle"
-    },
-    "CreateEntity": {
         "key": "Ferrothorn",
         "name": [
             "&2Ferrothorn",
@@ -324,7 +311,7 @@
         "Tribe_Leader3": false,
         "Purrloin1": false,
         "Purrloin2": false,
-        "Sewaddle": false,
+        "gen5_main_quest_part_6_tribe_sewaddle": false,
         "Rival1": false,
         "Rival2": false,
         "Ferrothorn": false,
@@ -541,16 +528,14 @@
         "Return to the Ancient Shrine and solve the new sewaddle puzzle",
         5
     ],
-    "Start": [
-        "gen5_main_quest_6_tribe_sewaddle"
-    ],
-    "Show": "Sewaddle",
+    "Show": "gen5_main_quest_part_6_tribe_sewaddle",
+    "Start": "gen5_main_quest_6_tribe_sewaddle",
+    "Start": "gen5_main_quest_6_tribe_sewaddle_reset",
     "Wait": 1,
     "ControlledTrack": [
-        "Sewaddle"
+        "gen5_main_quest_part_6_tribe_sewaddle"
     ],
-    "Hold": [
-    ],
+    "Leave": "gen5_main_quest_6_tribe_sewaddle_reset",
     "ProgressiveWall": [
         -465,
         37,
@@ -563,7 +548,7 @@
     "Show": {
         "Tribe_Leader2": false,
         "Tribe_Leader3": true,
-        "Sewaddle": false
+        "gen5_main_quest_part_6_tribe_sewaddle": false
     },
     "Objective": [
         "Speak to Astrid at the end of the Shrine",
