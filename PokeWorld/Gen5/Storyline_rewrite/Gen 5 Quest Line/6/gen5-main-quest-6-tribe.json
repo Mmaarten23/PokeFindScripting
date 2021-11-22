@@ -6,22 +6,28 @@
     "Icon": "writable_book",
     "CreateEntity": {
         "key": "Captain1",
-        "name": "&7&lCaptain",
+        "name": [
+            "&6&lAnthony",
+            "&7Sophro Elder"
+        ],
         "location": {
-            "x": -483.5,
-            "y": 56.9,
-            "z": -40.5,
-            "yaw": 332,
+            "x": -333.6,
+            "y": 48.0,
+            "z": -48.5,
+            "yaw": 77,
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjczOTY5MTIxNCwKICAicHJvZmlsZUlkIiA6ICJiZmIyOTcyMDI4ZTA0YTdhOTk0N2U2YTJkZDc5YzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYWxleCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOTI4ZjAyZmJhMzI4MGIxM2QyMWQxYmE3MjhkODA1Njc1MDgzM2Y5ZWU3ZjM4Nzg5ZTA0MjU3NGJkZGZmYzNlIgogICAgfQogIH0KfQ==",
+            "signature": "oEfYkc6TLXc13zXh/kZR2Vqw41uZb2RUva6bSzehKji85Cje8jeNTqlqRPnSGZkBXGI4dRBlF2ZsAI055v7sxXMUmMtMEgd0HxkzmthhczzkRjNu298f+3ji/OEj0yHMGk/I9xxUaymK8rb8gBc1FXCZN4Lvw6HEhhYCrFQABvIIbqWNxudf0YwJPXaQE/irw4jmyI0qZ/r3FwegPBGoOVD9eDyFQfAADR18t+DpbAvDnGN224f3nm3TkEJo3H4NP+85pF5sDAdRCNSs1i/q0ztweasK6rw5mUUGxJGdWkQ79LybgaHYLWkMvZFBKI1Vkz4nKeBsdk4xWofHZyhejxar+1pM869+RdbXUOIRdfbL3pvls5bJ3NnN0v84QNDVdGMz1Hqz2GmL2j/W7zKJcuA6QkwK745G8lG0FtA42N1c5oQXOWJc1TLELH60KtdIMvZz7SGuBN5ib3G2RLCN+Aof8PdNWbvCxHboaU4ft4p+lkxqHI2mYj9QGfAP2L4Ib5yS++gvH42+28J3L+n39iWCMdvPOd7lW+5XJDzZiyV6HBxuPsL0DwfNY4R4Hk1vyF1PbfKCLmMO6HPBTOD9MK7acJJkVEyv//YMB6pRLSApZCz0Fsu+vJwKqkW/kSs/T6NAyU74erHPArMw4rmS+5VtN9k88I/c4O+dk8nQOsA="
         }
     },
     "CreateEntity": {
         "key": "Tribe_Member1",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lFatih",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -361.5,
             "y": 50.9,
@@ -30,13 +36,16 @@
             "pitch": 23
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
         }
     },
     "CreateEntity": {
         "key": "Tribe_Member2",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lGreta",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -397.5,
             "y": 47.0,
@@ -51,7 +60,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Member3",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lBill",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -359.1,
             "y": 48.5,
@@ -67,7 +79,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Member4",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lFatih",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -347.2,
             "y": 32.0,
@@ -76,13 +91,16 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
         }
     },
     "CreateEntity": {
         "key": "Tribe_Member5",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lAnthony",
+            "&7Sophro Elder"
+        ],
         "location": {
             "x": -348.5,
             "y": 32.0,
@@ -91,13 +109,16 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjczOTY5MTIxNCwKICAicHJvZmlsZUlkIiA6ICJiZmIyOTcyMDI4ZTA0YTdhOTk0N2U2YTJkZDc5YzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYWxleCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOTI4ZjAyZmJhMzI4MGIxM2QyMWQxYmE3MjhkODA1Njc1MDgzM2Y5ZWU3ZjM4Nzg5ZTA0MjU3NGJkZGZmYzNlIgogICAgfQogIH0KfQ==",
+            "signature": "oEfYkc6TLXc13zXh/kZR2Vqw41uZb2RUva6bSzehKji85Cje8jeNTqlqRPnSGZkBXGI4dRBlF2ZsAI055v7sxXMUmMtMEgd0HxkzmthhczzkRjNu298f+3ji/OEj0yHMGk/I9xxUaymK8rb8gBc1FXCZN4Lvw6HEhhYCrFQABvIIbqWNxudf0YwJPXaQE/irw4jmyI0qZ/r3FwegPBGoOVD9eDyFQfAADR18t+DpbAvDnGN224f3nm3TkEJo3H4NP+85pF5sDAdRCNSs1i/q0ztweasK6rw5mUUGxJGdWkQ79LybgaHYLWkMvZFBKI1Vkz4nKeBsdk4xWofHZyhejxar+1pM869+RdbXUOIRdfbL3pvls5bJ3NnN0v84QNDVdGMz1Hqz2GmL2j/W7zKJcuA6QkwK745G8lG0FtA42N1c5oQXOWJc1TLELH60KtdIMvZz7SGuBN5ib3G2RLCN+Aof8PdNWbvCxHboaU4ft4p+lkxqHI2mYj9QGfAP2L4Ib5yS++gvH42+28J3L+n39iWCMdvPOd7lW+5XJDzZiyV6HBxuPsL0DwfNY4R4Hk1vyF1PbfKCLmMO6HPBTOD9MK7acJJkVEyv//YMB6pRLSApZCz0Fsu+vJwKqkW/kSs/T6NAyU74erHPArMw4rmS+5VtN9k88I/c4O+dk8nQOsA="
         }
     },
     "CreateEntity": {
         "key": "Tribe_Member6",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lBill",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -347.2,
             "y": 32.0,
@@ -112,7 +133,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Leader1",
-        "name": "&e&lAstrid",
+        "name": [
+            "&e&lAstrid",
+            "&7Sophro Leader"
+        ],
         "location": {
             "x": -367.5,
             "y": 46.9,
@@ -121,13 +145,16 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         }
     },
     "CreateEntity": {
         "key": "Tribe_Leader2",
-        "name": "&e&lAstrid",
+        "name": [
+            "&e&lAstrid",
+            "&7Sophro Leader"
+        ],
         "location": {
             "x": -358.5,
             "y": 47.0,
@@ -136,13 +163,16 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         }
     },
     "CreateEntity": {
         "key": "Tribe_Leader3",
-        "name": "&e&lAstrid",
+        "name": [
+            "&e&lAstrid",
+            "&7Sophro Leader"
+        ],
         "location": {
             "x": -330.0,
             "y": 33.0,
@@ -151,8 +181,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         }
     },
     "CreateEntity": {
@@ -165,10 +195,7 @@
             "yaw": 210,
             "pitch": 0
         },
-        "skin": {
-            "texture": "",
-            "signature": ""
-        }
+        "skin": "danielle"
     },
     "CreateEntity": {
         "key": "Rival2",
@@ -180,10 +207,7 @@
             "yaw": 270,
             "pitch": 0
         },
-        "skin": {
-            "texture": "",
-            "signature": ""
-        }
+        "skin": "danielle"
     },
     "CreateEntity": {
         "key": "Purrloin1",
@@ -222,7 +246,7 @@
             "pitch": 0
         },
         "entity": "armor stand",
-        "pokemon": "pikachu"
+        "pokemon": "Sewaddle"
     },
     "CreateEntity": {
         "key": "Ferrothorn",
@@ -276,7 +300,7 @@
         "name": "&5&lZekrom Master Ball",
         "location": {
             "x": -313.5,
-            "y": 35.0,
+            "y": 35.3,
             "z": 59.5,
             "yaw": 90,
             "pitch": 0

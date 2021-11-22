@@ -236,8 +236,8 @@
     "CreateEntity": {
         "key": "Tribe_Leader",
         "name": [
-            "&6&lSophro Leader",
-            "&e&lAstrid"
+            "&e&lAstrid",
+            "&7Sophro Leader"
         ],
         "location": {
             "x": -825.5,
@@ -254,8 +254,8 @@
     "CreateEntity": {
         "key": "Battle_Tribe_Leader",
         "name": [
-            "&6&lSophro Leader",
-            "&e&lAstrid"
+            "&e&lAstrid",
+            "&7Sophro Leader"
         ],
         "location": {
             "x": -847.5,
