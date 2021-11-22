@@ -520,6 +520,8 @@
     "Start": [
         "gen5_main_quest_6_tribe_sewaddle"
     ],
+    "Show": "Sewaddle",
+    "Wait": 1,
     "ControlledTrack": [
         "Sewaddle"
     ],
