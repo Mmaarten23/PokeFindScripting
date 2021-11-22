@@ -1,0 +1,22 @@
+{
+    "Key": "track_test",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "Sewaddle",
+        "name": "&a&lSewaddle",
+        "location": {
+            "x": -474.5,
+            "y": 33.0,
+            "z": 59.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "entity": "armor stand",
+        "pokemon": "pikachu"
+    },
+
+    "ControlledTrack": [
+        "Sewaddle"
+    ]
+}
