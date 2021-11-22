@@ -222,7 +222,7 @@
             "pitch": 0
         },
         "entity": "armor stand",
-        "pokemon": "Sewaddle"
+        "pokemon": "pikachu"
     },
     "CreateEntity": {
         "key": "Ferrothorn",
