@@ -1,31 +1,23 @@
 {
-	"Key": "gen5_main_quest_6_tribe_sewaddle",
-    "NotCompleted":[
-		"part_6_sewaddle_completed",
-		""
-	],
-    "EntityRegionEntry":[
-	-468,
-	33,
-	59,
-	-468,
-	33,
-	59
+    "Key": "gen5_main_quest_6_tribe_sewaddle",
+    "NotCompleted": [
+        "part_6_sewaddle_completed",
+        ""
     ],
-	"HasTeam":[
-		"Ancient Tribe",
-		false
-	],
-	"In":[
-		"gen5_main_quest_6_tribe",
-		""
-	],
-    "SendMessage":[
-	"&a&lPuzzle Solved!"
+    "EntityRegionEntry": [
+        -468, 33, 59,
+        -468, 33, 59
     ],
-    "Progress":[
-	"gen5_main_quest_6_tribe"
+    "In": [
+        "gen5_main_quest_6_tribe",
+        ""
     ],
-	"Complete":[
-	]
+    "SendMessage": [
+        "&a&lPuzzle Solved!"
+    ],
+    "Progress": [
+        "gen5_main_quest_6_tribe"
+    ],
+    "Complete": [
+    ]
 }

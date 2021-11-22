@@ -313,7 +313,9 @@
         {
             "&7&lCaptain": "Glad you stuck around with us, the Tribe definitely needs the help of a strong trainer like you.",
             "&7&lCaptain": "We’ll definitely need to get together and have some training sessions!",
-            "&7&lCaptain": "Since you’re a newcomer though, you’ll need to get yourself more integrated within our ranks, I recommend going and speaking to some of our other tribe members."
+            "&7&lCaptain": "Since you’re a newcomer though, you’ll need to get yourself more integrated within our ranks.",
+            "&7&lCaptain": "I recommend going and speaking to some of our other tribe members.",
+            "&7&lCaptain": "Most of us live here in Greenholm. Just walk around and you will find them."
         }
     ],
     "Wait": [
