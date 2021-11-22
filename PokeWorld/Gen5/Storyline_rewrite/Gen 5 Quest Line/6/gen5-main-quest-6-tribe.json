@@ -65,15 +65,15 @@
             "&7Sophro Member"
         ],
         "location": {
-            "x": -359.1,
+            "x": -358.7,
             "y": 48.5,
             "z": -75.5,
             "yaw": 90,
             "pitch": 0
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODc2OTg2NzY1MCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjZhZDE4ZTliNjc1NzU4ZWU0YWQwYzc3YWVjYzYxMWE2NTU2NDAwYTZhYWMxNDA5MGY3YTFkYzFjMjQzMjkwIgogICAgfQogIH0KfQ==",
-            "signature": "v0vvCY3pRML3QbeyQZrduyKhiEUgUS7t9+LVVa0fB7qTOcufDVWWlwEyy4OFe/KQXy8hgJ10BVqCYfEFlCA+RFs+yBuNfMsauCvQr9B+C7GIssdD363jCCsdx5DPiLTKOECnFExsjztKPzav6QfexvcVhMUKa7qTXaZ6G0JhC95VLrtZBSHtPCa6AGz6/feCfbD+jyRNUoU91mNj5O6PlAiEfGIr72r8Dnldy6eNW5K+DErQKSCnRgt8M+FbU4Va0l/y4UQg9OI9U4bsfJY2BPJXto/DNdzCW2JVR9RwogIm2/IXC49vDPsf2mKZmVS7YGMlVYHxWtHeSgRo2MBuUXPElRwbwgRCKpNIuX7c81Se8g6IBf2FU1GKBSN4fq9WPYq5aJzb0pQlOC89NY639JwM9iVlOPh52RfXkZwUzCi5XMdpqjHVmQPO+mqsRLuBrrcAx62pHk7dFCT8u4QcBHi9WoCPQTsUMxvRItn4gD9wgK8nQj8hmmjJ44oRCXo0ZyVZmqH6r/XZR9m7kdw8//lX+/yjLHB+mFcCLNQh9P2rWXEHfcGAlOvabGgNbUFsRj9UveCzLrFNSsILtCQQAT1aeoNb5lt6qw5S3+J6i+ntxU9n5QvVEm7bRPAdq2zHsHLw1jK+mj4HEZZv6ilHz778RcCLOQciYZlc9LO4iO8="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
         },
         "sitting": true
     },
@@ -127,8 +127,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODc2OTg2NzY1MCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjZhZDE4ZTliNjc1NzU4ZWU0YWQwYzc3YWVjYzYxMWE2NTU2NDAwYTZhYWMxNDA5MGY3YTFkYzFjMjQzMjkwIgogICAgfQogIH0KfQ==",
-            "signature": "v0vvCY3pRML3QbeyQZrduyKhiEUgUS7t9+LVVa0fB7qTOcufDVWWlwEyy4OFe/KQXy8hgJ10BVqCYfEFlCA+RFs+yBuNfMsauCvQr9B+C7GIssdD363jCCsdx5DPiLTKOECnFExsjztKPzav6QfexvcVhMUKa7qTXaZ6G0JhC95VLrtZBSHtPCa6AGz6/feCfbD+jyRNUoU91mNj5O6PlAiEfGIr72r8Dnldy6eNW5K+DErQKSCnRgt8M+FbU4Va0l/y4UQg9OI9U4bsfJY2BPJXto/DNdzCW2JVR9RwogIm2/IXC49vDPsf2mKZmVS7YGMlVYHxWtHeSgRo2MBuUXPElRwbwgRCKpNIuX7c81Se8g6IBf2FU1GKBSN4fq9WPYq5aJzb0pQlOC89NY639JwM9iVlOPh52RfXkZwUzCi5XMdpqjHVmQPO+mqsRLuBrrcAx62pHk7dFCT8u4QcBHi9WoCPQTsUMxvRItn4gD9wgK8nQj8hmmjJ44oRCXo0ZyVZmqH6r/XZR9m7kdw8//lX+/yjLHB+mFcCLNQh9P2rWXEHfcGAlOvabGgNbUFsRj9UveCzLrFNSsILtCQQAT1aeoNb5lt6qw5S3+J6i+ntxU9n5QvVEm7bRPAdq2zHsHLw1jK+mj4HEZZv6ilHz778RcCLOQciYZlc9LO4iO8="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
         }
     },
     "CreateEntity": {
@@ -208,6 +208,20 @@
             "pitch": 0
         },
         "skin": "danielle"
+    },
+    "CreateEntity": {
+        "key": "gen5_main_quest_part_6_tribe_sewaddle",
+        "name": "&a&lSewaddle",
+        "location": {
+            "x": -474.5,
+            "y": 33.0,
+            "z": 59.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "entity": "armor stand",
+        "pokemon": "Sewaddle",
+        "global": false
     },
     "CreateEntity": {
         "key": "Purrloin1",
@@ -530,12 +544,10 @@
     ],
     "Show": "gen5_main_quest_part_6_tribe_sewaddle",
     "Start": "gen5_main_quest_6_tribe_sewaddle",
-    "Start": "gen5_main_quest_6_tribe_sewaddle_reset",
     "Wait": 1,
     "ControlledTrack": [
         "gen5_main_quest_part_6_tribe_sewaddle"
     ],
-    "Leave": "gen5_main_quest_6_tribe_sewaddle_reset",
     "ProgressiveWall": [
         -465,
         37,
