@@ -3,7 +3,7 @@
     "Name": "",
     "Description": "",
     "AllowRejoining": true,
-    "Icon": "",
+    "Icon": "dirt",
     "AddProperty": ["Team", "&3Statera"],
     "CreateEntity": {
         "key": "Happy1",
@@ -308,10 +308,10 @@
         "Statera_Informant1": true
     },
     "Look": [
-        "Statera_Informant1"
+        "Informant1"
     ],
     "MoveEntity": [
-        "Statera_Informant1",
+        "Informant1",
         96.5,
         62.0,
         333.5
