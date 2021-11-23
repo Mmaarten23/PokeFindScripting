@@ -8,8 +8,8 @@
     "CreateEntity": {
         "key": "Representative1",
         "name": [
-            "&c&lAgent Ty",
-            "&3Statera Agent"
+            "&3&lTy",
+            "&7Statera Executive"
         ],
         "location": {
             "x": 76.3,
@@ -115,7 +115,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Member1",
-        "name": "&6&lSophro Elder",
+        "name": [
+            "&6&lAnthony",
+            "&7Sophro Elder"
+        ],
         "location": {
             "x": -822.7,
             "y": 19.0,
@@ -130,7 +133,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Member2",
-        "name": "&6&lSophro Elder",
+        "name": [
+            "&6&lFatih",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -822.7,
             "y": 19.0,
@@ -145,7 +151,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Member3",
-        "name": "&6&lSophro Elder",
+        "name": [
+            "&6&lBeth",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -828.3,
             "y": 19.0,
@@ -160,7 +169,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Member4",
-        "name": "&6&lSophro Elder",
+        "name": [
+            "&6&lGreta",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -829.5,
             "y": 19.5,
@@ -175,7 +187,10 @@
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Member1",
-        "name": "&6&lSophro Elder",
+        "name": [
+            "&6&lAnthony",
+            "&7Sophro Elder"
+        ],
         "location": {
             "x": -804.5,
             "y": 12.0,
@@ -190,7 +205,10 @@
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Member2",
-        "name": "&6&lSophro Elder",
+        "name": [
+            "&6&lFatih",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -865.8,
             "y": 28.0,
@@ -205,7 +223,10 @@
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Member3",
-        "name": "&6&lSophro Elder",
+        "name": [
+            "&6&lBeth",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -891.5,
             "y": 20.0,
@@ -220,7 +241,10 @@
     },
     "CreateEntity": {
         "key": "Battle_Tribe_Member4",
-        "name": "&6&lSophro Elder",
+        "name": [
+            "&6&lGreta",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -849.4,
             "y": 14.0,

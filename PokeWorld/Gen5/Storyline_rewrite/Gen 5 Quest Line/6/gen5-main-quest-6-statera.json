@@ -4,6 +4,7 @@
     "Description": "Now that you're a member of Statera you should talk to H.A.P.P.Y. at Statera HQ",
     "AllowRejoining": true,
     "Icon": "writable_book",
+    "AddProperty": ["Team", "&3Statera"],
     "CreateEntity": {
         "key": "Statera_Member1",
         "name": [
@@ -98,7 +99,7 @@
         "key": "Statera_Leader1",
         "name": [
             "&8&lVidar",
-            "&7Statera Executive"
+            "&7Statera Leader"
         ],
         "location": {
             "x": 78.5,
@@ -116,7 +117,7 @@
         "key": "Statera_Leader2",
         "name": [
             "&8&lVidar",
-            "&7Statera Executive"
+            "&7Statera Leader"
         ],
         "location": {
             "x": 75.5,

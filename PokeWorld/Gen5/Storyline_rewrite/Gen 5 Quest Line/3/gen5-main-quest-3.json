@@ -178,7 +178,10 @@
 
     "CreateEntity": {
         "key": "Guard1",
-        "name": "&6Michael",
+        "name": [
+            "&6&lMichael",
+            "&7Gardener"
+        ],
         "location": {
             "world": "world",
             "x": 375.5,
@@ -195,7 +198,10 @@
 
     "CreateEntity": {
         "key": "Guard2",
-        "name": "&aAmelia",
+        "name": [
+            "&a&lAmelia",
+            "&7Postman"
+        ],
         "location": {
             "world": "world",
             "x": 411.5,
@@ -212,7 +218,10 @@
 
     "CreateEntity": {
         "key": "Guard3",
-        "name": "&5Mia",
+        "name": [
+            "&5Mia",
+            "&7Citizen"
+        ],
         "location": {
             "world": "world",
             "x": 405.5,
@@ -229,7 +238,10 @@
 
     "CreateEntity": {
         "key": "Guard4",
-        "name": "&6Kevin",
+        "name": [
+            "&6Kevin",
+            "&7Medicine Student"
+        ],
         "location": {
             "world": "world",
             "x": 396.5,
@@ -246,7 +258,10 @@
 
     "CreateEntity": {
         "key": "Statera_Representative1",
-        "name": "&4&lThomas",
+        "name": [
+            "&3&lThomas",
+            "&7Statera Executive"
+        ],
         "location": {
             "world": "world",
             "x": 381.2,
@@ -263,7 +278,10 @@
 
     "CreateEntity": {
         "key": "Statera_Representative2",
-        "name": "&4&lThomas",
+        "name": [
+            "&3&lThomas",
+            "&7Statera Executive"
+        ],
         "location": {
             "world": "world",
             "x": 383.7,
@@ -332,8 +350,8 @@
     "Wait": 30,
     "NewDialog": [
         {
-            "&3&lStatera": "Hey [PLAYER], it looks like you just entered &lSpiritvale&r from what our GPS is showing, can you check out the area for us?",
-            "&3&lStatera": "There has been more suspicious Pokémon activity again and we need you to help the locals."
+            "&3&lStatera HQ": "Hey [PLAYER], it looks like you just entered &lSpiritvale&r from what our GPS is showing, can you check out the area for us?",
+            "&3&lStatera HQ": "There has been more suspicious Pokémon activity again and we need you to help the locals."
         },
         90, true, true, "female_normal"
     ],
@@ -345,7 +363,7 @@
     ],
     "NewDialog": [
         {
-            "&3&lStatera": "We'll be checking in with you later, thanks again!"
+            "&3&lStatera HQ": "We'll be checking in with you later, thanks again!"
         },
         90, true, true, "female_normal"
     ],
@@ -1078,7 +1096,7 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "&4&lThomas": "Can you come here for a moment, [PLAYER]?"
+            "&3&lThomas": "Can you come here for a moment, [PLAYER]?"
         },
         90, true, true, "male_question"
     ],
@@ -1089,10 +1107,10 @@
     ],
     "NewDialog": [
         {
-            "&4&lThomas": "Thanks for doing this, I was running behind from the last time they pinged our GPS...",
-            "&4&lThomas": "You did good work though, it was definitely a better decision to send you here rather than me.",
-            "&4&lThomas": "Here, take this for all the trouble!",
-            "&4&lThomas": "I'll take care of things from here! Good luck training for your gym battle!"
+            "&3&lThomas": "Thanks for doing this, I was running behind from the last time they pinged our GPS...",
+            "&3&lThomas": "You did good work though, it was definitely a better decision to send you here rather than me.",
+            "&3&lThomas": "Here, take this for all the trouble!",
+            "&3&lThomas": "I'll take care of things from here! Good luck training for your gym battle!"
         },
         90, true, true, "male_normal"
     ],

@@ -219,7 +219,10 @@
 
     "CreateEntity": {
         "key": "agent",
-        "name": "&7&lStatera Agent",
+        "name": [
+            "&3&lJeff",
+            "&7Statera Member"
+        ],
         "location": {
             "world": "world",
             "x": 1159.5,
@@ -229,15 +232,18 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-            "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI0Mjk2NzMxMiwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZDE3NjhkZTI0ZDMxYWE5MmUxYjFkNWI2YWM0ZjFiNGRkOGI4MDZhOGQ3MjI5MjY4NjM4Zjk1ZGZhMzJjMCIKICAgIH0KICB9Cn0=",
+            "signature": "uuCP+6VO/TYmGsXVGuztP/dnmnqQ7k9mEEm2R+bmTWqTVQ1Wkxr51kh60SXbbMeYutEzHcrUArh1Kbt/KgtbsW1gMKTEBLRY7jnkMplDwuGRWC7ZsZYf06FE6eRpUy4jDac7vyyVuGVZOshu7e+lNDAfiQUvSS/ZOE2diF/pAC5LnAJPz68RgIADD7lR9JFH5q2QuX0Gtah2Gh2HQU3dJHZzCKZtct+40ggDt9IBRhYPc28UtcIL/lkEHm5YVgLlVYJfLWJ+Y36lJkQktTFbHkzHrJNxJQ0iYvRzn3Ulr9EbHAZ+rLCg3IQwbuml0SSBRPdxFCqcAbyhqdZmN9SnbOb+EKmu0EeWWUvSKUAisly5Yo0J/bLLGZuA+cDF9jOUWuBSQa3uKUOrXXP6Vx9c/CEJ5wXp+MeD/tv5mQaia3ETKxMwIn77JDZmkMvDjNEhJtT9V+dGR94Qeq9FwAmBkclVHeCL5r1kBoY0DYkK1msLJUS7ukUSvBiwUXDZ1ssEd/oaDgsOsXftucPjyTicslxZOZcstJJkmqqQt1su8KHv0Wmie/PDRWGHvKSSeUa0Z4t0x2kle25rhp5WtlOeMiG0qY4KrFjV0zxjAKS2idujlD0ij9NAXGYdBzJp4yuFOYyLopHVCc6ScDiS7YSLLrXjyuySOWsGO9dzdjwC8z8="
         },
         "look": true
     },
 
     "CreateEntity": {
         "key": "executive",
-        "name": "&4&lThomas",
+        "name": [
+            "&3&lThomas",
+            "&7Statera Executive"
+        ],
         "location": {
             "world": "world",
             "x": 784.2,
@@ -398,7 +404,7 @@
     "NotCompleted": [],
     "NewDialog": [
         {
-            "&4&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?"
+            "&3&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?"
         },
         90, true, true, "male_normal"
     ],
@@ -410,10 +416,10 @@
     ],
     "NewDialog": [
         {
-            "&4&lThomas": "What am I doing? Oh-",
-            "&4&lThomas": "I grew up near here, I was just admiring the view. Did you know this bridge was the first bridge built in &lZeinova&r?",
-            "&4&lThomas": "It was the first step to connecting the islands that make up &lZeinova&r. &3Statera&r first came to &lZeinova&r about 100 years ago, yaknow?",
-            "&4&lThomas": "The original CEO had a dream of connecting the islands- it didn't pan out well..."
+            "&3&lThomas": "What am I doing? Oh-",
+            "&3&lThomas": "I grew up near here, I was just admiring the view. Did you know this bridge was the first bridge built in &lZeinova&r?",
+            "&3&lThomas": "It was the first step to connecting the islands that make up &lZeinova&r. &3Statera&r first came to &lZeinova&r about 100 years ago, yaknow?",
+            "&3&lThomas": "The original CEO had a dream of connecting the islands- it didn't pan out well..."
 
         },
         110, true, true, "male_normal"
@@ -426,14 +432,14 @@
     ],
     "NewDialog": [
         {
-            "&4&lThomas": "You want to know why?"
+            "&3&lThomas": "You want to know why?"
         },
         90, true, true, "male_question"
     ],
     "NewDialog": [
         {
-            "&4&lThomas": "Well... he dreamed of creating new land masses. And we all know there are very few ways of accomplishing that.",
-            "&4&lThomas": "The only way he could achieve the creation of so much new land was through the use of the Pokémon &9Kyogre&r and &cGroudon&r."
+            "&3&lThomas": "Well... he dreamed of creating new land masses. And we all know there are very few ways of accomplishing that.",
+            "&3&lThomas": "The only way he could achieve the creation of so much new land was through the use of the Pokémon &9Kyogre&r and &cGroudon&r."
         },
         110, true, true, "male_normal"
     ],
@@ -442,15 +448,15 @@
     "MoveEntity": ["executive", 780.5, 59.0, 439.9],
     "NewDialog": [
         {
-            "&4&lThomas": "It was a disaster according to the old stories. Most of them no longer exist, but parents read them as bedtime stories now in a more... friendly way.",
-            "&4&lThomas": "That's a story for another day though, I suppose."
+            "&3&lThomas": "It was a disaster according to the old stories. Most of them no longer exist, but parents read them as bedtime stories now in a more... friendly way.",
+            "&3&lThomas": "That's a story for another day though, I suppose."
 
         },
         110, true, true, "male_normal"
     ],
     "NewDialog": [
         {
-            "&4&lThomas": "25 years ago however, a new CEO took over and he began the project of &nBridge Together&r. That's what we call it, heh."
+            "&3&lThomas": "25 years ago however, a new CEO took over and he began the project of &nBridge Together&r. That's what we call it, heh."
         },
         110, true, true, "male_excited"
     ],
@@ -493,7 +499,7 @@
 
     "NewDialog": [
         {
-            "&4&lThomas": "We've built bridges connecting all the islands! Who would have thought it'd be that simple?"
+            "&3&lThomas": "We've built bridges connecting all the islands! Who would have thought it'd be that simple?"
         },
         1, true, false, "male_excited"
     ],
@@ -509,7 +515,7 @@
     "Wait": 40,
     "NewDialog": [
         {
-            "&4&lThomas": "We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance."
+            "&3&lThomas": "We've employed so many of the regions population and given thousands of jobs, even with the bridges complete- we still need the maintenance."
         },
         60, true, false, "male_normal"
     ],
@@ -522,7 +528,7 @@
     "ProgressiveMoveEntity": ["worker1", -1049.3, 44.0, 330.3],
     "NewDialog": [
         {
-            "&4&lThomas": "It's baffling that we've brought not only prosperity to the region, but also united the previously separate islands."
+            "&3&lThomas": "It's baffling that we've brought not only prosperity to the region, but also united the previously separate islands."
         },
         50, true, false, "male_normal"
     ],
@@ -560,8 +566,8 @@
     "Wait": 60,
     "NewDialog": [
         {
-            "&4&lThomas": "Well, enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure.",
-            "&4&lThomas": "You should check out the island that is connected through this bridge. It has a nice smell to it!"
+            "&3&lThomas": "Well, enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure.",
+            "&3&lThomas": "You should check out the island that is connected through this bridge. It has a nice smell to it!"
         },
         110, true, true, "male_normal"
     ],
@@ -584,9 +590,8 @@
     "Wait": 30,
     "NewDialog": [
         {
-            "Professor Hemlock": "Hey [PLAYER]! Are you still nearby? I need a favour!",
-            "Professor Hemlock": "My new assistant from &3Statera&r just informed me of a rumour they've been hearing around town."
-
+            "&c&lProfessor Hemlock": "Hey [PLAYER]! Are you still nearby? I need a favour!",
+            "&c&lProfessor Hemlock": "My new assistant from &3Statera&r just informed me of a rumour they've been hearing around town."
         },
         90, true, true, "male_normal"
     ],
@@ -598,14 +603,14 @@
     ],
     "NewDialog": [
         {
-            "Professor Hemlock": "What was that?",
-            "Professor Hemlock": "My assistant?"
+            "&c&lProfessor Hemlock": "What was that?",
+            "&c&lProfessor Hemlock": "My assistant?"
         },
         60, true, true, "male_question"
     ],
     "NewDialog": [
         {
-            "Professor Hemlock": "Yeah, yeah, I'll introduce you to them the next time you're around! But anyways-!"
+            "&c&lProfessor Hemlock": "Yeah, yeah, I'll introduce you to them the next time you're around! But anyways-!"
         },
         90, true, true, "male_normal"
     ],
@@ -625,14 +630,14 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "Professor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
-            "Professor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?"
+            "&c&lProfessor Hemlock": "There's a cave near Breezelton Village- a Pokémon is said to reside there.",
+            "&c&lProfessor Hemlock": "It could further my Pokémon Behaviour research tenfold! Could you imagine me advancing by 10 years of work just by this report?"
         },
         100, true, false, "male_normal"
     ],
     "NewDialog": [
         {
-            "Professor Hemlock": "Mindblowing!"
+            "&c&lProfessor Hemlock": "Mindblowing!"
         },
         45, true, false, "male_excited"
     ],
@@ -646,9 +651,9 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "Professor Hemlock": "Anyways... Before I get carried away... This Pokémon is said to exude Human reactions to certain stimuli.",
-            "Professor Hemlock": "Like feeling confused, or hurt, or sad. It's astounding! Well.. I'm sure it's astounding.",
-            "Professor Hemlock": "It's only been described to be a pink colouring, with large blue eyes. I wonder if it's a Psychic type?"
+            "&c&lProfessor Hemlock": "Anyways... Before I get carried away... This Pokémon is said to exude Human reactions to certain stimuli.",
+            "&c&lProfessor Hemlock": "Like feeling confused, or hurt, or sad. It's astounding! Well.. I'm sure it's astounding.",
+            "&c&lProfessor Hemlock": "It's only been described to be a pink colouring, with large blue eyes. I wonder if it's a Psychic type?"
         },
         90, true, true, "male_confused"
     ],
@@ -660,8 +665,8 @@
     ],
     "NewDialog": [
         {
-            "Professor Hemlock": "That would be wonderful!",
-            "Professor Hemlock": "Thanks again [PLAYER]! I can't wait to hear from you soon."
+            "&c&lProfessor Hemlock": "That would be wonderful!",
+            "&c&lProfessor Hemlock": "Thanks again [PLAYER]! I can't wait to hear from you soon."
         },
         90, true, true, "male_excited"
     ],
@@ -1291,26 +1296,26 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "Professor Hemlock": "There was a man way out there? Wow! That's a bit surprising..."
+            "&c&lProfessor Hemlock": "There was a man way out there? Wow! That's a bit surprising..."
         },
         90, true, true, "male_excited"
     ],
     "NewDialog": [
         {
-            "Professor Hemlock": "From what I heard, the wilderness out there is a bit rough, it's surprising to hear someone is living out there...",
-            "Professor Hemlock": "Especially in a cave with wild Pokémon! Looks like he gave you some good data though on this..."
+            "&c&lProfessor Hemlock": "From what I heard, the wilderness out there is a bit rough, it's surprising to hear someone is living out there...",
+            "&c&lProfessor Hemlock": "Especially in a cave with wild Pokémon! Looks like he gave you some good data though on this..."
         },
         90, true, true, "male_normal"
     ],
     "NewDialog": [
         {
-            "Professor Hemlock": "What is it... &dAudino&r? Is that how it's said?"
+            "&c&lProfessor Hemlock": "What is it... &dAudino&r? Is that how it's said?"
         },
         90, true, true, "male_question"
     ],
     "NewDialog": [
         {
-            "Professor Hemlock": "Interesting... I've never heard of a Pokémon like this, this will be very intriguing to learn about..."
+            "&c&lProfessor Hemlock": "Interesting... I've never heard of a Pokémon like this, this will be very intriguing to learn about..."
         },
         90, true, true, "male_excited"
     ],
@@ -1321,13 +1326,13 @@
     "MoveEntity": ["agent", 1153.6, 58.0, -132.5, false],
     "NewDialog": [
         {
-            "&3&lStatera Employee": "You shouldn't be talking to strangers in the woods like that.",
-            "&3&lStatera Employee": "From what you've described, that sounds like one of them old world guys, yeesh!",
-            "&3&lStatera Employee": "Those guys are no joke, they're real hard-core in the myths and lies.",
-            "&3&lStatera Employee": "Pretty sure they tried to reawaken the Weather Beasts from the myths.",
-            "&3&lStatera Employee": "At least that's what my parents told me as a kid... There was a radical group that tried to purge the land of humans,",
-            "&3&lStatera Employee": "Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
-            "&3&lStatera Employee": "I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
+            "&3&lJeff": "You shouldn't be talking to strangers in the woods like that.",
+            "&3&lJeff": "From what you've described, that sounds like one of them old world guys, yeesh!",
+            "&3&lJeff": "Those guys are no joke, they're real hard-core in the myths and lies.",
+            "&3&lJeff": "Pretty sure they tried to reawaken the Weather Beasts from the myths.",
+            "&3&lJeff": "At least that's what my parents told me as a kid... There was a radical group that tried to purge the land of humans,",
+            "&3&lJeff": "Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
+            "&3&lJeff": "I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
         },
         110, true, true, "male_normal"
     ],
@@ -1340,7 +1345,7 @@
     "Wait": 40,
     "NewDialog": [
         {
-            "&3&lStatera Employee": "&cProfessor Hemlock&r, &3Statera HQ&r has requested your presence. Please follow me."
+            "&3&lJeff": "&cProfessor Hemlock&r, &3Statera HQ&r has requested your presence. Please follow me."
         },
         90, true, true, "male_normal"
     ],
