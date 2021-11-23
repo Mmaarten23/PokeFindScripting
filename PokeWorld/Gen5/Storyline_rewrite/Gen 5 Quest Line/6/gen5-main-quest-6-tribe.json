@@ -706,7 +706,7 @@
         {
             "[PLAYER]": "&oWhat was that?!"
         },
-        90, true, true
+        45, true, true
     ],
 
     "NewDialog": [
@@ -865,9 +865,9 @@
     "Teleport": [-321.5, 35.0, 59.5, 90, 0],
     "NewDialog": [
         {
-            "[PLAYER]": "&oHow does one recover from a loss?",
-            "[PLAYER]": "&oHow does one carry the weight that falls on their shoulder that the ending will come so much sooner than planned?",
-            "[PLAYER]": "&8&o&lZekrom&f&o was lost to &b&oStatera&f&o...",
+            "[PLAYER]": "&oHow could I fail?",
+            "[PLAYER]": "&oI let the whole region down.",
+            "[PLAYER]": "&8&o&lZekrom&f&o was lost to &3&oStatera&f&o...",
             "[PLAYER]": "&oNow what?"
         },
         90, true, true
