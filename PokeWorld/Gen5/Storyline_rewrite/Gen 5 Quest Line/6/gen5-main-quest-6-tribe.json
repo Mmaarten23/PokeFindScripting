@@ -603,6 +603,10 @@
     "ControlledTrack": "Sewaddle",
     "ProgressiveWall": [-465, 37, 58, -465, 34, 60, 3],
     "Show": {
+        "Captain1": false,
+        "Tribe_Member1": false,
+        "Tribe_Member2": false,
+        "Tribe_Member3": false,
         "Tribe_Leader3": true
     },
     "Objective": ["Speak to Astrid at the end of the Shrine", 11],
