@@ -707,9 +707,9 @@
         "Rival2": true,
         "Ferrothorn": false
     },
-    "MoveEntity": ["Rival2", -312.5, 35.0, 59.5, 0.1, false],
+    "MoveEntity": ["Rival2", -314.5, 35.0, 59.5, 0.1, false],
     "Wait": 20,
-    "MoveEntity": ["Zekrom_Pokeball", -312.5, 33.5, 59.5, 0.1, false],
+    "MoveEntity": ["Zekrom_Pokeball", -312.5, 36.0, 59.5, 0.1, false],
     "Show": {
         "Zekrom_Pokeball": false
     },
