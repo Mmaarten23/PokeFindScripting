@@ -150,24 +150,6 @@
         }
     },
     "CreateEntity": {
-        "key": "Tribe_Leader2",
-        "name": [
-            "&e&lAstrid",
-            "&7Sophro Leader"
-        ],
-        "location": {
-            "x": -358.5,
-            "y": 47.0,
-            "z": -58.5,
-            "yaw": 180,
-            "pitch": 0
-        },
-        "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
-        }
-    },
-    "CreateEntity": {
         "key": "Tribe_Leader3",
         "name": [
             "&e&lAstrid",
@@ -192,7 +174,7 @@
             "x": -349.0,
             "y": 32.0,
             "z": 59.5,
-            "yaw": 210,
+            "yaw": -90,
             "pitch": 0
         },
         "skin": "danielle"
@@ -204,10 +186,21 @@
             "x": -320.0,
             "y": 35.0,
             "z": 54.5,
-            "yaw": 270,
+            "yaw": -90,
             "pitch": 0
         },
         "skin": "danielle"
+    },
+    "CreateEntity": {
+        "key": "player1",
+        "location": {
+            "x": -331.6,
+            "y": 33.0,
+            "z": 59.5,
+            "yaw": -37,
+            "pitch": 0
+        },
+        "skin": "[PLAYER]"
     },
     "CreateEntity": {
         "key": "Sewaddle",
@@ -321,13 +314,13 @@
         "Tribe_Member5": false,
         "Tribe_Member6": false,
         "Tribe_Leader1": false,
-        "Tribe_Leader2": false,
         "Tribe_Leader3": false,
         "Purrloin1": false,
         "Purrloin2": false,
         "Sewaddle": false,
         "Rival1": false,
         "Rival2": false,
+        "player1": false,
         "Ferrothorn": false,
         "Health_Dead": false,
         "Health_Red": false,
@@ -336,89 +329,75 @@
     "HighlightClickEntity": "Captain1",
     "Dialog": [
         {
-            "&7&lCaptain": "Glad you stuck around with us, the Tribe definitely needs the help of a strong trainer like you.",
-            "&7&lCaptain": "We’ll definitely need to get together and have some training sessions!",
-            "&7&lCaptain": "Since you’re a newcomer though, you’ll need to get yourself more integrated within our ranks.",
-            "&7&lCaptain": "I recommend going and speaking to some of our other tribe members.",
-            "&7&lCaptain": "Most of us live here in Greenholm. Just walk around and you will find them."
-        }
+            "&6&lAnthony": "Ah, you must be [PLAYER]. I am so happy you chose our side!",
+            "&6&lAnthony": "We can surely use a strong trainer like you on our side.",
+            "&6&lAnthony": "Some training sessions might be good so we can learn from each other!",
+            "&6&lAnthony": "Since you’re a newcomer though, you’ll need to get yourself familiarized with our community.",
+            "&6&lAnthony": "I recommend going around meeting some of our members, they will be happy to introduce themselves to you and give you a taste of what we do around here.",
+            "&6&lAnthony": "Most of us live here in Greenholm so feel free to take a walk around and meet them!"
+        },
+        90, true, true, "male_normal"
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Talk to the members of Sophro to see how you can help",
-        3
-    ],
-    "HighlightClickEntity": [
-        "Tribe_Member2"
-    ],
+    "Wait": 20,
+    "Objective": ["Talk to the members of Sophro to see how you can help", 3],
+    "HighlightClickEntity": "Tribe_Member2",
     "Dialog": [
         {
-            "&6&lSophro Member": "Hey there! Would you mind helping me?",
-            "&6&lSophro Member": "My poor Purrloin went missing and I can't find her anywhere!",
-            "&6&lSophro Member": "She likes to hide in the grass... Can you find her?",
-            "[PLAYER]": "Sure thing!"
+            "[PLAYER]": "Heya! I am [PLAYER]!",
+            "&6&lGreta": "Hey there! I am Greta!",
+            "&6&lGreta": "I would introduce myself properly but I am stressing out right now...",
+            "[PLAYER]": "No worries, is it something I can help with?",
+            "&6&lGreta": "My poor Purrloin went missing and I can't find her anywhere!",
+            "&6&lGreta": "She likes to hide in the grass...",
+            "[PLAYER]": "We will split up and search together!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Find the Sophro Member's Purrloin hiding in the grass",
-        4
-    ],
+    "Wait": 20,
+    "Objective": ["Find the Greta's Purrloin hiding around Greenholm", 4],
     "Show": {
         "Purrloin1": true
     },
-    "HighlightClickEntity": [
-        "Purrloin1"
-    ],
+    "HighlightClickEntity": "Purrloin1",
     "Dialog": [
         {
             "[PLAYER]": "There you are! Time to get back to your owner!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Return the Purrloin back to it's owner",
-        4
-    ],
+    "Wait": 20,
+    "Objective": ["Return the Purrloin back to Greta", 4],
     "Show": {
         "Purrloin1": false,
         "Purrloin2": true
     },
-    "HighlightClickEntity": [
-        "Tribe_Member2"
-    ],
+    "HighlightClickEntity": "Tribe_Member2",
     "Dialog": [
         {
-            "&6&lSophro Member": "Thank you! You're a lifesaver!"
+            "[PLAYER]": "Greta! I found her!",
+            "&6&lGreta": "OMG! Thank you! You're a lifesaver!",
+            "&6&lGreta": "See, I am one of the trainers of the tribe but sometimes, pokemon just do what they want!",
+            "&6&lGreta": "And we should let them. They have a mind for a reason.",
+            "[PLAYER]": "I agree. I should get going though. It was nice meeting you!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Find and talk to the second Sophro Member to see how you can help them",
-        3
-    ],
-    "HighlightClickEntity": [
-        "Tribe_Member3"
-    ],
+    "Wait": 20,
+    "Objective": ["See if you can meet another tribe member", 3],
+    "HighlightClickEntity": "Tribe_Member3",
     "Dialog": [
         {
-            "&6&lSophro Member": "Excuse me... I need some help with my garden...",
+            "&6&lBeth": "Did I leave the door open?",
+            "&6&lBeth": "Oh well, I couldn't have answered the door anyway...",
             "[PLAYER]": "What's up?",
-            "&6&lSophro Member": "I got some new flowers to plant but I hurt my leg...",
-            "&6&lSophro Member": "Could you plant them for me? Just click the glowing podzol!"
+            "&6&lBeth": "I was working in my garden, planting some rose bushes when I sprained my ankle pretty badly.",
+            "&6&lBeth": "I was almost done too...",
+            "[PLAYER]": "Is there a lot that needs doing?",
+            "&6&lBeth": "No, I just have 3 flowers left that I need to put in my garden.",
+            "[PLAYER]": "Can I do it for you?",
+            "&6&lBeth": "Would you do that for me? That is so nice!",
+            "&6&lBeth": "I already indicated where the flowers should go with some podzol. If you click on it, you should be able to plant them.",
+            "[PLAYER]": "Alright, I will get to work!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Objective": ["Plant some flowers by clicking the sparkling podzol", 24],
     "Start": "gen5_main_quest_6_tribe_flower1",
     "Start": "gen5_main_quest_6_tribe_flower2",
@@ -462,16 +441,16 @@
             "&e&lAstrid": "Heya there [PLAYER]!",
             "&e&lAstrid": "Are you enjoying yourself?",
             "&e&lAstrid": "If you're not busy, do you mind meeting me inside the Shrine?",
-            "&e&lAstrid": "You'll have to solve a new sewaddle puzzle to open the second door."
+            "&e&lAstrid": "I have to show you something.",
+            "&e&lAstrid": "We installed a new Sewaddle puzzle in the shrine to block intruders but you will see when you get there."
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Fade": [],
     "Unfreeze": [],
+    "StopCinematic": [],
     "Hide": "Tribe_Leader1",
-    "Objective": ["Return to the Ancient Shrine and solve the new sewaddle puzzle", 2],
+    "Objective": ["Return to the Ancient Shrine and find the new sewaddle puzzle", 2],
     "RegionEntry": [
         -487, 38, 61,
         -485, 44, 57
@@ -488,109 +467,82 @@
     },
     "Objective": ["Speak to Astrid at the end of the Shrine", 11],
     "HighlightClickEntity": "Tribe_Leader3",
+    "Wait": 10,
+    "HidePlayer": [],
+    "Cinematic": [],
+    "Fade": [],
+    "Teleport": [-333.0, 36.7, 53.4, -6, 29],
+    "Freeze": true,
+    "Show": "player1",
+    "Wait": 10,
     "Dialog": [
         {
             "&e&lAstrid": "Thank you for meeting me... We have important matters to discuss.",
-            "&e&lAstrid": "You see recently, we’ve been watching over &fReshiram&r and &0Zekrom&r. Both have been under our care to protect them from their power falling into the wrong hands...",
-            "&e&lAstrid": "Both are incredibly powerful Pokémon, and if their power were to be used wrong...",
+            "&e&lAstrid": "You see, recently, we’ve been watching over &f&lReshiram&r and &8&lZekrom&r.",
+            "&e&lAstrid": "Both have been under our care to protect their powers from falling into the wrong hands...",
+            "&e&lAstrid": "They both are incredibly powerful Pokémon, and if their power were to be abused...",
             "&e&lAstrid": "It would be detrimental to the balance of Zeinova."
         }
     ],
-    "Wait": [
-        40
-    ],
+    "Wait": 40,
     "Show": {
         "Tribe_Member4": true,
         "Tribe_Member5": true,
         "Tribe_Member6": true
     },
-    "ProgressiveMoveEntity": [
-        "Tribe_Member4",
-        -338.3,
-        32.0,
-        58.0
-    ],
-    "ProgressiveMoveEntity": [
-        "Tribe_Member5",
-        -340.5,
-        32.0,
-        59.5
-    ],
-    "MoveEntity": [
-        "Tribe_Member6",
-        -339.2,
-        32.0,
-        60.9
-    ],
-    "Look": [
-        "Tribe_Member6"
-    ],
+    "ProgressiveMoveEntity": ["Tribe_Member4", -338.3, 32.0, 58.0],
+    "ProgressiveMoveEntity": ["Tribe_Member5", -340.5, 32.0, 59.5],
+    "MoveEntity": ["Tribe_Member6", -339.2, 32.0, 60.9],
     "Dialog": [
         {
-            "&6&lSophro Member": "Madame &eAstrid&r! Madame &eAstrid&r!",
-            "&6&lSophro Member": "&3Statera&r is coming! Right now!",
-            "&6&lSophro Member": "They’re coming for &0Zekrom&r Madam.",
-            "&e&lAstrid": "[PLAYER]! You have the strongest &dAura&r out of all of us, it is your Destiny to protect &fReshiram&r and &0Zekrom&r.",
-            "&e&lAstrid": "You cannot let my brother near &0Zekrom&r at any cost!",
+            "&6&lFatih": "Madame &eAstrid&r! Madame &eAstrid&r!"
+        }
+    ],
+    "EntityLook": ["Tribe_Leader3", "Tribe_Member4"],
+    "Dialog": [
+        {
+            "&6&lAnthony": "&3Statera&r is coming! Right now!",
+            "&6&lBeth": "They’re coming for &8&lZekrom&r Madam."
+        }
+    ],
+    "EntityLookAtPlayer": "Tribe_Leader3",
+    "Dialog": [
+        {
+            "&e&lAstrid": "[PLAYER]! You have the strongest &dAura&r out of all of us, it is your Destiny to protect &f&lReshiram&r and &8&lZekrom&r.",
+            "&e&lAstrid": "You cannot let my brother near &8&lZekrom&r at any cost!",
             "&e&lAstrid": "We'll try to fend them off at the entrance!"
         }
     ],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-321.5, 35.0, 59.5, 90, 0],
+    "ShowPlayer": [],
+    "StopCinematic": [],
+
     "Show": {
         "Tribe_Leader3": false,
         "Tribe_Member4": false,
         "Tribe_Member5": false,
-        "Tribe_Member6": false
+        "Tribe_Member6": false,
+        "player1": false
     },
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Protect Zekrom from the Company",
-        14
-    ],
-    "Teleport": [
-        -321.5,
-        35.0,
-        59.5,
-        90,
-        0
-    ],
-    "Freeze": [
-    ],
-    "Wait": [
-        40
-    ],
-    "SendMessage": [
-        "&6&lCRASH!"
-    ],
+    "Wait": 20,
+    "Objective": ["Protect Zekrom from the Company", 14],
+    "Teleport": [-321.5, 35.0, 59.5, 90, 0],
+    "Freeze": [],
+    "Wait": 40,
     "PlaySound": [
         "entity_dragon_fireball_explode"
     ],
-    "Particle": [
-        "EXPLOSION_HUGE",
-        -349.5,
-        33.0,
-        59.5,
-        1,
-        1.0
-    ],
-    "Wait": [
-        10
-    ],
-    "PlaySound": [
-        "Ambient_Cave"
-    ],
-    "Wait": [
-        30
-    ],
+    "Particle": ["EXPLOSION_HUGE", -349.5, 33.0, 59.5, 10, 1.0],
+    "Wait": 10,
+    "PlaySound": "Ambient_Cave",
+    "Wait": 30,
     "Dialog": [
         {
-            "[PLAYER]": "What was that?!",
-            "&d&lDanielle": "I'm backkkk!"
+            "[PLAYER]": "&oWhat was that?!",
+            "&d&lDanielle": "I'm backkkk! Did you miss me?"
         }
-    ],
-    "Wait": [
-        20
     ],
     "Show": {
         "Rival1": true
@@ -598,15 +550,9 @@
     "Look": [
         "Rival1"
     ],
-    "Unfreeze": [
-    ],
-    "Objective": [
-        "Battle Danielle to protect Zekrom and Reshiram",
-        20
-    ],
-    "HighlightClickEntity": [
-        "Rival1"
-    ],
+    "Unfreeze": [],
+    "Objective": ["Battle Danielle to protect Zekrom and Reshiram", 20],
+    "HighlightClickEntity": "Rival1",
     "AutoBattleNpc": [
         "Rival1",
         {
@@ -695,9 +641,7 @@
         "Health_Red": true,
         "Health_Dead": false
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&d&lDanielle": "Ferrothorn, use Metal Claw!"
