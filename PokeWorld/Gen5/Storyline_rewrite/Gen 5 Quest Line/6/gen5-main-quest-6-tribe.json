@@ -195,7 +195,7 @@
         "key": "BattleRival",
         "name": "&d&lDanielle",
         "location": {
-            "x": -340.0,
+            "x": -339.0,
             "y": 32.0,
             "z": 59.5,
             "yaw": -90,
@@ -257,14 +257,14 @@
     "CreateEntity": {
         "key": "Ferrothorn",
         "name": [
-            "&2Ferrothorn",
-            "&a&l|||||||||||||||||||||"
+            "&fFerrothorn &1♂ &7Lvl. 100",
+            "&a||||||||||||||||||||||||||||||||||||||||||||||||||"
         ],
         "location": {
-            "x": -345.5,
+            "x": -337.5,
             "y": 32.0,
             "z": 59.5,
-            "yaw": 270,
+            "yaw": -90,
             "pitch": 0
         },
         "entity": "armor stand",
@@ -276,7 +276,7 @@
             "&7&l|||||||||||||||||||||"
         ],
         "location": {
-            "x": -340.5,
+            "x": -334.6,
             "y": 34.0,
             "z": 59.5,
             "yaw": 90,
@@ -292,7 +292,7 @@
             "&7&l|||||||||||||||||||||"
         ],
         "location": {
-            "x": -340.5,
+            "x": -334.6,
             "y": 34.0,
             "z": 59.5,
             "yaw": 90,
@@ -332,6 +332,7 @@
         "Sewaddle": false,
         "Rival1": false,
         "Rival2": false,
+        "BAttleRival": false,
         "player1": false,
         "Ferrothorn": false,
         "Health_Dead": false,
@@ -450,10 +451,12 @@
             "[PLAYER]": "Yes! I am meeting so many cool people!",
             "&e&lAstrid": "Great! If you're not busy, do you mind meeting me inside the Shrine?",
             "&e&lAstrid": "I have to show you something.",
-            "&e&lAstrid": "We installed a new Sewaddle puzzle in the shrine to block intruders but you will see when you get there."
+            "&e&lAstrid": "We installed a new Sewaddle puzzle in the shrine to block intruders but you will see when you get there.",
+            "[PLAYER]": "Alright! I'll see you there!"
         }
     ],
     "Wait": 20,
+    "MoveEntity": ["Tribe_Leader1", -363.0, 47.0, -51.3],
     "Fade": [],
     "Unfreeze": [],
     "StopCinematic": [],
@@ -484,6 +487,7 @@
     "Teleport": [-333.0, 36.7, 53.4, -6, 29],
     "Freeze": true,
     "Show": "player1",
+    "Wait": 1,
     "EntityLook": ["Tribe_Leader3", "player1"],
     "Wait": 10,
     "Dialog": [
@@ -504,6 +508,9 @@
     "ProgressiveMoveEntity": ["Tribe_Member4", -336.3, 32.0, 58.0],
     "ProgressiveMoveEntity": ["Tribe_Member5", -338.5, 32.0, 59.5],
     "MoveEntity": ["Tribe_Member6", -337.2, 32.0, 60.9],
+    "EntityLook": ["Tribe_Member4", "Tribe_Leader3"],
+    "EntityLook": ["Tribe_Member5", "Tribe_Leader3"],
+    "EntityLook": ["Tribe_Member6", "Tribe_Leader3"],
     "Dialog": [
         {
             "&6&lFatih": "Madame &eAstrid&r! Madame &eAstrid&r!"
@@ -550,15 +557,20 @@
     ],
     "Particle": ["EXPLOSION_HUGE", -349.5, 33.0, 59.5, 10, 1.0],
     "Wait": 10,
+    "ProgressiveMoveEntity": ["Rival1", -339.0, 32.0, 59.5],
     "PlaySound": "Ambient_Cave",
     "Wait": 30,
     "Dialog": [
         {
-            "[PLAYER]": "&oWhat was that?!",
+            "[PLAYER]": "&oWhat was that?!"
+        }
+    ],
+
+    "Dialog": [
+        {
             "&d&lDanielle": "I'm backkkk! Did you miss me?"
         }
     ],
-    "MoveEntity": ["Rival1", -340.0, 32.0, 59.5],
     "Show": {
         "Rival1": false,
         "BattleRival": true
@@ -649,7 +661,7 @@
     "Show": {
         "Ferrothorn": true
     },
-    "PartyPokemonEntity": [-340.5, 32.0, 59.5, 90, 1, 10.0],
+    "PartyPokemonEntity": [-334.6, 32.0, 59.5, 90, 1, 10.0],
     "Show": {
         "Health_Red": true,
         "Health_Dead": false
