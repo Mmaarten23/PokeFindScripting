@@ -273,11 +273,11 @@
     "CreateEntity": {
         "key": "Health_Dead",
         "name": [
-            "&7&l|||||||||||||||||||||"
+            "&7||||||||||||||||||||||||||||||||||||||||||||||||||"
         ],
         "location": {
             "x": -334.6,
-            "y": 34.0,
+            "y": 32.0,
             "z": 59.5,
             "yaw": 90,
             "pitch": 0
@@ -289,11 +289,11 @@
     "CreateEntity": {
         "key": "Health_Red",
         "name": [
-            "&7&l|||||||||||||||||||||"
+            "&c|||||&7|||||||||||||||||||||||||||||||||||||||||||||"
         ],
         "location": {
             "x": -334.6,
-            "y": 34.0,
+            "y": 32.0,
             "z": 59.5,
             "yaw": 90,
             "pitch": 0
@@ -487,7 +487,7 @@
     "Teleport": [-333.0, 36.7, 53.4, -6, 29],
     "Freeze": true,
     "Show": "player1",
-    "Wait": 1,
+    "Wait": 5,
     "EntityLook": ["Tribe_Leader3", "player1"],
     "Wait": 10,
     "Dialog": [
@@ -582,7 +582,7 @@
         "BattleRival",
         {
             "&d&lDanielle": "So [PLAYER], you think you can stop me?",
-            "&d&lDanielle": "I have to take &0Zekrom&r back to &8Vidar&r and you will not stand in my way!"
+            "&d&lDanielle": "I have to take &8&lZekrom&r back to &8&lVidar&r and you will not stand in my way!"
         },
         {
             "": ""
@@ -663,8 +663,7 @@
     },
     "PartyPokemonEntity": [-334.6, 32.0, 59.5, 90, 1, 10.0],
     "Show": {
-        "Health_Red": true,
-        "Health_Dead": false
+        "Health_Red": true
     },
     "Wait": 20,
     "Dialog": [
