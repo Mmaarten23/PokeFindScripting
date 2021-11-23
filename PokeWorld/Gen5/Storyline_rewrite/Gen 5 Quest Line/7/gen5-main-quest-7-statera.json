@@ -174,6 +174,7 @@
         20
     ],
     "Objective": ["Speak with Vidar in his office on the third floor", 3],
+    "Show": "Statera_Leader1",
     "HighlightClickEntity": "Statera_Leader1",
     "Dialog": [
         {
@@ -223,13 +224,13 @@
             "&8&lVidar": "Prepare for the first test. Make sure you only have 1 pokemon in your party."
         }
     ],
-    "MovEntity": ["Statera_Leader2", 99.2, 62.0, 332.6, 0.1, false],
+    "MoveEntity": ["Statera_Leader2", 99.2, 62.0, 332.6, 0.1, false],
     "AnimateEntity": ["Statera_Leader2", "swing main hand"],
     "SetBlock": [
         98, 62, 333,
         {
             "material": "quartz_stairs",
-            "facing": "west"
+            "face": "west"
         },
         false
     ],
@@ -245,19 +246,26 @@
     ],
     "Objective": ["Step into the safety cage in the Testing room (Make sure to only have 1 Pokémon!)", 25],
     "RegionEntry": [
-        97, 62, 330,
-        97, 63, 330
+        97, 63, 333,
+        97, 64, 333
     ],
     "LimitParty": [1, false],
-    "Freeze": [],
-    "PartyPokemonEntity": [
-        99.5,
-        62.0,
-        334.5,
-        270,
-        1,
-        5
+    "Teleport": [97.5, 63.0, 333.5, -90],
+    "Freeze": true,
+    "MoveEntity": ["Statera_Leader2", 99.2, 62.0, 332.6, 0.1, false],
+    "AnimateEntity": ["Statera_Leader2", "swing main hand"],
+    "SetBlock": [98, 62, 333, "air", false],
+    "PlaySound": "block_stone_place",
+    "Wait": 20,
+    "MoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
+
+    "Dialog": [
+        {
+            "&8&lVidar": "Alright. Now get your Pokémon out and try to attack."
+        }
     ],
+
+    "PartyPokemonEntity": [100.5, 62.0, 333.5, -90, 1, 5.0],
     "Dialog": [
         {
             "[PLAYER]": "Attack!"
@@ -273,31 +281,16 @@
             "&8&lVidar": "Look out!"
         }
     ],
-    "PlaySound": [
-        "entity_item_break",
-        0.2,
-        1.0
-    ],
-    "Potion": [
-        "Blindness",
-        50
-    ],
+    "PlaySound": ["entity_item_break", 0.2, 1.0],
+    "Potion": ["Blindness", 50],
     "Wait": [
         25
     ],
     "Show": {
         "Zekrom1": false
     },
-    "Teleport": [
-        100.5,
-        62.0,
-        329.5,
-        287,
-        0
-    ],
-    "Wait": [
-        20
-    ],
+    "Teleport": [100.5, 62.0, 329.5, 287, 0],
+    "Wait": 20,
     "Dialog": [
         {
             "&8&lVidar": "Are you okay? Your Pokémon attacked you!",
