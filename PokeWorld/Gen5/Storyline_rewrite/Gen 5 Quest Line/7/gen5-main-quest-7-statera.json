@@ -1,0 +1,485 @@
+{
+    "Key": "gen5_main_quest_7_statera",
+    "Name": "",
+    "Description": "",
+    "AllowRejoining": true,
+    "Icon": "",
+    "AddProperty": ["Team", "&3Statera"],
+    "CreateEntity": {
+        "key": "Happy1",
+        "name": "&3H.A.P.P.Y.",
+        "location": {
+            "x": 73.5,
+            "y": 53.0,
+            "z": 347.5,
+            "yaw": 243,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Statera_Leader1",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
+        "location": {
+            "x": 77.5,
+            "y": 77.5,
+            "z": 331.0,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
+        },
+        "sitting": true,
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Statera_Leader2",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
+        "location": {
+            "x": 103.5,
+            "y": 62.0,
+            "z": 329.5,
+            "yaw": 41,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Zekrom1",
+        "location": {
+            "x": 104.5,
+            "y": 63.0,
+            "z": 333.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Zekrom",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Informant1",
+        "name": "&8&lStatera Informant",
+        "location": {
+            "x": 96.5,
+            "y": 65.0,
+            "z": 336.5,
+            "yaw": 199,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Testing_Assistant1",
+        "name": "&8&lStatera Member",
+        "location": {
+            "x": 100.5,
+            "y": 63.0,
+            "z": 337.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Rival1",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": 107.5,
+            "y": 166.0,
+            "z": -290.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": "danielle",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Rival2",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": 101.5,
+            "y": 166.0,
+            "z": -290.5,
+            "yaw": 124,
+            "pitch": 0
+        },
+        "skin": "danielle",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Rival3",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": 101.5,
+            "y": 166.0,
+            "z": -290.5,
+            "yaw": 124,
+            "pitch": 0
+        },
+        "skin": "danielle",
+        "sleeping": true,
+        "look": false
+    },
+    "Show": {
+        "Happy1": true,
+        "Statera_Leader1": false,
+        "Statera_Leader2": false,
+        "Zekrom1": false,
+        "Informant1": false,
+        "Testing_Assistant1": false,
+        "Rival1": false,
+        "Rival2": false,
+        "Rival3": false
+    },
+    "Quest": true,
+    "HighlightClickEntity": [
+        "Happy1"
+    ],
+    "NotCompleted": [
+    ],
+    "Completed": [
+        "GYM7"
+    ],
+    "HasStoryTeam": "Statera",
+    "Dialog": [
+        {
+            "&3H.A.P.P.Y.": "Hey [PLAYER]! Nice to see you again! Wow, you've sure conquered quite the milestone, yaknow?!",
+            "&3H.A.P.P.Y": "&3Statera&r has been trying to bring &0Zekrom&r home for over &lTwo Decades&r!",
+            "&3H.A.P.P.Y": "&8Vidar&r must be so proud of you! You should head over to his office and speak with him!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Speak with Vidar",
+        3
+    ],
+    "HighlightClickEntity": [
+        "Statera_Leader1"
+    ],
+    "Dialog": [
+        {
+            "&8&lVidar": "Ah! There you are! Your latest mission was so successful!",
+            "&8&lVidar": "Will you join me in the lab? I want you to see what we have been working on all this time."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Use the elevator to get to the Testing Labs on Floor 2",
+        6
+    ],
+    "Show": {
+        "Statera_Leader1": false,
+        "Statera_Leader2": true,
+        "Zekrom1": true,
+        "Testing_Assisstant1": true
+    },
+    "RegionEntry": [
+        84,
+        69,
+        345,
+        92,
+        73,
+        347
+    ],
+    "SendMessage": [
+        "&cThe lab is downstairs past the orange curtain on this floor."
+    ],
+    "HighlightClickEntity": [
+        "Statera_Leader2"
+    ],
+    "Dialog": [
+        {
+            "&8&lVidar": "We will be running some tests with &0Zekrom&r. These test will be used to see how different Pokémon change their behaviours while under &0Zekrom’s&r power.",
+            "[PLAYER]": "What type of tests?",
+            "&8&lVidar": "Well for example, if &0Zekrom&r feels threatened, will the Pokémon turn on their trainer? Will they stop obeying in battle?",
+            "&8&lVidar": "We will use your Pokémon and see how this goes. Stand on the diamond block with one Pokémon when you are ready!",
+            "&8&lVidar": "Your &dAura&r should have an effect on this as well."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Stand on the diamond block in the Testing room (Make sure to only have 1 Pokémon!)",
+        25
+    ],
+    "RegionEntry": [
+        97,
+        62,
+        330,
+        97,
+        63,
+        330
+    ],
+    "LimitParty": [
+        1,
+        false
+    ],
+    "Freeze": [
+    ],
+    "PartyPokemonEntity": [
+        99.5,
+        62.0,
+        334.5,
+        270,
+        1,
+        5
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Attack!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Nothing is happening...",
+            "[PLAYER]": "...",
+            "&8&lVidar": "Look out!"
+        }
+    ],
+    "PlaySound": [
+        "entity_item_break",
+        0.2,
+        1.0
+    ],
+    "Potion": [
+        "Blindness",
+        50
+    ],
+    "Wait": [
+        25
+    ],
+    "Show": {
+        "Zekrom1": false
+    },
+    "Teleport": [
+        100.5,
+        62.0,
+        329.5,
+        287,
+        0
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&8&lVidar": "Are you okay? Your Pokémon attacked you!",
+            "[PLAYER]": "I feel okay...",
+            "&8&lVidar": "Good... That was interesting! They saw you wanted to attack &0Zekrom&r so they attacked you instead!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Statera_Informant1": true
+    },
+    "Look": [
+        "Statera_Informant1"
+    ],
+    "MoveEntity": [
+        "Statera_Informant1",
+        96.5,
+        62.0,
+        333.5
+    ],
+    "Dialog": [
+        {
+            "&3Member": "Sir! We have a problem...",
+            "&3Member": "H.A.P.P.Y detected some new arrivals coming through the sea-line.",
+            "&3Member": "&3Cobalion&r left our trackers and our &5Crobats&r lost sight of the others.",
+            "&8&lVidar": "&3Cobalion&r huh? So the Swords of Justice have made an appearance then.",
+            "&8&lVidar": "&eAstrid&r must have called to them. This really throws a wrench in our plans.",
+            "&8&lVidar": "More than likely they’ve already made contact with &dDanielle&r as well, considering her &dAura&r.",
+            "&8&lVidar": "Come [PLAYER], we have to move quickly.",
+            "&8&lVidar": "It’s time to move into the final steps of our plan.",
+            "&8&lVidar": "&0Zekrom&r and &fReshiram&r are not the only two powerful Pokemon in Zeinova.",
+            "&8&lVidar": "'The Ultimate' is rumoured to be resting in the Frozen Island, and now with our research complete with &0Zekrom&r we will have the advantage to capture 'The Ultimate' and we will have the power we need to unite our lands!",
+            "&8&lVidar": "&eAstrid&r can not stop us. Let’s go, [PLAYER]!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&cPokéGear": "Ring Ring... Ring Ring...",
+            "&3H.A.P.P.Y": "Attention all &3Stratera&r Employees! H.A.P.P.Y here! We have a special announcement from our CEO, &8Vidar!",
+            "&8&lVidar": "It is no frilly promise or a hand to show you the hopes and dreams for the future, that I have for you today.",
+            "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a great War, with &6Sophro&r standing in our way.",
+            "&8&lVidar": "Thank you all, for the years you’ve stood with me. This will not be easy, but what we have taken over two decades to achieve, will be worth it.",
+            "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. Our final step, will not be our battle however.",
+            "&8&lVidar": "Everyone! Lend your wishes, and dreams, and hopes to [PLAYER]!",
+            "&3H.A.P.P.Y.": "Thank you everyone! H.A.P.P.Y ending transmission."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Statera_Leader2"
+    ],
+    "Dialog": [
+        {
+            "&8&lVidar": "Our last step, [PLAYER], is you.",
+            "&8&lVidar": "You must go defeat the final gym and then go to Elite Four and challenge Zeinova's Champion.",
+            "&8&lVidar": "You must become &lour&r Champion."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Go beat the final gym and become the Elite Four Champion",
+        9
+    ],
+    "Hold": [
+    ],
+    "Show": {
+        "Rival1": true
+    },
+    "Freeze": [
+    ],
+    "Teleport": [
+        92.8,
+        165.9,
+        -296.5,
+        299,
+        0
+    ],
+    "MoveEntity": [
+        "Rival1",
+        101.5,
+        166.0,
+        -290.5
+    ],
+    "Show": {
+        "Rival1": false,
+        "Rival2": true
+    },
+    "Dialog": [
+        {
+            "&d&lDanielle": "You defeated me once but you won't defeat me again!",
+            "&d&lDanielle": "Statera's reign ends here!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Unfreeze": [
+    ],
+    "Objective": [
+        "Battle Danielle to keep your title of Regional Champion",
+        6
+    ],
+    "HighlightClickEntity": [
+        "Rival2"
+    ],
+    "BattleNpc": [
+        "Rival2",
+        {
+            "&d&lDanielle": "Prepare to finally be defeated!"
+        },
+        {
+            "": ""
+        },
+        {
+            "&d&lDanielle": "Ha ha! I won!"
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            }
+        ]
+    ],
+    "Freeze": [
+    ],
+    "StrikeLightning": [
+        101.5,
+        166.0,
+        -290.5
+    ],
+    "Show": {
+        "Rival2": false,
+        "Rival3": true,
+        "Statera_Leader1": true,
+        "Statera_Leader2": false
+    },
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Return to the Statera Leader",
+        8
+    ],
+    "HighlightClickEntity": [
+        "Statera_Leader1"
+    ],
+    "Dialog": [
+        {
+            "&8&lVidar": "Congratulations [PLAYER], you’ve made great strides in this endeavour, and you will take us to the Stars!",
+            "[PLAYER]": "&dDanielle&r showed up at some point... I almost defeated her but then a large bolt of lightning struck her!",
+            "&8&lVidar": "That doesn't matter. What matters is that you won and now you are the Champion of the Region!",
+            "&8&lVidar": "Here, take these rewards, Champion [PLAYER]!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+
+    "Wait": 20,
+    "Complete": [],
+    "PlaySound": "entity_player_levelup",
+    "GiveCoins": 2500,
+    "GiveTokens": 25,
+    "GiveTrainerExperience": 2500,
+
+    "Wait": 20,
+
+    "Wait": 20,
+    "SetTitle": [
+        "&9&lTasks of a Newbie",
+        "&aQuest complete",
+        true
+    ],
+    "PlayCustomSound": "sfx.quest_complete"
+}
