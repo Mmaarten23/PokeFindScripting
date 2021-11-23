@@ -1,7 +1,7 @@
 {
     "Key": "gen5_main_quest_6_tribe",
-    "Name": "&7Coming soon",
-    "Description": "&7Coming soon",
+    "Name": "&2&lA new family",
+    "Description": "&7Leaving &bStatera&r was a hard choice but &6Sophro&r has its arms wide open to welcome you!",
     "AllowRejoining": true,
     "Icon": "writable_book",
     "CreateEntity": {
@@ -714,6 +714,10 @@
         "Rival2": false
     },
     "Unfreeze": [],
+    "StopCinematic": [],
+    "ShowPlayer": [],
+    "Fade": [],
+    "Teleport": [-321.5, 35.0, 59.5, 90, 0],
     "Dialog": [
         {
             "[PLAYER]": "How does one recover from a loss?",
@@ -722,9 +726,20 @@
             "[PLAYER]": "Now what?"
         }
     ],
-    "Wait": [
-        20
+    "Wait": 20,
+    "SendMessage": "&dDanielle&7 Dropped some stuff when she left with &8&lZekrom&7.",
+    "Complete": [],
+    "PlaySound": "entity_player_levelup",
+    "GiveCoins": 2500,
+    "GiveTokens": 25,
+    "GiveTrainerExperience": 2500,
+
+    "Wait": 20,
+    "Wait": 20,
+    "SetTitle": [
+        "&9&lTasks of a Newbie",
+        "&aQuest complete",
+        true
     ],
-    "Complete": [
-    ]
+    "PlayCustomSound": "sfx.quest_complete"
 }
