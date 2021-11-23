@@ -342,11 +342,27 @@
     "HighlightClickEntity": "Captain1",
     "NewDialog": [
         {
-            "&6&lAnthony": "Ah, you must be [PLAYER]. I am so happy you chose our side!",
-            "&6&lAnthony": "We can surely use a strong trainer like you on our side.",
-            "&6&lAnthony": "Some training sessions might be good so we can learn from each other!",
+            "&6&lAnthony": "Ah, you must be [PLAYER]. I am so happy you chose our side!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "&6&lAnthony": "We can surely use a strong trainer like you on our side."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "&6&lAnthony": "Some training sessions might be good so we can learn from each other!"
+        },
+        90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
             "&6&lAnthony": "Since you’re a newcomer though, you’ll need to get yourself familiarized with our community.",
-            "&6&lAnthony": "I recommend going around meeting some of our members, they will be happy to introduce themselves to you and give you a taste of what we do around here.",
+            "&6&lAnthony": "I recommend going around meeting some of our members.",
+            "&6&lAnthony": "They will be happy to introduce themselves to you and give you a taste of what we do around here.",
             "&6&lAnthony": "Most of us live here in Greenholm so feel free to take a walk around and meet them!"
         },
         90, true, true, "male_normal"
@@ -354,16 +370,42 @@
     "Wait": 20,
     "Objective": ["Talk to the members of Sophro", 3],
     "HighlightClickEntity": "Tribe_Member2",
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Heya! I am [PLAYER]!",
-            "&6&lGreta": "Hey there! I am Greta!",
-            "&6&lGreta": "I would introduce myself properly but I am stressing out right now...",
-            "[PLAYER]": "No worries, is it something I can help with?",
+            "[PLAYER]": "Heya! I am [PLAYER]!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&6&lGreta": "Hey there! I am Greta!"
+        },
+        90, true, true, "female_excited"
+    ],
+    "NewDialog": [
+        {
+            "&6&lGreta": "I would introduce myself properly but I am stressing out right now..."
+        },
+        90, true, true, "female_scared"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "No worries, is it something I can help with?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&6&lGreta": "My poor Purrloin went missing and I can't find her anywhere!",
-            "&6&lGreta": "She likes to hide in the grass...",
+            "&6&lGreta": "She likes to hide in the grass..."
+        },
+        90, true, true, "female_scared"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "We will split up and search together!"
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Find Greta's Purrloin hiding around Greenholm", 4],
@@ -371,10 +413,11 @@
         "Purrloin1": true
     },
     "HighlightClickEntity": "Purrloin1",
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "There you are! Time to get back to your trainer!"
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Return the Purrloin to Greta", 4],
@@ -383,32 +426,89 @@
         "Purrloin2": true
     },
     "HighlightClickEntity": "Tribe_Member2",
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Greta! I found her!",
-            "&6&lGreta": "OMG! Thank you! You're a lifesaver!",
+            "[PLAYER]": "Greta! I found her!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&6&lGreta": "OMG! Thank you! You're a lifesaver!"
+        },
+        90, true, true, "female_excited"
+    ],
+    "NewDialog": [
+        {
             "&6&lGreta": "See, I am one of the trainers of the tribe but sometimes, pokemon just do what they want!",
-            "&6&lGreta": "And we should let them. They have a mind for a reason.",
+            "&6&lGreta": "And we should let them. They have a mind for a reason."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "I agree. I should get going though. It was nice meeting you!"
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["See if you can meet another tribe member", 3],
     "HighlightClickEntity": "Tribe_Member3",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&6&lBeth": "Did I leave the door open?",
-            "&6&lBeth": "Oh well, I couldn't have answered the door anyway...",
-            "[PLAYER]": "What's up?",
+            "&6&lBeth": "Did I leave the door open?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "&6&lBeth": "Oh well, I couldn't have answered the door anyway..."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "What's up?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&6&lBeth": "I was working in my garden, planting some rose bushes when I sprained my ankle pretty badly.",
-            "&6&lBeth": "I was almost done too...",
-            "[PLAYER]": "Is there a lot that needs doing?",
-            "&6&lBeth": "No, I just have 3 flowers left that I need to put in my garden.",
-            "[PLAYER]": "Can I do it for you?",
+            "&6&lBeth": "I was almost done too..."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Is there a lot that needs doing?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&6&lBeth": "No, I just have 3 flowers left that I need to put in my garden."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Can I do it for you?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&6&lBeth": "Would you do that for me? That is so nice!",
-            "&6&lBeth": "I already indicated where the flowers should go with some podzol. If you click on it, you should be able to plant them.",
+            "&6&lBeth": "I already indicated where the flowers should go with some podzol. If you click on it, you should be able to plant them."
+        },
+        90, true, true, "female_excited"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "Alright, I will get to work!"
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Plant some flowers by clicking the sparkling podzol", 24],
@@ -426,10 +526,11 @@
     "SendMessage": "&7Flower 3/3",
     "PlaySound": "item_hoe_till",
     "Leave": "gen5_main_quest_6_tribe_flowers",
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oAll done! That looks great!"
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Fade": [],
@@ -447,16 +548,42 @@
     "Wait": 1,
     "EntityLookAtPlayer": "Tribe_Leader1",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "Heya there [PLAYER]!",
-            "&e&lAstrid": "Are you enjoying yourself?",
-            "[PLAYER]": "Yes! I am meeting so many cool people!",
-            "&e&lAstrid": "Great! If you're not busy, do you mind meeting me inside the Shrine?",
+            "&e&lAstrid": "Heya there [PLAYER]!"
+        },
+        70, true, false, "female_excited"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "Are you enjoying yourself?"
+        },
+        70, true, false, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "Yes! I am meeting so many cool people!"
+        },
+        90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "Great! If you're not busy, do you mind meeting me inside the Shrine?"
+        },
+        90, true, false, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "I have to show you something.",
-            "&e&lAstrid": "We installed a new Sewaddle puzzle in the shrine to block intruders but you will see when you get there.",
+            "&e&lAstrid": "We installed a new Sewaddle puzzle in the shrine to block intruders but you will see when you get there."
+        },
+        90, true, false, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "Alright! I'll see you there!"
-        }
+        },
+        90, true, false
     ],
     "Wait": 20,
     "MoveEntity": ["Tribe_Leader1", -363.0, 47.0, -51.3],
@@ -493,14 +620,15 @@
     "Wait": 10,
     "EntityLook": ["Tribe_Leader3", "player1"],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Thank you for meeting me... We have important matters to discuss.",
             "&e&lAstrid": "You see, recently, we’ve been watching over &f&lReshiram&r and &8&lZekrom&r.",
             "&e&lAstrid": "Both have been under our care to protect their powers from falling into the wrong hands...",
             "&e&lAstrid": "They both are incredibly powerful Pokémon, and if their power were to be abused...",
             "&e&lAstrid": "It would be detrimental to the balance of Zeinova."
-        }
+        },
+        90, true, false, "female_normal"
     ],
     "Wait": 40,
     "Show": {
@@ -510,32 +638,40 @@
     },
     "ProgressiveMoveEntity": ["Tribe_Member4", -336.3, 32.0, 58.0],
     "ProgressiveMoveEntity": ["Tribe_Member5", -338.5, 32.0, 59.5],
-    "Wait": 2,
     "MoveEntity": ["Tribe_Member6", -337.2, 32.0, 60.9],
+    "Wait": 10,
     "EntityLook": ["Tribe_Member4", "Tribe_Leader3"],
     "EntityLook": ["Tribe_Member5", "Tribe_Leader3"],
     "EntityLook": ["Tribe_Member6", "Tribe_Leader3"],
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lFatih": "Madame &eAstrid&r! Madame &eAstrid&r!"
-        }
+        },
+        90, true, false, "male_excited"
     ],
     "EntityLook": ["Tribe_Leader3", "Tribe_Member4"],
     "EntityLook": ["player1", "Tribe_Member4"],
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAnthony": "&3Statera&r is coming! Right now!",
             "&6&lBeth": "They’re coming for &8&lZekrom&r Madam."
-        }
+        },
+        90, true, false, "male_excited"
     ],
     "EntityLook": ["Tribe_Leader3", "player1"],
     "EntityLook": ["player1", "Tribe_Leader3"],
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "[PLAYER]! You have the strongest &dAura&r out of all of us, it is your Destiny to protect &f&lReshiram&r and &8&lZekrom&r.",
-            "&e&lAstrid": "You cannot let my brother near &8&lZekrom&r at any cost!",
+            "&e&lAstrid": "You cannot let my brother near &8&lZekrom&r at any cost!"
+        },
+        90, true, false, "female_angry"
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "We'll try to fend them off at the entrance!"
-        }
+        },
+        90, true, false, "female_normal"
     ],
     "Unfreeze": [],
     "Fade": [],
@@ -566,16 +702,18 @@
     "ProgressiveMoveEntity": ["Rival1", -339.0, 32.0, 59.5],
     "PlaySound": "Ambient_Cave",
     "Wait": 30,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oWhat was that?!"
-        }
+        },
+        90, true, true
     ],
 
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "I'm backkkk! Did you miss me?"
-        }
+        },
+        90, true, true, "female_excited"
     ],
     "Show": {
         "Rival1": false,
@@ -659,10 +797,11 @@
             }
         ]
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Go Ferrothorn!"
-        }
+        },
+        90, true, false, "female_angry"
     ],
     "Show": {
         "Ferrothorn": true
@@ -672,10 +811,11 @@
         "Health_Red": true
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Ferrothorn, use Metal Claw!"
-        }
+        },
+        90, true, false, "female_excited"
     ],
     "PlaySound": "block_anvil_land",
     "Wait": 30,
@@ -692,10 +832,11 @@
     },
     "SendMessage": "&7Battle Over. [PLAYER] lost.",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Haha! That was pathetic! You'll never defeat me!"
-        }
+        },
+        90, true, true, "female_excited"
     ],
     "HidePlayer": [],
     "Cinematic": [],
@@ -722,13 +863,14 @@
     "ShowPlayer": [],
     "Fade": [],
     "Teleport": [-321.5, 35.0, 59.5, 90, 0],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oHow does one recover from a loss?",
             "[PLAYER]": "&oHow does one carry the weight that falls on their shoulder that the ending will come so much sooner than planned?",
             "[PLAYER]": "&8&o&lZekrom&f&o was lost to &b&oStatera&f&o...",
             "[PLAYER]": "&oNow what?"
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "SendMessage": "&dDanielle&7 dropped some stuff when she left with &8&lZekrom&7.",
