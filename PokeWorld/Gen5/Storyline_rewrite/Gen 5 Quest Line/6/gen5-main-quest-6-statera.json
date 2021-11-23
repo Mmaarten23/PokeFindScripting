@@ -157,7 +157,10 @@
     },
     "CreateEntity": {
         "key": "Farmer1",
-        "name": "&2&lFarmer",
+        "name": [
+            "&2&lFarmer",
+            "&7Undercover Agent"
+        ],
         "location": {
             "x": 538.5,
             "y": 55.0,
@@ -227,7 +230,7 @@
     "Comment": "This script will be started by the H.A.P.P.Y. controller.",
     "NewDialog": [
         {
-            "&3H.A.P.P.Y": "Hey [PLAYER]! It’s H.A.P.P.Y! I’m glad you’ve chosen to stay with us! I will miss &dDanielle&r though..."
+            "&3H.A.P.P.Y": "Hey [PLAYER]! I’m glad you’ve chosen to stay with us! I will miss &dDanielle&r though..."
         },
         90, true, true, "male_normal"
     ],

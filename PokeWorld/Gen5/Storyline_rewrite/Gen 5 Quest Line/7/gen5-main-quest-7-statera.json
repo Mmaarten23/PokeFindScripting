@@ -160,42 +160,32 @@
     "HighlightClickEntity": [
         "Happy1"
     ],
-    "NotCompleted": [
-    ],
-    "Completed": [
-        "GYM7"
-    ],
+
+    "Comment": "This script will be started by the H.A.P.P.Y. controller.",
     "HasStoryTeam": "Statera",
     "Dialog": [
         {
-            "&3H.A.P.P.Y.": "Hey [PLAYER]! Nice to see you again! Wow, you've sure conquered quite the milestone, yaknow?!",
-            "&3H.A.P.P.Y": "&3Statera&r has been trying to bring &0Zekrom&r home for over &lTwo Decades&r!",
-            "&3H.A.P.P.Y": "&8Vidar&r must be so proud of you! You should head over to his office and speak with him!"
+            "&3H.A.P.P.Y.": "Welcome back [PLAYER]! I must congratulate you on your excellent leadership on the &8&lZekrom&r heist.",
+            "&3H.A.P.P.Y": "&3Statera&r has been trying to bring him home for over &ltwo decades&r!",
+            "&3H.A.P.P.Y": "&8&lVidar&r must be very proud of you. He requested you would come see him in his office."
         }
     ],
     "Wait": [
         20
     ],
-    "Objective": [
-        "Speak with Vidar",
-        3
-    ],
-    "HighlightClickEntity": [
-        "Statera_Leader1"
-    ],
+    "Objective": ["Speak with Vidar in his office on the third floor", 3],
+    "HighlightClickEntity": "Statera_Leader1",
     "Dialog": [
         {
-            "&8&lVidar": "Ah! There you are! Your latest mission was so successful!",
-            "&8&lVidar": "Will you join me in the lab? I want you to see what we have been working on all this time."
+            "&8&lVidar": "Ah! There you are [PLAYER]!",
+            "&8&lVidar": "Congratulations are in order. Your latest mission was unbelievably successful!",
+            "[PLAYER]": "I am happy &8&lZekrom&r is finally back home.",
+            "&8&lVidar": "Care to join me in our lab?",
+            "&8&lVidar": "I want you to see what we have been working on all this time."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Use the elevator to get to the Testing Labs on Floor 2",
-        6
-    ],
+    "Wait": 20,
+    "Objective": ["Get to the Testing Labs on Floor 2", 6],
     "Show": {
         "Statera_Leader1": false,
         "Statera_Leader2": true,
@@ -203,49 +193,63 @@
         "Testing_Assisstant1": true
     },
     "RegionEntry": [
-        84,
-        69,
-        345,
-        92,
-        73,
-        347
-    ],
-    "SendMessage": [
-        "&cThe lab is downstairs past the orange curtain on this floor."
-    ],
-    "HighlightClickEntity": [
-        "Statera_Leader2"
+        76, 68, 348,
+        80, 75, 343
     ],
     "Dialog": [
         {
-            "&8&lVidar": "We will be running some tests with &0Zekrom&r. These test will be used to see how different Pokémon change their behaviours while under &0Zekrom’s&r power.",
-            "[PLAYER]": "What type of tests?",
-            "&8&lVidar": "Well for example, if &0Zekrom&r feels threatened, will the Pokémon turn on their trainer? Will they stop obeying in battle?",
-            "&8&lVidar": "We will use your Pokémon and see how this goes. Stand on the diamond block with one Pokémon when you are ready!",
-            "&8&lVidar": "Your &dAura&r should have an effect on this as well."
+            "&8&lVidar": "Don't forget, to reach the lab, cross the bridge with the orange curtains to your right."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Stand on the diamond block in the Testing room (Make sure to only have 1 Pokémon!)",
-        25
-    ],
     "RegionEntry": [
-        97,
-        62,
-        330,
-        97,
-        63,
-        330
+        100, 70, 331,
+        100, 75, 335
     ],
-    "LimitParty": [
-        1,
+    "Wait": 20,
+    "Dialog": [
+        {
+            "&8&lVidar": "I am down here [PLAYER]."
+        }
+    ],
+    "HighlightClickEntity": "Statera_Leader2",
+    "Dialog": [
+        {
+            "&8&lVidar": "Welcome to the lab. Here we will be conducting our research on &8&lZekrom&r.",
+            "&8&lVidar": "These test will be used to see how different Pokémon change their behaviours while under &8&lZekrom&r’s power.",
+            "[PLAYER]": "What exactly do you mean by &otests&r?",
+            "&8&lVidar": "Well for example, if &8&lZekrom&r feels threatened, will the Pokémon turn on their trainer? Will they stop obeying in battle?",
+            "&8&lVidar": "We will use your Pokémon and see how this goes.",
+            "&8&lVidar": "Your &dAura&r should have an effect on this as well.",
+            "&8&lVidar": "Prepare for the first test. Make sure you only have 1 pokemon in your party."
+        }
+    ],
+    "MovEntity": ["Statera_Leader2", 99.2, 62.0, 332.6, 0.1, false],
+    "AnimateEntity": ["Statera_Leader2", "swing main hand"],
+    "SetBlock": [
+        98, 62, 333,
+        {
+            "material": "quartz_stairs",
+            "facing": "west"
+        },
         false
     ],
-    "Freeze": [
+    "PlaySound": "block_stone_place",
+    "Wait": 20,
+    "MoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
+    "Wait": 2,
+    "EntityLook": ["Statera_Leader2", 51],
+    "Dialog": [
+        {
+            "&8&lVidar": "Step in the safety cage when you are ready."
+        }
     ],
+    "Objective": ["Step into the safety cage in the Testing room (Make sure to only have 1 Pokémon!)", 25],
+    "RegionEntry": [
+        97, 62, 330,
+        97, 63, 330
+    ],
+    "LimitParty": [1, false],
+    "Freeze": [],
     "PartyPokemonEntity": [
         99.5,
         62.0,
@@ -326,7 +330,7 @@
             "&8&lVidar": "More than likely they’ve already made contact with &dDanielle&r as well, considering her &dAura&r.",
             "&8&lVidar": "Come [PLAYER], we have to move quickly.",
             "&8&lVidar": "It’s time to move into the final steps of our plan.",
-            "&8&lVidar": "&0Zekrom&r and &fReshiram&r are not the only two powerful Pokemon in Zeinova.",
+            "&8&lVidar": "&8&lZekrom&r and &f&lReshiram&r are not the only two powerful Pokemon in Zeinova.",
             "&8&lVidar": "'The Ultimate' is rumoured to be resting in the Frozen Island, and now with our research complete with &0Zekrom&r we will have the advantage to capture 'The Ultimate' and we will have the power we need to unite our lands!",
             "&8&lVidar": "&eAstrid&r can not stop us. Let’s go, [PLAYER]!"
         }
