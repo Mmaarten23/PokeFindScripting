@@ -192,6 +192,18 @@
         "skin": "danielle"
     },
     "CreateEntity": {
+        "key": "BattleRival",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": -340.0,
+            "y": 32.0,
+            "z": 59.5,
+            "yaw": -90,
+            "pitch": 0
+        },
+        "skin": "danielle"
+    },
+    "CreateEntity": {
         "key": "player1",
         "location": {
             "x": -331.6,
@@ -327,7 +339,7 @@
         "Zekrom_Pokeball": false
     },
     "HighlightClickEntity": "Captain1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAnthony": "Ah, you must be [PLAYER]. I am so happy you chose our side!",
             "&6&lAnthony": "We can surely use a strong trainer like you on our side.",
@@ -339,7 +351,7 @@
         90, true, true, "male_normal"
     ],
     "Wait": 20,
-    "Objective": ["Talk to the members of Sophro to see how you can help", 3],
+    "Objective": ["Talk to the members of Sophro", 3],
     "HighlightClickEntity": "Tribe_Member2",
     "Dialog": [
         {
@@ -353,18 +365,18 @@
         }
     ],
     "Wait": 20,
-    "Objective": ["Find the Greta's Purrloin hiding around Greenholm", 4],
+    "Objective": ["Find Greta's Purrloin hiding around Greenholm", 4],
     "Show": {
         "Purrloin1": true
     },
     "HighlightClickEntity": "Purrloin1",
     "Dialog": [
         {
-            "[PLAYER]": "There you are! Time to get back to your owner!"
+            "[PLAYER]": "There you are! Time to get back to your trainer!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Return the Purrloin back to Greta", 4],
+    "Objective": ["Return the Purrloin to Greta", 4],
     "Show": {
         "Purrloin1": false,
         "Purrloin2": true
@@ -427,12 +439,7 @@
     "Leave": "gen5_main_quest_6_tribe_flower2",
     "Leave": "gen5_main_quest_6_tribe_flower3",
     "Look": "Tribe_Leader1",
-    "MoveEntity": [
-        "Tribe_Leader1",
-        -358.5,
-        47.0,
-        -58.5
-    ],
+    "MoveEntity": ["Tribe_Leader1", -358.5, 47.0, -58.5],
     "Wait": 1,
     "EntityLookAtPlayer": "Tribe_Leader1",
     "Wait": 20,
@@ -440,7 +447,8 @@
         {
             "&e&lAstrid": "Heya there [PLAYER]!",
             "&e&lAstrid": "Are you enjoying yourself?",
-            "&e&lAstrid": "If you're not busy, do you mind meeting me inside the Shrine?",
+            "[PLAYER]": "Yes! I am meeting so many cool people!",
+            "&e&lAstrid": "Great! If you're not busy, do you mind meeting me inside the Shrine?",
             "&e&lAstrid": "I have to show you something.",
             "&e&lAstrid": "We installed a new Sewaddle puzzle in the shrine to block intruders but you will see when you get there."
         }
@@ -462,11 +470,13 @@
     "ControlledTrack": "Sewaddle",
     "ProgressiveWall": [-465, 37, 58, -465, 34, 60, 3],
     "Show": {
-        "Tribe_Leader3": true,
-        "Sewaddle": false
+        "Tribe_Leader3": true
     },
     "Objective": ["Speak to Astrid at the end of the Shrine", 11],
     "HighlightClickEntity": "Tribe_Leader3",
+    "Show": {
+        "Sewaddle": false
+    },
     "Wait": 10,
     "HidePlayer": [],
     "Cinematic": [],
@@ -474,6 +484,7 @@
     "Teleport": [-333.0, 36.7, 53.4, -6, 29],
     "Freeze": true,
     "Show": "player1",
+    "EntityLook": ["Tribe_Leader3", "player1"],
     "Wait": 10,
     "Dialog": [
         {
@@ -490,9 +501,9 @@
         "Tribe_Member5": true,
         "Tribe_Member6": true
     },
-    "ProgressiveMoveEntity": ["Tribe_Member4", -338.3, 32.0, 58.0],
-    "ProgressiveMoveEntity": ["Tribe_Member5", -340.5, 32.0, 59.5],
-    "MoveEntity": ["Tribe_Member6", -339.2, 32.0, 60.9],
+    "ProgressiveMoveEntity": ["Tribe_Member4", -336.3, 32.0, 58.0],
+    "ProgressiveMoveEntity": ["Tribe_Member5", -338.5, 32.0, 59.5],
+    "MoveEntity": ["Tribe_Member6", -337.2, 32.0, 60.9],
     "Dialog": [
         {
             "&6&lFatih": "Madame &eAstrid&r! Madame &eAstrid&r!"
@@ -505,7 +516,7 @@
             "&6&lBeth": "They’re coming for &8&lZekrom&r Madam."
         }
     ],
-    "EntityLookAtPlayer": "Tribe_Leader3",
+    "EntityLook": ["Tribe_Leader3", "player1"],
     "Dialog": [
         {
             "&e&lAstrid": "[PLAYER]! You have the strongest &dAura&r out of all of us, it is your Destiny to protect &f&lReshiram&r and &8&lZekrom&r.",
@@ -529,8 +540,11 @@
     "Wait": 20,
     "Objective": ["Protect Zekrom from the Company", 14],
     "Teleport": [-321.5, 35.0, 59.5, 90, 0],
-    "Freeze": [],
+    "Freeze": true,
     "Wait": 40,
+    "Show": {
+        "Rival1": true
+    },
     "PlaySound": [
         "entity_dragon_fireball_explode"
     ],
@@ -544,17 +558,16 @@
             "&d&lDanielle": "I'm backkkk! Did you miss me?"
         }
     ],
+    "MoveEntity": ["Rival1", -340.0, 32.0, 59.5],
     "Show": {
-        "Rival1": true
+        "Rival1": false,
+        "BattleRival": true
     },
-    "Look": [
-        "Rival1"
-    ],
     "Unfreeze": [],
     "Objective": ["Battle Danielle to protect Zekrom and Reshiram", 20],
-    "HighlightClickEntity": "Rival1",
+    "HighlightClickEntity": "BattleRival",
     "AutoBattleNpc": [
-        "Rival1",
+        "BattleRival",
         {
             "&d&lDanielle": "So [PLAYER], you think you can stop me?",
             "&d&lDanielle": "I have to take &0Zekrom&r back to &8Vidar&r and you will not stand in my way!"
@@ -654,61 +667,35 @@
         "Health_Dead": true,
         "Zekrom_Pokeball": true
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Health_Red": false,
         "Health_Dead": false,
         "Zekrom_Pokeball": true
     },
-    "SendMessage": [
-        "&7Battle Over"
-    ],
-    "Wait": [
-        20
-    ],
+    "SendMessage": "&7Battle Over",
+    "Wait": 20,
     "Dialog": [
         {
             "&d&lDanielle": "Haha! That was pathetic! You'll never defeat me!"
         }
     ],
-    "Teleport": [
-        -313.5,
-        35.0,
-        54.5,
-        0,
-        0
-    ],
+    "Teleport": [-313.5, 35.0, 54.5, 0, 0],
     "Show": {
-        "Rival1": false,
+        "BattleRival": false,
         "Rival2": true
     },
-    "Freeze": [
-    ],
-    "MoveEntity": [
-        "Rival2",
-        -313.5,
-        35.0,
-        59.5
-    ],
-    "Wait": [
-        20
-    ],
+    "Freeze": [],
+    "MoveEntity": ["Rival2", -313.5, 35.0, 59.5],
+    "Wait": 20,
     "Show": {
         "Zekrom_Pokeball": false
     },
-    "MoveEntity": [
-        "Rival2",
-        -320.5,
-        35.0,
-        59.5
-    ],
+    "MoveEntity": ["Rival2", -320.5, 35.0, 59.5],
     "Show": {
         "Rival2": false
     },
-    "Unfreeze": [
-    ],
+    "Unfreeze": [],
     "Dialog": [
         {
             "[PLAYER]": "How does one recover from a loss?",
