@@ -661,7 +661,7 @@
     "Show": {
         "Ferrothorn": true
     },
-    "PartyPokemonEntity": [-334.6, 32.0, 59.5, 90, 1, 10.0],
+    "PartyPokemonEntity": [-334.6, 32.0, 59.5, 90, 1, 5.5],
     "Show": {
         "Health_Red": true
     },
@@ -678,7 +678,7 @@
         "Health_Dead": true,
         "Zekrom_Pokeball": true
     },
-    "Wait": 20,
+    "Wait": 60,
     "Show": {
         "Health_Red": false,
         "Health_Dead": false,
@@ -694,7 +694,8 @@
     "Teleport": [-313.5, 35.0, 54.5, 0, 0],
     "Show": {
         "BattleRival": false,
-        "Rival2": true
+        "Rival2": true,
+        "Ferrothorn": false
     },
     "Freeze": [],
     "MoveEntity": ["Rival2", -313.5, 35.0, 59.5],
