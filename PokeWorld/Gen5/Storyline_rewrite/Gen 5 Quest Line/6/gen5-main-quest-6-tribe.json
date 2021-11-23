@@ -277,7 +277,7 @@
         ],
         "location": {
             "x": -334.6,
-            "y": 32.0,
+            "y": 31.8,
             "z": 59.5,
             "yaw": 90,
             "pitch": 0
@@ -293,7 +293,7 @@
         ],
         "location": {
             "x": -334.6,
-            "y": 32.0,
+            "y": 31.8,
             "z": 59.5,
             "yaw": 90,
             "pitch": 0
@@ -709,7 +709,7 @@
     },
     "MoveEntity": ["Rival2", -314.5, 35.0, 59.5, 0.1, false],
     "Wait": 20,
-    "MoveEntity": ["Zekrom_Pokeball", -312.5, 36.0, 59.5, 0.1, false],
+    "MoveEntity": ["Zekrom_Pokeball", -314.5, 36.0, 59.5, 0.1, false],
     "Show": {
         "Zekrom_Pokeball": false
     },
