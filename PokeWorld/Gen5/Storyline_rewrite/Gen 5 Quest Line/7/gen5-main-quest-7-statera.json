@@ -30,7 +30,7 @@
         "location": {
             "x": 77.5,
             "y": 77.5,
-            "z": 331.0,
+            "z": 330.4,
             "yaw": 0,
             "pitch": 0
         },
@@ -77,10 +77,10 @@
         "key": "Informant1",
         "name": "&8&lStatera Informant",
         "location": {
-            "x": 96.5,
-            "y": 65.0,
+            "x": 96.0,
+            "y": 64.0,
             "z": 336.5,
-            "yaw": 199,
+            "yaw": -180,
             "pitch": 0
         },
         "skin": {
@@ -270,7 +270,7 @@
         }
     ],
 
-    "PartyPokemonEntity": [100.5, 62.0, 333.5, -90, 1, 10.0],
+    "PartyPokemonEntity": [100.5, 62.0, 333.5, -90, 1, 11.0],
     "Dialog": [
         {
             "[PLAYER]": "Attack!"
@@ -284,9 +284,17 @@
         }
     ],
     "PlaySound": ["ENTITY_ENDERMAN_SCREAM", 0.5],
-    "Potion": ["Blindness", 140],
+    "StrikeLightning": [98.0, 63.0, 333.5],
+    "Potion": ["Blindness", 200],
     "Wait": 5,
-    "PlaySound": ["ENTITY_ENDERMAN_SCREAM", 0.5],
+    "PlaySound": ["block_glass_break", 0.5],
+    "StrikeLightning": [97.5, 63.0, 333.5],
+    "PartyPokemonEntity": [99.0, 63.0, 333.5, 90, 1, 2.0],
+    "Wait": 10,
+    "StrikeLightning": [97.5, 63.0, 333.5],
+    "Wait": 10,
+    "PlaySound": ["block_bell_resonate", 0.5],
+    "Wait": 5,
     "Dialog": [
         {
             "&8&lVidar": "&lWATCH OUT!"
@@ -298,7 +306,9 @@
     },
     "Fade": [],
     "Teleport": [101.1, 62.0, 330.3, -109, 0],
-    "Wait": 80,
+    "Wait": 40,
+    "Fade": [],
+    "Wait": 40,
     "Unfreeze": [],
     "Dialog": [
         {
@@ -313,10 +323,13 @@
     "Show": {
         "Statera_Informant1": true
     },
-    "Look": [
-        "Informant1"
-    ],
-    "MoveEntity": ["Informant1", 96.5, 62.0, 333.5],
+    "Look": "Statera_Informant1",
+    "MoveEntity": ["Statera_Informant1", 96.0, 62.0, 334.3, 0.25, false],
+    "EntityLook": ["Statera_Leader2", "Statera_Informant1", 10],
+    "MoveEntity": ["Statera_Informant1", 96.0, 62.0, 331.6, 0.25, false],
+    "Wait": 1,
+    "EntityLook": ["Statera_Informant1", "Statera_Leader2"],
+
     "Dialog": [
         {
             "&3Member": "Sir! We have a problem...",
