@@ -91,18 +91,22 @@
     },
     "CreateEntity": {
         "key": "Testing_Assistant1",
-        "name": "&8&lStatera Member",
+        "name": [
+            "&3&lJerome",
+            "&7Statera Lab Tech"
+        ],
         "location": {
-            "x": 100.5,
-            "y": 63.0,
-            "z": 337.5,
-            "yaw": 180,
+            "x": 101.5,
+            "y": 62.5,
+            "z": 336.5,
+            "yaw": 3,
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzc1Nzk1MDIwMSwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMTk3ZTMxOTFhODkyMTc2ZTAwOGQ3YzlkMzEzZTM2NGFlM2UwMzAwNjAwM2E2ZjViODdmMGJmZTU0N2M0Mjc1IgogICAgfQogIH0KfQ==",
+            "signature": "BhQVJEJUdX/OqcCiJSwQ1/XJPIphLd2/h6mUZqkd7CAj4bOPrvzewmW7MnnGR7F795JqnZbFukvxOWRVsXaXM2X2pm0I1QiXbbvp1IZ5xU2YcP4WZikTG5UuD+gEEeCliSQmYJE2JCrbxwpNpbF34XQpWA+qt99oz7ADe861tkk1ZfaF/qfSAckv3Ih5bxzbMHG4lVDZLRtU7if+wbwhfrpf0mmgPsvOywmd6nvyztmMrwL8OD0xrW+sSExnuxh6z3WBrrlbZ560cJh5BStItVwmwWCEoV9nLd+6bnzY2bJUsbzY1zQhZ8SugbX97jxy8uV7Lj4WUYs1qqumWB/7rfo/n0NgqsQi13DyOK7BEu/iuwOx/iLqL+W2K4DQPB9UPB85focBAe8VyJb1KnU2EuXk2n6NVANPVLT38OaIgXut6IsacoCV942Bx+6KYvL6tZwaO8lhxnGrClnUTYe3+EmFB1z2sSnVRjd9vLpVOefJcO4pHvUSwe2SpOsB4VycyVUa+J0JsKw74+m77Z3Ut/kVV/9GbNHBan7yDDvXt5J4Ewj1BnD2bdNZCFo3FWCek5QiBy5LLR4B4RG52qMRbN236pUFkGzb0IfL39jIApeZS0uT373F4XTksvD4hFehfnuNzo/J4NQx8lH+T5JTFpc/AtYdCK5B0JAkUlmJih0="
         },
+        "sitting": true,
         "look": false
     },
     "CreateEntity": {
@@ -201,7 +205,7 @@
         "Statera_Leader1": false,
         "Statera_Leader2": true,
         "Zekrom1": true,
-        "Testing_Assisstant1": true
+        "Testing_Assistant1": true
     },
     "RegionEntry": [
         100, 70, 331,
@@ -279,10 +283,10 @@
             "[PLAYER]": "..."
         }
     ],
-    "PlaySound": ["entity_item_break", 0.2, 1.0],
-    "Potion": ["Blindness", 108],
-    "Wait": 3,
-    "PlaySound": ["ENTITY_ENDERMAN_SCREAM",  0.5],
+    "PlaySound": ["ENTITY_ENDERMAN_SCREAM", 0.5],
+    "Potion": ["Blindness", 140],
+    "Wait": 5,
+    "PlaySound": ["ENTITY_ENDERMAN_SCREAM", 0.5],
     "Dialog": [
         {
             "&8&lVidar": "&lWATCH OUT!"
@@ -293,7 +297,7 @@
         "Zekrom1": false
     },
     "Fade": [],
-    "Teleport": [101.1,62.0,330.3, -109, 0],
+    "Teleport": [101.1, 62.0, 330.3, -109, 0],
     "Wait": 80,
     "Unfreeze": [],
     "Dialog": [
@@ -305,16 +309,14 @@
             "&8&lVidar": "They saw you wanted to attack &8&lZekrom&r so they attacked you instead..."
         }
     ],
-    "Wait":
-        20
-    ,
+    "Wait": 20,
     "Show": {
         "Statera_Informant1": true
     },
     "Look": [
         "Informant1"
     ],
-    "MoveEntity": [        "Informant1",        96.5,        62.0,        333.5    ],
+    "MoveEntity": ["Informant1", 96.5, 62.0, 333.5],
     "Dialog": [
         {
             "&3Member": "Sir! We have a problem...",
