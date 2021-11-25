@@ -1,0 +1,21 @@
+{
+    "Key": "pokegeartest",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "Zekrom_Pokeball",
+        "name": "Pokegear",
+        "location": {
+            "x": 54.8,
+            "y": 56.0,
+            "z": 336.2,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "helmet": {
+            "material": "pokegear"
+        },
+        "entity": "Armor Stand",
+        "visible": true
+    }
+}

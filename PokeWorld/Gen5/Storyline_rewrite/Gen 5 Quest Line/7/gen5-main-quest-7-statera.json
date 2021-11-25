@@ -38,8 +38,7 @@
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
             "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
         },
-        "sitting": true,
-        "look": false
+        "sitting": true
     },
     "CreateEntity": {
         "key": "Statera_Leader2",
@@ -57,8 +56,7 @@
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
             "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
-        },
-        "look": false
+        }
     },
     "CreateEntity": {
         "key": "Zekrom1",
@@ -75,7 +73,10 @@
     },
     "CreateEntity": {
         "key": "Informant1",
-        "name": "&8&lStatera Informant",
+        "name": [
+            "&3&lEvan",
+            "&7Statera Member"
+        ],
         "location": {
             "x": 96.0,
             "y": 64.0,
@@ -84,8 +85,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkxMzcxNjQwOSwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY4YzE1YWE4NGRkOTlmZWFlMWJiYTZiYTMyODcxOGJjY2FiOTU4MGE4NzExMGM0MWZmMTU1MzhiM2I0OTNjOCIKICAgIH0KICB9Cn0=",
+            "signature": "keG+pBnZkqwYJwrHBsiawjjAZkaiD7dSzUHctbpqj9m4fCDxNVa3zt1MSWtSYo7oZu3+nUACacXEjdpaKA1AsJbK7By5kVfSg+JfRWJb93ac1QcysduOZt6mkhiHj75o0CUKnph/7RPxlgE5ci2AROa2y9GQkWWlEo8I0eykZxlAY+tWVWiMYfFXYK4eHENzhE4XnNS0GJDSJgOCOodFkTSNnI3Co867qpo149ccnGHp9cZUCXJLaPKSYJKnEzYGxBk//Y4UYuqW2NSjMmEPgvjXElmL0D9k9/M+sHaZASgOPNQIOBfODS7lK4HWJWlgV79IuzaMwMQs7HUEu6ohXDw/SVmj+dsOOfL4cIkEUw0SQYHhzHKOCKJ2MTuJrSuw5QF8NbKkJ/2n59RV/d9H7DgKgDvIDkGPo8KiJ0dwY0NuZfB3EPdd+JWUa+d72thvMf8SU3ElW4SgO/TMOZLI99gi9XjsALReBW2+OEz6UivKRBaopm886V7wTquXNyfNqH2TF7jf6YgDPQLnaLJr6+FXmGr4Rh8rsv2gXXm3h1qMmXGVrM1bFhRcVS581roTA9dwG0Ca4ivZawH9JoU3mcrNxdqyfRcOPXEUrUvU6WXp/m9HVa6r5JGRVmMJ/tqgrvPU0tBHwg2yDxRMMfKgUiJEy5x9YeBSJAs2HHmzj70="
         },
         "look": false
     },
@@ -149,6 +150,42 @@
         "sleeping": true,
         "look": false
     },
+    "CreateEntity": {
+        "key": "broadcast1",
+        "location": {
+            "x": 73.5,
+            "y": 61.0,
+            "z": 346.5,
+            "yaw": 148,
+            "pitch": 46
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODc0NzIwMCwKICAicHJvZmlsZUlkIiA6ICI4YjgyM2E1YmU0Njk0YjhiOTE0NmE5MWRhMjk4ZTViNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXBoaXRpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjE0ZTg1YzQ2YTgwMjQwY2VhODcxMDI1NGQ0YjFiNjZjZTNjMGQ0YjBhMjhkN2FjYWM1MzQzOTgwOTM1NWQ3IgogICAgfQogIH0KfQ==",
+            "signature": "yWeXNRwJh0+t3LdCGAXsctati2Tk5Ag17zriep4uiMidmcSn17vPS14Nt7MDs+aYM+hWZ3+XVy0oMCZLrhh8yfu4I/NEcTlHDustG2vVqm0PKWXF3xKmEInz/oMw+yyWYa0LPskVUSCjUoFllfHa5mYboWbx0Qc6S46gM0WTMB9xaV6nx95Og3+3jRZvWG5jNkMBTzq94p1qQqWTKlG8r9oyp4BPLDcVPffWiczUUVXVY2BPgLkJIqusK+HvrEzjclld3VYALWBFaLF5jYENmPJ0SD1mrWzCKB+4T3DCrJjTyPmDpmuy6HXttCXlGdavCs/DpPS3kUNhX7dWaRgCjcANBbFTDTSvVFld6X9rfm1rf5t2fOrvjd3jcDLpcnpFIH1cQKUHElXYdZMqZiAZIJZlR5vNgeF24t+XqZ5fGxPFo63TgCdGMs00zr0gAnA/e5bXz+p89ZScEgktTQcYiXxzN1IWEt7KlGgNrt2SntKbVRbuTpbxNfy/Bf5KK5VgkQT+1g4oE73szriKIxiE0oZIwyvPKUNrIMj5ohPv+6ECfZK+S1Ux1L3xbhJ7BTDKzCht0qVfvk9fsy7LKTwc+Ik4874PMiUTCqzRVvOy/vLSE8L/cDf7iQipzkLlN6vYa28qZLDsDKwRjt6UIyUxk9wzw3adY7sJIYjg7I8pBpM="
+        },
+        "look": false,
+        "hand": {
+            "material": "pokegear"
+        }
+    },
+    "CreateEntity": {
+        "key": "broadcast2",
+        "location": {
+            "x": 71.5,
+            "y": 61.0,
+            "z": 345.5,
+            "yaw": -90,
+            "pitch": 31
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODgxMzMyNSwKICAicHJvZmlsZUlkIiA6ICI4ODBiZWMwYTE0MmM0YzRlYTJlZjliMTFiMTBkNWNiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmZ2FiIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlODUwNzY1YjlhMzVkOWRjNmQ1M2Y3ZTM1ZjYzODU5NjhjOTc4MDE1MDJjZmFhMmRhNjg3ZjVjYTE2NWQyZWQiCiAgICB9CiAgfQp9",
+            "signature": "xs9WOJU4r4pIMSXv4CvAQjHFqjaz70fSDAqrACQq9i7sWEKNVkSz1KlAxIZ4sU6/1K/zSUGnosaowFUyH8IVM6qOFryueZa2NaKYdCfs1fQEgpdgHgTv2+Uq4ssE/AjHNvXqEFsaIax/Dt+95FvdkZjPclWlTOREWjvkVma2Pv4aiSh6jOINIYc5wmBsmObe3H2ypk9UKHgKU8ETMi96iIDNdYT4NVGt4lLe4nyF0GcdLudRN9C+MDLiJJ2G0pcytJqZq9NpNql5Qv//JItvoFY3o64rouWzz5arzSjM3m2QcV3rZG6rOcIYLovnQtvDluUHoAud3/wbGx8AfNq1SnpPnZ4bhyRDRxFnI/ZS7ssFcONSFRpXSMhPi+q1muUwTRomjor0D6rZA6EVot923cgAvjVlEoDAO3/2e2Nck4pB4EcjelaF3LcNetY4Td810wjbCcA3NsQMy13WnzgZwO119puZjN69s2ZiHUvNjWelbKQSb/RonfJATkGM/rSk5YmYJAOj0K1ySVuJ5Ryd+R3zczVRUJ5f3CWHjz0FNcVAsJHwY5mWGaFx2jTjVenVeWwt7Z5zIwCxS4b8COhKm8l6Wwg507Hb0pyi5k0c2hEJNvSnNk+nOx17iOcw72UnTqmIlH5Ut0KNiOiY7jwKQQP0YIQ1qYhd31qwQ87S5lM="
+        },
+        "look": false,
+        "hand": {
+            "material": "pokegear"
+        }
+    },
     "Show": {
         "Happy1": true,
         "Statera_Leader1": false,
@@ -158,7 +195,9 @@
         "Testing_Assistant1": false,
         "Rival1": false,
         "Rival2": false,
-        "Rival3": false
+        "Rival3": false,
+        "broadcast1": false,
+        "broadcast2": false
     },
     "Quest": true,
     "HighlightClickEntity": [
@@ -257,6 +296,8 @@
     "LimitParty": [1, false],
     "Teleport": [97.5, 63.0, 333.5, -90, 16],
     "Freeze": [],
+    "Wait": 1,
+    "Teleport": [97.5, 63.0, 333.5, -90, 16],
     "MoveEntity": ["Statera_Leader2", 99.2, 62.0, 332.6, 0.1, false],
     "AnimateEntity": ["Statera_Leader2", "swing main hand"],
     "SetBlock": [98, 62, 333, "air", false],
@@ -321,45 +362,127 @@
     ],
     "Wait": 20,
     "Show": {
-        "Statera_Informant1": true
+        "Informant1": true
     },
-    "Look": "Statera_Informant1",
-    "MoveEntity": ["Statera_Informant1", 96.0, 62.0, 334.3, 0.25, false],
-    "EntityLook": ["Statera_Leader2", "Statera_Informant1", 10],
-    "MoveEntity": ["Statera_Informant1", 96.0, 62.0, 331.6, 0.25, false],
     "Wait": 1,
-    "EntityLook": ["Statera_Informant1", "Statera_Leader2"],
+    "Look": "Informant1",
+    "MoveEntity": ["Informant1", 96.0, 62.0, 334.3, 0.2, false],
+    "EntityLook": ["Statera_Leader2", "Informant1"],
+    "MoveEntity": ["Informant1", 96.0, 62.0, 331.6, 0.2, false],
+    "EntityLook": ["Statera_Leader2", "Informant1"],
+    "Wait": 1,
+    "EntityLook": ["Informant1", "Statera_Leader2"],
 
     "Dialog": [
         {
-            "&3Member": "Sir! We have a problem...",
-            "&3Member": "H.A.P.P.Y detected some new arrivals coming through the sea-line.",
-            "&3Member": "&3Cobalion&r left our trackers and our &5Crobats&r lost sight of the others.",
+            "&3&lEvan": "Sir! We have a problem...",
+            "&3&lEvan": "H.A.P.P.Y detected some new arrivals coming through the sea-line.",
+            "&3&lEvan": "&3Cobalion&r left our trackers and our &5Crobats&r lost sight of the others.",
             "&8&lVidar": "&3Cobalion&r huh? So the Swords of Justice have made an appearance then.",
-            "&8&lVidar": "&eAstrid&r must have called to them. This really throws a wrench in our plans.",
-            "&8&lVidar": "More than likely they’ve already made contact with &dDanielle&r as well, considering her &dAura&r.",
-            "&8&lVidar": "Come [PLAYER], we have to move quickly.",
-            "&8&lVidar": "It’s time to move into the final steps of our plan.",
-            "&8&lVidar": "&8&lZekrom&r and &f&lReshiram&r are not the only two powerful Pokemon in Zeinova.",
-            "&8&lVidar": "'The Ultimate' is rumoured to be resting in the Frozen Island, and now with our research complete with &0Zekrom&r we will have the advantage to capture 'The Ultimate' and we will have the power we need to unite our lands!",
-            "&8&lVidar": "&eAstrid&r can not stop us. Let’s go, [PLAYER]!"
+            "&8&lVidar": "&eAstrid&r must have called to them. This really throws a wrench in our plans."
         }
     ],
+    "ProgressiveMoveEntity": ["Statera_Leader2", 100.5, 62.0, 329.5, 0.1, false],
+    "Dialog": [
+        {
+            "&8&lVidar": "More than likely they’ve already made contact with &dDanielle&r as well, considering her &dAura&r..."
+        }
+    ],
+    "ProgressiveMoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
+    "Dialog": [
+        {
+            "&8&lVidar": "It’s time to move into the final steps of our plan."
+        }
+    ],
+    "ProgressiveMoveEntity": ["Statera_Leader2", 100.5, 62.0, 329.5, 0.1, false],
+    "Dialog": [
+        {
+            "&8&lVidar": "&8&lZekrom&r and &f&lReshiram&r are not the only two powerful Pokemon in Zeinova."
+        }
+    ],
+    "ProgressiveMoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
+    "Dialog": [
+        {
+            "&8&lVidar": "'The Ultimate' is rumoured to be resting in the Frozen Island."
+        }
+    ],
+    "ProgressiveMoveEntity": ["Statera_Leader2", 100.5, 62.0, 329.5, 0.1, false],
+    "Dialog": [
+        {
+            "&8&lVidar": "With our current research on &8&lZekrom&r we should be able to capture 'The Ultimate'."
+        }
+    ],
+    "ProgressiveMoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
+    "Dialog": [
+        {
+            "&8&lVidar": "It will give us the power to Unite the lands.",
+            "&8&lVidar": "&eAstrid&r can not stop us. Let’s go to my office, [PLAYER]! No time to waste!"
+        }
+    ],
+    "RelativeTeleport": [0.0, 0.1, 0.0],
+    "Fade": [],
+    "Objective": ["Meet Vidar in his office", 2],
+    "Show": {
+        "Statera_Leader1": true,
+        "Statera_Leader2": false,
+        "Informant1": false
+    },
+    "HighlightClickEntity": "Statera_Leader1",
     "Wait": [
         20
     ],
     "Dialog": [
         {
-            "&cPokéGear": "Ring Ring... Ring Ring...",
-            "&3H.A.P.P.Y": "Attention all &3Stratera&r Employees! H.A.P.P.Y here! We have a special announcement from our CEO, &8Vidar!",
-            "&8&lVidar": "It is no frilly promise or a hand to show you the hopes and dreams for the future, that I have for you today.",
-            "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a great War, with &6Sophro&r standing in our way.",
-            "&8&lVidar": "Thank you all, for the years you’ve stood with me. This will not be easy, but what we have taken over two decades to achieve, will be worth it.",
-            "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. Our final step, will not be our battle however.",
-            "&8&lVidar": "Everyone! Lend your wishes, and dreams, and hopes to [PLAYER]!",
-            "&3H.A.P.P.Y.": "Thank you everyone! H.A.P.P.Y ending transmission."
+            "&8&lVidar": "It is time to inform the other &3Statera&r members.",
+            "&8&lVidar": "&3H.A.P.P.Y.&r! Create a secure connection! Broadcast my message to all members.",
+            "&3H.A.P.P.Y": "Of course sir."
         }
     ],
+    "Start": "song_call",
+    "Wait": 10,
+    "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &bStatera HQ&r is trying to reach you.\n\n",
+    "SendMessageOptions": ["&aAccept"],
+    "Leave": "song_call",
+    "Freeze": true,
+    "Wait": 1,
+    "Teleport": [80.1, 77.1, 335.2, 151, 7],
+    "Dialog": [
+        {
+            "&3H.A.P.P.Y": "Attention all &3Stratera&r Employees! Your favourite robossistant H.A.P.P.Y here! We have a special announcement from our CEO, &8&lVidar!",
+            "&8&lVidar": "Dear colleagues, friends, family,"
+        }
+    ],
+    "Start": "song_countdown",
+    "Show": {
+        "broadcast1": true,
+        "broadcast2": true
+    },
+    "Fade": [],
+    "Teleport": [74.7, 63.7, 342.3, 30, 41],
+    "Dialog": [
+        {
+            "&8&lVidar": "It is with great pleasure that I address you all today."
+        },90
+    ],
+    "Show": {
+        "broadcast1": false,
+        "broadcast2": false
+    },
+    "Fade": [],
+    "Teleport": [74.7, 63.7, 342.3, 30, 41],
+    "Dialog": [
+        {
+            "&8&lVidar": "For years, we have been working towards unity in the region and today is the day.",
+            "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a Great War, with &6Sophro&r standing in our way.",
+            "&8&lVidar": "Thank you all, for the years you’ve stood with me. This will not be easy, but 20 years of research has prepared us for it.",
+            "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however.",
+            "&8&lVidar": "Standing right beside us in this last effort is none other than [PLAYER]!",
+            "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there.",
+            "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!",
+            "&3H.A.P.P.Y.": "Thank you everyone! Ending broadcast."
+        },90
+    ],
+
     "Wait": [
         20
     ],
