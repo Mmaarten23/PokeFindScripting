@@ -443,26 +443,30 @@
     "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &bStatera HQ&r is trying to reach you.\n\n",
     "SendMessageOptions": ["&aAccept"],
     "Leave": "song_call",
-    "Freeze": true,
-    "Wait": 1,
     "Teleport": [80.1, 77.1, 335.2, 151, 7],
+    "Wait": 1,
+    "Freeze": true,
     "Dialog": [
         {
             "&3H.A.P.P.Y": "Attention all &3Stratera&r Employees! Your favourite robossistant H.A.P.P.Y here! We have a special announcement from our CEO, &8&lVidar!",
             "&8&lVidar": "Dear colleagues, friends, family,"
-        }
+        }, 110
     ],
     "Start": "song_countdown",
     "Show": {
         "broadcast1": true,
         "broadcast2": true
     },
+    "Unfreeze": [],
+    "Wait": 1,
     "Fade": [],
     "Teleport": [74.7, 63.7, 342.3, 30, 41],
+    "Wait": 1,
+    "Freeze": true,
     "Dialog": [
         {
             "&8&lVidar": "It is with great pleasure that I address you all today."
-        },90
+        },150
     ],
     "Show": {
         "broadcast1": false,
@@ -480,7 +484,7 @@
             "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there.",
             "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!",
             "&3H.A.P.P.Y.": "Thank you everyone! Ending broadcast."
-        },90
+        },150
     ],
 
     "Wait": [
