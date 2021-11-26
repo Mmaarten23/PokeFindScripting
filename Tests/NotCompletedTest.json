@@ -1,0 +1,8 @@
+{
+    "Key": "notcompletedtest",
+    "NotCompleted": [],
+
+    "HighlightClick": "boop",
+    "SendMessage": "booped!",
+    "Complete": []
+}
