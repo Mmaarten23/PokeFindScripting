@@ -151,7 +151,7 @@
         "look": false
     },
     "CreateEntity": {
-        "key": "broadcast1",
+        "key": "broadcast1_left",
         "location": {
             "x": 73.5,
             "y": 61.0,
@@ -169,7 +169,7 @@
         }
     },
     "CreateEntity": {
-        "key": "broadcast2",
+        "key": "broadcast1_right",
         "location": {
             "x": 71.5,
             "y": 61.0,
@@ -187,7 +187,7 @@
         }
     },
     "CreateEntity": {
-        "key": "broadcast3",
+        "key": "broadcast3_bathing",
         "location": {
             "x": 52.8,
             "y": 72.5,
@@ -203,7 +203,7 @@
         "sitting": true
     },
     "CreateEntity": {
-        "key": "broadcast4",
+        "key": "broadcast3_pokegear",
         "entity": "armor_stand",
         "location": {
             "x": 53.8,
@@ -215,7 +215,7 @@
         "helmet": "pokegear"
     },
     "CreateEntity": {
-        "key": "broadcast5",
+        "key": "broadcast2_right",
         "location": {
             "x": 98.6,
             "y": 54.3,
@@ -231,7 +231,7 @@
         "sitting": true
     },
     "CreateEntity": {
-        "key": "broadcast6",
+        "key": "broadcast2_left",
         "location": {
             "x": 100.4,
             "y": 54.3,
@@ -247,7 +247,7 @@
         "sitting": true
     },
     "CreateEntity": {
-        "key": "broadcast7",
+        "key": "broadcast2_pokegear",
         "entity": "armor_stand",
         "location": {
             "x": 99.5,
@@ -259,7 +259,7 @@
         "helmet": "pokegear"
     },
     "CreateEntity": {
-        "key": "broadcast8",
+        "key": "broadcast4_cashier",
         "location": {
             "x": 35.1,
             "y": 51.0,
@@ -277,7 +277,7 @@
         "look": false
     },
     "CreateEntity": {
-        "key": "broadcast9",
+        "key": "broadcast4_client",
         "location": {
             "x": 38.5,
             "y": 51.0,
@@ -294,6 +294,82 @@
         },
         "look": false
     },
+    "CreateEntity": {
+        "key": "broadcast5_left",
+        "location": {
+            "x": -26.5,
+            "y": 51.0,
+            "z": 224.1,
+            "yaw": -152,
+            "pitch": 2
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
+            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+        },
+        "hand": {
+            "material": "pokegear"
+        },
+        "look": false,
+        "sittiing": true
+    },
+    "CreateEntity": {
+        "key": "broadcast5_right",
+        "location": {
+            "x": -25.5,
+            "y": 50.5,
+            "z": 222.1,
+            "yaw": 10,
+            "pitch": 2
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
+            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+        },
+        "hand": {
+            "material": "pokegear"
+        },
+        "look": false,
+        "sittiing": true
+    },
+    "CreateEntity": {
+        "key": "broadcast6_right",
+        "location": {
+            "x": -16.5,
+            "y": 52.0,
+            "z": 332.5,
+            "yaw": 0,
+            "pitch": 15
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
+            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+        },
+        "hand": {
+            "material": "pokegear"
+        },
+        "look": false,
+        "sittiing": true
+    },
+    "CreateEntity": {
+        "key": "broadcast6_left",
+        "location": {
+            "x": -16.5,
+            "y": 52.0,
+            "z": 341.5,
+            "yaw": -180,
+            "pitch": 10
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
+            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+        },
+        "hand": {
+            "material": "pokegear"
+        },
+        "look": false,
+        "sittiing": true
+    },
 
     "Show": {
         "Happy1": true,
@@ -305,16 +381,17 @@
         "Rival1": false,
         "Rival2": false,
         "Rival3": false,
-        "broadcast1": false,
-        "broadcast2": false,
-        "broadcast3": false,
-        "broadcast4": false,
-        "broadcast5": false,
-        "broadcast6": false,
-        "broadcast7": false,
-        "broadcast8": false,
-        "broadcast9": false
-
+        "broadcast1_left": false,
+        "broadcast1_right": false,
+        "broadcast2_left": false,
+        "broadcast2_right": false,
+        "broadcast2_pokegear": false,
+        "broadcast3_bathing": false,
+        "broadcast3_pokegear": false,
+        "broadcast4_cashier": false,
+        "broadcast4_client": false,
+        "broadcast5_left": false,
+        "broadcast5_right": false
     },
     "Quest": true,
     "HighlightClickEntity": [
@@ -567,12 +644,12 @@
         {
             "&3H.A.P.P.Y": "Attention all &3Stratera&r Employees! Your favourite robossistant H.A.P.P.Y here! We have a special announcement from our CEO, &8&lVidar!",
             "&8&lVidar": "Dear colleagues, friends, family,"
-        }, 110
+        }, 100
     ],
     "Start": "song_countdown",
     "Show": {
-        "broadcast1": true,
-        "broadcast2": true
+        "broadcast1_left": true,
+        "broadcast1_right": true
     },
     "Unfreeze": [],
     "Wait": 1,
@@ -580,18 +657,19 @@
     "Teleport": [74.7, 63.7, 342.3, 30, 41],
     "Wait": 1,
     "Freeze": true,
+    "Wait": 150,
     "Dialog": [
         {
             "&8&lVidar": "It is with great pleasure that I address you all today."
         },
-        150
+        1
     ],
     "Show": {
-        "broadcast1": false,
-        "broadcast2": false,
-        "broadcast5": true,
-        "broadcast6": true,
-        "broadcast7": true
+        "broadcast1_left": false,
+        "broadcast1_right": false,
+        "broadcast2_left": true,
+        "broadcast2_right": true,
+        "broadcast2_pokegear": true
     },
     "Unfreeze": [],
     "Wait": 1,
@@ -599,18 +677,19 @@
     "Teleport": [99.5, 54.0, 308.5, 0],
     "Wait": 1,
     "Freeze": true,
+    "Wait": 150,
     "Dialog": [
         {
             "&8&lVidar": "For years, we have been working towards unity in the region and today is the day."
         },
-        150
+        1
     ],
     "Show": {
-        "broadcast5": false,
-        "broadcast6": false,
-        "broadcast7": false,
-        "broadcast2": true,
-        "broadcast3": true
+        "broadcast2_left": false,
+        "broadcast2_right": false,
+        "broadcast2_pokegear": false,
+        "broadcast3_bathing": true,
+        "broadcast3_pokegear": true
     },
     "Unfreeze": [],
     "Wait": 1,
@@ -618,33 +697,18 @@
     "Teleport": [54.7, 72.6, 309.6, 20, 14],
     "Wait": 1,
     "Freeze": true,
-    "Dialog": [
-        {
-            "&8&lVidar": "For years, we have been working towards unity in the region and today is the day."
-        },
-        150
-    ],
-    "Show": {
-        "broadcast2": false,
-        "broadcast3": false,
-        "broadcast8": true,
-        "broadcast9": true
-    },
-    "Unfreeze": [],
-    "Wait": 1,
-    "Fade": [],
-    "Teleport": [38.7, 51.9, 259.1, 148, 19],
-    "Wait": 1,
-    "Freeze": true,
+    "Wait": 150,
     "Dialog": [
         {
             "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a Great War, with &6Sophro&r standing in our way."
         },
-        150
+        1
     ],
     "Show": {
-        "broadcast8": false,
-        "broadcast9": false
+        "broadcast3_bathing": false,
+        "broadcast3_pokegear": false,
+        "broadcast4_cashier": true,
+        "broadcast4_client": true
     },
     "Unfreeze": [],
     "Wait": 1,
@@ -652,19 +716,63 @@
     "Teleport": [38.7, 51.9, 259.1, 148, 19],
     "Wait": 1,
     "Freeze": true,
+    "Wait": 150,
     "Dialog": [
         {
-            "&8&lVidar": "For years, we have been working towards unity in the region and today is the day.",
-            "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a Great War, with &6Sophro&r standing in our way.",
-            "&8&lVidar": "Thank you all, for the years you’ve stood with me. This will not be easy, but 20 years of research has prepared us for it.",
+            "&8&lVidar": "Thank you all, for the years you’ve stood with me. This will not be easy, but 20 years of research has prepared us for it."
+        },
+        1
+    ],
+    "Show": {
+        "broadcast4_cashier": false,
+        "broadcast4_client": false,
+        "broadcast5_left": true,
+        "broadcast5_right": true
+    },
+    "Unfreeze": [],
+    "Wait": 1,
+    "Fade": [],
+    "Teleport": [-23.4, 51.0, 223.0, 90, 28],
+    "Wait": 1,
+    "Freeze": true,
+    "Wait": 150,
+    "Dialog": [
+        {
             "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however.",
             "&8&lVidar": "Standing right beside us in this last effort is none other than [PLAYER]!",
             "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there.",
             "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!",
             "&3H.A.P.P.Y.": "Thank you everyone! Ending broadcast."
         },
-        150
+        1
     ],
+    "Show": {
+        "broadcast5_left": false,
+        "broadcast5_right": false,
+        "broadcast6_left": true,
+        "broadcast6_right": true
+    },
+    "Unfreeze": [],
+    "Wait": 1,
+    "Fade": [],
+    "Teleport": [-23.4, 51.0, 223.0, 90, 28],
+    "Wait": 1,
+    "Freeze": true,
+    "Wait": 150,
+    "Dialog": [
+        {
+            "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however.",
+            "&8&lVidar": "Standing right beside us in this last effort is none other than [PLAYER]!",
+            "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there.",
+            "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!",
+            "&3H.A.P.P.Y.": "Thank you everyone! Ending broadcast."
+        },
+        1
+    ],
+    "Show": {
+        "broadcast6_left": false,
+        "broadcast6_right": false
+    },
 
 
     "Wait": [
