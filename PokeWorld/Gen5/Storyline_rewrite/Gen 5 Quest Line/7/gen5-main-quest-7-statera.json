@@ -657,13 +657,24 @@
     "Teleport": [74.7, 63.7, 342.3, 30, 41],
     "Wait": 1,
     "Freeze": true,
-    "Wait": 150,
+
+
+
+    "Wait": 10,
     "Dialog": [
         {
             "&8&lVidar": "It is with great pleasure that I address you all today."
-        },
-        1
+        }, 1
     ],
+    "Wait": 100,
+    "Dialog": [
+        {
+            "&8&lVidar": "For years, we have been working towards unity in the region and today is the day."
+        }, 1
+    ],
+    "Wait": 40,
+
+
     "Show": {
         "broadcast1_left": false,
         "broadcast1_right": false,
@@ -677,13 +688,19 @@
     "Teleport": [99.5, 54.0, 308.5, 0],
     "Wait": 1,
     "Freeze": true,
-    "Wait": 150,
+
+
+
+    "Wait": 70,
     "Dialog": [
         {
-            "&8&lVidar": "For years, we have been working towards unity in the region and today is the day."
-        },
-        1
+            "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a Great War, with &6Sophro&r standing in our way."
+        }, 1
     ],
+    "Wait": 80,
+
+
+
     "Show": {
         "broadcast2_left": false,
         "broadcast2_right": false,
@@ -697,13 +714,26 @@
     "Teleport": [54.7, 72.6, 309.6, 20, 14],
     "Wait": 1,
     "Freeze": true,
-    "Wait": 150,
+
+
+    "Wait": 30,
     "Dialog": [
         {
-            "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a Great War, with &6Sophro&r standing in our way."
-        },
-        1
+            "&8&lVidar": "Thank you all, for the years you’ve stood with me. This will not be easy, but 20 years of research has prepared us for it."
+        }, 1
     ],
+    "Wait": 110,
+    "Dialog": [
+        {
+            "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however."
+        }, 1
+    ],
+
+    "Wait": 10,
+
+
+
+
     "Show": {
         "broadcast3_bathing": false,
         "broadcast3_pokegear": false,
@@ -716,13 +746,20 @@
     "Teleport": [38.7, 51.9, 259.1, 148, 19],
     "Wait": 1,
     "Freeze": true,
-    "Wait": 150,
+
+
+
+    "Wait": 100,
     "Dialog": [
         {
-            "&8&lVidar": "Thank you all, for the years you’ve stood with me. This will not be easy, but 20 years of research has prepared us for it."
-        },
-        1
+            "&8&lVidar": "Standing right beside us in this last effort is none other than [PLAYER]!"
+        }, 1
     ],
+    "Wait": 50,
+
+
+
+
     "Show": {
         "broadcast4_cashier": false,
         "broadcast4_client": false,
@@ -735,17 +772,18 @@
     "Teleport": [-23.4, 51.0, 223.0, 90, 28],
     "Wait": 1,
     "Freeze": true,
-    "Wait": 150,
+
+
+    "Wait": 70,
     "Dialog": [
         {
-            "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however.",
-            "&8&lVidar": "Standing right beside us in this last effort is none other than [PLAYER]!",
-            "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there.",
-            "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!",
-            "&3H.A.P.P.Y.": "Thank you everyone! Ending broadcast."
-        },
-        1
+            "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there."
+        }, 1
     ],
+    "Wait": 80,
+
+
+
     "Show": {
         "broadcast5_left": false,
         "broadcast5_right": false,
@@ -758,21 +796,33 @@
     "Teleport": [-23.4, 51.0, 223.0, 90, 28],
     "Wait": 1,
     "Freeze": true,
-    "Wait": 150,
+
+    "Wait": 30,
     "Dialog": [
         {
-            "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however.",
-            "&8&lVidar": "Standing right beside us in this last effort is none other than [PLAYER]!",
-            "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there.",
-            "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!",
-            "&3H.A.P.P.Y.": "Thank you everyone! Ending broadcast."
-        },
-        1
+            "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!"
+        }, 1
     ],
+    "Wait": 90,
+
     "Show": {
         "broadcast6_left": false,
         "broadcast6_right": false
     },
+    "Unfreeze": [],
+    "Wait": 1,
+    "Fade": [],
+    "Teleport": [80.1, 77.1, 335.2, 151, 7],
+    "Wait": 1,
+    "Freeze": true,
+    "Wait": 20,
+
+    "Dialog": [
+        {
+            "&3H.A.P.P.Y.": "Thank you everyone! Ending broadcast."
+        }, 90
+    ],
+
 
 
     "Wait": [
