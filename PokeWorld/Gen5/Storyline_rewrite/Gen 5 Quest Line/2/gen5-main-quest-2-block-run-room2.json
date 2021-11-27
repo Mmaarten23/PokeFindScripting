@@ -38,7 +38,6 @@
         90, true, false, "female_excited"
     ],
     "Comment": "next_round",
-    "SendMessage": "starting new round",
     "RandomOption": 44,
     "Set": ["gen5_main_quest_2_block", "snow"],
     "Set": ["gen5_main_quest_2_block", "note block"],
@@ -142,7 +141,6 @@
         },
         90, true, false, "female_angry"
     ],
-    "SendMessage": "skipping",
     "Skip": "next_round",
 
     "Comment": "2",
