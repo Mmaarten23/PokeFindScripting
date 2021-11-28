@@ -391,7 +391,8 @@
         "hand": {
             "material": "pokegear"
         },
-        "look": false
+        "look": false,
+        "sitting": true
     },
     "CreateEntity": {
         "key": "broadcast6_left",
@@ -728,12 +729,15 @@
     "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &bStatera HQ&r is trying to reach you.\n\n",
     "SendMessageOptions": ["&aAccept"],
     "Leave": "song_call",
+    "Fade": [],
     "Teleport": [80.1, 77.1, 335.2, 151, 7],
+    "Cinematic": [],
+    "HidePlayer": [],
     "Wait": 1,
     "Freeze": true,
     "Dialog": [
         {
-            "&3H.A.P.P.Y": "Attention all &3Stratera&r Employees! Your favourite robossistant H.A.P.P.Y here! We have a special announcement from our CEO, &8&lVidar!",
+            "&3H.A.P.P.Y": "Attention all &3Statera&r Employees! Your favourite robossistant H.A.P.P.Y here! We have a special announcement from our CEO, &8&lVidar!",
             "&8&lVidar": "Dear colleagues, friends, family,"
         }, 100
     ],
@@ -786,9 +790,9 @@
     "Teleport": [99.5, 54.0, 308.5, 0],
     "Wait": 1,
     "Freeze": true,
-    "Wait": 10,
+    "Wait": 14,
     "EntityLook": ["broadcast2_right", "broadcast2_left"],
-    "Wait": 7,
+    "Wait": 3,
     "EntityLook": ["broadcast2_right", -33, 0],
     "Wait": 3,
     "EntityLook": ["broadcast2_left", "broadcast2_right"],
@@ -849,7 +853,9 @@
     },
     "Wait": 20,
     "ProgressiveMoveEntity": ["broadcast3_dressed", 55.4, 72.0, 313.4, 0.15, false],
-    "Wait": 30,
+    "Wait": 20,
+    "ProgressiveMoveEntity": ["broadcast3_dressed", 55.4, 72.0, 313.4, 0.15, false],
+    "Wait": 10,
     "Dialog": [
         {
             "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however."
@@ -885,7 +891,7 @@
         }, 1
     ],
     "Wait": 10,
-    "ProgressiveMoveEntity": ["broadcast4_client", 34.3, 51.0, 259.5, 0.15, false],
+    "ProgressiveMoveEntity": ["broadcast4_cashier", 34.3, 51.0, 259.5, 0.15, false],
     "Wait": 40,
 
 
@@ -929,7 +935,7 @@
     "Wait": 1,
     "Freeze": true,
 
-    "ProgressiveMoveEntity": ["broadcast6_notifier", -13.1,52.0,336.8, 0.2, false],
+    "ProgressiveMoveEntity": ["broadcast6_notifier", -13.1, 52.0, 336.8, 0.2, false],
     "Wait": 40,
     "EntityLook": ["broadcast6_notifier", "broadcast6_left"],
     "Wait": 20,
@@ -945,11 +951,11 @@
         }, 1
     ],
     "Wait": 20,
-    "ProgressiveMoveEntity": ["broadcast6_notifier", -5.3,52.0,336.4, 0.15, false],
+    "ProgressiveMoveEntity": ["broadcast6_notifier", -5.3, 52.0, 336.4, 0.15, false],
     "Wait": 10,
-    "ProgressiveMoveEntity": ["broadcast6_left", -5.3,52.0,336.4, 0.15, false],
+    "ProgressiveMoveEntity": ["broadcast6_left", -5.3, 52.0, 336.4, 0.15, false],
     "Wait": 10,
-    "ProgressiveMoveEntity": ["broadcast6_right", -5.3,52.0,336.4, 0.15, false],
+    "ProgressiveMoveEntity": ["broadcast6_right", -5.3, 52.0, 336.4, 0.15, false],
     "Wait": 60,
 
     "Show": {
@@ -960,7 +966,7 @@
     "Unfreeze": [],
     "Wait": 1,
     "Fade": [],
-    "Teleport": [80.1, 77.1, 335.2, 151, 7],
+    "Teleport": [79.3, 77.0, 333.5, 151, 7],
     "Wait": 1,
     "Freeze": true,
     "Wait": 20,
@@ -973,9 +979,7 @@
 
 
 
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Look": [
         "Statera_Leader2"
     ],
@@ -993,6 +997,9 @@
         "Go beat the final gym and become the Elite Four Champion",
         9
     ],
+    "Unfreeze": [],
+    "StopCinematic": [],
+    "ShowPlayer": [],
     "Hold": [
     ],
     "Show": {
