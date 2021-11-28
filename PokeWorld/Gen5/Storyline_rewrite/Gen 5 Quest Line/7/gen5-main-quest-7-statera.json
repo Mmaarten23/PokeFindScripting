@@ -223,10 +223,10 @@
         "key": "broadcast2_bag",
         "entity": "ARMOR_STAND",
         "location": {
-            "x": 97.5,
+            "x": 97.3,
             "y": 53.2,
             "z": 311.3,
-            "yaw": -56,
+            "yaw": 56,
             "pitch": 1
         },
         "hand": {
