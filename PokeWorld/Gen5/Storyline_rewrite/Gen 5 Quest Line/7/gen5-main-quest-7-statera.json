@@ -1,10 +1,11 @@
 {
     "Key": "gen5_main_quest_7_statera",
-    "Name": "",
-    "Description": "",
+    "Name": "&3&lAn experimental mess",
+    "Description": "H.A.P.P.Y. Pinged your pokegear. Your presence is requested at the HQ.",
     "AllowRejoining": true,
     "Icon": "dirt",
     "AddProperty": ["Team", "&3Statera"],
+
     "CreateEntity": {
         "key": "Happy1",
         "name": "&3H.A.P.P.Y.",
@@ -528,7 +529,7 @@
         }
     ],
     "Objective": ["Step into the safety cage in the Testing room (Make sure to only have 1 Pokémon!)", 25],
-    "RegionEntry": [
+    "InRegion": [
         97, 63, 333,
         97, 64, 333
     ],
@@ -711,15 +712,20 @@
             "&8&lVidar": "It is with great pleasure that I address you all today."
         }, 1
     ],
-    "Wait": 100,
+    "Wait": 50,
+    "EntityLook": ["broadcast1_left", "broadcast1_right"],
+    "Wait": 25,
+    "EntityLook": ["broadcast1_right", "broadcast1_left"],
+    "Wait": 25,
     "Dialog": [
         {
             "&8&lVidar": "For years, we have been working towards unity in the region and today is the day."
         }, 1
     ],
-    "Wait": 40,
-
-
+    "Wait": 10,
+    "EntityLook": ["broadcast1_right", -90, 31],
+    "EntityLook": ["broadcast1_left", 148, 46],
+    "Wait": 30,
     "Show": {
         "broadcast1_left": false,
         "broadcast1_right": false,
@@ -1007,7 +1013,7 @@
 
     "Wait": 20,
     "SetTitle": [
-        "&9&lTasks of a Newbie",
+        "&3&lAn experimental mess",
         "&aQuest complete",
         true
     ],
