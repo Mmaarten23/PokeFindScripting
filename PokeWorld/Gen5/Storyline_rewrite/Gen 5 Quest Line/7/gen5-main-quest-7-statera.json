@@ -364,7 +364,7 @@
         "location": {
             "x": -25.5,
             "y": 50.5,
-            "z": 222.1,
+            "z": 221.7,
             "yaw": 10,
             "pitch": 2
         },
@@ -389,7 +389,7 @@
             "signature": "TDw2GzrmTkkjwoL2U+kN7x+5mqtPWDSt1uintYNSzOfR/1rhp6cF3F3OaIJAt1UzHTbAJ85QA7jZTBzC9Gc+6OgisJOl0FFDKv1OekQrqO6lkrZ+CqQj+8bun4hchZTm8VNUWBKUt0Rem+zO2kVHqwrMXO25tYaOjbzVwac8ROiwjcEEOS7UPLU0v5ftwh70gc96gfm/fHXaYsq3Qlj3+vkH6wu1wPZ2Z8KXtwFriPTtjxrlERGSKrPqiw4g7iZd9B4DR1jVzhh6iM40WsN5cgNk4bm8k1g2HUsk9kDyKmAwKeJueQcnDolsZW7VX12bvvVpPEERa/bEumTclB8xdghpfsCLWkyfbhyMRX7LEMh/WaUsAjImKoZItb/FX1UgMJQsn6pQRsbP15Bp0r2RpFRK88ezhh8K/73qRPhBPGGvfe2ByJVbz92Jcd+npt1uKYUY8rWxx83AJBCC72qteFcyIsS3JjrvEDhm3OC9/63nLzkxiRPKX6eFy18jPJ7MQUi2F8Aju9m8iANSIFyQjIyi0RAHV1TweGE6ZNh3ZjCwYCryTNbTuC+jdvvqEPZ9figcQlpUjk62lkiorRlLjh0ssPzR2aH6icwrGndvZYxm/kMphbNAprayIcalOQPPkKzHjJbB68RoO3eGftu/AWRRSu9j1yedbU2MJyCdJaM="
         },
         "hand": {
-            "material": "pokegear"
+            "material": "master_ball"
         },
         "look": false
     },
@@ -407,7 +407,7 @@
             "signature": "VMarMAkiULuk9Qkgwnutsavli+UOkjiYcFdf39CISf/XNAsPSQjuAHSqKMbA62CNAc94qbn9i0fSjPwaqdzpRKB1q5fzSxGDK3WnH8BRV5PYw4epiXzewt+zrFflt3SbN8Leue5vCD3qBIuTrUG/F+ElVZwEXGKGKREYPuLEV2lJFrFcueF84xn5+R/R8vdye6Vi5E8daRkxGjRc0XGPA/FS6fuvk/KVY5j4TmNJSEcTuBRU+A5TfoP/lpSisx7Cx+EBNhqox04etUk7xM0z12DVhYWurGUVfaSdfWicCcd7rFmUz8PXNGwdyJT1wH+DHcDnX8j4BWcnH9ZvBGsShcHbcRDz45xs2aapWzjDDYXPgoYI4RbMmQ6jl1Xf4zWi6SWzqVg6hs3u/vWcRdq5wPSnsASRy6/EFIYHwRDWR2S+WEXRFo26yOSsTNccLjvb9peYxHUUmIQhf6Rg13D3iXptqIQx65U9QAEqarWPyx69JF0vRcJfOsxDjOBtpaLTRkWzN7EWydGw26L5pc3ThMbcaEbKR7z7r0kMYjrllkuyXeOev3mJAvwIc3e2JPPyElb0HhdQh1/+YzClDjHCM+IMNjulR+h7vdB/haPuuUq7seKjZ+kIn6H1kZGHy8V+YFZXCWNKHTxl49ipUG4Zghs+xj0Tswq364R/zOBLWsQ="
         },
         "hand": {
-            "material": "pokegear"
+            "material": "master_ball"
         },
         "look": false
     },
@@ -853,7 +853,7 @@
     "Wait": 20,
     "ProgressiveMoveEntity": ["broadcast3_dressed", 55.4, 72.0, 313.4, 0.15, false],
     "Wait": 20,
-    "ProgressiveMoveEntity": ["broadcast3_dressed", 55.4, 72.0, 313.4, 0.15, false],
+    "ProgressiveMoveEntity": ["broadcast3_dressed", 55.6,72.0,310.4, 0.15, false],
     "Wait": 10,
     "Dialog": [
         {
@@ -936,12 +936,11 @@
     "Wait": 5,
     "ProgressiveMoveEntity": ["broadcast6_notifier", -12.5, 52.0, 336.5, 0.2, false],
     "Wait": 35,
-    "EntityLook": ["broadcast6_notifier", "broadcast6_left"],
     "EntityLook": ["broadcast6_left", "broadcast6_notifier"],
     "EntityLook": ["broadcast6_right", "broadcast6_notifier"],
-    "Wait": 20,
-    "EntityLook": ["broadcast6_notifier", "broadcast6_right"],
-    "Wait": 20,
+    "Wait": 30,
+    "EntityLook": ["broadcast6_notifier", "broadcast6_left"],
+    "Wait": 10,
     "Show": {
         "broadcast6_rightpokemon": false,
         "broadcast6_leftpokemon": false
