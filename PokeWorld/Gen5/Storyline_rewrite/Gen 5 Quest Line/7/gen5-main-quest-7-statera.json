@@ -941,16 +941,21 @@
     "Wait": 30,
     "EntityLook": ["broadcast6_notifier", "broadcast6_left"],
     "Wait": 10,
-    "Show": {
-        "broadcast6_rightpokemon": false,
-        "broadcast6_leftpokemon": false
-    },
     "Dialog": [
         {
             "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!"
         }, 1
     ],
-    "Wait": 20,
+    "Wait": 10,
+    "AnimateEntity": ["broadcast6_left", "swing main hand"],
+    "Show": {
+        "broadcast6_leftpokemon": false
+    },
+    "Wait": 10,
+    "AnimateEntity": ["broadcast6_right", "swing main hand"],
+    "Show": {
+        "broadcast6_rightpokemon": false
+    },
     "ProgressiveMoveEntity": ["broadcast6_notifier", 12.3, 52.0, 336.4, 0.15, false],
     "Wait": 10,
     "ProgressiveMoveEntity": ["broadcast6_left", -5.3, 52.0, 336.4, 0.15, false],
