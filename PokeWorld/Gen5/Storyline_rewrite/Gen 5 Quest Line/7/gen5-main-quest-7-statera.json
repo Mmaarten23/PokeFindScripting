@@ -311,7 +311,7 @@
             "y": 51.0,
             "z": 255.5,
             "yaw": -63,
-            "pitch": 6
+            "pitch": 15
         },
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODEwNjc1NTIzMCwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya29QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzMTc5Y2EzZmM2OTdmMjMxMjI2YmMyZmViNGFhMGQwYWI4YTg3YThmMTFjNTAzYzgzZjhkNDZlMWIzM2M5MTAiCiAgICB9CiAgfQp9",
@@ -329,7 +329,7 @@
             "y": 51.0,
             "z": 255.8,
             "yaw": 90,
-            "pitch": 0
+            "pitch": 20
         },
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODEwNjg2ODcwNSwKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiOGUxNGQwZGJjZmI0NzlmMmI0MzNmZDI5N2RiZjZiMzc1OGZhODljYWIzZGZiNzQ4OGU4YzFlZjI4MjY4NGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
@@ -344,20 +344,20 @@
         "key": "broadcast5_left",
         "location": {
             "x": -26.5,
-            "y": 51.0,
+            "y": 50.5,
             "z": 224.1,
             "yaw": -152,
             "pitch": 2
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
-            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODA0MjcwMTQ2NywKICAicHJvZmlsZUlkIiA6ICIyNzZlMDQ2YjI0MDM0M2VkOTk2NmU0OTRlN2U2Y2IzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBRFJBTlM3MTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJlYjRiMGQ4NDMxMDk3NTk2MGU3NDNhODNmOGQ3OTY5NDljODAxYzg0ZGZlY2Q4YTVlNWViM2M0MzZmYmQ2OCIKICAgIH0KICB9Cn0=",
+            "signature": "AZTNwYKtGzz5YEnbTmNWxCz71HFVN21qiAQXKG6sZ9f5Chrwo2oGooCgxN0TqghNwGqJzJF/9VjQmYT1faZEZgWIdkMZ0g8wYnY/NNrDOMmBSRIAPswWoUuHn3fPsBFAKPKqwMokt5pxaw8Gu/IvQbw6MlKfm/ZoESMJFtj1JXqKosUGh02snP4HtlNvTntuT6c/0nsaq3P7Z9wml39XHMhEGMEu91ggMr+dvlOeGRmiUYl06p4Weydrz47a5VQIylEOuOL0QgH3ppZtQUTJci3gCTqNJoLO2dbA5nCB8rRy6YwMUD36+RIRnosGwGRQu8bkDOyY/qnNDuGYkd2u4+7LQtHOV3CivIsqKdXArfblWYUvfVjZQkrvoilZ8KR3Aah7iT6lJ/6uqjnhpngxloBnjV3OXp0VxkfkioyqzMq6FZmUI08Ih/fdSLwxgpuNyphZwM9fGsz7ICrLf5slbbGkhF6Gw4d1tjF458pZokZvSr3xCfinQ464fxXOMg5UfyYj+38nkOjvULY+Rjne/EM4Nh6tHHvP+WeEnGN6Ccji5vatZIYxpwuiX2bAdvMH4Mih0ocq18n/LwbrX6U3vSbmMa4EJ9/1xS+xUr2dGy3KeH5hyyXUyyXLopNhpOvTUeVHVPsI21QYjQfr9M1FySVqqZB24z2MUHVSn1rFE+0="
         },
         "hand": {
             "material": "pokegear"
         },
         "look": false,
-        "sittiing": true
+        "sitting": true
     },
     "CreateEntity": {
         "key": "broadcast5_right",
@@ -369,11 +369,8 @@
             "pitch": 2
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
-            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
-        },
-        "hand": {
-            "material": "pokegear"
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODExMzMwODQ4NSwKICAicHJvZmlsZUlkIiA6ICIxYTc1ZTNiYmI1NTk0MTc2OTVjMmY4NTY1YzNlMDAzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXJvZmFyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlNmZhZDUwM2ZiYWY1MzlkMzkxYjc3MjUxOGU0NWNmNDJlMmVjMTk4YjI2ZjQwODIzMjAxNGRmNjExNjVlN2IiCiAgICB9CiAgfQp9",
+            "signature": "Fz9oQuMmkOceSop1DurZ8Ify4rW9ixKf1Dc7OPn3o6fsAhMX5z059b3D7rkkM9oXqrhSwd72iB09ig/nK+0Qh+Kel/mpUjqNY6CwhHzCEYrvCAAa8YpEjCaXnfPqodqa1yZbJSmeMCRjd+x6jjXYChRDrX/FgcjBRrnggtrH/3qHgkW5ABoeYsjuP/1QrAEb/KP7ekE8JMIXkWrtmzru0vEBSo8LVcmk4OuTZxdVXSKRm+OBUIxS3TsSsBRPWmmy4qUEKi5kja9EXPsm/Wrla4YXnrUioI+5HMpcg7fA78uxoA0DMTL00fTeR4w9Zk9LxYpoRMbyGgszRQ2taAJ2fBJLg5TsZiKt/p6nOKGswbiKuI/QsjtsrLX7fnfE6aDz9Q8u16wqpelsv4t+joUbAKRUUiwPC1CAnnp31G/MmMd2jSyn4F06vh0mux//DA3CKj2KPJAQZJJA3D/3VzNHIzi3npKQuxpEdYWq5cuB62AORWqYSPtLTf82otlPbZceZ54hG7Mc3/WuvLrkpepRH0luEubsUWpW0Tohxj2Z6xmvE6HL6BofJE7S+R7G1A30g+JGzbQ1CzTsCwN/IIjjAIOkwZe300fSVgkFXnPIYn+Gf1Cd/EK6/3l6P72AshbxcXNm7z4rNibYbwv6wfKVwEElPOjteE1WSHSZKCeCwGg="
         },
         "look": false,
         "sittiing": true
@@ -850,7 +847,9 @@
         "broadcast3_out": false,
         "broadcast3_dressed": true
     },
-    "Wait": 50,
+    "Wait": 20,
+    "ProgressiveMoveEntity": [55.4, 72.0, 313.4, 0.15, false],
+    "Wait": 30,
     "Dialog": [
         {
             "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however."
@@ -874,15 +873,20 @@
 
 
 
-    "Wait": 100,
+    "Wait": 40,
+    "EntityLook": ["broadcast4_cashier", "broadcast4_client"],
+    "Wait": 30,
+    "EntityLook": ["broadcast4_client", "broadcast4_cashier"],
+    "Wait": 30,
+    "ProgressiveMoveEntity": ["broadcast4_client", 39.4, 51.0, 259.5, 0.15, false],
     "Dialog": [
         {
             "&8&lVidar": "Standing right beside us in this last effort is none other than [PLAYER]!"
         }, 1
     ],
-    "Wait": 50,
-
-
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["broadcast4_client", 34.3, 51.0, 259.5, 0.15, false],
+    "Wait": 40,
 
 
     "Show": {
@@ -905,7 +909,7 @@
             "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there."
         }, 1
     ],
-    "Wait": 80,
+    "Wait": 30,
 
 
 
@@ -925,20 +929,33 @@
     "Wait": 1,
     "Freeze": true,
 
-    "Wait": 30,
+    "ProgressiveMoveEntity": ["broadcast6_notifier", -13.1,52.0,336.8, 0.2, false],
+    "Wait": 40,
+    "EntityLook": ["broadcast6_notifier", "broadcast6_left"],
+    "Wait": 20,
+    "EntityLook": ["broadcast6_notifier", "broadcast6_right"],
+    "Wait": 20,
+    "Show": {
+        "broadcast6_rightpokemon": false,
+        "broadcast6_leftpokemon": false
+    },
     "Dialog": [
         {
             "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!"
         }, 1
     ],
-    "Wait": 90,
+    "Wait": 20,
+    "ProgressiveMoveEntity": ["broadcast6_notifier", -5.3,52.0,336.4, 0.15, false],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["broadcast6_left", -5.3,52.0,336.4, 0.15, false],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["broadcast6_right", -5.3,52.0,336.4, 0.15, false],
+    "Wait": 60,
 
     "Show": {
         "broadcast6_left": false,
         "broadcast6_right": false,
-        "broadcast6_notifier": false,
-        "broadcast6_rightpokemon": false,
-        "broadcast6_leftpokemon": false
+        "broadcast6_notifier": false
     },
     "Unfreeze": [],
     "Wait": 1,
