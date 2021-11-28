@@ -224,7 +224,7 @@
         "entity": "ARMOR_STAND",
         "location": {
             "x": 98.6,
-            "y": 54.0,
+            "y": 53.5,
             "z": 310.7,
             "yaw": 45,
             "pitch": 3
@@ -738,8 +738,9 @@
             "&8&lVidar": "For years, we have been working towards unity in the region and today is the day."
         }, 1
     ],
-    "Wait": 10,
+
     "EntityLook": ["broadcast1_right", -90, 31],
+    "Wait": 10,
     "EntityLook": ["broadcast1_left", 148, 46],
     "Wait": 30,
     "Show": {
@@ -772,13 +773,13 @@
             "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a Great War, with &6Sophro&r standing in our way."
         }, 1
     ],
-    "Wait": 40,
+    "Wait": 20,
     "EntityLook": ["broadcast2_right", "broadcast2_left"],
     "EntityLook": ["broadcast2_left", "broadcast2_right"],
     "Wait": 30,
     "EntityLook": ["broadcast2_left", 33, 0],
     "EntityLook": ["broadcast2_right", -33, 0],
-    "Wait": 10,
+    "Wait": 30,
 
     "Show": {
         "broadcast2_left": false,
