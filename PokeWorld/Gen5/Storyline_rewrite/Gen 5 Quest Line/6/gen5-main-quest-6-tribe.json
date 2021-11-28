@@ -319,9 +319,9 @@
     },
     "Show": {
         "Captain1": true,
-        "Tribe_Member1": true,
-        "Tribe_Member2": true,
-        "Tribe_Member3": true,
+        "Tribe_Member1": false,
+        "Tribe_Member2": false,
+        "Tribe_Member3": false,
         "Tribe_Member4": false,
         "Tribe_Member5": false,
         "Tribe_Member6": false,
@@ -340,6 +340,11 @@
         "Zekrom_Pokeball": false
     },
     "HighlightClickEntity": "Captain1",
+    "Show": {
+        "Tribe_Member1": true,
+        "Tribe_Member2": true,
+        "Tribe_Member3": true
+    },
     "NewDialog": [
         {
             "&6&lAnthony": "Ah, you must be [PLAYER]. I am so happy you chose our side!"

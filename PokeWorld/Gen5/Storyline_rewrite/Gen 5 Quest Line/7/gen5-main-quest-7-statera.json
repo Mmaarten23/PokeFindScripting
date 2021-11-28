@@ -485,18 +485,16 @@
         "broadcast6_leftpokemon": false
     },
     "Quest": true,
-    "HighlightClickEntity": [
-        "Happy1"
-    ],
+    "HighlightClickEntity": "Happy1",
 
     "Comment": "This script will be started by the H.A.P.P.Y. controller.",
     "HasStoryTeam": "Statera",
-    "Dialog": [
+    "NewDialog": [
         {
             "&3H.A.P.P.Y.": "Welcome back [PLAYER]! I must congratulate you on your excellent leadership on the &8&lZekrom&r heist.",
             "&3H.A.P.P.Y": "&3Statera&r has been trying to bring him home for over &ltwo decades&r!",
             "&3H.A.P.P.Y": "&8&lVidar&r must be very proud of you. He requested you would come see him in his office."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "Wait": [
         20
@@ -504,14 +502,22 @@
     "Objective": ["Speak with Vidar in his office on the third floor", 3],
     "Show": "Statera_Leader1",
     "HighlightClickEntity": "Statera_Leader1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Ah! There you are [PLAYER]!",
-            "&8&lVidar": "Congratulations are in order. Your latest mission was unbelievably successful!",
-            "[PLAYER]": "I am happy &8&lZekrom&r is finally back home.",
+            "&8&lVidar": "Congratulations are in order. Your latest mission was unbelievably successful!"
+        }, 90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I am happy &8&lZekrom&r is finally back home."
+        }, 90, true, true
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "Care to join me in our lab?",
             "&8&lVidar": "I want you to see what we have been working on all this time."
-        }
+        }, 90, true, true, "male_question"
     ],
     "Wait": 20,
     "Objective": ["Get to the Testing Labs on Floor 2", 6],
@@ -520,10 +526,10 @@
         76, 68, 348,
         80, 75, 343
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Don't forget, to reach the lab, cross the bridge with the orange curtains to your right."
-        }
+        }, 1, true, false
     ],
     "Show": {
         "Statera_Leader1": false,
@@ -536,22 +542,39 @@
         100, 75, 335
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "I am down here [PLAYER]."
-        }
+        },
+        1, true, false
     ],
     "HighlightClickEntity": "Statera_Leader2",
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Welcome to the lab. Here we will be conducting our research on &8&lZekrom&r.",
-            "&8&lVidar": "These test will be used to see how different Pokémon change their behaviours while under &8&lZekrom&r’s power.",
-            "[PLAYER]": "What exactly do you mean by &otests&r?",
-            "&8&lVidar": "Well for example, if &8&lZekrom&r feels threatened, will the Pokémon turn on their trainer? Will they stop obeying in battle?",
+            "&8&lVidar": "These test will be used to see how different Pokémon change their behaviours while under &8&lZekrom&r’s power."
+        },
+        90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "What exactly do you mean by &otests&r?"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&8&lVidar": "Well for example, if &8&lZekrom&r feels threatened, will the Pokémon turn on their trainer? Will they stop obeying in battle?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "We will use your Pokémon and see how this goes.",
             "&8&lVidar": "Your &dAura&r should have an effect on this as well.",
             "&8&lVidar": "Prepare for the first test. Make sure you only have 1 pokemon in your party."
-        }
+        },
+        90, true, true, "male_normal"
     ],
     "MoveEntity": ["Statera_Leader2", 99.2, 62.0, 332.6, 0.1, false],
     "AnimateEntity": ["Statera_Leader2", "swing main hand"],
@@ -568,10 +591,11 @@
     "MoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
     "Wait": 2,
     "EntityLook": ["Statera_Leader2", 51],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Step in the safety cage when you are ready."
-        }
+        },
+        10, true, true, "male_normal"
     ],
     "Objective": ["Step into the safety cage in the Testing room (Make sure to only have 1 Pokémon!)", 25],
     "InRegion": [
@@ -590,24 +614,26 @@
     "Wait": 20,
     "MoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
 
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Alright. Now get your Pokémon out and try to attack."
-        }
+        },
+        90, true, true, "male_normal"
     ],
 
     "PartyPokemonEntity": [100.5, 62.0, 333.5, -90, 1, 11.0],
-    "Dialog": [
+    "Wait": 20,
+    "NewDialog": [
         {
             "[PLAYER]": "Attack!"
-        }
+        }, 50, true, false
     ],
     "Wait": 60,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oNothing is happening...",
             "[PLAYER]": "..."
-        }
+        }, 70, true, false
     ],
     "PlaySound": ["ENTITY_ENDERMAN_SCREAM", 0.5],
     "StrikeLightning": [98.0, 63.0, 333.5],
@@ -621,10 +647,10 @@
     "Wait": 10,
     "PlaySound": ["block_bell_resonate", 0.5],
     "Wait": 5,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "&lWATCH OUT!"
-        }
+        }, 70, true, false
     ],
     "Wait": 25,
     "Show": {
@@ -636,14 +662,30 @@
     "Fade": [],
     "Wait": 40,
     "Unfreeze": [],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&8&lVidar": "Are you okay?",
-            "&8&lVidar": "Your Pokémon attacked you!",
-            "[PLAYER]": "I feel okay... I guess",
+            "&8&lVidar": "Are you okay?"
+        },
+        90, true, true, "male_question"
+    ],
+    "NewDialog": [
+        {
+            "&8&lVidar": "Your Pokémon attacked you!"
+        },
+        90, true, true, "male_angry"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I feel okay... I guess"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "Good... That was interesting!",
             "&8&lVidar": "They saw you wanted to attack &8&lZekrom&r so they attacked you instead..."
-        }
+        },
+        90, true, true, "male_normal"
     ],
     "Wait": 20,
     "Show": {
@@ -658,51 +700,66 @@
     "Wait": 1,
     "EntityLook": ["Informant1", "Statera_Leader2"],
 
-    "Dialog": [
+    "NewDialog": [
+        {
+            "&3&lEvan": "Sir! We have a problem...",
+            "&3&lEvan": "H.A.P.P.Y detected some new arrivals coming through the sea-line.",
+            "&3&lEvan": "&3Cobalion&r left our trackers and our &5Crobats&r lost sight of the others."
+        },
+        90, true, true, "male_angry"
+    ],
+    "NewDialog": [
         {
             "&3&lEvan": "Sir! We have a problem...",
             "&3&lEvan": "H.A.P.P.Y detected some new arrivals coming through the sea-line.",
             "&3&lEvan": "&3Cobalion&r left our trackers and our &5Crobats&r lost sight of the others.",
             "&8&lVidar": "&3Cobalion&r huh? So the Swords of Justice have made an appearance then.",
             "&8&lVidar": "&eAstrid&r must have called to them. This really throws a wrench in our plans."
-        }
+        },
+        90, true, true, "male_normal"
     ],
     "ProgressiveMoveEntity": ["Statera_Leader2", 100.5, 62.0, 329.5, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "More than likely they’ve already made contact with &dDanielle&r as well, considering her &dAura&r..."
-        }
+        },
+        70, true, false, "male_normal"
     ],
     "ProgressiveMoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "It’s time to move into the final steps of our plan."
-        }
+        },
+        70, true, false, "male_normal"
     ],
     "ProgressiveMoveEntity": ["Statera_Leader2", 100.5, 62.0, 329.5, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "&8&lZekrom&r and &f&lReshiram&r are not the only two powerful Pokemon in Zeinova."
-        }
+        },
+        70, true, false, "male_normal"
     ],
     "ProgressiveMoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "'The Ultimate' is rumoured to be resting in the Frozen Island."
-        }
+        },
+        70, true, false, "male_normal"
     ],
     "ProgressiveMoveEntity": ["Statera_Leader2", 100.5, 62.0, 329.5, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "With our current research on &8&lZekrom&r we should be able to capture 'The Ultimate'."
-        }
+        },
+        70, true, false, "male_normal"
     ],
     "ProgressiveMoveEntity": ["Statera_Leader2", 103.5, 62.0, 329.5, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "It will give us the power to Unite the lands.",
             "&8&lVidar": "&eAstrid&r can not stop us. Let’s go to my office, [PLAYER]! No time to waste!"
-        }
+        },
+        70, true, false, "male_normal"
     ],
     "RelativeTeleport": [0.0, 0.1, 0.0],
     "Fade": [],
@@ -713,15 +770,15 @@
         "Informant1": false
     },
     "HighlightClickEntity": "Statera_Leader1",
-    "Wait": [
+    "Wait":
         20
-    ],
-    "Dialog": [
+    ,
+    "NewDialog": [
         {
             "&8&lVidar": "It is time to inform the other &3Statera&r members.",
             "&8&lVidar": "&3H.A.P.P.Y.&r! Create a secure connection! Broadcast my message to all members.",
             "&3H.A.P.P.Y": "Of course sir."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "Start": "song_call",
     "Wait": 10,
@@ -734,11 +791,11 @@
     "HidePlayer": [],
     "Wait": 1,
     "Freeze": true,
-    "Dialog": [
+    "NewDialog": [
         {
             "&3H.A.P.P.Y": "Attention all &3Statera&r Employees! Your favourite robossistant H.A.P.P.Y here! We have a special announcement from our CEO, &8&lVidar!",
             "&8&lVidar": "Dear colleagues, friends, family,"
-        }, 100
+        }, 100, true, false
     ],
     "Start": "song_countdown",
     "Show": {
@@ -755,20 +812,20 @@
 
 
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "It is with great pleasure that I address you all today."
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 50,
     "EntityLook": ["broadcast1_left", "broadcast1_right"],
     "Wait": 25,
     "EntityLook": ["broadcast1_right", "broadcast1_left"],
     "Wait": 25,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "For years, we have been working towards unity in the region and today is the day."
-        }, 1
+        }, 1, true, false
     ],
 
     "EntityLook": ["broadcast1_right", -90, 31],
@@ -802,10 +859,10 @@
     "Wait": 20,
     "EntityLook": ["broadcast2_right", -33, 0],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a Great War, with &6Sophro&r standing in our way."
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 20,
     "EntityLook": ["broadcast2_right", "broadcast2_left"],
@@ -834,10 +891,10 @@
 
 
     "Wait": 30,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Thank you all, for the years you’ve stood with me. This will not be easy, but 20 years of research has prepared us for it."
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 20,
     "Show": {
@@ -855,10 +912,10 @@
     "Wait": 20,
     "ProgressiveMoveEntity": ["broadcast3_dressed", 55.6, 72.0, 310.4, 0.15, false],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "None of this could be done without you all, our loyal companions, and friends. We are not taking this final step alone, however."
-        }, 1
+        }, 1, true, false
     ],
 
     "Wait": 10,
@@ -884,10 +941,10 @@
     "EntityLook": ["broadcast4_client", "broadcast4_cashier"],
     "Wait": 30,
     "ProgressiveMoveEntity": ["broadcast4_client", 39.4, 51.0, 259.5, 0.15, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Standing right beside us in this last effort is none other than [PLAYER]!"
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 10,
     "ProgressiveMoveEntity": ["broadcast4_cashier", 34.3, 51.0, 259.5, 0.15, false],
@@ -909,10 +966,10 @@
 
 
     "Wait": 70,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "So get ready to unite the region forever and be ready to move when the moment is there."
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 30,
 
@@ -941,10 +998,10 @@
     "Wait": 30,
     "EntityLook": ["broadcast6_notifier", "broadcast6_left"],
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Together we can do this! &3&lSTATERA FOREVER&r!"
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 10,
     "AnimateEntity": ["broadcast6_left", "swing main hand"],
@@ -976,10 +1033,10 @@
     "Freeze": true,
     "Wait": 20,
 
-    "Dialog": [
+    "NewDialog": [
         {
             "&3H.A.P.P.Y.": "Thank you everyone! Ending broadcast."
-        }, 90
+        }, 90, true, false
     ],
 
 
@@ -988,12 +1045,12 @@
     "Look": [
         "Statera_Leader2"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Our last step, [PLAYER], is you.",
             "&8&lVidar": "You must go defeat the final gym and then go to Elite Four and challenge Zeinova's Champion.",
             "&8&lVidar": "You must become &lour&r Champion."
-        }
+        }, 90, true, false, "male_normal"
     ],
     "Wait": [
         20
@@ -1029,11 +1086,11 @@
         "Rival1": false,
         "Rival2": true
     },
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "You defeated me once but you won't defeat me again!",
             "&d&lDanielle": "Statera's reign ends here!"
-        }
+        }, 90, true, true, "female_angry"
     ],
     "Wait": [
         20
@@ -1084,18 +1141,26 @@
         "Statera_Leader1": true,
         "Statera_Leader2": false
     },
-    "Wait": [        20    ],
-    "Objective": [        "Return to the Statera Leader",        8    ],
+    "Wait": 20,
+    "Objective": ["Return to the Statera Leader", 8],
     "HighlightClickEntity": [
         "Statera_Leader1"
     ],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&8&lVidar": "Congratulations [PLAYER], you’ve made great strides in this endeavour, and you will take us to the Stars!",
-            "[PLAYER]": "&dDanielle&r showed up at some point... I almost defeated her but then a large bolt of lightning struck her!",
+            "&8&lVidar": "Congratulations [PLAYER], you’ve made great strides in this endeavour, and you will take us to the Stars!"
+        }, 90, true, true, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&dDanielle&r showed up at some point... I almost defeated her but then a large bolt of lightning struck her!"
+        }, 90, true, true
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "That doesn't matter. What matters is that you won and now you are the Champion of the Region!",
             "&8&lVidar": "Here, take these rewards, Champion [PLAYER]!"
-        }
+        }, 90, true, true, "male_excited"
     ],
     "Wait": [
         20

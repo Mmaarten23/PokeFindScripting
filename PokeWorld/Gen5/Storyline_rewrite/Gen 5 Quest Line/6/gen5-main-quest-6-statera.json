@@ -236,9 +236,7 @@
     ],
     "NewDialog": [
         {
-            "[PLAYER]": "I will miss her too... in a way... Do you have any notes for me?",
-            "&3H.A.P.P.Y": "I do. Your presence has been requested on the first floor.",
-            "&3H.A.P.P.Y": "Enjoy your day!"
+            "[PLAYER]": "I will miss her too... in a way... Do you have any notes for me?"
         },
         90, true, true
     ],
@@ -926,7 +924,7 @@
         "Statera_Member2": false,
         "Statera_Member3": false,
         "Statera_Member4": false,
-        "Statera_Memebr5": false,
+        "Statera_Member5": false,
         "Statera_Leader1": false,
         "Statera_Leader2": false,
         "Rival1": false,
