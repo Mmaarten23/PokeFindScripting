@@ -197,8 +197,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
-            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODEwMjAyNzg3MywKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU3NzBiODMyYTAyNWZmMzFmMGUwNDUxYjMwMDFkY2IzNWM5ODk2M2EzYTViZjE2YzM4MjQ2OTE1MWRjYmE2NSIKICAgIH0KICB9Cn0=",
+            "signature": "jZj0PEByl9Z2RbL3WEF3t4NzefN3JaQIlxhKTl2XCdTlBUfo0yXEUcgF6TztmpOFjVfnmuXGI6a2/w2Y8/ros+pQ+hxdbwXgtQrGYJR8dOJ4GwOWxvAK16ZXe3L5VIgrWgJTs9cKdJT2krgjkRlw3dkPLn0pBeOYNCziLLtNVknpjFYADFnYpnJTFWr9dangE9QPzm5/3N6qwIOwQ02Pzj81YUooXvr7RJ5YmbIbFSLIQXIV/uSX7X7fJ+WFDSgEvqBRkVdReHX4y/Iu434kuFjSkjrlIm8bwMAzhltWEnJEUAUyjtwxz7cEag96wsDQXze+uh9gcdkxoT1t65Lvu+ov0xTS20qerdSvbrksNGPIIGN94HnqBES1a4ti84HrmsYcqsgRtE5TyVTIFIL1FI2b2fUaYuKuhoi2ZKrGU/CYCxNdDAO94gpCyqpTZuwshdtqRfN6KKOMESBY65HJYc5nQlgiZ2R6cgRp555s7jgODHMgQjgUQHWU1LKaHAh1d0vPrz8HeBV9YGUPNKgJOmPmmCHFhthJI1SiaI4JEXrqFfjay6fXNPgYZfSrZfhS98ppl4AC2MYqjnDMz17p31WR0ZfdKbWZu1PNcvkkWoMYpZjsrob/W8PhvdVx6ucKdJdkPQAdw04KkNS8tZ5i3oSWlaZIWGIGqchJMOqN7YM="
         },
         "look": false,
         "sitting": true
@@ -213,11 +213,26 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
-            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODEwMTkxOTQxNywKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOWNlNjBiNTRiMDFkOTdmMzIwZjcwMGNjMmU3ZjBkNjFhZWI5YzM5NGY4NGQwOGU5NDRkMWJhZGY1ODEyMWIyIgogICAgfQogIH0KfQ==",
+            "signature": "KdAz2dpT8nCWEVz9mg8qwfX+MHNqbjhWgO1PlUyLYJGgDcgDTWT9PFk5cwMCsFixOH5elol8Cr5DY8sO7Q9Usg5fUOEae9bhcJTLje9aghHhWz7IyZuA8mMNc+pENozVsFuvw3RfsBg3Nip5KsQ+v+Z0ZkXXR/ZVxLHqL3/xNZz2TLLA+mPTOZTedldFirN0tHAcs7rs7o+xV2W5LOWjUS2PDwcK+qRADJkZ7oToT09KpwMnkbxOA7JxEEZR1crk/R8ysvUCiaiYJIqlwbLiutPEfh69FxHqbFBEPEfGekGC4h9rabsbe/bvIauqmqlBXsxplhqy6O88meVL28mE0M8E0ps7Y7dR4paEU2mRuAQXrLSNd2NRRYOcAX9KfrYySvnl3Xa4jjS38If+QNHoPw0DS/+MYw4yoDExpg53rXsSQk7/HQ2X75B3rkOf4RqfFrPJ7E5wROWxdDd+WM0ys/EMKy9ZDLIp3bA/Jw/N0B4llpzrpV4zyVxdfcI2fqk0fzXEsfwYYtT/OPZjeKVs195Q98ooJnQqXter/9nelynbpstblViso7fxSiix/FFyq6vHJKbh2bhWMR9PfsfG6pLnA/TOJf1ItATcFsERMk71ZqFc2wuRANpzoiV8Mx/xXpWFkfFOhf5tBqb3MHv39vtuQP+s9598ehF8kDFvhZk="
         },
         "look": false,
         "sitting": true
+    },
+    "CreateEntity": {
+        "key": "broadcast2_bag",
+        "entity": "ARMOR_STAND",
+        "location": {
+            "x": 98.6,
+            "y": 54.0,
+            "z": 310.7,
+            "yaw": 45,
+            "pitch": 3
+        },
+        "hand": {
+            "material": "golbat_bag"
+        },
+        "visible": false
     },
     "CreateEntity": {
         "key": "broadcast2_pokegear",
@@ -427,6 +442,7 @@
         "broadcast2_left": false,
         "broadcast2_right": false,
         "broadcast2_pokegear": false,
+        "broadcast2_bag": false,
         "broadcast3_bathing": false,
         "broadcast3_pokegear": false,
         "broadcast4_cashier": false,
@@ -731,7 +747,8 @@
         "broadcast1_right": false,
         "broadcast2_left": true,
         "broadcast2_right": true,
-        "broadcast2_pokegear": true
+        "broadcast2_pokegear": true,
+        "broadcast2_bag": true
     },
     "Unfreeze": [],
     "Wait": 1,
@@ -739,23 +756,35 @@
     "Teleport": [99.5, 54.0, 308.5, 0],
     "Wait": 1,
     "Freeze": true,
-
-
-
-    "Wait": 70,
+    "Wait": 10,
+    "EntityLook": ["broadcast2_right", "broadcast2_left"],
+    "Wait": 10,
+    "EntityLook": ["broadcast2_right", -33, 0],
+    "EntityLook": ["broadcast2_left", "broadcast2_right"],
+    "Wait": 20,
+    "EntityLook": ["broadcast2_left", 33, 0],
+    "EntityLook": ["broadcast2_right", "broadcast2_left"],
+    "Wait": 20,
+    "EntityLook": ["broadcast2_right", -33, 0],
+    "Wait": 10,
     "Dialog": [
         {
             "&8&lVidar": "We are about to embark on a dangerous venture, and what lies ahead is a Great War, with &6Sophro&r standing in our way."
         }, 1
     ],
-    "Wait": 80,
-
-
+    "Wait": 40,
+    "EntityLook": ["broadcast2_right", "broadcast2_left"],
+    "EntityLook": ["broadcast2_left", "broadcast2_right"],
+    "Wait": 30,
+    "EntityLook": ["broadcast2_left", 33, 0],
+    "EntityLook": ["broadcast2_right", -33, 0],
+    "Wait": 10,
 
     "Show": {
         "broadcast2_left": false,
         "broadcast2_right": false,
         "broadcast2_pokegear": false,
+        "broadcast2_bag": false,
         "broadcast3_bathing": true,
         "broadcast3_pokegear": true
     },
