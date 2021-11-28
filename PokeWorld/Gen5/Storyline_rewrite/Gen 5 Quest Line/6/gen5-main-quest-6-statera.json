@@ -211,10 +211,10 @@
     },
 
     "Show": {
-        "Statera_Member1": true,
-        "Statera_Member2": true,
-        "Statera_Member3": true,
-        "Statera_Member4": true,
+        "Statera_Member1": false,
+        "Statera_Member2": false,
+        "Statera_Member3": false,
+        "Statera_Member4": false,
         "Statera_Member5": false,
         "Statera_Leader1": false,
         "Statera_Leader2": false,
@@ -251,6 +251,13 @@
     ],
     "Wait": 20,
     "Objective": ["Talk to the Statera Members", 4],
+    "Show": {
+        "Statera_Member1": true,
+        "Statera_Member2": true,
+        "Statera_Member3": true,
+        "Statera_Member4": true,
+        "Statera_Member5": true
+    },
     "HighlightClickEntity": "Statera_Member1",
     "NewDialog": [
         {

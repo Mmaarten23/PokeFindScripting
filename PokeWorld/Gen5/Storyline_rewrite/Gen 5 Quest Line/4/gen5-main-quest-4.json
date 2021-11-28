@@ -295,8 +295,8 @@
     },
 
     "Show": {
-        "Representative1": true,
-        "Rival1": true,
+        "Representative1": false,
+        "Rival1": false,
         "Rival2": false,
         "Rival3": false,
         "volcano_player": false,
