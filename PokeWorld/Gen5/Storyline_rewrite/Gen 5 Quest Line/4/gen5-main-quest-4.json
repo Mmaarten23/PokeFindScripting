@@ -391,6 +391,10 @@
         90, true, false, "male_normal"
     ],
     "Objective": ["Talk to Agent Ty on the third floor", 2],
+    "Show": {
+        "Representative1": true,
+        "Rival1": true
+    },
     "HighlightClickEntity": "Representative1",
     "NewDialog": [
         {
