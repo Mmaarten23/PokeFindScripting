@@ -621,7 +621,7 @@
         90, true, true, "male_normal"
     ],
 
-    "PartyPokemonEntity": [100.5, 62.0, 333.5, -90, 1, 11.0],
+    "PartyPokemonEntity": [100.5, 62.0, 333.5, -90, 1, 14.0],
     "Wait": 20,
     "NewDialog": [
         {
