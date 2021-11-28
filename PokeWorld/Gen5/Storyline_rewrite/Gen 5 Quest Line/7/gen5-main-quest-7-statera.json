@@ -373,7 +373,7 @@
             "signature": "Fz9oQuMmkOceSop1DurZ8Ify4rW9ixKf1Dc7OPn3o6fsAhMX5z059b3D7rkkM9oXqrhSwd72iB09ig/nK+0Qh+Kel/mpUjqNY6CwhHzCEYrvCAAa8YpEjCaXnfPqodqa1yZbJSmeMCRjd+x6jjXYChRDrX/FgcjBRrnggtrH/3qHgkW5ABoeYsjuP/1QrAEb/KP7ekE8JMIXkWrtmzru0vEBSo8LVcmk4OuTZxdVXSKRm+OBUIxS3TsSsBRPWmmy4qUEKi5kja9EXPsm/Wrla4YXnrUioI+5HMpcg7fA78uxoA0DMTL00fTeR4w9Zk9LxYpoRMbyGgszRQ2taAJ2fBJLg5TsZiKt/p6nOKGswbiKuI/QsjtsrLX7fnfE6aDz9Q8u16wqpelsv4t+joUbAKRUUiwPC1CAnnp31G/MmMd2jSyn4F06vh0mux//DA3CKj2KPJAQZJJA3D/3VzNHIzi3npKQuxpEdYWq5cuB62AORWqYSPtLTf82otlPbZceZ54hG7Mc3/WuvLrkpepRH0luEubsUWpW0Tohxj2Z6xmvE6HL6BofJE7S+R7G1A30g+JGzbQ1CzTsCwN/IIjjAIOkwZe300fSVgkFXnPIYn+Gf1Cd/EK6/3l6P72AshbxcXNm7z4rNibYbwv6wfKVwEElPOjteE1WSHSZKCeCwGg="
         },
         "look": false,
-        "sittiing": true
+        "sitting": true
     },
     "CreateEntity": {
         "key": "broadcast6_right",
@@ -385,14 +385,13 @@
             "pitch": 15
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
-            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODExNTcwNDQ1MywKICAicHJvZmlsZUlkIiA6ICJiOTE5M2NiMjkzMWI0M2FhYmM1OGQ2NjAwMTg3NGRjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiMmJsYWtlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4MWUwY2IwMDFhOTMzZDAzYWE3YTU4NmE2YmQzMTgwYThmYjA2NmU3YTgwN2E0ZDNmYWFhYTY5YmIzOTQzOGIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "TDw2GzrmTkkjwoL2U+kN7x+5mqtPWDSt1uintYNSzOfR/1rhp6cF3F3OaIJAt1UzHTbAJ85QA7jZTBzC9Gc+6OgisJOl0FFDKv1OekQrqO6lkrZ+CqQj+8bun4hchZTm8VNUWBKUt0Rem+zO2kVHqwrMXO25tYaOjbzVwac8ROiwjcEEOS7UPLU0v5ftwh70gc96gfm/fHXaYsq3Qlj3+vkH6wu1wPZ2Z8KXtwFriPTtjxrlERGSKrPqiw4g7iZd9B4DR1jVzhh6iM40WsN5cgNk4bm8k1g2HUsk9kDyKmAwKeJueQcnDolsZW7VX12bvvVpPEERa/bEumTclB8xdghpfsCLWkyfbhyMRX7LEMh/WaUsAjImKoZItb/FX1UgMJQsn6pQRsbP15Bp0r2RpFRK88ezhh8K/73qRPhBPGGvfe2ByJVbz92Jcd+npt1uKYUY8rWxx83AJBCC72qteFcyIsS3JjrvEDhm3OC9/63nLzkxiRPKX6eFy18jPJ7MQUi2F8Aju9m8iANSIFyQjIyi0RAHV1TweGE6ZNh3ZjCwYCryTNbTuC+jdvvqEPZ9figcQlpUjk62lkiorRlLjh0ssPzR2aH6icwrGndvZYxm/kMphbNAprayIcalOQPPkKzHjJbB68RoO3eGftu/AWRRSu9j1yedbU2MJyCdJaM="
         },
         "hand": {
             "material": "pokegear"
         },
-        "look": false,
-        "sitting": true
+        "look": false
     },
     "CreateEntity": {
         "key": "broadcast6_left",
@@ -404,8 +403,8 @@
             "pitch": 10
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
-            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODExNTc2MTIwMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y2YTZiMDllODQ0NDVlN2RmOTk4OTRhNzVjOWUxMjg0ZjI5NmVmNmJlNWFhZTU4ZDkzY2MwZjRiMGEzOTVkODkiCiAgICB9CiAgfQp9",
+            "signature": "VMarMAkiULuk9Qkgwnutsavli+UOkjiYcFdf39CISf/XNAsPSQjuAHSqKMbA62CNAc94qbn9i0fSjPwaqdzpRKB1q5fzSxGDK3WnH8BRV5PYw4epiXzewt+zrFflt3SbN8Leue5vCD3qBIuTrUG/F+ElVZwEXGKGKREYPuLEV2lJFrFcueF84xn5+R/R8vdye6Vi5E8daRkxGjRc0XGPA/FS6fuvk/KVY5j4TmNJSEcTuBRU+A5TfoP/lpSisx7Cx+EBNhqox04etUk7xM0z12DVhYWurGUVfaSdfWicCcd7rFmUz8PXNGwdyJT1wH+DHcDnX8j4BWcnH9ZvBGsShcHbcRDz45xs2aapWzjDDYXPgoYI4RbMmQ6jl1Xf4zWi6SWzqVg6hs3u/vWcRdq5wPSnsASRy6/EFIYHwRDWR2S+WEXRFo26yOSsTNccLjvb9peYxHUUmIQhf6Rg13D3iXptqIQx65U9QAEqarWPyx69JF0vRcJfOsxDjOBtpaLTRkWzN7EWydGw26L5pc3ThMbcaEbKR7z7r0kMYjrllkuyXeOev3mJAvwIc3e2JPPyElb0HhdQh1/+YzClDjHCM+IMNjulR+h7vdB/haPuuUq7seKjZ+kIn6H1kZGHy8V+YFZXCWNKHTxl49ipUG4Zghs+xj0Tswq364R/zOBLWsQ="
         },
         "hand": {
             "material": "pokegear"
@@ -422,8 +421,8 @@
             "pitch": 10
         },
         "skin": {
-            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzg4OTk2ODUwNCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjU1NWFmNmExOTg0NTAxNjcwODc4ZjBhOTY4ZGJlYWI5Mjk5MzYwZjRkZGI3YzU2ZTViZTNkNGViNWExNmQxIgogICAgfQogIH0KfQ==",
-            "signature": "q3RAlxMFyYE2/yTXG6f40RKJRQ2ZNdBwvvwI/8uoyorj3PYaZDt0f4/N47yI8H7dZwHOHBvoSG6fu9JbxRYdYKmREn7WFLpdi7x1WZ2lzhKjzhnLk8QUa9s6WCKYjr0z3QEylPEF3SnJjdNQGFT2pH8qUwqE5cKcUazG0oSqrfDP4pORl/XhvcJlJRg3AYXR97vge3RAWLei6HChm6RL3ta9Enwp0lMyTFNed3SrD362O7Jz715MRivj2hHLD0rp2l1nHuEQCctpA15aM8YIes7VnFnp9bu8BalT/JEhxQzrCvUzT+4uJ5cY6JadhcO02JIW8/l9vEYXP/hP+9JIIAe7lqBmKVh2pGs94kW5FSj1SKOw1qme1dRZjT/2P4V7ctKlqS96OnoZO8uC4dJ3mdjCbu3Crq+S/VWbEu7Bw64r0qr3MChlRysbt06NteCWG2mk9ibeUKye6lwjbueMcCgpsAHtR4pCdNGxKpy8QCYfkIGpF90sEd3a4/npIGd5Pp4sMaXl2Y/G28a9OgrssFceowxMFXzGot1tQyuusZ4gPO3ddPpSZUxQkhLvv7v2jVz+SEs3s+XdBEr7POXGQ2TJEhy0tmxoPEjToVnbKRaoW5KEDEv0x9N3yQ3XHTmyAn+cfhP+EK1IIHc8Efn959Lm4p3sCq4lDXqHdtxwUK4="
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODExNTgxNjI5OCwKICAicHJvZmlsZUlkIiA6ICJkODAwZDI4MDlmNTE0ZjkxODk4YTU4MWYzODE0Yzc5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVCTFJ4eCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yN2FjNWE4MDVhMTZkMzk2YWY2YWFkM2U3MWJjMzBlZjRiNTg3MmQxOTRjNzc1M2RiMWJkMTgwMmYzM2VjYWMwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+            "signature": "x8+giMjpyWXxKA3QeYwEm0Z8UT9Oxrm1aEKF0b7yXF++8r6qtY5cSDN1aRhE3ivQTjFKcTS8Zl1KLj81jfCVBDXkgXZbeC151vVCkUYspwLbQOxKfK2I+EVK6oPvewhfIZgdW7Dg1fO5IVKsaClXf0b1DaS6rK28Gd7OgOC/5bELcjm6HTajBtWWf8TnGvf5D90wLldt6lFGZyYC2HI3ukqej9pcM/wjp5goGvikH3fUN4fjMwVCeD4J4VByBxMzzhs+6MTzv8QXuv2G/xWdlWOo/I0/G5qrnF1Q0cWE6s+USRw6eFDP2MraDXQqa9Eg5S0099/EGKUBmeFuhiWb95Gd+fSQy6NCNaRVrhRU8ZLARzCciZZtTHZ90zR8lRvg8uzGiG+SP/xrBJKwGPM7iUOQGUiBT7JqsBTR7OknviOj9WiJVYLLlQy3Ksj5vVWi0qFx5/zz1WXG+bSE1Y10LevE8iY1w3sobRll7OFt2JDw3nvw7NkX5/q/GJjLPm+UxM7kcHS4e1AvCZz0YqJShVD+PT1k80tWxxRRi7ZZwhtOeeKNMbH4zvDzHQhbBDlaJq8fINBaS+aCs+vmqcKc6A9zk5R3fHWycXTTnJb2fTLlMAyDpwAdq/w/m+ppgdokxxIEETzH/PZRj4M1CEODYHI7eYPLVKpnfZEcfGUYi/8="
         },
         "hand": {
             "material": "pokegear"
@@ -934,10 +933,12 @@
     "Teleport": [-24.3, 56.0, 336.5, -89, 34],
     "Wait": 1,
     "Freeze": true,
-
-    "ProgressiveMoveEntity": ["broadcast6_notifier", -13.1, 52.0, 336.8, 0.2, false],
-    "Wait": 40,
+    "Wait": 5,
+    "ProgressiveMoveEntity": ["broadcast6_notifier", -12.5, 52.0, 336.5, 0.2, false],
+    "Wait": 35,
     "EntityLook": ["broadcast6_notifier", "broadcast6_left"],
+    "EntityLook": ["broadcast6_left", "broadcast6_notifier"],
+    "EntityLook": ["broadcast6_right", "broadcast6_notifier"],
     "Wait": 20,
     "EntityLook": ["broadcast6_notifier", "broadcast6_right"],
     "Wait": 20,
