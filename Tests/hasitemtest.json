@@ -1,0 +1,7 @@
+{
+    "Key": "hasitemtest",
+    "If": [],
+    "HasItem": [ "apple", false, true],
+    "SendMessage": "Congrats, you are holding an apple!",
+    "SendMessage": "Eat more apples."
+}
