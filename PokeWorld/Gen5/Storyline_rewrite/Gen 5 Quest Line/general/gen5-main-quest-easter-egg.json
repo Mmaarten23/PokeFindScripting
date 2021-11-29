@@ -85,6 +85,11 @@
     "RegionEntry": [
         84, 85, 348,
         81, 92, 347
+    ],
+    "NewDialog": [
+        {
+            "&a&lPokéFind": "Welcome to the PokéFind HQ!"
+        }, 1, true, false
     ]
 
 }
