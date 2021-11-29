@@ -37,7 +37,7 @@
         },
         "helmet": {
             "material": "wooden_hoe",
-            "damage": 6
+            "damage": 56
         },
         "sitting": true,
         "look": true
