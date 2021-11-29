@@ -7,13 +7,17 @@
         "location": {
             "x": 76.5,
             "y": 86.6,
-            "z": 333.7,
+            "z": 333.4,
             "yaw": 0,
             "pitch": 0
         },
         "skin": {
             "texture": "eyJ0aW1lc3RhbXAiOjE1ODY5MDcyNjcxNTgsInByb2ZpbGVJZCI6Ijc3MjdkMzU2NjlmOTQxNTE4MDIzZDYyYzY4MTc1OTE4IiwicHJvZmlsZU5hbWUiOiJsaWJyYXJ5ZnJlYWsiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4MGExZWY3ZDU4NWRlY2U2NzU1MWUzZDc3OTNmMGQ1ZmQyMGFlZWQwZDQ0MWE5MzcwYTFlODQ1OTdjZGJjNTAifX19",
             "signature": "h9Dld8Qkd5du7aQ2NIEZIDtSCeS4z16KMCqvzxLu/EqChF8DP4EwFqu0UgUc4FmpVd4bwhedbJySpzNQL/UUXv8m/6diDUVfMAD1AThncSw2kaoa6CpkCo7V7WTuVIe4oadJZukclMZdu3czGGkd/b0w6MiDnocxSSBDoBACHACw3CItLwgYWS7PutfS7bcl5ROnZb2D3qpL+qZb5ZGiy5DHa5zHPa+se7qMsmC0E2ErbmORxuImdRF3Qi1Q0yCvpKMJLh/S0ZXi4REpBqC01XCs05e8Ia4G4Dj1lPp7a8IS3bYQPrV9XPyWIypiyDtfmwcZrTwHkdCKUBfVQ2qUi+J/JJGSVxr+v3cQT5sc5GZpEJ5q8o18YId9yVzcmyDHeAcLsl6zHphVDRlzzuXnKAhuatUoWKjt5vPNuYnecX62w/JOuttfwfxFbko57oIV8ckKAlHV7ZwPk6rW9ifpYTHvwhBJTTsK7D0j+ru8se8G8/Ez31KU5MvsQYElOqlGSA9fue5U2k7dyedQP1jniPQB+rLtscbZH3gjFe/PlMvjb77xRzmnGcTJnocNjvFIzSgw6jGr+k4NI4LUY70RNhW8lKZO1CrvHDGarvV03J1Lo8WT8k+9vcm5d2fy8DpbdIU2ySqmQIygy8ulA8L3Fg7vihSKW1wbMuPaatqHHM4="
+        },
+        "helmet": {
+            "material": "wooden_hoe",
+            "damage": 1
         },
         "sitting": true,
         "look": true
@@ -23,13 +27,17 @@
         "location": {
             "x": 76.5,
             "y": 86.6,
-            "z": 336.3,
+            "z": 336.6,
             "yaw": -180,
             "pitch": 0
         },
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODIyMzE0NTU0MCwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FjZTlkOWQwZDIwNzMzNmMxNjRiMmYzM2U1OGU3ZTAxZGJlZGUwNDYzNWZkYWNiNmVmMDU1NGQ4ZmNkZTBlNzQiCiAgICB9CiAgfQp9",
             "signature": "KISDXI3/nfDgl5VE6By96z1hwmLXI0cMjXysUK1bXZtK2EN4a1Tk0QGwS3BP3mbw2RVpju4mVwbHCFeQGL/MURjkhO/r9amDpQan+bb5igk0J7MKUM9b55k4wii3l52/HWPbUj889PtiYTV7LPcAk6BcUU6D3s6U4CDNqyJntnGO7Vf9MpGbk7qzzF/I6mlPJK5exP1BbTaYEnW0k7Kaa0rmx3h8vB1Hjmjs+/vlLBwMOueqCS+bAVQ6tt2TgIklSf48LysNabXuryBTaorOQ2OGzxPoetEQA+FzszmtZUhZgsCEQNgkCXWEdh8plDFKxmR+snHKPIfVj/HfZt+EQ2/BYgpLNRZ8i29y8HgTSot1O2U9KXK+nxyNL/IllKm2renk2m9rcJY4cH4eDnUmtTCTx748H5az83I6E5E+zMdCembyliQJrLnhedIPh6wD2bA7iS9fgjR2hn1wD040MrlIYSaHhuH3CgUNq1GqChyvWBzaimK3xg5F0jmwc8hWcX/sJnbtpsr/in+EujZfkzqEXOBTngUu4Ue9a/hMX/9Sv/whYDgOu/wkt6V3xRSMrHTxplft5RO9K5MrVdcAl/7cOAmMhvI68hl2GP4B7YmEW74Tw5COUv770o+n/uKIgIyuqIB0hJrmQmYgDDfa2g00zIyRSIBa7jxc2Dxn9i8="
+        },
+        "helmet": {
+            "material": "wooden_hoe",
+            "damage": 6
         },
         "sitting": true,
         "look": true
@@ -40,13 +48,17 @@
         "location": {
             "x": 79.5,
             "y": 86.6,
-            "z": 333.7,
+            "z": 333.4,
             "yaw": 0,
             "pitch": 0
         },
         "skin": {
             "texture": "eyJ0aW1lc3RhbXAiOjE1ODU2MTcxODExMzEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkNzViN2JhNTY1NGUwOWI3MTA3NTYwNmQ0YmUzYjY3ZWEwMTMxMjc5YmMxZDZkMjNlNGExNmM3MDdkYzE1NjEifX19",
             "signature": "aIgBTLVzJVzZmGqjEVHldzEmQ3wFcYgdTbQuSncLAj46yphyT1tXPXhb60tpYO9sZxPvIPlDaN8mJD5naXGKQ2tVnAqzqCHuWN76ZzY2TOZ4TcffHUsxnHDtoMmW0+AmbjaTy7XvyxSlWs/2Xqa7aQB/iPv4szqhfRkMVZpcwR8IlMBTKxsUr0apx3PelysDn7goYOf4RSp+nNGDAupOxs7SDCjL92f2BPNSK4LPMg9M0NV7ePuWG4uk851cZvxzaqjro7lv8R6y1uLi3caqG/RPnH/Ak7IDu3eUsPHzfvDtnRXxUcpIW6a+6A+xPekoJiNqTrHQvLuFVZmYS4duwfVrz3fNJu7aopx96tdEYvD5rFsrBjulf09MrYLNrsmeAkZ8Wb5Zvd6SkTFeKu9kHcGwv2ZYObQiRYuhFYEK6wyYATT0ou7sw9B45U2G3ZVeGHKZNnwckymlHjkcPiTrdguNWiwYWfnPkYA6Za5IJ3AjkBE24oZrYzXHQOLq9zwunXsfgcmZ54nW+zOKuhfFTIn/hhcwPs4tjHwCbVLmaryDdY+v2KUkeE5u9elMzBj/HsZJq7xwVFRwL+Iio7wsJiilLrPgSHjzFzIrJV+l1XbAo3vK7lyUMD2YkzMHQwHj+izK0agyesMJllZO+trXsflDQac2t0XrqnDSTBAakoQ="
+        },
+        "helmet": {
+            "material": "diamond_hoe",
+            "damage": 565
         },
         "sitting": true,
         "look": true
