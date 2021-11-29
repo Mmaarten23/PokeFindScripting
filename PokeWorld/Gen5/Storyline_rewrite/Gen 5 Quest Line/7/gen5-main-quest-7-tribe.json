@@ -1,9 +1,9 @@
 {
-    "key": "gen5_main_quest_7_statera",
-    "name": "",
-    "description": "Head back to the shrine in Greenholm",
-    "allowRejoining": true,
-    "icon": "",
+    "Key": "gen5_main_quest_7_statera",
+    "Name": "",
+    "Description": "Head back to the shrine in Greenholm",
+    "AllowRejoining": true,
+    "Icon": "dirt",
     "CreateEntity": {
         "key": "Player",
         "location": {
@@ -18,7 +18,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Leader1",
-        "name": "&e&lAstrid",
+        "name": [
+            "&e&lAstrid",
+            "&7Sophro Leader"
+        ],
         "location": {
             "x": -442.0,
             "y": 57.0,
@@ -26,12 +29,18 @@
             "yaw": 146,
             "pitch": 0
         },
-        "skin": "",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
+        },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe_Leader2",
-        "name": "&e&lAstrid",
+        "name": [
+            "&e&lAstrid",
+            "&7Sophro Leader"
+        ],
         "location": {
             "x": -1086.5,
             "y": 29.0,
@@ -39,12 +48,18 @@
             "yaw": 90,
             "pitch": 0
         },
-        "skin": "",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
+        },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe_Leader3",
-        "name": "&e&lAstrid",
+        "name": [
+            "&e&lAstrid",
+            "&7Sophro Leader"
+        ],
         "location": {
             "x": -1110.5,
             "y": 49.0,
@@ -52,7 +67,10 @@
             "yaw": 270,
             "pitch": 0
         },
-        "skin": "",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
+        },
         "look": false
     },
     "CreateEntity": {
@@ -163,96 +181,40 @@
         "Virizion1": false
     },
     "RegionEntry": [
-        -528,
-        1,
-        20,
-        -471,
-        150,
-        87
+        -528, 1, 20,
+        -471, 150, 87
     ],
-    "Completed": [
-        "GYM7",
-        true,
-        ""
-    ],
-    "HasTeam": [
-        "Tribe"
-    ],
-    "Completed": [
-        "gen5_main_quest_6_tribe"
-    ],
-    "Fade": [
-    ],
-    "Cinematic": [
-    ],
-    "SetWorldTime": [
-        13000
-    ],
-    "SetScorebard": "",
-    "Teleport": [
-        -438.5,
-        60.0,
-        -98.5,
-        28,
-        0
-    ],
-    "Freeze": [
-    ],
+    "Fade": [],
+    "Cinematic": [],
+    "SetWorldTime": 13000,
+    "SetScoreboard": "",
+    "Teleport": [-438.5, 60.0, -98.5, 28, 0],
+    "Freeze": [],
     "Show": {
         "Player": true
     },
-    "Look": [
-        "Player"
-    ],
-    "MoveEntity": [
-        "Player",
-        -446.5,
-        57.0,
-        -96.5
-    ],
-    "EntityLook": [
-        "Player",
-        132,
-        65
-    ],
+    "Look": "Player",
+    "MoveEntity": ["Player", -446.5, 57.0, -96.5],
+    "EntityLook": ["Player", 132, 65],
     "Dialog": [
         {
-            "[PLAYER]": "Zeinova will never be the same... They took &0Zekrom&r..."
+            "[PLAYER]": "Zeinova will never be the same... They took &8&lZekrom&r..."
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Player": false
     },
-    "Fade": [
-    ],
-    "StopCinematic": [
-    ],
-    "SetScorebard": [
-    ],
-    "Teleport": [
-        -446.5,
-        57.0,
-        -96.5,
-        130,
-        65
-    ],
+    "Fade": [],
+    "StopCinematic": [],
+    "SetScoreboard": [],
+    "Teleport": [-446.5, 57.0, -96.5, 130, 65],
     "Show": {
         "Tribe_Leader1": true
     },
-    "MoveEntity": [
-        "Tribe_Leader1",
-        -443.5,
-        57.0,
-        -93.5
-    ],
-    "Look": [
-        "Tribe_Leader1"
-    ],
-    "Unfreeze": [
-    ],
+    "MoveEntity": ["Tribe_Leader1", -443.5, 57.0, -93.5],
+    "Look": "Tribe_Leader1",
+    "Unfreeze": [],
     "Dialog": [
         {
             "&e&lAstrid": "[PLAYER]! What are you doing mopeing around?!",
@@ -260,20 +222,11 @@
             "&e&lAstrid": "Meet me inside the Ancient Pyramid in Sandgate, we need to talk."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Head to the medium sized Ancient Pyramid in Sandgate and complete the puzzle",
-        3
-    ],
+    "Wait": 20,
+    "Objective": ["Head to the medium sized Ancient Pyramid in Sandgate and complete the puzzle", 3],
     "RegionEntry": [
-        -1114,
-        1,
-        198,
-        -1129,
-        54,
-        204
+        -1114, 1, 198,
+        -1129, 54, 204
     ],
     "Dialog": [
         {
@@ -285,83 +238,28 @@
             "[PLAYER]": "It's worth a try!"
         }
     ],
+    "Wait": 20,
+    "Objective": ["Find the first puzzle piece in Sandgate (Hint> Near the gym)", 4],
+    "PickupItem": [-991.5, 50.0, 133.5, "&6&lPuzzle Piece", "Paper"],
+    "Wait": 20,
+    "SendMessage": ["&e&l+1 &6&lPuzzle Piece 1/3", "-ro"],
     "Wait": [
         20
     ],
-    "Objective": [
-        "Find the first puzzle piece in Sandgate (Hint> Near the gym)",
-        4
-    ],
-    "PickupItem": [
-        -991.5,
-        50.0,
-        133.5,
-        "&6&lPuzzle Piece",
-        "Paper"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&e&l+1 &6&lPuzzle Piece 1/3",
-        "-ro"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Find the second puzzle piece in Sandgate (Hint> Near a house)",
-        4
-    ],
-    "PickupItem": [
-        -1089.5,
-        49.0,
-        166.5,
-        "&6&lPuzzle Piece",
-        "Paper"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&e&l+1 &6&lPuzzle Piece 2/3",
-        "So-"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Find the final puzzle piece in Sandgate (Hint> Near some fossils",
-        4
-    ],
-    "PickupItem": [
-        -1061.5,
-        36.0,
-        246.5,
-        "&6&lPuzzle Piece",
-        "Paper"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&e&l+1 &6&lPuzzle Piece 3/3",
-        "-ph-"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Go back to the Ancient Pyramid and type the secret word in chat to open the door! ",
-        3
-    ],
+    "Objective": ["Find the second puzzle piece in Sandgate (Hint> Near a house)", 4],
+    "PickupItem": [-1089.5, 49.0, 166.5, "&6&lPuzzle Piece", "Paper"],
+    "Wait": 20,
+    "SendMessage": ["&e&l+1 &6&lPuzzle Piece 2/3", "So-"],
+    "Wait": 20,
+    "Objective": ["Find the final puzzle piece in Sandgate (Hint> Near some fossils", 4],
+    "PickupItem": [-1061.5, 36.0, 246.5, "&6&lPuzzle Piece", "Paper"],
+    "Wait": 20,
+    "SendMessage": ["&e&l+1 &6&lPuzzle Piece 3/3", "-ph-"],
+    "Wait": 20,
+    "Objective": ["Go back to the Ancient Pyramid and type the secret word in chat to open the door! ", 3],
     "RegionEntry": [
-        -1114,
-        1,
-        198,
-        -1129,
-        54,
-        204
+        -1114, 1, 198,
+        -1129, 54, 204
     ],
     "Dialog": [
         {
@@ -369,53 +267,27 @@
             "[PLAYER]": "Maybe I have to organize the groups of letters to make a word!"
         }
     ],
-    "Wait": [
-        10
-    ],
-    "Objective": [
-        "Say the secret word by typing it in chat (Remember> The pieces say '-ro' 'So-' and '-ph-')",
-        7
-    ],
-    "Chat": [
-        "Sophro"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&a&lAccess Granted"
-    ],
+    "Wait": 10,
+    "Objective": ["Say the secret word by typing it in chat (Remember> The pieces say '-ro' 'So-' and '-ph-')", 7],
+    "Chat": "Sophro",
+    "Wait": 20,
+    "SendMessage": "&a&lAccess Granted",
     "ProgressiveWall": [
-        -1127,
-        49,
-        205,
-        -1129,
-        54,
-        205,
+        -1127, 49, 205,
+        -1129, 54, 205,
         -7
     ],
     "ProgressiveWall": [
-        -1127,
-        49,
-        199,
-        -1129,
-        54,
-        199,
+        -1127, 49, 199,
+        -1129, 54, 199,
         -7
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Tribe_Leader2": true
     },
-    "Objective": [
-        "Go through the maze of the pyramid and find Astrid across the parkour",
-        3
-    ],
-    "HighlightClickEntity": [
-        "Tribe_Leader2"
-    ],
+    "Objective": ["Go through the maze of the pyramid and find Astrid across the parkour", 3],
+    "HighlightClickEntity": "Tribe_Leader2",
     "Dialog": [
         {
             "&6&lAstrid": "Do you think you still have what it takes?",
@@ -426,13 +298,8 @@
             "&6&lAstrid": "Did you lose your fighting spirit that easily?"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle the Ancient Tribe Leader",
-        12
-    ],
+    "Wait": 20,
+    "Objective": ["Battle the Ancient Tribe Leader", 12],
     "BattleNpc": [
         "Tribe_Leader2",
         {
@@ -445,20 +312,18 @@
             "&e&lAstrid": "Here, I'll let you try again..."
         },
         [
-			{
-				"species": "weedle",
-				"level": 1,
-				"moves": [
-					"celebrate"
-				],
-				"nature": "Timid",
-				"ability": "Shield Dust"
-			}
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&6&lAstrid": "This has happened before.",
@@ -470,36 +335,17 @@
             "&6&lAstrid": "The Swords of Justice. Cobalion, Terrakion, and Virizion!"
         }
     ],
-    "Teleport": [
-        -1100.5,
-        29.0,
-        184.5,
-        270,
-        0
-    ],
-    "Wait": [
-        20
-    ],
-    "Particle": [
-        -1095.5,
-        29.0,
-        184.5,
-        "explosion_huge"
-    ],
-    "PlaySound": [
-        "entity_dragon_fireball_explode"
-    ],
+    "Teleport": [-1100.5, 29.0, 184.5, 270, 0],
+    "Wait": 20,
+    "Particle": ["explosion_huge", -1095.5, 29.0, 184.5],
+    "PlaySound": "entity_dragon_fireball_explode",
     "Show": {
         "Cobalion1": true,
         "Terrakion1": true,
         "Virizion1": true
     },
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Terrakion1"
-    ],
+    "Wait": 20,
+    "Look": "Terrakion1",
     "Dialog": [
         {
             "&6&lAstrid": "Our battle has shown the Swords of Justice that you are worthy.",
@@ -511,12 +357,9 @@
             "&6&lAstrid": "&c&oIf Stratera gains control of Kyurem, this War that has barely begun, will be over. Everyone into position! Come with me [PLAYER]!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Objective": [
-        "Exit the Ancient Pyramid with the Ancient Tribe Leader to prepare for the war",
-        12
+        "Exit the Ancient Pyramid with the Ancient Tribe Leader to prepare for the war", 12
     ],
     "Show": {
         "Scout1": true,
@@ -528,25 +371,12 @@
         "Tribe_Leader3": true
     },
     "RegionEntry": [
-        -1107,
-        49,
-        215,
-        -1129,
-        75,
-        181
+        -1107, 49, 215,
+        -1129, 75, 181
     ],
-    "Freeze": [
-    ],
-    "Teleport": [
-        -1111.5,
-        49.0,
-        201.5,
-        287,
-        0
-    ],
-    "Look": [
-        "Scout1"
-    ],
+    "Freeze": [],
+    "Teleport": [-1111.5, 49.0, 201.5, 287, 0],
+    "Look": "Scout1",
     "Dialog": [
         {
             "&3&lStater Member": "Uh oh! Scram!",
@@ -558,11 +388,8 @@
         "Scout2": false,
         "Scout3": false
     },
-    "Wait": [
-        20
-    ],
-    "Unfreeze": [
-    ],
+    "Wait": 20,
+    "Unfreeze": [],
     "Dialog": [
         {
             "&6&lAstrid": "Those spies won’t be traced now, they’ll make it back to &3Stratera&r before we can even think of sending someone after them now...",
@@ -572,24 +399,11 @@
             "&6&lAstrid": "Go, [PLAYER]. You have all of &6Sophro&r behind you in support."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Beat the final gym and become the Regional Champion by completing Elite Four",
-        7
-    ],
-    "Hold": [
-    ],
-    "Teleport": [
-        92.8,
-        165.9,
-        -296.5,
-        299,
-        0
-    ],
-    "Freeze": [
-    ],
+    "Wait": 20,
+    "Objective": ["Beat the final gym and become the Regional Champion by completing Elite Four", 7],
+    "Hold": [],
+    "Teleport": [92.8, 165.9, -296.5, 299, 0],
+    "Freeze": [],
     "Show": {
         "Rival1": true
     },
@@ -599,15 +413,9 @@
             "&d&lDanielle": "I've claimed that title and you'll have to beat me to win it!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Unfreeze": [
-    ],
-    "Objective": [
-        "Defeat Danielle to become the Regional Champion",
-        9
-    ],
+    "Wait": 20,
+    "Unfreeze": [],
+    "Objective": ["Defeat Danielle to become the Regional Champion", 9],
     "BattleNpc": [
         "Rival1",
         {
@@ -620,41 +428,25 @@
             "&d&lDanielle": "Guess you'll never be the Regional Champion"
         },
         [
-			{
-				"species": "weedle",
-				"level": 1,
-				"moves": [
-					"celebrate"
-				],
-				"nature": "Timid",
-				"ability": "Shield Dust"
-			}
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "nature": "Timid",
+                "ability": "Shield Dust"
+            }
         ]
     ],
-    "Freeze": [
-    ],
-    "Teleport": [
-        92.8,
-        165.9,
-        -296.5,
-        299,
-        0
-    ],
-    "StrikeLightning": [
-        92.8,
-        165.9,
-        -296.5
-    ],
-    "Potion": [
-        "Blindness",
-        80
-    ],
+    "Freeze": [],
+    "Teleport": [92.8, 165.9, -296.5, 299, 0],
+    "StrikeLightning": [92.8, 165.9, -296.5],
+    "Potion": ["Blindness", 80],
     "Show": {
         "Rival1": false
     },
-    "Wait": [
-        60
-    ],
+    "Wait": 60,
     "Dialog": [
         {
             "[PLAYER]": "What happened? Where did &dDanielle&r go?! Did I fail yet again?",
@@ -662,16 +454,9 @@
             "[PLAYER]": "I guess I have to go tell &eAstrid&r..."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Return to Astrid at the Ancient Pyramid",
-        10
-    ],
-    "HighlightClickEntity": [
-        "Tribe_Leader3"
-    ],
+    "Wait": 20,
+    "Objective": ["Return to Astrid at the Ancient Pyramid", 10],
+    "HighlightClickEntity": "Tribe_Leader3",
     "Dialog": [
         {
             "[PLAYER]": "I've failed you yet again... ",
@@ -683,52 +468,13 @@
             "&6&lAstrid": "As he very well should be. Let’s go."
         }
     ],
+    "Wait": 20,
+    "GiveCoins": 1,
+    "GiveTokens": 1,
+    "GiveTrainerExperience": 1,
     "Wait": [
         20
     ],
-    "GiveCoins": [
-
-    ],
-    "GiveTokens": [
-
-    ],
-    "GiveTrainerExperience": [
-
-    ],
-    "GiveItem": [
-
-    ],
-    "Wait": [
-        20
-    ],
-    "SendCompleteMessage": [
-    ],
-    "Complete": [
-    ],
-    "NoFlyRegion": [
-        -1070,
-        1,
-        160,
-        -1179,
-        45,
-        227
-    ],
-    "NoTpRegion": [
-        -1070,
-        1,
-        160,
-        -1179,
-        45,
-        227
-    ],
-    "PotionRegion": [
-        -1070,
-        1,
-        160,
-        -1179,
-        45,
-        227,
-        "Night Vision",
-        10
-    ]
+    "SendCompleteMessage": [],
+    "Complete": []
 }
