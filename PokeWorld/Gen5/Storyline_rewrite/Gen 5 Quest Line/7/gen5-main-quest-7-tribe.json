@@ -1,0 +1,734 @@
+{
+    "key": "gen5_main_quest_7_statera",
+    "name": "",
+    "description": "Head back to the shrine in Greenholm",
+    "allowRejoining": true,
+    "icon": "",
+    "CreateEntity": {
+        "key": "Player",
+        "location": {
+            "x": -442.5,
+            "y": 57.0,
+            "z": -93.5,
+            "yaw": 128,
+            "pitch": 0
+        },
+        "skin": "player",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe_Leader1",
+        "name": "&e&lAstrid",
+        "location": {
+            "x": -442.0,
+            "y": 57.0,
+            "z": -90.4,
+            "yaw": 146,
+            "pitch": 0
+        },
+        "skin": "",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe_Leader2",
+        "name": "&e&lAstrid",
+        "location": {
+            "x": -1086.5,
+            "y": 29.0,
+            "z": 184.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": "",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe_Leader3",
+        "name": "&e&lAstrid",
+        "location": {
+            "x": -1110.5,
+            "y": 49.0,
+            "z": 202.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": "",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Scout1",
+        "name": "&3&lStatera Scout",
+        "location": {
+            "x": -1100.5,
+            "y": 49.0,
+            "z": 205.5,
+            "yaw": 112,
+            "pitch": 0
+        },
+        "skin": "",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Scout2",
+        "name": "&3&lStatera Scout",
+        "location": {
+            "x": -1099.5,
+            "y": 49.0,
+            "z": 198.5,
+            "yaw": 49,
+            "pitch": 0
+        },
+        "skin": "",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Scout3",
+        "name": "&3&lStatera Scout",
+        "location": {
+            "x": -1096.5,
+            "y": 49.0,
+            "z": 200.5,
+            "yaw": 76,
+            "pitch": 0
+        },
+        "skin": "",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Rival1",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": 107.5,
+            "y": 166.0,
+            "z": -290.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": "danielle",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Cobalion1",
+        "name": "Cobalion",
+        "location": {
+            "x": -1095.5,
+            "y": 29.0,
+            "z": 184.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Cobalion",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Terrakion1",
+        "name": "Terrakion",
+        "location": {
+            "x": -1094.5,
+            "y": 29.0,
+            "z": 182.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Terrakion",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Virizion1",
+        "name": "Virizion",
+        "location": {
+            "x": -1094.5,
+            "y": 29.0,
+            "z": 186.5,
+            "yaw": 107,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Virizion",
+        "look": false
+    },
+    "Show": {
+        "Player": false,
+        "Tribe_Leader1": false,
+        "Tribe_Leader2": false,
+        "Tribe_Leader3": false,
+        "Scout1": false,
+        "Scout2": false,
+        "Scout3": false,
+        "Rival1": false,
+        "Cobalion1": false,
+        "Terrakion1": false,
+        "Virizion1": false
+    },
+    "RegionEntry": [
+        -528,
+        1,
+        20,
+        -471,
+        150,
+        87
+    ],
+    "Completed": [
+        "GYM7",
+        true,
+        ""
+    ],
+    "HasTeam": [
+        "Tribe"
+    ],
+    "Completed": [
+        "gen5_main_quest_6_tribe"
+    ],
+    "Fade": [
+    ],
+    "Cinematic": [
+    ],
+    "SetWorldTime": [
+        13000
+    ],
+    "SetScorebard": "",
+    "Teleport": [
+        -438.5,
+        60.0,
+        -98.5,
+        28,
+        0
+    ],
+    "Freeze": [
+    ],
+    "Show": {
+        "Player": true
+    },
+    "Look": [
+        "Player"
+    ],
+    "MoveEntity": [
+        "Player",
+        -446.5,
+        57.0,
+        -96.5
+    ],
+    "EntityLook": [
+        "Player",
+        132,
+        65
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Zeinova will never be the same... They took &0Zekrom&r..."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Player": false
+    },
+    "Fade": [
+    ],
+    "StopCinematic": [
+    ],
+    "SetScorebard": [
+    ],
+    "Teleport": [
+        -446.5,
+        57.0,
+        -96.5,
+        130,
+        65
+    ],
+    "Show": {
+        "Tribe_Leader1": true
+    },
+    "MoveEntity": [
+        "Tribe_Leader1",
+        -443.5,
+        57.0,
+        -93.5
+    ],
+    "Look": [
+        "Tribe_Leader1"
+    ],
+    "Unfreeze": [
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "[PLAYER]! What are you doing mopeing around?!",
+            "&e&lAstrid": "There may be another way for us to win!",
+            "&e&lAstrid": "Meet me inside the Ancient Pyramid in Sandgate, we need to talk."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Head to the medium sized Ancient Pyramid in Sandgate and complete the puzzle",
+        3
+    ],
+    "RegionEntry": [
+        -1114,
+        1,
+        198,
+        -1129,
+        54,
+        204
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hmm... How am I supposed to open this door?",
+            "[PLAYER]": "There's a riddle on the wall here...",
+            "[PLAYER]": "It says> To open the doors to the Great Pyramid say the secret word",
+            "[PLAYER]": "To find the word you must search around Sandgate for the pieces of a puzzle.",
+            "[PLAYER]": "I guess I should start searching around Sandgate...",
+            "[PLAYER]": "It's worth a try!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Find the first puzzle piece in Sandgate (Hint> Near the gym)",
+        4
+    ],
+    "PickupItem": [
+        -991.5,
+        50.0,
+        133.5,
+        "&6&lPuzzle Piece",
+        "Paper"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&e&l+1 &6&lPuzzle Piece 1/3",
+        "-ro"
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Find the second puzzle piece in Sandgate (Hint> Near a house)",
+        4
+    ],
+    "PickupItem": [
+        -1089.5,
+        49.0,
+        166.5,
+        "&6&lPuzzle Piece",
+        "Paper"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&e&l+1 &6&lPuzzle Piece 2/3",
+        "So-"
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Find the final puzzle piece in Sandgate (Hint> Near some fossils",
+        4
+    ],
+    "PickupItem": [
+        -1061.5,
+        36.0,
+        246.5,
+        "&6&lPuzzle Piece",
+        "Paper"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&e&l+1 &6&lPuzzle Piece 3/3",
+        "-ph-"
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Go back to the Ancient Pyramid and type the secret word in chat to open the door! ",
+        3
+    ],
+    "RegionEntry": [
+        -1114,
+        1,
+        198,
+        -1129,
+        54,
+        204
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Alright, the three pieces say '-ro' 'So-' and '-ph-'.",
+            "[PLAYER]": "Maybe I have to organize the groups of letters to make a word!"
+        }
+    ],
+    "Wait": [
+        10
+    ],
+    "Objective": [
+        "Say the secret word by typing it in chat (Remember> The pieces say '-ro' 'So-' and '-ph-')",
+        7
+    ],
+    "Chat": [
+        "Sophro"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&a&lAccess Granted"
+    ],
+    "ProgressiveWall": [
+        -1127,
+        49,
+        205,
+        -1129,
+        54,
+        205,
+        -7
+    ],
+    "ProgressiveWall": [
+        -1127,
+        49,
+        199,
+        -1129,
+        54,
+        199,
+        -7
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Tribe_Leader2": true
+    },
+    "Objective": [
+        "Go through the maze of the pyramid and find Astrid across the parkour",
+        3
+    ],
+    "HighlightClickEntity": [
+        "Tribe_Leader2"
+    ],
+    "Dialog": [
+        {
+            "&6&lAstrid": "Do you think you still have what it takes?",
+            "&6&lAstrid": "What it takes to save Zeinova?",
+            "&6&lAstrid": "What I saw back there, did not seem like it.",
+            "&6&lAstrid": "Pitying yourself, feeling bad for yourself, mumbling incoherently about failure...",
+            "&6&lAstrid": "[PLAYER]! Are you really so pathetic? The Tribe and I know otherwise, but you?",
+            "&6&lAstrid": "Did you lose your fighting spirit that easily?"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Battle the Ancient Tribe Leader",
+        12
+    ],
+    "BattleNpc": [
+        "Tribe_Leader2",
+        {
+            "&e&lAstrid": "Prove to me that you are still worthy!"
+        },
+        {
+            "&e&lAstrid": "Nice!"
+        },
+        {
+            "&e&lAstrid": "Here, I'll let you try again..."
+        },
+        [
+			{
+				"species": "weedle",
+				"level": 1,
+				"moves": [
+					"celebrate"
+				],
+				"nature": "Timid",
+				"ability": "Shield Dust"
+			}
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&6&lAstrid": "This has happened before.",
+            "&6&Astrid": "There was once a War just like the one unfolding at our fingertips.",
+            "&6&lAstrid": "Easily avoidable, easily directed... two stubborn forces unwilling to compromise.",
+            "&6&lAstrid": "The squabble of the humans brought a fierce plague to the region, of violence and distrust, and we humans turned the Pokémon against us.",
+            "&6&lAstrid": "Horrowing.",
+            "&6&lAstrid": "During that War however... Three Pokémon appeared to the aid of the Pokémon, and the aid of the humans.",
+            "&6&lAstrid": "The Swords of Justice. Cobalion, Terrakion, and Virizion!"
+        }
+    ],
+    "Teleport": [
+        -1100.5,
+        29.0,
+        184.5,
+        270,
+        0
+    ],
+    "Wait": [
+        20
+    ],
+    "Particle": [
+        -1095.5,
+        29.0,
+        184.5,
+        "explosion_huge"
+    ],
+    "PlaySound": [
+        "entity_dragon_fireball_explode"
+    ],
+    "Show": {
+        "Cobalion1": true,
+        "Terrakion1": true,
+        "Virizion1": true
+    },
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Terrakion1"
+    ],
+    "Dialog": [
+        {
+            "&6&lAstrid": "Our battle has shown the Swords of Justice that you are worthy.",
+            "&6&lAstrid": "You and your companions will fight along their side.",
+            "&6&lAstrid": "The War has begun, [PLAYER].",
+            "&6&lAstrid": "We must be on our way, there is a great power waiting for us in the Ice to the North, he’s calling to us.",
+            "&6&lAstrid": "We need to get to &3Kyurem&r, before &3Stratera&r does.",
+            "&6&lAstrid": "&c&oWe cannot allow Stratera to capture Kyurem! Stratera has been experimenting on Pokémon for many years, and have the knowledge and now the power of Zekrom to take control of Kyurem.",
+            "&6&lAstrid": "&c&oIf Stratera gains control of Kyurem, this War that has barely begun, will be over. Everyone into position! Come with me [PLAYER]!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Exit the Ancient Pyramid with the Ancient Tribe Leader to prepare for the war",
+        12
+    ],
+    "Show": {
+        "Scout1": true,
+        "Scout2": true,
+        "Scout3": true
+    },
+    "Show": {
+        "Tribe_Leader2": false,
+        "Tribe_Leader3": true
+    },
+    "RegionEntry": [
+        -1107,
+        49,
+        215,
+        -1129,
+        75,
+        181
+    ],
+    "Freeze": [
+    ],
+    "Teleport": [
+        -1111.5,
+        49.0,
+        201.5,
+        287,
+        0
+    ],
+    "Look": [
+        "Scout1"
+    ],
+    "Dialog": [
+        {
+            "&3&lStater Member": "Uh oh! Scram!",
+            "&e&lAstrid": "Spies!"
+        }
+    ],
+    "Show": {
+        "Scout1": false,
+        "Scout2": false,
+        "Scout3": false
+    },
+    "Wait": [
+        20
+    ],
+    "Unfreeze": [
+    ],
+    "Dialog": [
+        {
+            "&6&lAstrid": "Those spies won’t be traced now, they’ll make it back to &3Stratera&r before we can even think of sending someone after them now...",
+            "&6&lAstrid": "[PLAYER]... you need to become Zeinova’s regional Champion.",
+            "&6&lAstrid": "You need the recognition of all the regions trainers, for &3Kyurem&r to even consider you a potential partner.",
+            "&6&lAstrid": "And we &owill&r need &3Kyurem&r for this War.",
+            "&6&lAstrid": "Go, [PLAYER]. You have all of &6Sophro&r behind you in support."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Beat the final gym and become the Regional Champion by completing Elite Four",
+        7
+    ],
+    "Hold": [
+    ],
+    "Teleport": [
+        92.8,
+        165.9,
+        -296.5,
+        299,
+        0
+    ],
+    "Freeze": [
+    ],
+    "Show": {
+        "Rival1": true
+    },
+    "Dialog": [
+        {
+            "&d&lDanielle": "Did you really think I would let you beat me to becoming the Regional Champion?",
+            "&d&lDanielle": "I've claimed that title and you'll have to beat me to win it!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Unfreeze": [
+    ],
+    "Objective": [
+        "Defeat Danielle to become the Regional Champion",
+        9
+    ],
+    "BattleNpc": [
+        "Rival1",
+        {
+            "&d&lDanielle": "Ready to lose again?!"
+        },
+        {
+            "": ""
+        },
+        {
+            "&d&lDanielle": "Guess you'll never be the Regional Champion"
+        },
+        [
+			{
+				"species": "weedle",
+				"level": 1,
+				"moves": [
+					"celebrate"
+				],
+				"nature": "Timid",
+				"ability": "Shield Dust"
+			}
+        ]
+    ],
+    "Freeze": [
+    ],
+    "Teleport": [
+        92.8,
+        165.9,
+        -296.5,
+        299,
+        0
+    ],
+    "StrikeLightning": [
+        92.8,
+        165.9,
+        -296.5
+    ],
+    "Potion": [
+        "Blindness",
+        80
+    ],
+    "Show": {
+        "Rival1": false
+    },
+    "Wait": [
+        60
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "What happened? Where did &dDanielle&r go?! Did I fail yet again?",
+            "[PLAYER]": "It never said the battle was over... so that means... &dDanielle&r is still the Regional Champion!",
+            "[PLAYER]": "I guess I have to go tell &eAstrid&r..."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Return to Astrid at the Ancient Pyramid",
+        10
+    ],
+    "HighlightClickEntity": [
+        "Tribe_Leader3"
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "I've failed you yet again... ",
+            "&6&lAstrid": "You did not fail, [PLAYER].",
+            "&6&lAstrid": "I fully believe this War would have began regardless of which one of the Champions won the battle.",
+            "&6&lAstrid": "&8Vidar&r is vindictive, he would have found another way.",
+            "&6&lAstrid": "Sabotaging your battle with &0Zekrom&r however, is the &lCoward’s&r way.",
+            "&6&lAstrid": "He’s scared...",
+            "&6&lAstrid": "As he very well should be. Let’s go."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "GiveCoins": [
+
+    ],
+    "GiveTokens": [
+
+    ],
+    "GiveTrainerExperience": [
+
+    ],
+    "GiveItem": [
+
+    ],
+    "Wait": [
+        20
+    ],
+    "SendCompleteMessage": [
+    ],
+    "Complete": [
+    ],
+    "NoFlyRegion": [
+        -1070,
+        1,
+        160,
+        -1179,
+        45,
+        227
+    ],
+    "NoTpRegion": [
+        -1070,
+        1,
+        160,
+        -1179,
+        45,
+        227
+    ],
+    "PotionRegion": [
+        -1070,
+        1,
+        160,
+        -1179,
+        45,
+        227,
+        "Night Vision",
+        10
+    ]
+}
