@@ -7,13 +7,13 @@
     "CreateEntity": {
         "key": "Player",
         "location": {
-            "x": -442.5,
-            "y": 57.0,
-            "z": -93.5,
-            "yaw": 128,
-            "pitch": 0
+            "x": -532.8,
+            "y": 69.0,
+            "z": 29.2,
+            "yaw": 136,
+            "pitch": 29
         },
-        "skin": "player",
+        "skin": "[PLAYER]",
         "look": false
     },
     "CreateEntity": {
@@ -23,10 +23,10 @@
             "&7Sophro Leader"
         ],
         "location": {
-            "x": -442.0,
-            "y": 57.0,
-            "z": -90.4,
-            "yaw": 146,
+            "x": -527.4,
+            "y": 68.0,
+            "z": 34.7,
+            "yaw": 133,
             "pitch": 0
         },
         "skin": {
@@ -188,75 +188,118 @@
     "Cinematic": [],
     "SetWorldTime": 13000,
     "SetScoreboard": "",
-    "Teleport": [-438.5, 60.0, -98.5, 28, 0],
+    "Teleport": [-539.5, 66.3, 20.3, -41, -8],
     "Freeze": [],
     "Show": {
         "Player": true
     },
-    "Look": "Player",
-    "MoveEntity": ["Player", -446.5, 57.0, -96.5],
-    "EntityLook": ["Player", 132, 65],
+    "Wait": 30,
     "Dialog": [
         {
-            "[PLAYER]": "Zeinova will never be the same... They took &8&lZekrom&r..."
+            "[PLAYER]": "&oZeinova will never be the same... They took &8&lZekrom&r...",
+            "[PLAYER]": "&oHow could I fail..."
         }
     ],
     "Wait": 20,
+
     "Show": {
-        "Player": false
+        "Tribe_Leader1": true
+    },
+    "Wait": 1,
+    "MoveEntity": ["Tribe_Leader1", -532.8,69.0,31.6, 0.15, false],
+    "EntityLook": ["Tribe_Leader1", "Player"],
+
+    "Dialog": [
+        {
+            "&e&lAstrid": "[PLAYER]!"
+        }
+    ],
+    "EntityLook": ["Player", "Tribe_Leader1"],
+    "Dialog": [
+        {
+            "&e&lAstrid": "What are you doing moping around?!",
+            "&e&lAstrid": "You made this mess so you better help fix it.",
+            "&e&lAstrid": "Meet me inside the Ancient Pyramid in Sandgate, I might have a way to turn this around."
+        }
+    ],
+    "ProgressiveMoveEntity": ["Tribe_Leader1", -527.4, 68.0, 34.7, 0.15, false],
+    "EntityLook": ["Player", 136, 29],
+    "Dialog": [
+        {
+            "[PLAYER]": "I... &osigh"
+        }
+    ],
+
+    "Show": {
+        "Player": false,
+        "Tribe_Leader1": false
     },
     "Fade": [],
     "StopCinematic": [],
     "SetScoreboard": [],
-    "Teleport": [-446.5, 57.0, -96.5, 130, 65],
-    "Show": {
-        "Tribe_Leader1": true
-    },
-    "MoveEntity": ["Tribe_Leader1", -443.5, 57.0, -93.5],
-    "Look": "Tribe_Leader1",
+    "SetWorldTime": 6000,
+    "Teleport": [-532.5,69.0,29.4, -50, 0],
     "Unfreeze": [],
-    "Dialog": [
-        {
-            "&e&lAstrid": "[PLAYER]! What are you doing mopeing around?!",
-            "&e&lAstrid": "There may be another way for us to win!",
-            "&e&lAstrid": "Meet me inside the Ancient Pyramid in Sandgate, we need to talk."
-        }
-    ],
+
+
     "Wait": 20,
-    "Objective": ["Head to the medium sized Ancient Pyramid in Sandgate and complete the puzzle", 3],
+    "Objective": ["Head to the medium sized Ancient Pyramid in Sandgate", 3],
     "RegionEntry": [
         -1114, 1, 198,
         -1129, 54, 204
     ],
     "Dialog": [
         {
-            "[PLAYER]": "Hmm... How am I supposed to open this door?",
-            "[PLAYER]": "There's a riddle on the wall here...",
-            "[PLAYER]": "It says> To open the doors to the Great Pyramid say the secret word",
-            "[PLAYER]": "To find the word you must search around Sandgate for the pieces of a puzzle.",
-            "[PLAYER]": "I guess I should start searching around Sandgate...",
-            "[PLAYER]": "It's worth a try!"
+            "[PLAYER]": "&oWell, that is a closed door if I ever saw one.",
+            "[PLAYER]": "&oThese walls look like they have inscriptions on them. Maybe there is a clue."
+        }
+    ],
+    "Objective": ["Inspect the walls for clues", 4],
+    "ClickBlocks": [
+        -1123, 51, 208,
+        -1118, 53, 208
+    ],
+    "Dialog": [
+        {
+            "&7&lInscriptions": "These doth'rs only ope at which hour the charm w'rd is spoken.",
+            "&7&lInscriptions": "The charm w'rd consists of 3 parts all of which can beest hath found 'round town.",
+            "[PLAYER]": "Okay. that is ... really old English.",
+            "[PLAYER]": "If I got this right, I need a password that consists of 3 parts which all can be found in Sandgate.",
+            "[PLAYER]": "Let's give that a shot..."
         }
     ],
     "Wait": 20,
-    "Objective": ["Find the first puzzle piece in Sandgate (Hint> Near the gym)", 4],
-    "PickupItem": [-991.5, 50.0, 133.5, "&6&lPuzzle Piece", "Paper"],
+    "Objective": ["Look around the Sandgate gym for clues to the password (Hint > Look up)", 4],
+    "PickupItem": [-980.5,73.0,172.5, "&6&lScrap paper", "Paper"],
     "Wait": 20,
-    "SendMessage": ["&e&l+1 &6&lPuzzle Piece 1/3", "-ro"],
-    "Wait": [
-        20
+    "SendMessage": ["&e&l+1 &6&lScrap 1/3"],
+    "Dialog": [
+        {
+            "[PLAYER]": "&l'-ro'&r, &othat is what this says... Guess i need two more."
+        }
     ],
-    "Objective": ["Find the second puzzle piece in Sandgate (Hint> Near a house)", 4],
-    "PickupItem": [-1089.5, 49.0, 166.5, "&6&lPuzzle Piece", "Paper"],
+    "Wait":20,
+    "Objective": ["Look around for more clues (Hint > Near a garage)", 4],
+    "PickupItem": [-1089.5, 49.0, 166.5, "&6&lScrap paper", "Paper"],
     "Wait": 20,
-    "SendMessage": ["&e&l+1 &6&lPuzzle Piece 2/3", "So-"],
+    "SendMessage": ["&e&l+1 &6&lScrap 2/3"],
+    "Dialog": [
+        {
+            "[PLAYER]": "&l'So-'&r, &ohmm, this might actually form a password..."
+        }
+    ],
     "Wait": 20,
-    "Objective": ["Find the final puzzle piece in Sandgate (Hint> Near some fossils", 4],
-    "PickupItem": [-1061.5, 36.0, 246.5, "&6&lPuzzle Piece", "Paper"],
+    "Objective": ["Look for the final piece of information (Hint > Diggy, diggy, hole!)", 4],
+    "PickupItem": [-1061.5, 36.0, 246.5, "&6&lScrap paper", "Paper"],
     "Wait": 20,
-    "SendMessage": ["&e&l+1 &6&lPuzzle Piece 3/3", "-ph-"],
+    "SendMessage": ["&e&l+1 &6&lScrap 3/3"],
+    "Dialog": [
+        {
+            "[PLAYER]": "&l'-ph-'&r, &oI guess that is it?"
+        }
+    ],
     "Wait": 20,
-    "Objective": ["Go back to the Ancient Pyramid and type the secret word in chat to open the door! ", 3],
+    "Objective": ["Go back to the Ancient Pyramid", 3],
     "RegionEntry": [
         -1114, 1, 198,
         -1129, 54, 204
@@ -268,7 +311,7 @@
         }
     ],
     "Wait": 10,
-    "Objective": ["Say the secret word by typing it in chat (Remember> The pieces say '-ro' 'So-' and '-ph-')", 7],
+    "Objective": ["Say the secret word in chat (Clues > '-ro' 'So-' & '-ph-')", 7],
     "Chat": "Sophro",
     "Wait": 20,
     "SendMessage": "&a&lAccess Granted",
