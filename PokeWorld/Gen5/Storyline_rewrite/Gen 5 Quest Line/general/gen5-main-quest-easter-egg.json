@@ -96,7 +96,7 @@
             "material": "diamond_hoe",
             "damage": 1446
         },
-        "look": true
+        "visible": false
     },
     "RegionEntry": [
         71, 85, 329,
