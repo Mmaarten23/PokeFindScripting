@@ -82,6 +82,22 @@
         },
         "look": true
     },
+    "CreateEntity": {
+        "key": "Tree",
+        "entity": "armor_stand",
+        "location": {
+            "x": 82.4,
+            "y": 86.0,
+            "z": 342.3,
+            "yaw": 137,
+            "pitch": 0
+        },
+        "helmet": {
+            "material": "diamond_hoe",
+            "damage": 1446
+        },
+        "look": true
+    },
     "RegionEntry": [
         71, 85, 329,
         84, 92, 348
