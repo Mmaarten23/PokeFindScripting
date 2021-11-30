@@ -1,7 +1,7 @@
 {
     "Key": "hasitemtest",
     "If": [],
-    "HasItem": [ "apple", false, true],
+    "HasItem": [ "apple", false, "mainhand"],
     "SendMessage": "Congrats, you are holding an apple!",
     "SendMessage": "Eat more apples."
 }
