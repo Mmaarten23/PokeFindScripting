@@ -75,7 +75,10 @@
     },
     "CreateEntity": {
         "key": "Scout1",
-        "name": "&3&lStatera Scout",
+        "name": [
+            "&3&lJeff",
+            "&7Statera Member"
+        ],
         "location": {
             "x": -1100.5,
             "y": 49.0,
@@ -83,12 +86,18 @@
             "yaw": 112,
             "pitch": 0
         },
-        "skin": "",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI0Mjk2NzMxMiwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZDE3NjhkZTI0ZDMxYWE5MmUxYjFkNWI2YWM0ZjFiNGRkOGI4MDZhOGQ3MjI5MjY4NjM4Zjk1ZGZhMzJjMCIKICAgIH0KICB9Cn0=",
+            "signature": "uuCP+6VO/TYmGsXVGuztP/dnmnqQ7k9mEEm2R+bmTWqTVQ1Wkxr51kh60SXbbMeYutEzHcrUArh1Kbt/KgtbsW1gMKTEBLRY7jnkMplDwuGRWC7ZsZYf06FE6eRpUy4jDac7vyyVuGVZOshu7e+lNDAfiQUvSS/ZOE2diF/pAC5LnAJPz68RgIADD7lR9JFH5q2QuX0Gtah2Gh2HQU3dJHZzCKZtct+40ggDt9IBRhYPc28UtcIL/lkEHm5YVgLlVYJfLWJ+Y36lJkQktTFbHkzHrJNxJQ0iYvRzn3Ulr9EbHAZ+rLCg3IQwbuml0SSBRPdxFCqcAbyhqdZmN9SnbOb+EKmu0EeWWUvSKUAisly5Yo0J/bLLGZuA+cDF9jOUWuBSQa3uKUOrXXP6Vx9c/CEJ5wXp+MeD/tv5mQaia3ETKxMwIn77JDZmkMvDjNEhJtT9V+dGR94Qeq9FwAmBkclVHeCL5r1kBoY0DYkK1msLJUS7ukUSvBiwUXDZ1ssEd/oaDgsOsXftucPjyTicslxZOZcstJJkmqqQt1su8KHv0Wmie/PDRWGHvKSSeUa0Z4t0x2kle25rhp5WtlOeMiG0qY4KrFjV0zxjAKS2idujlD0ij9NAXGYdBzJp4yuFOYyLopHVCc6ScDiS7YSLLrXjyuySOWsGO9dzdjwC8z8="
+        },
         "look": false
     },
     "CreateEntity": {
         "key": "Scout2",
-        "name": "&3&lStatera Scout",
+        "name": [
+            "&3&lMark",
+            "&7Statera Member"
+        ],
         "location": {
             "x": -1099.5,
             "y": 49.0,
@@ -96,12 +105,18 @@
             "yaw": 49,
             "pitch": 0
         },
-        "skin": "",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODc0NzIwMCwKICAicHJvZmlsZUlkIiA6ICI4YjgyM2E1YmU0Njk0YjhiOTE0NmE5MWRhMjk4ZTViNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXBoaXRpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjE0ZTg1YzQ2YTgwMjQwY2VhODcxMDI1NGQ0YjFiNjZjZTNjMGQ0YjBhMjhkN2FjYWM1MzQzOTgwOTM1NWQ3IgogICAgfQogIH0KfQ==",
+            "signature": "yWeXNRwJh0+t3LdCGAXsctati2Tk5Ag17zriep4uiMidmcSn17vPS14Nt7MDs+aYM+hWZ3+XVy0oMCZLrhh8yfu4I/NEcTlHDustG2vVqm0PKWXF3xKmEInz/oMw+yyWYa0LPskVUSCjUoFllfHa5mYboWbx0Qc6S46gM0WTMB9xaV6nx95Og3+3jRZvWG5jNkMBTzq94p1qQqWTKlG8r9oyp4BPLDcVPffWiczUUVXVY2BPgLkJIqusK+HvrEzjclld3VYALWBFaLF5jYENmPJ0SD1mrWzCKB+4T3DCrJjTyPmDpmuy6HXttCXlGdavCs/DpPS3kUNhX7dWaRgCjcANBbFTDTSvVFld6X9rfm1rf5t2fOrvjd3jcDLpcnpFIH1cQKUHElXYdZMqZiAZIJZlR5vNgeF24t+XqZ5fGxPFo63TgCdGMs00zr0gAnA/e5bXz+p89ZScEgktTQcYiXxzN1IWEt7KlGgNrt2SntKbVRbuTpbxNfy/Bf5KK5VgkQT+1g4oE73szriKIxiE0oZIwyvPKUNrIMj5ohPv+6ECfZK+S1Ux1L3xbhJ7BTDKzCht0qVfvk9fsy7LKTwc+Ik4874PMiUTCqzRVvOy/vLSE8L/cDf7iQipzkLlN6vYa28qZLDsDKwRjt6UIyUxk9wzw3adY7sJIYjg7I8pBpM="
+        },
         "look": false
     },
     "CreateEntity": {
         "key": "Scout3",
-        "name": "&3&lStatera Scout",
+        "name": [
+            "&3&lSteven",
+            "&7Statera Member"
+        ],
         "location": {
             "x": -1096.5,
             "y": 49.0,
@@ -109,7 +124,10 @@
             "yaw": 76,
             "pitch": 0
         },
-        "skin": "",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODgxMzMyNSwKICAicHJvZmlsZUlkIiA6ICI4ODBiZWMwYTE0MmM0YzRlYTJlZjliMTFiMTBkNWNiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmZ2FiIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlODUwNzY1YjlhMzVkOWRjNmQ1M2Y3ZTM1ZjYzODU5NjhjOTc4MDE1MDJjZmFhMmRhNjg3ZjVjYTE2NWQyZWQiCiAgICB9CiAgfQp9",
+            "signature": "xs9WOJU4r4pIMSXv4CvAQjHFqjaz70fSDAqrACQq9i7sWEKNVkSz1KlAxIZ4sU6/1K/zSUGnosaowFUyH8IVM6qOFryueZa2NaKYdCfs1fQEgpdgHgTv2+Uq4ssE/AjHNvXqEFsaIax/Dt+95FvdkZjPclWlTOREWjvkVma2Pv4aiSh6jOINIYc5wmBsmObe3H2ypk9UKHgKU8ETMi96iIDNdYT4NVGt4lLe4nyF0GcdLudRN9C+MDLiJJ2G0pcytJqZq9NpNql5Qv//JItvoFY3o64rouWzz5arzSjM3m2QcV3rZG6rOcIYLovnQtvDluUHoAud3/wbGx8AfNq1SnpPnZ4bhyRDRxFnI/ZS7ssFcONSFRpXSMhPi+q1muUwTRomjor0D6rZA6EVot923cgAvjVlEoDAO3/2e2Nck4pB4EcjelaF3LcNetY4Td810wjbCcA3NsQMy13WnzgZwO119puZjN69s2ZiHUvNjWelbKQSb/RonfJATkGM/rSk5YmYJAOj0K1ySVuJ5Ryd+R3zczVRUJ5f3CWHjz0FNcVAsJHwY5mWGaFx2jTjVenVeWwt7Z5zIwCxS4b8COhKm8l6Wwg507Hb0pyi5k0c2hEJNvSnNk+nOx17iOcw72UnTqmIlH5Ut0KNiOiY7jwKQQP0YIQ1qYhd31qwQ87S5lM="
+        },
         "look": false
     },
     "CreateEntity": {
@@ -220,11 +238,12 @@
         "Player": true
     },
     "Wait": 30,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oZeinova will never be the same... They took &8&lZekrom&r...",
             "[PLAYER]": "&oHow could I fail..."
-        }
+        },
+        90, true, false
     ],
     "Wait": 20,
 
@@ -235,25 +254,34 @@
     "MoveEntity": ["Tribe_Leader1", -532.8, 69.0, 31.6, 0.15, false],
     "EntityLook": ["Tribe_Leader1", "Player"],
 
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "[PLAYER]!"
-        }
+        },
+        90, true, false, "female_angry"
     ],
     "EntityLook": ["Player", "Tribe_Leader1"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "What are you doing moping around?!",
+            "&e&lAstrid": "What are you doing moping around?!"
+        },
+        90, true, false, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "You made this mess so you better help fix it.",
             "&e&lAstrid": "Meet me inside the Ancient Pyramid in Sandgate, I might have a way to turn this around."
-        }
+        },
+        90, true, false, "female_normal"
     ],
     "ProgressiveMoveEntity": ["Tribe_Leader1", -527.4, 68.0, 34.7, 0.15, false],
     "EntityLook": ["Player", 136, 29],
-    "Dialog": [
+    "Wait": 20,
+    "NewDialog": [
         {
             "[PLAYER]": "I... &osigh"
-        }
+        },
+        90, true, false
     ],
 
     "Show": {
@@ -274,55 +302,60 @@
         -1130, 49, 200,
         -1126, 55, 204
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oWell, that is a closed door if I ever saw one.",
             "[PLAYER]": "&oThese walls look like they have inscriptions on them. Maybe there is a clue."
-        }
+        },
+        90, true, true
     ],
     "Objective": ["Inspect the walls for clues", 4],
     "ClickBlocks": [
         -1123, 51, 208,
         -1118, 53, 208
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&7&lInscriptions": "These doth'rs only ope at which hour the charm w'rd is spoken.",
             "&7&lInscriptions": "The charm w'rd consists of 3 parts all of which can beest hath found 'round town.",
-            "[PLAYER]": "Okay. that is ... really old English.",
-            "[PLAYER]": "If I got this right, I need a password that consists of 3 parts which all can be found in Sandgate.",
-            "[PLAYER]": "Let's give that a shot..."
-        }
+            "[PLAYER]": "&oOkay. that is ... really old English.",
+            "[PLAYER]": "&oIf I got this right, I need a password that consists of 3 parts which all can be found in Sandgate.",
+            "[PLAYER]": "&oLet's give that a shot..."
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Look around the Sandgate gym for clues to the password (Hint > Look up)", 4],
     "PickupItem": [-980.5, 73.0, 172.5, "&6&lScrap paper", "Paper"],
     "SendMessage": ["&e&l+1 &6&lScrap 1/3"],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&l'-ro'&r, &othat is what this says... Guess i need two more."
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Look around for more clues (Hint > Near a garage)", 4],
     "PickupItem": [-1089.5, 49.0, 166.5, "&6&lScrap paper", "Paper"],
     "SendMessage": ["&e&l+1 &6&lScrap 2/3"],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&l'So-'&r, &ohmm, this might actually form a password..."
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Look for the final piece of information (Hint > Diggy, diggy, hole!)", 4],
     "PickupItem": [-1061.5, 36.0, 246.5, "&6&lScrap paper", "Paper"],
     "SendMessage": ["&e&l+1 &6&lScrap 3/3"],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&l'-ph-'&r, &oI guess that is all of them?"
-        }
+        },
+        90, true, true
     ],
     "Wait": 20,
     "Objective": ["Go back to the Ancient Pyramid", 3],
@@ -330,11 +363,12 @@
         -1114, 1, 198,
         -1129, 54, 204
     ],
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Alright, the three pieces say '-ro' 'So-' and '-ph-'.",
-            "[PLAYER]": "Maybe I have to organize the groups of letters to make a word!"
-        }
+            "[PLAYER]": "&oAlright, the three pieces say '-ro' 'So-' and '-ph-'.",
+            "[PLAYER]": "&oMaybe I have to organize the groups of letters to make a word!"
+        },
+        90, true, true
     ],
     "Wait": 10,
     "Objective": ["Say the secret word in chat (Clues > '-ro' 'So-' & '-ph-')", 7],
@@ -357,16 +391,32 @@
     },
     "Objective": ["Explore the pyramid and find Astrid", 3],
     "HighlightClickEntity": "Tribe_Leader2",
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAstrid": "Do you think you still have what it takes?",
-            "&6&lAstrid": "What it takes to save Zeinova?",
+            "&6&lAstrid": "What it takes to save Zeinova?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&6&lAstrid": "What I saw back there, did not seem like it.",
-            "&6&lAstrid": "Pitying yourself, feeling bad for yourself, mumbling incoherently about failure...",
+            "&6&lAstrid": "Pitying yourself, feeling bad for yourself, mumbling incoherently about failure..."
+        },
+        90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
             "&6&lAstrid": "[PLAYER]! Are you really so pathetic? The Tribe and I know otherwise, but you?",
-            "&6&lAstrid": "Did you lose your fighting spirit that easily?",
+            "&6&lAstrid": "Did you lose your fighting spirit that easily?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&6&lAstrid": "Battle me!"
-        }
+        },
+        60, true, true, "female_angry"
     ],
     "Wait": 20,
     "Objective": ["Battle Astrid", 12],
@@ -394,16 +444,22 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAstrid": "This has happened before.",
             "&6&lAstrid": "There was once a War just like the one unfolding at our fingertips.",
             "&6&lAstrid": "Two stubborn forces unwilling to compromise...",
             "&6&lAstrid": "The squabble of the humans brought a fierce plague to the region, of violence and distrust, and we humans turned the Pokémon against us.",
             "&6&lAstrid": "Horrowing.",
-            "&6&lAstrid": "During that War however... Three Pokémon appeared to unite both sides.",
+            "&6&lAstrid": "During that War however... Three Pokémon appeared to unite both sides."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&6&lAstrid": "They are called &nThe Swords of Justice&r. Cobalion, Terrakion, and Virizion!"
-        }
+        },
+        90, true, true, "female_excited"
     ],
     "Teleport": [-1100.5, 29.0, 184.5, 270, 0],
     "Wait": 20,
@@ -415,12 +471,18 @@
         "Virizion1": true
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAstrid": "Our battle has shown them that you are worthy of their support.",
-            "&6&lAstrid": "They will fight by our side under your leadership.",
+            "&6&lAstrid": "They will fight by our side under your leadership."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&6&lAstrid": "The War has begun, [PLAYER]."
-        }
+        },
+        90, true, true, "female_scared"
     ],
     "Particle": ["explosion_huge", -1095.5, 29.0, 184.5],
     "PlaySound": "entity_dragon_fireball_explode",
@@ -430,14 +492,20 @@
         "Virizion1": false
     },
     "Wait": 30,
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAstrid": "We must be on our way, I feel a great power calling us to the Ice In The North",
-            "&6&lAstrid": "It must be &3Kyurem&r. They are The Ultimate power in this region...",
+            "&6&lAstrid": "It must be &3Kyurem&r. They are The Ultimate power in this region..."
+        },
+        90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&6&lAstrid": "We need to get to them before &3Statera&r does!",
             "&6&lAstrid": "&3Statera&r has been experimenting on Pokémon for many years. They have the knowledge and now the power of &8&lZekrom&r to take control of &3Kyurem&r.",
             "&6&lAstrid": "If &3Statera&r gains control of &3Kyurem&r, everything is lost. Everyone into position! Come with me [PLAYER]!"
-        }
+        },
+        90, true, true, "female_excited"
     ],
     "Wait": 20,
     "Objective": ["Exit the Ancient Pyramid with the Ancient Tribe Leader to prepare for the war", 12],
@@ -469,11 +537,17 @@
     "Wait": 1.0,
     "ProgressiveMoveEntity": ["spy_cam", -1103.8, 49.0, 202.9, 0.15, false],
     "Wait": 1.0,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&3&lStater Member": "Uh oh! Scram!",
+            "&3&lSteven": "Uh oh! Scram!"
+        },
+        60, true, false, "male_scared"
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "Spies!"
-        }
+        },
+        60, true, false, "female_angry"
     ],
     "ProgressiveMoveEntity": ["Scout1", -1094.5, 49.0, 192.9, 0.2, false],
     "Wait": 2,
@@ -489,24 +563,27 @@
         "Scout3": false
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAstrid": "Those spies won’t be traced now, they’ll make it back to &3Statera&r before we can even think of sending someone after them now..."
-        }
+        },
+        90, true, false, "female_normal"
     ],
     "EntityLook": ["Tribe_Leader3", "Player2"],
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAstrid": "[PLAYER]... you need to become Zeinova’s regional Champion.",
             "&6&lAstrid": "You need the recognition of all the regions trainers, for &3Kyurem&r to even consider you a potential partner."
-        }
+        },
+        90, true, false, "female_normal"
     ],
     "EntityLook": ["Player2", "Tribe_Leader3"],
-    "Dialog": [
+    "NewDialog": [
         {
             "&6&lAstrid": "And we &owill&r need &3Kyurem&r for this War.",
             "&6&lAstrid": "Go, [PLAYER]. You have all of &6Sophro&r behind you in support."
-        }
+        },
+        90, true, false, "female_normal"
     ],
     "Fade": [],
     "Teleport": [-1110.4, 49.0, 201.4, -90],
@@ -522,11 +599,17 @@
     "Show": {
         "Rival1": true
     },
-    "Dialog": [
+    "NewDialog": [
         {
-            "&d&lDanielle": "Did you really think I would let you beat me to becoming the Regional Champion?",
+            "&d&lDanielle": "Did you really think I would let you beat me to becoming the Regional Champion?"
+        },
+        90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "I've claimed that title and you'll have to beat me to win it!"
-        }
+        },
+        90, true, true, "female_angry"
     ],
     "Wait": 20,
     "Unfreeze": [],
@@ -558,32 +641,41 @@
     "Teleport": [92.8, 165.9, -296.5, 299, 0],
     "StrikeLightning": [92.8, 165.9, -296.5],
     "Potion": ["Blindness", 80],
+    "Wait": 10,
+    "Fade": [],
     "Show": {
         "Rival1": false
     },
     "Wait": 60,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "What happened? Where did &dDanielle&r go?! Did I fail yet again?",
-            "[PLAYER]": "It never said the battle was over... so that means... &dDanielle&r is still the Regional Champion!",
-            "[PLAYER]": "I guess I have to go tell &eAstrid&r..."
-        }
+            "[PLAYER]": "&oWhat happened? Where did &dDanielle&r go?! Did I fail yet again?",
+            "[PLAYER]": "&oIt never said the battle was over... so that means... &dDanielle&r is still the Regional Champion!",
+            "[PLAYER]": "&oI guess I have to go tell &eAstrid&r..."
+        },
+        90, true, true
     ],
     "Unfreeze": [],
     "Wait": 20,
     "Objective": ["Return to Astrid at the Ancient Pyramid", 10],
     "HighlightClickEntity": "Tribe_Leader3",
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "I've failed you yet again... ",
+            "[PLAYER]": "I've failed you yet again... "
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
             "&6&lAstrid": "You did not fail, [PLAYER].",
             "&6&lAstrid": "I fully believe this War would have began regardless of which one of the Champions won the battle.",
             "&6&lAstrid": "&8Vidar&r is vindictive, he would have found another way.",
-            "&6&lAstrid": "Sabotaging your battle with &0Zekrom&r however, is the &lCoward’s&r way.",
+            "&6&lAstrid": "Sabotaging your battle with &8&lZekrom&r however, is the &lCoward’s&r way.",
             "&6&lAstrid": "He’s scared...",
             "&6&lAstrid": "As he very well should be.",
             "&6&lAstrid": "Take these. You earned them."
-        }
+        },
+        90, true, true, "female_normal"
     ],
     "Wait": 20,
     "Complete": [],
