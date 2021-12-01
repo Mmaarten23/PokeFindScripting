@@ -52,7 +52,7 @@
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
             "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         },
-        "look": false
+        "look": true
     },
     "CreateEntity": {
         "key": "Tribe_Leader3",
@@ -223,6 +223,7 @@
         "Terrakion1": false,
         "Virizion1": false
     },
+    "SendMessage": "DEBUG: Quest will start upon entering the shrine at Greenholm",
     "RegionEntry": [
         -528, 1, 20,
         -471, 150, 87
@@ -512,7 +513,8 @@
     "Show": {
         "Scout1": true,
         "Scout2": true,
-        "Scout3": true
+        "Scout3": true,
+        "Tribe_Leader2": false
     },
     "Fade": [],
     "RelativeTeleport": [0.0, 0.2, 0.0],
@@ -522,12 +524,11 @@
         -1123, 55, 203
     ],
     "Cinematic": [],
-    "Teleport": [-1108.7, 52.6, 205.9, 148, 36],
+    "Teleport": [-1107.3, 51.1, 206.5, 148, 36],
     "Wait": 1,
     "Wait": 1,
-    "Look": ["spy_cam", 32.0],
+    "Look": ["spy_cam", 38.0],
     "Show": {
-        "Tribe_Leader2": false,
         "Tribe_Leader3": true,
         "Player2": true
     },
@@ -594,7 +595,7 @@
     "Wait": 20,
     "Objective": ["Beat the final gym and become the Regional Champion by completing Elite Four", 7],
     "Hold": [],
-    "Teleport": [92.8, 165.9, -296.5, 299, 0],
+    "Teleport": [-1110.4, 49.0, 201.3, 0],
     "Freeze": [],
     "Show": {
         "Rival1": true
@@ -638,7 +639,7 @@
         ]
     ],
     "Freeze": [],
-    "Teleport": [92.8, 165.9, -296.5, 299, 0],
+    "Teleport": [92.8, 166.0, -296.5, 299, 0],
     "StrikeLightning": [92.8, 165.9, -296.5],
     "Potion": ["Blindness", 80],
     "Wait": 10,
@@ -683,8 +684,13 @@
     "GiveCoins": 2500,
     "GiveTokens": 25,
     "GiveTrainerExperience": 2500,
-
-    "Wait": 60,
+    "Wait": 30,
+    "Fade": [],
+    "Teleport": [-1100.3, 49.0, 202.6, 89, 0],
+    "Hide": {
+        "Statera_Leader3": true
+    },
+    "Wait": 30,
     "SetTitle": [
         "&9&lMaking friends",
         "&aQuest complete",
