@@ -1,7 +1,32 @@
 {
     "Key": "hasitemtest",
     "If": [],
-    "HasItem": [ "apple", false, "mainhand"],
+    "HasItem": {
+        "strict": false,
+        "slot": "mainhand",
+        "item": {
+            "material": "apple",
+            "amount": 10
+        }
+    },
     "SendMessage": "Congrats, you are holding an apple!",
-    "SendMessage": "Eat more apples."
+    "SendMessage": "Eat more apples.",
+    "If": [],
+    "HasItem": {
+        "strict": false,
+        "slot": "mainhand",
+        "item": [
+            {
+                "material": "carrot",
+                "amount": 10
+            },
+            {
+                "material": "potato",
+                "amount": 10
+            }
+        ]
+    },
+    "SendMessage": "vegetables!",
+    "SendMessage": "No vegetables"
+
 }

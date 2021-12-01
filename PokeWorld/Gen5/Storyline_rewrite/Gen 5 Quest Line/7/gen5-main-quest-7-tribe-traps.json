@@ -1,0 +1,174 @@
+{
+    "Key": "gen5_main_quest_7_tribe_traps",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "trap1_1",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1144.5,
+            "y": 42.0,
+            "z": 217.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap1_2",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1145.5,
+            "y": 42.0,
+            "z": 217.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap1_3",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1146.5,
+            "y": 42.0,
+            "z": 217.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap1_4",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1144.5,
+            "y": 42.0,
+            "z": 216.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap1_5",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1145.5,
+            "y": 42.0,
+            "z": 216.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap1_6",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1146.5,
+            "y": 42.0,
+            "z": 216.5
+        },
+        "gravity": false
+    },
+
+    "CreateEntity": {
+        "key": "trap2_1",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1149.5,
+            "y": 44.0,
+            "z": 184.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap2_2",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1150.5,
+            "y": 44.0,
+            "z": 184.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap2_3",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1151.5,
+            "y": 44.0,
+            "z": 184.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap2_4",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1149.5,
+            "y": 44.0,
+            "z": 183.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap2_5",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1150.5,
+            "y": 44.0,
+            "z": 183.5
+        },
+        "gravity": false
+    },
+    "CreateEntity": {
+        "key": "trap2_6",
+        "entity": "falling_block",
+        "block": "sand",
+        "location": {
+            "x": -1151.5,
+            "y": 44.0,
+            "z": 183.5
+        },
+        "gravity": false
+    },
+
+    "RegionEntry": [
+        -1142, 29, 175,
+        -1121, 33, 194
+    ],
+    "GlobalHologram": [
+        -1150.5, 29.0, 184.5,
+        "&c&l~ The pharaoh's curse ~&c&l",
+        "&c------------------------&c",
+        "Get to the other side without",
+        "stepping on the pharaoh's pressure plates!",
+        "Waking a pharaoh is unforgivable!"
+    ],
+    "Wait": 2,
+    "Comment": "loop",
+    "If": [],
+    "InRegion": [
+        -1142, 29, 175,
+        -1121, 33, 194
+    ],
+    "Skip": "check_plate",
+    "Leave": [],
+    "Comment": "check_plate",
+    "If": [],
+    "InBlock": "oak_pressure_plate",
+    "Skip": "found",
+    "Dummy": [],
+    "Wait": 1,
+    "Skip": "loop",
+
+    "Comment": "found",
+    "SendMessage": "&cTry again!",
+    "Teleport": [-1140.5, 29.0, 184.5, -90],
+    "PlaySound": ["entity_villager_no", 0.5],
+    "Wait": 1,
+    "Skip": "loop"
+}

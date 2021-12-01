@@ -1,6 +1,6 @@
 {
     "Key": "gen5_main_quest_7_tribe",
-    "Name": "",
+    "Name": "&9&lMaking friends",
     "Description": "Head back to the shrine in Greenholm",
     "AllowRejoining": true,
     "Icon": "dirt",
@@ -61,10 +61,10 @@
             "&7Sophro Leader"
         ],
         "location": {
-            "x": -1110.5,
+            "x": -1116.6,
             "y": 49.0,
-            "z": 202.5,
-            "yaw": 270,
+            "z": 203.6,
+            "yaw": -90,
             "pitch": 0
         },
         "skin": {
@@ -111,6 +111,30 @@
         },
         "skin": "",
         "look": false
+    },
+    "CreateEntity": {
+        "key": "Player2",
+        "location": {
+            "x": -1116.5,
+            "y": 49.0,
+            "z": 201.4,
+            "yaw": -90,
+            "pitch": 0
+        },
+        "skin": "[PLAYER]",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "spy_cam",
+        "entity": "armor_stand",
+        "location": {
+            "x": -1112.1,
+            "y": 49.0,
+            "z": 201.9,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "visible": false
     },
     "CreateEntity": {
         "key": "Rival1",
@@ -169,6 +193,7 @@
     },
     "Show": {
         "Player": false,
+        "Player2": false,
         "Tribe_Leader1": false,
         "Tribe_Leader2": false,
         "Tribe_Leader3": false,
@@ -189,7 +214,8 @@
     "SetWorldTime": 13000,
     "SetScoreboard": "",
     "Teleport": [-539.5, 66.3, 20.3, -41, -8],
-    "Freeze": [],
+    "Wait": 1,
+    "Freeze": true,
     "Show": {
         "Player": true
     },
@@ -206,7 +232,7 @@
         "Tribe_Leader1": true
     },
     "Wait": 1,
-    "MoveEntity": ["Tribe_Leader1", -532.8,69.0,31.6, 0.15, false],
+    "MoveEntity": ["Tribe_Leader1", -532.8, 69.0, 31.6, 0.15, false],
     "EntityLook": ["Tribe_Leader1", "Player"],
 
     "Dialog": [
@@ -238,15 +264,15 @@
     "StopCinematic": [],
     "SetScoreboard": [],
     "SetWorldTime": 6000,
-    "Teleport": [-532.5,69.0,29.4, -50, 0],
+    "Teleport": [-532.5, 69.0, 29.4, -50, 0],
     "Unfreeze": [],
 
 
     "Wait": 20,
     "Objective": ["Head to the medium sized Ancient Pyramid in Sandgate", 3],
     "RegionEntry": [
-        -1114, 1, 198,
-        -1129, 54, 204
+        -1130, 49, 200,
+        -1126, 55, 204
     ],
     "Dialog": [
         {
@@ -270,19 +296,19 @@
     ],
     "Wait": 20,
     "Objective": ["Look around the Sandgate gym for clues to the password (Hint > Look up)", 4],
-    "PickupItem": [-980.5,73.0,172.5, "&6&lScrap paper", "Paper"],
-    "Wait": 20,
+    "PickupItem": [-980.5, 73.0, 172.5, "&6&lScrap paper", "Paper"],
     "SendMessage": ["&e&l+1 &6&lScrap 1/3"],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "&l'-ro'&r, &othat is what this says... Guess i need two more."
         }
     ],
-    "Wait":20,
+    "Wait": 20,
     "Objective": ["Look around for more clues (Hint > Near a garage)", 4],
     "PickupItem": [-1089.5, 49.0, 166.5, "&6&lScrap paper", "Paper"],
-    "Wait": 20,
     "SendMessage": ["&e&l+1 &6&lScrap 2/3"],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "&l'So-'&r, &ohmm, this might actually form a password..."
@@ -291,11 +317,11 @@
     "Wait": 20,
     "Objective": ["Look for the final piece of information (Hint > Diggy, diggy, hole!)", 4],
     "PickupItem": [-1061.5, 36.0, 246.5, "&6&lScrap paper", "Paper"],
-    "Wait": 20,
     "SendMessage": ["&e&l+1 &6&lScrap 3/3"],
+    "Wait": 20,
     "Dialog": [
         {
-            "[PLAYER]": "&l'-ph-'&r, &oI guess that is it?"
+            "[PLAYER]": "&l'-ph-'&r, &oI guess that is all of them?"
         }
     ],
     "Wait": 20,
@@ -329,7 +355,7 @@
     "Show": {
         "Tribe_Leader2": true
     },
-    "Objective": ["Go through the maze of the pyramid and find Astrid across the parkour", 3],
+    "Objective": ["Explore the pyramid and find Astrid", 3],
     "HighlightClickEntity": "Tribe_Leader2",
     "Dialog": [
         {
@@ -338,11 +364,12 @@
             "&6&lAstrid": "What I saw back there, did not seem like it.",
             "&6&lAstrid": "Pitying yourself, feeling bad for yourself, mumbling incoherently about failure...",
             "&6&lAstrid": "[PLAYER]! Are you really so pathetic? The Tribe and I know otherwise, but you?",
-            "&6&lAstrid": "Did you lose your fighting spirit that easily?"
+            "&6&lAstrid": "Did you lose your fighting spirit that easily?",
+            "&6&lAstrid": "Battle me!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Battle the Ancient Tribe Leader", 12],
+    "Objective": ["Battle Astrid", 12],
     "BattleNpc": [
         "Tribe_Leader2",
         {
@@ -370,12 +397,12 @@
     "Dialog": [
         {
             "&6&lAstrid": "This has happened before.",
-            "&6&Astrid": "There was once a War just like the one unfolding at our fingertips.",
-            "&6&lAstrid": "Easily avoidable, easily directed... two stubborn forces unwilling to compromise.",
+            "&6&lAstrid": "There was once a War just like the one unfolding at our fingertips.",
+            "&6&lAstrid": "Two stubborn forces unwilling to compromise...",
             "&6&lAstrid": "The squabble of the humans brought a fierce plague to the region, of violence and distrust, and we humans turned the Pokémon against us.",
             "&6&lAstrid": "Horrowing.",
-            "&6&lAstrid": "During that War however... Three Pokémon appeared to the aid of the Pokémon, and the aid of the humans.",
-            "&6&lAstrid": "The Swords of Justice. Cobalion, Terrakion, and Virizion!"
+            "&6&lAstrid": "During that War however... Three Pokémon appeared to unite both sides.",
+            "&6&lAstrid": "They are called &nThe Swords of Justice&r. Cobalion, Terrakion, and Virizion!"
         }
     ],
     "Teleport": [-1100.5, 29.0, 184.5, 270, 0],
@@ -388,60 +415,105 @@
         "Virizion1": true
     },
     "Wait": 20,
-    "Look": "Terrakion1",
     "Dialog": [
         {
-            "&6&lAstrid": "Our battle has shown the Swords of Justice that you are worthy.",
-            "&6&lAstrid": "You and your companions will fight along their side.",
-            "&6&lAstrid": "The War has begun, [PLAYER].",
-            "&6&lAstrid": "We must be on our way, there is a great power waiting for us in the Ice to the North, he’s calling to us.",
-            "&6&lAstrid": "We need to get to &3Kyurem&r, before &3Stratera&r does.",
-            "&6&lAstrid": "&c&oWe cannot allow Stratera to capture Kyurem! Stratera has been experimenting on Pokémon for many years, and have the knowledge and now the power of Zekrom to take control of Kyurem.",
-            "&6&lAstrid": "&c&oIf Stratera gains control of Kyurem, this War that has barely begun, will be over. Everyone into position! Come with me [PLAYER]!"
+            "&6&lAstrid": "Our battle has shown them that you are worthy of their support.",
+            "&6&lAstrid": "They will fight by our side under your leadership.",
+            "&6&lAstrid": "The War has begun, [PLAYER]."
+        }
+    ],
+    "Particle": ["explosion_huge", -1095.5, 29.0, 184.5],
+    "PlaySound": "entity_dragon_fireball_explode",
+    "Show": {
+        "Cobalion1": false,
+        "Terrakion1": false,
+        "Virizion1": false
+    },
+    "Wait": 30,
+    "Dialog": [
+        {
+            "&6&lAstrid": "We must be on our way, I feel a great power calling us to the Ice In The North",
+            "&6&lAstrid": "It must be &3Kyurem&r. They are The Ultimate power in this region...",
+            "&6&lAstrid": "We need to get to them before &3Statera&r does!",
+            "&6&lAstrid": "&3Statera&r has been experimenting on Pokémon for many years. They have the knowledge and now the power of &8&lZekrom&r to take control of &3Kyurem&r.",
+            "&6&lAstrid": "If &3Statera&r gains control of &3Kyurem&r, everything is lost. Everyone into position! Come with me [PLAYER]!"
         }
     ],
     "Wait": 20,
-    "Objective": [
-        "Exit the Ancient Pyramid with the Ancient Tribe Leader to prepare for the war", 12
-    ],
+    "Objective": ["Exit the Ancient Pyramid with the Ancient Tribe Leader to prepare for the war", 12],
     "Show": {
         "Scout1": true,
         "Scout2": true,
         "Scout3": true
     },
+    "Fade": [],
+    "RelativeTeleport": [0.0, 0.2, 0.0],
+
+    "RegionEntry": [
+        -1125, 49, 201,
+        -1123, 55, 203
+    ],
+    "Cinematic": [],
+    "Teleport": [-1108.7, 52.6, 205.9, 148, 36],
+    "Wait": 1,
+    "Wait": 1,
+    "Look": ["spy_cam", 32.0],
     "Show": {
         "Tribe_Leader2": false,
-        "Tribe_Leader3": true
+        "Tribe_Leader3": true,
+        "Player2": true
     },
-    "RegionEntry": [
-        -1107, 49, 215,
-        -1129, 75, 181
-    ],
-    "Freeze": [],
-    "Teleport": [-1111.5, 49.0, 201.5, 287, 0],
-    "Look": "Scout1",
+    "ProgressiveMoveEntity": ["Tribe_Leader3", -1110.3, 49.0, 203.5, 0.15, false],
+    "Wait": 1.0,
+    "ProgressiveMoveEntity": ["Player2", -1110.4, 49.0, 201.4, 0.15, false],
+    "Wait": 1.0,
+    "ProgressiveMoveEntity": ["spy_cam", -1103.8, 49.0, 202.9, 0.15, false],
+    "Wait": 1.0,
     "Dialog": [
         {
             "&3&lStater Member": "Uh oh! Scram!",
             "&e&lAstrid": "Spies!"
         }
     ],
+    "ProgressiveMoveEntity": ["Scout1", -1094.5, 49.0, 192.9, 0.2, false],
+    "Wait": 2,
+    "ProgressiveMoveEntity": ["Scout2", -1094.5, 49.0, 192.9, 0.2, false],
+    "Wait": 2,
+    "ProgressiveMoveEntity": ["Scout3", -1094.5, 49.0, 192.9, 0.2, false],
+    "Wait": 2,
+    "ProgressiveMoveEntity": ["spy_cam", -1112.1, 49.0, 201.9, 0.15, false],
+    "Wait": 2.0,
     "Show": {
         "Scout1": false,
         "Scout2": false,
         "Scout3": false
     },
     "Wait": 20,
-    "Unfreeze": [],
     "Dialog": [
         {
-            "&6&lAstrid": "Those spies won’t be traced now, they’ll make it back to &3Stratera&r before we can even think of sending someone after them now...",
+            "&6&lAstrid": "Those spies won’t be traced now, they’ll make it back to &3Statera&r before we can even think of sending someone after them now..."
+        }
+    ],
+    "EntityLook": ["Tribe_Leader3", "Player2"],
+    "Dialog": [
+        {
             "&6&lAstrid": "[PLAYER]... you need to become Zeinova’s regional Champion.",
-            "&6&lAstrid": "You need the recognition of all the regions trainers, for &3Kyurem&r to even consider you a potential partner.",
+            "&6&lAstrid": "You need the recognition of all the regions trainers, for &3Kyurem&r to even consider you a potential partner."
+        }
+    ],
+    "EntityLook": ["Player2", "Tribe_Leader3"],
+    "Dialog": [
+        {
             "&6&lAstrid": "And we &owill&r need &3Kyurem&r for this War.",
             "&6&lAstrid": "Go, [PLAYER]. You have all of &6Sophro&r behind you in support."
         }
     ],
+    "Fade": [],
+    "Teleport": [-1110.4, 49.0, 201.4, -90],
+    "StopCinematic": [],
+    "Show": {
+        "Player2": false
+    },
     "Wait": 20,
     "Objective": ["Beat the final gym and become the Regional Champion by completing Elite Four", 7],
     "Hold": [],
@@ -497,6 +569,7 @@
             "[PLAYER]": "I guess I have to go tell &eAstrid&r..."
         }
     ],
+    "Unfreeze": [],
     "Wait": 20,
     "Objective": ["Return to Astrid at the Ancient Pyramid", 10],
     "HighlightClickEntity": "Tribe_Leader3",
@@ -508,16 +581,22 @@
             "&6&lAstrid": "&8Vidar&r is vindictive, he would have found another way.",
             "&6&lAstrid": "Sabotaging your battle with &0Zekrom&r however, is the &lCoward’s&r way.",
             "&6&lAstrid": "He’s scared...",
-            "&6&lAstrid": "As he very well should be. Let’s go."
+            "&6&lAstrid": "As he very well should be.",
+            "&6&lAstrid": "Take these. You earned them."
         }
     ],
     "Wait": 20,
-    "GiveCoins": 1,
-    "GiveTokens": 1,
-    "GiveTrainerExperience": 1,
-    "Wait": [
-        20
+    "Complete": [],
+    "PlaySound": "entity_player_levelup",
+    "GiveCoins": 2500,
+    "GiveTokens": 25,
+    "GiveTrainerExperience": 2500,
+
+    "Wait": 60,
+    "SetTitle": [
+        "&9&lMaking friends",
+        "&aQuest complete",
+        true
     ],
-    "SendCompleteMessage": [],
-    "Complete": []
+    "PlayCustomSound": "sfx.quest_complete"
 }
