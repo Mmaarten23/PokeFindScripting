@@ -1,0 +1,11 @@
+{
+    "Key": "gen5_main_quest_5_island_schematic",
+    "Author": "Mmaarten",
+
+    "Schematic": [
+        -1252, 44, 239,
+        "gen5_main_quest_5_island2.schematic",
+        true
+    ],
+    "Hold": []
+}

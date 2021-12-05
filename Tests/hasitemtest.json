@@ -1,32 +1,10 @@
 {
-    "Key": "hasitemtest",
     "If": [],
     "HasItem": {
-        "strict": false,
+        "item": { "material": "christmas_cracker", "amount": 1 },
         "slot": "mainhand",
-        "item": {
-            "material": "apple",
-            "amount": 10
-        }
+        "strict": false
     },
-    "SendMessage": "Congrats, you are holding an apple!",
-    "SendMessage": "Eat more apples.",
-    "If": [],
-    "HasItem": {
-        "strict": false,
-        "slot": "mainhand",
-        "item": [
-            {
-                "material": "carrot",
-                "amount": 10
-            },
-            {
-                "material": "potato",
-                "amount": 10
-            }
-        ]
-    },
-    "SendMessage": "vegetables!",
-    "SendMessage": "No vegetables"
-
+    "SendMessage": "Worked.",
+    "SendMessage": "Did not work."
 }

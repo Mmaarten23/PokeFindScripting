@@ -1,0 +1,18 @@
+{
+    "Key": "hologram_stage_test",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+
+    "Hologram": [
+        1104.5, 45.5, -708.5,
+        "&9&l~Water Shrine Puzzle~&9&l",
+        "&9------------------------&9",
+        "&fLead the water to the &eGlowstone block&f by putting up barriers",
+        "&aRight click&f the lever to toggle the corresponding barrier",
+        "&fBe careful to not put out the &6fires&r!",
+        "&fClick the &7button&f to start the water flow!"
+    ],
+
+    "Hold": []
+
+}
