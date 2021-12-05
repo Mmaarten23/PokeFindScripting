@@ -685,8 +685,7 @@
                 "ability": "Shield Dust",
                 "nature": "Timid"
             }
-        ],
-        2
+        ]
     ],
     "Wait": 20,
     "Dialog": [
@@ -958,12 +957,12 @@
         "Pick a side!",
         3,
         {
-            "": {
+            "11": {
                 "name": "&8&lStatera",
                 "description": "&7I choose to stay with Statera!",
                 "material": "Black Stained Glass Pane"
             },
-            "": {
+            "15": {
                 "name": "&6&lSophro",
                 "description": "&7I choose to stay with Sophro!",
                 "material": "Orange Stained Glass Pane"
@@ -976,7 +975,7 @@
     "Skip": [
         12
     ],
-    "SetTeam": [
+    "SetStoryTeam": [
         "Statera"
     ],
     "Dialog": [
@@ -1006,26 +1005,10 @@
             "&8&lVidar": "Here, take these rewards for all your trouble."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "GiveCoins": [
-
-    ],
-    "GiveTokens": [
-
-    ],
-    "GiveTrainerExperience": [
-
-    ],
-    "GiveItem": [
-        ""
-
-    ],
-    "Skip": [
-        "SendCompleteMessage"
-    ],
-    "SetTeam": [
+    "Skip":
+        "end"
+    ,
+    "SetStoryTeam": [
         "Ancient Tribe"
     ],
     "Dialog": [
@@ -1057,6 +1040,8 @@
             "&e&lAstrid": "Here, take these rewards for all your trouble."
         }
     ],
+
+    "Comment": "endd",
     "Wait": [
         20
     ],
