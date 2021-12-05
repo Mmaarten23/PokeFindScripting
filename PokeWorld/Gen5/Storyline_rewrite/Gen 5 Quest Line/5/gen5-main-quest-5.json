@@ -1,9 +1,9 @@
 {
     "Key": "gen5_main_quest_5",
     "Name": "",
-    "description": "",
+    "Description": "",
     "AllowRejoining": true,
-    "Icon": "",
+    "Icon": "dirt",
     "CreateEntity": {
         "key": "Rival1",
         "name": "&d&lDanielle",
@@ -525,7 +525,7 @@
     ],
     "Wait": 20,
     "Objective": ["Find the battery somewhere in Greenholm", 3],
-    "PickUpItem": [
+    "PickupItem": [
         -497.5, 60.0, -44.5,
         "&e&lBatteries",
         "Redstone Torch"
@@ -1041,7 +1041,7 @@
         }
     ],
 
-    "Comment": "endd",
+    "Comment": "end",
     "Wait": [
         20
     ],
