@@ -1,0 +1,16 @@
+{
+    "Key": "gen5_main_quest_6_tribe_sewaddle",
+    "AllowRejoining": true,
+    "Hold": [],
+    "Comment": "script_entry",
+    "EntityRegionEntry": [
+        -499, 72, 54,
+        -499, 72, 54
+    ],
+    "SendMessage": [
+        "&a&lPuzzle Solved!"
+    ],
+    "Progress": [
+        "gen5_main_quest_6_tribe"
+    ]
+}

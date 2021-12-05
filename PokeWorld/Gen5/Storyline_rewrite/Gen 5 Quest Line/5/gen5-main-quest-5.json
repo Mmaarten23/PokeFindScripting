@@ -79,7 +79,10 @@
     },
     "CreateEntity": {
         "key": "Old_Man1",
-        "name": "&7&lCaptain",
+        "name": [
+            "&6&l???",
+            "&7Old man"
+        ],
         "location": {
             "x": -318.5,
             "y": 48.9,
@@ -87,11 +90,17 @@
             "yaw": 311,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
+        }
     },
     "CreateEntity": {
         "key": "Old_Man2",
-        "name": "&7&lCaptain",
+        "name": [
+            "&6&l???",
+            "&7Old man"
+        ],
         "location": {
             "x": -403.5,
             "y": 46.0,
@@ -99,11 +108,17 @@
             "yaw": 138,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
+        }
     },
     "CreateEntity": {
         "key": "Old_Man3",
-        "name": "&7&lCaptain",
+        "name": [
+            "&8&l???",
+            "&7Old man"
+        ],
         "location": {
             "x": -496.3,
             "y": 66.0,
@@ -111,11 +126,17 @@
             "yaw": 160,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
+        }
     },
     "CreateEntity": {
         "key": "Old_Man4",
-        "name": "&7&lCaptain",
+        "name": [
+            "&8&l???",
+            "&7Old man"
+        ],
         "location": {
             "x": -504.5,
             "y": 60.0,
@@ -123,7 +144,10 @@
             "yaw": 0,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
+        }
     },
     "CreateEntity": {
         "key": "Zekrom1",
@@ -175,7 +199,10 @@
     },
     "CreateEntity": {
         "key": "Tribe_Leader1",
-        "name": "&e&lAstrid",
+        "name": [
+            "&e&lAstrid",
+            "&7Sophro Leader"
+        ],
         "location": {
             "x": -502.5,
             "y": 60.0,
@@ -183,11 +210,17 @@
             "yaw": 0,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
+        }
     },
     "CreateEntity": {
         "key": "Tribe_Leader2",
-        "name": "&e&lAstrid",
+        "name": [
+            "&e&lAstrid",
+            "&7Sophro Leader"
+        ],
         "location": {
             "x": -507.0,
             "y": 37.0,
@@ -195,11 +228,13 @@
             "yaw": 217,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
+        }
     },
     "CreateEntity": {
         "key": "Cinematic_Tribe_Leader1",
-        "name": "&e&lAstrid",
         "location": {
             "x": -1235.0,
             "y": 44.0,
@@ -211,7 +246,6 @@
     },
     "CreateEntity": {
         "key": "Cinematic_Statera_Leader1",
-        "name": "",
         "location": {
             "x": -1243.7,
             "y": 44.0,
@@ -223,7 +257,10 @@
     },
     "CreateEntity": {
         "key": "Statera_Leader1",
-        "name": "",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
         "location": {
             "x": -493.5,
             "y": 37.0,
@@ -235,7 +272,10 @@
     },
     "CreateEntity": {
         "key": "Statera_Leader2",
-        "name": "",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
         "location": {
             "x": -500.5,
             "y": 37.0,
@@ -247,7 +287,10 @@
     },
     "CreateEntity": {
         "key": "Statera_Leader3",
-        "name": "",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
         "location": {
             "x": 77.5,
             "y": 77.5,
@@ -260,7 +303,6 @@
     },
     "CreateEntity": {
         "key": "Dragon1",
-        "name": "",
         "location": {
             "x": -1245.9,
             "y": 51.6,
@@ -273,7 +315,6 @@
     },
     "CreateEntity": {
         "key": "Dragon2",
-        "name": "",
         "location": {
             "x": -1242.3,
             "y": 44.0,
@@ -546,7 +587,7 @@
     "Wait": 20,
     "Objective": ["Press the start lever to start the Sewaddle robot"],
     "ClickBlock": [-497, 74, 42],
-    "Start": "gen5_main_quest_5_sewaddle_completed",
+    "Start": ["gen5_main_quest_5_sewaddle", 1.0, "script_entry"],
     "Show": {
         "Sewaddle": true
     },
