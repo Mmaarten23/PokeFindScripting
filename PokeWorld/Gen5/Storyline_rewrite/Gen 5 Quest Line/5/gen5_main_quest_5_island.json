@@ -16,7 +16,6 @@
     "TeleportEntity": ["island", -1252.5, 35.0, 239.5],
     "Wait": 5,
     "MoveEntity": ["island", -1252.5, 44.0, 239.5, 0.05, false],
-    "Hide": "island",
     "Start": "gen5_main_quest_5_island_schematic",
     "Hold": [],
     "Progress": "gen5_main_quest_5_island_schematic"
