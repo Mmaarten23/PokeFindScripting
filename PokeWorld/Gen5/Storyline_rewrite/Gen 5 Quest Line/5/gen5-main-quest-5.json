@@ -484,19 +484,30 @@
         }
     ],
 
-    "Look": "Old_Man2",
+
     "Wait": 20,
     "Dialog": [
         {
             "&d&lDanielle": "What did you do to us?!",
-            "&7&l???": "Breathe Child, you’re much too flustered to think clearly.",
+            "&7&l???": "Breathe Child, you’re much too flustered to think clearly."
+        }
+    ],
+    "EntityLook": ["Old_Man2", "Rival2"],
+    "Dialog": [
+        {
             "&d&lDanielle": "Who-",
             "&7&l???": "You can call me &7Captain&r for the time being.",
             "&d&lDanielle": "Let us go! &3Statera&r needs us back!",
-            "&d&lDanielle": "You &6Sophro&r goons are done for! You’ve crossed the line now.",
+            "&d&lDanielle": "You are done for! You’ve crossed the line now.",
             "&7&lCaptain": "&oNow&r? You have it all wrong young &dDanielle..",
             "&d&lDanielle": "How do you know my name...",
-            "&7&lCaptain": "This Rivalry of factions far exceeds any noted historian, I assure you. &3Statera&r and &6Sophro&r are just another torch being passed down the timeline.",
+            "&7&lCaptain": "This Rivalry of factions far exceeds any noted historian, I assure you.",
+            "&7&lCaptain": "&3Statera&r and &6Sophro&r are just another torch being passed down the timeline."
+        }
+    ],
+    "EntityLookAtPlayer": ["Old_Man2"],
+    "Dialog": [
+        {
             "&7&lCaptain": "Ever since the day you both arrived on that ship with that researcher, your &dAura&r has been the only thing I’ve sensed.",
             "&d&lDanielle": "You’re NUTS! &dAURA&r?! What are you babbling about?",
             "&7&lCaptain": "Your Trainer &dAura&r, the strong connection you have with your Pokémon. Come, meet me at the Ancient Temple, we have much to do and discuss."
@@ -566,7 +577,7 @@
         }
     ],
     "Wait": 20,
-    "Objective": ["Find the battery somewhere in Greenholm", 3],
+    "Objective": ["Buy a battery somewhere in Greenholm", 3],
     "PickupItem": [
         -497.5, 59.2, -44.5,
         "&e&lBatteries",
@@ -583,6 +594,7 @@
     "Wait": 20,
     "Objective": ["Press the start lever to start the Sewaddle robot"],
     "ClickBlock": [-497, 74, 42],
+    "Objective": ["Guid ethe Sewaddle to the rose bush"],
     "Start": ["gen5_main_quest_5_sewaddle", 1.0, "script_entry"],
     "Show": {
         "Sewaddle": true
@@ -595,21 +607,24 @@
     ],
     "Show": {
         "Tribe_Leader1": true,
-        "Old_Man4": true,
-        "Old_Man3": false
+        "Old_Man4": true
     },
     "Freeze": [],
     "Wait": 20,
+    "Show": {
+        "Rival4": false,
+        "Rival5": true
+    },
     "Dialog": [
         {
-            "[PLAYER]": "The door opened! I can sense something up ahead..."
+            "[PLAYER]": "The door opened! I can sense something up ahead...",
+            "&d&lDanielle": "I will meet you down there."
         }
     ],
     "Wait": 20,
     "Objective": ["Explore further into the Ancient Temple"],
     "Unfreeze": [
     ],
-    "ProgressiveMoveEntity": ["Rival4", -498.5, 65.0, 63.5],
     "RegionEntry": [
         -501, 60, 54,
         -505, 64, 58
@@ -660,66 +675,6 @@
                 ],
                 "ability": "Shield Dust",
                 "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
             }
         ]
     ],
@@ -730,23 +685,25 @@
         }
     ],
     "Wait": 20,
-    "Objective": [
-        "Meet Astrid in the next room"
-    ],
+    "Freeze": [],
     "ProgressiveWall": [
         -504, 63, 45,
         -502, 60, 45,
         4
     ],
     "Wait": 20,
-    "ProgressiveMoveEntity": ["Rival5", -502.5, 60.0, 45.5],
+    "ProgressiveMoveEntity": ["Rival5", -501.6, 60.0, 42.0, 0.1, false],
     "MoveEntity": ["Tribe_Leader1", -501.5, 60.0, 42.5],
+    "MoveEntity": ["Tribe_Leader1", -499.2, 60.0, 42.5],
     "Show": {
         "Rival6": true,
         "Rival5": false,
         "Tribe_Leader1": false,
         "Tribe_Leader2": true
     },
+    "Unfreeze": [],
+    "Fade": [],
+    "Objective": ["Meet Astrid in the next room"],
     "RegionEntry": [
         -496, 49, 56,
         -491, 36, 44
@@ -781,7 +738,7 @@
         }
     ],
     "Start": "gen5_main_quest_5_island",
-    "Wait": 60,
+    "Hold": [],
     "Dialog": [
         {
             "&e&lAstrid": "After Zeinova was created and the siblings grew older in age, they began to have different views of how the region should prosper for future generations..."
@@ -798,6 +755,7 @@
     "Teleport": [-1234.4, 45.4, 252.2, 134, 26],
     "Wait": 4,
     "Freeze": true,
+    "Hold": [],
 
 
 
