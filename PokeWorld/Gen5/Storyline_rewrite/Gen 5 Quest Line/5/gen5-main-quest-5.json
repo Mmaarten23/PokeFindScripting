@@ -354,9 +354,9 @@
         "key": "rock",
         "entity": "armor_stand",
         "location": {
-            "x": -318.5,
-            "y": 48.9,
-            "z": -27.5,
+            "x": -311.5,
+            "y": 46.9,
+            "z": -22.9,
             "yaw": 311,
             "pitch": 0
         },
@@ -431,40 +431,42 @@
     ],
     "Wait": 20,
     "Teleport": [-304.5, 46.9, -18.5, 20, 0],
-    "Freeze": true,
     "Wait": 1,
-    "Look": ["cin_cam1", 10.0],
+    "Look": ["cin_cam1", 15.0],
     "Dialog": [
         {
             "&d&lDanielle": "I'll be back for a rema- Hey who's that?"
         }
     ],
+    "EntityLook": ["Rival1", "Old_Man1"],
     "Show": {
         "Old_Man1": true,
         "Reshiram1": true
     },
-    "EntityLook": ["Rival1", "Old_Man1"],
-    "MoveEntity": ["cin_cam1", -318.5, 48.9, -27.5, 311, 0.1, false],
-    "Look": ["Old_Man1", 10.0],
+    "Wait": 10,
+    "MoveEntity": ["cin_cam1", -318.5, 48.9, -27.5, 0.15, false],
     "ProgressiveMoveEntity": ["Reshiram1", -314.5, 47.9, -21.9],
+    "Wait": 1,
+    "ProgressiveMoveEntity": ["cin_cam1", -311.5, 47.9, -22.9, 0.2, false],
     "MoveEntity": ["Old_Man1", -311.5, 47.9, -22.9],
-    "AnimateEntity": ["Old_Man1", "swing main arm"],
+    "AnimateEntity": ["Old_Man1", "Swing Main Hand"],
     "Wait": 2,
     "Show": {
         "rock": true
     },
-    "MoveEntity": ["rock", -304.5, 46.9, -18.5, 0.23, false],
+    "MoveEntity": ["rock", -304.5, 46.9, -18.5, 0.4, false],
     "Show": {
         "rock": false
     },
-    "Potion": ["Blindness", 240],
     "Dialog": [
         {
             "[PLAYER]": "&oWhat's going on?!"
-        }
+        },
+        1
     ],
     "Fade": [],
-    "Teleport": [-407.5, 46.0, -65.5, 270, 60],
+    "Teleport": [-407.5, 46.1, -65.5, 270, 60],
+    "Freeze": [],
     "Show": {
         "Rival1": false,
         "Rival2": true,
@@ -472,6 +474,7 @@
         "Old_Man1": false,
         "Old_Man2": true
     },
+    "Potion": ["Blindness", 200],
     "Wait": 20,
     "Dialog": [
         {
