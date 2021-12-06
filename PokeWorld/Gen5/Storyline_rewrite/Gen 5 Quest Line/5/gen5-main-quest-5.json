@@ -338,6 +338,31 @@
         "entity": "armor_stand",
         "pokemon": "Sewaddle"
     },
+    "CreateEntity": {
+        "key": "cin_cam1",
+        "entity": "armor_stand",
+        "location": {
+            "x": -310.5,
+            "y": 47.0,
+            "z": -13.5,
+            "yaw": 228,
+            "pitch": 0
+        },
+        "visible": false
+    },
+    "CreateEntity": {
+        "key": "rock",
+        "entity": "armor_stand",
+        "location": {
+            "x": -318.5,
+            "y": 48.9,
+            "z": -27.5,
+            "yaw": 311,
+            "pitch": 0
+        },
+        "visible": false,
+        "helmet": "bedrock"
+    },
     "Show": {
         "Rival1": true,
         "Rival2": false,
@@ -364,7 +389,8 @@
         "Statera_Leader2": false,
         "Statera_Leader3": false,
         "Dragon1": false,
-        "Dragon2": false
+        "Dragon2": false,
+        "rock": false
     },
     "Quest": true,
     "HighlightClickEntity": "Rival1",
@@ -400,60 +426,14 @@
                 ],
                 "ability": "Shield Dust",
                 "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
             }
         ]
     ],
     "Wait": 20,
     "Teleport": [-304.5, 46.9, -18.5, 20, 0],
-    "Freeze": [],
+    "Freeze": true,
+    "Wait": 1,
+    "Look": ["cin_cam1", 10.0],
     "Dialog": [
         {
             "&d&lDanielle": "I'll be back for a rema- Hey who's that?"
@@ -464,17 +444,25 @@
         "Reshiram1": true
     },
     "EntityLook": ["Rival1", "Old_Man1"],
-    "Wait": 10,
+    "MoveEntity": ["cin_cam1", -318.5, 48.9, -27.5, 311, 0.1, false],
     "Look": ["Old_Man1", 10.0],
     "ProgressiveMoveEntity": ["Reshiram1", -314.5, 47.9, -21.9],
     "MoveEntity": ["Old_Man1", -311.5, 47.9, -22.9],
-    "Potion": ["Blindness", 150],
+    "AnimateEntity": ["Old_Man1", "swing main arm"],
+    "Wait": 2,
+    "Show": {
+        "rock": true
+    },
+    "MoveEntity": ["rock", -304.5, 46.9, -18.5, 0.23, false],
+    "Show": {
+        "rock": false
+    },
+    "Potion": ["Blindness", 240],
     "Dialog": [
         {
             "[PLAYER]": "&oWhat's going on?!"
         }
     ],
-    "Wait": 20,
     "Fade": [],
     "Teleport": [-407.5, 46.0, -65.5, 270, 60],
     "Show": {
@@ -484,7 +472,7 @@
         "Old_Man1": false,
         "Old_Man2": true
     },
-    "Wait": 60,
+    "Wait": 20,
     "Dialog": [
         {
             "&d&lDanielle": "...Huh?",
