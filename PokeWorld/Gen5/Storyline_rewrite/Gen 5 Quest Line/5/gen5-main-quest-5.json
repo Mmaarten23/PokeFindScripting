@@ -305,7 +305,7 @@
         "key": "Dragon1",
         "location": {
             "x": -1245.9,
-            "y": 51.6,
+            "y": 45.6,
             "z": 256.2,
             "yaw": -90,
             "pitch": 60
@@ -592,9 +592,9 @@
         }
     ],
     "Wait": 20,
-    "Objective": ["Press the start lever to start the Sewaddle robot"],
+    "Objective": ["Press the start lever to start the Sewaddle robot", 1],
     "ClickBlock": [-497, 74, 42],
-    "Objective": ["Guid ethe Sewaddle to the rose bush"],
+    "Objective": ["Guide the Sewaddle to the rose bush", 1],
     "Start": ["gen5_main_quest_5_sewaddle", 1.0, "script_entry"],
     "Show": {
         "Sewaddle": true
@@ -631,7 +631,8 @@
     ],
     "Show": {
         "Rival4": false,
-        "Rival5": true
+        "Rival5": true,
+        "Sewaddle": false
     },
     "Look": "Tribe_Leader1",
     "Dialog": [
@@ -705,8 +706,8 @@
     "Fade": [],
     "Objective": ["Meet Astrid in the next room"],
     "RegionEntry": [
-        -496, 49, 56,
-        -491, 36, 44
+        -513,37,50,
+        -496,42,74
     ],
     "Freeze": [],
     "Fade": [],
