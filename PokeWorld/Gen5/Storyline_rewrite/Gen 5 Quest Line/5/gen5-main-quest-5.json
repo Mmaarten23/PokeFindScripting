@@ -533,7 +533,7 @@
     "Dialog": [
         {
             "&7&lCaptain": "Answers are near. But you must prove that you are worthy of them.",
-            "&7&lCaptain": "The shrine only accepts trainers that can provide that proof.",
+            "&7&lCaptain": "The shrine only accepts trainers who can provide that proof.",
             "&7&lCaptain": "Open the shrine. I'll meet you on the other side."
         }
     ],
@@ -541,7 +541,7 @@
     "Show": {
         "Old_Man3": false
     },
-    "Objective": ["Investigate the Ancient door and try to figure out the puzzle"],
+    "Objective": ["Investigate the Ancient door"],
     "ProgressiveMoveEntity": ["Rival3", -500.5, 72.5, 32.9, false],
     "Show": {
         "Rival3": false,
