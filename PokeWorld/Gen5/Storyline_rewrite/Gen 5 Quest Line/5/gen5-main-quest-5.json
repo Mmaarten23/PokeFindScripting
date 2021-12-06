@@ -327,6 +327,7 @@
     },
     "CreateEntity": {
         "key": "Sewaddle",
+        "name": "&a&lSewaddle",
         "location": {
             "x": -498.5,
             "y": 72.0,
@@ -453,28 +454,36 @@
     "Wait": 20,
     "Teleport": [-304.5, 46.9, -18.5, 20, 0],
     "Freeze": [],
-    "Show": {
-        "Old_Man1": true,
-        "Reshiram1": true
-    },
     "Dialog": [
         {
             "&d&lDanielle": "I'll be back for a rema- Hey who's that?"
         }
     ],
+    "Show": {
+        "Old_Man1": true,
+        "Reshiram1": true
+    },
+    "EntityLook": ["Rival1", "Old_Man1"],
     "Wait": 10,
     "Look": ["Old_Man1", 10.0],
     "ProgressiveMoveEntity": ["Reshiram1", -314.5, 47.9, -21.9],
     "MoveEntity": ["Old_Man1", -311.5, 47.9, -22.9],
-    "Potion": ["Blindness", 90],
+    "Potion": ["Blindness", 150],
     "Dialog": [
         {
-            "[PLAYER]": "What's going on?!"
+            "[PLAYER]": "&oWhat's going on?!"
         }
     ],
     "Wait": 20,
     "Fade": [],
     "Teleport": [-407.5, 46.0, -65.5, 270, 60],
+    "Show": {
+        "Rival1": false,
+        "Rival2": true,
+        "Reshiram1": false,
+        "Old_Man1": false,
+        "Old_Man2": true
+    },
     "Wait": 60,
     "Dialog": [
         {
@@ -483,21 +492,15 @@
             "&d&lDanielle": "Where are we?!"
         }
     ],
-    "Show": {
-        "Rival1": false,
-        "Rival2": true,
-        "Reshiram1": false,
-        "Old_Man1": false,
-        "Old_Man2": true
-    },
+
     "Look": "Old_Man2",
     "Wait": 20,
     "Dialog": [
         {
             "&d&lDanielle": "What did you do to us?!",
-            "&7???": "Breathe Child, you’re much too flustered to think clearly.",
+            "&7&l???": "Breathe Child, you’re much too flustered to think clearly.",
             "&d&lDanielle": "Who-",
-            "&7???": "You can call me &7Captain&r for the time being.",
+            "&7&l???": "You can call me &7Captain&r for the time being.",
             "&d&lDanielle": "Let us go! &3Statera&r needs us back!",
             "&d&lDanielle": "You &6Sophro&r goons are done for! You’ve crossed the line now.",
             "&7&lCaptain": "&oNow&r? You have it all wrong young &dDanielle..",
@@ -509,27 +512,29 @@
         }
     ],
     "Wait": 20,
-    "Objective": ["Meet the Captain at the Ancient Temple and speak to him", 9],
-    "Wait": 20,
+    "ProgressiveMoveEntity": ["Old_Man2", -398.5, 47.0, -62.5, false],
     "Dialog": [
         {
             "&d&lDanielle": "Well, it's not like we really have a choice do we? Come on [PLAYER], let's see what the creep wants."
         }
     ],
+    "MoveEntity": ["Rival2", -403.5, 46.0, -62.5, 0.1, false],
+    "Fade": [],
     "Unfreeze": [],
-    "ProgressiveMoveEntity": ["Rival2", -403.5, 46.0, -62.5],
-    "MoveEntity": ["Old_Man2", -398.5, 47.0, -62.5, false],
     "Show": {
         "Rival2": false,
         "Rival3": true,
         "Old_Man2": false,
         "Old_Man3": true
     },
+    "Wait": 10,
+    "Objective": ["Meet the Captain at the Ancient Temple and speak to him", 9],
     "HighlightClickEntity": "Old_Man3",
     "Dialog": [
         {
-            "&7&lCaptain": "Only those worthy of solving the puzzle are able to obtain the knowledge that lies behind this door.",
-            "&7&lCaptain": "Now go! Solve the puzzle! I'll meet you on the other side."
+            "&7&lCaptain": "Answers are near. But you must prove that you are worthy of them.",
+            "&7&lCaptain": "The shrine only accepts trainers that can provide that proof.",
+            "&7&lCaptain": "Open the shrine. I'll meet you on the other side."
         }
     ],
     "Wait": 20,
