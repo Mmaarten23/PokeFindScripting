@@ -538,15 +538,19 @@
         }
     ],
     "Wait": 20,
-    "Show": {
-        "Old_Man3": false
-    },
-    "Objective": ["Investigate the Ancient door"],
     "ProgressiveMoveEntity": ["Rival3", -500.5, 72.5, 32.9, false],
+    "Wait": 10,
+    "MoveEntity": ["Old_Man3", -496.5, 72.5, 31.8, false],
     "Show": {
+        "Old_Man3": false,
         "Rival3": false,
         "Rival4": true
     },
+    "Freeze": [],
+    "Fade": [],
+    "Wait": 10,
+    "Unfreeze": [],
+    "Objective": ["Investigate the Ancient door"],
     "RegionEntry": [
         -502, 73, 37,
         -496, 83, 41
@@ -554,7 +558,8 @@
     "Dialog": [
         {
             "[PLAYER]": "What's that on the ground?"
-        }
+        },
+        1
     ],
     "PickupItem": [
         -498.5, 73.0, 44.5,
@@ -562,7 +567,7 @@
         "Brewing Stand"
     ],
     "Wait": 20,
-    "SendMessage": "&e&l+1 &2&lSewaddle Remote Control &4&l(Missing Batteries)",
+    "SendMessage": "&e&l+1 &7Sewaddle Remote &4(Missing Batteries)",
     "Wait": 20,
     "Dialog": [
         {
@@ -572,17 +577,12 @@
     "Wait": 20,
     "Objective": ["Find the battery somewhere in Greenholm", 3],
     "PickupItem": [
-        -497.5, 60.0, -44.5,
+        -497.5, 59.2, -44.5,
         "&e&lBatteries",
         "Redstone Torch"
     ],
     "SendMessage": "&e&l+2 Batteries",
     "Wait": 20,
-    "Fade": [],
-    "Teleport": [-499.5, 73.0, 42.5, 270, 0],
-    "Wait": [
-        20
-    ],
     "Dialog": [
         {
             "[PLAYER]": "And done! Now I guess I have to move the Sewaddle robot to the Rose Bush!",
@@ -597,7 +597,6 @@
         "Sewaddle": true
     },
     "ControlledTrack": "Sewaddle",
-    "Hold": [],
     "ProgressiveWall": [
         -496, 73, 61,
         -502, 74, 55,
@@ -1051,9 +1050,7 @@
             "&8&lVidar": "Here, take these rewards for all your trouble."
         }
     ],
-    "Skip":
-        "end"
-    ,
+    "Skip": "end",
     "SetStoryTeam": [
         "Sophro"
     ],
