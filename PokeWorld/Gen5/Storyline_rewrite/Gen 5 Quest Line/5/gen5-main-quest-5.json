@@ -63,7 +63,8 @@
             "yaw": 180,
             "pitch": 0
         },
-        "skin": "danielle"
+        "skin": "danielle",
+        "look": false
     },
     "CreateEntity": {
         "key": "Rival6",
@@ -559,21 +560,20 @@
     ],
     "Dialog": [
         {
-            "[PLAYER]": "What's that on the ground?"
+            "[PLAYER]": "&oWhat's that on the ground?"
         },
         1
     ],
     "PickupItem": [
-        -498.5, 73.0, 44.5,
+        -498.5, 74.0, 58.5,
         "&2&lRemote Control",
         "Brewing Stand"
     ],
-    "Wait": 20,
     "SendMessage": "&e&l+1 &7Sewaddle Remote &4(Missing Batteries)",
     "Wait": 20,
     "Dialog": [
         {
-            "[PLAYER]": "A remote? Hmm... It's missing a battery. I wonder where I can find those."
+            "[PLAYER]": "&oA remote? Hmm... It's missing a battery. I wonder where I can find those."
         }
     ],
     "Wait": 20,
@@ -634,7 +634,6 @@
         "Rival5": true,
         "Sewaddle": false
     },
-    "Look": "Tribe_Leader1",
     "Dialog": [
         {
             "&e&lAstrid": "Ah, you’ve brought the cubs.",
@@ -706,8 +705,8 @@
     "Fade": [],
     "Objective": ["Meet Astrid in the next room"],
     "RegionEntry": [
-        -513,37,50,
-        -496,42,74
+        -513, 37, 50,
+        -496, 42, 74
     ],
     "Freeze": [],
     "Fade": [],
@@ -732,13 +731,12 @@
     "Cinematic": [],
     "Wait": 4,
     "Freeze": true,
-    "Wait": 20,
+    "Start": "gen5_main_quest_5_island",
     "Dialog": [
         {
             "&e&lAstrid": "When they were young in age, they used the power of an ancient Dragon Pokémon to create the region."
         }
     ],
-    "Start": "gen5_main_quest_5_island",
     "Hold": [],
     "Dialog": [
         {
