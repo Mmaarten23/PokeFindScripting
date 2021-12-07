@@ -815,7 +815,7 @@
         }
     ],
     "Wait": 80,
-    "ProgressiveMoveEntity": ["cin_cam2", -1240.5, 44.0, 244.4, -24, 0.1, false],
+    "ProgressiveMoveEntity": ["cin_cam2", -1240.5, 44.0, 244.4, 0.1, false],
     "Dialog": [
         {
             "&e&lAstrid": "The fighting between the two siblings soon led the Dragon Pokémon to split into two halves. It loved both the siblings too much to allow one to be alone..."
