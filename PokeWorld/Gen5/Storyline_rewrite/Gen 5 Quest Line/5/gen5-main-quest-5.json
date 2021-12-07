@@ -651,25 +651,51 @@
         -505, 64, 58
     ],
     "Show": {
-        "Rival4": false,
-        "Rival5": true,
         "Sewaddle": false
     },
+    "EntityLook": ["Tribe_Leader1", "Old_Man4"],
+    "EntityLook": ["Old_Man4", "Tribe_Leader1"],
     "Dialog": [
         {
             "&e&lAstrid": "Ah, you’ve brought the cubs.",
-            "&7&lCaptain": "Indeed I did, Madame &eAstrid&r.",
+            "&7&lCaptain": "Indeed I did, Madame &eAstrid&r."
+        }
+    ],
+    "EntityLook": ["Tribe_Leader1", "Rival5"],
+    "Wait": 4,
+    "EntityLookAtPlayer": "Old_Man4",
+    "Dialog": [
+        {
             "&e&lAstrid": "Don’t fret little ones, this will not be a hostile meeting.",
-            "&e&lAstrid": "I, hope this meeting removes some of the negativity you both must be feeling towards our Tribe.",
+            "&e&lAstrid": "I, hope this meeting removes some of the negativity you both must be feeling towards our Tribe."
+        }
+    ],
+    "EntityLook": ["Old_Man4", "Rival5"],
+    "Wait": 4,
+    "EntityLookAtPlayer": "Tribe_Leader1",
+    "Dialog": [
+        {
             "&e&lAstrid": "All I request of you both, is to keep an open mind before we continue.",
             "&e&lAstrid": "&3Statera&r is adequate at manipulating the younger generation, and I hope with all of Arceus’s power that you two have not been ruined quite yet.",
-            "&d&lDanielle": "Why should we listen to someone who threatened and insulted [PLAYER] on their mission?",
+            "&d&lDanielle": "Why should we listen to someone who threatened and insulted [PLAYER] on their mission?"
+        }
+    ],
+    "EntityLook": ["Tribe_Leader1", "Rival5"],
+    "Dialog": [
+        {
             "&d&lDanielle": "You were so aggressive and degrading from what I read in the mission report.",
-            "&e&lAstrid": "We wouldn’t be here now if I had not, would we? [PLAYER]! Would you give your all to a battle with someone you had no hostile feeling towards?",
+            "&e&lAstrid": "We wouldn’t be here now if I had not, would we? [PLAYER]! Would you give your all to a battle with someone you had no hostile feeling towards?"
+        }
+    ],
+    "EntityLookAtPlayer": "Tribe_Leader1",
+    "EntityLookAtPlayer": "Old_Man4",
+    "Dialog": [
+        {
             "&e&lAstrid": "We must battle before we proceed, it’s the opportunity for you both to prove to me that your &dAuras&r are strong!",
             "&e&lAstrid": "Come at me with everything you have!"
         }
     ],
+
     "Wait": 20,
     "Objective": ["Battle Astrid"],
     "BattleNpc": [
@@ -775,20 +801,20 @@
     "Wait": 4,
     "Look": ["cin_cam2", 30.0],
     "Wait": 1,
-    "ProgressiveMoveEntity": ["cin_cam2", -1235.0, 44.0, 244.7, 0.1, false],
+    "ProgressiveMoveEntity": ["cin_cam2", -1243.7, 44.0, 248.8, 0.1, false],
     "Dialog": [
         {
             "&e&lAstrid": "The older sister felt the many different islands in the region should remain separated, allowing the citizens and tribes to govern themselves in peace."
         }
     ],
     "Wait": 40,
-    "ProgressiveMoveEntity": ["cin_cam2", -1243.7, 44.0, 248.8, 0.1, false],
+    "ProgressiveMoveEntity": ["cin_cam2", -1235.0, 44.0, 244.7, 0.1, false],
     "Dialog": [
         {
             "&e&lAstrid": "While the younger brother felt they should be connected and be led under a single government, for balance."
         }
     ],
-    "Wait": 60,
+    "Wait": 80,
     "ProgressiveMoveEntity": ["cin_cam2", -1240.5, 44.0, 244.4, -24, 0.1, false],
     "Dialog": [
         {
