@@ -757,7 +757,6 @@
     "Teleport": [-1234.4, 45.4, 252.2, 134, 26],
     "Wait": 4,
     "Freeze": true,
-    "Hold": [],
     "Wait": 1,
     "Look": "Cinematic_Tribe_Leader1",
     "Dialog": [
