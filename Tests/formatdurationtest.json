@@ -3,7 +3,6 @@
     "Author": "Mmaarten",
     "Set": ["server", "timer", 120],
     "Set": ["server", "formatted_timer", "", true],
-    "SetScoreboard": ["Countdown: [formatted_timer]"],
 
     "Comment": "loop",
     "Add": ["server", "timer", -1],
@@ -13,7 +12,7 @@
         "outputHolder": "server",
         "outputVariable": "formatted_timer"
     },
-    "SetScoreboard": ["Countdown: [formatted_timer]"],
+    "SetBossBar": ["Countdown: [formatted_timer]"],
     "Wait": 1.0,
     "Skip": "loop"
 }

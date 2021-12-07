@@ -151,7 +151,7 @@
         }
     },
     "CreateEntity": {
-        "key": "Zekrom1",
+        "key": "Zekrom_split",
         "location": {
             "x": -319.5,
             "y": 48.9,
@@ -165,17 +165,17 @@
     "CreateEntity": {
         "key": "Zekrom2",
         "location": {
-            "x": -1240.2,
+            "x": -1238.7,
             "y": 44.0,
-            "z": 243.1,
-            "yaw": -30,
+            "z": 244.0,
+            "yaw": -78,
             "pitch": 0
         },
         "entity": "armor_stand",
         "pokemon": "Zekrom"
     },
     "CreateEntity": {
-        "key": "Reshiram1",
+        "key": "Reshiram_knock_out",
         "location": {
             "x": -321.5,
             "y": 48.9,
@@ -187,13 +187,12 @@
         "pokemon": "Zekrom"
     },
     "CreateEntity": {
-        "key": "Reshiram2",
+        "key": "Reshiram_split",
         "location": {
-            "x": -1243.5,
+            "x": -1242.8,
             "y": 44.0,
-            "z": 246.4,
-            "yaw": -47,
-            "pitch": 0
+            "z": 245.7,
+            "yaw": 17
         },
         "entity": "armor_stand",
         "pokemon": "reshiram"
@@ -305,26 +304,26 @@
     "CreateEntity": {
         "key": "Dragon1",
         "location": {
-            "x": -1245.9,
+            "x": -1233.9,
             "y": 45.6,
             "z": 256.2,
             "yaw": -90,
-            "pitch": 60
+            "pitch": 0
         },
         "entity": "armor_stand",
         "pokemon": "Kyurem"
     },
     "CreateEntity": {
-        "key": "Dragon2",
+        "key": "Dragon_split",
         "location": {
-            "x": -1242.3,
+            "x": -1240.5,
             "y": 44.0,
-            "z": 244.5,
-            "yaw": -43,
+            "z": 244.4,
+            "yaw": -24,
             "pitch": 0
         },
         "entity": "armor_stand",
-        "pokemon": ""
+        "pokemon": "Kyurem"
     },
     "CreateEntity": {
         "key": "Sewaddle",
@@ -375,11 +374,10 @@
         "Old_Man2": false,
         "Old_Man3": false,
         "Old_Man4": false,
-        "Zekrom1": false,
+        "Zekrom_split": false,
         "Zekrom2": false,
-        "Reshiram1": false,
-        "Reshiram2": false,
-        "Reshiram3": false,
+        "Reshiram_knock_out": false,
+        "Reshiram_split": false,
         "Tribe_Leader1": false,
         "Tribe_Leader2": false,
         "Cinematic_Tribe_Leader1": false,
@@ -390,7 +388,7 @@
         "Statera_Leader2": false,
         "Statera_Leader3": false,
         "Dragon1": false,
-        "Dragon2": false,
+        "Dragon_split": false,
         "rock": false
     },
     "Quest": true,
@@ -442,16 +440,17 @@
     "EntityLook": ["Rival1", "Old_Man1"],
     "Show": {
         "Old_Man1": true,
-        "Reshiram1": true
+        "Reshiram_knock_out": true
     },
     "Wait": 10,
     "MoveEntity": ["cin_cam1", -318.5, 48.9, -27.5, 0.15, false],
-    "ProgressiveMoveEntity": ["Reshiram1", -314.5, 47.9, -21.9],
+    "ProgressiveMoveEntity": ["Reshiram_knock_out", -314.5, 47.9, -21.9],
     "Wait": 1,
     "ProgressiveMoveEntity": ["cin_cam1", -311.5, 47.9, -22.9, 0.2, false],
     "MoveEntity": ["Old_Man1", -311.5, 47.9, -22.9],
     "AnimateEntity": ["Old_Man1", "Swing Main Hand"],
     "Wait": 2,
+    "EntityLook": ["Old_Man1", "Rival1"],
     "Show": {
         "rock": true
     },
@@ -471,7 +470,7 @@
     "Show": {
         "Rival1": false,
         "Rival2": true,
-        "Reshiram1": false,
+        "Reshiram_knock_out": false,
         "Old_Man1": false,
         "Old_Man2": true
     },
@@ -585,9 +584,14 @@
     ],
     "SendMessage": "&e&l+2 Batteries",
     "Wait": 20,
+    "Objective": ["Return to the shrine", 3],
+    "RegionEntry": [
+        -502, 73, 37,
+        -496, 83, 41
+    ],
     "Dialog": [
         {
-            "[PLAYER]": "And done! Now I guess I have to move the Sewaddle robot to the Rose Bush!",
+            "[PLAYER]": "Now I guess I have to control the Sewaddle somehow?",
             "[PLAYER]": "That doesn't seem too difficult..."
         }
     ],
@@ -747,7 +751,7 @@
         "Cinematic_Tribe_Leader1": true,
         "Cinematic_Statera_Leader1": true,
         "Dragon1": false,
-        "Dragon2": true
+        "Dragon_split": true
     },
     "Unfreeze": [],
     "Fade": [],
@@ -755,48 +759,49 @@
     "Wait": 4,
     "Freeze": true,
     "Hold": [],
-
-
-
-
+    "Wait": 1,
+    "Look": "Cinematic_Tribe_Leader1",
     "Dialog": [
         {
-            "&e&lAstrid": "The older sister felt the many different islands in the region should remain separated, allowing the citizens and tribes to govern themselves in peace.",
+            "&e&lAstrid": "The older sister felt the many different islands in the region should remain separated, allowing the citizens and tribes to govern themselves in peace."
+        }
+    ],
+    "Look": "Cinematic_Statera_Leader1",
+    "Dialog": [
+        {
             "&e&lAstrid": "While the younger brother felt they should be connected and be led under a single government, for balance."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "EntityLook": [
-        "Cinematic_Tribe_Leader1"
-    ],
-    "EntityLook": [
-        "Cinematic_Statera_Leader1"
-    ],
-    "Wait": 20,
-    "Look": "Dragon2",
-    "Wait": 20,
+    "Look": "Dragon_split",
     "Dialog": [
         {
-            "&e&lAstrid": "The fighting between the two siblings soon led the Dragon Pokémon to split into two halves. It loved both the siblings too much to allow one to be alone, as it was clear..."
+            "&e&lAstrid": "The fighting between the two siblings soon led the Dragon Pokémon to split into two halves. It loved both the siblings too much to allow one to be alone..."
         }
     ],
-    "Particle": [
-        "explosion_huge",
-        -1242.3,
-        44.0,
-        244.5
-    ],
-    "PlaySound": ["entity_generic_explode", 0.5],
+
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 10, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 25, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 50, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 75, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 100, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 100, 1.5],
+
+    "Wait": 10,
+
+    "StrikeLightning": [-1240.5, 44.0, 244.4],
+    "Particle": ["explosion_huge", -1240.5, 45.0, 244.4, 20, 1.5],
+    "PlaySound": ["entity_generic_explode", 0.5]
     "Show": {
-        "Dragon2": false,
-        "Zekrom1": true,
-        "Reshiram2": true
+        "Dragon_split": false,
+        "Zekrom_split": true,
+        "Reshiram_split": true
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "The Brother and Sister would not be together again after the fighting is calmed.",
@@ -808,9 +813,8 @@
         20
     ],
     "Show": {
-        "Reshiram2": false,
-        "Reshiram3": true,
-        "Zekrom1": false,
+        "Reshiram_split": false,
+        "Zekrom_split": false,
         "Zekrom2": true,
         "Cinematic_Statera_Leader1": false,
         "Cinematic_Statera_Leader2": true,

@@ -1,0 +1,21 @@
+{
+    "Key": "particles_test",
+    "Author": "Mmaarten",
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 10, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 25, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 50, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 75, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 100, 1.5],
+    "Wait": 5,
+    "Particle": ["snowflake", -1240.5, 45.0, 244.4, 100, 1.5],
+
+    "Wait": 10,
+
+    "StrikeLightning": [-1240.5, 44.0, 244.4],
+    "Particle": ["explosion_huge", -1240.5, 45.0, 244.4, 20, 1.5],
+    "PlaySound": ["entity_generic_explode", 0.5]
+}
