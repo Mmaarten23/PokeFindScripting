@@ -643,8 +643,7 @@
             "&e&lAstrid": "Ah, you’ve brought the cubs.",
             "&7&lCaptain": "Indeed I did, Madame &eAstrid&r.",
             "&e&lAstrid": "Don’t fret little ones, this will not be a hostile meeting.",
-            "&e&lAstrid": "I’ve met one of you already... [PLAYER], on their last mission to disrupt our meeting.",
-            "&e&lAstrid": "and your name is &dDanielle&r. I hope this meeting removes some of the negativity you both must be feeling towards our Tribe.",
+            "&e&lAstrid": "I, hope this meeting removes some of the negativity you both must be feeling towards our Tribe.",
             "&e&lAstrid": "All I request of you both, is to keep an open mind before we continue.",
             "&e&lAstrid": "&3Statera&r is adequate at manipulating the younger generation, and I hope with all of Arceus’s power that you two have not been ruined quite yet.",
             "&d&lDanielle": "Why should we listen to someone who threatened and insulted [PLAYER] on their mission?",
@@ -795,7 +794,7 @@
 
     "StrikeLightning": [-1240.5, 44.0, 244.4],
     "Particle": ["explosion_huge", -1240.5, 45.0, 244.4, 20, 1.5],
-    "PlaySound": ["entity_generic_explode", 0.5]
+    "PlaySound": ["entity_generic_explode", 0.5],
     "Show": {
         "Dragon_split": false,
         "Zekrom_split": true,
