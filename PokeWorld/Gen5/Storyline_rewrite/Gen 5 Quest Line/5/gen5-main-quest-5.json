@@ -159,7 +159,6 @@
             "yaw": -60,
             "pitch": 0
         },
-        "entity": "armor_stand",
         "pokemon": "Zekrom"
     },
     "CreateEntity": {
@@ -843,10 +842,11 @@
     "Show": {
         "Reshiram_split": false,
         "Zekrom_split": false,
-        "Zekrom2": true,
         "Cinematic_Statera_Leader1": false,
         "Cinematic_Tribe_Leader1": false
     },
+    "SendMessage": "[DEBUG]: hold",
+    "Hold": [],
     "Fade": [    ],
     "Look": [
         "Cinematic_Statera_Leader1"
