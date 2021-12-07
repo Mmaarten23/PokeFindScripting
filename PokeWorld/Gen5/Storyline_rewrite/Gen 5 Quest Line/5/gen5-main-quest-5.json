@@ -237,23 +237,29 @@
         "key": "Cinematic_Tribe_Leader1",
         "location": {
             "x": -1235.0,
-            "y": 44.0,
+            "y": 43.8,
             "z": 244.7,
             "yaw": 56,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODg4NTg1MDcwMywKICAicHJvZmlsZUlkIiA6ICIwNDNkZWIzOGIyNjE0MTg1YTIzYzU4ZmI2YTc5ZWZkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaXRhbFNpZ256MiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMzZjMzE4MGZkMDA1MDM3MTk5NGJjMzg2YTY1ZmVkMGEwYzVhOGJhMjIzZWExNTAxNDFhZmNlNzkzNDhlODY4IgogICAgfQogIH0KfQ==",
+            "signature": "suhHBsSqiI8lTi8tgSzDuu4jiUbxSoCRfSeQ3BH7H1dRnICr2/2qFyw9K1IwtATisiPb8z/B27p/gNdUuGx/Iiv+3ga31fkULkZabMK6yu86YtrpA6KOP4aqyBsaBJokA3O8ZfZXMbp1ofM1JGieCv+eqPjIyIr89pC4uo4flKYiUHo+mEbnU78iglTNWKB8ET8iYmDYoh60bemxXBd6S1tHVSipvNuDO5dRry9rMd0rTBXT8wyDK+wBXAnEKLYx+K6Vwn4ng9Jrr58bhSVODwAu7SI4Hr4jgODGytNkeZ8fWziz2OjzQ3afpDdZAMQCGsE8eLxtFzVOt/XNrQGGH174Efa4MHZ61EZzQ/XGm/7NA/xBXtpymnAArYnhEjSih8mDxRI1O7ggCyU8MVCHzvQ6kJexSQSmsQ11RZM2cMlVlcEtahVxwdF7j/+yJ5w9jbvzygdc1nh4XiNpu2ummOdDXZWEbYIk2BaYT9328pEXOuItleL5BAt0DQqkfVD0fq1f/70qCcm8zsYnBxVnXcYe+2La1RnZftSfF2a4e207V+cW4WiG0IXiwO5nlH3YGyyXiANV5fvFBpG97pzW9Mv1qX58rl7uRTuFVgU0ISc+EgvDlfPISSQGPhryA5rAwQo5zUuWGNiRJw7AmFepsurztsx1XXrKCSEM66j45O0="
+        }
     },
     "CreateEntity": {
         "key": "Cinematic_Statera_Leader1",
         "location": {
             "x": -1243.7,
-            "y": 44.0,
+            "y": 43.8,
             "z": 248.8,
             "yaw": -126,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODg4NTc5NTIxMiwKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb255S3VuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhNmFlYWNhOGViYWMyMzlmNmIzNjE1M2RmMzRlNmVkMWE0NzQyZmY2OGZkMzY4ZGMxOTE3NjE3ZDFlZjczODkiCiAgICB9CiAgfQp9",
+            "signature": "CQ/XL8C1ClnJHKtBWdJg4PTQ8F2tORrsjNGO8yJ3PXP604Hsicf5KgrLPEdtduISHLLFoJ00CvIccN6ysYX05V/ZvLXdsAWeoi/pKk5aAUcInKu3dflKiOqI/3MmtJzz+MOt5TgoQgkw3kfT55I2GhHqZd93RTS6Qy/HJyVwseyfxCJMwWexCkO/LaTKBpV2Ruafruc2vSb6tO4rIY17QaHHWzPve1W/xT2oAEJxZOwHrMTeUuKk+PTZ9SgtxtpdjIyzCILfXPH+zEaFcjiwSTnvC6V/8wSEk0sl+c9ufmcECT8QPwmOj1OylLz/yQ0qmV79TdMennOZLuV2fO6IYf5mM4OqBUv0s7ZMuOB70rlzHAcgjDrY+iQrhXT3V0RFsX3Ucfb7QegFjo+kPioh45wdvEK2O8FelX/DNpMY4EGiujlboDSNFlcDkZdTdNWbCKZdNoseQES6OBXcPihf/Ay6HcP7IHsDX6D21tCkswDYfcY2/1WD9hWA1W1/nstWJ9ZHkzDkhIEKjmtyDdSOSqtk2VOtz9VMIz52KDunManAEqkqlFr1zxcRDDixdYbdYbg1WyWQhYIDodxeHllNczfyZCdmBQVjuglRpLyQGMxN5OkwpU6T7DbqX/iRC3/z5tjjcyJQk6vVxSkv7ngjiMDrmQoWNErYavd2av3cy7U="
+        }
     },
     "CreateEntity": {
         "key": "Statera_Leader1",
@@ -393,9 +399,7 @@
         "Tribe_Leader1": false,
         "Tribe_Leader2": false,
         "Cinematic_Tribe_Leader1": false,
-        "Cinematic_Tribe_Leader2": false,
         "Cinematic_Statera_Leader1": false,
-        "Cinematic_Statera_Leader2": false,
         "Statera_Leader1": false,
         "Statera_Leader2": false,
         "Statera_Leader3": false,
@@ -818,25 +822,32 @@
     "Wait": 20,
     "Dialog": [
         {
-            "&e&lAstrid": "The Brother and Sister would not be together again after the fighting is calmed.",
-            "&e&lAstrid": "The Older Sister named the half that returned with her, &fReshiram&r.",
+            "&e&lAstrid": "The Brother and Sister would not be together again after the fighting is calmed."
+        }
+    ],
+    "ProgressiveMoveEntity": ["Cinematic_Tribe_Leader1",-1244.8,43.8,256.0],
+    "ProgressiveMoveEntity": ["Reshiram_split",-1244.8,43.8,256.0],
+    "Dialog": [
+        {
+            "&e&lAstrid": "The Older Sister named the half that returned with her, &fReshiram&r."
+        }
+    ],
+    "ProgressiveMoveEntity": ["Cinematic_Statera_Leader1",-1235.4,44.0,251.1],
+    "ProgressiveMoveEntity": ["Zekrom_split",-1235.4,44.0,251.1],
+    "Dialog": [
+        {
             "&e&lAstrid": "The Younger Brother named the half that left with him, &8Zekrom&r."
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Reshiram_split": false,
         "Zekrom_split": false,
         "Zekrom2": true,
         "Cinematic_Statera_Leader1": false,
-        "Cinematic_Statera_Leader2": true,
-        "Cinematic_Tribe_Leader1": false,
-        "Cinematic_Tribe_Leader2": true
+        "Cinematic_Tribe_Leader1": false
     },
-    "Fade": [
-    ],
+    "Fade": [    ],
     "Look": [
         "Cinematic_Statera_Leader1"
     ],
@@ -852,8 +863,7 @@
         20
     ],
     "Show": {
-        "Zekrom2": false,
-        "Cinematic_Statera_Leader2": false
+        "Zekrom2": false
     },
     "Wait": [
         20
