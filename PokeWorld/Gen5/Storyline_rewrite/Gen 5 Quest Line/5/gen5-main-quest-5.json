@@ -396,6 +396,18 @@
         "visible": false
     },
     "CreateEntity": {
+        "key": "cin_cam3",
+        "entity": "armor_stand",
+        "location": {
+            "x": 68.5,
+            "y": 53.0,
+            "z": 339.0,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "visible": false
+    },
+    "CreateEntity": {
         "key": "rock",
         "entity": "armor_stand",
         "location": {
@@ -887,8 +899,8 @@
             "&e&lAstrid": "The Older Sister named the half that returned with her, &fReshiram&r."
         }
     ],
-    "ProgressiveMoveEntity": ["Statera_Leader_Island", -1232.5, 44.0, 244.9],
-    "ProgressiveMoveEntity": ["Zekrom_split", -1232.5, 44.0, 244.9],
+    "ProgressiveMoveEntity": ["Statera_Leader_Island", -1228.5, 44.0, 246.6],
+    "ProgressiveMoveEntity": ["Zekrom_split", -1228.5, 44.0, 246.6],
     "Dialog": [
         {
             "&e&lAstrid": "The Younger Brother named the half that left with him, &8Zekrom&r."
@@ -903,8 +915,6 @@
         "Statera_Leader_Deal": true,
         "Tribe_Leader_Deal": true
     },
-    "SendMessage": "[DEBUG]: hold",
-    "Hold": [],
     "Unfreeze": [],
     "Fade": [],
     "Teleport": [-1153.5, 45.5, 202.5, 90, 13],
@@ -914,7 +924,8 @@
     "Dialog": [
         {
             "&e&lAstrid": "Many exhausting years followed the split, and the fighting continued. As they both aged and lost their energy and Aura, they came to an agreement that neither side was right. They would allow the Pokémon and citizens to decide the fate of the region..."
-        }
+        },
+        1
     ],
     "ProgressiveMoveEntity": ["Statera_Leader_Deal", -1160.2, 45.0, 201.3, 0.15, false],
     "MoveEntity": ["Tribe_Leader_Deal", -1160.0, 45.0, 203.7, 0.15, false],
@@ -950,28 +961,25 @@
     "Fade": [],
     "Teleport": [45.0, 67.1, 339.0, -90, 41],
     "Wait": 4,
-    "Freeze": true,
 
-
+    "Look": ["cin_cam3", 30],
+    "ProgressiveMoveEntity": ["cin_cam3", 66.7,102.1,338.9, 0.05, false],
     "Dialog": [
         {
-            "&e&lAstrid": "Until Statera appeared 20 years ago and crumbled the balance that had been brought to Zeinova.",
-            "&e&lAstrid": "The Pokémon felt the shift first, and in turn reacted.",
+            "&e&lAstrid": "Until &3Statera&r appeared 20 years ago and crumbled the balance that had been brought to Zeinova.",
+            "&e&lAstrid": "The company broke the balance and trust between pokemon and their trainers.",
             "&e&lAstrid": "We have to stop &3Statera&r before it’s too late. Before we’re swallowed ourselves by the region.",
             "&8&l???": "That's quite enough, Older Sister. You've pushed your ideals down these children's throats and have not considered what the real world is like."
         }
     ],
-    "Fade": [
-    ],
-    "StopCinematic": [
-    ],
-    "Teleport": [
-        -503.5,
-        37.0,
-        55.5,
-        35,
-        0
-    ],
+
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-503.5, 37.0, 55.5, 35, 0],
+    "StopCinematic": [],
+
+    "SendMessage": "[DEBUG]: hold",
+    "Hold": [],
     "Show": {
         "Statera_Leader1": true
     },
