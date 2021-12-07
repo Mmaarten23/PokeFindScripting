@@ -235,10 +235,10 @@
     "CreateEntity": {
         "key": "Cinematic_Tribe_Leader1",
         "location": {
-            "x": -1235.0,
-            "y": 43.8,
-            "z": 244.7,
-            "yaw": 56,
+            "x": -1243.7,
+            "y": 44.0,
+            "z": 248.8,
+            "yaw": -126,
             "pitch": 0
         },
         "skin": {
@@ -249,10 +249,10 @@
     "CreateEntity": {
         "key": "Cinematic_Statera_Leader1",
         "location": {
-            "x": -1243.7,
-            "y": 43.8,
-            "z": 248.8,
-            "yaw": -126,
+            "x": -1235.0,
+            "y": 44.0,
+            "z": 244.7,
+            "yaw": 56,
             "pitch": 0
         },
         "skin": {
@@ -491,6 +491,7 @@
         "Old_Man2": true
     },
     "Potion": ["Blindness", 200],
+    "StopCinematic": [],
     "Wait": 20,
     "Dialog": [
         {
@@ -538,7 +539,6 @@
     ],
     "MoveEntity": ["Rival2", -403.5, 46.0, -62.5, 0.1, false],
     "Fade": [],
-    "StopCinematic": [],
     "Unfreeze": [],
     "Show": {
         "Rival2": false,
@@ -788,7 +788,7 @@
             "&e&lAstrid": "While the younger brother felt they should be connected and be led under a single government, for balance."
         }
     ],
-    "Wait": 40,
+    "Wait": 60,
     "ProgressiveMoveEntity": ["cin_cam2", -1240.5, 44.0, 244.4, -24, 0.1, false],
     "Dialog": [
         {
@@ -824,15 +824,15 @@
             "&e&lAstrid": "The Brother and Sister would not be together again after the fighting is calmed."
         }
     ],
-    "ProgressiveMoveEntity": ["Cinematic_Tribe_Leader1",-1244.8,43.8,256.0],
-    "ProgressiveMoveEntity": ["Reshiram_split",-1244.8,43.8,256.0],
+    "ProgressiveMoveEntity": ["Cinematic_Tribe_Leader1", -1244.8, 44.0, 256.0],
+    "ProgressiveMoveEntity": ["Reshiram_split", -1244.8, 44.0, 256.0],
     "Dialog": [
         {
             "&e&lAstrid": "The Older Sister named the half that returned with her, &fReshiram&r."
         }
     ],
-    "ProgressiveMoveEntity": ["Cinematic_Statera_Leader1",-1235.4,44.0,251.1],
-    "ProgressiveMoveEntity": ["Zekrom_split",-1235.4,44.0,251.1],
+    "ProgressiveMoveEntity": ["Cinematic_Statera_Leader1", -1235.4, 44.0, 251.1],
+    "ProgressiveMoveEntity": ["Zekrom_split", -1235.4, 44.0, 251.1],
     "Dialog": [
         {
             "&e&lAstrid": "The Younger Brother named the half that left with him, &8Zekrom&r."
@@ -847,7 +847,7 @@
     },
     "SendMessage": "[DEBUG]: hold",
     "Hold": [],
-    "Fade": [    ],
+    "Fade": [],
     "Look": [
         "Cinematic_Statera_Leader1"
     ],
