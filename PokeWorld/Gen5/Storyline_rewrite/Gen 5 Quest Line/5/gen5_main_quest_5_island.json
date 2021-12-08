@@ -4,7 +4,7 @@
 
     "CreateCustomEntity": [
         "island",
-        -1252.5, 100.0, 239.5,
+        -1252.5, 10.0, 239.5,
         "gen5_main_quest_5_island2.schematic"
     ],
     "Server": [],

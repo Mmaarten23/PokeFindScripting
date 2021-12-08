@@ -841,7 +841,7 @@
     "Fade": [],
     "Teleport": [-1234.4, 45.4, 252.2, 134, 26],
     "Wait": 4,
-    "Look": ["cin_cam2", 27.0],
+    "Look": ["cin_cam2", 26.0],
     "Wait": 1,
     "ProgressiveMoveEntity": ["cin_cam2", -1243.7, 44.0, 248.8, 0.1, false],
     "Dialog": [
