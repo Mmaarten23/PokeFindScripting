@@ -153,24 +153,12 @@
     "CreateEntity": {
         "key": "Zekrom_split",
         "location": {
-            "x": -319.5,
-            "y": 48.9,
-            "z": -24.9,
-            "yaw": -60,
-            "pitch": 0
-        },
-        "pokemon": "Zekrom"
-    },
-    "CreateEntity": {
-        "key": "Zekrom2",
-        "location": {
             "x": -1238.7,
             "y": 44.0,
             "z": 244.0,
             "yaw": -78,
             "pitch": 0
         },
-        "entity": "armor_stand",
         "pokemon": "Zekrom"
     },
     "CreateEntity": {
@@ -432,7 +420,6 @@
         "Old_Man3": false,
         "Old_Man4": false,
         "Zekrom_split": false,
-        "Zekrom2": false,
         "Reshiram_knock_out": false,
         "Reshiram_split": false,
         "Tribe_Leader1": false,
