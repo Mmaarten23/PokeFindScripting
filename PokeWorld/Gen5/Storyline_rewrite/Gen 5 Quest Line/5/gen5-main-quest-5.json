@@ -83,7 +83,7 @@
         "key": "Old_Man1",
         "name": [
             "&6&l???",
-            "&7Old man"
+            "&7???"
         ],
         "location": {
             "x": -318.5,
@@ -101,7 +101,7 @@
         "key": "Old_Man2",
         "name": [
             "&6&l???",
-            "&7Old man"
+            "&7???"
         ],
         "location": {
             "x": -403.5,
@@ -118,8 +118,8 @@
     "CreateEntity": {
         "key": "Old_Man3",
         "name": [
-            "&8&l???",
-            "&7Old man"
+            "&6&lCaptain",
+            "&7???"
         ],
         "location": {
             "x": -496.3,
@@ -136,8 +136,8 @@
     "CreateEntity": {
         "key": "Old_Man4",
         "name": [
-            "&8&l???",
-            "&7Old man"
+            "&6&lCaptain",
+            "&7???"
         ],
         "location": {
             "x": -504.5,
