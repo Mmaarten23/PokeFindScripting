@@ -1,0 +1,69 @@
+{
+    "CreateEntity": {
+        "key": "Santa",
+        "name": [
+            "&c&lSanta Claus",
+            "&7&oHug me!"
+        ],
+        "location": {
+            "x": -310.5,
+            "y": 47.0,
+            "z": -13.5,
+            "yaw": 228,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTExMDIwMTMyMSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNTg2OGVjMzA4NWNhNDE2ZDBhOWNjMzM1YmU0YmY2M2NiNjY2YmUxZjg4YTllOGExNDU2ZTIyMjgxZDM4NDdiIgogICAgfQogIH0KfQ==",
+            "signature": "dDzc+BpMYodVy5U7dPGVAgKJL5IoR1LeGpO8h+rOCSKRBw0b8x67Mff2dkXEFuBzjpZ973ykEhZGt+a5ENFf2iR96OFUwVFdUg1srQLysSopwkJa6CIPidRTubo/j6oVLjidsCyAZuRv/mLOrlku3HIZWtGayl1freqf18eKJ/RRaNj87xuyszuSZGpabWUTShQmym6I7DtnbhfAypdpnOUZ/ahWZizPPF7XykfUOStaOUD+0G6+853jrqrRFdUoZEb6bHZPS66j/PEqskTSWic32X2e1dW3+bB4clmB2iiwpCvSMzAsUuEIJP4m7vh0lkECxwNie/9kdR2kQiKaP0bzW/U4xPSRqnsSVTopmjFqeKx1ayLAEYZcFJ7AMFoxj1s1z0MYZ0xBF0W+j8/73A72WLpeAyW5DNmuobQzvaAPc9Opau8qoMHmh5AWFaXJiWn6ruOC0eGcopmUqRER7kVB4VRdkmmi7COxT9hgMaaczN3nr/+744UMZ1k6ycjX9SvrU6/vCMi/g7y7EzAdICRJuwVp4SYg6TRntMhXRFZR8v6rabiskvhXijI92ck0ZfcemBaNqLRQ0qVe7+Bz1U46WscDZwZWJVaCP4svSFZ6eD1ikHMmUxkGUuLoNWcKudlVIVkvx8HNGJIuydVwtvN94+joYB9hpy6JHrJxhy4="
+        }
+    },
+    "HighlightClickEntity": "Santa",
+    "If": [],
+    "Completed": [],
+    "Skip": "returning",
+    "Dummy": [],
+    "NewDialog": [
+        {
+            "&c&lSanta Claus": "Hey there young one!",
+            "&c&lSanta Claus": "This time of year, everyone can use a hug.",
+            "&c&lSanta Claus": "So if you ever need one, just come talk to me!",
+            "&c&lSanta Claus": "I heard my hugs are among the best ones you can get!"
+        },
+        70, true, true
+    ],
+    "Leave": [],
+
+    "Comment": "returning",
+    "RandomDialog": [
+        {
+            "&c&lSanta Claus": "All your dreams can come true, if you have the courage to pursue them."
+        },
+        {
+            "&c&lSanta Claus": ""
+        },
+        {
+            "&c&lSanta Claus": "You’ve gotta dance like there’s nobody watching, love like you’ll never be hurt, sing like there’s nobody listening, and live like it’s heaven on earth."
+        },
+        {
+            "&c&lSanta Claus": "May the love of the holidays fill you with joy!"
+        },
+        {
+            "&c&lSanta Claus": "All your dreams can come true, if you have the courage to pursue them."
+        },
+        {
+            "&c&lSanta Claus": "All your dreams can come true, if you have the courage to pursue them."
+        },
+        {
+            "&c&lSanta Claus": "All your dreams can come true, if you have the courage to pursue them."
+        },
+        {
+            "&c&lSanta Claus": "All your dreams can come true, if you have the courage to pursue them."
+        },
+        {
+            "&c&lSanta Claus": "All your dreams can come true, if you have the courage to pursue them."
+        },
+        {
+            "&c&lSanta Claus": "All your dreams can come true, if you have the courage to pursue them."
+        }
+    ]
+}

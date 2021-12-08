@@ -388,7 +388,7 @@
         "entity": "armor_stand",
         "location": {
             "x": -1240.5,
-            "y": 44.0,
+            "y": 43.5,
             "z": 244.4,
             "yaw": 228,
             "pitch": 0
@@ -841,7 +841,7 @@
     "Fade": [],
     "Teleport": [-1234.4, 45.4, 252.2, 134, 26],
     "Wait": 4,
-    "Look": ["cin_cam2", 30.0],
+    "Look": ["cin_cam2", 27.0],
     "Wait": 1,
     "ProgressiveMoveEntity": ["cin_cam2", -1243.7, 44.0, 248.8, 0.1, false],
     "Dialog": [
@@ -962,7 +962,7 @@
     "Teleport": [45.0, 67.1, 339.0, -90, 41],
     "Wait": 4,
 
-    "Look": ["cin_cam3", 30],
+    "Look": ["cin_cam3", 30.0],
     "ProgressiveMoveEntity": ["cin_cam3", 66.7,102.1,338.9, 0.05, false],
     "Dialog": [
         {
