@@ -522,7 +522,7 @@
         "rock": true
     },
     "ProgressiveMoveEntity": ["rock", -304.5, 46.9, -18.5, 0.4, false],
-    "Wait": 5,
+    "Wait": 20,
     "EntityLook": ["Old_Man1", "Rival1"],
     "AnimateEntity": ["Old_Man1", "Swing Main Hand"],
     "Show": {
@@ -1002,12 +1002,23 @@
         "Statera_Leader2": true
     },
     "Wait": 20,
+    "EntityLook": ["Tribe_Leader2", "Statera_Leader2"],
     "Dialog": [
         {
             "&e&lAstrid": "Li-little Brother? &8Vidar&r? Is that you?",
             "&8&lVidar": "Have you also gone senile in your old age? Yes, of course it’s me.",
-            "&8&lVidar": "Who else would know you well enough to figure out where you’d taken these kids?",
-            "&8&lVidar": "I’m sorry &dDanielle&r and [PLAYER]... my Elder sister can be a bit eccentric.",
+            "&8&lVidar": "Who else would know you well enough to figure out where you’d taken these kids?"
+        }
+    ],
+    "EntityLook": ["Statera_Leader2", "Rival6"],
+    "Dialog": [
+        {
+            "&8&lVidar": "I’m sorry &dDanielle&r and [PLAYER]... my Elder sister can be a bit eccentric."
+        }
+    ],
+    "EntityLookAtPlayer": ["Statera_Leader2"],
+    "Dialog": [
+        {
             "&8&lVidar": "We have not been properly introduced, I am the CEO of &3Statera&r. Thank you both for all the hard work you’ve put into our efforts."
         }
     ],
@@ -1023,6 +1034,7 @@
         }
     ],
     "Wait": 30,
+    "EntityLook": ["Statera_Leader2", "Tribe_Leader2"],
     "Dialog": [
         {
             "&e&lAstrid": "Your 'efforts' are tearing apart the balance of Zeinova &8Vidar&r!",
@@ -1053,19 +1065,10 @@
         }
     ],
     "Wait": 20,
-    "Objective": [
-        "Choose which side you want to be on (Statera or Sophro)"
-
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&c&lWhich side will you stay with?"
-    ],
-    "Wait": [
-        20
-    ],
+    "Objective": ["Choose which side you want to be on (Statera or Sophro)"],
+    "Wait": 20,
+    "SendMessage": "&c&lWhich side will you stay with?",
+    "Wait": 20,
     "Menu": [
         "Pick a side!",
         3,
@@ -1082,15 +1085,10 @@
             }
         }
     ],
-    "Skip": [
-        1
-    ],
-    "Skip": [
-        12
-    ],
-    "SetStoryTeam": [
-        "Statera"
-    ],
+    "Skip": "statera",
+    "Skip": "sophro",
+    "Comment": "statera",
+    "SetStoryTeam": "Statera",
     "Dialog": [
         {
             "&8&lVidar": "See! [PLAYER] understands! Come on let's go back to HQ.",
@@ -1109,9 +1107,7 @@
         "Statera_Leader2": false,
         "Statera_Leader3": true
     },
-    "HighlightClickEntity":
-        "Statera_Leader3"
-    ,
+    "HighlightClickEntity": "Statera_Leader3",
     "Dialog": [
         {
             "&8&lVidar": "I'm so sorry you had to go through that... Thank you for staying loyal to Statera!",
@@ -1119,9 +1115,8 @@
         }
     ],
     "Skip": "end",
-    "SetStoryTeam": [
-        "Sophro"
-    ],
+    "Comment": "sophro",
+    "SetStoryTeam": "Sophro",
     "Dialog": [
         {
             "&8&lVidar": "No! You're making a big mistake [PLAYER]!",
