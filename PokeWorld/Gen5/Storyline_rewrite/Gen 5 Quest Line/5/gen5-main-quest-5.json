@@ -1,7 +1,7 @@
 {
     "Key": "gen5_main_quest_5",
-    "Name": "",
-    "Description": "",
+    "Name": "&2&lThe choice of a lifetime",
+    "Description": "Making choices is hard. But this choice might be just a little bit harder. Does it define who I am? Who I want to be? ...",
     "AllowRejoining": true,
     "Icon": "dirt",
     "CreateEntity": {
@@ -76,7 +76,8 @@
             "yaw": 46,
             "pitch": 0
         },
-        "skin": "danielle"
+        "skin": "danielle",
+        "look": false
     },
     "CreateEntity": {
         "key": "Old_Man1",
@@ -319,10 +320,10 @@
             "&7Statera Leader"
         ],
         "location": {
-            "x": 77.5,
-            "y": 77.5,
-            "z": 330.9,
-            "yaw": 0,
+            "x": -495.3,
+            "y": 63.0,
+            "z": -21.8,
+            "yaw": 67,
             "pitch": 0
         },
         "skin": {
@@ -1057,7 +1058,7 @@
     "Wait": 20,
     "Dialog": [
         {
-            "&8&lVidar": "Arguing with you &eAstrid&r is the equivalant of arguing with a concrete wall. I am taking the kids with me, let’s go &dDanielle&r, [PLAYER]. We’re heading back to HQ.",
+            "&8&lVidar": "Arguing with you &eAstrid&r is the equivalent of arguing with a concrete wall. I am taking the kids with me, let’s go &dDanielle&r, [PLAYER]. We’re heading back to HQ.",
             "&e&lAstrid": "You don’t have to go with him… I’m sure you’ve both seen the state of the region.",
             "&e&lAstrid": "The Pokémon are revolting. You can stay with us, &6Sophro&r. Help us save Zeinova.",
             "&8&lVidar": "You could return to HQ with me as well, only my operations have been present to even help our towns, and our Pokémon. You’ve seen this, you know this.",
@@ -1075,12 +1076,12 @@
         {
             "11": {
                 "name": "&8&lStatera",
-                "description": "&7I choose to stay with Statera!",
+                "description": "&7I choose to stay with Statera!\n\n\n&4This choice cannot be reverted!",
                 "material": "Black Stained Glass Pane"
             },
             "15": {
                 "name": "&6&lSophro",
-                "description": "&7I choose to stay with Sophro!",
+                "description": "&7I choose to stay with Sophro!\n\n\n&4This choice cannot be reverted!",
                 "material": "Orange Stained Glass Pane"
             }
         }
@@ -1091,22 +1092,31 @@
     "SetStoryTeam": "Statera",
     "Dialog": [
         {
-            "&8&lVidar": "See! [PLAYER] understands! Come on let's go back to HQ.",
+            "&8&lVidar": "See! [PLAYER] understands! "
+        }
+    ],
+    "EntityLook": ["Statera_Leader2", "Rival6"],
+    "Wait": 5,
+    "EntityLook": ["Tribe_Leader2", "Rival6"],
+    "Dialog": [
+        {
+            "&e&lAstrid": "What about you &dDanielle&r?",
             "&d&lDanielle": "Well I choose to stay! I think that &eAstrid&r is right.",
             "&8&lVidar": "Very well... Come on [PLAYER]. Let's leave these traitors."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Talk with Vidar in his office back at Statera HQ"
-
-    ],
     "Show": {
+        "Tribe_Leader2": false,
+        "Rival6": false,
         "Statera_Leader2": false,
         "Statera_Leader3": true
     },
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-502.5, 37.1, 48.5, -90, -34],
+    "Wait": 4,
+    "Freeze": [],
+    "Objective": ["Talk with Vidar in outside the shrine", 3],
     "HighlightClickEntity": "Statera_Leader3",
     "Dialog": [
         {
@@ -1120,26 +1130,30 @@
     "Dialog": [
         {
             "&8&lVidar": "No! You're making a big mistake [PLAYER]!",
-            "&e&lAstrid": "Leave them alone &8Vidar&r! How about you &dDanielle&r?",
+            "&e&lAstrid": "Leave them alone &8Vidar&r!"
+        }
+    ],
+    "EntityLook": ["Statera_Leader2", "Rival6"],
+    "Wait": 5,
+    "EntityLook": ["Tribe_Leader2", "Rival6"],
+    "Dialog": [
+        {
+            "&e&lAstrid": "How about you &dDanielle&r?",
             "&d&lDanielle": "I'm staying with Statera. I'm not a traitor like [PLAYER]!",
             "&e&lAstrid": "Alright then...",
             "&8&lVidar": "Come on &dDanielle&r, let's go back to HQ."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Talk with Astrid"
-
-    ],
+    "Wait": 20,
     "Show": {
-        "Statera_Leader2": false,
-        "Rival6": false
+        "Rival6": false,
+        "Statera_Leader2": false
     },
-    "HighlightClickEntity": [
-        "Tribe_Leader2"
-    ],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-502.5, 37.0, 59.6, 84],
+    "Objective": ["Talk with Astrid", 3],
+    "HighlightClickEntity": "Tribe_Leader2",
     "Dialog": [
         {
             "&e&lAstrid": "I'm so sorry you had to go through that... Thank you for choosing Sophro... You made the right choice to stay...",
@@ -1148,9 +1162,7 @@
     ],
 
     "Comment": "end",
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Complete": [],
     "GiveCoins": 1,
     "GiveTokens": 1,
