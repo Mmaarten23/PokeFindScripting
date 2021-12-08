@@ -408,6 +408,19 @@
         "visible": false,
         "helmet": "bedrock"
     },
+    "CreateEntity": {
+        "key": "rock2",
+        "entity": "armor_stand",
+        "location": {
+            "x": -311.5,
+            "y": 46.9,
+            "z": -22.9,
+            "yaw": 311,
+            "pitch": 0
+        },
+        "visible": false,
+        "helmet": "bedrock"
+    },
     "Show": {
         "Rival1": true,
         "Rival2": false,
@@ -495,11 +508,13 @@
     "MoveEntity": ["Old_Man1", -311.5, 47.9, -22.9],
     "AnimateEntity": ["Old_Man1", "Swing Main Hand"],
     "Wait": 2,
-    "EntityLook": ["Old_Man1", "Rival1"],
     "Show": {
         "rock": true
     },
-    "MoveEntity": ["rock", -304.5, 46.9, -18.5, 0.4, false],
+    "ProgressiveMoveEntity": ["rock", -304.5, 46.9, -18.5, 0.4, false],
+    "Wait": 5,
+    "EntityLook": ["Old_Man1", "Rival1"],
+
     "Show": {
         "rock": false
     },
@@ -509,6 +524,9 @@
         },
         1
     ],
+    "AnimateEntity": ["Old_Man1", "Swing Main Hand"],
+    "ProgressiveMoveEntity": ["rock2", -310.5, 47.0, -13.5, 0.4, false],
+    "Wait": 5,
     "Fade": [],
     "Teleport": [-407.5, 46.1, -65.5, 270, 60],
     "Freeze": [],
