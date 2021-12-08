@@ -329,8 +329,7 @@
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
             "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
-        },
-        "sitting": true
+        }
     },
     "CreateEntity": {
         "key": "Dragon1",
@@ -457,7 +456,8 @@
         "Dragon1": false,
         "Dragon_split": false,
         "rock": false,
-        "rock2": false
+        "rock2": false,
+        "Sewaddle": false
     },
     "Quest": true,
     "HighlightClickEntity": "Rival1",
@@ -523,7 +523,7 @@
         "rock": true
     },
     "ProgressiveMoveEntity": ["rock", -304.5, 46.9, -18.5, 0.4, false],
-    "Wait": 20,
+    "Wait": 10,
     "EntityLook": ["Old_Man1", "Rival1"],
     "AnimateEntity": ["Old_Man1", "Swing Main Hand"],
     "Show": {
@@ -587,12 +587,13 @@
     ],
     "Wait": 20,
     "ProgressiveMoveEntity": ["Old_Man2", -398.5, 47.0, -62.5, false],
+    "EntityLookAtPlayer": "Rival2",
     "Dialog": [
         {
             "&d&lDanielle": "Well, it's not like we really have a choice do we? Come on [PLAYER], let's see what the creep wants."
         }
     ],
-    "MoveEntity": ["Rival2", -403.5, 46.0, -62.5, 0.1, false],
+    "MoveEntity": ["Rival2", -403.5, 46.0, -63.5, 0.1, false],
     "Fade": [],
     "Unfreeze": [],
     "Show": {
@@ -1076,12 +1077,22 @@
         {
             "11": {
                 "name": "&8&lStatera",
-                "description": "&7I choose to stay with Statera!\n\n\n&4This choice cannot be reverted!",
+                "description": [
+                    "&7I choose to stay with &3&lStatera&r!",
+                    "",
+                    "",
+                    "&4This choice cannot be reverted!"
+                ],
                 "material": "Black Stained Glass Pane"
             },
             "15": {
                 "name": "&6&lSophro",
-                "description": "&7I choose to stay with Sophro!\n\n\n&4This choice cannot be reverted!",
+                "description": [
+                    "&7I choose to stay with &6&lSophro&r!",
+                    "",
+                    "",
+                    "&4This choice cannot be reverted!"
+                ],
                 "material": "Orange Stained Glass Pane"
             }
         }
@@ -1114,8 +1125,7 @@
     "Unfreeze": [],
     "Fade": [],
     "Teleport": [-502.5, 37.1, 48.5, -90, -34],
-    "Wait": 4,
-    "Freeze": [],
+
     "Objective": ["Talk with Vidar in outside the shrine", 3],
     "HighlightClickEntity": "Statera_Leader3",
     "Dialog": [
@@ -1164,13 +1174,21 @@
     "Comment": "end",
     "Wait": 20,
     "Complete": [],
+    "PlaySound": "entity_player_levelup",
     "GiveCoins": 1,
     "GiveTokens": 1,
     "GiveTrainerExperience": 1,
     "GiveItem": "potato",
-    "Wait": 20,
+    "Wait": 30,
+    "Fade": [],
+    "Teleport": [-498.1,62.5,-18.7, 0, -13],
+    "Hide": {
+        "Statera_Leader3": true,
+        "Tribe_Leader2": true
+    },
+    "Wait": 30,
     "SetTitle": [
-        "&5&lA soothing melody",
+        "&2&lThe choice of a lifetime",
         "&a! Quest complete !",
         true
     ],
