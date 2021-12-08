@@ -376,7 +376,7 @@
         "entity": "armor_stand",
         "location": {
             "x": -1240.5,
-            "y": 43.5,
+            "y": 43.0,
             "z": 244.4,
             "yaw": 228,
             "pitch": 0
@@ -828,23 +828,23 @@
     "Fade": [],
     "Teleport": [-1234.4, 45.4, 252.2, 134, 26],
     "Wait": 4,
-    "Look": ["cin_cam2", 26.0],
+    "Look": ["cin_cam2", 25.0],
     "Wait": 1,
-    "ProgressiveMoveEntity": ["cin_cam2", -1243.7, 44.0, 248.8, 0.1, false],
+    "ProgressiveMoveEntity": ["cin_cam2", -1243.7, 43.0, 248.8, 0.1, false],
     "Dialog": [
         {
             "&e&lAstrid": "The older sister felt the many different islands in the region should remain separated, allowing the citizens and tribes to govern themselves in peace."
         }
     ],
     "Wait": 40,
-    "ProgressiveMoveEntity": ["cin_cam2", -1235.0, 44.0, 244.7, 0.1, false],
+    "ProgressiveMoveEntity": ["cin_cam2", -1235.0, 43.0, 244.7, 0.1, false],
     "Dialog": [
         {
             "&e&lAstrid": "While the younger brother felt they should be connected and be led under a single government, for balance."
         }
     ],
     "Wait": 80,
-    "ProgressiveMoveEntity": ["cin_cam2", -1240.5, 44.0, 244.4, 0.1, false],
+    "ProgressiveMoveEntity": ["cin_cam2", -1240.5, 43.0, 244.4, 0.1, false],
     "Dialog": [
         {
             "&e&lAstrid": "The fighting between the two siblings soon led the Dragon Pokémon to split into two halves. It loved both the siblings too much to allow one to be alone..."
