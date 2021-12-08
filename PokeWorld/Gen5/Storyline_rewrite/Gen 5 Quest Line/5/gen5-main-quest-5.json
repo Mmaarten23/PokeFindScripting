@@ -289,7 +289,10 @@
             "yaw": 90,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
+        }
     },
     "CreateEntity": {
         "key": "Statera_Leader2",
@@ -304,7 +307,10 @@
             "yaw": 105,
             "pitch": 0
         },
-        "skin": ""
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
+        }
     },
     "CreateEntity": {
         "key": "Statera_Leader3",
@@ -319,7 +325,10 @@
             "yaw": 0,
             "pitch": 0
         },
-        "skin": "",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
+        },
         "sitting": true
     },
     "CreateEntity": {
@@ -515,12 +524,6 @@
     "ProgressiveMoveEntity": ["rock", -304.5, 46.9, -18.5, 0.4, false],
     "Wait": 5,
     "EntityLook": ["Old_Man1", "Rival1"],
-    "Dialog": [
-        {
-            "[PLAYER]": "&oWhat's going on?!"
-        },
-        1
-    ],
     "AnimateEntity": ["Old_Man1", "Swing Main Hand"],
     "Show": {
         "rock2": true
@@ -972,7 +975,7 @@
     "Wait": 4,
 
     "Look": ["cin_cam3", 30.0],
-    "ProgressiveMoveEntity": ["cin_cam3", 66.7,102.1,338.9, 0.05, false],
+    "ProgressiveMoveEntity": ["cin_cam3", 66.7, 102.1, 338.9, 0.1, false],
     "Dialog": [
         {
             "&e&lAstrid": "Until &3Statera&r appeared 20 years ago and crumbled the balance that had been brought to Zeinova.",
@@ -986,28 +989,19 @@
     "Fade": [],
     "Teleport": [-503.5, 37.0, 55.5, 35, 0],
     "StopCinematic": [],
+    "Wait": 4,
+    "Freeze": [],
 
-    "SendMessage": "[DEBUG]: hold",
-    "Hold": [],
     "Show": {
         "Statera_Leader1": true
     },
-    "Look": [
-        "Statera_Leader1"
-    ],
-    "MoveEntity": [
-        "Statera_Leader1",
-        -500.5,
-        37.0,
-        60.5
-    ],
+    "Look": "Statera_Leader1",
+    "MoveEntity": ["Statera_Leader1", -500.5, 37.0, 60.5],
     "Show": {
         "Statera_Leader1": false,
         "Statera_Leader2": true
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "Li-little Brother? &8Vidar&r? Is that you?",
@@ -1017,16 +1011,14 @@
             "&8&lVidar": "We have not been properly introduced, I am the CEO of &3Statera&r. Thank you both for all the hard work you’ve put into our efforts."
         }
     ],
-    "Look": [
-        "Statera_Leader2"
-    ],
+    "Look": "Statera_Leader2",
     "Wait": 20,
     "Look": "Tribe_Leader2",
     "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "&oSiblings...? The leaders of Sophro and Statera are siblings...?",
-            "[PLAYER]": "&oThat's pretty ironic! Wait... Captain called that white Dragon a Reshiram.",
+            "[PLAYER]": "&oThat's pretty ironic! Wait...",
             "[PLAYER]": "&oAstrid and Vidar are the siblings from the story?!"
         }
     ],
@@ -1117,9 +1109,9 @@
         "Statera_Leader2": false,
         "Statera_Leader3": true
     },
-    "HighlightClickEntity": [
+    "HighlightClickEntity":
         "Statera_Leader3"
-    ],
+    ,
     "Dialog": [
         {
             "&8&lVidar": "I'm so sorry you had to go through that... Thank you for staying loyal to Statera!",
