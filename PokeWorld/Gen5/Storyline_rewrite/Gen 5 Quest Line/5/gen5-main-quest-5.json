@@ -446,7 +446,8 @@
         "Statera_Leader3": false,
         "Dragon1": false,
         "Dragon_split": false,
-        "rock": false
+        "rock": false,
+        "rock2": false
     },
     "Quest": true,
     "HighlightClickEntity": "Rival1",
@@ -514,10 +515,6 @@
     "ProgressiveMoveEntity": ["rock", -304.5, 46.9, -18.5, 0.4, false],
     "Wait": 5,
     "EntityLook": ["Old_Man1", "Rival1"],
-
-    "Show": {
-        "rock": false
-    },
     "Dialog": [
         {
             "[PLAYER]": "&oWhat's going on?!"
@@ -525,8 +522,15 @@
         1
     ],
     "AnimateEntity": ["Old_Man1", "Swing Main Hand"],
+    "Show": {
+        "rock2": true
+    },
     "ProgressiveMoveEntity": ["rock2", -310.5, 47.0, -13.5, 0.4, false],
     "Wait": 5,
+    "Show": {
+        "rock": false,
+        "rock2": false
+    },
     "Fade": [],
     "Teleport": [-407.5, 46.1, -65.5, 270, 60],
     "Freeze": [],
