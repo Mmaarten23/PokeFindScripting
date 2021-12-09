@@ -1317,6 +1317,5 @@
         "&a! Quest complete !",
         true
     ],
-    "PlaySound": "ui_toast_challenge_complete"
-
+    "PlayCustomSound": "sfx.quest_complete"
 }
