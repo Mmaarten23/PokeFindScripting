@@ -462,11 +462,11 @@
     "Quest": true,
     "HighlightClickEntity": "Rival1",
     "Comment": "\"Completed\": \"GYM4\",\n    \"Completed\": \"gen5_main_quest_4\",\n    \"NotCompleted\": [],",
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Hey! I've gotten new badges and I'm much stronger since our last battle!",
             "&d&lDanielle": "I'm ready for that rematch! I won't lose this time!"
-        }
+        }, 90, true, true, "female_excited"
     ],
     "Wait": 20,
     "Objective": ["Battle Danielle", 3],
@@ -501,10 +501,10 @@
     "Cinematic": [],
     "Wait": 1,
     "Look": ["cin_cam1", 15.0],
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "I'll be back for a rema- Hey who's that?"
-        }
+        }, 90, true, true, "female_question"
     ],
     "EntityLook": ["Rival1", "Old_Man1"],
     "Show": {
@@ -548,50 +548,83 @@
     "Potion": ["Blindness", 200],
     "StopCinematic": [],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&d&lDanielle": "...Huh?",
+            "&d&lDanielle": "...Huh?"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "Hey! [PLAYER]! Wake up!",
             "&d&lDanielle": "Where are we?!"
-        }
+        }, 90, true, true, "female_angry"
     ],
-
-
-    "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&d&lDanielle": "What did you do to us?!",
+            "&d&lDanielle": "What did you do to us?!"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&7&l???": "Breathe Child, you’re much too flustered to think clearly."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "EntityLook": ["Old_Man2", "Rival2"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&d&lDanielle": "Who-",
-            "&7&l???": "You can call me &7Captain&r for the time being.",
+            "&d&lDanielle": "Who-"
+        }, 45, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "&7&l???": "You can call me &7Captain&r for the time being."
+        }, 90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "Let us go! &3Statera&r needs us back!",
-            "&d&lDanielle": "You are done for! You’ve crossed the line now.",
-            "&7&lCaptain": "&oNow&r? You have it all wrong young &dDanielle..",
-            "&d&lDanielle": "How do you know my name...",
+            "&d&lDanielle": "You are done for! You’ve crossed the line now."
+        }, 90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
+            "&7&lCaptain": "&oNow&r? You have it all wrong young &dDanielle.."
+        }, 90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "&d&lDanielle": "How do you know my name..."
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&7&lCaptain": "This Rivalry of factions far exceeds any noted historian, I assure you.",
             "&7&lCaptain": "&3Statera&r and &6Sophro&r are just another torch being passed down the timeline."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "EntityLookAtPlayer": ["Old_Man2"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&7&lCaptain": "Ever since the day you both arrived on that ship with that researcher, your &dAura&r has been the only thing I’ve sensed.",
-            "&d&lDanielle": "You’re NUTS! &dAURA&r?! What are you babbling about?",
+            "&7&lCaptain": "Ever since the day you both arrived on that ship with that researcher, your &dAura&r has been the only thing I’ve sensed."
+        }, 90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "&d&lDanielle": "You’re NUTS! &dAURA&r?! What are you babbling about?"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&7&lCaptain": "Your Trainer &dAura&r, the strong connection you have with your Pokémon. Come, meet me at the Ancient Temple, we have much to do and discuss."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "Wait": 20,
     "ProgressiveMoveEntity": ["Old_Man2", -398.5, 47.0, -62.5, false],
     "EntityLookAtPlayer": "Rival2",
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "Well, it's not like we really have a choice do we? Come on [PLAYER], let's see what the creep wants."
-        }
+        }, 30, true, true, "female_normal"
     ],
     "MoveEntity": ["Rival2", -403.5, 46.0, -63.5, 0.1, false],
     "Fade": [],
@@ -605,12 +638,12 @@
     "Wait": 10,
     "Objective": ["Meet the Captain at the Ancient Temple and speak to him", 9],
     "HighlightClickEntity": "Old_Man3",
-    "Dialog": [
+    "NewDialog": [
         {
             "&7&lCaptain": "Answers are near. But you must prove that you are worthy of them.",
             "&7&lCaptain": "The shrine only accepts trainers who can provide that proof.",
             "&7&lCaptain": "Open the shrine. I'll meet you on the other side."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "Wait": 20,
     "ProgressiveMoveEntity": ["Rival3", -500.5, 72.5, 32.9, false],
@@ -630,11 +663,10 @@
         -502, 73, 37,
         -496, 83, 41
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oWhat's that on the ground?"
-        },
-        1
+        }, 1, true, true
     ],
     "PickupItem": [
         -498.5, 74.0, 58.5,
@@ -643,10 +675,10 @@
     ],
     "SendMessage": "&e&l+1 &7Sewaddle Remote &4(Missing Batteries)",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oA remote? Hmm... It's missing a battery. I wonder where I can find those."
-        }
+        }, 90, true, true
     ],
     "Wait": 20,
     "Objective": ["Buy a battery somewhere in Greenholm", 3],
@@ -662,15 +694,18 @@
         -502, 73, 37,
         -496, 83, 41
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "Now I guess I have to control the Sewaddle somehow?",
             "[PLAYER]": "That doesn't seem too difficult..."
-        }
+        }, 90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&d&lDanielle": "Knowing you... those are famous last words"
+        }, 90, true, true, "female_angry"
     ],
     "Wait": 20,
-    "Objective": ["Press the start lever to start the Sewaddle robot", 1],
-    "ClickBlock": [-497, 74, 42],
     "Objective": ["Guide the Sewaddle to the rose bush", 1],
     "Start": ["gen5_main_quest_5_sewaddle", 1.0, "script_entry"],
     "Show": {
@@ -692,11 +727,15 @@
         "Rival4": false,
         "Rival5": true
     },
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "The door opened! I can sense something up ahead...",
+            "[PLAYER]": "The door opened! I can sense something up ahead..."
+        }, 90, true, true
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "I will meet you down there."
-        }
+        }, 90, true, true, "female_normal"
     ],
     "Wait": 20,
     "Objective": ["Explore further into the Ancient Temple"],
@@ -711,45 +750,57 @@
     },
     "EntityLook": ["Tribe_Leader1", "Old_Man4"],
     "EntityLook": ["Old_Man4", "Tribe_Leader1"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "Ah, you’ve brought the cubs.",
+            "&e&lAstrid": "Ah, you’ve brought the cubs."
+        }, 90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&7&lCaptain": "Indeed I did, Madame &eAstrid&r."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "EntityLook": ["Tribe_Leader1", "Rival5"],
     "Wait": 4,
     "EntityLookAtPlayer": "Old_Man4",
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Don’t fret little ones, this will not be a hostile meeting.",
             "&e&lAstrid": "I, hope this meeting removes some of the negativity you both must be feeling towards our Tribe."
-        }
+        }, 90, true, true, "female_normal"
     ],
     "EntityLook": ["Old_Man4", "Rival5"],
     "Wait": 4,
     "EntityLookAtPlayer": "Tribe_Leader1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "All I request of you both, is to keep an open mind before we continue.",
-            "&e&lAstrid": "&3Statera&r is adequate at manipulating the younger generation, and I hope with all of Arceus’s power that you two have not been ruined quite yet.",
+            "&e&lAstrid": "&3Statera&r is adequate at manipulating the younger generation, and I hope with all of Arceus’s power that you two have not been ruined quite yet."
+        }, 90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "Why should we listen to someone who threatened and insulted [PLAYER] on their mission?"
-        }
+        }, 90, true, true, "female_question"
     ],
     "EntityLook": ["Tribe_Leader1", "Rival5"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&d&lDanielle": "You were so aggressive and degrading from what I read in the mission report.",
+            "&d&lDanielle": "You were so aggressive and degrading from what I read in the mission report."
+        }, 90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "We wouldn’t be here now if I had not, would we? [PLAYER]! Would you give your all to a battle with someone you had no hostile feeling towards?"
-        }
+        }, 90, true, true, "female_question"
     ],
     "EntityLookAtPlayer": "Tribe_Leader1",
     "EntityLookAtPlayer": "Old_Man4",
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "We must battle before we proceed, it’s the opportunity for you both to prove to me that your &dAuras&r are strong!",
             "&e&lAstrid": "Come at me with everything you have!"
-        }
+        }, 90, true, true, "female_excited"
     ],
 
     "Wait": 20,
@@ -781,10 +832,10 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Your Aura is very great... We can continue our discussion in the next room now that you've proven your strength."
-        }
+        }, 90, true, true, "female_excited"
     ],
     "Wait": 20,
     "Freeze": [],
@@ -815,11 +866,11 @@
     "HidePlayer": [],
     "Teleport": [-503.5, 37.0, 55.5, 35, 0],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Here, I will tell you the &otrue&r tale of Zeinova...",
-            "&e&lAstrid": "Long ago two siblings created the region of Zeinova. An older sister and a younger brother, we will call the sister Yin and the brother Yang."
-        }
+            "&e&lAstrid": "Long ago two siblings created the region of Zeinova. An older sister and a younger brother..."
+        }, 90, true, true, "female_normal"
     ],
     "Show": {
         "Dragon1": true
@@ -834,16 +885,16 @@
     "Wait": 4,
     "Freeze": true,
     "Start": "gen5_main_quest_5_island",
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "When they were young in age, they used the power of an ancient Dragon Pokémon to create the region."
-        }
+        }, 90, true, false, "female_normal"
     ],
     "Hold": [],
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "After Zeinova was created and the siblings grew older in age, they began to have different views of how the region should prosper for future generations..."
-        }
+        }, 90, true, false, "female_normal"
     ],
     "Show": {
         "Tribe_Leader_Island": true,
@@ -858,24 +909,24 @@
     "Look": ["cin_cam2", 25.0],
     "Wait": 1,
     "ProgressiveMoveEntity": ["cin_cam2", -1243.7, 43.0, 248.8, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "The older sister felt the many different islands in the region should remain separated, allowing the citizens and tribes to govern themselves in peace."
-        }
+        }, 70, true, false, "female_normal"
     ],
-    "Wait": 40,
+    "Wait": 20,
     "ProgressiveMoveEntity": ["cin_cam2", -1235.0, 43.0, 244.7, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "While the younger brother felt they should be connected and be led under a single government, for balance."
-        }
+        }, 70, true, false, "female_normal"
     ],
     "Wait": 80,
     "ProgressiveMoveEntity": ["cin_cam2", -1240.5, 43.0, 244.4, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "The fighting between the two siblings soon led the Dragon Pokémon to split into two halves. It loved both the siblings too much to allow one to be alone..."
-        }
+        }, 70, true, false, "female_normal"
     ],
 
     "Particle": ["snowflake", -1240.5, 45.0, 244.4, 10, 1.5],
@@ -901,24 +952,24 @@
         "Reshiram_split": true
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "The Brother and Sister would not be together again after the fighting is calmed."
-        }
+        }, 90, true, false, "female_normal"
     ],
     "ProgressiveMoveEntity": ["Tribe_Leader_Island", -1244.8, 44.0, 256.0],
     "ProgressiveMoveEntity": ["Reshiram_split", -1244.8, 44.0, 256.0],
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "The Older Sister named the half that returned with her, &fReshiram&r."
-        }
+        }, 70, true, false, "female_normal"
     ],
     "ProgressiveMoveEntity": ["Statera_Leader_Island", -1228.5, 44.0, 246.6],
     "ProgressiveMoveEntity": ["Zekrom_split", -1228.5, 44.0, 246.6],
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "The Younger Brother named the half that left with him, &8Zekrom&r."
-        }
+        }, 70, true, false, "female_normal"
     ],
     "Wait": 20,
     "Show": {
@@ -935,11 +986,10 @@
     "Wait": 4,
     "Freeze": true,
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Many exhausting years followed the split, and the fighting continued. As they both aged and lost their energy and Aura, they came to an agreement that neither side was right. They would allow the Pokémon and citizens to decide the fate of the region..."
-        },
-        1
+        }, 1, true, false, "female_normal"
     ],
     "ProgressiveMoveEntity": ["Statera_Leader_Deal", -1160.2, 45.0, 201.3, 0.15, false],
     "MoveEntity": ["Tribe_Leader_Deal", -1160.0, 45.0, 203.7, 0.15, false],
@@ -978,13 +1028,17 @@
 
     "Look": ["cin_cam3", 30.0],
     "ProgressiveMoveEntity": ["cin_cam3", 66.7, 102.1, 338.9, 0.1, false],
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Until &3Statera&r appeared 20 years ago and crumbled the balance that had been brought to Zeinova.",
             "&e&lAstrid": "The company broke the balance and trust between pokemon and their trainers.",
-            "&e&lAstrid": "We have to stop &3Statera&r before it’s too late. Before we’re swallowed ourselves by the region.",
+            "&e&lAstrid": "We have to stop &3Statera&r before it’s too late. Before we’re swallowed ourselves by the region."
+        }, 90, true, false, "female_angry"
+    ],
+    "NewDialog": [
+        {
             "&8&l???": "That's quite enough, Older Sister. You've pushed your ideals down these children's throats and have not considered what the real world is like."
-        }
+        }, 90, true, false, "male_angry"
     ],
 
     "Unfreeze": [],
@@ -1005,67 +1059,118 @@
     },
     "Wait": 20,
     "EntityLook": ["Tribe_Leader2", "Statera_Leader2"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "Li-little Brother? &8Vidar&r? Is that you?",
+            "&e&lAstrid": "Li-little Brother? &8Vidar&r? Is that you?"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "Have you also gone senile in your old age? Yes, of course it’s me.",
             "&8&lVidar": "Who else would know you well enough to figure out where you’d taken these kids?"
-        }
+        }, 90, true, true, "male_angry"
     ],
     "EntityLook": ["Statera_Leader2", "Rival6"],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "I’m sorry &dDanielle&r and [PLAYER]... my Elder sister can be a bit eccentric."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "EntityLookAtPlayer": ["Statera_Leader2"],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "We have not been properly introduced, I am the CEO of &3Statera&r. Thank you both for all the hard work you’ve put into our efforts."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "Look": "Statera_Leader2",
     "Wait": 20,
     "Look": "Tribe_Leader2",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oSiblings...? The leaders of Sophro and Statera are siblings...?",
             "[PLAYER]": "&oThat's pretty ironic! Wait...",
             "[PLAYER]": "&oAstrid and Vidar are the siblings from the story?!"
-        }
+        }, 90, true, true
     ],
     "Wait": 30,
     "EntityLook": ["Statera_Leader2", "Tribe_Leader2"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "Your 'efforts' are tearing apart the balance of Zeinova &8Vidar&r!",
-            "&e&lAstrid": "You’re risking everything pursuing this, don’t you realize? Don’t you &lremember&r?",
-            "&e&lAstrid": "You’ll bring the Great War back upon our lands and we will have to fight for the Pokémon’s trust once more, just like before!",
-            "&e&lAstrid": "Who am I kidding... you did not even lift a finger the last time, why would it be any different?",
-            "&e&lAstrid": "You will be stopped before that happens again.",
+            "&e&lAstrid": "Your 'efforts' are tearing apart the balance of Zeinova &8Vidar&r!"
+        }, 90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "You’re risking everything pursuing this, don’t you realize? Don’t you &lremember&r?"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "You’ll bring the Great War back upon our lands and we will have to fight for the Pokémon’s trust once more, just like before!"
+        }, 90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "Who am I kidding... you did not even lift a finger the last time, why would it be any different?"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "You will be stopped before that happens again."
+        }, 90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "Get out of the past, &eAstrid&r. This is a new day and time, you’re living in the stone ages as if we have to rub flint against rocks just to make a point.",
-            "&8&lVidar": "&3Statera&r has been making great lengths and bounds researching Pokémon behaviour, we have much more control now.",
-            "&e&lAstrid": "Control? You’re trying to &ocontrol&r Pokémon now? Have you lost your mind?",
+            "&8&lVidar": "&3Statera&r has been making great lengths and bounds researching Pokémon behaviour, we have much more control now."
+        }, 90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "Control? You’re trying to &ocontrol&r Pokémon now? Have you lost your mind?"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "No, that’s not what I meant. I meant we have more control now to better understand and prevent Pokémon from turning on us, so we do not offend them and their lives or disturb them.",
             "&8&lVidar": "We’re in a day and age that we need to progress, we need to build our economic growth, we need to keep pace with the world, or we will just be left behind and ruined.",
-            "&8&lVidar": "We cannot do that without uniting under one umbrella...",
+            "&8&lVidar": "We cannot do that without uniting under one umbrella..."
+        }, 90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "You have not even tried, &8Vidar&r."
-        }
+        }, 90, true, true, "female_scared"
     ],
     "Wait": 20,
     "EntityLookAtPlayer": "Statera_Leader2",
     "EntityLookAtPlayer": "Tribe_Leader2",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&8&lVidar": "Arguing with you &eAstrid&r is the equivalent of arguing with a concrete wall. I am taking the kids with me, let’s go &dDanielle&r, [PLAYER]. We’re heading back to HQ.",
-            "&e&lAstrid": "You don’t have to go with him… I’m sure you’ve both seen the state of the region.",
-            "&e&lAstrid": "The Pokémon are revolting. You can stay with us, &6Sophro&r. Help us save Zeinova.",
-            "&8&lVidar": "You could return to HQ with me as well, only my operations have been present to even help our towns, and our Pokémon. You’ve seen this, you know this.",
-            "&b&lBoth": "What will you choose?"
-        }
+            "&8&lVidar": "Arguing with &eAstrid&r is the equivalent of arguing with a concrete wall. I am taking the kids with me, let’s go &dDanielle&r, [PLAYER]. We’re heading back to HQ."
+        }, 90, true, true, "male_normal"
     ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "You don’t have to go with him… I’m sure you’ve both seen the state of the region.",
+            "&e&lAstrid": "The Pokémon are revolting. You can stay with us, &6Sophro&r. Help us save Zeinova."
+        }, 90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
+            "&8&lVidar": "You could return to HQ with me as well, only my operations have been present to even help our towns, and our Pokémon. You’ve seen this, you know this."
+        }, 90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "&b&lBoth": "What will you choose?"
+        }, 90, true, true
+    ],
+    "PlayCustomSound": "sfx.female_normal",
+    "Wait": 2,
+    "PlayCustomSound": "sfx.male_normal",
     "Wait": 20,
     "Objective": ["Choose which side you want to be on (Statera or Sophro)"],
     "Wait": 20,
@@ -1101,20 +1206,28 @@
     "Skip": "sophro",
     "Comment": "statera",
     "SetStoryTeam": "Statera",
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "See! [PLAYER] understands! "
-        }
+        }, 90, true, true, "male_excited"
     ],
     "EntityLook": ["Statera_Leader2", "Rival6"],
     "Wait": 5,
     "EntityLook": ["Tribe_Leader2", "Rival6"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "What about you &dDanielle&r?",
-            "&d&lDanielle": "Well I choose to stay! I think that &eAstrid&r is right.",
+            "&e&lAstrid": "What about you &dDanielle&r?"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
+            "&d&lDanielle": "Well I choose to stay! I think that &eAstrid&r is right."
+        }, 90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "Very well... Come on [PLAYER]. Let's leave these traitors."
-        }
+        }, 90, true, true, "male_angry"
     ],
     "Show": {
         "Tribe_Leader2": false,
@@ -1128,31 +1241,43 @@
 
     "Objective": ["Talk with Vidar in outside the shrine", 3],
     "HighlightClickEntity": "Statera_Leader3",
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "I'm so sorry you had to go through that... Thank you for staying loyal to Statera!",
             "&8&lVidar": "Here, take these rewards for all your trouble."
-        }
+        }, 90, true, true, "male_excited"
     ],
     "Skip": "end",
     "Comment": "sophro",
     "SetStoryTeam": "Sophro",
-    "Dialog": [
+    "NewDialog": [
         {
-            "&8&lVidar": "No! You're making a big mistake [PLAYER]!",
+            "&8&lVidar": "No! You're making a big mistake [PLAYER]!"
+        }, 90, true, true, "male_angry"
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "Leave them alone &8Vidar&r!"
-        }
+        }, 90, true, true, "female_angry"
     ],
     "EntityLook": ["Statera_Leader2", "Rival6"],
     "Wait": 5,
     "EntityLook": ["Tribe_Leader2", "Rival6"],
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "How about you &dDanielle&r?",
+            "&e&lAstrid": "How about you &dDanielle&r?"
+        }, 90, true, true, "female_question"
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "I'm staying with Statera. I'm not a traitor like [PLAYER]!",
-            "&e&lAstrid": "Alright then...",
+            "&e&lAstrid": "Alright then..."
+        }, 90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "Come on &dDanielle&r, let's go back to HQ."
-        }
+        }, 90, true, true, "male_angry"
     ],
     "Wait": 20,
     "Show": {
@@ -1164,11 +1289,11 @@
     "Teleport": [-502.5, 37.0, 59.6, 84],
     "Objective": ["Talk with Astrid", 3],
     "HighlightClickEntity": "Tribe_Leader2",
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "I'm so sorry you had to go through that... Thank you for choosing Sophro... You made the right choice to stay...",
             "&e&lAstrid": "Here, take these rewards for all your trouble."
-        }
+        }, 90, true, true, "female_normal"
     ],
 
     "Comment": "end",
@@ -1181,7 +1306,7 @@
     "GiveItem": "potato",
     "Wait": 30,
     "Fade": [],
-    "Teleport": [-498.1,62.5,-18.7, 0, -13],
+    "Teleport": [-498.1, 62.5, -18.7, 0, -13],
     "Hide": {
         "Statera_Leader3": true,
         "Tribe_Leader2": true
