@@ -3,7 +3,7 @@
     "Name": "",
     "Description": "Talk to Vidar inside the Statera HQ in Watterson City",
     "AllowRejoining": true,
-    "Icon": "",
+    "Icon": "dirt",
     "CreateEntity": {
         "key": "Statera_Leader1",
         "name": "&8&lVidar",
@@ -625,8 +625,8 @@
         "look": false
     },
     "CreateEntity": {
-        "key": "Kinklang1",
-        "name": "&7&lKinklang",
+        "key": "Klinklang1",
+        "name": "&7&lKlinklang",
         "location": {
             "x": -2.5,
             "y": 56.9,
@@ -635,7 +635,7 @@
             "pitch": 0
         },
         "entity": "Armor Stand",
-        "pokemon": "Kinklang",
+        "pokemon": "Klinklang",
         "look": false
     },
     "CreateEntity": {
@@ -1029,7 +1029,7 @@
         "Gigalith1": false,
         "Archeops1": false,
         "Krookodile1": false,
-        "Kinklang1": false,
+        "Klinklang1": false,
         "Bisharp1": false,
         "Durant1": false,
         "Escavalier1": false,
@@ -1058,21 +1058,6 @@
     },
     "HighlightClickEntity": [
         "Statera_Leader1"
-    ],
-    "NotCompleted": [
-    ],
-    "Quest": true,
-    "HasTeam": [
-        "Statera"
-    ],
-    "Completed": [
-        "gen5_main_quest_7_statera"
-    ],
-    "Completed": [
-        "GYM8"
-    ],
-    "Completed": [
-        "gen5_elite_four"
     ],
     "Dialog": [
         {
@@ -1234,7 +1219,7 @@
         "Gigalith1": true,
         "Archeops1": true,
         "Krookodile1": true,
-        "Kinklang1": true,
+        "Klinklang1": true,
         "Bisharp1": true,
         "Durant1": true,
         "Escavalier1": true,
@@ -1318,10 +1303,7 @@
                 "species": "Emboar",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "gender": "",
                 "ability": "",
@@ -1361,10 +1343,7 @@
                 "species": "Mienshao",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "gender": "",
                 "ability": "",
@@ -1404,10 +1383,7 @@
                 "species": "Beartic",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "gender": "",
                 "ability": "",
@@ -1447,10 +1423,7 @@
                 "species": "Audino",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "gender": "",
                 "ability": "",
@@ -1490,10 +1463,7 @@
                 "species": "Liepard",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "gender": "",
                 "ability": "",
@@ -1525,10 +1495,7 @@
                 "species": "Gigalith",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "gender": "",
                 "ability": "",
@@ -1568,10 +1535,7 @@
                 "species": "Cofagrigus",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "gender": "",
                 "ability": "",
@@ -1621,10 +1585,7 @@
                 "species": "weedle",
                 "level": 1,
                 "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
+                    "celebrate"
                 ],
                 "ability": "Shield Dust",
                 "nature": "Timid"
@@ -1675,10 +1636,7 @@
                 "species": "weedle",
                 "level": 1,
                 "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
+                    "celebrate"
                 ],
                 "ability": "Shield Dust",
                 "nature": "Timid"
@@ -1728,10 +1686,7 @@
                 "species": "Kyurem",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "ability": "",
                 "nature": "",
@@ -1765,10 +1720,7 @@
                 "species": "Virizion",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "ability": "",
                 "nature": "",
@@ -1802,10 +1754,7 @@
                 "species": "Terrakion",
                 "level": 100,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
                 "ability": "",
                 "nature": "",
@@ -1912,7 +1861,7 @@
         "Gigalith1": false,
         "Archeops1": false,
         "Krookodile1": false,
-        "Kinklang1": false,
+        "Klinklang1": false,
         "Bisharp1": false,
         "Durant1": false,
         "Escavalier1": false,
