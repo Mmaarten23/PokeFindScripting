@@ -1,9 +1,13 @@
 {
     "Key": "gen5_main_quest_4",
+
+    "Author": "Mmaarten",
     "Name": "&6&lAn ancient encounter",
-    "Description": "Talk to H.A.P.P.Y. outside of the Statera HQ in Watterson city",
+    "Description": "Statera has a special mission for you and Danielle. Something about... the past?",
     "AllowRejoining": true,
     "Icon": "skeleton_skull",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e4"],
 
     "CreateEntity": {
         "key": "Representative1",
@@ -355,7 +359,10 @@
         "air",
         "barrier"
     ],
+    "HasTrainerLevel": 20,
     "Completed": "gen5_main_quest_3",
+    "Completed": "gym3",
+    "NotCompleted": [],
     "NewDialog": [
         {
             "&3H.A.P.P.Y.": "Welcome to &3Statera HQ&r. Please verify yourself."

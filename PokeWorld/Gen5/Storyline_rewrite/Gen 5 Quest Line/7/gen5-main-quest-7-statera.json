@@ -1,9 +1,13 @@
 {
     "Key": "gen5_main_quest_7_statera",
+
+    "Author": "Mmaarten",
     "Name": "&3&lAn experimental mess",
-    "Description": "H.A.P.P.Y. Pinged your pokegear. Your presence is requested at the HQ.",
+    "Description": "Recent developments ask for a serious analysis of the situation. Get ready to test and don't make a mess...",
     "AllowRejoining": true,
-    "Icon": "dirt",
+    "Icon": "brewing_stand",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e7"],
     "AddProperty": ["Team", "&3Statera"],
 
     "CreateEntity": {
@@ -488,6 +492,10 @@
     "HighlightClickEntity": "Happy1",
 
     "Comment": "This script will be started by the H.A.P.P.Y. controller.",
+    "HasTrainerLevel": 70,
+    "Completed": "gen5_main_quest_6",
+    "Completed": "gym7",
+    "NotCompleted": [],
     "HasStoryTeam": "Statera",
     "NewDialog": [
         {

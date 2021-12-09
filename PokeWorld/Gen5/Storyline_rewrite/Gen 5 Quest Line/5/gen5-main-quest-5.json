@@ -1,9 +1,14 @@
 {
     "Key": "gen5_main_quest_5",
+
+    "Author": "Mmaarten",
     "Name": "&2&lThe choice of a lifetime",
     "Description": "Making choices is hard. But this choice might be just a little bit harder. Does it define who I am? Who I want to be? ...",
     "AllowRejoining": true,
-    "Icon": "dirt",
+    "Icon": "lectern",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e5"],
+
     "CreateEntity": {
         "key": "Rival1",
         "name": "&d&lDanielle",
@@ -461,7 +466,13 @@
     },
     "Quest": true,
     "HighlightClickEntity": "Rival1",
-    "Comment": "\"Completed\": \"GYM4\",\n    \"Completed\": \"gen5_main_quest_4\",\n    \"NotCompleted\": [],",
+
+    "HasTrainerLevel": 50,
+    "Completed": "gen5_main_quest_4",
+    "Completed": "gym5",
+    "NotCompleted": [],
+
+
     "NewDialog": [
         {
             "&d&lDanielle": "Hey! I've gotten new badges and I'm much stronger since our last battle!",
@@ -689,6 +700,9 @@
     ],
     "SendMessage": "&e&l+2 Batteries",
     "Wait": 20,
+    "Show": {
+        "Sewaddle": true
+    },
     "Objective": ["Return to the shrine", 3],
     "RegionEntry": [
         -502, 73, 37,
@@ -708,9 +722,6 @@
     "Wait": 20,
     "Objective": ["Guide the Sewaddle to the rose bush", 1],
     "Start": ["gen5_main_quest_5_sewaddle", 1.0, "script_entry"],
-    "Show": {
-        "Sewaddle": true
-    },
     "ControlledTrack": "Sewaddle",
     "ProgressiveWall": [
         -496, 73, 61,
@@ -873,6 +884,7 @@
         }, 90, true, true, "female_normal"
     ],
     "Show": {
+        "Old_Man4": false,
         "Dragon1": true
     },
     "Wait": 20,
@@ -906,7 +918,7 @@
     "Fade": [],
     "Teleport": [-1234.4, 45.4, 252.2, 134, 26],
     "Wait": 4,
-    "Look": ["cin_cam2", 25.0],
+    "Look": ["cin_cam2", 30.0],
     "Wait": 1,
     "ProgressiveMoveEntity": ["cin_cam2", -1243.7, 43.0, 248.8, 0.1, false],
     "NewDialog": [
@@ -1024,9 +1036,10 @@
     "Unfreeze": [],
     "Fade": [],
     "Teleport": [45.0, 67.1, 339.0, -90, 41],
-    "Wait": 4,
+    "Wait": 6,
 
     "Look": ["cin_cam3", 30.0],
+    "Wait": 4,
     "ProgressiveMoveEntity": ["cin_cam3", 66.7, 102.1, 338.9, 0.1, false],
     "NewDialog": [
         {
@@ -1166,12 +1179,12 @@
     "NewDialog": [
         {
             "&b&lBoth": "What will you choose?"
-        }, 90, true, true
+        }, 1, true, true
     ],
     "PlayCustomSound": "sfx.female_normal",
     "Wait": 2,
     "PlayCustomSound": "sfx.male_normal",
-    "Wait": 20,
+    "Wait": 60,
     "Objective": ["Choose which side you want to be on (Statera or Sophro)"],
     "Wait": 20,
     "SendMessage": "&c&lWhich side will you stay with?",
@@ -1181,9 +1194,9 @@
         3,
         {
             "11": {
-                "name": "&8&lStatera",
+                "name": "&3&lStatera",
                 "description": [
-                    "&7I choose to stay with &3&lStatera&r!",
+                    "&7I choose to be on &3&lStatera&7's side!",
                     "",
                     "",
                     "&4This choice cannot be reverted!"
@@ -1193,7 +1206,7 @@
             "15": {
                 "name": "&6&lSophro",
                 "description": [
-                    "&7I choose to stay with &6&lSophro&r!",
+                    "&7I choose to be on &6&lSophro&7's side!",
                     "",
                     "",
                     "&4This choice cannot be reverted!"
@@ -1239,7 +1252,7 @@
     "Fade": [],
     "Teleport": [-502.5, 37.1, 48.5, -90, -34],
 
-    "Objective": ["Talk with Vidar in outside the shrine", 3],
+    "Objective": ["Talk with Vidar outside the shrine", 3],
     "HighlightClickEntity": "Statera_Leader3",
     "NewDialog": [
         {

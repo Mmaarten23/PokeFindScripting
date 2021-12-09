@@ -1,10 +1,15 @@
 {
     "Key": "gen5_main_quest_6_statera",
+
+    "Author": "Mmaarten",
     "Name": "&9&lTasks of a Newbie",
-    "Description": "Now that you're a member of Statera you should talk to H.A.P.P.Y. at Statera HQ",
+    "Description": "Being the new one isn't always easy but there is no other option. Statera needs you!",
     "AllowRejoining": true,
-    "Icon": "writable_book",
+    "Icon": "rabbit_stew",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e6"],
     "AddProperty": ["Team", "&3Statera"],
+
     "CreateEntity": {
         "key": "Statera_Member1",
         "name": [
@@ -225,9 +230,14 @@
         "Bird": false,
         "Bird2": false
     },
-    "Quest": true,
 
     "Comment": "This script will be started by the H.A.P.P.Y. controller.",
+    "HasTrainerLevel": 60,
+
+    "Completed": "gen5_main_quest_5",
+    "Completed": "gym5",
+    "NotCompleted": [],
+    "HasStoryTeam": "Statera",
     "NewDialog": [
         {
             "&3H.A.P.P.Y": "Hey [PLAYER]! I’m glad you’ve chosen to stay with us! I will miss &dDanielle&r though..."

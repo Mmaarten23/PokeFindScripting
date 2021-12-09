@@ -1,9 +1,15 @@
 {
     "Key": "gen5_main_quest_6_tribe",
-    "Name": "&2&lA new family",
-    "Description": "&7Leaving &bStatera&r was a hard choice but &6Sophro&r has its arms wide open to welcome you!",
+
+    "Author": "Mmaarten",
+    "Name": "&9&lA new family",
+    "Description": "New situations can be scary but the tribe has its arms wide open to welcome a new family member. Let's get to know them!",
     "AllowRejoining": true,
-    "Icon": "writable_book",
+    "Icon": "poppy",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e6"],
+    "AddProperty": ["Team", "&6Sophro"],
+
     "CreateEntity": {
         "key": "Captain1",
         "name": [
@@ -340,6 +346,12 @@
         "Zekrom_Pokeball": false
     },
     "HighlightClickEntity": "Captain1",
+
+    "HasTrainerLevel": 60,
+    "Completed": "gen5_main_quest_5",
+    "Completed": "gym5",
+    "NotCompleted": [],
+    "HasStoryTeam": "Sophro",
     "Show": {
         "Tribe_Member1": true,
         "Tribe_Member2": true,

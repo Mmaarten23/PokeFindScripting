@@ -3,10 +3,11 @@
 
     "Author": "Mmaarten",
     "Name": "&b&lPokémon on the loose!",
-    "Description": "The pokémon in Pure Harbor have gone haywire. A trainer should take a look before things get out of hand.",
+    "Description": "The pokémon in Pure Harbor have gone haywire. A trainer should take a look before things get out of hand...",
     "AllowRejoining": true,
     "Icon": "mossy_stone_brick_wall",
     "Quest": true,
+    "AddProperty": ["Main questline", "&e2"],
 
     "CreateEntity": {
         "key": "lewis_bridge",
@@ -22,21 +23,18 @@
         ],
         "look": true
     },
-
     "CreateEntity": {
         "key": "bird1",
         "location": [1188.6, 50.0, -87.9, 142, -11],
         "pokemon": "togekiss",
         "look": false
     },
-
     "CreateEntity": {
         "key": "lewis_bird_seat",
         "entity": "ARMOR_STAND",
         "location": [1189.2, 50.0, -88.2, 140],
         "visible": false
     },
-
     "CreateEntity": {
         "key": "lewis_bird",
         "entity": "PLAYER",
@@ -48,14 +46,12 @@
         "look": false,
         "riding": "lewis_bird_seat"
     },
-
     "CreateEntity": {
         "key": "player_bird_seat",
         "entity": "ARMOR_STAND",
         "location": [1188.0, 50.0, -87.5, 140],
         "visible": false
     },
-
     "CreateEntity": {
         "key": "player_bird",
         "entity": "PLAYER",
@@ -64,7 +60,6 @@
         "look": false,
         "riding": "player_bird_seat"
     },
-
     "CreateEntity": {
         "key": "disaster_1",
         "entity": "PLAYER",
@@ -75,14 +70,12 @@
         },
         "look": false
     },
-
     "CreateEntity": {
         "key": "disaster_1_pokemon",
         "pokemon": "mewtwo",
         "location": [1148.7, 58.0, -137.9, -39],
         "look": false
     },
-
     "CreateEntity": {
         "key": "disaster_2",
         "entity": "PLAYER",
@@ -93,14 +86,12 @@
         },
         "look": false
     },
-
     "CreateEntity": {
         "key": "disaster_2_pokemon",
         "pokemon": "mr._mime",
         "location": [1143.2, 58.0, -142.6, -28],
         "look": false
     },
-
     "CreateEntity": {
         "key": "disaster_3",
         "entity": "PLAYER",
@@ -111,14 +102,12 @@
         },
         "look": false
     },
-
     "CreateEntity": {
         "key": "disaster_3_pokemon",
         "pokemon": "solrock",
         "location": [1138.4, 58.0, -146.4, -58],
         "look": false
     },
-
     "CreateEntity": {
         "key": "running",
         "entity": "PLAYER",
@@ -129,21 +118,18 @@
         },
         "look": false
     },
-
     "CreateEntity": {
         "key": "running_pokemon",
         "pokemon": "xatu",
         "location": [925.9, 46.9, -546.4, 174],
         "look": false
     },
-
     "CreateEntity": {
         "key": "bird2",
         "location": [1031.5, 49.5, -281.8, 142, -11],
         "pokemon": "togekiss",
         "look": false
     },
-
     "CreateEntity": {
         "key": "lewis_bridge2",
         "entity": "PLAYER",
@@ -158,7 +144,6 @@
         ],
         "look": true
     },
-
     "CreateEntity": {
         "key": "mike",
         "entity": "PLAYER",
@@ -173,7 +158,6 @@
         ],
         "look": true
     },
-
     "CreateEntity": {
         "key": "Shrine_Pokemon",
         "location": {
@@ -186,7 +170,6 @@
         "entity": "armor_stand",
         "pokemon": "weedle"
     },
-
     "CreateEntity": {
         "key": "Shrine_Pokemon2",
 
@@ -200,7 +183,6 @@
         "entity": "armor_stand",
         "pokemon": "weedle"
     },
-
     "CreateEntity": {
         "key": "Shrine_Pokemon3",
         "location": {
@@ -213,7 +195,6 @@
         "entity": "armor_stand",
         "pokemon": "weedle"
     },
-
     "CreateEntity": {
         "key": "Shrine_Pokemon4",
         "location": {
@@ -226,7 +207,6 @@
         "entity": "armor_stand",
         "pokemon": "weedle"
     },
-
     "CreateEntity": {
         "key": "guide",
         "entity": "STRAY",
@@ -242,7 +222,6 @@
             "glow": true
         }
     },
-
     "CreateEntity": {
         "key": "tribe_Member",
         "name": [
@@ -261,7 +240,6 @@
             "signature": "At3n/g6bguBB2WSdn+6hOZ9VjQxzbcttIp0LjsPaSh447fDvikPkyPkOtVlKU1mmTRoYU0drTBqnVn+NgvCWK9bvDXLIF58l9BcwQApowugLVZr6Nwo6jOpT2ekVP9e80i+/QaLRuLm5+lJbJ1EFPR1ecyAxWKGdFBZAWfz6JxHn2vw9sh9or21BUN0aJrqpSpNPLv7L/c6RTomP5KCqbDrQkY/VpE91Cr7levB4+5H80FgTy9wA2nJBzIVcGEc47isa+A5eNRlFFBZF12G7g2uxkd+gYBsDrjeOEO9i+T64xJaW/8Vw4GFUymbjsliwnePaQJD+rtmysvLVgXYkIEfQlBLWL7ePVocylvPGLge2jmb+ydFSfuxfi6JH4SyaccfDEtXlerlzQQGCZQV4Nw/fAxzZa7HoXIXYjuuIhj0gOA+8RRW1Otrr+zBzvZVRGilfF+WSZkbue5rh9cPIxGNGwlR/4A/8tMenHygJY9RAmgj27TyadWnNBzXtZMMPy73WANSsuPpy5xdOl9fm0jPfSNRsP1q10Eoz0UoF7uy6ibKhnkjA9CtiYvpN6ARVVamhXdcSz3M83bFUBgwrZomUFVShmItpx9sdyQFJDVY9tS/q7jEJ08+dKj4ARJzLJeywdw2M6mEPCYbXB8jp02Tx2/+n5MorFJFzd3XY6fw="
         }
     },
-
     "CreateEntity": {
         "key": "rival",
         "name": "&d&lDanielle",
@@ -278,7 +256,6 @@
         },
         "look": true
     },
-
     "CreateEntity": {
         "key": "rival_battle",
         "name": "&d&lDanielle",
@@ -295,7 +272,6 @@
         },
         "look": true
     },
-
     "Show": {
         "lewis_bridge": true,
         "bird1": true,
@@ -355,7 +331,10 @@
 
     "Comment": "start",
 
-    "Comment": "\"NotCompleted\": [\"gen5_main_quest_2\", \"\"],\n  \"Completed\": [\"GYM1\", true, \"\"],\n  \"Completed\": [\"gen5_main_quest_1\", true, \"\"],",
+    "HasTrainerLevel": 20,
+    "Completed": "gen5_main_quest_1",
+    "Completed": "gym1",
+    "NotCompleted": [],
 
     "NewDialog": [
         {

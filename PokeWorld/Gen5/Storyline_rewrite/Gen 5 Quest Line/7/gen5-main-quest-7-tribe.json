@@ -1,9 +1,15 @@
 {
     "Key": "gen5_main_quest_7_tribe",
-    "Name": "&9&lMaking friends",
-    "Description": "Head back to the shrine in Greenholm",
+
+    "Author": "Mmaarten",
+    "Name": "&3&lMaking friends",
+    "Description": "Friends, allies, non-enemies, ... when everything is on the line, it is all the same. Time to create some new bonds and create unity.",
     "AllowRejoining": true,
-    "Icon": "dirt",
+    "Icon": "nether_star",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e7"],
+    "AddProperty": ["Team", "&6Sophro"],
+
     "CreateEntity": {
         "key": "Player",
         "location": {
@@ -228,6 +234,12 @@
         -528, 1, 20,
         -471, 150, 87
     ],
+    "HasTrainerLevel": 60,
+    "Completed": ["gen5_main_quest_5", true, false],
+    "Completed": ["gym5", true, false],
+    "NotCompleted": false,
+    "HasStoryTeam": ["Sophro", false],
+
     "Fade": [],
     "Cinematic": [],
     "SetWorldTime": 13000,

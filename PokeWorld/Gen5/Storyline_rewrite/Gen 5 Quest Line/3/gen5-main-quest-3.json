@@ -1,9 +1,13 @@
 {
     "Key": "gen5_main_quest_3",
+
+    "Author": "Mmaarten",
     "Name": "&5&lA soothing melody",
     "Description": "Music is said to be one of the most powerful forces of nature. And in times of trouble, that is exactly what you need!",
     "AllowRejoining": true,
     "Icon": "jukebox",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e3"],
 
 
     "CreateEntity": {
@@ -22,7 +26,6 @@
             "signature": "QJmKackHb40HRjP01KM/b6Q9UaJWxGGqttc7RT3MExCCeNTc1hQ0X9ZpWj5unKt035rV3qXP+c77Z+H2tz0SNvxGVLKkLvOwdCotesJqopxpnNzlvZ6LfBB7S59CWT2kUm+p0IpGhjoPiOBNP5KQh0WpTWLssK+HNs4VzWgAPe3xJEBKK7/gJD7ZOWGxpt4a0+0WDYlbJxH443rxCIa872wSZtlmT1oQuqkQBhPEZunXc7m+CjFEr2KwrFik8oKjbrIKkpkNEPuRkPEyCCtzWDjDRTby77sdknofiTIiyBQbt4c2J6W2gd/227VySFWE7X7bbyqpB5Ekcs5FHCRSl/63CbNTEvbDGHrlhY9pV1Ird2GwKTQre4txO6gn9HFJUyjBbC6FVJMS4reDnwoawp2EsevA9ezhUaoshugakVuGgDUqlSAnpLk3jCwdW1hOHna44AJfHotXEXZbSLtlA9CcYGgzEdKQwnJzuv60YxBjHRX54zcCiCMI2DXrFVsJi2jfSNbtYrM6C0yWSpsFl5sudR56zjxAdGvV0+i+Uc3iOuox9iS/0t8T8n65EXWQoLNIJjXtYL0eC1pKVjbpQShdm/hb7/r65U2XQ5/E2NyTkp6sqLHfW/OexmawCz8pnrpwm/4akHmzpyFNjFmtB3zxAqqltHDk0pfRw90dwyk="
         }
     },
-
     "CreateEntity": {
         "key": "BridgeCitizen2",
         "name": "&eIssa",
@@ -39,7 +42,6 @@
             "signature": "puOszBmfpQ9XClm1zcKsQcRMVMiIe5nCnGTwmDMnUOx0dfJRoQ8P7p5P2p+98BI0yz58/Ax3Ehpf5AunI/zp3h6piP5QIIe5GOc9URQalQ/OhrvBG6nTv3xanNIRL8Fiis/trG/wKMT3QehWWvxApV7Ahtod2ZA8IGoqH/jghzfzjAF+jK4+eRQt/kp1yhzXq7M+tY6MfPrpCZZDNeyTx297CedeF3IeBArXi5GGTByGT1Zm5dSin6QoqlT3vYcAZ1THSKv/E8cim/LmuA4FY2ImOGAPU1J9Fu7+uXItu2fIckn7QDWfEf2L3A0nM5xFHXP6yOQADgxYrANFcIw2D3TGw0j0zAo6/PVqck47bM3LogyjRl8OlLhkL/+/igkQyY3YarYxzzt92kw5bLdHE3HivYHhAdZa5/On9BlUMI6K71fUUeuQblMYPCFir8oqp9AB26C0lb2NfEo3TyPxF9OoBMZQXgcbYVcRlGD2cS2SsdHOBAlq7mvB9y+8802hp+et16plK7vZ1/id+EWOYX7XNAwemMv76TTVh167BCosir5B6k1AP5WE3jdyNtvDoNfo/jUamPH5TvhphBZa0YvfSSPS2fuy68eCEEYG6A5vPqblvUEHuHuWpUz+h/cxzdOJp4J3LmUEYdlEPOdcUiREZwOVyebhaask/Tr6hk0="
         }
     },
-
     "CreateEntity": {
         "key": "BridgeCitizen3",
         "name": "&bSparkle",
@@ -56,7 +58,6 @@
             "signature": "NBwx2cjoEeOIg35XcbwyDRKQniFpeQytIar7q9gtaoDW70StS7147NTZ/sMYth2oE+1mRdbjnLdhXcKpd2vUv7FurWz52TaRVHWmuAkvKyX3K+IIndZ+hE6BajF662yZ5s8YRpeeRilaWPWKxvN3SUwVo+SM2S69axUYUE89gUzViKDriNJ7tV/JSwn2IL5uqxWkShjjOx2CyQ4s9G31PF2A4qHc1p55ZnnYZUC71nUuvm6jiVXCEn1eZt5/6uUWwy/42XMkxzDNnzngCvFcPeqJG2na2YmkRlqj757OYfFpFWcl4b4lCgeblmg1tIDC2hKMtFT4TfKnf0DhtwP9p3uMMtzqKrsSRo8kgV9u5GFASl3lr5AEzNUOulxAv4w9DSl7UIx/xI8dYqfwEx4/opoKwYLa45WWc4X2JXv5bm7elE7JaZGRZQRTe/RFFTsA8f8CDq3VwLHFHsk8Sfr9nfienTpM7tiTpZaHR5PIyuePPvmPz5n6/6HuXl4mwy2lva3Z9RUH1fYUIJHtNWVB5NhkYgczOd2+hV0fndZ8+wuRmaNsQjQPb0d4ecMWvFgZMkkqLuwgI5fd5ffSZUF5AJ3l4iz/857VloWFtMVaHt88P18S+LZNvK+hmdZBhotDYwoyUUjOKVxfnRZx7yoY1HO9BvCQuhqKsFpj/gmzMO8="
         }
     },
-
     "CreateEntity": {
         "key": "BridgeCitizen4",
         "name": "&dIggy",
@@ -73,7 +74,6 @@
             "signature": "keu8NrnYygRTvVES/Y/XTMEJfQfDpAERejEEjURKgxsAJxzWlsz1a895+rxLu4hZrGOwsiRlYYxGzlUBznaBQHiaNjWJReCV+Cm6vr2rZZ7XrZJxJhA0WJZHyXe32BsVGoifS/sJc4nJrkk+u4dH9nX1OAlbHqteuAS+2rvoH1x6A8byGRBMUJ8gMIUzwKM+X4rCb1qnd/l7A6Dbo6asNeN0sNLzPyKb5vot65p75/+f87Kche1XA7HdUwP7FZacy36FQPD/NPyeTbvfkXay5awXh+aQuWl2ijSDHxbmWRvYnOQrZOOqPOzqoAjD+vnUe2BqW1c5WLhrrJCSuRQhrNOhApRauhFMPxEXEhsIkXzUFLKOGWhZhqCn/HYavmKa37WR2y9UjjsGxknOl56b94mi4r3El9serIvC2dvGahN1DKOpw8Zb3HS6XqxRzIOr3l0Z3R/JaOdSv8KPD/kmIziz9tdkRbGfJBe3NeNa5u5Yq49VW37XePFQmFg4SKaTnmtK+NoBXHGbl6gS6v5kFYES61eJPFMmWvbyH3lyKYjEEO+lyOjKjsS7xIQ3C1eyQ1qkefN4hqNZDtIWE8beq1cOnbOPABSLgjElLiY2xctKGbasP1/RNeQAClQyM014f3OcHx7yoQzJ9PLJ0zE3PSmX7cwlJvteklrho4vWLaM="
         }
     },
-
     "CreateEntity": {
         "key": "BridgeCitizen5",
         "name": "&5Tessa",
@@ -90,7 +90,6 @@
             "signature": "Cn87nfRwNrjOUf7b9gOKe3PMc08Lai4Q8am+GAUYQNExNXWYVUFq4eUyiV3jZtjsr+iKMTykRnWYPZ7/JP5fMD51h5gJu0vzOmsgSnHKjpaY0RnQYNyHYwL1I+ZUkOB3AErEVZC9Zfcbdi3XTmI0RZmxh4EAy84QqCFYti+0XZtg0kPSrbwg8RNUQdPWjc2CS+1ZdU5yZNXCJ6/SbHsdUAuPkoDtgnPz7HSpV0dla/33p/Ts6iMcQauYxGNsSc6BMIvPtPUMBR7MhG/J29TKbb6j4rzQqsCPuy8PFrhWCg9EZpJtvOgKQbQDAY1QUekbGWhvvTfndehw1nBHL3YhT+BjgtsnhTFI/dDkMc8NtVLYpSQCq8TyAX3q+JrFyIw1dRinzD9Kh0gfpTLWseEK5D+TOvhTuxGPJFSIL5YtqKVePajlxDtfopEchJKmV+2Y4QxWjYTz26nKiT4i7niX5MX4PSgHDl5c7ekYJgETwlRL24yKCm/nnqNpf4o6pPQxTK4h9ZJW33R56XKO6cvjUx/jpGTcTeP97qTbRVKFVDN1Nmw/H7zdmJZS6ATR5pl92SxIZbp45MqKR2Mn2FXPKrWG2DhgZ+uP6Gx/N88VaROvNufMRQVtsNuggyChei30Aw0sBy9iLemOC80e6JxGX5p7qSNGioBRGWLq+ILYBtA="
         }
     },
-
     "CreateEntity": {
         "key": "BridgePokemon1",
         "location": {
@@ -104,7 +103,6 @@
         "entity": "armor_stand",
         "pokemon": "eevee"
     },
-
     "CreateEntity": {
         "key": "BridgePokemon2",
         "location": {
@@ -118,7 +116,6 @@
         "entity": "armor_stand",
         "pokemon": "Watchog"
     },
-
     "CreateEntity": {
         "key": "BridgePokemon3",
         "location": {
@@ -132,7 +129,6 @@
         "entity": "armor_stand",
         "pokemon": "Stoutland"
     },
-
     "CreateEntity": {
         "key": "BridgePokemon4",
         "location": {
@@ -146,7 +142,6 @@
         "entity": "armor_stand",
         "pokemon": "Unfezant"
     },
-
     "CreateEntity": {
         "key": "BridgePokemon5",
         "location": {
@@ -160,7 +155,6 @@
         "entity": "armor_stand",
         "pokemon": "Sawsbuck"
     },
-
     "CreateEntity": {
         "key": "AnniSnorlax",
         "location": {
@@ -175,7 +169,6 @@
         "pokemon": "Snorlax",
         "skin": "Anniversary"
     },
-
     "CreateEntity": {
         "key": "Guard1",
         "name": [
@@ -195,7 +188,6 @@
             "signature": "Sewrhe4Lrf3eA2q3kUECs5QtFFfS8voKly1oAg4y5gk6kSx5iaVB25W7tTOd0Dwi0SJgqz8rAptnyHrlnu9WrXNefS5bo4xVcwcnGClXB/nzvBm5wJHQmqgtm78nRxRlrXVBPSttsIvWYkYMUmqCjt9FnPKe/SS9qpK1Lg2k7CJE+6lqdzxXj+haVm4tZrjXlmahMQHzM0dapZmS3tMJlUvl6/K1AeONVT3fOKE7U6ZAa8eJXYh9HkeTHjxfxr8iAxOoItQVtbDH0JEA4UXLo5aVsqgiewQU1/8UQ9YLWPGhaehMC9nqTzQMXT2byhpEXoEWjvRWNV4J29wNHqrcGHkk95lmSne1u8Xr9Atf7JpsLktKKUUnnBl0OiTcRPZAw1/guD4CJlL3npghKvpMKwDtFiGu6t2cRMoNRu21qcnagC1kVJnodQkGfrZNWgDQLDeK5xesL9O6KfGUmWPCrPMW6ey99BdJrMv8DBjlm3VNw+N3OiLBL6JaDuuDOU0yZy2PG6tz54P1F/7msdjYO8xfHb/mNKL2JlQiYq4N1g1+FImP0ovmaQWeIJHazoLDV3XKUvVBFXdfdGcppsOHhxf1s0gao+ZYzxQ9n4epkTwDZDvemPyKFoVU6muGed+y4z/O6sfC3US74qL36V2o4H3FkGC+vO6d6jn2ashcb3E="
         }
     },
-
     "CreateEntity": {
         "key": "Guard2",
         "name": [
@@ -215,7 +207,6 @@
             "signature": "Juq5rcV5YU6VPlwKDhTJP0EU+rj67XgkDDvABp2L9HPpIeUBhSTmvcJ71GwRc3z5wswHvtml0FiErfRRa+7XoEu0bV5txrUFVzdCrP0U/z8j5Asn57yVSKUFBWHj5rvPGA/saeeAMOCBdbFYofXKZ3LQfl3oq0uHNOR7393Exd4IpOb0xxsCuu5GIvBvTG7pHRI4drGOZgej2u38zjcWTI7620OonPZwCB+71u29//1cddWN2Y1GxBJQo7YtKBDwdhZcsh+eHx0AzXxvQhJMW5l8l74SvzQNj6UiMiK5n+4DiXC4V3P5D65bLm9mGs+3L5g2SsS2jGJN2b/QbatBXvUJWjqDgzk4bikc2d8uSjg+kkC0nf94mAA6ZIAAdjcr47FuU+yJLNAJcZui/HRJbyVxxXv8QEPGvTQmo0poJGlK+WVAPqaU93FujkxdNzlaFS88bx5F4xriWAY9NSA2L8Qpwg/h4TLfH//8tKOP9r9UFdtwMpII04i0fSify9ERCpQ+5Qy7AJ0ZIhNisGD/HjeQzDhdX0A1bF80cWWWFYho9hf6PoNdqB3kcfy2I9mD9PnAZeXRZALjsDPRIh1F5tebpBD6Y1emj6xDJKXF6kitFjKug5vvJ9s2w7qO6Y0v2RIGnrIm33LdCpMcURO/rVhHXHE8akyZqa5hV/D9Q6Y="
         }
     },
-
     "CreateEntity": {
         "key": "Guard3",
         "name": [
@@ -235,7 +226,6 @@
             "signature": "WP3CZ5dnp/wyqamYH+mMJfddjyMdUGe9BUAv9wRSiZGZjermJCvZGOSU79VCVlJ8Q0av5n3NvLitnqqH12wWK0ju9uwYasC3oGpGdvET6vyoPdqg3wkBgKgGgJz/ghJk7uAmIu5MV6PDJZ9D8VpBxHodwpShvp2hskndIata3IBzm87M5d+TOQVbJJosa5Tk+1Opz575nNU5oAwk4k2e5Z20KtjHOOp01uJsiZMcMiBGF2VsxPNVaTCqO8UIY05R0WgRCPX5HvN1B4wBkfsbvNLH3/TjoiKb42/VZ7SLknJQ/+PGGltg7WXH/YTQd5bUODhstw4lWvEq8oz+QRdqUDUb0qVddxuK59fkHL/cVU6ThUCrXiMSG0lp/W3MEg4npPrOXkP8EkNsPNmELd3jpfD8SE2HIkkza/d5+oh6bQZxmEkbOfK5CkeyzM2JOC7KRzYZcJU9/ynMScICJNd389ycLRkQ3LOVAsGLh7Gjw3Bt73tIUoJg3sStpzzSS+W50Bltjv7zT+a8BH3WFgnOgsBDqQrhiJCbalJO84wEd84ekuGygNh23GBbNRI3WY4DsroYzFnYlvWhbZbDfUyEVxoFe1bFh3VU4jm3MAt9w10Iz1NSe4vbl2nwosUukIW5x3SjphZfUCZOpyMuskQwn22h61t/fzpa5OVdrksnJ+M="
         }
     },
-
     "CreateEntity": {
         "key": "Guard4",
         "name": [
@@ -255,7 +245,6 @@
             "signature": "ZY5iFxRjhP8AoGUgdwf2barD5Pjn6UjB9Mep4wHG1gI6BZ7LpWPkXCytzacT9ZkosSNlGppukNQaA555CtXXUhFxJQxKRuyDrs+61+0CXZ1sskgywyVTEM/9t5r+xU2IWae/aHTGAoFJ0QL7lnJ2vlWCGD6y95qlwus5ikuANgk1USxy5tSm71Ab7HCV9O7ODQ8TiGm18HQsCWNFr7rdtg2Kb/u+eBobEyes2d93gxL1z4GZm99mgCxR2ojWS1HczCmUk/JTQR0+PKGsYAcqIxeLCr2JIKVBGhaih/BPDmfaH9YKhrAVUvM9y/V5x7jF1Ccl3cGgzxtofoxYTVqKwG5yAGvssLgdkls4FbtmJ+z2zchc0jqScir9YB9fN+CXwM6E2ZeJp4XwXine4yeGmEZA9gwhCuy+MAWMvJDtdT8n4sHS9/nXNwbLarx/I0Z6GiHfe3zO8A8PCj96bua07VdB+rzpDR9V7Qsh35Ib/bBlIF48Yqix3pv7CbQ4wH6g+cEc3yhgy/B/5zumsfQmmzfBc+BNi2750D14hqEe9TVRnyWuGZAbSDD8SpNmU6bY8fg3T3ENjmNyLuozWYferjZnNygT/RHAqPuYRTcBEgO3RNhoTOqo/rpMmCfbfV1fyFtoswOiDHzd1UGiqJ2y534wf30PQqJni3TKo3mvJJ8="
         }
     },
-
     "CreateEntity": {
         "key": "Statera_Representative1",
         "name": [
@@ -275,7 +264,6 @@
             "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
         }
     },
-
     "CreateEntity": {
         "key": "Statera_Representative2",
         "name": [
@@ -295,7 +283,6 @@
             "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
         }
     },
-
     "Show": {
         "BridgeCitizen1": false,
         "BridgeCitizen2": false,
@@ -320,7 +307,12 @@
         295, 1, -152,
         507, 100, 49
     ],
-    "Comment": "\"NotCompleted\": [\n    ],\n    \"Completed\": [\n        \"GYM2\"\n    ],",
+
+    "HasTrainerLevel": 30,
+    "Completed": "gen5_main_quest_2",
+    "Completed": "gym2",
+    "NotCompleted": [],
+
     "Show": {
         "BridgeCitizen1": true,
         "BridgeCitizen2": true,
