@@ -1,0 +1,11 @@
+{
+    "Key": "gen5_main_quest_8_hot_chocolate",
+    "Author": "Mmaarten",
+
+    "ClickBlock": [-125, 82, -712],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&osip Aaaaah, that feels so good!"
+        }, 10, true, false
+    ]
+}

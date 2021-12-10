@@ -6,19 +6,22 @@
     "Icon": "dirt",
     "CreateEntity": {
         "key": "Statera_Leader1",
-        "name": "&8&lVidar",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
         "location": {
-            "x": 68.9,
-            "y": 53.0,
-            "z": 337.5,
-            "yaw": 90,
+            "x": 77.5,
+            "y": 77.5,
+            "z": 330.4,
+            "yaw": 0,
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
         },
-        "look": false
+        "sitting": true
     },
     "CreateEntity": {
         "key": "Statera_Leader2",
@@ -1056,61 +1059,111 @@
         "Player_Pokemon2": false,
         "Pokeball": false
     },
-    "HighlightClickEntity": [
-        "Statera_Leader1"
+    "HighlightClickEntity": "Statera_Leader1",
+    "Dialog": [
+        {
+            "&8&lVidar": "It is time we call on the power of &3Kyurem&r, [PLAYER]!",
+            "&8&lVidar": "Go to their Shrine, there will be a Masterball waiting for you.",
+            "&8&lVidar": "Use the Masterball to summon &3Kyurem&r."
+        }
+    ],
+    "Wait": 20,
+    "Objective": ["Head to Northrun and enter the Shrine for Kyurem", 4],
+    "RegionEntry": [
+        -86, 59, -757,
+        -80, 83, -747
     ],
     "Dialog": [
         {
-            "&8&lVidar": "&oRemember, [PLAYER], when you get inside the Shrine, there will be a Masterball waiting for you.",
-            "&8&lVidar": "&oUse the Masterball to summon &3Kyurem&r."
+            "[PLAYER]": "&oIf there was ever a Shrine in Northrun... this was it.",
+            "[PLAYER]": "&oSo in here, &3Kyurem&r should be in a deep slumber..."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Head to Northrun and enter the Shrine for Kyurem",
-        4
-    ],
+
     "RegionEntry": [
-        -202,
-        1,
-        -758,
-        -181,
-        120,
-        -740
-    ],
-    "Freeze": [
+        -164, 83, -780,
+        -152, 90, -766
     ],
     "Dialog": [
         {
-            "[PLAYER]": "Uh oh... Ice mazes?!"
+            "[PLAYER]": "&oSeems like nobody has walked this path in a long time."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Go through the mazes of ice",
-        3
-    ],
-    "Unfreeze": [
-    ],
+
     "RegionEntry": [
-        -285,
-        1,
-        -730,
-        -319,
-        70,
-        -769
+        -182, 101, -803,
+        -167, 110, -803
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oHmm, this is quite a hike, I should have brought something to drink."
+        }
+    ],
+
+    "RegionEntry": [
+        -174, 130, -748,
+        -168, 140, -741
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oThis looks more like it."
+        }
+    ],
+
+    "RegionEntry": [
+        -196,106,-772,
+        -190,111,-766
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oHmmm, This used to be a door I think...",
+            "[PLAYER]": "&oSeems like it is frozen in place. Looks like I can climb through it though."
+        }
+    ],
+
+    "RegionEntry": [
+        -196,106,-748,
+        -190,114,-748
+    ],
+    "Fade": [],
+    "Teleport": [-171.4,117.9,-735.8, -90, 90],
+    "Wait": 2,
+    "Freeze": true,
+    "Wait": 10,
+    "Dialog": [
+        {
+            "[PLAYER]": "&oUh oh... a maze??!"
+        }
+    ],
+    "Wait": 20,
+    "Unfreeze": [],
+    "StopCinematic": [],
+    "Fade": [],
+    "Teleport": [-188.5,104.0,-737.5, -90, 33],
+
+
+    "Objective": ["Navigate through the maze of ice", 3],
+
+    "RegionEntry": [
+        -157,98,-746,
+        -152,103,-756
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oMy hands are freezing, If only I had some Hot chocolate..."
+        }
+    ],
+
+    ""
+
+    "RegionEntry": [
+        -285, 1, -730,
+        -319, 70, -769
     ],
     "Show": {
         "Kyurem1": true
     },
-    "Objective": [
-        "Pick up the Master Ball",
-        13
-    ],
+    "Objective": ["Pick up the Master Ball", 13],
     "Show": {
         "Kyurem1": false
     },
@@ -2027,21 +2080,6 @@
     ],
     "Wait": [
         20
-    ],
-    "GiveCoins": [
-        25000
-    ],
-    "GiveTokens": [
-        20
-    ],
-    "GiveTrainerExperience": [
-        25000
-    ],
-    "GiveItem": [
-        ""
-    ],
-    "GiveItem": [
-        ""
     ],
     "Wait": [
         20
