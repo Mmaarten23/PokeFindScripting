@@ -1076,10 +1076,10 @@
     "Dialog": [
         {
             "[PLAYER]": "&oIf there was ever a Shrine in Northrun... this was it.",
-            "[PLAYER]": "&oSo in here, &3Kyurem&r should be in a deep slumber..."
+            "[PLAYER]": "&oSo in here, &3Kyurem&r&o should be in a deep slumber..."
         }
     ],
-
+    "Objective": ["Follow the path to the top", 18],
     "RegionEntry": [
         -164, 83, -780,
         -152, 90, -766
@@ -1117,7 +1117,7 @@
     "Dialog": [
         {
             "[PLAYER]": "&oHmmm, This used to be a door I think...",
-            "[PLAYER]": "&oSeems like it is frozen in place. Looks like I can climb through it though."
+            "[PLAYER]": "&oSeems like it is frozen in place. Maybe I can climb through it though."
         }
     ],
 
@@ -1170,7 +1170,7 @@
         }
     ],
     "GlobalHologram": [
-        -154.5, 75.0, -698.5,
+        -154.5, 75.0, -699.0,
         "&b&l~An ice cold run~&b&l",
         "&b------------------------&b",
         "This maze does not like visitors aimlessly",

@@ -33,7 +33,7 @@
     "Comment": "failed",
     "RemoveBossBar": [],
     "PlaySound": ["entity_villager_no", 0.5],
-    "Teleport": [-145.7, 74.4, -696.7, 133]
+    "Teleport": [-145.7, 74.4, -696.7, 133],
     "NewDialog": [
         {
             "&7&lMaze": "I don't like visitors, get out!"
