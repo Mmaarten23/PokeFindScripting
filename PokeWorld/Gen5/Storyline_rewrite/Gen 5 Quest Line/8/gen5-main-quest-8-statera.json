@@ -1187,8 +1187,8 @@
 
     "Comment": "maze",
     "RegionEntry": [
-        -149,74,-729,
-        -149,76,-728
+        -149, 74, -729,
+        -149, 76, -728
     ],
     "If": [],
     "In": "gen5_main_quest_8_timed_maze",
@@ -1198,7 +1198,7 @@
     "NewDialog": [
         {
             "&7&lMaze": "Looks like you did not make it in time..."
-        }, 0, true, false
+        }, 1, true, false
     ],
     "Teleport": [-145.7, 74.4, -696.7, 133],
     "Skip": "maze",
@@ -1210,7 +1210,7 @@
     "NewDialog": [
         {
             "&7&lMaze": "Hmm... I'll let you go this time..."
-        }, 0, true, false
+        }, 1, true, false
     ],
 
     "Wait": 10,
@@ -1222,8 +1222,8 @@
     ],
 
     "RegionEntry": [
-        -146,53,-724,
-        -146,57,-718
+        -146, 53, -724,
+        -146, 57, -718
     ],
     "Start": "gen5_main_quest_8_end_maze",
     "NewDialog": [
@@ -1231,6 +1231,19 @@
             "[PLAYER]": "&oHmm, looks like this is the final maze before I am at &3&oKyurem&r&o's Masterball.",
             "[PLAYER]": "&oThere is an inscription on the wall here...",
             "[PLAYER]": "&oNot everything is as it seems... What could that mean?"
+        }, 90, true, false
+    ],
+
+    "RegionEntry": [
+        -240, 50, -804,
+        -240, 52, -803
+    ],
+    "Leave": "gen5_main_quest_8_end_maze",
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oPhew, that took for-ever!",
+            "[PLAYER]": "&oNow I get why no soul has ever tried to wake up &3&oKyurem&r&o!",
+            "[PLAYER]": "&oI feel like I am close though. This bridge looks too majestic."
         }, 90, true, false
     ],
 
@@ -1246,74 +1259,34 @@
     "Show": {
         "Kyurem1": false
     },
-    "PickupItem": [
-        -329.5,
-        52.0,
-        -749.5,
-        "&5&lKyurem Master Ball",
-        "Master Ball"
-    ],
-    "SendMessage": [
-        "&5&l+ Kyurem Master Ball"
-    ],
-    "Wait": [
-        20
-    ],
-    "Freeze": [
-    ],
-    "Fade": [
-    ],
-    "Teleport": [
-        -320.5,
-        50.0,
-        -749.5,
-        270,
-        0
-    ],
+    "PickupItem": [-329.5, 52.0, -749.5, "&5&lKyurem Master Ball", "Master Ball"],
+    "SendMessage": "&5&l+ Kyurem Master Ball",
+    "Wait": 20,
+    "Freeze": [],
+    "Fade": [],
+    "Teleport": [-320.5, 50.0, -749.5, 270, 0],
     "Show": {
         "Pokeball": true
     },
-    "Velocity": [
-        "Pokeball",
-        0.2,
-        0.0,
-        0.0
-    ],
-    "Wait": [
-        5
-    ],
+    "Velocity": ["Pokeball", 0.2, 0.0, 0.0],
+    "Wait": 5,
     "Show": {
         "Pokeball": false
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
-            "[PLAYER]": "Why is the Masterball not working?",
-            "[PLAYER]": "Did I do something wrong?",
-            "[PLAYER]": "Unless...",
-            "[PLAYER]": "Sophro has already been here! It's a set up!"
+            "[PLAYER]": "&7Go &3Kyurem&r!",
+            "[PLAYER]": "&oWhy is the Masterball not working?",
+            "[PLAYER]": "&oDid I do something wrong?",
+            "[PLAYER]": "&oUnless...",
+            "[PLAYER]": "&oSophro has already been here! It's a set up!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Unfreeze": [
-    ],
-    "ProgressiveWall": [
-        -53,
-        54,
-        -693,
-        -53,
-        60,
-        -689,
-        -8
-    ],
-    "Objective": [
-        "Follow the path out of the Shrine (There's a hidden path to the right of the ice mazes)",
-        15
-    ],
+    "Wait": 20,
+    "Unfreeze": [],
+    "ProgressiveWall": [-53, 54, -693, -53, 60, -689, -8],
+    "Objective": ["Follow the path out of the Shrine (There's a hidden path to the right of the ice mazes)", 15],
     "Show": {
         "Statera_Leader1": false,
         "Statera_Leader2": true,
