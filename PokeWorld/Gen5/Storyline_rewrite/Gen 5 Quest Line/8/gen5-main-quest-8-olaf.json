@@ -53,6 +53,5 @@
             "&3&lOlaf": "It's like a little baby unicorn."
         }, 90, true, false
     ],
-    "Particle": ["heart", -177.5, 57.0, -756.8, 5, 0.5]
-
+    "Particle": ["heart", -179.5, 57.0, -754.5, 5, 0.5]
 }
