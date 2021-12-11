@@ -49,20 +49,8 @@
     },
 
     "GlobalClickEntity": "olaf",
-    "RandomDialog": {
-        "&3&lOlaf": "Hey! I am Olaf and I like warm hugs!",
-        "&3&lOlaf": "Love Is Putting Someone Else's Needs Before Yours.",
-        "&3&lOlaf": "Some People Are Worth Melting For.",
-        "&3&lOlaf": "So I'm Made Of Snow, And I'm Walking On Snow. That's Kind Of Weird.",
-        "&3&lOlaf": "Don't Chew That, You Don't Know What I Stepped In.",
-        "&3&lOlaf": "I Can't Feel My Legs.",
-        "&3&lOlaf": "I Just Thought Of One Thing That's Permanent. Love.",
-        "&3&lOlaf": "Change Mocks Us With Her Beauty.",
-        "&3&lOlaf": "Oh, Look At That. I've Been Impaled.",
-        "&3&lOlaf": "It's Like A Little Baby Unicorn."
-    },
-    "GlobalClickEntity": "olaf",
-    "Particle": ["heart", -177.5, 57.0, -756.8, 20, 0.5],
+    "Start": "gen5_main_quest_8_olaf",
+
 
 
     "Comment": "Set initial blocks",
