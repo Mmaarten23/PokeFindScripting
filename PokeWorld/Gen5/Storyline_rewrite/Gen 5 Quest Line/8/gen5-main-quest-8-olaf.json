@@ -2,18 +2,57 @@
     "Key": "gen5_main_quest_8_olaf",
     "Author": "Mmaarten",
 
-    "RandomDialog": {
-        "&3&lOlaf": "Hey! I am Olaf and I like warm hugs!",
-        "&3&lOlaf": "Love Is Putting Someone Else's Needs Before Yours.",
-        "&3&lOlaf": "Some People Are Worth Melting For.",
-        "&3&lOlaf": "So I'm Made Of Snow, And I'm Walking On Snow. That's Kind Of Weird.",
-        "&3&lOlaf": "Don't Chew That, You Don't Know What I Stepped In.",
-        "&3&lOlaf": "I Can't Feel My Legs.",
-        "&3&lOlaf": "I Just Thought Of One Thing That's Permanent. Love.",
-        "&3&lOlaf": "Change Mocks Us With Her Beauty.",
-        "&3&lOlaf": "Oh, Look At That. I've Been Impaled.",
-        "&3&lOlaf": "It's Like A Little Baby Unicorn."
-    },
+    "RandomOption": 10,
+    "NewDialog": [
+        {
+            "&3&lOlaf": "Hey! I am Olaf and I like warm hugs!"
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "Love is putting someone else's needs before yours."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "Some people are worth melting for."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "So I'm made of snow, and I'm walking on snow. That's kind of weird."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "Don't chew that, you don't know what I stepped in."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "I can't feel my legs."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "I just thought of one thing that's permanent. True love."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "Change mocks us with her beauty."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "Oh, look at that. I've been impaled."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
+            "&3&lOlaf": "It's like a little baby unicorn."
+        }, 90, true, false
+    ],
     "Particle": ["heart", -177.5, 57.0, -756.8, 5, 0.5]
 
 }
