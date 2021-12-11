@@ -38,11 +38,11 @@
             "&7Certified snowman"
         ],
         "location": {
-            "x": -177.5,
+            "x": -179.5,
             "y": 56.0,
-            "z": -756.8,
+            "z": -754.5,
             "yaw": 47,
-            "pitch": 8
+            "pitch": 0
         },
         "entity": "snow_golem",
         "look": true
@@ -161,14 +161,6 @@
         "snow_block"
     ],
 
-
-    "Comment": "initial fake openings",
-    "SetBlocks": [
-        -165, 50, -734,
-        -165, 52, -733,
-        "barrier"
-    ],
-    "Hold": [],
 
 
 
@@ -573,29 +565,5 @@
         -224, 50, -744,
         -223, 51, -744,
         "snow_block"
-    ],
-
-
-
-
-    "Comment": "fake openings",
-
-    "GlobalRegionEntry": [
-        -163, 50, -732,
-        -168, 52, -735
-    ],
-    "SetBlocks": [
-        -165, 50, -734,
-        -165, 52, -733,
-        "snow_block"
-    ],
-    "GlobalRegionExit": [
-        -163, 50, -732,
-        -168, 52, -735
-    ],
-    "SetBlocks": [
-        -165, 50, -734,
-        -165, 52, -733,
-        "barrier"
     ]
 }
