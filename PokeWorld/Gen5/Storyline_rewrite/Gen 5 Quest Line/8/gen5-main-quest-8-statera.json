@@ -1142,7 +1142,7 @@
     "Teleport": [-188.5, 104.0, -737.5, -90, 33],
 
 
-    "Objective": ["Navigate through the maze of ice", 3],
+    "Objective": ["Navigate through the maze of ice", 2],
 
     "RegionEntry": [
         -157, 98, -746,
@@ -1183,7 +1183,7 @@
         -151, 77, -703,
         "air"
     ],
-
+    "Objective": ["Beat the second maze in less than 60 seconds", 10],
 
     "Comment": "maze",
     "RegionEntry": [
@@ -1210,10 +1210,8 @@
     "NewDialog": [
         {
             "&7&lMaze": "Hmm... I'll let you go this time..."
-        }, 1, true, false
+        }, 10, true, false
     ],
-
-    "Wait": 10,
     "NewDialog": [
         {
             "[PLAYER]": "&oI am getting good at these!",
@@ -1233,7 +1231,7 @@
             "[PLAYER]": "&oNot everything is as it seems... What could that mean?"
         }, 90, true, false
     ],
-
+    "Objective": ["Navigate through the maze of illusions", 3],
     "RegionEntry": [
         -240, 50, -804,
         -240, 52, -803
