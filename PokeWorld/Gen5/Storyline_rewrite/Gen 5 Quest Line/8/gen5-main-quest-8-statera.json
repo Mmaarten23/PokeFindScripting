@@ -1205,7 +1205,7 @@
 
 
 
-    "Skip": "maze_completed",
+    "Comment": "maze_completed",
     "Leave": "gen5_main_quest_8_timed_maze",
     "NewDialog": [
         {
