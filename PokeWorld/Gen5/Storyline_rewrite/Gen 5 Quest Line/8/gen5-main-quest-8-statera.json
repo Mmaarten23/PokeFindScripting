@@ -1111,8 +1111,8 @@
     ],
 
     "RegionEntry": [
-        -196,106,-772,
-        -190,111,-766
+        -196, 106, -772,
+        -190, 111, -766
     ],
     "Dialog": [
         {
@@ -1122,11 +1122,11 @@
     ],
 
     "RegionEntry": [
-        -196,106,-748,
-        -190,114,-748
+        -196, 106, -748,
+        -190, 114, -748
     ],
     "Fade": [],
-    "Teleport": [-171.4,117.9,-735.8, -90, 90],
+    "Teleport": [-171.4, 117.9, -735.8, -90, 90],
     "Wait": 2,
     "Freeze": true,
     "Wait": 10,
@@ -1139,22 +1139,101 @@
     "Unfreeze": [],
     "StopCinematic": [],
     "Fade": [],
-    "Teleport": [-188.5,104.0,-737.5, -90, 33],
+    "Teleport": [-188.5, 104.0, -737.5, -90, 33],
 
 
     "Objective": ["Navigate through the maze of ice", 3],
 
     "RegionEntry": [
-        -157,98,-746,
-        -152,103,-756
+        -157, 98, -746,
+        -152, 103, -756
     ],
     "Dialog": [
         {
             "[PLAYER]": "&oMy hands are freezing, If only I had some Hot chocolate..."
         }
     ],
+    "SetBlocks": [
+        -153, 75, -703,
+        -151, 77, -703,
+        "barrier"
+    ],
 
-    ""
+    "RegionEntry": [
+        -142, 75, -706,
+        -142, 83, -694
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oHmm... This seems like another maze... But what is that?",
+            "[PLAYER]": "&oLooks like this is a timed one. I have only 60 seconds to complete this..."
+        }
+    ],
+    "GlobalHologram": [
+        -154.5, 75.0, -698.5,
+        "&b&l~An ice cold run~&b&l",
+        "&b------------------------&b",
+        "This maze does not like visitors aimlessly",
+        "visitors will be kicked out after 60 seconds",
+        "So hurry to the exit and don't get caught!"
+    ],
+
+    "SetBlocks": [
+        -153, 75, -703,
+        -151, 77, -703,
+        "air"
+    ],
+
+
+    "Comment": "maze",
+    "RegionEntry": [
+        -149,74,-729,
+        -149,76,-728
+    ],
+    "If": [],
+    "In": "gen5_main_quest_8_timed_maze",
+    "Skip": "maze_completed",
+    "Dummy": [],
+
+    "NewDialog": [
+        {
+            "&7&lMaze": "Looks like you did not make it in time..."
+        }, 0, true, false
+    ],
+    "Teleport": [-145.7, 74.4, -696.7, 133],
+    "Skip": "maze",
+
+
+
+    "Skip": "maze_completed",
+    "Leave": "gen5_main_quest_8_timed_maze",
+    "NewDialog": [
+        {
+            "&7&lMaze": "Hmm... I'll let you go this time..."
+        }, 0, true, false
+    ],
+
+    "Wait": 10,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oI am getting good at these!",
+            "[PLAYER]": "&3&oKyurem&r &ois waiting for me, I better hurry."
+        }, 90, true, false
+    ],
+
+    "RegionEntry": [
+        -146,53,-724,
+        -146,57,-718
+    ],
+    "Start": "gen5_main_quest_8_end_maze",
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oHmm, looks like this is the final maze before I am at &3&oKyurem&r&o's Masterball.",
+            "[PLAYER]": "&oThere is an inscription on the wall here...",
+            "[PLAYER]": "&oNot everything is as it seems... What could that mean?"
+        }, 90, true, false
+    ],
+
 
     "RegionEntry": [
         -285, 1, -730,

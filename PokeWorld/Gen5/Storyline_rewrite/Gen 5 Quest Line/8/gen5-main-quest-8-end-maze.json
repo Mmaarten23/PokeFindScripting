@@ -1,0 +1,337 @@
+{
+    "Key": "gen5_main_quest_8_end_maze",
+    "Author": "Mmaarten",
+
+    "AllowRejoining": true,
+
+
+    "Comment": "Set initial blocks",
+    "Comment": "initial fake walls",
+    "SetBlocks": [
+        -157, 50, -737,
+        -158, 51, -737,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -167, 50, -738,
+        -166, 51, -738,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -171, 50, -745,
+        -171, 51, -744,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -162, 50, -758,
+        -162, 51, -759,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -164,50,-777,
+        -163,51,-777,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -174,50,-769,
+        -174,51,-770,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -182,50,-781,
+        -182,51,-782,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -190,50,-773,
+        -191,51,-773,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -187,50,-786,
+        -186,51,-786,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -198,50,-777,
+        -199,51,-777,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -197,50,-797,
+        -197,51,-796,
+        "snow_block"
+    ],
+    "SetBlocks": [
+        -196,50,-755,
+        -196,51,-754,
+        "snow_block"
+    ],
+
+
+    "Comment": "initial fake openings",
+    "SetBlocks": [
+        -165, 50, -734,
+        -165, 52, -733,
+        "barrier"
+    ],
+    "Hold": [],
+
+
+
+
+    "Comment": "Detect player in maze",
+    "Comment": "fake walls",
+
+    "GlobalRegionEntry": [
+        -156, 50, -734,
+        -159, 52, -740
+    ],
+    "SetBlocks": [
+        -157, 50, -737,
+        -158, 51, -737,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -156, 50, -734,
+        -159, 52, -740
+    ],
+    "SetBlocks": [
+        -157, 50, -737,
+        -158, 51, -737,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -168, 50, -735,
+        -165, 52, -741
+    ],
+    "SetBlocks": [
+        -167, 50, -738,
+        -166, 51, -738,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -168, 50, -735,
+        -165, 52, -741
+    ],
+    "SetBlocks": [
+        -167, 50, -738,
+        -166, 51, -738,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -168, 50, -743,
+        -174, 52, -746
+    ],
+    "SetBlocks": [
+        -171, 50, -745,
+        -171, 51, -744,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -168, 50, -743,
+        -174, 52, -746
+    ],
+    "SetBlocks": [
+        -171, 50, -745,
+        -171, 51, -744,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -165, 50, -760,
+        -159, 52, -757
+    ],
+    "SetBlocks": [
+        -162, 50, -758,
+        -162, 51, -759,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -165, 50, -760,
+        -159, 52, -757
+    ],
+    "SetBlocks": [
+        -162, 50, -758,
+        -162, 51, -759,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -162,50,-780,
+        -165,52,-774
+    ],
+    "SetBlocks": [
+        -164,50,-777,
+        -163,51,-777,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -162,50,-780,
+        -165,52,-774
+    ],
+    "SetBlocks": [
+        -164,50,-777,
+        -163,51,-777,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -177,50,-768,
+        -171,52,-771
+    ],
+    "SetBlocks": [
+        -174,50,-769,
+        -174,51,-770,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -177,50,-768,
+        -171,52,-771
+    ],
+    "SetBlocks": [
+        -174,50,-769,
+        -174,51,-770,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -179,50,-783,
+        -185,52,-780
+    ],
+    "SetBlocks": [
+        -182,50,-781,
+        -182,51,-782,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -179,50,-783,
+        -185,52,-780
+    ],
+    "SetBlocks": [
+        -182,50,-781,
+        -182,51,-782,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -192,50,-770,
+        -189,52,-776
+    ],
+    "SetBlocks": [
+        -190,50,-773,
+        -191,51,-773,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -192,50,-770,
+        -189,52,-776
+    ],
+    "SetBlocks": [
+        -190,50,-773,
+        -191,51,-773,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -185,50,-789,
+        -188,52,-783
+    ],
+    "SetBlocks": [
+        -187,50,-786,
+        -186,51,-786,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -185,50,-789,
+        -188,52,-783
+    ],
+    "SetBlocks": [
+        -187,50,-786,
+        -186,51,-786,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -200,50,-780,
+        -197,52,-774
+    ],
+    "SetBlocks": [
+        -198,50,-777,
+        -199,51,-777,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -200,50,-780,
+        -197,52,-774
+    ],
+    "SetBlocks": [
+        -198,50,-777,
+        -199,51,-777,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -194,50,-795,
+        -200,52,-798
+    ],
+    "SetBlocks": [
+        -197,50,-797,
+        -197,51,-796,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -194,50,-795,
+        -200,52,-798
+    ],
+    "SetBlocks": [
+        -197,50,-797,
+        -197,51,-796,
+        "snow_block"
+    ],
+
+    "GlobalRegionEntry": [
+        -199,50,-753,
+        -193,52,-756
+    ],
+    "SetBlocks": [
+        -196,50,-755,
+        -196,51,-754,
+        "air"
+    ],
+    "GlobalRegionExit": [
+        -199,50,-753,
+        -193,52,-756
+    ],
+    "SetBlocks": [
+        -196,50,-755,
+        -196,51,-754,
+        "snow_block"
+    ],
+
+
+
+
+    "Comment": "fake openings",
+
+    "GlobalRegionEntry": [
+        -163, 50, -732,
+        -168, 52, -735
+    ],
+    "SetBlocks": [
+        -165, 50, -734,
+        -165, 52, -733,
+        "snow_block"
+    ],
+    "GlobalRegionExit": [
+        -163, 50, -732,
+        -168, 52, -735
+    ],
+    "SetBlocks": [
+        -165, 50, -734,
+        -165, 52, -733,
+        "barrier"
+    ]
+}

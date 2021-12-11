@@ -1,0 +1,42 @@
+{
+    "Key": "gen5_main_quest_8_timed_maze",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+
+    "RegionEntry": [
+        -153, 73, -703,
+        -151, 79, -703
+    ],
+    "PlaySound": ["entity_villager_no", 0.5],
+    "NewDialog": [
+        {
+            "&7&lMaze": "How dare you enter..."
+        }, 1, true, false
+    ],
+    "Set": ["gen5_main_quest_8_maze_timer", 61],
+    "Set": ["gen5_main_quest_8_maze_timer_formatted", "", true],
+
+    "Comment": "loop",
+    "Add": ["gen5_main_quest_8_maze_timer", -1],
+    "If": [],
+    "Equals": ["gen5_main_quest_8_maze_timer", "<=", 0],
+    "Skip": "failed",
+    "Dummy": [],
+    "FormatDuration": {
+        "input_variable": "gen5_main_quest_8_maze_timer",
+        "output_variable": "gen5_main_quest_8_maze_timer_formatted"
+    },
+    "SetBossBar": ["&7Maze countdown: &e[gen5_main_quest_8_maze_timer_formatted]"],
+    "Wait": 1.0,
+    "Skip": "loop",
+
+    "Comment": "failed",
+    "RemoveBossBar": [],
+    "PlaySound": ["entity_villager_no", 0.5],
+    "NewDialog": [
+        {
+            "&7&lMaze": "I don't like visitors, get out!"
+        }, 0, true, false
+    ],
+    "Teleport": [-145.7, 74.4, -696.7, 133]
+}

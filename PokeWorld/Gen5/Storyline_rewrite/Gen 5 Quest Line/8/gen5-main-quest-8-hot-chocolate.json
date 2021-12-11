@@ -3,9 +3,21 @@
     "Author": "Mmaarten",
 
     "ClickBlock": [-125, 82, -712],
+    "If": [],
+    "HasStoryTeam": "Statera",
+    "Skip": "statera",
+    "Dummy": "sophro",
     "NewDialog": [
         {
-            "[PLAYER]": "&osip Aaaaah, that feels so good!"
+            "[PLAYER]": "&o*sip* Aaaaah, that feels so good!"
+        }, 10, true, false
+    ],
+    "Leave": [],
+
+    "Comment": "statera",
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThis cup hasn't been refilled in a while apparently... Oh well"
         }, 10, true, false
     ]
 }
