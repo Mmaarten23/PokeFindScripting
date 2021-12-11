@@ -44,7 +44,7 @@
             "yaw": 47,
             "pitch": 8
         },
-        "entity": "snowman",
+        "entity": "snow_golem",
         "look": true
     },
 
