@@ -4,6 +4,66 @@
 
     "AllowRejoining": true,
 
+    "CreateEntity": {
+        "key": "ice_statue1",
+        "location": {
+            "x": -230.0,
+            "y": 51.0,
+            "z": -789.0,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODM5MTYzNTI2NiwKICAicHJvZmlsZUlkIiA6ICJhYjlkYmMzZjk4NGE0ZWI4YTVmY2RlYWMzNzEzZWFkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDeWJvcm51dDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJhMzA4NGM5ZmJlNjk3OTVkYjAyYTZmM2E5MWU4YjRhMjkzNzM5MWQ5ZDNjN2MwZDUwMmVjYzg0ZjUzN2EyNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "EvbiK7Ryu8qB4iKLvWZB4rPYGSGDa/hmOPFYeW8i146fNOJ3xFHzMD89upTSAOWXjOcvl4Npd5JyPpsj6UFbCQUEabMLhJmZqMB59RIR/KVd0oJUnLrxfKxa/FR/k3TbWgcB/Tsg4KPvwIWLC8xw77dOnMfglPzt3kd+JNmb7x5oGpuBc7PKQp6pf/y2K1xEY9eCo/nnvikacVMObnyk/IfkKMRQvWneBYfHjhdnQWigif9yqIodEIz51IH0WiupggzSp63nCIK66gkzaN0DASvqb2IaaByjMOrWOf6h+Il/b/Q/+76bTiJudjJfpHh7IPper8ia5eaEDkpnaWC87dLmcgg5uzGddz+2eDzTFC7hasItXrRZdNojtVZvXdqBAPE7O4yTpwEoTKFFtt3CiUnUnQdap+JYaQ8np9SNc42yoULg+m9YDYMSN/fMOQypl4dyVF2u3VqcB672T6J3z8tmIsBNV6MpKDSO8g0tDq4cvds62yyYpDPC1PdcLoCFmQdRtJJsoiA7plM13ura04V0o8f2q+HVHDi4TtOoHGJFz5zOdD349Sew3WmU3uBUj3Vu2tSeuhFgugxsh8ujkKhnVP/j2ZuN9N/CP+YiT714Uotu+5q7HOcB2OtSC4YSuoxktfro+b9NUvu2iqZ+SDWsyMQDi0tvub4Nvf/vIXs="
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "ice_statue2",
+        "location": {
+            "x": -230.0,
+            "y": 51.0,
+            "z": -794.0,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "entity": "stray",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "olaf",
+        "name": [
+            "&3&lOlaf",
+            "&7Certified snowman"
+        ],
+        "location": {
+            "x": -177.5,
+            "y": 56.0,
+            "z": -756.8,
+            "yaw": 47,
+            "pitch": 8
+        },
+        "entity": "snowman",
+        "look": true
+    },
+
+    "GlobalClickEntity": "olaf",
+    "RandomDialog": {
+        "&3&lOlaf": "Hey! I am Olaf and I like warm hugs!",
+        "&3&lOlaf": "Love Is Putting Someone Else's Needs Before Yours.",
+        "&3&lOlaf": "Some People Are Worth Melting For.",
+        "&3&lOlaf": "So I'm Made Of Snow, And I'm Walking On Snow. That's Kind Of Weird.",
+        "&3&lOlaf": "Don't Chew That, You Don't Know What I Stepped In.",
+        "&3&lOlaf": "I Can't Feel My Legs.",
+        "&3&lOlaf": "I Just Thought Of One Thing That's Permanent. Love.",
+        "&3&lOlaf": "Change Mocks Us With Her Beauty.",
+        "&3&lOlaf": "Oh, Look At That. I've Been Impaled.",
+        "&3&lOlaf": "It's Like A Little Baby Unicorn."
+    },
+    "GlobalClickEntity": "olaf",
+    "Particle": ["heart", -177.5, 57.0, -756.8, 20, 0.5],
+
 
     "Comment": "Set initial blocks",
     "Comment": "initial fake walls",
