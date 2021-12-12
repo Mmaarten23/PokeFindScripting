@@ -631,7 +631,7 @@
     },
     "CreateEntity": {
         "key": "Kinklang1",
-        "name": "&7&lKinklang",
+        "name": "&7&lKlinklang",
         "location": {
             "x": -2.5,
             "y": 56.9,
@@ -640,7 +640,7 @@
             "pitch": 0
         },
         "entity": "Armor Stand",
-        "pokemon": "Kinklang",
+        "pokemon": "Klinklang",
         "look": false
     },
     "CreateEntity": {
@@ -997,20 +997,6 @@
         "Tribe_Leader1"
     ],
     "Quest": true,
-    "NotCompleted": [
-    ],
-    "HasTeam": [
-        "Tribe"
-    ],
-    "Completed": [
-        "GYM8"
-    ],
-    "Completed": [
-        "gen5_elite_four"
-    ],
-    "Completed": [
-        "gen5_main_quest_7_tribe"
-    ],
     "Dialog": [
         {
             "&e&lAstrid": "Are you ready [PLAYER]? I have a plan. Meet me in the Shrine for Kyurem in Northrun!"
