@@ -1283,7 +1283,6 @@
     ],
     "Wait": 20,
     "Unfreeze": [],
-    "ProgressiveWall": [-53, 54, -693, -53, 60, -689, -8],
     "Objective": ["Follow the path out of the Shrine (There's a hidden path to the right of the ice mazes)", 15],
     "Show": {
         "Statera_Leader1": false,
@@ -1336,22 +1335,13 @@
         "Rival1": true
     },
     "RegionEntry": [
-        -62,
-        1,
-        -684,
-        -54,
-        58,
-        -695
+        -55, 54, -694,
+        -59, 58, -687
     ],
-    "Freeze": [
-    ],
-    "Teleport": [
-        -10.5,
-        67.0,
-        -762.5,
-        45,
-        0
-    ],
+    "Wait": 20,
+    "ProgressiveWall": [-53, 54, -693, -53, 60, -689, -8],
+    "Freeze": [],
+    "Teleport": [-10.5, 67.0, -762.5, 45, 0],
     "Look": [
         "Statera_Leader2"
     ],

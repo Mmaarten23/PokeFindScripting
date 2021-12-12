@@ -1,0 +1,1812 @@
+{
+    "Key": "gen5_main_quest_8_tribe",
+    "Name": "",
+    "Description": "Talk to Astrid in Greenholm",
+    "AllowRejoining": true,
+    "Icon": "",
+    "CreateEntity": {
+        "key": "Statera_Leader1",
+        "name": "&8&lVidar",
+        "location": {
+            "x": -67.5,
+            "y": 55.5,
+            "z": -752.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Statera_Leader2",
+        "name": "&8&lVidar",
+        "location": {
+            "x": -41.5,
+            "y": 55.0,
+            "z": 752.5,
+            "yaw": 239,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Kyurem1",
+        "name": "&5&lKyurem Master Ball",
+        "location": {
+            "x": -329.5,
+            "y": 52.0,
+            "z": -749.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "helmet": {
+            "material": "Master Ball"
+        },
+        "entity": "Armor Stand",
+        "visible": false,
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Statera1",
+        "name": "&3&lStatera Member",
+        "location": {
+            "x": -26.5,
+            "y": 55.9,
+            "z": -750.5,
+            "yaw": 253,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Statera2",
+        "name": "&3&lStatera Member",
+        "location": {
+            "x": -20.5,
+            "y": 56.0,
+            "z": -726.5,
+            "yaw": 218,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Statera3",
+        "name": "&3&lStatera Member",
+        "location": {
+            "x": -33.5,
+            "y": 55.0,
+            "z": -743.5,
+            "yaw": 308,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Statera4",
+        "name": "&3&lStatera Member",
+        "location": {
+            "x": -29.5,
+            "y": 55.0,
+            "z": -758.5,
+            "yaw": 300,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Statera5",
+        "name": "&3&lStatera Member",
+        "location": {
+            "x": -6.5,
+            "y": 57.0,
+            "z": -747.5,
+            "yaw": 111,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe1",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -27.5,
+            "y": 55.8,
+            "z": -752.5,
+            "yaw": 342,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe2",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -32.5,
+            "y": 55.0,
+            "z": -738.5,
+            "yaw": 164,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe3",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -27.5,
+            "y": 55.4,
+            "z": -755.5,
+            "yaw": 147,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe4",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -9.5,
+            "y": 57.0,
+            "z": -745.5,
+            "yaw": 241,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe5",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -16.5,
+            "y": 56.0,
+            "z": -726.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe6",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -91.5,
+            "y": 65.0,
+            "z": -748.5,
+            "yaw": 127,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe7",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -89.5,
+            "y": 65.0,
+            "z": -748.5,
+            "yaw": 115,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe8",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -91.5,
+            "y": 65.0,
+            "z": -754.5,
+            "yaw": 49,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe9",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -88.5,
+            "y": 65.0,
+            "z": -754.5,
+            "yaw": 66,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe10",
+        "name": "&6&lSophro Member",
+        "location": {
+            "x": -84.5,
+            "y": 65.0,
+            "z": -753.5,
+            "yaw": 78,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Emboar1",
+        "name": "&c&lEmboar",
+        "location": {
+            "x": -21.5,
+            "y": 55.8,
+            "z": -753.5,
+            "yaw": 60,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Emboar",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Heatmor1",
+        "name": "&c&lHeatmor",
+        "location": {
+            "x": -18.5,
+            "y": 55.8,
+            "z": -753.5,
+            "yaw": 61,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Heatmor",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Beheeyem1",
+        "name": "&d&lBeheeyem",
+        "location": {
+            "x": -20.5,
+            "y": 58.0,
+            "z": -753.5,
+            "yaw": 45,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Beheeyem",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Reuniclus1",
+        "name": "&d&lReuniclus",
+        "location": {
+            "x": -19.5,
+            "y": 59.0,
+            "z": -750.5,
+            "yaw": 69,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Reuniclus",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Gothitelle1",
+        "name": "&d&lGothitelle",
+        "location": {
+            "x": -24.5,
+            "y": 55.8,
+            "z": -752.5,
+            "yaw": 24,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Gothitelle",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Serperior1",
+        "name": "&2&lSerperior",
+        "location": {
+            "x": -21.5,
+            "y": 56.0,
+            "z": -751.5,
+            "yaw": 58,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Serperior",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Throh1",
+        "name": "&4&lThroh",
+        "location": {
+            "x": -30.5,
+            "y": 55.0,
+            "z": -738.5,
+            "yaw": 143,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Throh",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Sawk1",
+        "name": "&4&lSawk",
+        "location": {
+            "x": -27.5,
+            "y": 55.0,
+            "z": -741.5,
+            "yaw": 114,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Sawk",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Mienshao1",
+        "name": "&4&lMienshao",
+        "location": {
+            "x": -26.5,
+            "y": 56.0,
+            "z": -739.5,
+            "yaw": 121,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Mienshao",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Samurott1",
+        "name": "&b&lSamurott",
+        "location": {
+            "x": -29.5,
+            "y": 55.0,
+            "z": -740.5,
+            "yaw": 131,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Samurott",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Vanilluxe1",
+        "name": "&b&lVanilluxe",
+        "location": {
+            "x": -28.5,
+            "y": 56.0,
+            "z": -737.5,
+            "yaw": 141,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Vanilluxe",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Cryogonal1",
+        "name": "&b&lCryogonal",
+        "location": {
+            "x": -27.5,
+            "y": 56.0,
+            "z": -735.5,
+            "yaw": 139,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Cryogonal",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Beartic1",
+        "name": "&b&lBeartic",
+        "location": {
+            "x": -24.5,
+            "y": 56.0,
+            "z": -738.5,
+            "yaw": 119,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Beartic",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Stoutland1",
+        "name": "&7&lStoutland",
+        "location": {
+            "x": -26.5,
+            "y": 54.5,
+            "z": -761.5,
+            "yaw": 43,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Stoutland",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Audino1",
+        "name": "&7&lAudino",
+        "location": {
+            "x": -25.5,
+            "y": 55.1,
+            "z": -757.5,
+            "yaw": 106,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Audino",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Zoroark1",
+        "name": "&8&lZoroark",
+        "location": {
+            "x": -22.5,
+            "y": 55.1,
+            "z": -758.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Zoroark",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Liepard1",
+        "name": "&8&lLiepard",
+        "location": {
+            "x": -23.5,
+            "y": 54.8,
+            "z": -761.5,
+            "yaw": 64,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Liepard",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Sigilyph1",
+        "name": "&b&lSigilyph",
+        "location": {
+            "x": -24.5,
+            "y": 55.0,
+            "z": -759.5,
+            "yaw": 79,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Sigilyph",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Braviary1",
+        "name": "&b&lBraviary",
+        "location": {
+            "x": -22.5,
+            "y": 56.0,
+            "z": -760.5,
+            "yaw": 67,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Braviary",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Zebstrika1",
+        "name": "&e&lZebstrika",
+        "location": {
+            "x": -14.5,
+            "y": 56.0,
+            "z": -727.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Zebstrika",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Galvantula1",
+        "name": "&e&lGalvantula",
+        "location": {
+            "x": -15.5,
+            "y": 56.0,
+            "z": -731.5,
+            "yaw": 45,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Galvantula",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Gigalith1",
+        "name": "&6&lGigalith",
+        "location": {
+            "x": -12.5,
+            "y": 56.0,
+            "z": -728.5,
+            "yaw": 77,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Gigalith",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Archeops1",
+        "name": "&6&lArcheops",
+        "location": {
+            "x": -14.5,
+            "y": 56.0,
+            "z": -729.5,
+            "yaw": 64,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Archeops",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Krookodile1",
+        "name": "&6&lKrookodile",
+        "location": {
+            "x": -12.5,
+            "y": 56.0,
+            "z": -731.5,
+            "yaw": 58,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Krookodile",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Kinklang1",
+        "name": "&7&lKinklang",
+        "location": {
+            "x": -2.5,
+            "y": 56.9,
+            "z": -741.5,
+            "yaw": 145,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Kinklang",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Bisharp1",
+        "name": "&7&lBisharp",
+        "location": {
+            "x": -5.5,
+            "y": 56.8,
+            "z": -739.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Bisharp",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Durant1",
+        "name": "&7&lDurant",
+        "location": {
+            "x": -6.5,
+            "y": 56.8,
+            "z": -741.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Durant",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Escavalier1",
+        "name": "&a&lEscavalier",
+        "location": {
+            "x": -4.5,
+            "y": 57.0,
+            "z": -741.5,
+            "yaw": 161,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Escavalier",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Scolipede1",
+        "name": "&5&lScolipede",
+        "location": {
+            "x": -2.5,
+            "y": 56.8,
+            "z": -738.5,
+            "yaw": 150,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Scolipede",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Whimsicott1",
+        "name": "&d&lWhimsicott",
+        "location": {
+            "x": -12.5,
+            "y": 56.1,
+            "z": -752.5,
+            "yaw": 313,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Whimsicott",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Cofagrigus1",
+        "name": "&5&lCofagrigus",
+        "location": {
+            "x": -11.5,
+            "y": 56.2,
+            "z": -750.5,
+            "yaw": 304,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Cofagrigus",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Chandelure1",
+        "name": "&5&lChandelure",
+        "location": {
+            "x": -8.5,
+            "y": 56.2,
+            "z": -753.5,
+            "yaw": 344,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Chandelure",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Haxorus1",
+        "name": "&9&lHaxorus",
+        "location": {
+            "x": -11.5,
+            "y": 56.0,
+            "z": -754.5,
+            "yaw": 325,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Haxorus",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Hydreigon1",
+        "name": "&9&lHydreigon",
+        "location": {
+            "x": -9.5,
+            "y": 56.2,
+            "z": -751.5,
+            "yaw": 326,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Hydreigon",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe_Leader1",
+        "name": "&e&lAstrid",
+        "location": {
+            "x": -500.5,
+            "y": 64.5,
+            "z": 18.5,
+            "yaw": 196,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe_Leader2",
+        "name": "&e&lAstrid",
+        "location": {
+            "x": -318.5,
+            "y": 50.0,
+            "z": -747.5,
+            "yaw": 255,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe_Leader3",
+        "name": "&e&lAstrid",
+        "location": {
+            "x": -55.5,
+            "y": 54.0,
+            "z": -688.5,
+            "yaw": 243,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Tribe_Leader4",
+        "name": "&e&lAstrid",
+        "location": {
+            "x": -96.1,
+            "y": 65.0,
+            "z": -751.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Rival1",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": -67.5,
+            "y": 55.5,
+            "z": -750.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": "danielle",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Rival2",
+        "name": "&d&lDanielle",
+        "location": {
+            "x": -42.5,
+            "y": 55.0,
+            "z": -747.5,
+            "yaw": 307,
+            "pitch": 0
+        },
+        "skin": "danielle",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Kyurem2",
+        "name": "&9&lKyurem",
+        "location": {
+            "x": -37.5,
+            "y": 55.6,
+            "z": -753.5,
+            "yaw": 33,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Kyurem",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Cobalion1",
+        "name": "&7&lCobalion",
+        "location": {
+            "x": -37.5,
+            "y": 55.0,
+            "z": -748.5,
+            "yaw": 51,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Cobalion",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Terrakion1",
+        "name": "&6&lTerrakion",
+        "location": {
+            "x": -37.5,
+            "y": 55.0,
+            "z": -750.5,
+            "yaw": 43,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Terrakion",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Virizion1",
+        "name": "&2&lVirizion",
+        "location": {
+            "x": -35.5,
+            "y": 55.0,
+            "z": -748.5,
+            "yaw": 63,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Virizion",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Professor1",
+        "name": "&c&lProfessor Hemlock",
+        "location": {
+            "x": 638.5,
+            "y": 49.0,
+            "z": 441.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": "professor",
+        "look": false
+    },
+    "Show": {
+        "Statera_Leader1": false,
+        "Statera_Leader2": false,
+        "Statera1": false,
+        "Statera2": false,
+        "Statera3": false,
+        "Statera4": false,
+        "Statera5": false,
+        "Tribe1": false,
+        "Tribe2": false,
+        "Tribe3": false,
+        "Tribe4": false,
+        "Tribe5": false,
+        "Tribe6": false,
+        "Tribe7": false,
+        "Tribe8": false,
+        "Tribe9": false,
+        "Tribe10": false,
+        "Emboar1": false,
+        "Heatmor1": false,
+        "Beheeyem1": false,
+        "Reuniclus1": false,
+        "Gothitelle1": false,
+        "Serperior1": false,
+        "Throh1": false,
+        "Sawk1": false,
+        "Mienshao1": false,
+        "Samurott1": false,
+        "Vanilluxe1": false,
+        "Cryogonal1": false,
+        "Beartic1": false,
+        "Stoutland1": false,
+        "Audino1": false,
+        "Zoroark1": false,
+        "Liepard1": false,
+        "Sigilyph1": false,
+        "Braviary1": false,
+        "Zebstrika1": false,
+        "Galvantula1": false,
+        "Gigalith1": false,
+        "Archeops1": false,
+        "Krookodile1": false,
+        "Kinklang1": false,
+        "Bisharp1": false,
+        "Durant1": false,
+        "Escavalier1": false,
+        "Scolipede1": false,
+        "Whimsicott1": false,
+        "Cofagrigus1": false,
+        "Chandelure1": false,
+        "Haxorus1": false,
+        "Hydreigon1": false,
+        "Tribe_Leader1": true,
+        "Tribe_Leader2": false,
+        "Tribe_Leader3": false,
+        "Tribe_Leader4": false,
+        "Rival1": false,
+        "Rival2": false,
+        "Kyurem1": false,
+        "Kyurem2": false,
+        "Cobalion1": false,
+        "Terrakion1": false,
+        "Virizion1": false,
+        "Professor1": false
+    },
+    "HighlightClickEntity": [
+        "Tribe_Leader1"
+    ],
+    "Quest": true,
+    "NotCompleted": [
+    ],
+    "HasTeam": [
+        "Tribe"
+    ],
+    "Completed": [
+        "GYM8"
+    ],
+    "Completed": [
+        "gen5_elite_four"
+    ],
+    "Completed": [
+        "gen5_main_quest_7_tribe"
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "Are you ready [PLAYER]? I have a plan. Meet me in the Shrine for Kyurem in Northrun!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Head to Northrun and enter the Shrine for Kyurem",
+        4
+    ],
+    "RegionEntry": [
+        -202,
+        1,
+        -758,
+        -181,
+        120,
+        -740
+    ],
+    "Freeze": [
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Uh oh... Ice mazes..."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Go through the mazes of ice",
+        4
+    ],
+    "Unfreeze": [
+    ],
+    "RegionEntry": [
+        -285,
+        1,
+        -730,
+        -319,
+        70,
+        -769
+    ],
+    "Show": {
+        "Kyurem1": true,
+        "Tribe_Leader2": true,
+        "Tribe_Leader1": false
+    },
+    "Dialog": [
+        {
+            "&e&lAstrid": "You may not be the recognized Zeinova Champion, but you are &6Sophro's&r Champion!",
+            "&e&lAstrid": "Take the Master Ball from the stand! We've got a plan.",
+            "&e&lAstrid": "We will replace it with a dummy Master Ball!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Pick up the Master Ball",
+        52
+    ],
+    "Show": {
+        "Kyurem1": false
+    },
+    "PickupItem": [
+        -329.5,
+        52.0,
+        -749.5,
+        "&5&lKyurem Master Ball",
+        "Master Ball"
+    ],
+    "SendMessage": [
+        "&5&l+ Kyurem Master Ball"
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "Perfect! Now we'll just put this fake Master Ball in it's place!"
+        }
+    ],
+    "Show": {
+        "Kyurem1": true
+    },
+    "Look": [
+        "Kyurem1"
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "Now, let's get out of here! There's a path leading out of here to the right of the ice mazes. I'll meet you there."
+        }
+    ],
+    "ProgressiveWall": [
+        -53,
+        54,
+        -693,
+        -53,
+        60,
+        -689,
+        -8
+    ],
+    "Show": {
+        "Tribe1": true,
+        "Tribe2": true,
+        "Tribe3": true,
+        "Tribe4": true,
+        "Tribe5": true,
+        "Statera1": true,
+        "Statera2": true,
+        "Statera3": true,
+        "Statera4": true,
+        "Statera5": true,
+        "Tribe_Leader3": true,
+        "Tribe_Leader2": false
+    },
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Follow the path out of the Shrine (There's a hidden path to the right of the ice mazes)",
+        51
+    ],
+    "RegionEntry": [
+        -62,
+        1,
+        -684,
+        -54,
+        58,
+        -695
+    ],
+    "Freeze": [
+    ],
+    "Fade": [
+    ],
+    "Teleport": [
+        -10.5,
+        67.0,
+        -762.5,
+        45,
+        0
+    ],
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Statera3"
+    ],
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Statera2"
+    ],
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Statera1"
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "What's going on out here?!",
+            "&e&lAstrid": "[PLAYER]... I think the Great War has begun...",
+            "[PLAYER]": "I don't see Danielle or Vidar anywhere...",
+            "&e&lAstrid": "They're probably inside the shrine already...",
+            "&e&lAstrid": "... I sense something going on..."
+        }
+    ],
+    "Wait": [
+        60
+    ],
+    "Fade": [
+    ],
+    "Cinematic": [
+    ],
+    "Teleport": [
+        -24.5,
+        57.0,
+        -749.5,
+        235,
+        0
+    ],
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Serperior1"
+    ],
+    "Particle": [
+        "flash",
+        -21.5,
+        57.0,
+        -751.5,
+        5
+    ],
+    "Particle": [
+        "explosion_huge",
+        -21.5,
+        57.0,
+        -751.5,
+        1
+    ],
+    "Show": {
+        "Emboar1": true,
+        "Heatmor1": true,
+        "Beheeyem1": true,
+        "Reuniclus1": true,
+        "Gothitelle1": true,
+        "Serperior1": true
+    },
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Samurott1"
+    ],
+    "Particle": [
+        "flash",
+        -29.5,
+        56.0,
+        -740.5,
+        5
+    ],
+    "Particle": [
+        "explosion_huge",
+        -29.5,
+        56.0,
+        -740.5,
+        1
+    ],
+    "Show": {
+        "Throh1": true,
+        "Sawk1": true,
+        "Mienshao1": true,
+        "Samurott1": true,
+        "Vanilluxe1": true,
+        "Cryogonal1": true,
+        "Beartic1": true
+    },
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Sigilyph1"
+    ],
+    "Particle": [
+        "flash",
+        -24.5,
+        56.0,
+        -759.5,
+        5
+    ],
+    "Particle": [
+        "explosion_huge",
+        -24.5,
+        56.0,
+        -759.5,
+        1
+    ],
+    "Show": {
+        "Stoutland1": true,
+        "Audino1": true,
+        "Zoroark1": true,
+        "Liepard1": true,
+        "Sigilyph1": true,
+        "Braviary1": true
+    },
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Archeops1"
+    ],
+    "Particle": [
+        "flash",
+        -14.5,
+        57.0,
+        -729.5,
+        5
+    ],
+    "Particle": [
+        "explosion_huge",
+        -14.5,
+        57.0,
+        -729.5,
+        1
+    ],
+    "Show": {
+        "Zebstrika1": true,
+        "Galvantula1": true,
+        "Gigalith1": true,
+        "Archeops1": true,
+        "Krookodile1": true
+    },
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Escavalier1"
+    ],
+    "Particle": [
+        "flash",
+        -4.5,
+        58.0,
+        -741.5,
+        5
+    ],
+    "Particle": [
+        "explosion_huge",
+        -4.5,
+        58.0,
+        -741.5,
+        1
+    ],
+    "Show": {
+        "Kinklang1": true,
+        "Bisharp1": true,
+        "Durant1": true,
+        "Escavalier1": true,
+        "Scolipede1": true
+    },
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Hydreigon1"
+    ],
+    "Particle": [
+        "flash",
+        -9.5,
+        58.0,
+        -751.5,
+        5
+    ],
+    "Particle": [
+        "explosion_huge",
+        -9.5,
+        58.0,
+        -751.5,
+        1
+    ],
+    "Show": {
+        "Whimsicott1": true,
+        "Cofagrigus1": true,
+        "Chandelure1": true,
+        "Haxorus1": true,
+        "Hydreigon1": true
+    },
+    "Wait": [
+        20
+    ],
+    "StopCinematic": [
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "WOAH! Did you see that?!",
+            "&e&lAstrid": "Yes... The Pokémon have arrived to help us win... Now we must help them in return!",
+            "&e&lAstrid": "Now go! Battle the Statera Members!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Battle the Statera members",
+        17
+    ],
+    "Unfreeze": [
+    ],
+    "HighlightClickEntity": [
+        "Statera1"
+    ],
+    "AutoBattleNpc": [
+        "Statera1",
+        {
+            "&3&lStatera Member": "Look who it is! The traitor! You could never beat me!"
+        },
+        {
+            "&3&lStatera Member": "You're a lot stronger than you look..."
+        },
+        {
+            "&3&lStatera Member": "Ha ha! And they told me &oyou&r had a strong &dAura&r!"
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "HighlightClickEntity": [
+        "Statera2"
+    ],
+    "AutoBattleNpc": [
+        "Statera1",
+        {
+            "&3&lStatera Member": "I don't understand how you could leave Statera! Our strength is far greater than Sophro's!"
+        },
+        {
+            "&3&lStatera Member": "I- I guess I underestimated you..."
+        },
+        {
+            "&3&lStatera Member": "What did I just tell you!"
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "HighlightClickEntity": [
+        "Statera3"
+    ],
+    "AutoBattleNpc": [
+        "Statera3",
+        {
+            "&3&lStatera Member": "This war will be won by Statera! Sophro will lose!"
+        },
+        {
+            "&3&lStatera Member": "Or maybe Sophro will win?"
+        },
+        {
+            "&3&lStatera Member": "There's no way for you to win! Give up!"
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&d&lDanielle": "UGHH! It's fake?!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Rival1": true,
+        "Statera_Leader1": true
+    },
+    "Look": [
+        "Rival1"
+    ],
+    "ProgressiveMoveEntity": [
+        "Rival1",
+        -49.5,
+        55.5,
+        -750.5
+    ],
+    "MoveEntity": [
+        "Statera_Leader1",
+        -49.5,
+        55.5,
+        -752.5
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "It seems they've found our dummy Master Ball! Go finish this war [PLAYER]!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Statera_Leader1": false,
+        "Statera_Leader2": true,
+        "Rival1": false,
+        "Rival2": true
+    },
+    "Objective": [
+        "Battle the Statera Leader",
+        8
+    ],
+    "HighlightClickEntity": [
+        "Statera_Leader2"
+    ],
+    "AutoBattleNpc": [
+        "Statera_Leader2",
+        {
+            "&8&lVidar": "Aw look who it is... Why hello [PLAYER]! Or should I call you Weakling, because you'll never beat me!"
+        },
+        {
+            "&8&lVidar": "This war is not over.",
+            "&8&lVidar": "My dream will be realized, and you will regret this.",
+            "&8&lVidar": "The real Champion of Zeinova will be victorious!"
+        },
+        {
+            "&8&lVidar": "That's what happens when you betray others..."
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&d&lDanielle": "I will finish this.",
+            "&d&lDanielle": "It's time to end this, [PLAYER].",
+            "&d&lDanielle": "I will be superior... I am superior."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Virizion1": true,
+        "Cobalion1": true,
+        "Terrakion1": true,
+        "Kyurem2": true
+    },
+    "Look": [
+        "Cobalion1"
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "Spike!",
+            "&8&lVidar": "Spike!",
+            "&e&lAstrid": "[PLAYER]! Your &dAura&r just spiked!",
+            "&8&lVidar": "This is bad...",
+            "&e&lAstrid": "This is wonderful!",
+            "&e&lAstrid": "&3Kyurem&r and the Swords of Justice are lending you their strength!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Battle Danielle",
+        19
+    ],
+    "HighlightClickEntity": [
+        "Rival2"
+    ],
+    "AutoBattleNpc": [
+        "Rival2",
+        {
+            "&d&lDanielle": "This War will be won by Statera!"
+        },
+        {
+            "&d&lDanielle": "Why... Why do you always end up being the Hero?!"
+        },
+        {
+            "&d&lDanielle": "You will never win!"
+        },
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate"
+                ],
+                "ability": "Shield Dust",
+                "nature": "Timid"
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&8&lVidar": "You may have won but this is not the last you will see of me!",
+            "&8&lVidar": "I will be back! Come on Statera Members! Let's get out of here!"
+        }
+    ],
+    "Show": {
+        "Statera1": false,
+        "Statera2": false,
+        "Statera3": false,
+        "Statera4": false,
+        "Statera5": false,
+        "Statera_Leader2": false,
+        "Rival2": false
+    },
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "Looks like one of the Swords of Justice wants to join you on your journey, [PLAYER].",
+            "&e&lAstrid": "You bonded quite a bit during the battle.",
+            "&e&lAstrid": "I'm sure you'll learn a lot from the Swords of Justice."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "RandomOption": [
+        3
+    ],
+    "Start": [
+        "give_virizion_tribe"
+    ],
+    "Start": [
+        "give_cobalion_tribe"
+    ],
+    "Start": [
+        "give_terrakion_tribe"
+    ],
+    "Hold": [
+    ],
+    "Show": {
+        "Tribe_Leader4": true,
+        "Tribe6": true,
+        "Tribe7": true,
+        "Tribe8": true,
+        "Tribe9": true,
+        "Tribe10": true,
+        "Tribe1": false,
+        "Tribe2": false,
+        "Tribe3": false,
+        "Tribe4": false,
+        "Tribe5": false,
+        "Virizion1": false,
+        "Terrakion1": false,
+        "Cobalion1": false,
+        "Kyurem2": false,
+        "Emboar1": false,
+        "Heatmor1": false,
+        "Beheeyem1": false,
+        "Reuniclus1": false,
+        "Gothitelle1": false,
+        "Serperior1": false,
+        "Throh1": false,
+        "Sawk1": false,
+        "Samurott1": false,
+        "Mienshao1": false,
+        "Vanilluxe1": false,
+        "Cryogonal1": false,
+        "Beartic1": false,
+        "Stoutland1": false,
+        "Audino1": false,
+        "Zoroark1": false,
+        "Liepard1": false,
+        "Sigilyph1": false,
+        "Braviary1": false,
+        "Zebstrika1": false,
+        "Galvantula1": false,
+        "Gigalith1": false,
+        "Archeops1": false,
+        "Krookodile1": false,
+        "Kinklang1": false,
+        "Bisharp1": false,
+        "Durant1": false,
+        "Escavalier1": false,
+        "Scolipede1": false,
+        "Whimsicott1": false,
+        "Cofagrigus1": false,
+        "Chandelure1": false,
+        "Haxorus1": false,
+        "Hydreigon1": false
+    },
+    "Fade": [
+    ],
+    "Teleport": [
+        -89.5,
+        65.0,
+        -751.5,
+        90,
+        0
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&e&lAstrid": "I cannot say what will become of &3Statera&r at this time... but I can tell you this is not over.",
+            "&e&lAstrid": "We will work hard to gain back the region's trust, &3Statera&r has painted us in an awful light, and we must be able to shoulder this burden of being painted as the Bad Guys, while we rebuild Zeinova.",
+            "&e&lAstrid": "Thank you [PLAYER], this never would have been possible without you.",
+            "&e&lAstrid": "Your bond with your team, our team, and &3Kyurem&r saved me, our tribe, our region, and potentially the world."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&a&lIncoming Pokécall> From Professor Hemlock"
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Type /accept to accept Professor Hemlock's call",
+        6
+    ],
+    "Command": [
+        "accept"
+    ],
+    "Wait": [
+        20
+    ],
+    "SendMessage": [
+        "&a&lConnected"
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&c&lProfessor Hemlock": "Hey, [PLAYER]? Can you come by the lab? We need to talk..."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Visit Professor Hemlock at his lab",
+        8
+    ],
+    "Show": {
+        "Professor1": true
+    },
+    "HighlightClickEntity": [
+        "Professor1"
+    ],
+    "Dialog": [
+        {
+            "&c&lProfessor Hemlock": "[PLAYER]... you’ve gone through a lot of heartache because of me…",
+            "&c&lProfessor Hemlock": "My research gave &3Stratera&r the chance to advance and begin this terrible war…",
+            "&c&lProfessor Hemlock": "I received an alert from &3Stratera’s&r A.I H.A.P.P.Y. It appears &8Vidar&r has been arrested due to the research he funded.",
+            "&c&lProfessor Hemlock": "I will be taking some time off from research, so that I may become connected with reality once more.",
+            "&c&lProfessor Hemlock": "Science and research has blinded me, and I’d like to become more connected with my Pokemon again, like in the past.",
+            "&c&lProfessor Hemlock": "It appears my journey here in Zeinova is over… however yours is only just beginning, [PLAYER]. Your name will forever be etched in the history of these islands, just like their Storybook tales…",
+            "&c&lProfessor Hemlock": "Do us proud, [PLAYER]. &dDanielle&r and I will be rooting for you, even if she doesn’t realize it yet."
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "GiveCoins": [
+        25000
+    ],
+    "GiveTokens": [
+        20
+    ],
+    "GiveTrainerExperience": [
+        25000
+    ],
+    "Wait": [
+        20
+    ],
+    "SendCompleteMessage": [
+    ],
+    "Complete": [
+    ]
+}
