@@ -3,7 +3,7 @@
     "Name": "",
     "Description": "Talk to Astrid in Greenholm",
     "AllowRejoining": true,
-    "Icon": "",
+    "Icon": "dirt",
     "CreateEntity": {
         "key": "Statera_Leader1",
         "name": "&8&lVidar",
