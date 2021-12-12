@@ -3,6 +3,16 @@
     "Author": "Mmaarten",
     "AllowRejoining": true,
 
+    "GlobalHologram": [
+        -154.5, 75.0, -699.0,
+        "&b&l~An ice cold run~&b&l",
+        "&b------------------------&b",
+        "This maze does not like visitors aimlessly",
+        "walking around in its corridors.",
+        "They will be kicked out after 60 seconds,",
+        "so hurry to the exit and don't get caught!"
+    ],
+
     "RegionEntry": [
         -153, 73, -703,
         -151, 79, -703

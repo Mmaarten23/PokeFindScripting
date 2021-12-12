@@ -26,7 +26,7 @@
         "location": {
             "x": -41.5,
             "y": 55.0,
-            "z": 752.5,
+            "z": -752.5,
             "yaw": 239,
             "pitch": 0
         },
@@ -1009,28 +1009,15 @@
         "Head to Northrun and enter the Shrine for Kyurem",
         4
     ],
-    "RegionEntry": [
-        -202,
-        1,
-        -758,
-        -181,
-        120,
-        -740
-    ],
-    "Freeze": [
-    ],
+    "RegionEntry": [-202, 1, -758, -181, 120, -740],
+    "Freeze": [],
     "Dialog": [
         {
             "[PLAYER]": "Uh oh... Ice mazes..."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Go through the mazes of ice",
-        4
-    ],
+    "Wait": 20,
+    "Objective": ["Go through the mazes of ice", 4],
     "Unfreeze": [
     ],
     "RegionEntry": [

@@ -1169,14 +1169,6 @@
             "[PLAYER]": "&oLooks like this is a timed one. I have only 60 seconds to complete this..."
         }
     ],
-    "GlobalHologram": [
-        -154.5, 75.0, -699.0,
-        "&b&l~An ice cold run~&b&l",
-        "&b------------------------&b",
-        "This maze does not like visitors aimlessly",
-        "visitors will be kicked out after 60 seconds",
-        "So hurry to the exit and don't get caught!"
-    ],
 
     "SetBlocks": [
         -153, 75, -703,
