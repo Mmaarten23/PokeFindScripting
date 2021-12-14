@@ -1,0 +1,13 @@
+{
+    "Key": "christmas_cracker_fix",
+
+    "PlayerJoin": [],
+    "NotCompleted": ["christmas_cracker_fix", false],
+    "Wait": 1,
+    "Complete": [],
+    "Wait": 40,
+    "Comment": "loop",
+    "Wait": 2,
+    "TakeItem": "christmas_cracker",
+    "Skip": "loop"
+}
