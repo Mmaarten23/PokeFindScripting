@@ -57,7 +57,7 @@
     "Leave": [],
     "Set": ["gen5_main_quest_3_notes_failed", true],
 
-    "SendMessage": "&cThat didn't sound quite right! Please try again. 3",
+    "SendMessage": "&cThat didn't sound quite right! Please try again.",
     "Wait": 1,
     "Hide": "note",
     "Start": ["gen5_main_quest_3_notes_master"]
