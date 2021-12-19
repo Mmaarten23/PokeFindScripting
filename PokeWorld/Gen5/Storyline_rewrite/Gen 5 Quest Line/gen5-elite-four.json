@@ -3,9 +3,8 @@
     "Name": "&5Elite Four",
     "Description": "Your ultimate challenge is before you, the Elite Four awaits!",
     "Location": "Talk to the League Official at the entrance of the Pokemon League",
-    "minimumLevel": 30,
 
-    "allowRejoining": false,
+    "AllowRejoining": false,
     "icon": {
         "material": "LEFTOVERS"
     },
@@ -13,7 +12,7 @@
         "key": "League_Official1",
         "name": [
             "&b&lCletus",
-            "&7Elite Four official"
+            "&7League official"
         ],
         "location": {
             "world": "world",
@@ -24,14 +23,17 @@
             "pitch": 30
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDQwODE5MTk3NDUsInByb2ZpbGVJZCI6IjQ2N2NmOTRkY2UyYjQ1ZTY4YmRhNTJlNTUwMmU3M2U4IiwicHJvZmlsZU5hbWUiOiJMaWxpeWFfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzIxODRhNTcxNDY2N2UzYTdjMzQzMTJkMTRlM2M4OWEyNWMyMjg5ZDgxOTg5YmFmMDEyNzFlMzVjNGQ0MzZkIn19fQ==",
+            "signature": "ljA9wOsJMWHo1n7zsxzu6HDLA3PRB3BvsZCP9tOv4QtQ2z/rUjfaHEITjDw1w83clsVsjOf8QMFngqgdJ5qrHmKo5ZgTm7qxL6KevsuxXK7ig84YU6e2cLrd8E9vsIuXQucEqIRswAVOljdbZ8inbUElqvXUnbsOdSFteDY4Ac3hPKgi5OYwA2qdFCgA1DUjA4Uc+EY4I0izakBAc15lhoWn3WxFLkyff3rvcv8HSIOUsyxTbyqzPSlPIumj3Yp4RGMcevVi5SvK0PquMeAgyiceNooEo9GZyp940klwA3o/n+u7A+YzL1hGyWmBekv+SWx6sJT8Kl1UpCFWi5BFK++neloJdVcz7OTxb4NyKM0U2DzVB98fEarXRu1PgNzKw87qdqGDYW/I9pMb4HP38u0Wbojgs4XmtZsujjuC28+nfhVdRXPM0EF29HNiU712lW5C5nKinL0vWze/RbRpG6FAHCFAjpyBkWbka9o6v2TweN9+Zk0BCM8Y/1Ak4PR0KCTiOiLgSxw/WKVD6STIbahVrYvikJQjGSUCjCxI98op6abgg4DRaI4Cnnel4F8mkqXUyOxY2iEDRJGirHAAnoq/oJA063CGu1ICqqFFcZsbWMLifRA8QVpDilSPNZ0bAm14FiluYLq1OZ/g85NqbRBG3OZHsXFfWAZGpit8CHQ="
         },
-        "look": false
+        "look": true
     },
     "CreateEntity": {
         "key": "League_Official2",
-        "name": "",
+        "name": [
+            "&b&lCletus",
+            "&7League official"
+        ],
         "location": {
             "world": "world",
             "x": 167.5,
@@ -41,14 +43,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDQwODE5MTk3NDUsInByb2ZpbGVJZCI6IjQ2N2NmOTRkY2UyYjQ1ZTY4YmRhNTJlNTUwMmU3M2U4IiwicHJvZmlsZU5hbWUiOiJMaWxpeWFfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzIxODRhNTcxNDY2N2UzYTdjMzQzMTJkMTRlM2M4OWEyNWMyMjg5ZDgxOTg5YmFmMDEyNzFlMzVjNGQ0MzZkIn19fQ==",
+            "signature": "ljA9wOsJMWHo1n7zsxzu6HDLA3PRB3BvsZCP9tOv4QtQ2z/rUjfaHEITjDw1w83clsVsjOf8QMFngqgdJ5qrHmKo5ZgTm7qxL6KevsuxXK7ig84YU6e2cLrd8E9vsIuXQucEqIRswAVOljdbZ8inbUElqvXUnbsOdSFteDY4Ac3hPKgi5OYwA2qdFCgA1DUjA4Uc+EY4I0izakBAc15lhoWn3WxFLkyff3rvcv8HSIOUsyxTbyqzPSlPIumj3Yp4RGMcevVi5SvK0PquMeAgyiceNooEo9GZyp940klwA3o/n+u7A+YzL1hGyWmBekv+SWx6sJT8Kl1UpCFWi5BFK++neloJdVcz7OTxb4NyKM0U2DzVB98fEarXRu1PgNzKw87qdqGDYW/I9pMb4HP38u0Wbojgs4XmtZsujjuC28+nfhVdRXPM0EF29HNiU712lW5C5nKinL0vWze/RbRpG6FAHCFAjpyBkWbka9o6v2TweN9+Zk0BCM8Y/1Ak4PR0KCTiOiLgSxw/WKVD6STIbahVrYvikJQjGSUCjCxI98op6abgg4DRaI4Cnnel4F8mkqXUyOxY2iEDRJGirHAAnoq/oJA063CGu1ICqqFFcZsbWMLifRA8QVpDilSPNZ0bAm14FiluYLq1OZ/g85NqbRBG3OZHsXFfWAZGpit8CHQ="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "League_Official3",
-        "name": "",
+        "name": [
+            "&b&lCletus",
+            "&7League official"
+        ],
         "location": {
             "world": "world",
             "x": -20.5,
@@ -58,14 +63,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDQwODE5MTk3NDUsInByb2ZpbGVJZCI6IjQ2N2NmOTRkY2UyYjQ1ZTY4YmRhNTJlNTUwMmU3M2U4IiwicHJvZmlsZU5hbWUiOiJMaWxpeWFfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzIxODRhNTcxNDY2N2UzYTdjMzQzMTJkMTRlM2M4OWEyNWMyMjg5ZDgxOTg5YmFmMDEyNzFlMzVjNGQ0MzZkIn19fQ==",
+            "signature": "ljA9wOsJMWHo1n7zsxzu6HDLA3PRB3BvsZCP9tOv4QtQ2z/rUjfaHEITjDw1w83clsVsjOf8QMFngqgdJ5qrHmKo5ZgTm7qxL6KevsuxXK7ig84YU6e2cLrd8E9vsIuXQucEqIRswAVOljdbZ8inbUElqvXUnbsOdSFteDY4Ac3hPKgi5OYwA2qdFCgA1DUjA4Uc+EY4I0izakBAc15lhoWn3WxFLkyff3rvcv8HSIOUsyxTbyqzPSlPIumj3Yp4RGMcevVi5SvK0PquMeAgyiceNooEo9GZyp940klwA3o/n+u7A+YzL1hGyWmBekv+SWx6sJT8Kl1UpCFWi5BFK++neloJdVcz7OTxb4NyKM0U2DzVB98fEarXRu1PgNzKw87qdqGDYW/I9pMb4HP38u0Wbojgs4XmtZsujjuC28+nfhVdRXPM0EF29HNiU712lW5C5nKinL0vWze/RbRpG6FAHCFAjpyBkWbka9o6v2TweN9+Zk0BCM8Y/1Ak4PR0KCTiOiLgSxw/WKVD6STIbahVrYvikJQjGSUCjCxI98op6abgg4DRaI4Cnnel4F8mkqXUyOxY2iEDRJGirHAAnoq/oJA063CGu1ICqqFFcZsbWMLifRA8QVpDilSPNZ0bAm14FiluYLq1OZ/g85NqbRBG3OZHsXFfWAZGpit8CHQ="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "League_Official4",
-        "name": "",
+        "name": [
+            "&b&lCletus",
+            "&7League official"
+        ],
         "location": {
             "world": "world",
             "x": 87.5,
@@ -75,14 +83,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDQwODE5MTk3NDUsInByb2ZpbGVJZCI6IjQ2N2NmOTRkY2UyYjQ1ZTY4YmRhNTJlNTUwMmU3M2U4IiwicHJvZmlsZU5hbWUiOiJMaWxpeWFfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzIxODRhNTcxNDY2N2UzYTdjMzQzMTJkMTRlM2M4OWEyNWMyMjg5ZDgxOTg5YmFmMDEyNzFlMzVjNGQ0MzZkIn19fQ==",
+            "signature": "ljA9wOsJMWHo1n7zsxzu6HDLA3PRB3BvsZCP9tOv4QtQ2z/rUjfaHEITjDw1w83clsVsjOf8QMFngqgdJ5qrHmKo5ZgTm7qxL6KevsuxXK7ig84YU6e2cLrd8E9vsIuXQucEqIRswAVOljdbZ8inbUElqvXUnbsOdSFteDY4Ac3hPKgi5OYwA2qdFCgA1DUjA4Uc+EY4I0izakBAc15lhoWn3WxFLkyff3rvcv8HSIOUsyxTbyqzPSlPIumj3Yp4RGMcevVi5SvK0PquMeAgyiceNooEo9GZyp940klwA3o/n+u7A+YzL1hGyWmBekv+SWx6sJT8Kl1UpCFWi5BFK++neloJdVcz7OTxb4NyKM0U2DzVB98fEarXRu1PgNzKw87qdqGDYW/I9pMb4HP38u0Wbojgs4XmtZsujjuC28+nfhVdRXPM0EF29HNiU712lW5C5nKinL0vWze/RbRpG6FAHCFAjpyBkWbka9o6v2TweN9+Zk0BCM8Y/1Ak4PR0KCTiOiLgSxw/WKVD6STIbahVrYvikJQjGSUCjCxI98op6abgg4DRaI4Cnnel4F8mkqXUyOxY2iEDRJGirHAAnoq/oJA063CGu1ICqqFFcZsbWMLifRA8QVpDilSPNZ0bAm14FiluYLq1OZ/g85NqbRBG3OZHsXFfWAZGpit8CHQ="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "League_Official5",
-        "name": "",
+        "name": [
+            "&b&lCletus",
+            "&7League official"
+        ],
         "location": {
             "world": "world",
             "x": -41.5,
@@ -92,14 +103,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDQwODE5MTk3NDUsInByb2ZpbGVJZCI6IjQ2N2NmOTRkY2UyYjQ1ZTY4YmRhNTJlNTUwMmU3M2U4IiwicHJvZmlsZU5hbWUiOiJMaWxpeWFfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzIxODRhNTcxNDY2N2UzYTdjMzQzMTJkMTRlM2M4OWEyNWMyMjg5ZDgxOTg5YmFmMDEyNzFlMzVjNGQ0MzZkIn19fQ==",
+            "signature": "ljA9wOsJMWHo1n7zsxzu6HDLA3PRB3BvsZCP9tOv4QtQ2z/rUjfaHEITjDw1w83clsVsjOf8QMFngqgdJ5qrHmKo5ZgTm7qxL6KevsuxXK7ig84YU6e2cLrd8E9vsIuXQucEqIRswAVOljdbZ8inbUElqvXUnbsOdSFteDY4Ac3hPKgi5OYwA2qdFCgA1DUjA4Uc+EY4I0izakBAc15lhoWn3WxFLkyff3rvcv8HSIOUsyxTbyqzPSlPIumj3Yp4RGMcevVi5SvK0PquMeAgyiceNooEo9GZyp940klwA3o/n+u7A+YzL1hGyWmBekv+SWx6sJT8Kl1UpCFWi5BFK++neloJdVcz7OTxb4NyKM0U2DzVB98fEarXRu1PgNzKw87qdqGDYW/I9pMb4HP38u0Wbojgs4XmtZsujjuC28+nfhVdRXPM0EF29HNiU712lW5C5nKinL0vWze/RbRpG6FAHCFAjpyBkWbka9o6v2TweN9+Zk0BCM8Y/1Ak4PR0KCTiOiLgSxw/WKVD6STIbahVrYvikJQjGSUCjCxI98op6abgg4DRaI4Cnnel4F8mkqXUyOxY2iEDRJGirHAAnoq/oJA063CGu1ICqqFFcZsbWMLifRA8QVpDilSPNZ0bAm14FiluYLq1OZ/g85NqbRBG3OZHsXFfWAZGpit8CHQ="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Shauntal",
-        "name": "&eShauntal",
+        "name": [
+            "&e&lShauntal",
+            "&7Elite Four member"
+        ],
         "location": {
             "x": 179.5,
             "y": 12.9,
@@ -108,14 +122,14 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzOTkxNTY3ODkwNiwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NTQyZGM5MDhiNTMxZjQwOGJkNDZjNjE5MzM0ZWQyMzliNDIzODdjNzBjZDdiNmFhOGZkM2IzNjk0OTQ5NzVkIgogICAgfQogIH0KfQ==",
+            "signature": "LSDUYDw91y9MNdEy84nU8WZvuQN4lYwstTOtvBW7MQbHxNfQjh4ZThQYaqEI2EeY2MN3leXZdPlykenqAxlvmVuliRYVwpBquFKZXIZW1eZ35PB80C9wkDdQzTL8uRgNhDDlcdNNMgT+1ySn2BNToVMth+/NQXKA2HIQdrUrNdt9Fce/mWLp9q9ZfF1rdTnItIVMaoQwcRhWnT2nJULG1D+mPu/GPfB+DcKTMHpzpffU1SBWGKDONWHjqtcTmxhnkPuxgJ7ArT1BAyrOGQ2kEdPhs2uqbJdPNojVrKXdmeNtL9JdteOmQNntEezW4F00PXIwwHPqKb7cN6ro61BfFKPSQJ0p5CnMocz5n0w4ilHOOyVW1XlfZ84+5DW9uC7n34ziH3xqJ3GD+hd2RTn7Dtl5t/uOqQyIfHSx7PqJmpTStrBkI3tfzuTxPaf7oKbxaNPO9aBTxFseb5Vmrdlzc1OVYnaQuVs1v2PLYgCdiK3E6Q4mqqy6r01sbvxLkEuekCLR8QO9Iaivxa9vbQasJU/2vrpWt4kDf296qmEgdfs49Jjnybdb5tn54kQX2WV4Xx3Ckrej5+nyIXegJ/KXqF4G3XsI3OyDjyuXupOaE/IsCN05L6RRBSNtvkOq4mJaMbgQ16VNsTN1Wqj42huPiRi83TRM6+oygIYlliteJDw="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Grimsley",
-        "name": "&aGrimsley",
+        "name": ["&a&lGrimsley", "&7Elite Four member"],
         "location": {
             "x": -30.5,
             "y": 12.9,
@@ -124,14 +138,14 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzOTkxNTc0NzY4MywKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlmNjY2NzAyYmZiNzJiY2FiNzdhZTc4MzkzYzg0NTVjOTIzYWVmYjkxYjYyZWI4ZjY1ZTc3OGYzN2ViMjJhY2YiCiAgICB9CiAgfQp9",
+            "signature": "mxF0nZAFbMU5NKQHfA05iq61fmyws3lSL7mOfhIZjgEyicZNk7wg/LXC/wM7U1MbMNW8IcBp7Eh/zvMUiMONRFk7ZEoCpV1V7Gktlrdhpgx8A6xv35ugWFFdF5b6QsLl2h8OR6Y9HwDAvNMoL1SHp5d+zVF6H4OcBWuNvNx0wGGs7nNly58GlEj56s3LTv0V2WdB8jXHS9n7yAE4mn6sorOaf9A0zIwF30WrGwgUfXTHfkZyck16judJgCxNTrhnN28tCXuoesuCo53l5/a2YBInfSoilwywYgD3P7Sc3xI/8V2UNCXhu/fh0EZr1HgDnR1GEuLSFK/hNDBG24PKcuhxj/r7vH6bNL301sNTUlH+qQKcErKHQm8cycWSD7GpX/o1i37JZkTu2F1is4i22+sMHdUVEUz0CFzmbp6k3p11D6GWnHH3VABcxe5NbetrxCau63mIavk+PIClssq8lmsgYgTbydfovlP6WlVE47YRrbAC8XTxYB7m89PUREaoPeybBQ9KxFCiGIoP5c9IwJ5QvCRMKyh2ZMCFPg/nNF7CMO1ssS3q39M5WbMFXAU9lXTYA6+ZweTSGEhOoj5b5jRG5mk8IF9B8IUp4K/HPGdrLA40So8IBHPFwPwdS9sDPnBc6eOauSpU7tD/xdeUj8WcXvLvX3t0VFypzM68odI="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Caitlin",
-        "name": "&dCaitlin",
+        "name": ["&d&lCaitlin", "&7Elite Four member"],
         "location": {
             "x": 97.5,
             "y": 12.9,
@@ -140,14 +154,14 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzOTkxNTgwNjgyMCwKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMxODRjNTA0MzcyNTVjM2Y3NjRiZTBkNTg1MmFlNDRlNjVlYTQ0NmM5MTU2YzAwMjAyYmE4N2YzNGViM2FhMCIKICAgIH0KICB9Cn0=",
+            "signature": "WRlc70m4akVFZRpykul41vmPowX10axAKkRfVHTrWsZzho6+yGgckyIljGroP2P4OvIANfiwjrmLEII9BelMUTLk7/F2JRZXIhJiZmXLWd8QuPRAmwOPADAdS9RZApJ6TLdoSIBSRd1URl+qceAZB6lIyKcs/QY0nx7/hzT94ff0aosVDcWGYhmlw96uZdNw9BAgf5guEWLvDlhFVQLtaVthTPtR+PLXXRFKxcybNWxqTVhpTvKiAnxaQJ0ce4cgVLN1+trXgeWNgGMAhtwsYUBYmYgD/9s8ZhuZqdJnaiQ0vsC2ipwaXvY8fl9wRH/bgDcpaNbFQc/k/Bx0Afdto/9PB5KQGfLVmMA2AUBxmaAm4uQjxenShI0/2qlgC1bhXNy8M92HhF0PTCNvGh74A/TJ8aQahqXbYQ0mwb22jynG7Q2XVWxBurwvdQNW5M5R/BReg3mwyJ911WsLXuqQamvijtBoP5ula5S/9V0K2PyM1hWlXjgBbSO34Q1prDmBjn+bAVpDGTdk266DEWswufLVNk4Iqdux96bHJiB/08oYkCJYNpDxm7TGzhw8GbfmPrevy17/8IVCiDBfDy4UtAUo/6xpQ/h9gZGM4AJZXZzbW96csqzQNTgte3FwHdRaTKzDmaJxq1HBYJ+4ZNGWJYZRyXPl4aRlAqwWxdL/q4A="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Marshal",
-        "name": "&1Marshal",
+        "name": ["&1&lMarshal", "&7Elite Four member"],
         "location": {
             "x": -30.5,
             "y": 12.9,
@@ -156,14 +170,14 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzOTkxNTg2MTk4MywKICAicHJvZmlsZUlkIiA6ICIwNDNkZWIzOGIyNjE0MTg1YTIzYzU4ZmI2YTc5ZWZkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaXRhbFNpZ256MiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMmZhZmFjN2Q2MzQ5NzQ3ZmJjNzI4NDNmMzM1ZDJiOWMxNmUwMzdlYTZhOGQ5MDRhYzkzMjBhZmQzZDZmMDAxIgogICAgfQogIH0KfQ==",
+            "signature": "xmKhOr7cNCLmMSPFTlaIOaXc0bGnwZF7GhwwOy521OO3thB433t9yVzPfju7lm0Wejw3b1ICsvF1vYYDc7RFvZrSTeCs0jJq7dwad11l5nSPJpjXYjZgALYzMQfgNHQWaTGiLRrrrPhftfugUeWPFkLXvkq90Bgng/1x6qB7PG+AeL6JBYflpKADZMN1A2nhviy8L7X4ofXCM6Vx8Wpy1XrdkN+gwGeTfuIRMnYLzNrJiAt/HrMC/YXt3GVqKN/sKgg5PySAXbR6NumnzjtwaazEso76MKq1wZJun5e5YzYR7Pqd3zyjul7Gt0YrSuMkQpTsm61/0boFWuFKsM/q6hj9jTGvgpgKdt2o9pyqyS2oDQ+F96rvSTmBUFhlsn5RRj95k0/AVdH24u4rjCZRPkb94WA+Azv3rLw5w8Ygy+q9i9OCXKUvfWjdVhBnXr+gHPJPbcTomG4McBoXPWS6kKKeaORKzoElTqZnzvUcBKg2FXW1rqWl2fMXoO+w41lCajTf+Vd120JkY9BhKz2arRKOeaWUIw5gOLi4kpzoMI9Lir4CoGGrAR5T7Sp7YWEtAr5hfslKMe4/F0XBFJIWCBjuBzWANiHjlxacrm9WhV8QA2Ba8naOWzh1U+BqeauVz0ZpHPAmexh0Xh9W5ltSCZKfNirY5uVST6ZjXG8IVCg="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Alder",
-        "name": "&4Alder",
+        "name": ["&4&lAlder", "&7Regional Champion"],
         "location": {
             "x": 97.5,
             "y": 165.9,
@@ -172,8 +186,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzg3MDk5MTUxMCwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU2ZDgzMmJjMzJmZTEwZTIxMDBiYTUzYjBhNWJlNWVjNjU0NGY5NTNhMmMxNDExNjcxNjA5NDg1ZWRlNjJhOSIKICAgIH0KICB9Cn0=",
+            "signature": "BP91Mu28/5ckLWF6HlcMTFTHdn1rYMECdZtCdQQLtkjb+zxd3pP+XOchkLTKmsyfN/r36gRVX2dYFUI6VGkF7BlKrDLJPvywCwxXSs3RZH9V7BaEaRvSYi5rnnD/oRCEV2dXCDJyttsaFLueNvOwtX260rpKxnwa1AHVrMPOD1NN4aJQWVYFJ7rg6+jKhm84NVS3ahxBGlmpojvJty2wkTWdkajchUL+524K36bsHlcETeETBkFpcofVuTbkwN+ctwEVFTq1vbRaQs66aCARzgowyvFwpFpgh8x3N/THWdVyQZZHSl92Rz/7WNZXRHuVKd277IFapD3s29Yz7M419nxRd8cwLhA+tOrZVcHIud5KdXaXU+zFHbAsprQofMOmm+MCypg+qahzm/PiauxKilf0e/QTXIjbeLk2z2hGzY0NlXIyea+GQdVcMwfweCMneuQGadqEd3ELfcDVyRpuXDirNrF/DyPZBfYhU6IWmcIanjbTdW+GHbNtggHE0/RjViZbzpBxRdcNpvC9mprR0tcZY6gtBgxmLzBIQryFH8w1g/Y+apAlSFIFEaWPzUtUCUyHS1A2kPQR8W/bmHmo6f0KnrDetKTU7MAUA2cwq3Hm5mzU/kdQKpQ3+Jt8haOs1yIHPQAK93LfjIw+kUav8I45ksrW8YBaK9lZxET2iGM="
         },
         "look": false
     },
@@ -189,154 +203,96 @@
         "Marshal": false,
         "Alder": false
     },
-    "HighlightClickEntity": [
-        "League_Official1"
-    ],
-    "NotCompleted": [
-    ],
-    "Completed": [
-        "GYM8"
-    ],
-    "If": [
-    ],
-    "HasTeam": [
-        "Statera"
-    ],
-    "In": [
-        "gen5_main_quest_7_statera"
-    ],
-    "Dummy": [
-    ],
-    "If": [
-    ],
-    "HasTeam": [
-        "Tribe"
-    ],
-    "In": [
-        "gen5_main_quest_7_tribe"
-    ],
-    "Dummy": [
-    ],
+
+
+    "HighlightClickEntity": "League_Official1",
+    "HasTrainerLevel": 30,
+    "NotCompleted": [],
+    "If": [],
+    "HasStoryTeam": "Statera",
+    "In": "gen5_main_quest_7_statera",
+    "Dummy": [],
+    "If": [],
+    "HasTeam": "Sophro",
+    "In": "gen5_main_quest_7_tribe",
+    "Dummy": [],
     "Dialog": [
         {
-            "": ""
+            "&b&lCletus": "Welcome to the Pokemon League, trainer.",
+            "&b&lCletus": "The strongest trainers in the region await you inside!",
+            "&b&lCletus": "The Elite Four will only battle trainers who collected all 8 gym badges.",
+            "&b&lCletus": "I see that you've already done that, so congratulations!",
+            "&b&lCletus": "Before you enter there are some things you need to know.",
+            "&b&lCletus": "First, once you enter you cannot leave. If you do you will forfeit.",
+            "&b&lCletus": "Second, if you lose any of the battles you will have to start over.",
+            "&b&lCletus": "Third, you may use items to heal in between battles.",
+            "&b&lCletus": "But the use of your pc and rank privileges are forbidden.",
+            "&b&lCletus": "And finally, you and your Pokemon will not gain any experience here aas this is a test of your battle skills.",
+            "&b&lCletus": "When you're ready to begin, talk to me, and I will take you where you need to go.",
+            "&b&lCletus": "Also, bear in mind! Legendaries can not be used here!"
         }
     ],
     "Show": {
         "Shauntal": true
     },
-    "ClickEntity": [
-        "League_Official1"
-    ],
+    "ClickEntity": "League_Official1",
     "Dialog": [
         {
-            "": ""
+            "&b&lCletus": "Good luck! Shauntal is waiting for your arrival."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Teleport": [
-        179.5,
-        12.9,
-        -232.5,
-        180,
-        0
-    ],
-    "Objective": [
-        "Battle Elite Four member Shauntal"
-
-    ],
-    "HighlightClickEntity": [
-        "Shauntal"
-    ],
+    "Wait": 20,
+    "Teleport": [179.5, 12.9, -232.5, 180, 0],
+    "Objective": ["Battle Elite Four member Shauntal", 3],
+    "HighlightClickEntity": "Shauntal",
     "Show": {
         "League_Official1": false,
         "League_Official2": true
     },
     "QuestRegionStage": [
-        -71,
-        1,
-        -214,
-        227,
-        250,
-        -343
+        -71, 1, -214,
+        227, 250, -343,
+        "&cYou forfeited the Elite Four battles!"
     ],
     "NoFlyRegionStage": [
-        20,
-        1,
-        -203,
-        153,
-        250,
-        -343
+        20, 1, -203,
+        153, 250, -343
     ],
     "NoTpRegionStage": [
-        20,
-        1,
-        -203,
-        153,
-        250,
-        -343
+        20, 1, -203,
+        153, 250, -343
     ],
     "NoFlyRegionStage": [
-        -71,
-        1,
-        -214,
-        227,
-        49,
-        -314
+        -71, 1, -214,
+        227, 49, -314
     ],
     "NoTpRegionStage": [
-        -71,
-        1,
-        -214,
-        227,
-        49,
-        -314
+        -71, 1, -214,
+        227, 49, -314
     ],
     "PotionRegion": [
-        -71,
-        1,
-        -214,
-        227,
-        49,
-        -314,
+        -71, 1, -214,
+        227, 49, -314,
         "Night Vision",
         10
     ],
     "DisableCommandRegion": [
-        -71,
-        1,
-        -214,
-        227,
-        250,
-        -343,
+        -71, 1, -214,
+        227, 250, -343,
         "pheal"
     ],
     "DisableCommandRegion": [
-        -71,
-        1,
-        -214,
-        227,
-        250,
-        -343,
+        -71, 1, -214,
+        227, 250, -343,
         "pc"
     ],
     "DisableCommandRegion": [
-        -71,
-        1,
-        -214,
-        227,
-        250,
-        -343,
+        -71, 1, -214,
+        227, 250, -343,
         "trade"
     ],
-    "DisableTypeStage": [
-        "Shadow"
-    ],
-    "DisableTypeStage": [
-        "Anniversary"
-    ],
+    "DisableTypeStage": "Shadow",
+    "DisableTypeStage": "Anniversary",
     "DisablePokemonStage": [
         "Zapdos",
         "Moltres",
@@ -383,161 +339,43 @@
     "NoExperienceHardcoreNpcBattle": [
         "Shauntal",
         {
-            "": ""
+            "&e&lShauntal": "I'm the Elite Four's Ghost-type Pokémon user, Shauntal, and I shall be your first opponent, [PLAYER]."
         },
         {
-            "": ""
+            "&e&lShauntal": "Wow. I'm dumbstruck! I know a lot of words, but right now I can't figure out how to say this.",
+            "&e&lShauntal": "So let me say this... My feeling is you're a great Trainer!"
         },
         {
-            "": ""
+            "&e&lShauntal": "There is a reason why I am a part of the Elite Four."
         },
         [
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Speak to [LEAGUE OFFICIAL]"
-
-    ],
-    "HighlightClickEntity": [
-        "League_Official2"
-    ],
+    "Wait": 20,
+    "Objective": ["Speak to Cletus", 3],
+    "HighlightClickEntity": "League_Official2",
     "Dialog": [
         {
-            "": ""
+            "&b&lCletus": "Good luck! Grimsley is up next!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Grimsley": true,
         "Shauntal": false
     },
-    "Teleport": [
-        -30.5,
-        12.9,
-        -242.5,
-        0,
-        0
-    ],
-    "Objective": [
-        "Battle Elite Four member Grimsley"
-
-    ],
-    "HighlightClickEntity": [
-        "Grimsley"
-    ],
+    "Teleport": [-30.5, 12.9, -242.5, 0, 0],
+    "Objective": ["Battle Elite Four member Grimsley", 3],
+    "HighlightClickEntity": "Grimsley",
     "Show": {
         "League_Official2": false,
         "League_Official3": true
@@ -545,161 +383,43 @@
     "NoExperienceHardcoreNpcBattle": [
         "Grimsley",
         {
-            "": ""
+            "&a&lGrimsley": "I am Grimsley of the Elite Four, and I will fulfill my duty to be your opponent."
         },
         {
-            "": ""
+            "&a&lGrimsley": "victory shines like a bright light. And right now, you and your Pokémon are shining brilliantly."
         },
         {
-            "": ""
+            "&a&lGrimsley": "If somebody wins a battle, then, without doubt, someone else has lost the battle. That's the way of battle.",
+            "&a&lGrimsley": "A real warrior ponders the next battle."
         },
         [
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Speak to [LEAGUE OFFICIAL]"
-
-    ],
-    "HighlightClickEntity": [
-        "League_Official3"
-    ],
+    "Wait": 20,
+    "Objective": ["Speak to Cletus", 3],
+    "HighlightClickEntity": "League_Official3",
     "Dialog": [
         {
-            "": ""
+            "&b&lCletus": "Good luck! Caitlin is up next!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Caitlin": true,
         "Grimsley": false
     },
-    "Teleport": [
-        97.5,
-        12.9,
-        -296.5,
-        0,
-        0
-    ],
-    "Objective": [
-        "Battle Elite Four member Caitlin"
-
-    ],
-    "HighlightClickEntity": [
-        "Caitlin"
-    ],
+    "Teleport": [97.5, 12.9, -296.5, 0, 0],
+    "Objective": ["Battle Elite Four member Caitlin", 3],
+    "HighlightClickEntity": "Caitlin",
     "Show": {
         "League_Official3": false,
         "League_Official4": true
@@ -707,161 +427,45 @@
     "NoExperienceHardcoreNpcBattle": [
         "Caitlin",
         {
-            "": ""
+            "&d&lCaitlin": "Make your best effort not to bore me with a yawn-inducing battle. Clear?"
         },
         {
-            "": ""
+            "&d&lCaitlin": "You haven't faced all of the members of the Elite Four yet, have you? Don't concern yourself about me. Go on ahead."
         },
         {
-            "": ""
+            "&d&lCaitlin": "I am very pleased to have battled you."
         },
         [
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Objective": [
-        "Speak to [LEAGUE OFFICIAL]"
+        "Speak to Cletus"
 
     ],
-    "HighlightClickEntity": [
-        "League_Official4"
-    ],
+    "HighlightClickEntity": "League_Official4",
     "Dialog": [
         {
-            "": ""
+            "&b&lCletus": "Good luck! Marshal is up next!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Marshal": true,
         "Caitlin": false
     },
-    "Teleport": [
-        -30.5,
-        12.9,
-        -229.5,
-        180,
-        0
-    ],
-    "Objective": [
-        "Battle Elite Four member Marshal"
-
-    ],
-    "HighlightClickEntity": [
-        "Marshal"
-    ],
+    "Teleport": [-30.5, 12.9, -229.5, 180, 0],
+    "Objective": ["Battle Elite Four member Marshal", 3],
+    "HighlightClickEntity": "Marshal",
     "Show": {
         "League_Official4": false,
         "League_Official5": true
@@ -869,135 +473,29 @@
     "NoExperienceHardcoreNpcBattle": [
         "Marshal",
         {
-            "": ""
+            "&1&lMarshal": "It is my intention to test you, to take you to the limits of your strength. Kiai!"
         },
         {
-            "": ""
+            "&1&lMarshal": "Well done! As your battles continue, aim for even greater heights!"
         },
         {
-            "": ""
+            "&1&lMarshal": "There is no single strongest Pokémon or sole best combination... That's why it is difficult to keep winning."
         },
         [
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Speak to [LEAGUE OFFICIAL]"
-
-    ],
-    "HighlightClickEntity": [
-        "League_Official5"
-    ],
+    "Wait": 20,
+    "Objective": ["Speak to Cletus", 3],
+    "HighlightClickEntity": "League_Official5",
     "Dialog": [
         {
             "": ""
