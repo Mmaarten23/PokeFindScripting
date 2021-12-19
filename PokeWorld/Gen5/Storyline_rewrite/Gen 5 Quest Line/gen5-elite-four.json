@@ -2,10 +2,9 @@
     "Key": "gen5_elite_four",
     "Name": "&5Elite Four",
     "Description": "Your ultimate challenge is before you, the Elite Four awaits!",
-    "Location": "Talk to the League Official at the entrance of the Pokemon League",
 
     "AllowRejoining": false,
-    "icon": {
+    "Icon": {
         "material": "LEFTOVERS"
     },
     "CreateEntity": {
@@ -213,7 +212,7 @@
     "In": "gen5_main_quest_7_statera",
     "Dummy": [],
     "If": [],
-    "HasTeam": "Sophro",
+    "HasStoryTeam": "Sophro",
     "In": "gen5_main_quest_7_tribe",
     "Dummy": [],
     "Dialog": [
@@ -249,7 +248,7 @@
         "League_Official1": false,
         "League_Official2": true
     },
-    "QuestRegionStage": [
+    "StayInRegion": [
         -71, 1, -214,
         227, 250, -343,
         "&cYou forfeited the Elite Four battles!"
@@ -270,10 +269,10 @@
         -71, 1, -214,
         227, 49, -314
     ],
-    "PotionRegion": [
+    "PersistentPotionRegion": [
         -71, 1, -214,
         227, 49, -314,
-        "Night Vision",
+        "night_vision",
         10
     ],
     "DisableCommandRegion": [
@@ -336,7 +335,7 @@
         "Keldeo",
         "Victini"
     ],
-    "NoExperienceHardcoreNpcBattle": [
+    "NoExperienceHardcoreBattleNpcStage": [
         "Shauntal",
         {
             "&e&lShauntal": "I'm the Elite Four's Ghost-type Pokémon user, Shauntal, and I shall be your first opponent, [PLAYER]."
@@ -380,7 +379,7 @@
         "League_Official2": false,
         "League_Official3": true
     },
-    "NoExperienceHardcoreNpcBattle": [
+    "NoExperienceHardcoreBattleNpcStage": [
         "Grimsley",
         {
             "&a&lGrimsley": "I am Grimsley of the Elite Four, and I will fulfill my duty to be your opponent."
@@ -424,7 +423,7 @@
         "League_Official3": false,
         "League_Official4": true
     },
-    "NoExperienceHardcoreNpcBattle": [
+    "NoExperienceHardcoreBattleNpcStage": [
         "Caitlin",
         {
             "&d&lCaitlin": "Make your best effort not to bore me with a yawn-inducing battle. Clear?"
@@ -470,7 +469,7 @@
         "League_Official4": false,
         "League_Official5": true
     },
-    "NoExperienceHardcoreNpcBattle": [
+    "NoExperienceHardcoreBattleNpcStage": [
         "Marshal",
         {
             "&1&lMarshal": "It is my intention to test you, to take you to the limits of your strength. Kiai!"
@@ -525,7 +524,7 @@
     "Show": {
         "League_Official5": false
     },
-    "NoExperienceHardcoreNpcBattle": [
+    "NoExperienceHardcoreBattleNpcStage": [
         "Alder",
         {
             "": ""
@@ -678,10 +677,9 @@
     },
     "If": [
     ],
-    "HasTeam": [
+    "HasStoryTeam":
         "Statera",
-        false
-    ],
+
     "Progress": [
         1.0,
         1,
@@ -691,10 +689,8 @@
     ],
     "If": [
     ],
-    "HasTeam": [
-        "Tribe",
-        false
-    ],
+    "HasStoryTeam":
+        "Sophro",
     "Progress": [
         1.0,
         1,
