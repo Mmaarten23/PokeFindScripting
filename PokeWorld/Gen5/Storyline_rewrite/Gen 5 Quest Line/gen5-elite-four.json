@@ -226,7 +226,7 @@
             "&b&lCletus": "Second, if you lose any of the battles you will have to start over.",
             "&b&lCletus": "Third, you may use items to heal in between battles.",
             "&b&lCletus": "But the use of your pc and rank privileges are forbidden.",
-            "&b&lCletus": "And finally, you and your Pokemon will not gain any experience here aas this is a test of your battle skills.",
+            "&b&lCletus": "And finally, you and your Pokemon will not gain any experience here as this is a test of your battle skills.",
             "&b&lCletus": "When you're ready to begin, talk to me, and I will take you where you need to go.",
             "&b&lCletus": "Also, bear in mind! Legendaries can not be used here!"
         }
@@ -234,16 +234,15 @@
     "Show": {
         "Shauntal": true
     },
-    "ClickEntity": "League_Official1",
+    "HighlightClickEntity": "League_Official1",
     "Dialog": [
         {
             "&b&lCletus": "Good luck! Shauntal is waiting for your arrival."
         }
     ],
     "Wait": 20,
-    "Teleport": [179.5, 12.9, -232.5, 180, 0],
+    "Teleport": [179.5, 13.0, -232.5, 180, 0],
     "Objective": ["Battle Elite Four member Shauntal", 3],
-    "HighlightClickEntity": "Shauntal",
     "Show": {
         "League_Official1": false,
         "League_Official2": true
@@ -372,9 +371,8 @@
         "Grimsley": true,
         "Shauntal": false
     },
-    "Teleport": [-30.5, 12.9, -242.5, 0, 0],
+    "Teleport": [-30.5, 13.0, -242.5, 0, 0],
     "Objective": ["Battle Elite Four member Grimsley", 3],
-    "HighlightClickEntity": "Grimsley",
     "Show": {
         "League_Official2": false,
         "League_Official3": true
@@ -416,9 +414,8 @@
         "Caitlin": true,
         "Grimsley": false
     },
-    "Teleport": [97.5, 12.9, -296.5, 0, 0],
+    "Teleport": [97.5, 13.0, -296.5, 0, 0],
     "Objective": ["Battle Elite Four member Caitlin", 3],
-    "HighlightClickEntity": "Caitlin",
     "Show": {
         "League_Official3": false,
         "League_Official4": true
@@ -462,9 +459,8 @@
         "Marshal": true,
         "Caitlin": false
     },
-    "Teleport": [-30.5, 12.9, -229.5, 180, 0],
+    "Teleport": [-30.5, 13.0, -229.5, 180, 0],
     "Objective": ["Battle Elite Four member Marshal", 3],
-    "HighlightClickEntity": "Marshal",
     "Show": {
         "League_Official4": false,
         "League_Official5": true
