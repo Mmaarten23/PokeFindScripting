@@ -45,29 +45,29 @@
         194, 10, -236,
         196, 14, -242
     ],
-    "TeleportStage": [97.5, 55.3, -227.5, 0],
+    "TeleportStage": [97.5, 56.0, -182.5, 0, -9],
 
     "GlobalRegionEntryStage": [
         -16, 10, -234,
         -14, 14, -240
     ],
-    "TeleportStage": [97.5, 55.3, -227.5, 0],
+    "TeleportStage": [97.5, 56.0, -182.5, 0, -9],
 
     "GlobalRegionEntryStage": [
         112, 10, -288,
         114, 14, -294
     ],
-    "TeleportStage": [97.5, 55.3, -227.5, 0],
+    "TeleportStage": [97.5, 56.0, -182.5, 0, -9],
 
     "GlobalRegionEntryStage": [
         82, 10, -205,
         80, 14, -199
     ],
-    "TeleportStage": [97.5, 55.3, -227.5, 0],
+    "TeleportStage": [97.5, 56.0, -182.5, 0, -9],
 
     "GlobalRegionEntryStage": [
         69, 167, -288,
         72, 169, -294
     ],
-    "TeleportStage": [97.5, 55.3, -227.5, 0]
+    "TeleportStage": [97.5, 56.0, -182.5, 0, -9]
 }
