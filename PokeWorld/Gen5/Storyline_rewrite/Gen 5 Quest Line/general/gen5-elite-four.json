@@ -503,7 +503,7 @@
         "Alder": true,
         "Marshal": false
     },
-    "Teleport": [97.5, 165.9, -296.5, 0, 0],
+    "Teleport": [97.5, 166.0, -296.5, 0, 0],
     "Objective": ["Battle Elite Four Champion Alder", 3],
     "Show": {
         "League_Official5": false
@@ -511,7 +511,7 @@
     "NoExperienceHardcoreBattleNpcStage": [
         "Alder",
         {
-            "&4&lAlder": "Say now, how about a match with the strongest Trainer in the Unova region?"
+            "&4&lAlder": "Say now, how about a match with the strongest Trainer in the Zeinova region?"
         },
         {
             "&4&lAlder": "Well done! You certainly are an unmatched talent!"
