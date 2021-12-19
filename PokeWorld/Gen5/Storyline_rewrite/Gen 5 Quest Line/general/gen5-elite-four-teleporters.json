@@ -1,0 +1,73 @@
+{
+    "Key": "gen5_elite_four_teleporters",
+    "AllowRejoining": false,
+    "HologramStage": [
+        196.5, 14.5, -238.5,
+        "&c&l[Teleporter]",
+        "&a&lBack to Pokemon League entrance",
+        "",
+        "&c&oWarning: Your progress in the Elite Four will be lost!"
+    ],
+    "HologramStage": [
+        -13.5, 14.5, -236.5,
+        "&c&l[Teleporter]",
+        "&a&lBack to Pokemon League entrance",
+        "",
+        "&c&oWarning: Your progress in the Elite Four will be lost!"
+    ],
+    "HologramStage": [
+        114.5, 14.5, -290.5,
+        "&4&l[Teleporter]",
+        "&a&lBack to Pokemon League entrance",
+        "",
+        "&c&oWarning: Your progress in the Elite Four will be lost!"
+    ],
+    "HologramStage": [
+        80.5, 14.5, -201.5,
+        "&4&l[Teleporter]",
+        "&a&lBack to Pokemon League entrance",
+        "",
+        "&c&oWarning: Your progress in the Elite Four will be lost!"
+    ],
+    "HologramStage": [
+        73.6, 167.5, -290.5,
+        "&4&l[Teleporter]",
+        "&a&lBack to Pokemon League entrance",
+        "",
+        "&c&oWarning: Your progress in the Elite Four will be lost!"
+    ],
+    "RegionExitStage": [
+        -71, 1, -214,
+        227, 250, -343
+    ],
+
+    "GlobalRegionEntryStage": [
+        194, 10, -236,
+        196, 14, -242
+    ],
+    "TeleportStage": [97.5, 55.3, -227.5, 0],
+
+    "GlobalRegionEntryStage": [
+        -16, 10, -234,
+        -14, 14, -240
+    ],
+    "TeleportStage": [97.5, 55.3, -227.5, 0],
+
+    "GlobalRegionEntryStage": [
+        112, 10, -288,
+        114, 14, -294
+    ],
+    "TeleportStage": [97.5, 55.3, -227.5, 0],
+
+    "GlobalRegionEntryStage": [
+        82, 10, -205,
+        80, 14, -199
+    ],
+    "TeleportStage": [97.5, 55.3, -227.5, 0],
+
+    "GlobalRegionEntryStage": [
+        69, 167, -288,
+        72, 169, -294
+    ],
+    "TeleportStage": [97.5, 55.3, -227.5, 0]
+}

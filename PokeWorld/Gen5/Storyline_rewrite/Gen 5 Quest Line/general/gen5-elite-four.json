@@ -2,7 +2,7 @@
     "Key": "gen5_elite_four",
     "Name": "&5Elite Four",
     "Description": "Your ultimate challenge is before you, the Elite Four awaits!",
-
+    "Quest": true,
     "AllowRejoining": false,
     "Icon": {
         "material": "LEFTOVERS"
@@ -95,10 +95,10 @@
         ],
         "location": {
             "world": "world",
-            "x": -41.5,
+            "x": 109.5,
             "y": 13.0,
-            "z": -236.5,
-            "yaw": 270,
+            "z": -201.5,
+            "yaw": 90,
             "pitch": 0
         },
         "skin": {
@@ -162,10 +162,10 @@
         "key": "Marshal",
         "name": ["&1&lMarshal", "&7Elite Four member"],
         "location": {
-            "x": -30.5,
+            "x": 97.5,
             "y": 12.9,
-            "z": -242.5,
-            "yaw": 0,
+            "z": -195.6,
+            "yaw": -180,
             "pitch": 0
         },
         "skin": {
@@ -236,6 +236,7 @@
         "Shauntal": true
     },
     "HighlightClickEntity": "League_Official1",
+    "Start": "gen5_elite_four_teleporters",
     "Dialog": [
         {
             "&b&lCletus": "Good luck! Shauntal is waiting for your arrival."
@@ -459,7 +460,7 @@
         "Marshal": true,
         "Caitlin": false
     },
-    "Teleport": [-30.5, 13.0, -229.5, 180, 0],
+    "Teleport": [-97.5, 13.0, -209.5],
     "Objective": ["Battle Elite Four member Marshal", 3],
     "Show": {
         "League_Official4": false,
@@ -531,6 +532,9 @@
             }
         ]
     ],
+
+    "Leave": "gen5_elite_four_teleporters",
+
     "Complete": [],
     "GiveTrainerExperience": 500000,
     "GiveCoins": 150000,
