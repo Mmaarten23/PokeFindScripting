@@ -76,7 +76,7 @@
         "location": {
             "world": "world",
             "x": 87.5,
-            "y": 12.0,
+            "y": 13.0,
             "z": -290.5,
             "yaw": 270,
             "pitch": 0
@@ -493,207 +493,70 @@
     "HighlightClickEntity": "League_Official5",
     "Dialog": [
         {
-            "": ""
+            "&b&lCletus": "Congratulations! You beat all the Elite Four members!",
+            "&b&lCletus": "Now it is time for you to challenge our regional champion.",
+            "&b&lCletus": "They have not been bested in years, so prepare yourself!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Alder": true,
         "Marshal": false
     },
-    "Teleport": [
-        97.5,
-        165.9,
-        -296.5,
-        0,
-        0
-    ],
-    "Objective": [
-        "Battle Elite Four Champion Alder"
-
-    ],
-    "HighlightClickEntity": [
-        "Alder"
-    ],
+    "Teleport": [97.5, 165.9, -296.5, 0, 0],
+    "Objective": ["Battle Elite Four Champion Alder", 3],
     "Show": {
         "League_Official5": false
     },
     "NoExperienceHardcoreBattleNpcStage": [
         "Alder",
         {
-            "": ""
+            "&4&lAlder": "Say now, how about a match with the strongest Trainer in the Unova region?"
         },
         {
-            "": ""
+            "&4&lAlder": "Well done! You certainly are an unmatched talent!"
         },
         {
-            "": ""
+            "&4&lAlder": "Take what you learned from me and continue improving!"
         },
         [
             {
-                "species": "",
-                "level": 100,
+                "species": "weedle",
+                "level": 1,
                 "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "celebrate"
                 ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
-            },
-            {
-                "species": "",
-                "level": 100,
-                "moves": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "ability": "",
-                "ivs": "max",
-                "nature": "",
-                "evs": {
-                    "": 252,
-                    "": 252,
-                    "": 4
-                }
+                "ability": "Shield Dust",
+                "nature": "Timid"
             }
         ]
     ],
-    "GiveTrainerExperience": [
-        500000
+    "Complete": [],
+    "GiveTrainerExperience": 500000,
+    "GiveCoins": 150000,
+    "GiveTokens": 50,
+    "GiveItem": ["Rare_Candy", 25],
+    "GiveItem": ["Max_PP", 3],
+    "GiveItem": "Ability_Capsule",
+    "GiveItem": "Leftovers",
+    "SetTitle": [
+        "&5&lElite Four",
+        "&aQuest complete",
+        true
     ],
-    "GiveCoins": [
-        150000
-    ],
-    "GiveTokens": [
-        50
-    ],
-    "GiveItem": [
-        "Rare_Candy",
-        25
-    ],
-    "GiveItem": [
-        "Max_PP",
-        3
-    ],
-    "GiveItem": [
-        "Ability_Capsule"
-    ],
-    "GiveItem": [
-        "Leftovers"
-    ],
-    "SendMessage": [
-        "&aYou have completed the Elite Four quest!"
-    ],
+    "PlayCustomSound": "sfx.quest_complete",
     "Show": {
         "Alder": false
     },
-    "If": [
-    ],
-    "HasStoryTeam":
-        "Statera",
 
-    "Progress": [
-        1.0,
-        1,
-        "gen5_main_quest_7_statera"
-    ],
-    "Dummy": [
-    ],
-    "If": [
-    ],
-    "HasStoryTeam":
-        "Sophro",
-    "Progress": [
-        1.0,
-        1,
-        "gen5_main_quest_7_tribe"
-    ],
-    "Dummy": [
-    ],
-    "Complete": [
-    ]
+    "Wait": 40,
+    "If": [],
+    "HasStoryTeam": "Statera",
+    "Progress": [1.0, 1, "gen5_main_quest_7_statera"],
+    "Dummy": [],
+
+    "If": [],
+    "HasStoryTeam": "Sophro",
+    "Progress": [1.0, 1, "gen5_main_quest_7_tribe"],
+    "Dummy": []
 }
