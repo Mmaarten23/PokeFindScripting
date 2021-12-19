@@ -1,0 +1,1209 @@
+{
+    "Key": "gen5_elite_four",
+    "Name": "&5Elite Four",
+    "Description": "Your ultimate challenge is before you, the Elite Four awaits!",
+    "Location": "Talk to the League Official at the entrance of the Pokemon League",
+    "minimumLevel": 30,
+
+    "allowRejoining": false,
+    "icon": {
+        "material": "LEFTOVERS"
+    },
+    "CreateEntity": {
+        "key": "League_Official1",
+        "name": [
+            "&b&lCletus",
+            "&7Elite Four official"
+        ],
+        "location": {
+            "world": "world",
+            "x": 97.5,
+            "y": 56.0,
+            "z": -185.5,
+            "yaw": 0,
+            "pitch": 30
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "League_Official2",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 167.5,
+            "y": 13.0,
+            "z": -238.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "League_Official3",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": -20.5,
+            "y": 13.0,
+            "z": -236.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "League_Official4",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": 87.5,
+            "y": 12.0,
+            "z": -290.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "League_Official5",
+        "name": "",
+        "location": {
+            "world": "world",
+            "x": -41.5,
+            "y": 13.0,
+            "z": -236.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Shauntal",
+        "name": "&eShauntal",
+        "location": {
+            "x": 179.5,
+            "y": 12.9,
+            "z": -245.1,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Grimsley",
+        "name": "&aGrimsley",
+        "location": {
+            "x": -30.5,
+            "y": 12.9,
+            "z": -229.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Caitlin",
+        "name": "&dCaitlin",
+        "location": {
+            "x": 97.5,
+            "y": 12.9,
+            "z": -284.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Marshal",
+        "name": "&1Marshal",
+        "location": {
+            "x": -30.5,
+            "y": 12.9,
+            "z": -242.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Alder",
+        "name": "&4Alder",
+        "location": {
+            "x": 97.5,
+            "y": 165.9,
+            "z": -284.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "",
+            "signature": ""
+        },
+        "look": false
+    },
+    "Show": {
+        "League_Official1": true,
+        "League_Official2": false,
+        "League_Official3": false,
+        "League_Official4": false,
+        "League_Official5": false,
+        "Shauntal": false,
+        "Grimsley": false,
+        "Caitlin": false,
+        "Marshal": false,
+        "Alder": false
+    },
+    "HighlightClickEntity": [
+        "League_Official1"
+    ],
+    "NotCompleted": [
+    ],
+    "Completed": [
+        "GYM8"
+    ],
+    "If": [
+    ],
+    "HasTeam": [
+        "Statera"
+    ],
+    "In": [
+        "gen5_main_quest_7_statera"
+    ],
+    "Dummy": [
+    ],
+    "If": [
+    ],
+    "HasTeam": [
+        "Tribe"
+    ],
+    "In": [
+        "gen5_main_quest_7_tribe"
+    ],
+    "Dummy": [
+    ],
+    "Dialog": [
+        {
+            "": ""
+        }
+    ],
+    "Show": {
+        "Shauntal": true
+    },
+    "ClickEntity": [
+        "League_Official1"
+    ],
+    "Dialog": [
+        {
+            "": ""
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Teleport": [
+        179.5,
+        12.9,
+        -232.5,
+        180,
+        0
+    ],
+    "Objective": [
+        "Battle Elite Four member Shauntal"
+
+    ],
+    "HighlightClickEntity": [
+        "Shauntal"
+    ],
+    "Show": {
+        "League_Official1": false,
+        "League_Official2": true
+    },
+    "QuestRegionStage": [
+        -71,
+        1,
+        -214,
+        227,
+        250,
+        -343
+    ],
+    "NoFlyRegionStage": [
+        20,
+        1,
+        -203,
+        153,
+        250,
+        -343
+    ],
+    "NoTpRegionStage": [
+        20,
+        1,
+        -203,
+        153,
+        250,
+        -343
+    ],
+    "NoFlyRegionStage": [
+        -71,
+        1,
+        -214,
+        227,
+        49,
+        -314
+    ],
+    "NoTpRegionStage": [
+        -71,
+        1,
+        -214,
+        227,
+        49,
+        -314
+    ],
+    "PotionRegion": [
+        -71,
+        1,
+        -214,
+        227,
+        49,
+        -314,
+        "Night Vision",
+        10
+    ],
+    "DisableCommandRegion": [
+        -71,
+        1,
+        -214,
+        227,
+        250,
+        -343,
+        "pheal"
+    ],
+    "DisableCommandRegion": [
+        -71,
+        1,
+        -214,
+        227,
+        250,
+        -343,
+        "pc"
+    ],
+    "DisableCommandRegion": [
+        -71,
+        1,
+        -214,
+        227,
+        250,
+        -343,
+        "trade"
+    ],
+    "DisableTypeStage": [
+        "Shadow"
+    ],
+    "DisableTypeStage": [
+        "Anniversary"
+    ],
+    "DisablePokemonStage": [
+        "Zapdos",
+        "Moltres",
+        "Articuno",
+        "Mewtwo",
+        "Mew",
+        "Lugia",
+        "Entei",
+        "Suicune",
+        "Raikou",
+        "Celebi",
+        "Rayquaza",
+        "Groudon",
+        "Jirachi",
+        "Giratina",
+        "Arceus",
+        "Kyogre",
+        "Cresselia",
+        "Manaphy",
+        "Phione",
+        "Heatran",
+        "Shaymin",
+        "Dialga",
+        "Palkia",
+        "Darkrai",
+        "Regigigas",
+        "Regirock",
+        "Regice",
+        "Registeel",
+        "Zekrom",
+        "Cobalion",
+        "Terrakion",
+        "Virizion",
+        "Tornadus",
+        "Thundurus",
+        "Reshiram",
+        "Landorus",
+        "Kyurem",
+        "Genesect",
+        "Meloetta",
+        "Keldeo",
+        "Victini"
+    ],
+    "NoExperienceHardcoreNpcBattle": [
+        "Shauntal",
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        [
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Speak to [LEAGUE OFFICIAL]"
+
+    ],
+    "HighlightClickEntity": [
+        "League_Official2"
+    ],
+    "Dialog": [
+        {
+            "": ""
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Grimsley": true,
+        "Shauntal": false
+    },
+    "Teleport": [
+        -30.5,
+        12.9,
+        -242.5,
+        0,
+        0
+    ],
+    "Objective": [
+        "Battle Elite Four member Grimsley"
+
+    ],
+    "HighlightClickEntity": [
+        "Grimsley"
+    ],
+    "Show": {
+        "League_Official2": false,
+        "League_Official3": true
+    },
+    "NoExperienceHardcoreNpcBattle": [
+        "Grimsley",
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        [
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Speak to [LEAGUE OFFICIAL]"
+
+    ],
+    "HighlightClickEntity": [
+        "League_Official3"
+    ],
+    "Dialog": [
+        {
+            "": ""
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Caitlin": true,
+        "Grimsley": false
+    },
+    "Teleport": [
+        97.5,
+        12.9,
+        -296.5,
+        0,
+        0
+    ],
+    "Objective": [
+        "Battle Elite Four member Caitlin"
+
+    ],
+    "HighlightClickEntity": [
+        "Caitlin"
+    ],
+    "Show": {
+        "League_Official3": false,
+        "League_Official4": true
+    },
+    "NoExperienceHardcoreNpcBattle": [
+        "Caitlin",
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        [
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Speak to [LEAGUE OFFICIAL]"
+
+    ],
+    "HighlightClickEntity": [
+        "League_Official4"
+    ],
+    "Dialog": [
+        {
+            "": ""
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Marshal": true,
+        "Caitlin": false
+    },
+    "Teleport": [
+        -30.5,
+        12.9,
+        -229.5,
+        180,
+        0
+    ],
+    "Objective": [
+        "Battle Elite Four member Marshal"
+
+    ],
+    "HighlightClickEntity": [
+        "Marshal"
+    ],
+    "Show": {
+        "League_Official4": false,
+        "League_Official5": true
+    },
+    "NoExperienceHardcoreNpcBattle": [
+        "Marshal",
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        [
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            }
+        ]
+    ],
+    "Wait": [
+        20
+    ],
+    "Objective": [
+        "Speak to [LEAGUE OFFICIAL]"
+
+    ],
+    "HighlightClickEntity": [
+        "League_Official5"
+    ],
+    "Dialog": [
+        {
+            "": ""
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "Alder": true,
+        "Marshal": false
+    },
+    "Teleport": [
+        97.5,
+        165.9,
+        -296.5,
+        0,
+        0
+    ],
+    "Objective": [
+        "Battle Elite Four Champion Alder"
+
+    ],
+    "HighlightClickEntity": [
+        "Alder"
+    ],
+    "Show": {
+        "League_Official5": false
+    },
+    "NoExperienceHardcoreNpcBattle": [
+        "Alder",
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        {
+            "": ""
+        },
+        [
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            },
+            {
+                "species": "",
+                "level": 100,
+                "moves": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "ability": "",
+                "ivs": "max",
+                "nature": "",
+                "evs": {
+                    "": 252,
+                    "": 252,
+                    "": 4
+                }
+            }
+        ]
+    ],
+    "GiveTrainerExperience": [
+        500000
+    ],
+    "GiveCoins": [
+        150000
+    ],
+    "GiveTokens": [
+        50
+    ],
+    "GiveItem": [
+        "Rare_Candy",
+        25
+    ],
+    "GiveItem": [
+        "Max_PP",
+        3
+    ],
+    "GiveItem": [
+        "Ability_Capsule"
+    ],
+    "GiveItem": [
+        "Leftovers"
+    ],
+    "SendMessage": [
+        "&aYou have completed the Elite Four quest!"
+    ],
+    "Show": {
+        "Alder": false
+    },
+    "If": [
+    ],
+    "HasTeam": [
+        "Statera",
+        false
+    ],
+    "Progress": [
+        1.0,
+        1,
+        "gen5_main_quest_7_statera"
+    ],
+    "Dummy": [
+    ],
+    "If": [
+    ],
+    "HasTeam": [
+        "Tribe",
+        false
+    ],
+    "Progress": [
+        1.0,
+        1,
+        "gen5_main_quest_7_tribe"
+    ],
+    "Dummy": [
+    ],
+    "Complete": [
+    ]
+}
