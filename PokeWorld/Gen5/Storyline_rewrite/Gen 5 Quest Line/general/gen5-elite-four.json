@@ -246,7 +246,6 @@
     "Teleport": [179.5, 13.0, -232.5, 180, 0],
     "Objective": ["Battle Elite Four member Shauntal", 3],
     "Show": {
-        "League_Official1": false,
         "League_Official2": true
     },
     "StayInRegion": [
