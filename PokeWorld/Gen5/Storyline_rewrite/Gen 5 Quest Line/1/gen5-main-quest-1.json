@@ -602,7 +602,7 @@
     "Teleport": [1069.4, 54.8, 170.4, 149, 42],
     "Wait": 3,
     "Cinematic": [],
-    "Wait": 2.0,
+    "Wait": 4,
     "Look": ["camera", "cave_cinematic"],
     "ProgressiveMoveEntity": ["camera", 1037.7, 55.9, 125.8, 0.2, false],
     "Wait": 1,
@@ -758,7 +758,6 @@
         "air"
     ],
     "Wait": 20,
-    "Freeze": [],
     "NewDialog": [
         {
             "[PLAYER]": "&oI wonder why they were trying to guard the cave..."
@@ -766,7 +765,6 @@
         1, true, false
     ],
     "Wait": 20,
-    "Unfreeze": [],
     "Objective": ["Continue deeper into the cave", 5],
     "RegionEntry": [
         1010, 26, 72,
@@ -816,30 +814,6 @@
                 ],
                 "ability": "Shield Dust",
                 "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            },
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate",
-                    "Celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
             }
         ]
     ],
@@ -847,8 +821,6 @@
     "NewDialog": [
         {
             "&7&lOld Man": "&dAudino&r... It's okay girl.",
-            "&7&lOld Man": "A trainer knows when he's been bested.",
-            "&7&lOld Man": "But don't fret... It's okay! Did you see this trainer's Pokémon?",
             "&7&lOld Man": "This trainer is nothing like &othem&r.",
             "&7&lOld Man": "Oh &dAudino&r! You're glowing so brightly, it's okay!"
         }, 90, true, true, "male_normal"
@@ -868,7 +840,6 @@
     ],
     "NewDialog": [
         {
-            "&7&lOld man": "It's alright &dAudino&r, a defeat is a defeat.",
             "&7&lOld man": "There's no reason to be sad..."
         },
         90, true, true, "male_normal"
@@ -955,8 +926,7 @@
     ],
     "NewDialog": [
         {
-            "&7&lOld man": "I suppose &dAudino&r is beginning to trust you... It turns that colour around its friends...",
-            "&7&lOld man": "From what I've seen at least.",
+            "&7&lOld man": "&dAudino&r is beginning to trust you... It turns that colour around its friends...",
             "&7&lOld man": "Ever since it was injured, it has not wanted to leave this place..."
         },
         90, true, true, "male_normal"
@@ -970,19 +940,6 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "&7&lOld man": "When did you get to &lZeinova&r?"
-        },
-        90, true, true, "male_question"
-    ],
-    "NewDialog": [
-        {
-            "[PLAYER]": "Pretty recently..."
-        },
-        90, true, true
-    ],
-    "NewDialog": [
-        {
-            "&7&lOld man": "Really?",
             "&7&lOld man": "Not to sound rude or anything but... What are you doing here?",
             "&7&lOld man": "What on Earth could be so interesting to come all the way to &lZeinova&r?"
         },
@@ -996,8 +953,7 @@
     ],
     "NewDialog": [
         {
-            "&7&lOld man": "So your mentor is &c&lProfessor Hemlock&r... He'll be doing research for &3Statera&r?",
-            "&7&lOld man": "To each their own I suppose..."
+            "&7&lOld man": "So your mentor is &c&lProfessor Hemlock&r... He'll be doing research for &3Statera&r?"
         },
         90, true, true, "male_confused"
     ],
@@ -1015,21 +971,12 @@
     ],
     "NewDialog": [
         {
-            "&7&lOld man": "Pokémon behavior? What an odd topic! Hahaha!",
-            "&7&lOld man": "&dAudino&r here is perfect for research like that, you know?"
+            "&7&lOld man": "Pokémon behavior? What an odd topic! Hahaha!"
         },
         90, true, true, "male_normal"
     ],
     "NewDialog": [
         {
-            "&7&lOld man": "It communicates flawlessly how it's feeling and what it's thinking- though not in words.",
-            "&7&lOld man": "It's an incredibly expressive Pokémon. The Aura aside."
-        },
-        90, true, true, "male_normal"
-    ],
-    "NewDialog": [
-        {
-            "&7&lOld man": "If only us humans could express ourselves as well as Pokémon, am I right?",
             "&7&lOld man": "If our ancestors had the mindset in the past to try and understand each other and work together like the Pokémon do...",
             "&7&lOld man": "I'll have to tell you the whole story..."
         },
@@ -1089,7 +1036,7 @@
         {
             "&7&lOld man": "The lands were flooded..."
         },
-        1, true, true, "male_angry"
+        1, true, false, "male_angry"
     ],
 
     "Wait": 20,

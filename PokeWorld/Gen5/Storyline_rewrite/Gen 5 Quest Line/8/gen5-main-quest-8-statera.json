@@ -25,7 +25,10 @@
     },
     "CreateEntity": {
         "key": "Statera_Leader2",
-        "name": "&8&lVidar",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
         "location": {
             "x": -45.5,
             "y": 55.0,
@@ -34,8 +37,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
         },
         "look": false
     },
@@ -58,7 +61,6 @@
     },
     "CreateEntity": {
         "key": "Statera1",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -26.5,
             "y": 55.9,
@@ -67,14 +69,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI0Mjk2NzMxMiwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZDE3NjhkZTI0ZDMxYWE5MmUxYjFkNWI2YWM0ZjFiNGRkOGI4MDZhOGQ3MjI5MjY4NjM4Zjk1ZGZhMzJjMCIKICAgIH0KICB9Cn0=",
+            "signature": "uuCP+6VO/TYmGsXVGuztP/dnmnqQ7k9mEEm2R+bmTWqTVQ1Wkxr51kh60SXbbMeYutEzHcrUArh1Kbt/KgtbsW1gMKTEBLRY7jnkMplDwuGRWC7ZsZYf06FE6eRpUy4jDac7vyyVuGVZOshu7e+lNDAfiQUvSS/ZOE2diF/pAC5LnAJPz68RgIADD7lR9JFH5q2QuX0Gtah2Gh2HQU3dJHZzCKZtct+40ggDt9IBRhYPc28UtcIL/lkEHm5YVgLlVYJfLWJ+Y36lJkQktTFbHkzHrJNxJQ0iYvRzn3Ulr9EbHAZ+rLCg3IQwbuml0SSBRPdxFCqcAbyhqdZmN9SnbOb+EKmu0EeWWUvSKUAisly5Yo0J/bLLGZuA+cDF9jOUWuBSQa3uKUOrXXP6Vx9c/CEJ5wXp+MeD/tv5mQaia3ETKxMwIn77JDZmkMvDjNEhJtT9V+dGR94Qeq9FwAmBkclVHeCL5r1kBoY0DYkK1msLJUS7ukUSvBiwUXDZ1ssEd/oaDgsOsXftucPjyTicslxZOZcstJJkmqqQt1su8KHv0Wmie/PDRWGHvKSSeUa0Z4t0x2kle25rhp5WtlOeMiG0qY4KrFjV0zxjAKS2idujlD0ij9NAXGYdBzJp4yuFOYyLopHVCc6ScDiS7YSLLrXjyuySOWsGO9dzdjwC8z8="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera2",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -20.5,
             "y": 56.0,
@@ -83,14 +84,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODc0NzIwMCwKICAicHJvZmlsZUlkIiA6ICI4YjgyM2E1YmU0Njk0YjhiOTE0NmE5MWRhMjk4ZTViNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXBoaXRpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjE0ZTg1YzQ2YTgwMjQwY2VhODcxMDI1NGQ0YjFiNjZjZTNjMGQ0YjBhMjhkN2FjYWM1MzQzOTgwOTM1NWQ3IgogICAgfQogIH0KfQ==",
+            "signature": "yWeXNRwJh0+t3LdCGAXsctati2Tk5Ag17zriep4uiMidmcSn17vPS14Nt7MDs+aYM+hWZ3+XVy0oMCZLrhh8yfu4I/NEcTlHDustG2vVqm0PKWXF3xKmEInz/oMw+yyWYa0LPskVUSCjUoFllfHa5mYboWbx0Qc6S46gM0WTMB9xaV6nx95Og3+3jRZvWG5jNkMBTzq94p1qQqWTKlG8r9oyp4BPLDcVPffWiczUUVXVY2BPgLkJIqusK+HvrEzjclld3VYALWBFaLF5jYENmPJ0SD1mrWzCKB+4T3DCrJjTyPmDpmuy6HXttCXlGdavCs/DpPS3kUNhX7dWaRgCjcANBbFTDTSvVFld6X9rfm1rf5t2fOrvjd3jcDLpcnpFIH1cQKUHElXYdZMqZiAZIJZlR5vNgeF24t+XqZ5fGxPFo63TgCdGMs00zr0gAnA/e5bXz+p89ZScEgktTQcYiXxzN1IWEt7KlGgNrt2SntKbVRbuTpbxNfy/Bf5KK5VgkQT+1g4oE73szriKIxiE0oZIwyvPKUNrIMj5ohPv+6ECfZK+S1Ux1L3xbhJ7BTDKzCht0qVfvk9fsy7LKTwc+Ik4874PMiUTCqzRVvOy/vLSE8L/cDf7iQipzkLlN6vYa28qZLDsDKwRjt6UIyUxk9wzw3adY7sJIYjg7I8pBpM="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera3",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -33.5,
             "y": 55.0,
@@ -99,14 +99,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkxMzcxNjQwOSwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY4YzE1YWE4NGRkOTlmZWFlMWJiYTZiYTMyODcxOGJjY2FiOTU4MGE4NzExMGM0MWZmMTU1MzhiM2I0OTNjOCIKICAgIH0KICB9Cn0=",
+            "signature": "keG+pBnZkqwYJwrHBsiawjjAZkaiD7dSzUHctbpqj9m4fCDxNVa3zt1MSWtSYo7oZu3+nUACacXEjdpaKA1AsJbK7By5kVfSg+JfRWJb93ac1QcysduOZt6mkhiHj75o0CUKnph/7RPxlgE5ci2AROa2y9GQkWWlEo8I0eykZxlAY+tWVWiMYfFXYK4eHENzhE4XnNS0GJDSJgOCOodFkTSNnI3Co867qpo149ccnGHp9cZUCXJLaPKSYJKnEzYGxBk//Y4UYuqW2NSjMmEPgvjXElmL0D9k9/M+sHaZASgOPNQIOBfODS7lK4HWJWlgV79IuzaMwMQs7HUEu6ohXDw/SVmj+dsOOfL4cIkEUw0SQYHhzHKOCKJ2MTuJrSuw5QF8NbKkJ/2n59RV/d9H7DgKgDvIDkGPo8KiJ0dwY0NuZfB3EPdd+JWUa+d72thvMf8SU3ElW4SgO/TMOZLI99gi9XjsALReBW2+OEz6UivKRBaopm886V7wTquXNyfNqH2TF7jf6YgDPQLnaLJr6+FXmGr4Rh8rsv2gXXm3h1qMmXGVrM1bFhRcVS581roTA9dwG0Ca4ivZawH9JoU3mcrNxdqyfRcOPXEUrUvU6WXp/m9HVa6r5JGRVmMJ/tqgrvPU0tBHwg2yDxRMMfKgUiJEy5x9YeBSJAs2HHmzj70="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera4",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -29.5,
             "y": 55.0,
@@ -115,14 +114,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODgxMzMyNSwKICAicHJvZmlsZUlkIiA6ICI4ODBiZWMwYTE0MmM0YzRlYTJlZjliMTFiMTBkNWNiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmZ2FiIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlODUwNzY1YjlhMzVkOWRjNmQ1M2Y3ZTM1ZjYzODU5NjhjOTc4MDE1MDJjZmFhMmRhNjg3ZjVjYTE2NWQyZWQiCiAgICB9CiAgfQp9",
+            "signature": "xs9WOJU4r4pIMSXv4CvAQjHFqjaz70fSDAqrACQq9i7sWEKNVkSz1KlAxIZ4sU6/1K/zSUGnosaowFUyH8IVM6qOFryueZa2NaKYdCfs1fQEgpdgHgTv2+Uq4ssE/AjHNvXqEFsaIax/Dt+95FvdkZjPclWlTOREWjvkVma2Pv4aiSh6jOINIYc5wmBsmObe3H2ypk9UKHgKU8ETMi96iIDNdYT4NVGt4lLe4nyF0GcdLudRN9C+MDLiJJ2G0pcytJqZq9NpNql5Qv//JItvoFY3o64rouWzz5arzSjM3m2QcV3rZG6rOcIYLovnQtvDluUHoAud3/wbGx8AfNq1SnpPnZ4bhyRDRxFnI/ZS7ssFcONSFRpXSMhPi+q1muUwTRomjor0D6rZA6EVot923cgAvjVlEoDAO3/2e2Nck4pB4EcjelaF3LcNetY4Td810wjbCcA3NsQMy13WnzgZwO119puZjN69s2ZiHUvNjWelbKQSb/RonfJATkGM/rSk5YmYJAOj0K1ySVuJ5Ryd+R3zczVRUJ5f3CWHjz0FNcVAsJHwY5mWGaFx2jTjVenVeWwt7Z5zIwCxS4b8COhKm8l6Wwg507Hb0pyi5k0c2hEJNvSnNk+nOx17iOcw72UnTqmIlH5Ut0KNiOiY7jwKQQP0YIQ1qYhd31qwQ87S5lM="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera5",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -6.5,
             "y": 57.0,
@@ -131,14 +129,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkzODQ5Mjg3NSwKICAicHJvZmlsZUlkIiA6ICIxYWZhZjc2NWI1ZGY0NjA3YmY3ZjY1ZGYzYWIwODhhOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3lfQmxvb2RBbmdlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZTVmODU4NjZhYTU3ZjNiNmQ4MDJlOGYwYzViMTFmYmU1NDNkMTdiZjU4ZDE3ZjMxOWE3N2MxOGI3YjY5MTM2IgogICAgfQogIH0KfQ==",
+            "signature": "axpIIDS2XpoTf0FKknHKl/IB0KND9gsX3HmyqkmdaOyrlD5oFvyMOx9RPDgEBs3RxcptLevJu/lQzS2yV4Kbtu+OnEnl8DNCsRJM5mJwqD6h/2l4NqQyeeV04WyHL/WRH8J77QZ3VVhVpa2sQd9ZEFwE1WJfyX2UV/CNOvpflGsLQbgF4ItmcpeQ6twNnsRlibrbZ5mHBSNlzMzDgBRcSeyhQYBTYx2nZ1Vs4j24G5Gmyj5Z+DnyzfdM4UUDEOkgshzghdNnPxQzFqhmwpmS5YdwalO55AxbrLkHSfN3aKeSPQKQxGDZDQEL4SMpI7Z6oqvhY6xG5yCm1rjqxunYXejYseF05iMhzfA96S7BxlhXClItnn0xPpDJrVsuzu2gSjK9LKX0dSRKDK2MG/+PMlvvhbusrDaginv5wxqB06ojQIH2qD824YfOW7ksTWu9+0/18y3zq5/pMEpsjh8xxpt+Rox2VHyOvzAjucWPskHDDstLmmIR1eV+IJLCRVHef7WKo2kEdXPxkTtS7saKJzFgXL3niBXB5KaqjKzo8NZfFz3ErznTsbfzdVZCG8VXrz2YUdahcbc2LcLbmUmtf/XaIHndJfRp86j5bEAnx9kIuh0RltiGkidVVAQtu5avlAK5Y05QEK/wdllNJQXrOozbaXHIc2WaWoUziJqfJos="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera6",
-        "name": "&3&lStatera Member",
         "location": {
             "x": 71.5,
             "y": 53.0,
@@ -147,13 +144,12 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI0Mjk2NzMxMiwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZDE3NjhkZTI0ZDMxYWE5MmUxYjFkNWI2YWM0ZjFiNGRkOGI4MDZhOGQ3MjI5MjY4NjM4Zjk1ZGZhMzJjMCIKICAgIH0KICB9Cn0=",
+            "signature": "uuCP+6VO/TYmGsXVGuztP/dnmnqQ7k9mEEm2R+bmTWqTVQ1Wkxr51kh60SXbbMeYutEzHcrUArh1Kbt/KgtbsW1gMKTEBLRY7jnkMplDwuGRWC7ZsZYf06FE6eRpUy4jDac7vyyVuGVZOshu7e+lNDAfiQUvSS/ZOE2diF/pAC5LnAJPz68RgIADD7lR9JFH5q2QuX0Gtah2Gh2HQU3dJHZzCKZtct+40ggDt9IBRhYPc28UtcIL/lkEHm5YVgLlVYJfLWJ+Y36lJkQktTFbHkzHrJNxJQ0iYvRzn3Ulr9EbHAZ+rLCg3IQwbuml0SSBRPdxFCqcAbyhqdZmN9SnbOb+EKmu0EeWWUvSKUAisly5Yo0J/bLLGZuA+cDF9jOUWuBSQa3uKUOrXXP6Vx9c/CEJ5wXp+MeD/tv5mQaia3ETKxMwIn77JDZmkMvDjNEhJtT9V+dGR94Qeq9FwAmBkclVHeCL5r1kBoY0DYkK1msLJUS7ukUSvBiwUXDZ1ssEd/oaDgsOsXftucPjyTicslxZOZcstJJkmqqQt1su8KHv0Wmie/PDRWGHvKSSeUa0Z4t0x2kle25rhp5WtlOeMiG0qY4KrFjV0zxjAKS2idujlD0ij9NAXGYdBzJp4yuFOYyLopHVCc6ScDiS7YSLLrXjyuySOWsGO9dzdjwC8z8="
         }
     },
     "CreateEntity": {
         "key": "Statera7",
-        "name": "&3&lStatera Member",
         "location": {
             "x": 71.6,
             "y": 53.0,
@@ -162,13 +158,12 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzM4MzU4NzA4OCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiCiAgICB9CiAgfQp9",
+            "signature": "wMBTNVjE/RKE55/UZDI8TBOW+wZxzico3LNWK4SGaqmJ/6+YLMZyDq9bwwgEgBoUctc7sMuZzY7hdrRaqYO7DZwjJ0jdgDT55dQhvZw99Ci+QhzRxvFYvJ/NfA4XkfaX6zFuaEmD27goO0gsGoqADcGSacggtGZLqbpWsEYROLLBJd8oMqHH8rAkq71zVEYU5DHnfXTXfCIa/0CpGnlX+n0nSEr9WSYOP2075w/aAkI6XJOLIC82SfpjqsJgWuJKjbEPuj5WrtsEfiuhScl79dlcMCBG2qHVS4Ab/k9KBc/0GsZy9V3YXLiVtTg88OouFv29VrSSK7IbaxT1O0Ok50ErOqZzss5M75DyG28dtJH7PHiLYWxPwj3rcLw21BfkSAdmx50orLJDpIlXzRsJQmLlX5HAYT5E62W9gOkDhxnTCW7GyNDfhpAxycIhaMy9R8NPtZq0HtniaQ57AdxI11saRVL0+L7qBpCU6Oze/J2jySeLdFBcLnKnV7u66BmgLjEYG9AuVd4kPOsa0LmvoZDlklQZ7IAQEfg6le1JvgGZevQ6yHpdHnRQUBAzpSfE36FSwaYtSkrgJDGODlC8l8ay9fsr2EszJJPamOD4J2WguYWx2vhpnIYJDFU2icAt93HSMiN8REEOI8qDt28j9gdXYihQZgX1plLFMxwp6iA="
         }
     },
     "CreateEntity": {
         "key": "Statera8",
-        "name": "&3&lStatera Member",
         "location": {
             "x": 71.5,
             "y": 53.0,
@@ -177,13 +172,12 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMTU4NzE1NDMyNCwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjZWI3NzAyMjViZDI2OTZhZTVlM2NiZGI5OTI0NWUzYjk5NzJhYjRiMTU3NWZjYjNlNzAyMmJjZTQ0M2I2MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "D9lwQJpONzQGyMQCkSbkDjsotN864oWpiyUIE1WrTSMQYgvgmLhciJQvpb0l7r0IYmw1kXo5JZTIhPJJMKWIXwwAX+D9RitBPBC0JSjjfmoGiAiyjYxOrbR7GYkbxzZdNKX50VfdB//GidgxuJw8oUXhdlr6TPZztV8hSXJuYf5YHKYqCY0CVuhT9YM1LSTr7Ex8P3kTZQYny7iHBDcCZkTyJxTUzEYDX6UUB//h+j4Gi9WZFvbZvIhCxT5fJmbBA2+l/HPbdXHc7neZ9j6mxxrJh4Zs+wWfolH2hzUG4Ihvr+Id2Fh3/VwsuKV6zu6b4n62E4iKltmDjr/MAxfgBU1hfKLBErFpYu0sMb41HyvYWc41AjB3HSQ5PrmbPjrZh+bXcpwVQpgfDmFXoex21hOz9o9SnTt8riRQ5Sa4r5oR4o6tDH77YKPyWYYF57moHX8kdV9x0pcil4rFH3wgXj3vLhTzgop5SCAV3zS9+eCuxnnnVRFdcHiJCxNOxFzGntR4RuD8bm7dtE0ZtCmIbTM4AfKNfUeHzj2OExXlL6pbhRkVkS1D+CIrZvFb0ZwTivWFJswbPIhKe+nOM4AV3Sh9Kh0X1ZRtcwdlT/8FIcx/gKQXP7VLRZTGbetG3u8uc7i0oGuI/emIdw0JoiLV7WOBuwFllNo/qBrmsaDWExc="
         }
     },
     "CreateEntity": {
         "key": "Statera9",
-        "name": "&3&lStatera Member",
         "location": {
             "x": 72.0,
             "y": 53.0,
@@ -192,13 +186,12 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzExNjQyNjU4MCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZjkxM2Y0N2I4MjQxNWJiYjcwZWM1M2QwMWQwMTg5Y2FkZTExMDMzNGJmZjgzZWZhNDNlOGJjNTc4ZDYyYTVlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+            "signature": "nB5CekhzxsqAZSvS7I5tmNiya/8GAXunMEuAgiIxtcAbrtL+H4QvoM7fjXYp+P88+HLzrHh5ifzweJL5IT/1gJe5aGpO1fOh142Uv7+Cv+cmMu8RL4fVw6fN5BCXAdiNPbZ8Ey+kssKlwFfwxjZleAAq5H62KLRSbWSTvrbANJH2XXxuKcq/f1T/BVIGoM0tgKvdY/QNQJW84rsXs11STK4Jx2YeyaLNksqZkFAvAi1TxQm7hGdA1tmR3TkS04LF2LIzOIDeBfdIZ9o2Ku0sFdSQ/ijr97nmMwkc6AOv1Ie6bGwEjpEvr8HEcFVVPdIO+eVOLRG78sTtQSTgmnRJOkK5Q1lr1kOyd8KZNa6webqXyB/9aGr3Ild4746YdblAfbk0toRedbmiX9y/gAsr+Y8PVMyfl5x9cFcHL1TC5CXMZWx/7/oo4KEx0l9j4e7YHwlgmv5pewS1beoDxyfED4Tk+pii03aBVph9dJnKU7ASfC0cCbMmNp9mBBZEw6LiScXMvsrmC8jiFvlrfrec8A6z5CatUZd2gX5dJrKWMmwzQraqbw15K/xyoazG+OXtfcjikDW5ovkOVE0DqfUGz4Y1SMjjSw4VYk+KtDqkNydbii68C0sDy4G19LW1W+1dYUwvbp5c6CWe6X3Oxrw+DbTbXGf+ToF4gZs7pSl3zqk="
         }
     },
     "CreateEntity": {
         "key": "Statera10",
-        "name": "&3&lStatera Member",
         "location": {
             "x": 74.5,
             "y": 53.0,
@@ -207,13 +200,12 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjMyOTkyNzEzMSwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZhZTEwMWY5YzE5OWUzMmM5ODM3OGU3NmRlODZjZjViNDgxNzk2YjE3MzBiNDNmOTJmMTE0YjY1YmVhNDE3MSIKICAgIH0KICB9Cn0=",
+            "signature": "DUUr83epmnCYH4m6A/YmvNxtVkkwB0zlaIZLyeuJfrHDDWZ5dHY85ay06aLa7WyPwJaOQDex6dTlIOjEd0CN+VuDkZCD06poAi25/uSqOM51pls/WQlZc4Cbby2PVhVfqSXgeazmfiHaKtHSiscP3vvTiDfNCZdsUziXay69kLMwOKjP8N3kF9Qghb3RskPpiB93lzapyscfJpcOuM0MEbf+52xXAK0UCcOTujtFgS9I5zjKzAioyG+Zdhpx6xtvKalbNWK0Yz4qGfa0i3Bi52DkXHWR+pkGSfo9j2ocFeO/P8WU6Qb2mnIuk2/87cJYQx2KXm+0ErGxIYpHCbjvcy/kaV2vAYuqEDsvkT2dW5F4FSaxJ1lYVnth2EexiixySyVWQIhEx9I78YD7oMsiL8uDSF6/P2eM6AmMrBcgBYp21k74YS540P4NWiH0vX1vim1lWL4uiwAIZTKkCvR2X8arTbDiumm2Max0oewbzkDZec0UiYMvKXLciaJJy2eXUWfCpm5ZdBFIt13KwrlnX1F/Of07I4zRyHLD4nhwl3hMLsKlxNMeppajj3/XLg4Rg1co4ueHLcdB16qrKLrLrdZKcJyYhJNcGMF7eDGegRiuK0SFk5Mk+xHZwhahzt4mW6v5ZpC5l+gQ8MGvqkCW0/s0NsYzAf3dQt9NyMq+mY0="
         }
     },
     "CreateEntity": {
         "key": "Tribe1",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -27.5,
             "y": 55.8,
@@ -222,14 +214,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjczOTY5MTIxNCwKICAicHJvZmlsZUlkIiA6ICJiZmIyOTcyMDI4ZTA0YTdhOTk0N2U2YTJkZDc5YzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYWxleCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOTI4ZjAyZmJhMzI4MGIxM2QyMWQxYmE3MjhkODA1Njc1MDgzM2Y5ZWU3ZjM4Nzg5ZTA0MjU3NGJkZGZmYzNlIgogICAgfQogIH0KfQ==",
+            "signature": "oEfYkc6TLXc13zXh/kZR2Vqw41uZb2RUva6bSzehKji85Cje8jeNTqlqRPnSGZkBXGI4dRBlF2ZsAI055v7sxXMUmMtMEgd0HxkzmthhczzkRjNu298f+3ji/OEj0yHMGk/I9xxUaymK8rb8gBc1FXCZN4Lvw6HEhhYCrFQABvIIbqWNxudf0YwJPXaQE/irw4jmyI0qZ/r3FwegPBGoOVD9eDyFQfAADR18t+DpbAvDnGN224f3nm3TkEJo3H4NP+85pF5sDAdRCNSs1i/q0ztweasK6rw5mUUGxJGdWkQ79LybgaHYLWkMvZFBKI1Vkz4nKeBsdk4xWofHZyhejxar+1pM869+RdbXUOIRdfbL3pvls5bJ3NnN0v84QNDVdGMz1Hqz2GmL2j/W7zKJcuA6QkwK745G8lG0FtA42N1c5oQXOWJc1TLELH60KtdIMvZz7SGuBN5ib3G2RLCN+Aof8PdNWbvCxHboaU4ft4p+lkxqHI2mYj9QGfAP2L4Ib5yS++gvH42+28J3L+n39iWCMdvPOd7lW+5XJDzZiyV6HBxuPsL0DwfNY4R4Hk1vyF1PbfKCLmMO6HPBTOD9MK7acJJkVEyv//YMB6pRLSApZCz0Fsu+vJwKqkW/kSs/T6NAyU74erHPArMw4rmS+5VtN9k88I/c4O+dk8nQOsA="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe2",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -32.5,
             "y": 55.0,
@@ -238,14 +229,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe3",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -27.5,
             "y": 55.4,
@@ -254,14 +244,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODc2OTg2NzY1MCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjZhZDE4ZTliNjc1NzU4ZWU0YWQwYzc3YWVjYzYxMWE2NTU2NDAwYTZhYWMxNDA5MGY3YTFkYzFjMjQzMjkwIgogICAgfQogIH0KfQ==",
+            "signature": "v0vvCY3pRML3QbeyQZrduyKhiEUgUS7t9+LVVa0fB7qTOcufDVWWlwEyy4OFe/KQXy8hgJ10BVqCYfEFlCA+RFs+yBuNfMsauCvQr9B+C7GIssdD363jCCsdx5DPiLTKOECnFExsjztKPzav6QfexvcVhMUKa7qTXaZ6G0JhC95VLrtZBSHtPCa6AGz6/feCfbD+jyRNUoU91mNj5O6PlAiEfGIr72r8Dnldy6eNW5K+DErQKSCnRgt8M+FbU4Va0l/y4UQg9OI9U4bsfJY2BPJXto/DNdzCW2JVR9RwogIm2/IXC49vDPsf2mKZmVS7YGMlVYHxWtHeSgRo2MBuUXPElRwbwgRCKpNIuX7c81Se8g6IBf2FU1GKBSN4fq9WPYq5aJzb0pQlOC89NY639JwM9iVlOPh52RfXkZwUzCi5XMdpqjHVmQPO+mqsRLuBrrcAx62pHk7dFCT8u4QcBHi9WoCPQTsUMxvRItn4gD9wgK8nQj8hmmjJ44oRCXo0ZyVZmqH6r/XZR9m7kdw8//lX+/yjLHB+mFcCLNQh9P2rWXEHfcGAlOvabGgNbUFsRj9UveCzLrFNSsILtCQQAT1aeoNb5lt6qw5S3+J6i+ntxU9n5QvVEm7bRPAdq2zHsHLw1jK+mj4HEZZv6ilHz778RcCLOQciYZlc9LO4iO8="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe4",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -9.5,
             "y": 57.0,
@@ -270,14 +259,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzU3MzAzNywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzNDQ0NGNlNTgyYzVkY2E4MTVhNGQ4Zjk0MTY3MDgwMTZiMjBjMjA5MWQ4ZGRmMWY4Yjg1ZDlkYTg3NmUzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "pbyS2IhUMWF67m9D3Wy0v6EFcMH3D93z+995uW9r0PXIDFQP3CcOrB7iPPjPVxAWBVlfTX8dCaPtr6HnuPHHaDw8Tf9y0hFcqDgK8e57gLLaqkKA+S8SsaLsKFKTxY853oJ1hQCqpt3u5s8BMpOdmLwWW20xgB+GjcHsf7D7whGTBQCNANz0LkhYm5oW/PhOFJxMZ8EDEc6awiwL4MkF4xzGqdyDEU9YcdZhv9MW5YGXbUyhxFMUoDam+s24OLlOx0bAyoLvkZr8lGtdpa1WLxB9XdvUV01VFHtH2RWbBLi1kk+pUeUQukT0zeC9K0ZhhlWT5wCbm1pXCKQuGaja2Kchu7z1akFvbB1RrxDA/UQvoKHea+mi2pD+LZPj81N8JT7lfRPAO7EKxjWq0JVG/dtpnXQZE28QBwEBOC3yKHUx46PZ24WPjCI1BSKAHYIgKhgKQOAwz5FJmqXS/BIXiPgYNJARi3AKY2fQwSz4sKIoODbmUt5yJVwg4CKzSO4M06BQ35Fd/3ypaujUlcS4JeJR9C+wFg0QI/3KwGZVVzztRxdzlSHGX5QBB2Iqc26j/B8AxsN7h13o3s/XpOJIMl5FpUkhr/TkYwjBFfasXxIYomh+YvgFR/LMaAJOM6hErFqzvP9ITwzlneBI6rEkD65otpPe9/ppMSyOSH8xGd4="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe5",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -16.5,
             "y": 56.0,
@@ -286,8 +274,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
         },
         "look": false
     },
@@ -886,7 +874,10 @@
     },
     "CreateEntity": {
         "key": "Police1",
-        "name": "&9&lOfficer Jen",
+        "name": [
+            "&9&lStan",
+            "&7Police officer"
+        ],
         "location": {
             "x": 60.5,
             "y": 53.0,
@@ -895,14 +886,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjgwMDYwNDgwNiwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE4NGRhZmVmZGQxZjcxOGM2ZWRhOWFjMjM2ZWUzYWRlMWMxNWRiYTg4ZmI1MDVhZmJkMzM1ODk1OGQ5ZjY1ZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "hfjCiJy6HES/PA2w1FR+Xvy0FQ7lsUHpF7nRXDCoEpaR2KPAl+LPQdtglg9+f9SEp8AboPSC3c6kzmQwwlKYxYst0yUWLDzeuoogSGSGPzC0jFXWqbUAVXgfcyibhxwiXqbnmuA7H4x29KdP3BFFhUqxdVLRsNDM1qNulhHeFu4Z/Sc3il4kzM/NSedxNYpiB/lXHnnK61cKTQyfIdPvjq7jRU3hX4+1WQBRMlUuC4z009vb71lSEnMDCp6K73muNWujQxXn2dp06gkCc6Cg4OQeSOdcWajWmBryts3A9DUruDCQAHRIt+fXOR+RYW9i5SDv19dT0goX1OiDNX7AjCbAKWL+bmEyFcgIfpR4Ohgd871jye3dcmQPi2dRD/XM9gctr9ZNfoqA0j6ohtNiAq0IVA7JrnVUErxg3MgLGa2E2RMmrrJ5BThx+eiVw/CISwIxoLdBGxr9LgatdKO4Nt75LfvRM/pAswBP3C5xAVn9146I5qKdBMGi00q7YIINJuarHpCmx0q6mJc/e0UTfqdJaIRONzGMOIpWsrnFAbGA4jEywkw0uebVTnrANCyr6MbeMO9YCg0GRTw/D8r+HTRmtcSzKNWzbkieHuaseAJhmCWlsWaAfHrHyMR2K5fuWbmuHbJncbwG+WTG5/Qk8lh74hPyiWEYPiU2q1QGKmY="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Police2",
-        "name": "&9&lPolice Officer",
+        "name": [
+            "&9&lJen",
+            "&7Police officer"
+        ],
         "location": {
             "x": 62.5,
             "y": 53.0,
@@ -911,14 +905,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTk2NDY4OTEzNSwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmNDA3YTUwYzgxYjI3MjA4YTk4ZTJkMGYwN2FiZDU3YzQ0YjlmYmZjYTRiZjgzZTQyYjQ4NjcxNWVmZjZmMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "gmqr+BFyNlL1VqICYdNOX4ay4gNNG8Ufd2ZjlQY7YpaPcftA5xnepH/UzXJRSYK9qzKDzv3rZtD1fomKdzwFapVeAh96bhSyVANVpshwg3V4G/oE+ujcpEvt1ad1JAfKBWuPPh9kAFneJnsy/sDGZSwjBkF0dQyW7mEfq6UARZKsDUMOPpkK6qpnu7jLE27Ycn7+MLPNBzLKO4mllQdF3xoehiAtyCQ7Vnp5IKmows4AYeeR31rTvQCJBWbAy9vAcJXnYoV+DaqaTF0devtrVs7nRTBSfa2o/bRyo4r+2C2cDmhBFNtYW+bj7ZdtvSNCVoIyYefOWFAJtNMaiE3Cei2I6HaxwuD8ewNjAgaMVSiyfMCl22ik4mS8lb1NAtW3TRIwaD/FYdb6Snl6eNcr9a+DiDMuFeZDetATOmF/6TFLnWpOZHWWFyrA1xGZMD3r+KDdhmP2MxSd61py5UDn0f6xwqU+w5bK0W9Twmk9rQEeJqE0xuxhO46vGPTU6jJauyHmg7LQfMdAJFGSYw32WD987/i9OTQE3I5AHzSk7WpU/rAAO9NwalMaY/Qg7mnsx81yEIamHjcL8/3ON1N16kT+nJ/EomWRaVs+CqZq5YLh7q8xCf8IQIaY+aJ1Dux8mikIYw3YrQzflizUSf4WfSCZ2h89Zx9DcNlVkhSqeVY="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Police3",
-        "name": "&9&lPolice Officer",
+        "name": [
+            "&6&lHolmes",
+            "&7Detective"
+        ],
         "location": {
             "x": 63.5,
             "y": 53.0,
@@ -927,14 +924,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzOTkxMDg3OTA2MCwKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FhM2JiODkyNzBhNWMxNDViNTViMThmMzBlZjdjNTAxNjIzZThiM2M0MTQwZjQzOTY5MzMwZmUyMzE1NGVmNzQiCiAgICB9CiAgfQp9",
+            "signature": "tIinWR6uC9hriurkwm8a5UGX7gi680H/H1xB9m3igiFIO0PG0VvWfm7IBfgIkc4sr9qCkg/cD8jd3GQDrAEllm2EZS4pKhKHafRRD6tcclIf3HdeFpI6QICmHHcHqls8ElLTjZg4M1kH9L2jmbqHoIi/wVwbwLPDbTQr5SS0aAhiH9fAeztyNC+UtidKau1OpEEL0twZReNEpSJ933GCjgNo5q0Jafqonj2s6HYFB5OY0whxrB5IXC/QZtuRdxEjUYNYudvrbmSbkfhhfnSLXmKr8ml1vLdRpWi5Pt2mcb8wiBxVpPe+TFPimAx4MnIUl8PeTdkVPu8LiUQDGcsVfSI6e4S1A6Efa1TOsLsfjv8qGjMvCx3uYp/kqihystuwejvE0zoN70g/awwYdJMtludqoiYYhauEGsRMDaoScgisT6OY7spVW8UwYHSeS4+irJOfBqWhIZb4SQ1/cr1elNBuiyALhfiX/uxNEQEeWfuothkyZE2AdMcsJZm26H2JwtarR58V6hEHGc+P/HWKAy+HfU+dyCOBYx9SVAVwwC+xssMFKr9Rt9ctK5Z8JgRLWa9nBHQLUJdYgtnMYroI+QWgnuv4W6gmFfIpAkvU6ifOf74HJkmd3w/Fk9NiSShO9gbwKQdVVY0kjYwSiy1Hf28b8HO8KXmE2WKvnUj2BjA="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Police4",
-        "name": "&9&lPolice Officer",
+        "name": [
+            "&9&lBuster",
+            "&7Police officer"
+        ],
         "location": {
             "x": 67.5,
             "y": 53.0,
@@ -943,14 +943,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjM0NDY4MjExOSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMDkxNGYxMmE2MWNkZjY4NDA3YmZlNGJiZWZhN2M0YjZjODk1MGE0ZTczNGY3ODg1YjVjZTBmMDliMWZkOTBiIgogICAgfQogIH0KfQ==",
+            "signature": "Q0bw065cWtTBduDfUwiesDXnhGFsFyvDv0cbPgXCte0iNu5Jw+dVfXXTrb5YxttuIrbNk05TEfw9W/G+psQs8xEnv9CfJP7cH1T3IP1L9LGHfoswf3W1akGW0y7tOP9m4eD0iaHuvYAqIoAiEfgZEAD8DmZF2LttgQTsFTT93bdfggd1qh1yHz5ClfNbmKp06H8I8TfUJGrvV0JwyPUSg9pkr5kmgc0Bl7H4Lm2Bu3vn/6mob9jyIenNabXTkeu7Ddnl+EYyEkAQjmSApkuwJLW8JIWXDzpnvVUxh8uSMwgu6X+ClIDcnd7jYCbRH5OrQyheCkJnpWfJTMbvwmlxczpN2znHVWmtdwnHrMoA4ZM8NwdJ3Yzao4v7YtKons6LQuxnuh1LBtSLzOnrNhxe5U7FGhM73mAnf6ir2xwsp6oaGvUHhzI3lQrjg0F+vM0lFFnDDGtn4Fd7p6j4Qo6jgPDXbTpsh2qs+/rYyrvL+q/C1GMhhx/M+8XjQleK35v+CYTa6s618rssxNqkpWVyyUsgWZleh8lb3dBUiBWEGRyYennlGnJUPlwZcZ/Pz2xzf5gah6L3exD67XFxSmFiEg3pdh5QJIZwlvN+A+0K/EkGN3p9pjud5XdWzRX+9wztV6uebRtTg0Hkb2+RDMsJFrQbZXo2iyFbmkaloxeqhk8="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Police5",
-        "name": "&9&lPolice Officer",
+        "name": [
+            "&9&lKelly",
+            "&7Police officer"
+        ],
         "location": {
             "x": 67.5,
             "y": 53.0,
@@ -959,8 +962,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxODM0MDgzOTcxOSwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZDFlOTk3OTU5ZjFiM2Q4NzVkMDFiNDc3ZTIzYzU0NzY5ZTEyNjE5OGZlNDlmNzFiNTM0MzRiMWE0NTYzYzdhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+            "signature": "OOKYG8AGVuK0zzknGh4rsjLQGQ18M8Rl01tCQfn264bKMW+FWYMckvixfrxLlr/szob4AiZfG7JLWhofOS6KwAdrzizjYo7IpemqOKLXe3oKIRi86vupUwi9tosXeZGsK6qZJA/dk7QY7SkLsJ40KpIHYoARRPzP+LvkuVGtaJp2Bg8SI7Z5FUnB4Htd/xxsb351G1GscY58Ijka6fo44V4gNSdbDGcgUE6bOYvuvhGDgmnFLHyPK6JAwzwKPVWqzkmL5A+PUVzYR3jLC/g6nVinM5AnPywuIECiNTCvStWl4qcOWWNkfvCiMIsd+qngLETcE4G/TWBpeJu3P1D8KJsmWxNz2jJ90lzSSkWI0P28GyNU5aasFTJ4gWDcVfZIePQDiFZHSHnGTITTLQX64rZsI3O5T/gLV93OAv18Ug4GRlKKrNB0x9xZotep7aPvMBBKM7fOac0mFKROD2a4oAw/zzf5t0OzYj7z4vS/iA9fkRijMLbF9JFoPp4hJ8CS61CTGX7GMMbH6mx17QnK4bHAIHzMCB05+l3AigTf00281MPVMHxrxjxffH5xQ5htDTy6RpSqdJ7D3218mO0Zyp3MqBXgwa8acYW/QKQ/G8Ys8NPblts4GcxfAOiC6EgHybk9jL7LmlYDLlRkd8lJGRmseEUOi0R6g6FM6LGUF74="
         },
         "look": false
     },
