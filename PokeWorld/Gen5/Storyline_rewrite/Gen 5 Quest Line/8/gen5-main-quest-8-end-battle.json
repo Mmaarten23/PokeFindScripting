@@ -26,5 +26,9 @@
         260.0
     ],
     "StopCinematic": [],
-    "Teleport": [-64.2,55.5,-751.5, -90, 0]
+    "Teleport": [-64.2,55.5,-751.5, -90, 0],
+    "If": [],
+    "In":  "gen5_main_quest_8_statera",
+    "Progress": "gen5_main_quest_8_statera",
+    "Dummy": []
 }

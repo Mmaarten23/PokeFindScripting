@@ -1439,13 +1439,13 @@
     "StrikeLightning": [-26.0, 55.8, -752.0],
     "Wait": 5,
     "StrikeLightning": [-26.0, 55.8, -752.0],
-    "Wait": 2.5,
+    "Wait": 2,
     "StrikeLightning": [-26.0, 55.8, -752.0],
-    "Wait": 2.5,
+    "Wait": 2,
     "StrikeLightning": [-26.0, 55.8, -752.0],
-    "Wait": 2.5,
+    "Wait": 2,
     "StrikeLightning": [-26.0, 55.8, -752.0],
-    "Wait": 2.5,
+    "Wait": 2,
     "StrikeLightning": [-26.0, 55.8, -752.0],
 
 
@@ -1457,9 +1457,9 @@
         }, 1, true, false
     ],
 
-    "SendMessage": "holding",
     "Hold": [],
 
+    "Leave": "song_end_battle",
     "Dialog": [
         {
             "[PLAYER]": "There's no way I'm letting them get away with this!"
