@@ -16,6 +16,7 @@
     "Wait": 1,
     "Cinematic": [],
     "Look": ["camera", "center"],
+    "MoveEntity": ["camera", -51.5, 59.0, -752.5, 0.1, false],
     "MoveEntityCircle": [
         "camera",
         -33.5, 60.0, -748.5,
