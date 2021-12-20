@@ -108,7 +108,7 @@
         "key": "Statera3_dead",
         "location": {
             "x": -33.5,
-            "y": 55.0,
+            "y": 55.2,
             "z": -743.5,
             "yaw": 308,
             "pitch": 0
@@ -1390,11 +1390,17 @@
             "[PLAYER]": "&oSophro has lured us into a trap, how could we fall for this?"
         }, 1, true, false
     ],
-    "Wait": 3.0,
+    "Wait": 1.0,
     "EntityLook": ["Statera_Leader2", "Beartic1"],
     "Wait": 2.0,
     "EntityLook": ["Statera_Leader2", "Audino1"],
-    "Wait": 5.0,
+    "Wait": 2.0,
+    "EntityLook": ["Statera_Leader2", "Emboar1"],
+    "Wait": 2.0,
+    "EntityLook": ["Statera_Leader2", "Mienshao1"],
+    "Wait": 2.0,
+    "EntityLook": ["Statera_Leader2", "Liepard1"],
+    "Wait": 2.0,
     "MoveEntity": ["Samurott1", -32.9, 55.0, -743.2, 2.0, false],
     "Wait": 1,
     "TeleportEntity": ["Samurott1", -29.5, 55.0, -740.5],
