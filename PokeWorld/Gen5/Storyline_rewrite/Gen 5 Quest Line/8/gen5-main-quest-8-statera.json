@@ -238,10 +238,10 @@
     "CreateEntity": {
         "key": "Tribe2",
         "location": {
-            "x": -32.5,
+            "x": -38.7,
             "y": 55.0,
-            "z": -738.5,
-            "yaw": 164,
+            "z": -750.0,
+            "yaw": 101,
             "pitch": 0
         },
         "skin": {
@@ -1373,6 +1373,7 @@
     "TeleportEntity": ["Liepard1", -56.5, 61.0, -755.9],
     "TeleportEntity": ["Audino1", -55.7, 55.5, -750.2],
     "TeleportEntity": ["Mienshao1", -49.0, 53.9, -735.8],
+    "TeleportEntity": ["Tribe2", -32.5, 55.0, -738.5, 164],
     "ProgressiveMoveEntity": ["Emboar1", -41.5, 55.0, -751.5, 0.05, false],
     "Wait": 4,
     "ProgressiveMoveEntity": ["Beartic1", -43.5, 55.0, -748.5, 0.03, false],
@@ -1400,26 +1401,27 @@
     "EntityLook": ["Statera_Leader2", "Mienshao1"],
     "Wait": 2.0,
     "EntityLook": ["Statera_Leader2", "Liepard1"],
-    "Wait": 2.0,
+    "Wait": 5.0,
     "MoveEntity": ["Samurott1", -32.9, 55.0, -743.2, 2.0, false],
     "Wait": 1,
-    "TeleportEntity": ["Samurott1", -29.5, 55.0, -740.5],
+    "TeleportEntity": ["Samurott1", -29.5, 55.0, -740.5, 133],
     "AnimateEntity": ["Statera3", "Damage"],
     "Wait": 10,
     "MoveEntity": ["Throh1", -32.9, 55.0, -743.2, 2.0, false],
     "Wait": 1,
-    "TeleportEntity": ["Throh1", -30.5, 55.0, -738.5],
-    "Wait": 10,
+    "TeleportEntity": ["Throh1", -30.5, 55.0, -738.5, 150],
     "AnimateEntity": ["Statera3", "Damage"],
+    "Wait": 10,
     "MoveEntity": ["Samurott1", -32.9, 55.0, -743.2, 2.0, false],
     "Wait": 1,
-    "TeleportEntity": ["Samurott1", -29.5, 55.0, -740.5],
+    "TeleportEntity": ["Samurott1", -29.5, 55.0, -740.5, 133],
     "AnimateEntity": ["Statera3", "Damage"],
     "Wait": 3,
     "Show": {
         "Statera3": false,
         "Statera3_dead": true
     },
+    "MoveEntity": ["Tribe2", -38.7, 55.0, -750.0],
 
 
 
