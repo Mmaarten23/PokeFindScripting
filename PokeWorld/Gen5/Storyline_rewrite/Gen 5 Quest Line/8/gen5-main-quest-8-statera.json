@@ -105,6 +105,22 @@
         "look": false
     },
     "CreateEntity": {
+        "key": "Statera3_dead",
+        "location": {
+            "x": -33.5,
+            "y": 55.0,
+            "z": -743.5,
+            "yaw": 308,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkxMzcxNjQwOSwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY4YzE1YWE4NGRkOTlmZWFlMWJiYTZiYTMyODcxOGJjY2FiOTU4MGE4NzExMGM0MWZmMTU1MzhiM2I0OTNjOCIKICAgIH0KICB9Cn0=",
+            "signature": "keG+pBnZkqwYJwrHBsiawjjAZkaiD7dSzUHctbpqj9m4fCDxNVa3zt1MSWtSYo7oZu3+nUACacXEjdpaKA1AsJbK7By5kVfSg+JfRWJb93ac1QcysduOZt6mkhiHj75o0CUKnph/7RPxlgE5ci2AROa2y9GQkWWlEo8I0eykZxlAY+tWVWiMYfFXYK4eHENzhE4XnNS0GJDSJgOCOodFkTSNnI3Co867qpo149ccnGHp9cZUCXJLaPKSYJKnEzYGxBk//Y4UYuqW2NSjMmEPgvjXElmL0D9k9/M+sHaZASgOPNQIOBfODS7lK4HWJWlgV79IuzaMwMQs7HUEu6ohXDw/SVmj+dsOOfL4cIkEUw0SQYHhzHKOCKJ2MTuJrSuw5QF8NbKkJ/2n59RV/d9H7DgKgDvIDkGPo8KiJ0dwY0NuZfB3EPdd+JWUa+d72thvMf8SU3ElW4SgO/TMOZLI99gi9XjsALReBW2+OEz6UivKRBaopm886V7wTquXNyfNqH2TF7jf6YgDPQLnaLJr6+FXmGr4Rh8rsv2gXXm3h1qMmXGVrM1bFhRcVS581roTA9dwG0Ca4ivZawH9JoU3mcrNxdqyfRcOPXEUrUvU6WXp/m9HVa6r5JGRVmMJ/tqgrvPU0tBHwg2yDxRMMfKgUiJEy5x9YeBSJAs2HHmzj70="
+        },
+        "look": false,
+        "sleeping": true
+    },
+    "CreateEntity": {
         "key": "Statera4",
         "location": {
             "x": -29.5,
@@ -1002,6 +1018,7 @@
         "Statera1": false,
         "Statera2": false,
         "Statera3": false,
+        "Statera3_dead": false,
         "Statera4": false,
         "Statera5": false,
         "Statera6": false,
@@ -1288,6 +1305,7 @@
         "Statera1": true,
         "Statera2": true,
         "Statera3": true,
+        "Statera3_dead": false,
         "Statera4": true,
         "Statera5": true,
         "Tribe1": true,
@@ -1376,7 +1394,28 @@
     "EntityLook": ["Statera_Leader2", "Beartic1"],
     "Wait": 2.0,
     "EntityLook": ["Statera_Leader2", "Audino1"],
-    "Wait": 2.0,
+    "Wait": 5.0,
+    "MoveEntity": ["Samurott1", -32.9, 55.0, -743.2, 2.0, false],
+    "Wait": 1,
+    "TeleportEntity": ["Samurott1", -29.5, 55.0, -740.5],
+    "AnimateEntity": ["Statera3", "Damage"],
+    "Wait": 10,
+    "MoveEntity": ["Throh1", -32.9, 55.0, -743.2, 2.0, false],
+    "Wait": 1,
+    "TeleportEntity": ["Throh1", -30.5, 55.0, -738.5],
+    "Wait": 10,
+    "AnimateEntity": ["Statera3", "Damage"],
+    "MoveEntity": ["Samurott1", -32.9, 55.0, -743.2, 2.0, false],
+    "Wait": 1,
+    "TeleportEntity": ["Samurott1", -29.5, 55.0, -740.5],
+    "AnimateEntity": ["Statera3", "Damage"],
+    "Wait": 3,
+    "Show": {
+        "Statera3": false,
+        "Statera3_dead": true
+    },
+
+
 
     "Wait": 20,
     "NewDialog": [
