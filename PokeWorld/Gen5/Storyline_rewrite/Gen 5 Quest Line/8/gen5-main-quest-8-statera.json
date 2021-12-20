@@ -1349,7 +1349,7 @@
         }, 90, true, false
     ],
     "Wait": 120,
-    "Start": "end_battle",
+    "Start": "gen5_main_quest_8_end_battle",
     "TeleportEntity": ["Emboar1", -35.9, 55.1, -751.7],
     "TeleportEntity": ["Beartic1", -39.5, 55.0, -742.4],
     "TeleportEntity": ["Liepard1", -56.5, 61.0, -755.9],
@@ -1366,14 +1366,17 @@
     "ProgressiveMoveEntity": ["Mienshao1", -43.5, 55.0, -745.5, 0.04, false],
     "Wait": 4,
     "EntityLook": ["Statera_Leader2", "Liepard1"],
-    "Wait": 2.0,
-    "EntityLook": ["Statera_Leader2", "Beartic1"],
-    "Wait": 20,
+    "Wait": 1.0,
     "NewDialog": [
         {
             "[PLAYER]": "&oSophro has lured us into a trap, how could we fall for this?"
         }, 1, true, false
     ],
+    "EntityLook": ["Statera_Leader2", "Beartic1"],
+    "Wait": 1.0,
+    "EntityLook": ["Statera_Leader2", "Audino1"],
+    "Wait": 1.0,
+
     "Wait": 20,
     "NewDialog": [
         {
