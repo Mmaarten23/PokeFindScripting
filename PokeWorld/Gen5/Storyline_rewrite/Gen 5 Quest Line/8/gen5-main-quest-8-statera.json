@@ -1389,7 +1389,7 @@
     "Wait": 1.0,
     "NewDialog": [
         {
-            "[PLAYER]": "&oSophro has lured us into a trap, how could we fall for this?"
+            "[PLAYER]": "&oThe Pokémon are attacking my colleagues..."
         }, 1, true, false
     ],
     "Wait": 1.0,
@@ -1425,7 +1425,7 @@
     "Wait": 10,
     "NewDialog": [
         {
-            "[PLAYER]": "&oThe Pokémon are attacking my colleagues..."
+            "[PLAYER]": "&oSophro has lured us into a trap, how could we fall for this?"
         }, 1, true, false
     ],
     "ProgressiveMoveEntity": ["Tribe2", -38.7, 55.0, -750.0],
@@ -1448,15 +1448,12 @@
     "Wait": 2,
     "StrikeLightning": [-26.0, 55.8, -752.0],
 
-
-
     "Wait": 20,
     "NewDialog": [
         {
             "[PLAYER]": "&o&lTHIS MEANS WAR!"
         }, 1, true, false
     ],
-
     "Hold": [],
 
     "Leave": "song_end_battle",
