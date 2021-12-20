@@ -1368,6 +1368,7 @@
     ],
     "Wait": 120,
     "Start": "gen5_main_quest_8_end_battle",
+    "Start": "song_end_battle",
     "TeleportEntity": ["Emboar1", -35.9, 55.1, -751.7],
     "TeleportEntity": ["Beartic1", -39.5, 55.0, -742.4],
     "TeleportEntity": ["Mandibuzz1", -56.5, 61.0, -755.9],

@@ -15,5 +15,6 @@
     "Comment": "Music",
     "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Songs/song-call.json",
     "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Songs/song-countdown.json",
-    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Songs/song-statera-intro.json"
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Songs/song-statera-intro.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Songs/song-end-battle.json"
 }
