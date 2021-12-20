@@ -1333,10 +1333,10 @@
         "Rival1": true
     },
     "RegionEntry": [
-        -56, 54, -687,
-        -56, 61, -695
+        -54, 53, -687,
+        -59, 61, -695
     ],
-    "Wait": 120,
+    "Wait": 60,
     "ProgressiveWall": [-53, 54, -693, -53, 60, -689, -8],
     "RegionEntry": [
         -49, 52, -688,
@@ -1346,10 +1346,47 @@
     "NewDialog": [
         {
             "[PLAYER]": "&oWhat is going on over there???"
-        }
+        }, 90, true, false
     ],
     "Wait": 120,
     "Start": "end_battle",
+    "TeleportEntity": ["Emboar1", -35.9, 55.1, -751.7],
+    "TeleportEntity": ["Beartic1", -39.5, 55.0, -742.4],
+    "TeleportEntity": ["Liepard1", -56.5, 61.0, -755.9],
+    "TeleportEntity": ["Audino1", -55.7, 55.5, -750.2],
+    "TeleportEntity": ["Mienshao1", -49.0, 53.9, -735.8],
+    "ProgressiveMoveEntity": ["Emboar1", -41.5, 55.0, -751.5, 0.01, false],
+    "Wait": 4,
+    "ProgressiveMoveEntity": ["Beartic1", -43.5, 55.0, -748.5, 0.03, false],
+    "Wait": 4,
+    "ProgressiveMoveEntity": ["Liepard1", -48.5, 55.5, -752.5, 0.08, false],
+    "Wait": 4,
+    "ProgressiveMoveEntity": ["Audino1", -48.2, 55.5, -750.5, 0.07, false],
+    "Wait": 4,
+    "ProgressiveMoveEntity": ["Mienshao1", -43.5, 55.0, -745.5, 0.04, false],
+    "Wait": 4,
+    "EntityLook": ["Statera_Leader2", "Liepard1"],
+    "Wait": 2.0,
+    "EntityLook": ["Statera_Leader2", "Beartic1"],
+    "Wait": 20,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oSophro has lured us into a trap, how could we fall for this?"
+        }, 1, true, false
+    ],
+    "Wait": 20,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThe Pokémon are attacking my colleagues..."
+        }, 1, true, false
+    ],
+
+    "Wait": 20,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&o&lTHIS MEANS WAR!"
+        }, 1, true, false
+    ],
 
     "SendMessage": "holding",
     "Hold": [],
@@ -1362,8 +1399,7 @@
     "Wait": [
         20
     ],
-    "Unfreeze": [
-    ],
+    "Unfreeze": [],
     "Objective": ["Battle the Pokémon around the Statera Leader", 34],
     "HighlightClickEntity": [
         "Emboar1"
