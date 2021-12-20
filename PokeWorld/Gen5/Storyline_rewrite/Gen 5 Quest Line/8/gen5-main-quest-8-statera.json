@@ -1355,7 +1355,7 @@
     "TeleportEntity": ["Liepard1", -56.5, 61.0, -755.9],
     "TeleportEntity": ["Audino1", -55.7, 55.5, -750.2],
     "TeleportEntity": ["Mienshao1", -49.0, 53.9, -735.8],
-    "ProgressiveMoveEntity": ["Emboar1", -41.5, 55.0, -751.5, 0.01, false],
+    "ProgressiveMoveEntity": ["Emboar1", -41.5, 55.0, -751.5, 0.05, false],
     "Wait": 4,
     "ProgressiveMoveEntity": ["Beartic1", -43.5, 55.0, -748.5, 0.03, false],
     "Wait": 4,
