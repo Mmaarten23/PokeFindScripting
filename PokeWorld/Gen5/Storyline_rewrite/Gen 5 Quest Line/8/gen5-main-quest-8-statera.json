@@ -1333,37 +1333,27 @@
         "Rival1": true
     },
     "RegionEntry": [
-        -55, 54, -694,
-        -59, 58, -687
+        -56, 54, -687,
+        -56, 61, -695
+    ],
+    "Wait": 120,
+    "ProgressiveWall": [-53, 54, -693, -53, 60, -689, -8],
+    "RegionEntry": [
+        -49, 52, -688,
+        -49, 64, -694
     ],
     "Wait": 20,
-    "ProgressiveWall": [-53, 54, -693, -53, 60, -689, -8],
-    "Freeze": [],
-    "Teleport": [-10.5, 67.0, -762.5, 45, 0],
-    "Look": [
-        "Statera_Leader2"
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oWhat is going on over there???"
+        }
     ],
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Statera1"
-    ],
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Rival1"
-    ],
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Tribe_Leader1"
-    ],
-    "Wait": [
-        20
-    ],
+    "Wait": 120,
+    "Start": "end_battle",
+
+    "SendMessage": "holding",
+    "Hold": [],
+
     "Dialog": [
         {
             "[PLAYER]": "There's no way I'm letting them get away with this!"
@@ -1374,10 +1364,7 @@
     ],
     "Unfreeze": [
     ],
-    "Objective": [
-        "Battle the Pokémon around the Statera Leader",
-        34
-    ],
+    "Objective": ["Battle the Pokémon around the Statera Leader", 34],
     "HighlightClickEntity": [
         "Emboar1"
     ],

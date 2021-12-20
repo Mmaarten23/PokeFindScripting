@@ -1,5 +1,5 @@
 {
-    "Key": "end_battle",
+    "Key": "gen5_main_quest_8_end_battle",
     "Author": "Mmaarten",
 
     "CreateEntity": {
@@ -13,6 +13,7 @@
     },
 
     "Teleport": [-48.7, 59.0, -752.3],
+    "Wait": 1,
     "Cinematic": [],
     "Look": ["camera", "center"],
     "MoveEntityCircle": [
