@@ -1372,10 +1372,11 @@
             "[PLAYER]": "&oSophro has lured us into a trap, how could we fall for this?"
         }, 1, true, false
     ],
+    "Wait": 3.0,
     "EntityLook": ["Statera_Leader2", "Beartic1"],
-    "Wait": 1.0,
+    "Wait": 2.0,
     "EntityLook": ["Statera_Leader2", "Audino1"],
-    "Wait": 1.0,
+    "Wait": 2.0,
 
     "Wait": 20,
     "NewDialog": [
