@@ -1421,16 +1421,24 @@
         "Statera3": false,
         "Statera3_dead": true
     },
-    "MoveEntity": ["Tribe2", -38.7, 55.0, -750.0],
-
-
-
-    "Wait": 20,
+    "Wait": 10,
     "NewDialog": [
         {
             "[PLAYER]": "&oThe Pokémon are attacking my colleagues..."
         }, 1, true, false
     ],
+    "ProgressiveMoveEntity": ["Tribe2", -38.7, 55.0, -750.0],
+    "Wait": 5.0,
+    "Fade": [],
+    "StrikeLightning": [-26.0, 55.8, -752.0],
+    "Wait": 10,
+    "StrikeLightning": [-26.0, 55.8, -752.0],
+    "Wait": 10,
+    "Fade": [],
+    "Wait": 10,
+    "StrikeLightning": [-26.0, 55.8, -752.0],
+
+
 
     "Wait": 20,
     "NewDialog": [
