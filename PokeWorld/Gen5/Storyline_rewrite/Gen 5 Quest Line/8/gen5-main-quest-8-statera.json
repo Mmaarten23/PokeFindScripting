@@ -520,8 +520,8 @@
         "look": false
     },
     "CreateEntity": {
-        "key": "Liepard1",
-        "name": "&8&lLiepard",
+        "key": "Archeops1",
+        "name": "&8&lArcheops",
         "location": {
             "x": -48.5,
             "y": 55.5,
@@ -530,7 +530,7 @@
             "pitch": 0
         },
         "entity": "Armor Stand",
-        "pokemon": "Liepard",
+        "pokemon": "Archeops",
         "look": false
     },
     "CreateEntity": {
@@ -1047,7 +1047,7 @@
         "Stoutland1": false,
         "Audino1": false,
         "Zoroark1": false,
-        "Liepard1": false,
+        "Archeops1": false,
         "Sigilyph1": false,
         "Braviary1": false,
         "Zebstrika1": false,
@@ -1329,7 +1329,7 @@
         "Stoutland1": true,
         "Audino1": true,
         "Zoroark1": true,
-        "Liepard1": true,
+        "Archeops1": true,
         "Sigilyph1": true,
         "Braviary1": true,
         "Zebstrika1": true,
@@ -1370,7 +1370,7 @@
     "Start": "gen5_main_quest_8_end_battle",
     "TeleportEntity": ["Emboar1", -35.9, 55.1, -751.7],
     "TeleportEntity": ["Beartic1", -39.5, 55.0, -742.4],
-    "TeleportEntity": ["Liepard1", -56.5, 61.0, -755.9],
+    "TeleportEntity": ["Archeops1", -56.5, 61.0, -755.9],
     "TeleportEntity": ["Audino1", -55.7, 55.5, -750.2],
     "TeleportEntity": ["Mienshao1", -49.0, 53.9, -735.8],
     "TeleportEntity": ["Tribe2", -32.5, 55.0, -738.5, 164],
@@ -1378,13 +1378,13 @@
     "Wait": 4,
     "ProgressiveMoveEntity": ["Beartic1", -43.5, 55.0, -748.5, 0.03, false],
     "Wait": 4,
-    "ProgressiveMoveEntity": ["Liepard1", -48.5, 55.5, -752.5, 0.08, false],
+    "ProgressiveMoveEntity": ["Archeops1", -48.5, 55.5, -752.5, 0.08, false],
     "Wait": 4,
     "ProgressiveMoveEntity": ["Audino1", -48.2, 55.5, -750.5, 0.07, false],
     "Wait": 4,
     "ProgressiveMoveEntity": ["Mienshao1", -43.5, 55.0, -745.5, 0.04, false],
     "Wait": 4,
-    "EntityLook": ["Statera_Leader2", "Liepard1"],
+    "EntityLook": ["Statera_Leader2", "Archeops1"],
     "Wait": 1.0,
     "NewDialog": [
         {
@@ -1400,7 +1400,7 @@
     "Wait": 2.0,
     "EntityLook": ["Statera_Leader2", "Mienshao1"],
     "Wait": 2.0,
-    "EntityLook": ["Statera_Leader2", "Liepard1"],
+    "EntityLook": ["Statera_Leader2", "Archeops1"],
     "Wait": 5.0,
     "MoveEntity": ["Samurott1", -32.9, 55.0, -743.2, 2.0, false],
     "Wait": 1,
@@ -1630,10 +1630,10 @@
         }
     ],
     "HighlightClickEntity": [
-        "Liepard1"
+        "Archeops1"
     ],
     "Show": {
-        "Liepard1": false
+        "Archeops1": false
     },
     "BattleWildPokemon": [
         -48.5,
@@ -2035,7 +2035,7 @@
         "Stoutland1": false,
         "Audino1": false,
         "Zoroark1": false,
-        "Liepard1": false,
+        "Archeops1": false,
         "Sigilyph1": false,
         "Braviary1": false,
         "Zebstrika1": false,
