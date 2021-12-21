@@ -229,13 +229,12 @@
         "Terrakion1": false,
         "Virizion1": false
     },
-    "SendMessage": "DEBUG: Quest will start upon entering the shrine at Greenholm",
     "RegionEntry": [
         -528, 1, 20,
         -471, 150, 87
     ],
     "HasTrainerLevel": 60,
-    "Completed": ["gen5_main_quest_6_tribe", true, false],
+    "Completed": ["gen5_main_quest_6_tribe", true, ""],
     "Completed": ["gym5", true, false],
     "NotCompleted": false,
     "HasStoryTeam": ["Sophro", false],

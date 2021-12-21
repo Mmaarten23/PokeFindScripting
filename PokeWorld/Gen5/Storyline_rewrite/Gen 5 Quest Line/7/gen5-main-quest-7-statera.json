@@ -11,22 +11,6 @@
     "AddProperty": ["Team", "&3Statera"],
 
     "CreateEntity": {
-        "key": "Happy1",
-        "name": "&3H.A.P.P.Y.",
-        "location": {
-            "x": 73.5,
-            "y": 53.0,
-            "z": 347.5,
-            "yaw": 243,
-            "pitch": 0
-        },
-        "skin": {
-            "texture": "",
-            "signature": ""
-        },
-        "look": false
-    },
-    "CreateEntity": {
         "key": "Statera_Leader1",
         "name": [
             "&8&lVidar",
@@ -459,7 +443,6 @@
     },
 
     "Show": {
-        "Happy1": true,
         "Statera_Leader1": false,
         "Statera_Leader2": false,
         "Zekrom1": false,
@@ -489,7 +472,6 @@
         "broadcast6_leftpokemon": false
     },
     "Quest": true,
-    "HighlightClickEntity": "Happy1",
 
     "Comment": "This script will be started by the H.A.P.P.Y. controller.",
     "HasTrainerLevel": 70,
