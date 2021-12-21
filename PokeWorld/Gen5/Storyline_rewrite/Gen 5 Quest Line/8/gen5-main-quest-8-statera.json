@@ -1489,11 +1489,11 @@
         "Emboar1": false
     },
     "BattleWildPokemon": [
-        -41.5,        55.0,        -751.5,        90,
+        -41.5, 55.0, -751.5, 90,
         [
             {
                 "species": "Emboar",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1511,29 +1511,22 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "It's starting to get dark... but there's still more Pokémon to battle!"
         }
     ],
-    "HighlightClickEntity": [
-        "Mienshao1"
-    ],
+    "HighlightClickEntity": "Mienshao1",
     "Show": {
         "Mienshao1": false
     },
     "BattleWildPokemon": [
-        -43.5,
-        55.0,
-        -745.5,
-        31,
+        -43.5, 55.0, -745.5, 31,
         [
             {
                 "species": "Mienshao",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1551,29 +1544,22 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "My Pokémon are exhausted!"
         }
     ],
-    "HighlightClickEntity": [
-        "Beartic1"
-    ],
+    "HighlightClickEntity": "Beartic1",
     "Show": {
         "Beartic1": false
     },
     "BattleWildPokemon": [
-        -43.5,
-        55.0,
-        -748.5,
-        151,
+        -43.5, 55.0, -748.5, 151,
         [
             {
                 "species": "Beartic",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1591,29 +1577,22 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "I'm exhausted!"
         }
     ],
-    "HighlightClickEntity": [
-        "Audino1"
-    ],
+    "HighlightClickEntity": "Audino1",
     "Show": {
         "Audino1": false
     },
     "BattleWildPokemon": [
-        -48.2,
-        55.5,
-        -750.5,
-        250,
+        -48.2, 55.5, -750.5, 250,
         [
             {
                 "species": "Audino",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1631,29 +1610,22 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "Why are there so many Pokémon!"
         }
     ],
-    "HighlightClickEntity": [
-        "Mandibuzz1"
-    ],
+    "HighlightClickEntity": "Mandibuzz1",
     "Show": {
         "Mandibuzz1": false
     },
     "BattleWildPokemon": [
-        -48.5,
-        55.5,
-        -752.5,
-        293,
+        -48.5, 55.5, -752.5, 293,
         [
             {
                 "species": "Mandibuzz",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1671,21 +1643,16 @@
             }
         ]
     ],
-    "HighlightClickEntity": [
-        "Gigalith1"
-    ],
+    "HighlightClickEntity": "Gigalith1",
     "Show": {
         "Gigalith1": false
     },
     "BattleWildPokemon": [
-        -46.5,
-        57.0,
-        -754.5,
-        343,
+        -46.5, 57.0, -754.5, 343,
         [
             {
                 "species": "Gigalith",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1703,29 +1670,22 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "I've almost saved &8Vidar&r..."
         }
     ],
-    "HighlightClickEntity": [
-        "Cofagrigus1"
-    ],
+    "HighlightClickEntity": "Cofagrigus1",
     "Show": {
         "Cofagrigus1": false
     },
     "BattleWildPokemon": [
-        -46.5,
-        57.2,
-        -748.5,
-        196,
+        -46.5, 57.2, -748.5, 196,
         [
             {
                 "species": "Cofagrigus",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1752,12 +1712,9 @@
     ],
     "Wait": 20,
     "Objective": [
-        "Battle Astrid",
-        6
+        "Battle Astrid", 6
     ],
-    "HighlightClickEntity": [
-        "Tribe_Leader1"
-    ],
+    "HighlightClickEntity": "Tribe_Leader1",
     "AutoBattleNpc": [
         "Tribe_Leader1",
         {
@@ -1781,9 +1738,7 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "&8Vidar&r! You coward! Show your face!",
@@ -1859,7 +1814,7 @@
         [
             {
                 "species": "Kyurem",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1888,7 +1843,7 @@
         [
             {
                 "species": "Virizion",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -1917,7 +1872,7 @@
         [
             {
                 "species": "Terrakion",
-                "level": 100,
+                "level": 1,
                 "moves": [
                     "celebrate"
                 ],
@@ -2130,7 +2085,7 @@
     "GiveTokens": 10,
     "Wait": 40,
     "Fade": [],
-    "Teleport": [638.5,47.9,449.5, -179, -4],
+    "Teleport": [638.5, 47.9, 449.5, -179, -4],
     "Hide": {
         "Professor1": true
     },
