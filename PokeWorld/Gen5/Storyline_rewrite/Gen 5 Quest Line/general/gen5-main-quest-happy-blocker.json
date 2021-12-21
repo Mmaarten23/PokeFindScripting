@@ -1,0 +1,62 @@
+{
+    "Key": "gen5_main_quest_happy_blocker",
+
+    "Author": "Mmaarten",
+
+    "RegionEntry": [
+        72, 53, 329,
+        84, 90, 348
+    ],
+    "If": [],
+        "Completed": "gen5_main_quest_8_statera",
+            "Leave": [],
+            "Dummy": [],
+    "If": [],
+        "Completed": "gen5_main_quest_8_tribe",
+            "Leave": [],
+            "Dummy": [],
+    "If": [],
+        "NotCompleted": "gen5_main_quest_4",
+            "Skip": "check_4",
+            "Dummy": [],
+    "If": [],
+        "NotCompleted": "gen5_main_quest_5",
+            "Leave": [],
+            "Dummy": [],
+    "If": [],
+        "HasStoryTeam": "sophro",
+            "Skip": "tribe",
+            "Dummy": [],
+    "Leave": [],
+
+
+    "Comment": "check_4",
+    "If": [],
+        "NotIn": "gen5_main_quest_4",
+            "Skip": "too_early",
+            "Leave": [],
+    "Leave": [],
+
+
+    "Comment": "too_early",
+    "Teleport": [61.5, 53.0, 337.5, -90],
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y": "Access denied. You do not have the required authorization to enter this building."
+        },
+        1, true, false, "male_normal"
+    ],
+    "SendMessage": "&7&oProgress in the main storyline to unlock this building.",
+    "Leave": [],
+
+    "Comment": "tribe",
+    "Teleport": [61.5, 53.0, 337.5, -90],
+    "NewDialog": [
+        {
+            "&3H.A.P.P.Y": "Access denied. It was your choice to leave us [PLAYER]."
+        },
+        1, true, false, "male_normal"
+    ],
+    "SendMessage": "&7&oYou cannot access this building while a member of the tribe.",
+    "Leave": []
+}
