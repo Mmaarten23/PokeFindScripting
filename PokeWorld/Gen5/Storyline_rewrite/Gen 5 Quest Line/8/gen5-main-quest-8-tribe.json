@@ -1,12 +1,21 @@
 {
     "Key": "gen5_main_quest_8_tribe",
-    "Name": "",
-    "Description": "Talk to Astrid in Greenholm",
+
+    "Author": "Mmaarten",
+    "Name": "&b&lThe Great War",
+    "Description": "It all comes down to this. Now is your time to shine!",
     "AllowRejoining": true,
-    "Icon": "dirt",
+    "Icon": "diamond_sword",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e8"],
+    "AddProperty": ["Team", "&6Sophro"],
+
     "CreateEntity": {
         "key": "Statera_Leader1",
-        "name": "&8&lVidar",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
         "location": {
             "x": -67.5,
             "y": 55.5,
@@ -15,14 +24,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera_Leader2",
-        "name": "&8&lVidar",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
         "location": {
             "x": -41.5,
             "y": 55.0,
@@ -31,8 +43,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
         },
         "look": false
     },
@@ -55,7 +67,6 @@
     },
     "CreateEntity": {
         "key": "Statera1",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -26.5,
             "y": 55.9,
@@ -64,14 +75,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI0Mjk2NzMxMiwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZDE3NjhkZTI0ZDMxYWE5MmUxYjFkNWI2YWM0ZjFiNGRkOGI4MDZhOGQ3MjI5MjY4NjM4Zjk1ZGZhMzJjMCIKICAgIH0KICB9Cn0=",
+            "signature": "uuCP+6VO/TYmGsXVGuztP/dnmnqQ7k9mEEm2R+bmTWqTVQ1Wkxr51kh60SXbbMeYutEzHcrUArh1Kbt/KgtbsW1gMKTEBLRY7jnkMplDwuGRWC7ZsZYf06FE6eRpUy4jDac7vyyVuGVZOshu7e+lNDAfiQUvSS/ZOE2diF/pAC5LnAJPz68RgIADD7lR9JFH5q2QuX0Gtah2Gh2HQU3dJHZzCKZtct+40ggDt9IBRhYPc28UtcIL/lkEHm5YVgLlVYJfLWJ+Y36lJkQktTFbHkzHrJNxJQ0iYvRzn3Ulr9EbHAZ+rLCg3IQwbuml0SSBRPdxFCqcAbyhqdZmN9SnbOb+EKmu0EeWWUvSKUAisly5Yo0J/bLLGZuA+cDF9jOUWuBSQa3uKUOrXXP6Vx9c/CEJ5wXp+MeD/tv5mQaia3ETKxMwIn77JDZmkMvDjNEhJtT9V+dGR94Qeq9FwAmBkclVHeCL5r1kBoY0DYkK1msLJUS7ukUSvBiwUXDZ1ssEd/oaDgsOsXftucPjyTicslxZOZcstJJkmqqQt1su8KHv0Wmie/PDRWGHvKSSeUa0Z4t0x2kle25rhp5WtlOeMiG0qY4KrFjV0zxjAKS2idujlD0ij9NAXGYdBzJp4yuFOYyLopHVCc6ScDiS7YSLLrXjyuySOWsGO9dzdjwC8z8="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera2",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -20.5,
             "y": 56.0,
@@ -80,14 +90,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODc0NzIwMCwKICAicHJvZmlsZUlkIiA6ICI4YjgyM2E1YmU0Njk0YjhiOTE0NmE5MWRhMjk4ZTViNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXBoaXRpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjE0ZTg1YzQ2YTgwMjQwY2VhODcxMDI1NGQ0YjFiNjZjZTNjMGQ0YjBhMjhkN2FjYWM1MzQzOTgwOTM1NWQ3IgogICAgfQogIH0KfQ==",
+            "signature": "yWeXNRwJh0+t3LdCGAXsctati2Tk5Ag17zriep4uiMidmcSn17vPS14Nt7MDs+aYM+hWZ3+XVy0oMCZLrhh8yfu4I/NEcTlHDustG2vVqm0PKWXF3xKmEInz/oMw+yyWYa0LPskVUSCjUoFllfHa5mYboWbx0Qc6S46gM0WTMB9xaV6nx95Og3+3jRZvWG5jNkMBTzq94p1qQqWTKlG8r9oyp4BPLDcVPffWiczUUVXVY2BPgLkJIqusK+HvrEzjclld3VYALWBFaLF5jYENmPJ0SD1mrWzCKB+4T3DCrJjTyPmDpmuy6HXttCXlGdavCs/DpPS3kUNhX7dWaRgCjcANBbFTDTSvVFld6X9rfm1rf5t2fOrvjd3jcDLpcnpFIH1cQKUHElXYdZMqZiAZIJZlR5vNgeF24t+XqZ5fGxPFo63TgCdGMs00zr0gAnA/e5bXz+p89ZScEgktTQcYiXxzN1IWEt7KlGgNrt2SntKbVRbuTpbxNfy/Bf5KK5VgkQT+1g4oE73szriKIxiE0oZIwyvPKUNrIMj5ohPv+6ECfZK+S1Ux1L3xbhJ7BTDKzCht0qVfvk9fsy7LKTwc+Ik4874PMiUTCqzRVvOy/vLSE8L/cDf7iQipzkLlN6vYa28qZLDsDKwRjt6UIyUxk9wzw3adY7sJIYjg7I8pBpM="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera3",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -33.5,
             "y": 55.0,
@@ -96,14 +105,29 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkxMzcxNjQwOSwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY4YzE1YWE4NGRkOTlmZWFlMWJiYTZiYTMyODcxOGJjY2FiOTU4MGE4NzExMGM0MWZmMTU1MzhiM2I0OTNjOCIKICAgIH0KICB9Cn0=",
+            "signature": "keG+pBnZkqwYJwrHBsiawjjAZkaiD7dSzUHctbpqj9m4fCDxNVa3zt1MSWtSYo7oZu3+nUACacXEjdpaKA1AsJbK7By5kVfSg+JfRWJb93ac1QcysduOZt6mkhiHj75o0CUKnph/7RPxlgE5ci2AROa2y9GQkWWlEo8I0eykZxlAY+tWVWiMYfFXYK4eHENzhE4XnNS0GJDSJgOCOodFkTSNnI3Co867qpo149ccnGHp9cZUCXJLaPKSYJKnEzYGxBk//Y4UYuqW2NSjMmEPgvjXElmL0D9k9/M+sHaZASgOPNQIOBfODS7lK4HWJWlgV79IuzaMwMQs7HUEu6ohXDw/SVmj+dsOOfL4cIkEUw0SQYHhzHKOCKJ2MTuJrSuw5QF8NbKkJ/2n59RV/d9H7DgKgDvIDkGPo8KiJ0dwY0NuZfB3EPdd+JWUa+d72thvMf8SU3ElW4SgO/TMOZLI99gi9XjsALReBW2+OEz6UivKRBaopm886V7wTquXNyfNqH2TF7jf6YgDPQLnaLJr6+FXmGr4Rh8rsv2gXXm3h1qMmXGVrM1bFhRcVS581roTA9dwG0Ca4ivZawH9JoU3mcrNxdqyfRcOPXEUrUvU6WXp/m9HVa6r5JGRVmMJ/tqgrvPU0tBHwg2yDxRMMfKgUiJEy5x9YeBSJAs2HHmzj70="
         },
         "look": false
     },
     "CreateEntity": {
+        "key": "Statera3_dead",
+        "location": {
+            "x": -34.5,
+            "y": 55.2,
+            "z": -743.5,
+            "yaw": 308,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkxMzcxNjQwOSwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY4YzE1YWE4NGRkOTlmZWFlMWJiYTZiYTMyODcxOGJjY2FiOTU4MGE4NzExMGM0MWZmMTU1MzhiM2I0OTNjOCIKICAgIH0KICB9Cn0=",
+            "signature": "keG+pBnZkqwYJwrHBsiawjjAZkaiD7dSzUHctbpqj9m4fCDxNVa3zt1MSWtSYo7oZu3+nUACacXEjdpaKA1AsJbK7By5kVfSg+JfRWJb93ac1QcysduOZt6mkhiHj75o0CUKnph/7RPxlgE5ci2AROa2y9GQkWWlEo8I0eykZxlAY+tWVWiMYfFXYK4eHENzhE4XnNS0GJDSJgOCOodFkTSNnI3Co867qpo149ccnGHp9cZUCXJLaPKSYJKnEzYGxBk//Y4UYuqW2NSjMmEPgvjXElmL0D9k9/M+sHaZASgOPNQIOBfODS7lK4HWJWlgV79IuzaMwMQs7HUEu6ohXDw/SVmj+dsOOfL4cIkEUw0SQYHhzHKOCKJ2MTuJrSuw5QF8NbKkJ/2n59RV/d9H7DgKgDvIDkGPo8KiJ0dwY0NuZfB3EPdd+JWUa+d72thvMf8SU3ElW4SgO/TMOZLI99gi9XjsALReBW2+OEz6UivKRBaopm886V7wTquXNyfNqH2TF7jf6YgDPQLnaLJr6+FXmGr4Rh8rsv2gXXm3h1qMmXGVrM1bFhRcVS581roTA9dwG0Ca4ivZawH9JoU3mcrNxdqyfRcOPXEUrUvU6WXp/m9HVa6r5JGRVmMJ/tqgrvPU0tBHwg2yDxRMMfKgUiJEy5x9YeBSJAs2HHmzj70="
+        },
+        "look": false,
+        "sleeping": true
+    },
+    "CreateEntity": {
         "key": "Statera4",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -29.5,
             "y": 55.0,
@@ -112,14 +136,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2ODgxMzMyNSwKICAicHJvZmlsZUlkIiA6ICI4ODBiZWMwYTE0MmM0YzRlYTJlZjliMTFiMTBkNWNiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmZ2FiIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlODUwNzY1YjlhMzVkOWRjNmQ1M2Y3ZTM1ZjYzODU5NjhjOTc4MDE1MDJjZmFhMmRhNjg3ZjVjYTE2NWQyZWQiCiAgICB9CiAgfQp9",
+            "signature": "xs9WOJU4r4pIMSXv4CvAQjHFqjaz70fSDAqrACQq9i7sWEKNVkSz1KlAxIZ4sU6/1K/zSUGnosaowFUyH8IVM6qOFryueZa2NaKYdCfs1fQEgpdgHgTv2+Uq4ssE/AjHNvXqEFsaIax/Dt+95FvdkZjPclWlTOREWjvkVma2Pv4aiSh6jOINIYc5wmBsmObe3H2ypk9UKHgKU8ETMi96iIDNdYT4NVGt4lLe4nyF0GcdLudRN9C+MDLiJJ2G0pcytJqZq9NpNql5Qv//JItvoFY3o64rouWzz5arzSjM3m2QcV3rZG6rOcIYLovnQtvDluUHoAud3/wbGx8AfNq1SnpPnZ4bhyRDRxFnI/ZS7ssFcONSFRpXSMhPi+q1muUwTRomjor0D6rZA6EVot923cgAvjVlEoDAO3/2e2Nck4pB4EcjelaF3LcNetY4Td810wjbCcA3NsQMy13WnzgZwO119puZjN69s2ZiHUvNjWelbKQSb/RonfJATkGM/rSk5YmYJAOj0K1ySVuJ5Ryd+R3zczVRUJ5f3CWHjz0FNcVAsJHwY5mWGaFx2jTjVenVeWwt7Z5zIwCxS4b8COhKm8l6Wwg507Hb0pyi5k0c2hEJNvSnNk+nOx17iOcw72UnTqmIlH5Ut0KNiOiY7jwKQQP0YIQ1qYhd31qwQ87S5lM="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Statera5",
-        "name": "&3&lStatera Member",
         "location": {
             "x": -6.5,
             "y": 57.0,
@@ -128,30 +151,27 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNjkzODQ5Mjg3NSwKICAicHJvZmlsZUlkIiA6ICIxYWZhZjc2NWI1ZGY0NjA3YmY3ZjY1ZGYzYWIwODhhOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3lfQmxvb2RBbmdlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZTVmODU4NjZhYTU3ZjNiNmQ4MDJlOGYwYzViMTFmYmU1NDNkMTdiZjU4ZDE3ZjMxOWE3N2MxOGI3YjY5MTM2IgogICAgfQogIH0KfQ==",
+            "signature": "axpIIDS2XpoTf0FKknHKl/IB0KND9gsX3HmyqkmdaOyrlD5oFvyMOx9RPDgEBs3RxcptLevJu/lQzS2yV4Kbtu+OnEnl8DNCsRJM5mJwqD6h/2l4NqQyeeV04WyHL/WRH8J77QZ3VVhVpa2sQd9ZEFwE1WJfyX2UV/CNOvpflGsLQbgF4ItmcpeQ6twNnsRlibrbZ5mHBSNlzMzDgBRcSeyhQYBTYx2nZ1Vs4j24G5Gmyj5Z+DnyzfdM4UUDEOkgshzghdNnPxQzFqhmwpmS5YdwalO55AxbrLkHSfN3aKeSPQKQxGDZDQEL4SMpI7Z6oqvhY6xG5yCm1rjqxunYXejYseF05iMhzfA96S7BxlhXClItnn0xPpDJrVsuzu2gSjK9LKX0dSRKDK2MG/+PMlvvhbusrDaginv5wxqB06ojQIH2qD824YfOW7ksTWu9+0/18y3zq5/pMEpsjh8xxpt+Rox2VHyOvzAjucWPskHDDstLmmIR1eV+IJLCRVHef7WKo2kEdXPxkTtS7saKJzFgXL3niBXB5KaqjKzo8NZfFz3ErznTsbfzdVZCG8VXrz2YUdahcbc2LcLbmUmtf/XaIHndJfRp86j5bEAnx9kIuh0RltiGkidVVAQtu5avlAK5Y05QEK/wdllNJQXrOozbaXHIc2WaWoUziJqfJos="
         },
         "look": false
     },
     "CreateEntity": {
-        "key": "Tribe1",
-        "name": "&6&lSophro Member",
+        "key": "Statera6",
         "location": {
-            "x": -27.5,
-            "y": 55.8,
-            "z": -752.5,
-            "yaw": 342,
+            "x": 71.5,
+            "y": 53.0,
+            "z": 341.5,
+            "yaw": 113,
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
-        },
-        "look": false
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzI0Mjk2NzMxMiwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZDE3NjhkZTI0ZDMxYWE5MmUxYjFkNWI2YWM0ZjFiNGRkOGI4MDZhOGQ3MjI5MjY4NjM4Zjk1ZGZhMzJjMCIKICAgIH0KICB9Cn0=",
+            "signature": "uuCP+6VO/TYmGsXVGuztP/dnmnqQ7k9mEEm2R+bmTWqTVQ1Wkxr51kh60SXbbMeYutEzHcrUArh1Kbt/KgtbsW1gMKTEBLRY7jnkMplDwuGRWC7ZsZYf06FE6eRpUy4jDac7vyyVuGVZOshu7e+lNDAfiQUvSS/ZOE2diF/pAC5LnAJPz68RgIADD7lR9JFH5q2QuX0Gtah2Gh2HQU3dJHZzCKZtct+40ggDt9IBRhYPc28UtcIL/lkEHm5YVgLlVYJfLWJ+Y36lJkQktTFbHkzHrJNxJQ0iYvRzn3Ulr9EbHAZ+rLCg3IQwbuml0SSBRPdxFCqcAbyhqdZmN9SnbOb+EKmu0EeWWUvSKUAisly5Yo0J/bLLGZuA+cDF9jOUWuBSQa3uKUOrXXP6Vx9c/CEJ5wXp+MeD/tv5mQaia3ETKxMwIn77JDZmkMvDjNEhJtT9V+dGR94Qeq9FwAmBkclVHeCL5r1kBoY0DYkK1msLJUS7ukUSvBiwUXDZ1ssEd/oaDgsOsXftucPjyTicslxZOZcstJJkmqqQt1su8KHv0Wmie/PDRWGHvKSSeUa0Z4t0x2kle25rhp5WtlOeMiG0qY4KrFjV0zxjAKS2idujlD0ij9NAXGYdBzJp4yuFOYyLopHVCc6ScDiS7YSLLrXjyuySOWsGO9dzdjwC8z8="
+        }
     },
     "CreateEntity": {
         "key": "Tribe2",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -32.5,
             "y": 55.0,
@@ -160,14 +180,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe3",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -27.5,
             "y": 55.4,
@@ -176,14 +195,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODc2OTg2NzY1MCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjZhZDE4ZTliNjc1NzU4ZWU0YWQwYzc3YWVjYzYxMWE2NTU2NDAwYTZhYWMxNDA5MGY3YTFkYzFjMjQzMjkwIgogICAgfQogIH0KfQ==",
+            "signature": "v0vvCY3pRML3QbeyQZrduyKhiEUgUS7t9+LVVa0fB7qTOcufDVWWlwEyy4OFe/KQXy8hgJ10BVqCYfEFlCA+RFs+yBuNfMsauCvQr9B+C7GIssdD363jCCsdx5DPiLTKOECnFExsjztKPzav6QfexvcVhMUKa7qTXaZ6G0JhC95VLrtZBSHtPCa6AGz6/feCfbD+jyRNUoU91mNj5O6PlAiEfGIr72r8Dnldy6eNW5K+DErQKSCnRgt8M+FbU4Va0l/y4UQg9OI9U4bsfJY2BPJXto/DNdzCW2JVR9RwogIm2/IXC49vDPsf2mKZmVS7YGMlVYHxWtHeSgRo2MBuUXPElRwbwgRCKpNIuX7c81Se8g6IBf2FU1GKBSN4fq9WPYq5aJzb0pQlOC89NY639JwM9iVlOPh52RfXkZwUzCi5XMdpqjHVmQPO+mqsRLuBrrcAx62pHk7dFCT8u4QcBHi9WoCPQTsUMxvRItn4gD9wgK8nQj8hmmjJ44oRCXo0ZyVZmqH6r/XZR9m7kdw8//lX+/yjLHB+mFcCLNQh9P2rWXEHfcGAlOvabGgNbUFsRj9UveCzLrFNSsILtCQQAT1aeoNb5lt6qw5S3+J6i+ntxU9n5QvVEm7bRPAdq2zHsHLw1jK+mj4HEZZv6ilHz778RcCLOQciYZlc9LO4iO8="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe4",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -9.5,
             "y": 57.0,
@@ -192,14 +210,13 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzU3MzAzNywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzNDQ0NGNlNTgyYzVkY2E4MTVhNGQ4Zjk0MTY3MDgwMTZiMjBjMjA5MWQ4ZGRmMWY4Yjg1ZDlkYTg3NmUzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "pbyS2IhUMWF67m9D3Wy0v6EFcMH3D93z+995uW9r0PXIDFQP3CcOrB7iPPjPVxAWBVlfTX8dCaPtr6HnuPHHaDw8Tf9y0hFcqDgK8e57gLLaqkKA+S8SsaLsKFKTxY853oJ1hQCqpt3u5s8BMpOdmLwWW20xgB+GjcHsf7D7whGTBQCNANz0LkhYm5oW/PhOFJxMZ8EDEc6awiwL4MkF4xzGqdyDEU9YcdZhv9MW5YGXbUyhxFMUoDam+s24OLlOx0bAyoLvkZr8lGtdpa1WLxB9XdvUV01VFHtH2RWbBLi1kk+pUeUQukT0zeC9K0ZhhlWT5wCbm1pXCKQuGaja2Kchu7z1akFvbB1RrxDA/UQvoKHea+mi2pD+LZPj81N8JT7lfRPAO7EKxjWq0JVG/dtpnXQZE28QBwEBOC3yKHUx46PZ24WPjCI1BSKAHYIgKhgKQOAwz5FJmqXS/BIXiPgYNJARi3AKY2fQwSz4sKIoODbmUt5yJVwg4CKzSO4M06BQ35Fd/3ypaujUlcS4JeJR9C+wFg0QI/3KwGZVVzztRxdzlSHGX5QBB2Iqc26j/B8AxsN7h13o3s/XpOJIMl5FpUkhr/TkYwjBFfasXxIYomh+YvgFR/LMaAJOM6hErFqzvP9ITwzlneBI6rEkD65otpPe9/ppMSyOSH8xGd4="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe5",
-        "name": "&6&lSophro Member",
         "location": {
             "x": -16.5,
             "y": 56.0,
@@ -208,8 +225,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTY1NzYyMzY0NywKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNGM4YWJmMDU0OWIzNzJkNWNlZWM4Y2RjZWZkYjkwZTI5MTAxNTdkMzRmNWRlMjEyYzU0OWI0YjBlNWM3NDJlIgogICAgfQogIH0KfQ==",
+            "signature": "cVf6ArApeu11SNTXRC8/g36NhMrQ5fkIxHOFebwsDYziTXyLKDeNVHShDS+dHvzuu2noxzpRy49RLIsRLl76qLaAP3umhpKzKKXTKAK7dMamoNVtmawRJfX10wzowbGUp65YYmYV/O+ibQX1idqrF43CEA+JEOH56vRdtdfXHONH3i6DvbFLWD6MqvqFvhIFF26JKKN56hI2R8ONFbAhINBJZvpbN/aNB0rzBXcIpR5kvOh9sPvgQD4cARBbWHnx31lHe+3rd3T62VHb4lL9DSt8XGPFpbSabKFhu+gi+nKXJGo65+Ae7TeEuBks5JOgNdOaZR6I3vGekWnCUGFjPA0OOeiK25TkXzNUxANsSt+NNaWfwmaLqibR6MkcXg3ZLBql9Lwg9i115KoA/yJqRhSMG/L//7kW1/iv6sXI1RIeuF95ERfantWx5xTy02Ru/vK17RDij1223Gjo+mZyCo7E/+DjZJN/Zf7xTAwBtMZiHoTH+UrJ6r3A9hBj2yH9x5gp/o2UvF0E0gkeo9awjQe8Pe+rR0sxcELEke9w0tWI2ftah7ZEcHNTJiK+wjBqe3gDfubhOmSWOzJHiGY31pWYAh5RVgZpD6w8WbOHp9TPgydULYMHFp92Y7Cv0K4ZCDc67JA/Ba13X9K1X3aOTmOHC8k0Saxxzlkl21je/fE="
         },
         "look": false
     },
@@ -518,8 +535,8 @@
         "look": false
     },
     "CreateEntity": {
-        "key": "Liepard1",
-        "name": "&8&lLiepard",
+        "key": "Mandibuzz1",
+        "name": "&8&lMandibuzz",
         "location": {
             "x": -23.5,
             "y": 54.8,
@@ -528,7 +545,7 @@
             "pitch": 0
         },
         "entity": "Armor Stand",
-        "pokemon": "Liepard",
+        "pokemon": "Mandibuzz",
         "look": false
     },
     "CreateEntity": {
@@ -780,8 +797,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         },
         "look": false
     },
@@ -796,8 +813,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         },
         "look": false
     },
@@ -812,8 +829,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         },
         "look": false
     },
@@ -828,8 +845,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzAwMzgyNjEyNSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0YjBhYzM5YWQzNDE2ZmRiNWVlNmU2ZDY1MDdiMTA1OGNhZjBjM2M5ODE4MTM5ODNiYjQwZTg1ODc1Mzc4YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "MdPEswxi0ppjNzjAq78f7VBAGWFki/fe3UQUX5R7UQRpOC84AhRhBaPeGxVDHwo/Rx6p+O0PR3MFCDrQmG8lbAS+JEXTGRfonsSVX7PCHx4XROXudqjHq2X8uLrSOPdnOLCAiQ3s9HWCbYQ2ZG2yRwy7GajudfeRCJX3Gh6JV/vjPISAtWGBQrdO+fAtQ6TOHkkSOfuUab6Jyor+Xs8gL9eUPoMjAuy6/OZweULYD9eqzQZzixS11PQAFJmcXxY4MKV8DCtmoO/cQ/KAu9EOStrsdZFVuCYdNCVS+gAHUlzqURejeadSk2kIsx+RwbTtzdU7Kg8RAazshAy6rbqfK56ypfuB8fxv8Ek7hx+N4bIrOr0VZkj3GCcKUw3xnGkWqXT+luDSQcmv1tbrUfSJAJFw9zb8vhEdggH+Ux6IIYoFg00m+796QaJGuTjJ7BeVkUm8y7sgyShlXH7tWOZdt2XQb3wmQAPx104xbUxS3B1eb99yndv1w90jS6HuydwEjOOUjFj4sl7oo9kui6Zvow2aEhItH9ibz19Jk26KHjK5cHChtLkmm2pEdacoBz+jxgtwMFcnk9bvqBQ89INX4Qlm4q1Dg+1w5zMSWUPNaM6Ho7WJU4iCptNbsDxZKGuYVWKnT2bDB9mGhaoR80EvXqufpFAE/NiCp6+uDVOcPTw="
         },
         "look": false
     },
@@ -925,7 +942,7 @@
             "yaw": 0,
             "pitch": 0
         },
-        "skin": "professor",
+        "skin": "professor_hemlock",
         "look": false
     },
     "Show": {
@@ -962,7 +979,7 @@
         "Stoutland1": false,
         "Audino1": false,
         "Zoroark1": false,
-        "Liepard1": false,
+        "Mandibuzz1": false,
         "Sigilyph1": false,
         "Braviary1": false,
         "Zebstrika1": false,
@@ -993,40 +1010,182 @@
         "Virizion1": false,
         "Professor1": false
     },
-    "HighlightClickEntity": [
+    "HighlightClickEntity":
         "Tribe_Leader1"
-    ],
-    "Quest": true,
+    ,
     "Dialog": [
         {
             "&e&lAstrid": "Are you ready [PLAYER]? I have a plan. Meet me in the Shrine for Kyurem in Northrun!"
         }
     ],
-    "Wait": [
+    "Wait":
         20
+    ,
+    "Objective": [        "Head to Northrun and enter the Shrine for Kyurem",  4    ],
+    "RegionEntry": [
+        -86, 59, -757,
+        -80, 83, -747
     ],
-    "Objective": [
-        "Head to Northrun and enter the Shrine for Kyurem",
-        4
-    ],
-    "RegionEntry": [-202, 1, -758, -181, 120, -740],
-    "Freeze": [],
     "Dialog": [
         {
-            "[PLAYER]": "Uh oh... Ice mazes..."
+            "[PLAYER]": "&oIf there was ever a Shrine in Northrun... this was it.",
+            "[PLAYER]": "&oSo in here, &3Kyurem&r&o should be in a deep slumber..."
+        }
+    ],
+    "Objective": ["Follow the path to the top", 18],
+    "RegionEntry": [
+        -164, 83, -780,
+        -152, 90, -766
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oSeems like nobody has walked this path in a long time."
+        }
+    ],
+
+    "RegionEntry": [
+        -182, 101, -803,
+        -167, 110, -803
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oHmm, this is quite a hike, I should have brought something to drink."
+        }
+    ],
+
+    "RegionEntry": [
+        -174, 130, -748,
+        -168, 140, -741
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oThis looks more like it."
+        }
+    ],
+
+    "RegionEntry": [
+        -196, 106, -772,
+        -190, 111, -766
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oHmmm, This used to be a door I think...",
+            "[PLAYER]": "&oSeems like it is frozen in place. Maybe I can climb through it though."
+        }
+    ],
+    "RegionEntry": [
+        -196, 106, -748,
+        -190, 114, -748
+    ],
+    "Fade": [],
+    "Teleport": [-171.4, 117.9, -735.8, -90, 90],
+    "Wait": 2,
+    "Freeze": true,
+    "Wait": 10,
+    "Dialog": [
+        {
+            "[PLAYER]": "&oUh oh... a maze??!"
         }
     ],
     "Wait": 20,
-    "Objective": ["Go through the mazes of ice", 4],
-    "Unfreeze": [
+    "Unfreeze": [],
+    "StopCinematic": [],
+    "Fade": [],
+    "Teleport": [-188.5, 104.0, -737.5, -90, 33],
+    "Objective": ["Navigate through the maze of ice", 4],
+
+    "RegionEntry": [
+        -157, 98, -746,
+        -152, 103, -756
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oMy hands are freezing, If only I had some Hot chocolate..."
+        }
+    ],
+    "SetBlocks": [
+        -153, 75, -703,
+        -151, 77, -703,
+        "barrier"
+    ],
+
+    "RegionEntry": [
+        -142, 75, -706,
+        -142, 83, -694
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "&oHmm... This seems like another maze... But what is that?",
+            "[PLAYER]": "&oLooks like this is a timed one. I have only 60 seconds to complete this..."
+        }
+    ],
+
+    "SetBlocks": [
+        -153, 75, -703,
+        -151, 77, -703,
+        "air"
+    ],
+    "Objective": ["Beat the second maze in less than 60 seconds", 10],
+
+    "Comment": "maze",
+    "RegionEntry": [
+        -149, 74, -729,
+        -149, 76, -728
+    ],
+    "If": [],
+    "In": "gen5_main_quest_8_timed_maze",
+    "Skip": "maze_completed",
+    "Dummy": [],
+
+    "NewDialog": [
+        {
+            "&7&lMaze": "Looks like you did not make it in time..."
+        }, 1, true, false
+    ],
+    "Teleport": [-145.7, 74.4, -696.7, 133],
+    "Skip": "maze",
+
+    "Comment": "maze_completed",
+    "Leave": "gen5_main_quest_8_timed_maze",
+    "NewDialog": [
+        {
+            "&7&lMaze": "Hmm... I'll let you go this time..."
+        }, 10, true, false
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oI am getting good at these!",
+            "[PLAYER]": "&3&oKyurem&r &ois waiting for me, I better hurry."
+        }, 90, true, false
+    ],
+    "InRegion": [
+        -172,20,-743,
+        -145,65,-718
+    ],
+    "Start": "gen5_main_quest_8_end_maze",
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oHmm, looks like this is the final maze before I am at &3&oKyurem&r&o's Masterball.",
+            "[PLAYER]": "&oThere is an inscription on the wall here...",
+            "[PLAYER]": "&oNot everything is as it seems... What could that mean?"
+        }, 90, true, false
+    ],
+    "Objective": ["Navigate through the maze of illusions", 3],
+    "RegionEntry": [
+        -240, 50, -804,
+        -240, 52, -803
+    ],
+    "Leave": "gen5_main_quest_8_end_maze",
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oPhew, that took for-ever!",
+            "[PLAYER]": "&oNow I get why no soul has ever tried to wake up &3&oKyurem&r&o!",
+            "[PLAYER]": "&oI feel like I am close though. This bridge looks too majestic."
+        }, 90, true, false
     ],
     "RegionEntry": [
-        -285,
-        1,
-        -730,
-        -319,
-        70,
-        -769
+        -285, 1, -730,
+        -319, 70, -769
     ],
     "Show": {
         "Kyurem1": true,
@@ -1040,29 +1199,18 @@
             "&e&lAstrid": "We will replace it with a dummy Master Ball!"
         }
     ],
-    "Wait": [
+    "Wait":
         20
-    ],
-    "Objective": [
-        "Pick up the Master Ball",
-        52
-    ],
+    ,
+    "Objective": [        "Pick up the Master Ball",        52    ],
     "Show": {
         "Kyurem1": false
     },
-    "PickupItem": [
-        -329.5,
-        52.0,
-        -749.5,
-        "&5&lKyurem Master Ball",
-        "Master Ball"
-    ],
-    "SendMessage": [
-        "&5&l+ Kyurem Master Ball"
-    ],
-    "Wait": [
+    "PickupItem": [        -329.5,        52.0,        -749.5,        "&5&lKyurem Master Ball",        "Master Ball"    ],
+    "SendMessage": [        "&5&l+ Kyurem Master Ball"    ],
+    "Wait":
         20
-    ],
+    ,
     "Dialog": [
         {
             "&e&lAstrid": "Perfect! Now we'll just put this fake Master Ball in it's place!"
@@ -1071,24 +1219,20 @@
     "Show": {
         "Kyurem1": true
     },
-    "Look": [
+    "Look":
         "Kyurem1"
-    ],
-    "Wait": [
+    ,
+    "Wait":
         20
-    ],
+    ,
     "Dialog": [
         {
             "&e&lAstrid": "Now, let's get out of here! There's a path leading out of here to the right of the ice mazes. I'll meet you there."
         }
     ],
     "ProgressiveWall": [
-        -53,
-        54,
-        -693,
-        -53,
-        60,
-        -689,
+        -53,        54,        -693,
+        -53,        60,        -689,
         -8
     ],
     "Show": {
@@ -1105,13 +1249,10 @@
         "Tribe_Leader3": true,
         "Tribe_Leader2": false
     },
-    "Wait": [
+    "Wait":
         20
-    ],
-    "Objective": [
-        "Follow the path out of the Shrine (There's a hidden path to the right of the ice mazes)",
-        51
-    ],
+    ,
+    "Objective": [        "Follow the path out of the Shrine (There's a hidden path to the right of the ice mazes)",        51    ],
     "RegionEntry": [
         -62,
         1,
@@ -1256,7 +1397,7 @@
         "Stoutland1": true,
         "Audino1": true,
         "Zoroark1": true,
-        "Liepard1": true,
+        "Mandibuzz1": true,
         "Sigilyph1": true,
         "Braviary1": true
     },
@@ -1670,7 +1811,7 @@
         "Stoutland1": false,
         "Audino1": false,
         "Zoroark1": false,
-        "Liepard1": false,
+        "Mandibuzz1": false,
         "Sigilyph1": false,
         "Braviary1": false,
         "Zebstrika1": false,

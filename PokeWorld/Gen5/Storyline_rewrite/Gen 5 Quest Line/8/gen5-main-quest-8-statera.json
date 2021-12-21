@@ -1,9 +1,15 @@
 {
     "Key": "gen5_main_quest_8_statera",
-    "Name": "",
-    "Description": "Talk to Vidar inside the Statera HQ in Watterson City",
+
+    "Author": "Mmaarten",
+    "Name": "&b&lThe Great War",
+    "Description": "It all comes down to this. Now is your time to shine!",
     "AllowRejoining": true,
-    "Icon": "dirt",
+    "Icon": "diamond_sword",
+    "Quest": true,
+    "AddProperty": ["Main questline", "&e8"],
+    "AddProperty": ["Team", "&3Statera"],
+
     "CreateEntity": {
         "key": "Statera_Leader1",
         "name": [
@@ -1031,7 +1037,7 @@
         "look": false
     },
     "Show": {
-        "Statera_Leader1": true,
+        "Statera_Leader1": false,
         "Statera_Leader2": false,
         "Statera_Leader3": false,
         "Statera1": false,
@@ -1101,6 +1107,21 @@
         "Player_Pokemon2": false,
         "Pokeball": false
     },
+    "RegionEntry": [
+        71, 76, 348,
+        84, 80, 338
+    ],
+
+    "HasTrainerLevel": 80,
+    "Completed": ["gen5_main_quest_7_statera", ""],
+    "Completed": "gym7",
+    "NotCompleted": false,
+    "HasStoryTeam": "Statera",
+
+    "Show": {
+        "Statera_Leader1": false
+    },
+
     "HighlightClickEntity": "Statera_Leader1",
     "Dialog": [
         {
@@ -1253,9 +1274,9 @@
         }, 90, true, false
     ],
 
-    "RegionEntry": [
-        -146, 53, -724,
-        -146, 57, -718
+    "InRegion": [
+        -172,20,-743,
+        -145,65,-718
     ],
     "Start": "gen5_main_quest_8_end_maze",
     "NewDialog": [
@@ -2119,7 +2140,7 @@
     },
     "Wait": 40,
     "SetTitle": [
-        "&d&lWORK IN PROGRESS",
+        "&b&lThe Great War",
         "&aQuest complete",
         true
     ],
