@@ -1430,13 +1430,17 @@
     ],
     "ProgressiveMoveEntity": ["Tribe2", -38.7, 55.0, -750.0],
     "Wait": 5.0,
-    "StrikeLightning": [-26.0, 55.8, -752.0],
+    "StrikeLightning": [-24.5, 56.0, -747.5],
+    "Explosion": [-25, 56, -748, 2],
     "Wait": 30,
-    "StrikeLightning": [-26.0, 55.8, -752.0],
+    "StrikeLightning": [-22.6, 55.9, -750.5],
+    "Explosion": [-23, 55, -751, 2],
     "Wait": 20,
-    "StrikeLightning": [-26.0, 55.8, -752.0],
+    "StrikeLightning": [-25.5, 55.4, -755.5],
+    "Explosion": [-26, 55, -756, 2],
     "Wait": 10,
-    "StrikeLightning": [-26.0, 55.8, -752.0],
+    "StrikeLightning": [-30.0, 55.6, -753.5],
+    "Explosion": [-30, 55, -754, 2],
     "Wait": 5,
     "StrikeLightning": [-26.0, 55.8, -752.0],
     "Wait": 2,
@@ -1455,8 +1459,9 @@
         }, 1, true, false
     ],
     "Hold": [],
+    "Start": "gen5_main_quest_8_crater_fix",
 
-    "Leave": "song_end_battle",
+
     "Dialog": [
         {
             "[PLAYER]": "There's no way I'm letting them get away with this!"
@@ -1467,9 +1472,8 @@
     ],
     "Unfreeze": [],
     "Objective": ["Battle the Pokémon around the Statera Leader", 34],
-    "HighlightClickEntity": [
-        "Emboar1"
-    ],
+    "HighlightClickEntity": "Emboar1",
+    "Leave": "song_end_battle",
     "Show": {
         "Emboar1": false
     },

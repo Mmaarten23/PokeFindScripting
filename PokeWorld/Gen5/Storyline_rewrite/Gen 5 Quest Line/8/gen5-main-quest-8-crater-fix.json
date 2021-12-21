@@ -1,0 +1,9 @@
+{
+    "Key": "gen5_main_quest_8_crater_fix",
+
+    "SetBlocks": [
+        -35,60,-744,
+        -17,40,-768,
+        "air"
+    ]
+}
