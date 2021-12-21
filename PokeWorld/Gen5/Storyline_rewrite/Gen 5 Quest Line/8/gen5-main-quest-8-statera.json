@@ -1354,7 +1354,7 @@
         -54, 53, -687,
         -59, 61, -695
     ],
-    "Wait": 60,
+    "Wait": 20,
     "ProgressiveWall": [-53, 54, -693, -53, 60, -689, -8],
     "RegionEntry": [
         -49, 52, -688,
@@ -1366,7 +1366,7 @@
             "[PLAYER]": "&oWhat is going on over there???"
         }, 90, true, false
     ],
-    "Wait": 120,
+    "Wait": 80,
     "Start": "gen5_main_quest_8_end_battle",
     "Start": "song_end_battle",
     "TeleportEntity": ["Emboar1", -35.9, 55.1, -751.7],
@@ -1402,7 +1402,13 @@
     "EntityLook": ["Statera_Leader2", "Mienshao1"],
     "Wait": 2.0,
     "EntityLook": ["Statera_Leader2", "Mandibuzz1"],
-    "Wait": 5.0,
+    "Wait": 2.0,
+    "EntityLook": ["Statera_Leader2", "Emboar1"],
+    "Wait": 1.0,
+    "EntityLook": ["Statera_Leader2", "Mandibuzz1"],
+    "Wait": 1.0,
+    "EntityLook": ["Statera_Leader2", "Emboar1"],
+    "Wait": 1.0,
     "MoveEntity": ["Samurott1", -32.9, 55.0, -743.2, 2.0, false],
     "Wait": 1,
     "TeleportEntity": ["Samurott1", -29.5, 55.0, -740.5, 133],
@@ -1471,17 +1477,19 @@
         20
     ],
     "Unfreeze": [],
-    "Objective": ["Battle the Pokémon around the Statera Leader", 34],
-    "HighlightClickEntity": "Emboar1",
+    "Objective": ["Help Vidar fight the Pokémon around him", 34],
+    "GlobalRegionExit": [
+        -72, 77, -715,
+        24, 37, -789
+    ],
     "Leave": "song_end_battle",
+
+    "HighlightClickEntity": "Emboar1",
     "Show": {
         "Emboar1": false
     },
     "BattleWildPokemon": [
-        -41.5,
-        55.0,
-        -751.5,
-        90,
+        -41.5,        55.0,        -751.5,        90,
         [
             {
                 "species": "Emboar",
@@ -1735,17 +1743,14 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
-            "&8&lVidar": "Thank you [PLAYER]! Now go! Battle &eAstrid&r!"
+            "&8&lVidar": "Thank you [PLAYER]! I have faith in you!",
+            "&8&lVidar": "Now go! Battle &eAstrid&r!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Objective": [
         "Battle Astrid",
         6
@@ -1782,35 +1787,29 @@
     "Dialog": [
         {
             "&e&lAstrid": "&8Vidar&r! You coward! Show your face!",
-            "&e&lAstrid": "You're hiding behind your Champion, you're hiding behind your research, you're hiding behind your horde of brain-washed &lEMPLOYEES&r!",
-            "&e&lAstrid": "No one believes in your values, they are only greedy humans! Pokémon should not be controlled &8Vidar&r!",
-            "&e&lAstrid": "We've been over this before... Why must you repeat the past..."
+            "&e&lAstrid": "You're hiding behind your Champion,",
+            "&e&lAstrid": "you're hiding behind your horde of brain-washed &lEMPLOYEES&r!",
+            "&e&lAstrid": "No one believes in your values, they are only greedy humans!",
+            "&e&lAstrid": "Pokémon should not be controlled &8Vidar&r!",
+            "&d&lDanielle": "Hey [PLAYER]!",
+            "&d&lDanielle": "Stop picking on those poor Pokémon and fight someone your own size!"
         }
     ],
-    "Look": [
-        "Rival1"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle Danielle",
-        8
-    ],
-    "HighlightClickEntity": [
-        "Rival1"
-    ],
-    "AutoBattleNpc": [
-        "Rival1",
+    "Wait": 20,
+    "Objective": ["Battle Danielle", 8],
+    "HighlightClickEntity": "Rival1",
+    "Dialog": [
         {
             "&d&lDanielle": "[PLAYER] you've got a lot of nerve siding with the filth.",
             "&d&lDanielle": "I'll make sure you see the error of your ways.",
             "&d&lDanielle": "You've been the Hero far too often to turn out to be the Villain!"
+        }
+    ],
+    "AutoBattleNpc": [
+        "Rival1",
+        {
         },
         {
-            "&d&lDanielle": "You don't understand what's going on at all do you?",
-            "&d&lDanielle": "&3Statera&r manipulated you into believing you were doing the right thing.",
-            "&d&lDanielle": "When in reality... you were fueling the flames of this War."
         },
         {
             "&d&lDanielle": "You will never win this War..."
@@ -1827,44 +1826,36 @@
             }
         ]
     ],
-    "Wait": [
-        20
+    "Dialog": [
+        {
+            "&d&lDanielle": "You don't understand what's going on at all do you?",
+            "&d&lDanielle": "&3Statera&r manipulated you into believing you were doing the right thing.",
+            "&d&lDanielle": "When in reality... you were fueling the flames of this War."
+        }
     ],
+    "Wait": 20,
     "Show": {
         "Virizion1": true,
         "Terrakion1": true,
         "Cobalion1": true,
         "Kyurem2": true
     },
-    "Look": [
-        "Terrakion1"
-    ],
-    "Wait": [
-        20
-    ],
+    "Particle": ["EXPLOSION_LARGE", -37.5, 55.0, -750.5, 100, 10],
+    "Look": "Terrakion1",
+    "Wait": 20,
     "Dialog": [
         {
             "&d&lDanielle": "You may have beaten me but you will NEVER defeat the Swords of Justice and Kyurem!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle the Swords of Justice and Kyurem",
-        35
-    ],
-    "HighlightClickEntity": [
-        "Kyurem2"
-    ],
+    "Wait": 20,
+    "Objective": ["Battle the Swords of Justice and Kyurem", 35],
+    "HighlightClickEntity": "Kyurem2",
     "Show": {
         "Kyurem2": false
     },
     "BattleWildPokemon": [
-        -37.5,
-        55.6,
-        -753.5,
-        76,
+        -37.5, 55.6, -753.5, 76,
         [
             {
                 "species": "Kyurem",
@@ -1888,17 +1879,12 @@
     "Show": {
         "Kyurem2": true
     },
-    "HighlightClickEntity": [
-        "Virizion1"
-    ],
+    "HighlightClickEntity": "Virizion1",
     "Show": {
         "Virizion1": false
     },
     "BattleWildPokemon": [
-        -35.5,
-        55.0,
-        -748.5,
-        110,
+        -35.5, 55.0, -748.5, 110,
         [
             {
                 "species": "Virizion",
@@ -1922,17 +1908,12 @@
     "Show": {
         "Virizion1": true
     },
-    "HighlightClickEntity": [
-        "Terrakion1"
-    ],
+    "HighlightClickEntity": "Terrakion1",
     "Show": {
         "Terrakion1": false
     },
     "BattleWildPokemon": [
-        -37.5,
-        55.0,
-        -750.5,
-        90,
+        -37.5, 55.0, -750.5, 90,
         [
             {
                 "species": "Terrakion",
@@ -1956,42 +1937,21 @@
     "Show": {
         "Terrakion1": true
     },
-    "HighlightClickEntity": [
-        "Cobalion1"
-    ],
-    "PartyPokemonEntity": [
-        -41.5,
-        55.0,
-        -750.5,
-        323,
-        1,
-        100
-    ],
-    "SendMessage": [
-        "&7&lCobalion used Zen Headbutt"
-    ],
-    "Wait": [
-        20
-    ],
-    "PlaySound": [
-        "entity_item_break",
-        0.2,
-        1.0
-    ],
+    "HighlightClickEntity": "Cobalion1",
+    "PartyPokemonEntity": [-41.5, 55.0, -750.5, 323, 1, 100],
+    "SendMessage": "&7&lCobalion used Zen Headbutt",
+    "Wait": 20,
+    "PlaySound": ["entity_item_break", 0.2, 1.0],
     "Show": {
         "Player_Pokemon2": true,
         "Player_Pokemon1": false
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "SendMessage": [
         "&7You're Pokémon has fainted!",
         "&7Battle Over!"
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "[PLAYER]": "I- I don't understand! How could I be defeated?!",
@@ -2000,15 +1960,13 @@
             "&d&lDanielle": "Wait! [PLAYER]!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Statera_Leader2": false,
         "Statera_Leader1": true,
         "Statera1": false,
         "Statera2": false,
-        "Statera3": false,
+        "Statera3_dead": false,
         "Statera4": false,
         "Statera5": false,
         "Statera6": true,
@@ -2056,12 +2014,8 @@
         "Haxorus1": false,
         "Hydreigon1": false
     },
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Rival1"
-    ],
+    "Wait": 20,
+    "Look": "Rival1",
     "Dialog": [
         {
             "&d&lDanielle": "It seems like one of the Swords of Justice wants to go with you...",
@@ -2071,43 +2025,23 @@
             "&d&lDanielle": "Now Scram! Go back to &3Statera&r or face your punishment!"
         }
     ],
-    "Wait": [
-        30
-    ],
-    "RandomOption": [
-        3
-    ],
-    "Start": [
-        "give_cobalion_statera"
-    ],
-    "Start": [
-        "give_virizion_statera"
-    ],
-    "Start": [
-        "give_terrakion_statera"
-    ],
-    "Hold": [
-    ],
+    "Wait": 30,
+    "RandomOption": 3,
+    "Start": "give_cobalion_statera",
+    "Start": "give_virizion_statera",
+    "Start": "give_terrakion_statera",
+    "Hold": [],
     "Show": {
         "Virizion1": false,
         "Terrakion1": false,
         "Cobalion1": false,
         "Kyurem2": false
     },
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Head back to the Statera Headquarters",
-        6
-    ],
+    "Wait": 20,
+    "Objective": ["Head back to the Statera Headquarters", 6],
     "RegionEntry": [
-        51,
-        1,
-        317,
-        97,
-        118,
-        362
+        51, 1, 317,
+        97, 118, 362
     ],
     "Dialog": [
         {
@@ -2117,9 +2051,7 @@
             "&8&lVidar": "This is not the last of me! &0Zekrom&r will return to me, and we will make Zeinova pure once more!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Statera_Leader2": false,
         "Statera_Leader1": false,
@@ -2139,28 +2071,16 @@
         "Police4": false,
         "Police5": false
     },
-    "SendMessage": [
-        "&a&lIncoming Pokécall> From H.A.P.P.Y."
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Type /accept to accept H.A.P.P.Y.'s call",
-        6
-    ],
-    "Command": [
-        "accept"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&a&lConnected"
-    ],
-    "Wait": [
-        20
-    ],
+    "Start": "song_call",
+    "Wait": 10,
+    "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &3H.A.P.P.Y.&r is trying to reach you.\n\n",
+    "SendMessageOptions": ["&aAccept"],
+    "Leave": "song_call",
+    "Wait": 20,
+    "SendMessage": "  &7Connecting...",
+    "Wait": 10,
+    "SendMessage": "  &aConnected!",
+    "Wait": 30,
     "Dialog": [
         {
             "&3H.A.P.P.Y.": "Hey [PLAYER]! H.A.P.P.Y. here! I'm calling you one final time, thank you for everything you've done with and for us. It was a pleasure meeting you! They will be shutting down my program now...",
@@ -2177,24 +2097,17 @@
     "Wait": [
         20
     ],
-    "Objective": [
-        "Visit Professor Hemlock at his lab",
-        10
-    ],
+    "Objective": ["Visit Professor Hemlock at his lab", 10],
     "Show": {
         "Professor1": true
     },
-    "HighlightClickEntity": [
-        "Professor1"
-    ],
+    "HighlightClickEntity": "Professor1",
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "What happened? I received a mass alert from &3Statera&r that all projects are shutting down?"
         }
     ],
-    "SendMessage": [
-        "&7&oYou explain everything that happened to Professor Hemlock"
-    ],
+    "SendMessage": "&7&oYou explain everything that happened to Professor Hemlock",
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "I see...",
@@ -2209,14 +2122,23 @@
             "&c&lProfessor Hemlock": "Get out there and catch 'em all! I'll be here waiting."
         }
     ],
-    "Wait": [
-        20
+    "Wait": 10,
+    "Complete": [],
+    "PlaySound": "entity_player_levelup",
+    "GiveCoins": 2500,
+    "GiveTrainerExperience": 3000,
+    "GiveTokens": 10,
+    "Wait": 40,
+    "Fade": [],
+    "Teleport": [638.5,47.9,449.5, -179, -4],
+    "Hide": {
+        "Professor1": true
+    },
+    "Wait": 40,
+    "SetTitle": [
+        "&d&lWORK IN PROGRESS",
+        "&aQuest complete",
+        true
     ],
-    "Wait": [
-        20
-    ],
-    "SendCompleteMessage": [
-    ],
-    "Complete": [
-    ]
+    "PlayCustomSound": "sfx.quest_complete"
 }
