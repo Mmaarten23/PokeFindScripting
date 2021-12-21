@@ -43,6 +43,24 @@
         "look": false
     },
     "CreateEntity": {
+        "key": "Statera_Leader3",
+        "name": [
+            "&8&lVidar",
+            "&7Statera Leader"
+        ],
+        "location": {
+            "x": 65.5,
+            "y": 53.0,
+            "z": 337.6,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTUyMzkxMTExNSwKICAicHJvZmlsZUlkIiA6ICI4MGY2YWIyODVkNzI0YzVlYjQ5NDQxOGUyOTI4ZGI4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb21lb25ldW5rbm93biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NWZlMWQ0YzQ3YjhhNTFhM2M0NjkzOTc4N2UyN2FkOGNkMTdjNjcwZTdjYTdjNjRlMDlhNjM2N2MwNWVjNTk3IgogICAgfQogIH0KfQ==",
+            "signature": "vxZYa6vY2k2IekgL2tflK6oy00OTSv1fbgtMePi22Ab1BbFDMh58t93KGvS36WhhwtpvoCaPcKw1jL5TJdOpi8OWfo56IJclJi8vcrGw7wISdPDZT7/QzJ9jWJMTPA5YXf3J3rJlnuS6QY4Eqh8VyYGloq743qFPm/9vV8VvyGsaEB6Ldcslm0sTUTdUjUk8VTsAoMHlQUONQHwY57CsuEPeczro/FCqyY/QSeZuYnhct/yLVdaTs/dpoAW6SWipMAOnKcsS86hNfl4WStW2oJf2QUk+Iv4JSD1XPCdAbWfEyKZOIrqIZ5LuKYMcEaSXF8BXpYbjgvmhW+Seuz2+MTm7Yz+ZiLWAZY4qzj+Er54mxzGau3zZ07L0TwhfnZsIDsbXnGpR72Q8wzt4VQJV6+s2Z59oX8VJXI273T4v0lGxEZFWrmgdoNGy0wWetvtXQ0H7TnwaSoC5RhFTOHaa+HKQD1GgoQJKFEuq9yibbgcSla0UHO2xkVd+VrxfTIH3IzwcAIZO6qM64DLzIKdhL1lz7AAOxI7fhMBVYwAR0HH7+4fjpCHFe0LG1aWAD2IB5D97L2gcc4jvVYKKDRKvgoYUIz+/+TIelY9sNXaXgs7fL2TmhLllHyGPtjg5lC74MqZec2YSLzzs3c3GQkrCsYh0O1+a4D88QHhnX5oImtI="
+        }
+    },
+    "CreateEntity": {
         "key": "Kyurem1",
         "name": "&5&lKyurem Master Ball",
         "location": {
@@ -996,8 +1014,8 @@
             "yaw": 0,
             "pitch": 0
         },
-        "skin": "professor",
-        "look": false
+        "skin": "professor_hemlock",
+        "look": true
     },
     "CreateEntity": {
         "key": "Pokeball",
@@ -1015,6 +1033,7 @@
     "Show": {
         "Statera_Leader1": true,
         "Statera_Leader2": false,
+        "Statera_Leader3": false,
         "Statera1": false,
         "Statera2": false,
         "Statera3": false,
@@ -1795,7 +1814,7 @@
         "Cobalion1": true,
         "Kyurem2": true
     },
-    "Particle": ["EXPLOSION_LARGE", -37.5, 55.0, -750.5, 100, 10],
+    "Particle": ["EXPLOSION_LARGE", -37.5, 55.0, -750.5, 100, 10.0],
     "Look": "Terrakion1",
     "Wait": 20,
     "Dialog": [
@@ -1893,7 +1912,11 @@
         "Terrakion1": true
     },
     "HighlightClickEntity": "Cobalion1",
-    "PartyPokemonEntity": [-41.5, 55.0, -750.5, 323, 1, 100],
+    "PartyPokemonEntity": [-41.5, 55.0, -750.5, 323, 1, 120],
+    "Show": {
+        "Player_Pokemon1": true
+    },
+    "Wait": 40,
     "SendMessage": "&7&lCobalion used Zen Headbutt",
     "Wait": 20,
     "PlaySound": ["entity_item_break", 0.2, 1.0],
@@ -1906,6 +1929,9 @@
         "&7You're Pokémon has fainted!",
         "&7Battle Over!"
     ],
+    "Show": {
+        "Player_Pokemon2": false
+    },
     "Wait": 20,
     "Dialog": [
         {
@@ -1918,7 +1944,7 @@
     "Wait": 20,
     "Show": {
         "Statera_Leader2": false,
-        "Statera_Leader1": true,
+        "Statera_Leader3": true,
         "Statera1": false,
         "Statera2": false,
         "Statera3_dead": false,
@@ -1998,16 +2024,19 @@
         51, 1, 317,
         97, 118, 362
     ],
+    "Hide": "gen5_main_quest_happy",
     "Dialog": [
         {
             "&9&lOfficer Jen": "You’re under arrest &8Vidar&r, for illegal research and contraband.",
             "&9&lOfficer Jen": "Your trapped and caged Pokémon have been taken into our custody for rehabilitation.",
             "&9&lOfficer Jen": "Not as if you cared, eh?",
-            "&8&lVidar": "This is not the last of me! &0Zekrom&r will return to me, and we will make Zeinova pure once more!"
+            "&8&lVidar": "This is not the last of me! &8&lZekrom&r will return to me, and I will make Zeinova pure once more!"
         }
     ],
     "Wait": 20,
     "Show": {
+        "Tribe_Leader1": false,
+        "Rival1": false,
         "Statera_Leader2": false,
         "Statera_Leader1": false,
         "Statera1": false,
@@ -2049,14 +2078,13 @@
             "&c&lProfessor Hemlock": "Do you mind meeting me, at my lab? We have some things to discuss..."
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Objective": ["Visit Professor Hemlock at his lab", 10],
     "Show": {
         "Professor1": true
     },
     "HighlightClickEntity": "Professor1",
+    "Show": "gen5_main_quest_happy",
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "What happened? I received a mass alert from &3Statera&r that all projects are shutting down?"
