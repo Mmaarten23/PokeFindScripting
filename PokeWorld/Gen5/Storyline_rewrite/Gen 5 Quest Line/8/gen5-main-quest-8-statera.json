@@ -1123,12 +1123,12 @@
     },
 
     "HighlightClickEntity": "Statera_Leader1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "It is time we call on the power of &3Kyurem&r, [PLAYER]!",
             "&8&lVidar": "Go to their Shrine, there will be a Masterball waiting for you.",
             "&8&lVidar": "Use the Masterball to summon &3Kyurem&r."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "Wait": 20,
     "Objective": ["Head to Northrun and enter the Shrine for Kyurem", 4],
@@ -1136,52 +1136,52 @@
         -86, 59, -757,
         -80, 83, -747
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oIf there was ever a Shrine in Northrun... this was it.",
             "[PLAYER]": "&oSo in here, &3Kyurem&r&o should be in a deep slumber..."
-        }
+        }, 70, true, false
     ],
     "Objective": ["Follow the path to the top", 18],
     "RegionEntry": [
         -164, 83, -780,
         -152, 90, -766
     ],
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "&oSeems like nobody has walked this path in a long time."
-        }
+            "[PLAYER]": "&oThis ice is almost blocking the path!"
+        }, 1, true, false
     ],
 
     "RegionEntry": [
         -182, 101, -803,
         -167, 110, -803
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oHmm, this is quite a hike, I should have brought something to drink."
-        }
+        }, 1, true, false
     ],
 
     "RegionEntry": [
         -174, 130, -748,
         -168, 140, -741
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oThis looks more like it."
-        }
+        }, 1, true, false
     ],
 
     "RegionEntry": [
         -196, 106, -772,
         -190, 111, -766
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oHmmm, This used to be a door I think...",
             "[PLAYER]": "&oSeems like it is frozen in place. Maybe I can climb through it though."
-        }
+        }, 90, true, false
     ],
 
     "RegionEntry": [
@@ -1193,10 +1193,10 @@
     "Wait": 2,
     "Freeze": true,
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oUh oh... a maze??!"
-        }
+        }, 70, true, false
     ],
     "Wait": 20,
     "Unfreeze": [],
@@ -1211,10 +1211,10 @@
         -157, 98, -746,
         -152, 103, -756
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oMy hands are freezing, If only I had some Hot chocolate..."
-        }
+        }, 1, true, false
     ],
     "SetBlocks": [
         -153, 75, -703,
@@ -1226,11 +1226,11 @@
         -142, 75, -706,
         -142, 83, -694
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oHmm... This seems like another maze... But what is that?",
             "[PLAYER]": "&oLooks like this is a timed one. I have only 60 seconds to complete this..."
-        }
+        }, 90, true, false
     ],
 
     "SetBlocks": [
@@ -1271,12 +1271,12 @@
         {
             "[PLAYER]": "&oI am getting good at these!",
             "[PLAYER]": "&3&oKyurem&r &ois waiting for me, I better hurry."
-        }, 90, true, false
+        }, 60, true, false
     ],
 
     "InRegion": [
-        -172,20,-743,
-        -145,65,-718
+        -172, 20, -743,
+        -145, 65, -718
     ],
     "Start": "gen5_main_quest_8_end_maze",
     "NewDialog": [
@@ -1284,7 +1284,7 @@
             "[PLAYER]": "&oHmm, looks like this is the final maze before I am at &3&oKyurem&r&o's Masterball.",
             "[PLAYER]": "&oThere is an inscription on the wall here...",
             "[PLAYER]": "&oNot everything is as it seems... What could that mean?"
-        }, 90, true, false
+        }, 90, true, true
     ],
     "Objective": ["Navigate through the maze of illusions", 3],
     "RegionEntry": [
@@ -1297,7 +1297,7 @@
             "[PLAYER]": "&oPhew, that took for-ever!",
             "[PLAYER]": "&oNow I get why no soul has ever tried to wake up &3&oKyurem&r&o!",
             "[PLAYER]": "&oI feel like I am close though. This bridge looks too majestic."
-        }, 90, true, false
+        }, 90, true, true
     ],
 
 
@@ -1327,14 +1327,14 @@
         "Pokeball": false
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&7Go &3Kyurem&r!",
             "[PLAYER]": "&oWhy is the Masterball not working?",
             "[PLAYER]": "&oDid I do something wrong?",
             "[PLAYER]": "&oUnless...",
             "[PLAYER]": "&oSophro has already been here! It's a set up!"
-        }
+        }, 90, true, true
     ],
     "Wait": 20,
     "Unfreeze": [],
@@ -1508,10 +1508,10 @@
     "Start": "gen5_main_quest_8_crater_fix",
 
 
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "There's no way I'm letting them get away with this!"
-        }
+        }, 90, true, false
     ],
     "Wait": [
         20
@@ -1552,10 +1552,10 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "It's starting to get dark... but there's still more Pokémon to battle!"
-        }
+            "[PLAYER]": "&oIt's starting to get dark... but there's still more Pokémon to battle!"
+        }, 1, true, false
     ],
     "HighlightClickEntity": "Mienshao1",
     "Show": {
@@ -1585,10 +1585,10 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "My Pokémon are exhausted!"
-        }
+            "[PLAYER]": "&oMy Pokémon are exhausted!"
+        }, 1, true, false
     ],
     "HighlightClickEntity": "Beartic1",
     "Show": {
@@ -1618,10 +1618,10 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "I'm exhausted!"
-        }
+            "[PLAYER]": "&oI'm exhausted!"
+        }, 90, true, false
     ],
     "HighlightClickEntity": "Audino1",
     "Show": {
@@ -1651,10 +1651,10 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "Why are there so many Pokémon!"
-        }
+            "[PLAYER]": "&oWhy are there so many Pokémon!"
+        }, 1, true, false
     ],
     "HighlightClickEntity": "Mandibuzz1",
     "Show": {
@@ -1711,10 +1711,10 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "I've almost saved &8Vidar&r..."
-        }
+            "[PLAYER]": "&oI've almost saved &8Vidar&r..."
+        }, 1, true, false
     ],
     "HighlightClickEntity": "Cofagrigus1",
     "Show": {
@@ -1744,16 +1744,14 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "Thank you [PLAYER]! I have faith in you!",
             "&8&lVidar": "Now go! Battle &eAstrid&r!"
-        }
+        }, 90, true, true, "male_excited"
     ],
     "Wait": 20,
-    "Objective": [
-        "Battle Astrid", 6
-    ],
+    "Objective": ["Battle Astrid", 6],
     "HighlightClickEntity": "Tribe_Leader1",
     "AutoBattleNpc": [
         "Tribe_Leader1",
@@ -1779,26 +1777,30 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "&8Vidar&r! You coward! Show your face!",
             "&e&lAstrid": "You're hiding behind your Champion,",
             "&e&lAstrid": "you're hiding behind your horde of brain-washed &lEMPLOYEES&r!",
             "&e&lAstrid": "No one believes in your values, they are only greedy humans!",
-            "&e&lAstrid": "Pokémon should not be controlled &8Vidar&r!",
+            "&e&lAstrid": "Pokémon should not be controlled &8Vidar&r!"
+        }, 90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "Hey [PLAYER]!",
             "&d&lDanielle": "Stop picking on those poor Pokémon and fight someone your own size!"
-        }
+        }, 90, true, true, "female_normal"
     ],
     "Wait": 20,
     "Objective": ["Battle Danielle", 8],
     "HighlightClickEntity": "Rival1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "[PLAYER] you've got a lot of nerve siding with the filth.",
             "&d&lDanielle": "I'll make sure you see the error of your ways.",
             "&d&lDanielle": "You've been the Hero far too often to turn out to be the Villain!"
-        }
+        }, 90, true, true, "female_angry"
     ],
     "AutoBattleNpc": [
         "Rival1",
@@ -1821,12 +1823,12 @@
             }
         ]
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "You don't understand what's going on at all do you?",
             "&d&lDanielle": "&3Statera&r manipulated you into believing you were doing the right thing.",
             "&d&lDanielle": "When in reality... you were fueling the flames of this War."
-        }
+        }, 90, true, true, "female_normal"
     ],
     "Wait": 20,
     "Show": {
@@ -1838,10 +1840,10 @@
     "Particle": ["EXPLOSION_LARGE", -37.5, 55.0, -750.5, 100, 10.0],
     "Look": "Terrakion1",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "You may have beaten me but you will NEVER defeat the Swords of Justice and Kyurem!"
-        }
+        }, 90, true, true, "female_angry"
     ],
     "Wait": 20,
     "Objective": ["Battle the Swords of Justice and Kyurem", 35],
@@ -1954,13 +1956,25 @@
         "Player_Pokemon2": false
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "I- I don't understand! How could I be defeated?!",
-            "&8&lVidar": "We need to get out of here!",
-            "&e&lAstrid": "That's right! You've lost the War that you started! Now LEAVE!",
+            "[PLAYER]": "I- I don't understand! How could I be defeated?!"
+        }, 90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&8&lVidar": "We need to get out of here!"
+        }, 90, true, true, "male_normal"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "That's right! You've lost the War that you started! Now LEAVE!"
+        }, 90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "Wait! [PLAYER]!"
-        }
+        }, 90, true, true, "female_excited"
     ],
     "Wait": 20,
     "Show": {
@@ -2018,14 +2032,18 @@
     },
     "Wait": 20,
     "Look": "Rival1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "It seems like one of the Swords of Justice wants to go with you...",
-            "&d&lDanielle": "It thinks it can show you the error of your ways... That what you've done can be repaired.",
+            "&d&lDanielle": "It thinks it can show you the error of your ways... That what you've done can be repaired."
+        }, 90, true, true, "female_normal"
+    ],
+    "NewDialog": [
+        {
             "&d&lDanielle": "Like I said... you've been the Hero way too many times to be the Bad Guy, I hope to see you again [PLAYER], and we can talk this out.",
             "&d&lDanielle": "Right now however, you've lost. You are lost.",
             "&d&lDanielle": "Now Scram! Go back to &3Statera&r or face your punishment!"
-        }
+        }, 90, true, true, "female_angry"
     ],
     "Wait": 30,
     "RandomOption": 3,
@@ -2046,13 +2064,17 @@
         97, 118, 362
     ],
     "Hide": "gen5_main_quest_happy",
-    "Dialog": [
+    "NewDialog": [
         {
             "&9&lOfficer Jen": "You’re under arrest &8Vidar&r, for illegal research and contraband.",
             "&9&lOfficer Jen": "Your trapped and caged Pokémon have been taken into our custody for rehabilitation.",
-            "&9&lOfficer Jen": "Not as if you cared, eh?",
+            "&9&lOfficer Jen": "Not as if you cared, eh?"
+        }, 90, true, true, "female_angry"
+    ],
+    "NewDialog": [
+        {
             "&8&lVidar": "This is not the last of me! &8&lZekrom&r will return to me, and I will make Zeinova pure once more!"
-        }
+        }, 90, true, true, "male_angry"
     ],
     "Wait": 20,
     "Show": {
@@ -2086,18 +2108,18 @@
     "Wait": 10,
     "SendMessage": "  &aConnected!",
     "Wait": 30,
-    "Dialog": [
+    "NewDialog": [
         {
             "&3H.A.P.P.Y.": "Hey [PLAYER]! H.A.P.P.Y. here! I'm calling you one final time, thank you for everything you've done with and for us. It was a pleasure meeting you! They will be shutting down my program now...",
             "&3H.A.P.P.Y.": "I'm here to reconnect you with your mentor, &cProfessor Hemlock&r! Have a wonderful life, [PLAYER]!",
-            "&3H.A.P.P.Y.": "...",
-            "&3H.A.P.P.Y.": "...",
-            "&3H.A.P.P.Y.": "HA! Got you, [PLAYER]! Hehehehe! I just had to put a smile on your face one last time.",
-            "&3H.A.P.P.Y.": "...",
-            "&3H.A.P.P.Y.": "...",
+            "&3H.A.P.P.Y.": "..."
+        }, 90, true, true
+    ],
+    "NewDialog": [
+        {
             "&c&lProfessor Hemlock": "[PLAYER]? Are you there?",
             "&c&lProfessor Hemlock": "Do you mind meeting me, at my lab? We have some things to discuss..."
-        }
+        }, 90, true, true, "male_normal"
     ],
     "Wait": 20,
     "Objective": ["Visit Professor Hemlock at his lab", 10],
@@ -2106,13 +2128,13 @@
     },
     "HighlightClickEntity": "Professor1",
     "Show": "gen5_main_quest_happy",
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lProfessor Hemlock": "What happened? I received a mass alert from &3Statera&r that all projects are shutting down?"
-        }
+        }, 90, true, true, "male_question"
     ],
     "SendMessage": "&7&oYou explain everything that happened to Professor Hemlock",
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lProfessor Hemlock": "I see...",
             "&c&lProfessor Hemlock": "So &3Statera's&r CEO, Vidar - is also the brother to Sophro's Leader, Astrid - and in the past the two of them created the region of Zeinova? How is that possible?",
@@ -2124,7 +2146,7 @@
             "&c&lProfessor Hemlock": "Your adventure here in Zeinova is still not over though, [PLAYER].",
             "&c&lProfessor Hemlock": "To better understand our companions, we have to be with our companions.",
             "&c&lProfessor Hemlock": "Get out there and catch 'em all! I'll be here waiting."
-        }
+        }, 120, true, true, "male_normal"
     ],
     "Wait": 10,
     "Complete": [],
