@@ -1404,7 +1404,7 @@
     "NewDialog": [
         {
             "[PLAYER]": "&oWhat is going on over there???"
-        }, 90, true, false
+        }, 1, true, false
     ],
     "Wait": 80,
     "Start": "gen5_main_quest_8_end_battle",
@@ -1513,9 +1513,7 @@
             "[PLAYER]": "There's no way I'm letting them get away with this!"
         }, 90, true, false
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Unfreeze": [],
     "Objective": ["Help Vidar fight the Pokémon around him", 34],
     "GlobalRegionExit": [

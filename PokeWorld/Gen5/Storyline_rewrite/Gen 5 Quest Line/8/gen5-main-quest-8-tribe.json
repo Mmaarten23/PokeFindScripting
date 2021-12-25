@@ -1010,18 +1010,14 @@
         "Virizion1": false,
         "Professor1": false
     },
-    "HighlightClickEntity":
-        "Tribe_Leader1"
-    ,
+    "HighlightClickEntity": "Tribe_Leader1",
     "Dialog": [
         {
             "&e&lAstrid": "Are you ready [PLAYER]? I have a plan. Meet me in the Shrine for Kyurem in Northrun!"
         }
     ],
-    "Wait":
-        20
-    ,
-    "Objective": [        "Head to Northrun and enter the Shrine for Kyurem",  4    ],
+    "Wait": 20,
+    "Objective": ["Head to Northrun and enter the Shrine for Kyurem", 4],
     "RegionEntry": [
         -86, 59, -757,
         -80, 83, -747
@@ -1159,8 +1155,8 @@
         }, 90, true, false
     ],
     "InRegion": [
-        -172,20,-743,
-        -145,65,-718
+        -172, 20, -743,
+        -145, 65, -718
     ],
     "Start": "gen5_main_quest_8_end_maze",
     "NewDialog": [
@@ -1199,18 +1195,14 @@
             "&e&lAstrid": "We will replace it with a dummy Master Ball!"
         }
     ],
-    "Wait":
-        20
-    ,
-    "Objective": [        "Pick up the Master Ball",        52    ],
+    "Wait": 20,
+    "Objective": ["Pick up the Master Ball", 52],
     "Show": {
         "Kyurem1": false
     },
-    "PickupItem": [        -329.5,        52.0,        -749.5,        "&5&lKyurem Master Ball",        "Master Ball"    ],
-    "SendMessage": [        "&5&l+ Kyurem Master Ball"    ],
-    "Wait":
-        20
-    ,
+    "PickupItem": [-329.5, 52.0, -749.5, "&5&lKyurem Master Ball", "Master Ball"],
+    "SendMessage": ["&5&l+ Kyurem Master Ball"],
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "Perfect! Now we'll just put this fake Master Ball in it's place!"
@@ -1219,20 +1211,16 @@
     "Show": {
         "Kyurem1": true
     },
-    "Look":
-        "Kyurem1"
-    ,
-    "Wait":
-        20
-    ,
+    "Look": "Kyurem1",
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "Now, let's get out of here! There's a path leading out of here to the right of the ice mazes. I'll meet you there."
         }
     ],
     "ProgressiveWall": [
-        -53,        54,        -693,
-        -53,        60,        -689,
+        -53, 54, -693,
+        -53, 60, -689,
         -8
     ],
     "Show": {
@@ -1249,93 +1237,50 @@
         "Tribe_Leader3": true,
         "Tribe_Leader2": false
     },
-    "Wait":
-        20
-    ,
-    "Objective": [        "Follow the path out of the Shrine (There's a hidden path to the right of the ice mazes)",        51    ],
+    "Wait": 20,
+    "Objective": ["Follow the path out of the Shrine (There's a hidden path to the right of the ice mazes)", 51],
     "RegionEntry": [
-        -62,
-        1,
-        -684,
-        -54,
-        58,
-        -695
+        -54, 53, -687,
+        -59, 61, -695
     ],
-    "Freeze": [
+    "Wait": 20,
+    "ProgressiveWall": [-53, 54, -693, -53, 60, -689, -8],
+    "RegionEntry": [
+        -49, 52, -688,
+        -49, 64, -694
     ],
-    "Fade": [
+    "NewDialog": [
+        {
+            "&e&lAstrid": "Why is there so much activity at the shrine entrance?"
+        }, 1, true, false, "female_question"
     ],
-    "Teleport": [
-        -10.5,
-        67.0,
-        -762.5,
-        45,
-        0
+
+    "RegionEntry": [
+        -60, 40, -714,
+        6, 65, -776
     ],
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Statera3"
-    ],
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Statera2"
-    ],
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Statera1"
-    ],
-    "Wait": [
-        20
-    ],
+    "Wait": 80,
     "Dialog": [
         {
-            "&e&lAstrid": "What's going on out here?!",
             "&e&lAstrid": "[PLAYER]... I think the Great War has begun...",
             "[PLAYER]": "I don't see Danielle or Vidar anywhere...",
             "&e&lAstrid": "They're probably inside the shrine already...",
             "&e&lAstrid": "... I sense something going on..."
         }
     ],
-    "Wait": [
-        60
-    ],
-    "Fade": [
-    ],
-    "Cinematic": [
-    ],
-    "Teleport": [
-        -24.5,
-        57.0,
-        -749.5,
-        235,
-        0
-    ],
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Serperior1"
-    ],
-    "Particle": [
-        "flash",
-        -21.5,
-        57.0,
-        -751.5,
-        5
-    ],
-    "Particle": [
-        "explosion_huge",
-        -21.5,
-        57.0,
-        -751.5,
-        1
-    ],
+    "Show": {
+        "Rival1": true,
+        "Statera_Leader1": true
+    },
+    "Look": "Rival1",
+    "ProgressiveMoveEntity": ["Rival1", -49.5, 55.5, -750.5],
+    "MoveEntity": ["Statera_Leader1", -49.5, 55.5, -752.5],
+    "Wait": 20,
+    "Start": "gen5_main_quest_8_end_battle",
+    "Start": "song_end_battle",
+    "Wait": 20,
+    "Particle": ["flash", -21.5, 57.0, -751.5, 5],
+    "Particle": ["explosion_huge", -21.5, 57.0, -751.5, 1],
     "Show": {
         "Emboar1": true,
         "Heatmor1": true,
@@ -1344,26 +1289,14 @@
         "Gothitelle1": true,
         "Serperior1": true
     },
-    "Wait": [
-        20
+    "Dialog": [
+        {
+            "[PLAYER]": "WOAH! Did you see that?!"
+        }, 1
     ],
-    "Look": [
-        "Samurott1"
-    ],
-    "Particle": [
-        "flash",
-        -29.5,
-        56.0,
-        -740.5,
-        5
-    ],
-    "Particle": [
-        "explosion_huge",
-        -29.5,
-        56.0,
-        -740.5,
-        1
-    ],
+    "Wait": 40,
+    "Particle": ["flash", -29.5, 56.0, -740.5, 5],
+    "Particle": ["explosion_huge", -29.5, 56.0, -740.5, 1],
     "Show": {
         "Throh1": true,
         "Sawk1": true,
@@ -1373,26 +1306,14 @@
         "Cryogonal1": true,
         "Beartic1": true
     },
-    "Wait": [
-        20
+    "Dialog": [
+        {
+            "&e&lAstrid": "Yes... The Pokémon have arrived to help us win..."
+        }, 1
     ],
-    "Look": [
-        "Sigilyph1"
-    ],
-    "Particle": [
-        "flash",
-        -24.5,
-        56.0,
-        -759.5,
-        5
-    ],
-    "Particle": [
-        "explosion_huge",
-        -24.5,
-        56.0,
-        -759.5,
-        1
-    ],
+    "Wait": 40,
+    "Particle": ["flash", -24.5, 56.0, -759.5, 5],
+    "Particle": ["explosion_huge", -24.5, 56.0, -759.5, 1],
     "Show": {
         "Stoutland1": true,
         "Audino1": true,
@@ -1401,26 +1322,14 @@
         "Sigilyph1": true,
         "Braviary1": true
     },
-    "Wait": [
-        20
+    "Dialog": [
+        {
+            "&e&lAstrid": "We will overpower those Statera members!"
+        }, 1
     ],
-    "Look": [
-        "Archeops1"
-    ],
-    "Particle": [
-        "flash",
-        -14.5,
-        57.0,
-        -729.5,
-        5
-    ],
-    "Particle": [
-        "explosion_huge",
-        -14.5,
-        57.0,
-        -729.5,
-        1
-    ],
+    "Wait": 40,
+    "Particle": ["flash", -14.5, 57.0, -729.5, 5],
+    "Particle": ["explosion_huge", -14.5, 57.0, -729.5, 1],
     "Show": {
         "Zebstrika1": true,
         "Galvantula1": true,
@@ -1428,26 +1337,14 @@
         "Archeops1": true,
         "Krookodile1": true
     },
-    "Wait": [
-        20
+    "Dialog": [
+        {
+            "[PLAYER]": "There are so many!"
+        }, 1
     ],
-    "Look": [
-        "Escavalier1"
-    ],
-    "Particle": [
-        "flash",
-        -4.5,
-        58.0,
-        -741.5,
-        5
-    ],
-    "Particle": [
-        "explosion_huge",
-        -4.5,
-        58.0,
-        -741.5,
-        1
-    ],
+    "Wait": 40,
+    "Particle": ["flash", -4.5, 58.0, -741.5, 5],
+    "Particle": ["explosion_huge", -4.5, 58.0, -741.5, 1],
     "Show": {
         "Kinklang1": true,
         "Bisharp1": true,
@@ -1455,26 +1352,9 @@
         "Escavalier1": true,
         "Scolipede1": true
     },
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Hydreigon1"
-    ],
-    "Particle": [
-        "flash",
-        -9.5,
-        58.0,
-        -751.5,
-        5
-    ],
-    "Particle": [
-        "explosion_huge",
-        -9.5,
-        58.0,
-        -751.5,
-        1
-    ],
+    "Wait": 40,
+    "Particle": ["flash", -9.5, 58.0, -751.5, 5],
+    "Particle": ["explosion_huge", -9.5, 58.0, -751.5, 1],
     "Show": {
         "Whimsicott1": true,
         "Cofagrigus1": true,
@@ -1482,33 +1362,13 @@
         "Haxorus1": true,
         "Hydreigon1": true
     },
-    "Wait": [
-        20
-    ],
-    "StopCinematic": [
-    ],
-    "Wait": [
-        20
-    ],
-    "Dialog": [
-        {
-            "[PLAYER]": "WOAH! Did you see that?!",
-            "&e&lAstrid": "Yes... The Pokémon have arrived to help us win... Now we must help them in return!",
-            "&e&lAstrid": "Now go! Battle the Statera Members!"
-        }
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle the Statera members",
-        17
-    ],
-    "Unfreeze": [
-    ],
-    "HighlightClickEntity": [
-        "Statera1"
-    ],
+
+    "Hold": [],
+
+    "Wait": 20,
+    "Objective": ["Battle the Statera members", 17],
+    "Unfreeze": [],
+    "HighlightClickEntity": "Statera1",
     "AutoBattleNpc": [
         "Statera1",
         {
@@ -1601,25 +1461,7 @@
     "Wait": [
         20
     ],
-    "Show": {
-        "Rival1": true,
-        "Statera_Leader1": true
-    },
-    "Look": [
-        "Rival1"
-    ],
-    "ProgressiveMoveEntity": [
-        "Rival1",
-        -49.5,
-        55.5,
-        -750.5
-    ],
-    "MoveEntity": [
-        "Statera_Leader1",
-        -49.5,
-        55.5,
-        -752.5
-    ],
+
     "Dialog": [
         {
             "&e&lAstrid": "It seems they've found our dummy Master Ball! Go finish this war [PLAYER]!"
