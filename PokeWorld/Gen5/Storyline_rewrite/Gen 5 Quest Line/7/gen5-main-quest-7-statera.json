@@ -776,6 +776,7 @@
     "Fade": [],
     "Teleport": [80.1, 77.1, 335.2, 151, 7],
     "Cinematic": [],
+    "SetScoreboard": "",
     "HidePlayer": [],
     "Wait": 1,
     "Freeze": true,
@@ -1044,6 +1045,7 @@
     "Objective": ["Go beat the final gym and become the Elite Four Champion", 9],
     "Unfreeze": [],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "ShowPlayer": [],
     "Hold": [],
     "Show": {

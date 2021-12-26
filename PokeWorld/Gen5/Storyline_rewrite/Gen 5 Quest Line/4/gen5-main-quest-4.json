@@ -496,6 +496,7 @@
     "Teleport": [-786.3, 55.8, 759.8, 23, 36],
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "Show": {
         "volcano_player": true,
         "Rival2": true,
@@ -519,6 +520,7 @@
     "Fade": [],
     "Teleport": [-790.5, 51.0, 760.5, 179, -17],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "ShowPlayer": [],
     "Hide": {
         "volcano_player": true,
@@ -580,6 +582,7 @@
     ],
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "Look": [-160, 0],
     "Wait": 2,
     "Freeze": true,
@@ -592,12 +595,14 @@
     ],
     "Unfreeze": [],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "ShowPlayer": [],
     "RegionEntry": [
         -805, 39, 684,
         -822, 53, 684
     ],
     "Cinematic": [],
+    "SetScoreboard": "",
     "HidePlayer": [],
     "Look": [160, 0],
     "Wait": 2,
@@ -611,6 +616,7 @@
     ],
     "Unfreeze": [],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "ShowPlayer": [],
     "RegionEntry": [
         -820, 50, 656,
@@ -629,6 +635,7 @@
     "Fade": [],
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "Teleport": [-827.1, 22.9, 679.1, -21, 28],
     "Show": {
         "meeting_player": true
@@ -704,6 +711,7 @@
         "Battle_Tribe_Leader": true
     },
     "StopCinematic": [],
+    "SetScoreboard": [],
     "ShowPlayer": [],
     "Unfreeze": [],
     "Wait": 20,
@@ -796,6 +804,7 @@
     "Freeze": true,
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "NewDialog": [
         {
             "[PLAYER]": "&oThis looks like another one of those magma puzzles..."
@@ -803,6 +812,7 @@
         90, true, true
     ],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "ShowPlayer": [],
     "Unfreeze": [],
     "RandomOption": 3,
@@ -1194,6 +1204,7 @@
     "Teleport": [-843.6, 13.2, 884.8, 70],
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "Wait": 2,
     "Freeze": true,
     "MoveEntity": ["Battle_Tribe_Leader", -847.4, 13.0, 880.1, 0.2, false],
@@ -1201,6 +1212,7 @@
     "Fade": [],
     "Teleport": [-790.5, 56.0, 781.5, 0],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "ShowPlayer": [],
     "Wait": 40,
     "Objective": ["Return to Agent Ty with this new information", 3],

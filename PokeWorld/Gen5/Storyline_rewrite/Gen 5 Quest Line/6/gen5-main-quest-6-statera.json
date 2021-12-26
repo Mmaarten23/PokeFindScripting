@@ -632,6 +632,7 @@
     "HidePlayer": [],
     "Freeze": true,
     "Cinematic": [],
+    "SetScoreboard": "",
     "Show": "Bird",
     "NewDialog": [
         {
@@ -643,6 +644,7 @@
     "ShowPlayer": [],
     "Unfreeze": [],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "Hide": "Bird",
     "Fade": [],
     "Teleport": [615.3, 50.0, 598.0, 180, 0],

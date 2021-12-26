@@ -1028,8 +1028,8 @@
         "Professor1": false
     },
     "RegionEntry": [
-        -474,30,-7,
-        -534,79,74
+        -474, 30, -7,
+        -534, 79, 74
     ],
 
     "HasTrainerLevel": 80,
@@ -1636,7 +1636,7 @@
         {
             "&8&lVidar": "You may have won but this is not the last you will see of me!",
             "&8&lVidar": "I will be back! Come on Statera Members! Let's get out of here!"
-        },90, true, true, "male_angry"
+        }, 90, true, true, "male_angry"
     ],
     "Fade": [],
     "Show": {
@@ -1654,7 +1654,7 @@
             "&e&lAstrid": "Looks like one of the Swords of Justice wants to join you on your journey, [PLAYER].",
             "&e&lAstrid": "You bonded quite a bit during the battle.",
             "&e&lAstrid": "I'm sure you'll learn a lot from the Swords of Justice."
-        },90, true, true, "female_normal"
+        }, 90, true, true, "female_normal"
     ],
     "Wait": 20,
     "RandomOption": 3,
@@ -1723,7 +1723,7 @@
             "&e&lAstrid": "We will work hard to gain back the region's trust, &3Statera&r has painted us in an awful light, and we must be able to shoulder this burden of being painted as the Bad Guys, while we rebuild Zeinova.",
             "&e&lAstrid": "Thank you [PLAYER], this never would have been possible without you.",
             "&e&lAstrid": "Your bond with your team, our team, and &3Kyurem&r saved me, our tribe, our region, and potentially the world."
-        },120, true, true, "female_normal"
+        }, 120, true, true, "female_normal"
     ],
     "Wait": 20,
     "Start": "song_call",
@@ -1739,7 +1739,7 @@
     "NewDialog": [
         {
             "&c&lProfessor Hemlock": "Hey, [PLAYER]? Can you come by the lab? We need to talk..."
-        },90, true, false, "female_scared"
+        }, 90, true, false, "female_scared"
     ],
     "Wait": 20,
     "Objective": ["Visit Professor Hemlock at his lab", 8],
@@ -1756,7 +1756,7 @@
             "&c&lProfessor Hemlock": "Science and research has blinded me, and I’d like to become more connected with my Pokemon again, like in the past.",
             "&c&lProfessor Hemlock": "It appears my journey here in Zeinova is over… however yours is only just beginning, [PLAYER]. Your name will forever be etched in the history of these islands, just like their Storybook tales…",
             "&c&lProfessor Hemlock": "Do us proud, [PLAYER]. &dDanielle&r and I will be rooting for you, even if she doesn’t realize it yet."
-        },120, true, true, "male_normal"
+        }, 120, true, true, "male_normal"
     ],
     "Wait": 10,
     "Complete": [],

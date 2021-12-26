@@ -474,6 +474,7 @@
     "Leave": "gen5_main_quest_2_cin1_cam",
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "Unfreeze": [],
     "Wait": 2,
     "Fade": [],
@@ -511,6 +512,7 @@
     "MoveEntity": ["running", 925.7, 48.0, -559.3, 0.2, false],
     "Unfreeze": [],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "ShowPlayer": [],
     "Hide": "running",
     "Wait": 2,
@@ -588,6 +590,7 @@
     "Teleport": [1097.5, 46.2, -699.5, 0, 0],
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "Wait": 4,
     "Freeze": true,
     "Wait": 20,
@@ -641,6 +644,7 @@
     "Teleport": [1111.5, 43.0, -708.5, 90, 0],
     "ShowPlayer": [],
     "StopCinematic": [],
+    "SetScoreboard": [],
 
 
     "Wait": 20,
@@ -784,6 +788,7 @@
     "Teleport": [1059.0, 21.0, -537.0, 90, 0],
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "Wait": 2,
     "Freeze": true,
 
@@ -851,6 +856,7 @@
     "Unfreeze": [],
     "ShowPlayer": [],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "Hide": "guide",
 
     "Wait": 20,

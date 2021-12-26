@@ -511,6 +511,7 @@
     "Teleport": [-304.5, 46.9, -18.5, 20, 0],
     "HidePlayer": [],
     "Cinematic": [],
+    "SetScoreboard": "",
     "Wait": 1,
     "Look": ["cin_cam1", 15.0],
     "NewDialog": [
@@ -559,6 +560,7 @@
     },
     "Potion": ["Blindness", 200],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "Wait": 20,
     "NewDialog": [
         {
@@ -891,6 +893,7 @@
     },
     "Wait": 20,
     "Cinematic": [],
+    "SetScoreboard": "",
 
     "Unfreeze": [],
     "Fade": [],
@@ -1059,6 +1062,7 @@
     "Fade": [],
     "Teleport": [-503.5, 37.0, 55.5, 35, 0],
     "StopCinematic": [],
+    "SetScoreboard": [],
     "Wait": 4,
     "Freeze": [],
 
