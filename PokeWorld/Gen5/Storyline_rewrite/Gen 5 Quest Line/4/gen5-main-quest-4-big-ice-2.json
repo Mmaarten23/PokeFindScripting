@@ -38,7 +38,7 @@
     "BlockEntry": [
         -856, 27, 701,
         -867, 27, 691,
-        "glass",
+        "magma_block",
         "Obsidian"
     ],
     "PlaySound": [
