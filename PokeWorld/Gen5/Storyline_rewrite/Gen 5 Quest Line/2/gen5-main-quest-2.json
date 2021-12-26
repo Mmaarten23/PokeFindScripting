@@ -472,6 +472,7 @@
     },
 
     "Leave": "gen5_main_quest_2_cin1_cam",
+    "HidePlayer": [],
     "Cinematic": [],
     "Unfreeze": [],
     "Wait": 2,
@@ -510,6 +511,7 @@
     "MoveEntity": ["running", 925.7, 48.0, -559.3, 0.2, false],
     "Unfreeze": [],
     "StopCinematic": [],
+    "ShowPlayer": [],
     "Hide": "running",
     "Wait": 2,
     "Fade": [],
@@ -780,6 +782,7 @@
     ],
     "Fade": [],
     "Teleport": [1059.0, 21.0, -537.0, 90, 0],
+    "HidePlayer": [],
     "Cinematic": [],
     "Wait": 2,
     "Freeze": true,
@@ -846,6 +849,7 @@
     "Fade": [],
     "Teleport": [1059.0, 21.0, -537.0, 90, 0],
     "Unfreeze": [],
+    "ShowPlayer": [],
     "StopCinematic": [],
     "Hide": "guide",
 

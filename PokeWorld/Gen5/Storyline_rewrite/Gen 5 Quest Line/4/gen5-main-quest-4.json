@@ -494,6 +494,7 @@
     ],
     "Fade": [],
     "Teleport": [-786.3, 55.8, 759.8, 23, 36],
+    "HidePlayer": [],
     "Cinematic": [],
     "Show": {
         "volcano_player": true,
@@ -518,6 +519,7 @@
     "Fade": [],
     "Teleport": [-790.5, 51.0, 760.5, 179, -17],
     "StopCinematic": [],
+    "ShowPlayer": [],
     "Hide": {
         "volcano_player": true,
         "Rival2": true,
@@ -576,6 +578,7 @@
         -794, 50, 725,
         -788, 55, 724
     ],
+    "HidePlayer": [],
     "Cinematic": [],
     "Look": [-160, 0],
     "Wait": 2,
@@ -589,11 +592,13 @@
     ],
     "Unfreeze": [],
     "StopCinematic": [],
+    "ShowPlayer": [],
     "RegionEntry": [
         -805, 39, 684,
         -822, 53, 684
     ],
     "Cinematic": [],
+    "HidePlayer": [],
     "Look": [160, 0],
     "Wait": 2,
     "Freeze": true,
@@ -606,6 +611,7 @@
     ],
     "Unfreeze": [],
     "StopCinematic": [],
+    "ShowPlayer": [],
     "RegionEntry": [
         -820, 50, 656,
         -833, 1, 672
@@ -621,6 +627,7 @@
         -834, 33, 671
     ],
     "Fade": [],
+    "HidePlayer": [],
     "Cinematic": [],
     "Teleport": [-827.1, 22.9, 679.1, -21, 28],
     "Show": {
@@ -697,6 +704,7 @@
         "Battle_Tribe_Leader": true
     },
     "StopCinematic": [],
+    "ShowPlayer": [],
     "Unfreeze": [],
     "Wait": 20,
     "NewDialog": [
@@ -786,6 +794,7 @@
     "Look": 57,
     "Wait": 1,
     "Freeze": true,
+    "HidePlayer": [],
     "Cinematic": [],
     "NewDialog": [
         {
@@ -794,6 +803,7 @@
         90, true, true
     ],
     "StopCinematic": [],
+    "ShowPlayer": [],
     "Unfreeze": [],
     "RandomOption": 3,
     "Skip": "first_ice_1",
@@ -1182,6 +1192,7 @@
         90, true, true, "female_excited"
     ],
     "Teleport": [-843.6, 13.2, 884.8, 70],
+    "HidePlayer": [],
     "Cinematic": [],
     "Wait": 2,
     "Freeze": true,
@@ -1190,6 +1201,7 @@
     "Fade": [],
     "Teleport": [-790.5, 56.0, 781.5, 0],
     "StopCinematic": [],
+    "ShowPlayer": [],
     "Wait": 40,
     "Objective": ["Return to Agent Ty with this new information", 3],
     "Show": {

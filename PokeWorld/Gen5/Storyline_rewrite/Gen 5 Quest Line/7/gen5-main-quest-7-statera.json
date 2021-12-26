@@ -760,9 +760,7 @@
         "Informant1": false
     },
     "HighlightClickEntity": "Statera_Leader1",
-    "Wait":
-        20
-    ,
+    "Wait": 20,
     "NewDialog": [
         {
             "&8&lVidar": "It is time to inform the other &3Statera&r members.",
@@ -1042,36 +1040,18 @@
             "&8&lVidar": "You must become &lour&r Champion."
         }, 90, true, false, "male_normal"
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Go beat the final gym and become the Elite Four Champion",
-        9
-    ],
+    "Wait": 20,
+    "Objective": ["Go beat the final gym and become the Elite Four Champion", 9],
     "Unfreeze": [],
     "StopCinematic": [],
     "ShowPlayer": [],
-    "Hold": [
-    ],
+    "Hold": [],
     "Show": {
         "Rival1": true
     },
-    "Freeze": [
-    ],
-    "Teleport": [
-        92.8,
-        165.9,
-        -296.5,
-        299,
-        0
-    ],
-    "MoveEntity": [
-        "Rival1",
-        101.5,
-        166.0,
-        -290.5
-    ],
+    "Freeze": [],
+    "Teleport": [92.8, 165.9, -296.5, 299, 0],
+    "MoveEntity": ["Rival1", 101.5, 166.0, -290.5],
     "Show": {
         "Rival1": false,
         "Rival2": true
@@ -1082,18 +1062,10 @@
             "&d&lDanielle": "Statera's reign ends here!"
         }, 90, true, true, "female_angry"
     ],
-    "Wait": [
-        20
-    ],
-    "Unfreeze": [
-    ],
-    "Objective": [
-        "Battle Danielle to keep your title of Regional Champion",
-        6
-    ],
-    "HighlightClickEntity": [
-        "Rival2"
-    ],
+    "Wait": 20,
+    "Unfreeze": [],
+    "Objective": ["Battle Danielle to keep your title of Regional Champion", 6],
+    "HighlightClickEntity": "Rival2",
     "BattleNpc": [
         "Rival2",
         {
@@ -1117,13 +1089,8 @@
             }
         ]
     ],
-    "Freeze": [
-    ],
-    "StrikeLightning": [
-        101.5,
-        166.0,
-        -290.5
-    ],
+    "Freeze": [],
+    "StrikeLightning": [101.5, 166.0, -290.5],
     "Unfreeze": [],
     "Show": {
         "Rival2": false,
@@ -1152,9 +1119,7 @@
             "&8&lVidar": "Here, take these rewards, Champion [PLAYER]!"
         }, 90, true, true, "male_excited"
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
 
     "Wait": 20,
     "Complete": [],

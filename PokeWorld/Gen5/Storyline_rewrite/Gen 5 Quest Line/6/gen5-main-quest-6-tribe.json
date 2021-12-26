@@ -556,6 +556,7 @@
     },
     "Teleport": [-357.5, 47.0, -63.0, 26, 0],
     "Cinematic": [],
+    "HidePlayer": [],
     "Freeze": true,
     "Leave": "gen5_main_quest_6_tribe_flower1",
     "Leave": "gen5_main_quest_6_tribe_flower2",
@@ -607,6 +608,7 @@
     "Fade": [],
     "Unfreeze": [],
     "StopCinematic": [],
+    "ShowPlayer": [],
     "Hide": "Tribe_Leader1",
     "Objective": ["Return to the Ancient Shrine and find the new sewaddle puzzle", 2],
     "RegionEntry": [
@@ -634,6 +636,7 @@
     "Wait": 10,
     "HidePlayer": [],
     "Cinematic": [],
+    "HidePlayer": [],
     "Fade": [],
     "Teleport": [-333.0, 36.7, 53.4, -6, 29],
     "Freeze": true,
@@ -699,7 +702,7 @@
     "Teleport": [-321.5, 35.0, 59.5, 90, 0],
     "ShowPlayer": [],
     "StopCinematic": [],
-
+    "ShowPlayer": [],
     "Show": {
         "Tribe_Leader3": false,
         "Tribe_Member4": false,
