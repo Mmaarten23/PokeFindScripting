@@ -833,12 +833,13 @@
 
 
     "Comment": "big_ice_complete",
+    "Wait": 1,
+    "Dummy": [],
     "Teleport": [-864.5, 28.2, 691.5, -180],
     "SetBlocks": [
         -856, 28, 691,
         -867, 28, 701,
-        "obsidian",
-        false
+        "obsidian"
     ],
     "Objective": ["Defeat the second Tribe Elder", 3],
     "SetBlocks": [
