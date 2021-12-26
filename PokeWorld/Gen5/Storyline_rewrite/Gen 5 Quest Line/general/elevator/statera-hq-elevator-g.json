@@ -4,6 +4,9 @@
 
 
     "ClickBlock": [84, 54, 346],
+    "NotIn": ["statera_hq_elevator_2", ""],
+    "NotIn": ["statera_hq_elevator_3", ""],
+    "NotIn": ["statera_hq_elevator_1", ""],
     "Menu": [
         "Cranky elevator",
         3,
