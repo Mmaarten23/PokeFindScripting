@@ -68,7 +68,7 @@
     "Skip": "fail",
     "Skip": "to_2",
     "Skip": "to_3",
-    "Skip": "fail",
+    "Skip": "to_4",
     "Skip": "fail",
 
 
@@ -234,6 +234,24 @@
     "PlaySound": "block_anvil_place",
     "Wait": 10,
     "PlaySound": "block_iron_door_open",
+    "Leave": [],
+
+
+    "Comment": "to_4",
+    "If": [],
+    "HasRank": ["Helper", false, true],
+    "Skip": "4_verified",
+    "Dummy": [],
+    "If": [],
+    "Equals": ["hq_override", "1"],
+    "Skip": "4_verified",
+    "Skip": "fail",
+
+    "Comment": "4_verified",
+    "SendMessage": "Welcome back [PLAYER]!",
+    "Wait": 20,
+    "Teleport": [83.5, 85.0, 346.5, 91],
+    "PlaySound": ["entity_player_levelup", 1.2],
     "Leave": [],
 
     "Comment": "fail",

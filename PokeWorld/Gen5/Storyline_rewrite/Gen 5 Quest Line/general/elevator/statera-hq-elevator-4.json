@@ -1,0 +1,10 @@
+{
+    "Key": "statera_hq_elevator_1",
+    "Author": "Mmaarten",
+
+
+    "ClickBlock": [84, 86, 346],
+    "SendMessage": "&aLeaving headquarters, see you soon!",
+    "Wait": 40,
+    "Teleport": [63.5, 53.0, 337.5, -90]
+}
