@@ -809,6 +809,7 @@
     "Start": ["gen5_main_quest_4_big_ice_1", 1.0, "Start"],
     "Hold": [],
     "Skip": "restart_ice_1",
+    "Skip": "big_ice_complete",
 
     "Comment": "restart_ice_2",
     "Wait": 2.0,
@@ -818,9 +819,10 @@
     "Start": ["gen5_main_quest_4_big_ice_2", 1.0, "Start"],
     "Hold": [],
     "Skip": "restart_ice_2",
+    "Skip": "big_ice_complete",
 
 
-
+    "Comment": "big_ice_complete",
     "Objective": ["Defeat the second Tribe Elder", 3],
     "SetBlocks": [
         -868, 27, 688,

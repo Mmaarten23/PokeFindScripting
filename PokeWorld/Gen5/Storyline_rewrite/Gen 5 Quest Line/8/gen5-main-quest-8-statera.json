@@ -2,7 +2,7 @@
     "Key": "gen5_main_quest_8_statera",
 
     "Author": "Mmaarten",
-    "Name": "&b&lThe Great War",
+    "Name": "&b&lThe Great War &7- Statera",
     "Description": "It all comes down to this. Now is your time to shine!",
     "AllowRejoining": true,
     "Icon": "diamond_sword",
@@ -1119,7 +1119,7 @@
     "HasStoryTeam": "Statera",
 
     "Show": {
-        "Statera_Leader1": false
+        "Statera_Leader1": true
     },
 
     "HighlightClickEntity": "Statera_Leader1",

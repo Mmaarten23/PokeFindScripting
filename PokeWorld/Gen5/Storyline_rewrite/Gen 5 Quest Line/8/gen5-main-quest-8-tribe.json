@@ -2,7 +2,7 @@
     "Key": "gen5_main_quest_8_tribe",
 
     "Author": "Mmaarten",
-    "Name": "&b&lThe Great War",
+    "Name": "&b&lThe Great War &7- Sophro",
     "Description": "It all comes down to this. Now is your time to shine!",
     "AllowRejoining": true,
     "Icon": "diamond_sword",
@@ -961,6 +961,7 @@
         "look": false
     },
     "Show": {
+        "Tribe_Leader1": false,
         "Statera_Leader1": false,
         "Statera_Leader2": false,
         "Statera1": false,
@@ -1026,11 +1027,25 @@
         "Virizion1": false,
         "Professor1": false
     },
+    "RegionEntry": [
+        -474,30,-7,
+        -534,79,74
+    ],
+
+    "HasTrainerLevel": 80,
+    "Completed": ["gen5_main_quest_7_tribe", ""],
+    "Completed": "gym7",
+    "NotCompleted": false,
+    "HasStoryTeam": "Sophro",
+
+
+    "Show": "Tribe_Leader1",
+
     "HighlightClickEntity": "Tribe_Leader1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Are you ready [PLAYER]? I have a plan. Meet me in the Shrine for Kyurem in Northrun!"
-        }
+        }, 90, true, false, "female_question"
     ],
     "Wait": 20,
     "Objective": ["Head to Northrun and enter the Shrine for Kyurem", 4],
@@ -1038,52 +1053,56 @@
         -86, 59, -757,
         -80, 83, -747
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oIf there was ever a Shrine in Northrun... this was it.",
             "[PLAYER]": "&oSo in here, &3Kyurem&r&o should be in a deep slumber..."
-        }
+        }, 20, true, false
     ],
     "Objective": ["Follow the path to the top", 18],
     "RegionEntry": [
         -164, 83, -780,
         -152, 90, -766
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oSeems like nobody has walked this path in a long time."
-        }
+        }, 1, true, false
     ],
 
     "RegionEntry": [
         -182, 101, -803,
         -167, 110, -803
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oHmm, this is quite a hike, I should have brought something to drink."
-        }
+        }, 1, true, false
     ],
 
     "RegionEntry": [
         -174, 130, -748,
         -168, 140, -741
     ],
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "&oThis looks more like it."
-        }
+            "[PLAYER]": "&oThis looks like it would lead to a secret place..."
+        }, 90, true, false
     ],
 
     "RegionEntry": [
         -196, 106, -772,
         -190, 111, -766
     ],
-    "Dialog": [
+    "NewDialog": [
         {
-            "[PLAYER]": "&oHmmm, This used to be a door I think...",
+            "[PLAYER]": "&oHmmm, This used to be a door I think..."
+        }, 70, true, false
+    ],
+    "NewDialog": [
+        {
             "[PLAYER]": "&oSeems like it is frozen in place. Maybe I can climb through it though."
-        }
+        }, 1, true, false
     ],
     "RegionEntry": [
         -196, 106, -748,
@@ -1094,10 +1113,10 @@
     "Wait": 2,
     "Freeze": true,
     "Wait": 10,
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oUh oh... a maze??!"
-        }
+        }, 70, true, false
     ],
     "Wait": 20,
     "Unfreeze": [],
@@ -1110,10 +1129,10 @@
         -157, 98, -746,
         -152, 103, -756
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oMy hands are freezing, If only I had some Hot chocolate..."
-        }
+        }, 1, true, false
     ],
     "SetBlocks": [
         -153, 75, -703,
@@ -1125,11 +1144,11 @@
         -142, 75, -706,
         -142, 83, -694
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "&oHmm... This seems like another maze... But what is that?",
             "[PLAYER]": "&oLooks like this is a timed one. I have only 60 seconds to complete this..."
-        }
+        }, 90, true, false
     ],
 
     "SetBlocks": [
@@ -1148,7 +1167,7 @@
     "In": "gen5_main_quest_8_timed_maze",
     "Skip": "maze_completed",
     "Dummy": [],
-
+    "PlaySound": ["entity_villager_no", 0.5],
     "NewDialog": [
         {
             "&7&lMaze": "Looks like you did not make it in time..."
@@ -1159,6 +1178,7 @@
 
     "Comment": "maze_completed",
     "Leave": "gen5_main_quest_8_timed_maze",
+    "PlaySound": ["entity_villager_yes", 0.5],
     "NewDialog": [
         {
             "&7&lMaze": "Hmm... I'll let you go this time..."
@@ -1191,11 +1211,15 @@
     "NewDialog": [
         {
             "[PLAYER]": "&oPhew, that took for-ever!",
-            "[PLAYER]": "&oNow I get why no soul has ever tried to wake up &3&oKyurem&r&o!",
-            "[PLAYER]": "&oI feel like I am close though. This bridge looks too majestic."
+            "[PLAYER]": "&oNow I get why no soul has ever tried to wake up &3&oKyurem&r&o!"
         }, 90, true, true
     ],
-    "RegionEntry": [
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oI feel like I am close though. This bridge looks too majestic."
+        }, 1, true, true
+    ],
+    "InRegion": [
         -285, 1, -730,
         -319, 70, -769
     ],
@@ -1204,12 +1228,12 @@
         "Tribe_Leader2": true,
         "Tribe_Leader1": false
     },
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "You may not be the recognized Zeinova Champion, but you are &6Sophro's&r Champion!",
             "&e&lAstrid": "Take the Master Ball from the stand! We've got a plan.",
             "&e&lAstrid": "We will replace it with a dummy Master Ball!"
-        }
+        }, 90, true, true, "female_normal"
     ],
     "Wait": 20,
     "Objective": ["Pick up the Master Ball", 52],
@@ -1219,20 +1243,20 @@
     "PickupItem": [-329.5, 52.0, -749.5, "&5&lKyurem Master Ball", "Master Ball"],
     "SendMessage": ["&5&l+ Kyurem Master Ball"],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Perfect! Now we'll just put this fake Master Ball in it's place!"
-        }
+        }, 90, true, false, "female_normal"
     ],
     "Show": {
         "Kyurem1": true
     },
     "Look": "Kyurem1",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Now, let's get out of here! There's a path leading out of here to the right of the ice mazes. I'll meet you there."
-        }
+        }, 1, true, false, "female_normal"
     ],
     "ProgressiveWall": [
         -53, 54, -693,
@@ -1276,13 +1300,21 @@
         6, 65, -776
     ],
     "Wait": 80,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "[PLAYER]... I think the Great War has begun...",
-            "[PLAYER]": "I don't see Danielle or Vidar anywhere...",
+            "&e&lAstrid": "[PLAYER]... I think the Great War has begun..."
+        }, 90, true, false, "female_scared"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I don't see Danielle or Vidar anywhere..."
+        }, 90, true, false
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "They're probably inside the shrine already...",
             "&e&lAstrid": "... I sense something going on..."
-        }
+        }, 90, true, false, "female_scared"
     ],
     "Show": {
         "Rival1": true,
@@ -1305,10 +1337,10 @@
         "Gothitelle1": true,
         "Serperior1": true
     },
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "WOAH! Did you see that?!"
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 40,
     "Particle": ["flash", -29.5, 56.0, -740.5, 5],
@@ -1322,10 +1354,10 @@
         "Cryogonal1": true,
         "Beartic1": true
     },
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Yes... The Pokémon have arrived to help us win..."
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 40,
     "Particle": ["flash", -24.5, 56.0, -759.5, 5],
@@ -1338,10 +1370,10 @@
         "Sigilyph1": true,
         "Braviary1": true
     },
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "We will overpower those Statera members!"
-        }, 1
+        }, 1, true, false, "female_excited"
     ],
     "Wait": 40,
     "Particle": ["flash", -14.5, 57.0, -729.5, 5],
@@ -1353,10 +1385,10 @@
         "Archeops1": true,
         "Krookodile1": true
     },
-    "Dialog": [
+    "NewDialog": [
         {
             "[PLAYER]": "There are so many!"
-        }, 1
+        }, 1, true, false
     ],
     "Wait": 40,
     "Particle": ["flash", -4.5, 58.0, -741.5, 5],
@@ -1459,12 +1491,8 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
-    "HighlightClickEntity": [
-        "Statera2"
-    ],
+    "Wait": 20,
+    "HighlightClickEntity": "Statera2",
     "AutoBattleNpc": [
         "Statera2",
         {
@@ -1489,19 +1517,17 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "UGHH! It's fake?!"
-        }
+        }, 90, true, true, "female_angry"
     ],
-    "Wait": 20,
 
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "It seems they've found our dummy Master Ball! Go finish this war [PLAYER]!"
-        }
+        }, 90, true, false, "female_excited"
     ],
-    "Wait": 20,
     "Show": {
         "Statera_Leader1": false,
         "Statera_Leader2": true,
@@ -1532,20 +1558,19 @@
             }
         ]
     ],
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "This war is not over.",
             "&8&lVidar": "My dream will be realized, and you will regret this.",
             "&8&lVidar": "The real Champion of Zeinova will be victorious!"
-        }
+        }, 90, true, true, "male_angry"
     ],
-    "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&d&lDanielle": "I will finish this.",
             "&d&lDanielle": "It's time to end this, [PLAYER].",
             "&d&lDanielle": "I will be superior... I am superior."
-        }
+        }, 90, true, true, "female_angry"
     ],
     "Wait": 20,
     "Show": {
@@ -1556,17 +1581,32 @@
     },
     "Look": "Cobalion1",
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
-            "&e&lAstrid": "Spike!",
-            "&8&lVidar": "Spike!",
-            "&e&lAstrid": "[PLAYER]! Your &dAura&r just spiked!",
-            "&8&lVidar": "This is bad...",
+            "&e&lAstrid": "Spike!"
+        }, 1, true, false, "female_excited"
+    ],
+    "NewDialog": [
+        {
+            "&8&lVidar": "Spike!"
+        }, 90, true, false, "male_scared"
+    ],
+    "NewDialog": [
+        {
+            "&e&lAstrid": "[PLAYER]! Your &dAura&r just spiked!"
+        }, 90, true, true, "female_excited"
+    ],
+    "NewDialog": [
+        {
+            "&8&lVidar": "This is bad..."
+        }, 90, true, true, "male_scared"
+    ],
+    "NewDialog": [
+        {
             "&e&lAstrid": "This is wonderful!",
             "&e&lAstrid": "&3Kyurem&r and the Swords of Justice are lending you their strength!"
-        }
+        }, 90, true, true, "female_excited"
     ],
-    "Wait": 20,
     "Objective": ["Battle Danielle", 19],
     "HighlightClickEntity": "Rival2",
     "AutoBattleNpc": [
@@ -1593,11 +1633,11 @@
         ]
     ],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&8&lVidar": "You may have won but this is not the last you will see of me!",
             "&8&lVidar": "I will be back! Come on Statera Members! Let's get out of here!"
-        }
+        },90, true, true, "male_angry"
     ],
     "Fade": [],
     "Show": {
@@ -1610,12 +1650,12 @@
         "Rival2": false
     },
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "Looks like one of the Swords of Justice wants to join you on your journey, [PLAYER].",
             "&e&lAstrid": "You bonded quite a bit during the battle.",
             "&e&lAstrid": "I'm sure you'll learn a lot from the Swords of Justice."
-        }
+        },90, true, true, "female_normal"
     ],
     "Wait": 20,
     "RandomOption": 3,
@@ -1678,13 +1718,13 @@
     "Fade": [],
     "Teleport": [-89.5, 65.0, -751.5, 90, 0],
     "Wait": 20,
-    "Dialog": [
+    "NewDialog": [
         {
             "&e&lAstrid": "I cannot say what will become of &3Statera&r at this time... but I can tell you this is not over.",
             "&e&lAstrid": "We will work hard to gain back the region's trust, &3Statera&r has painted us in an awful light, and we must be able to shoulder this burden of being painted as the Bad Guys, while we rebuild Zeinova.",
             "&e&lAstrid": "Thank you [PLAYER], this never would have been possible without you.",
             "&e&lAstrid": "Your bond with your team, our team, and &3Kyurem&r saved me, our tribe, our region, and potentially the world."
-        }
+        },120, true, true, "female_normal"
     ],
     "Wait": 20,
     "Start": "song_call",
@@ -1697,10 +1737,10 @@
     "Wait": 10,
     "SendMessage": "  &aConnected!",
     "Wait": 30,
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lProfessor Hemlock": "Hey, [PLAYER]? Can you come by the lab? We need to talk..."
-        }
+        },90, true, false, "female_scared"
     ],
     "Wait": 20,
     "Objective": ["Visit Professor Hemlock at his lab", 8],
@@ -1708,7 +1748,7 @@
         "Professor1": true
     },
     "HighlightClickEntity": "Professor1",
-    "Dialog": [
+    "NewDialog": [
         {
             "&c&lProfessor Hemlock": "[PLAYER]... you’ve gone through a lot of heartache because of me…",
             "&c&lProfessor Hemlock": "My research gave &3Stratera&r the chance to advance and begin this terrible war…",
@@ -1717,7 +1757,7 @@
             "&c&lProfessor Hemlock": "Science and research has blinded me, and I’d like to become more connected with my Pokemon again, like in the past.",
             "&c&lProfessor Hemlock": "It appears my journey here in Zeinova is over… however yours is only just beginning, [PLAYER]. Your name will forever be etched in the history of these islands, just like their Storybook tales…",
             "&c&lProfessor Hemlock": "Do us proud, [PLAYER]. &dDanielle&r and I will be rooting for you, even if she doesn’t realize it yet."
-        }
+        },120, true, true, "male_normal"
     ],
     "Wait": 10,
     "Complete": [],
@@ -1729,7 +1769,12 @@
     "Fade": [],
     "Teleport": [638.5, 50.0, 449.5, -179, -4],
     "Hide": {
-        "Professor1": true
+        "Professor1": true,
+        "Tribe_Leader4": true,
+        "Tribe6": true,
+        "Tribe7": true,
+        "Tribe8": true,
+        "Tribe9": true
     },
     "Wait": 40,
     "SetTitle": [
