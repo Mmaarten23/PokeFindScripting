@@ -46,7 +46,7 @@
         1.0,
         1.0
     ],
-    "Progress": [2, "gen5_main_quest_4"],
+    "Progress": "gen5_main_quest_4",
     "SendMessage": ["&aPuzzle complete!"],
     "SetBlock": [-865, 28, 690, "air"]
 }

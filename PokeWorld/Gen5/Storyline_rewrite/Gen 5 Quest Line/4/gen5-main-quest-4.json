@@ -795,9 +795,10 @@
     ],
     "StopCinematic": [],
     "Unfreeze": [],
-    "RandomOption": 2,
+    "RandomOption": 3,
     "Skip": "first_ice_1",
     "Skip": "first_ice_2",
+    "Skip": "first_ice_3",
 
 
     "Comment": "restart_ice_1",
@@ -820,8 +821,25 @@
     "Skip": "restart_ice_2",
     "Skip": "big_ice_complete",
 
+    "Comment": "restart_ice_3",
+    "Wait": 2.0,
+    "Teleport": [-853.5, 28.0, 692.5, 90],
+    "SendMessage": "&cThat turned into a hot mess! Try again...",
+    "Comment": "first_ice_3",
+    "Start": ["gen5_main_quest_4_big_ice_3", 1.0, "Start"],
+    "Hold": [],
+    "Skip": "restart_ice_3",
+    "Skip": "big_ice_complete",
+
 
     "Comment": "big_ice_complete",
+    "Teleport": [-864.5, 28.2, 691.5, -180],
+    "SetBlocks": [
+        -856, 28, 691,
+        -867, 28, 701,
+        "obsidian",
+        false
+    ],
     "Objective": ["Defeat the second Tribe Elder", 3],
     "SetBlocks": [
         -868, 27, 688,
