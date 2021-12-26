@@ -2154,7 +2154,7 @@
     "GiveTokens": 10,
     "Wait": 40,
     "Fade": [],
-    "Teleport": [638.5, 47.9, 449.5, -179, -4],
+    "Teleport": [638.5, 50.0, 449.5, -179, -4],
     "Hide": {
         "Professor1": true
     },

@@ -232,7 +232,10 @@
     },
     "CreateEntity": {
         "key": "Tribe6",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lGabriel",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -91.5,
             "y": 65.0,
@@ -241,14 +244,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MDUxODk1OTU1MCwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTcyOGZhMjJmZGYxODNjNWYyZDM2YWFkNjE4MjYxMjlmMWJmYjc2NzJhNzk5ZWY5NDU4MWM0OGQ2OTIyN2Y0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+            "signature": "ncnoPLyigjPHtyFzkwIkB03g3qt6fWL7uUWSX92FNYJvNV/XQn09BzgoHWvMQosYsXAv7saZ+7aESkRCkYqzXxKNrj8XQH7V4PONT1QivDsvtHkZz/pSgtjASwzjXx0yT8DGkzmrGlbTyq0xt7u0fa5otMw3t++Mz9xhjKyvKlX6ddwcMNhiZG7ouETDyoXY8k27jy/5kPjFOBV0QL1uBsf3E3VKrLyfhCTliJrqNcCaNXkrh/+R3Muf+qtiIHXPmpD2UEjOuDR/5qZ7mCLHm8W0k4HRaarm/jpeU+tn6DvbdykZL1wgNJQM5F7wb3BV3Mv9ZoKd9Vd8mY+FxIYZcoEsQ/D56g4wmx0c31I6BJvvv6cPEi+tsmAoteaDi77yDp/OGD711k0sJdKP6JFYg//4yxj9I2YCPH5ND/tx/3un1f8KV90SHfC98M70F1/K2SD8tc0ym6F45c7cyHabtabpCQACjDub/WWe1XZlZUtY5XHF3fv6WQ4EhFVlIhJrp71fO/D9taZpXJPuSgZCR49KYfIpaBQd+4h0+wCUFswZPySxKAsqseIqVYcOkPv8HI1fMVsBXKGfdzZRu/9VTFgkSIAF8SHQnpyXCC0PujfLGM1XKczCPiBO0/xfkPDzwR673mqvHMJuKGqg5ke+fTpcVyy/Xii2L5DWQyOZnOI="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe7",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lMarjorie",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -89.5,
             "y": 65.0,
@@ -257,14 +263,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MDUxOTAxMzE0NSwKICAicHJvZmlsZUlkIiA6ICI2NDU4Mjc0MjEyNDg0MDY0YTRkMDBlNDdjZWM4ZjcyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaDNtMXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc3NWRjMWQxODA4MzkxNDUxNjk4ZTJlMDM5MTYzY2MwNjg3MjRiZDg4OTQ5NzZjMTUwZDg5OWU3MDMzMjUzOCIKICAgIH0KICB9Cn0=",
+            "signature": "w9OyYyfG4KJIc26Mc/u1G0mgFYSuPo5Bu6bQUMDwTYVAGzsjgzY+4/GZBisT8dxnVWJuA6/329Ein3k3+ZlxPBzG/uQ3AgpzfvRnFWvtgD90dlq274c7CM61D4eznFbI5W5DakvOSUIuSe2WiLzlREGyCAlXNYmyT3DRxQHHk5UnVRJFOPX/wnLxLzyBeQ7BBe0CpNBCzlA5vHyagYdiv7pKajgOwR104oxxkzn34BjVwLMpDFFa30z/933wM650vyVjr/D+RNLgN7B8r8YlWYxpjlba0cxPnTrKgc2gK+QIa0FdzLPuxOIcjKAEPydiNy5l107SBKTHrEWAAfyDgCt1Ns6Ac71HV1/iLumu3P13cSnC4eMkrfMxRJtTopIhRDxsBwv23EGrkdrw8oiVVqZySgwLgVad8FjplSB7HCva1Ab7WTH3FzUBZ23CPBeMHozbocNEQkbl9wGKRUq41Uy0nB6oilrrjp4a+dr7Jh2V/IL99n/oFsvHw5g5UzuJDJie+CzV1zz3XzzEf22M4qbikoetdU5Saxce4/ps8Ql+U9jzLLPIJzWHIYO3D8w5YF4Vr2oSogBcUHkQrRjvyQ+hku/nUPEWBxqnutiNAt2IBFou5DLVEmd7gIPO/7OKMTKKJwTJduMUWAleveiKUgVcoMjX2Yfc9zdYAx1x3gk="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe8",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lQuint",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -91.5,
             "y": 65.0,
@@ -273,14 +282,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MDUxOTEyODEzMywKICAicHJvZmlsZUlkIiA6ICIxYTc1ZTNiYmI1NTk0MTc2OTVjMmY4NTY1YzNlMDAzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXJvZmFyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkyNzZjY2I2ZDI0NjI2NTRlNDdlZjE4ZTNjZDEyYmVlZDgxOTRhZDJjM2EzMjFjZGIxZTY1MTU0OWU1NmYyNDUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "Tn5sgIP0XRCQnZ3EC1ZbrB54xAKzDzTa744tHEqx0yHPn7n6x+ZJdzR+BHy0crRJ8vIygIILmOQsXzLrUZxh9EBJmA7A4OLRHAECbNhIWQckxei6mWglopSOkdu8rxi2dicwC/wU16/j2MsVoeVs3ybbwx59qykorPHiglQBMsH/6D1jSL201+/+asEE5cWQe35uibDokgbGodv+o+gSH9EDQY05L/8dvNNW5n79BDo6NLxvLKJNwylrGocsUIluCy+k0pIKNVYc5PRnPG/amhBe0YXeI7a3S/2EoUZLdGkSdFRqJdPsB2EZmXPhn8rpUikqZ7WItZ0upWRSpkCr9LaN/ccgiH0ZakT/XWnD+PdDW76cBn0QrF8oMeN/ixISwGG/cUypGjkVy4U8cSUONMdQtrv+l5Fz8vr7gi4LSMxZj8Htj6wEj6WuLiao7oMV9qwLnROalhHna40sM+eQR8D8mIUtvCNhTO8nKjY3so1f4B/Bl91vxeSVFySLB+HXDE4Cs2NWXbVofEkvd1e1ccOuODmILMej0Y4l3DtPROismgI1RGY+4F+v2f7Ja4A+c9zxHxpAJOOivDCKnHnGS2R9HgUVMyRASIZC1RBX2OZEFOa1zw+AEfBdO9C2eLk7SgeIttopuUZ0pseBsSbGUOAGIxt2vO7xOJgFrtbZGH4="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe9",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lLisa",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -88.5,
             "y": 65.0,
@@ -289,14 +301,17 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MDUxOTI0NTU4OSwKICAicHJvZmlsZUlkIiA6ICJmMjU5MTFiOTZkZDU0MjJhYTcwNzNiOTBmOGI4MTUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmYXJsb3VjaDEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NTFkNWY4YzRmMDkyZjBhOTZhMzYxOTA0M2E5MDlmMjk4MGEyZTRhODQ2MjA3YmM4YzYwODdlNjc2NWQwYmVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+            "signature": "ThFwHeUwMd2aWSn652AnlZunVetRr58PJeGisvOueuJokvFGT8el0ZvP0s/UgIlAETrZ4WQoUiODuTMjAD5GUVnxQFO2k+UxYTpSkwbv3e8/OC6ribDjq84zf0qXNtQFCgMHAN3VfiJylhALsRpXp4yn9/CTKmmRsczL/GdaVmDpCj8er8w9X7ObUEmENefXZHwt/CF+IanS9WFL5gALeEnzJZ+ntSu6wwgz8zufrq4nPntovNWKIXO3RkKJN7qM9S8BIew2p3uiZgxihl467ma8ahcv7eylr2YlWijc6IykztTqOgaAM1HKX+nRUvAdLEttSLVt5uldOLR0/k7NFHEpEy49zx6h10ID+YVAlkl88+kW9Nrfh6wW3hqQ1ORqz31b2kLFdgDmDubQoJOq7Fwdza8LoRjqIt/E4oYY/fqDIGvwz5/GKTCjWsOaDdZOGDob8CzpFj5C/hsFHDynnBY8u5nIZKv1EybjJGhqGtJ4C0qm6weh4N1DGaumc1gJeiIg3SnOoMaJ87HvBXGarNP6tIc1LFJe95m2TuU04WGN9JP2NP9pHC4omOyLJwcN+kqPtVYT2YzT80t0YUVW13edhr+1Ja1udwTO58ONB0LT+ZKiQzVTxUamPuWszaODwSf0C+wplJ+fjk0VFRJEUqNfPBAPTvDDt4dNMPbmlS4="
         },
         "look": false
     },
     "CreateEntity": {
         "key": "Tribe10",
-        "name": "&6&lSophro Member",
+        "name": [
+            "&6&lScott",
+            "&7Sophro Member"
+        ],
         "location": {
             "x": -84.5,
             "y": 65.0,
@@ -305,8 +320,8 @@
             "pitch": 0
         },
         "skin": {
-            "texture": "",
-            "signature": ""
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MDUxOTM1MDgxNiwKICAicHJvZmlsZUlkIiA6ICI3MzY0ODFkZmY2ZGY0NWUwOTA0ODg0ZjNiMWExMjY1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lsaWdodFFBUSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ODIzYzg4NjY1ZmQxZjVjNjMxYzRlZWNhN2Y5MGM2MjJhZDc2NWZhNmFmMWEzM2MzMzNiZjUyMmRjM2FiMTlhIgogICAgfQogIH0KfQ==",
+            "signature": "QGc5MRhpPquDYuITskUVQaFRzqR2mvkYx9Z5XpD4+yBRPv06+oZAzjkLYKx88Ae2e8uGRuZlO0VmUl1xUBUF1eAw5V8ICvBF3ZFv3hO+QHSk5tZzkkR03DJyeF/wkI4Yj5JCVafZUOUL0nizqPlqImU9SARrZGOTzs6/6YMoqvSjpvOW00rqQ9YzRmiaICM3yQAqedCukYGJD0TykQdc9N81+BNNAcSWosArRzUZa53wwqXyLU4B8ttiSBPfoN1/ykgdECqADz1ytgLQaNMG1F4ci9aBpo3sB0gHURz9vD0JKfsbpBdlEUwQ15MPi5sv90zOk7xBUiZUXr34yXdLWMLD/Wcxtk/K47wAvr90Hg7CryWV26rn840dTkND/QGD1k7vC1zA8Wj7ErfoQV3eLqwgNXyZRPFUlPdO+T95v/kKraEkvVjjcGYBpCJtyfK14DdGmfJAEbyhJeaDJo5uB8zrtyRSNa5thRh97SJF4PWuRlGH8enP5WSTgvjSkr1c5nHvrXgCPC/OdP0NySxXsqGMnRU52SyLJL3bKAuPN36/32wNtohymsIZsFayB2zfOPLjbRNfou1bPY96tcBjCWsSG3QEvqQhshPm5jh3iOBBCmovXPtuFG7zv3qNgesocHu+W1kBq3UGenXQQyKgDc9HDM0iqpS5uYcW7rTRMSw="
         },
         "look": false
     },
@@ -1165,7 +1180,7 @@
             "[PLAYER]": "&oHmm, looks like this is the final maze before I am at &3&oKyurem&r&o's Masterball.",
             "[PLAYER]": "&oThere is an inscription on the wall here...",
             "[PLAYER]": "&oNot everything is as it seems... What could that mean?"
-        }, 90, true, false
+        }, 90, true, true
     ],
     "Objective": ["Navigate through the maze of illusions", 3],
     "RegionEntry": [
@@ -1178,7 +1193,7 @@
             "[PLAYER]": "&oPhew, that took for-ever!",
             "[PLAYER]": "&oNow I get why no soul has ever tried to wake up &3&oKyurem&r&o!",
             "[PLAYER]": "&oI feel like I am close though. This bridge looks too majestic."
-        }, 90, true, false
+        }, 90, true, true
     ],
     "RegionEntry": [
         -285, 1, -730,
@@ -1363,6 +1378,7 @@
         "Haxorus1": true,
         "Hydreigon1": true
     },
+    "Wait": 40,
 
     "MoveEntity": ["Samurott1", -32.9, 55.0, -743.2, 2.0, false],
     "Wait": 1,
@@ -1386,7 +1402,7 @@
     "Wait": 10,
     "NewDialog": [
         {
-            "[PLAYER]": "&oSophro has lured us into a trap, how could we fall for this?"
+            "[PLAYER]": "&oThis is going to be a hefty battle..."
         }, 1, true, false
     ],
     "ProgressiveMoveEntity": ["Tribe2", -38.7, 55.0, -750.0],
@@ -1414,6 +1430,7 @@
     "StrikeLightning": [-26.0, 55.8, -752.0],
 
     "Hold": [],
+    "Start": "gen5_main_quest_8_crater_fix",
 
     "Wait": 20,
     "Objective": ["Battle the Statera members", 17],
@@ -1449,7 +1466,7 @@
         "Statera2"
     ],
     "AutoBattleNpc": [
-        "Statera1",
+        "Statera2",
         {
             "&3&lStatera Member": "I don't understand how you could leave Statera! Our strength is far greater than Sophro's!"
         },
@@ -1471,77 +1488,34 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
-    "HighlightClickEntity": [
-        "Statera3"
-    ],
-    "AutoBattleNpc": [
-        "Statera3",
-        {
-            "&3&lStatera Member": "This war will be won by Statera! Sophro will lose!"
-        },
-        {
-            "&3&lStatera Member": "Or maybe Sophro will win?"
-        },
-        {
-            "&3&lStatera Member": "There's no way for you to win! Give up!"
-        },
-        [
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "celebrate"
-                ],
-                "ability": "Shield Dust",
-                "nature": "Timid"
-            }
-        ]
-    ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&d&lDanielle": "UGHH! It's fake?!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
 
     "Dialog": [
         {
             "&e&lAstrid": "It seems they've found our dummy Master Ball! Go finish this war [PLAYER]!"
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Statera_Leader1": false,
         "Statera_Leader2": true,
         "Rival1": false,
         "Rival2": true
     },
-    "Objective": [
-        "Battle the Statera Leader",
-        8
-    ],
-    "HighlightClickEntity": [
-        "Statera_Leader2"
-    ],
+    "Objective": ["Battle the Statera Leader", 8],
+    "HighlightClickEntity": "Statera_Leader2",
     "AutoBattleNpc": [
         "Statera_Leader2",
         {
             "&8&lVidar": "Aw look who it is... Why hello [PLAYER]! Or should I call you Weakling, because you'll never beat me!"
         },
         {
-            "&8&lVidar": "This war is not over.",
-            "&8&lVidar": "My dream will be realized, and you will regret this.",
-            "&8&lVidar": "The real Champion of Zeinova will be victorious!"
         },
         {
             "&8&lVidar": "That's what happens when you betray others..."
@@ -1558,9 +1532,14 @@
             }
         ]
     ],
-    "Wait": [
-        20
+    "Dialog": [
+        {
+            "&8&lVidar": "This war is not over.",
+            "&8&lVidar": "My dream will be realized, and you will regret this.",
+            "&8&lVidar": "The real Champion of Zeinova will be victorious!"
+        }
     ],
+    "Wait": 20,
     "Dialog": [
         {
             "&d&lDanielle": "I will finish this.",
@@ -1568,21 +1547,15 @@
             "&d&lDanielle": "I will be superior... I am superior."
         }
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Show": {
         "Virizion1": true,
         "Cobalion1": true,
         "Terrakion1": true,
         "Kyurem2": true
     },
-    "Look": [
-        "Cobalion1"
-    ],
-    "Wait": [
-        20
-    ],
+    "Look": "Cobalion1",
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "Spike!",
@@ -1593,16 +1566,9 @@
             "&e&lAstrid": "&3Kyurem&r and the Swords of Justice are lending you their strength!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Battle Danielle",
-        19
-    ],
-    "HighlightClickEntity": [
-        "Rival2"
-    ],
+    "Wait": 20,
+    "Objective": ["Battle Danielle", 19],
+    "HighlightClickEntity": "Rival2",
     "AutoBattleNpc": [
         "Rival2",
         {
@@ -1626,15 +1592,14 @@
             }
         ]
     ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&8&lVidar": "You may have won but this is not the last you will see of me!",
             "&8&lVidar": "I will be back! Come on Statera Members! Let's get out of here!"
         }
     ],
+    "Fade": [],
     "Show": {
         "Statera1": false,
         "Statera2": false,
@@ -1644,9 +1609,7 @@
         "Statera_Leader2": false,
         "Rival2": false
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "Looks like one of the Swords of Justice wants to join you on your journey, [PLAYER].",
@@ -1654,23 +1617,13 @@
             "&e&lAstrid": "I'm sure you'll learn a lot from the Swords of Justice."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "RandomOption": [
-        3
-    ],
-    "Start": [
-        "give_virizion_tribe"
-    ],
-    "Start": [
-        "give_cobalion_tribe"
-    ],
-    "Start": [
-        "give_terrakion_tribe"
-    ],
-    "Hold": [
-    ],
+    "Wait": 20,
+    "RandomOption": 3,
+    "Start": "give_virizion_tribe",
+    "Start": "give_cobalion_tribe",
+    "Start": "give_terrakion_tribe",
+    "Hold": [],
+
     "Show": {
         "Tribe_Leader4": true,
         "Tribe6": true,
@@ -1722,18 +1675,9 @@
         "Haxorus1": false,
         "Hydreigon1": false
     },
-    "Fade": [
-    ],
-    "Teleport": [
-        -89.5,
-        65.0,
-        -751.5,
-        90,
-        0
-    ],
-    "Wait": [
-        20
-    ],
+    "Fade": [],
+    "Teleport": [-89.5, 65.0, -751.5, 90, 0],
+    "Wait": 20,
     "Dialog": [
         {
             "&e&lAstrid": "I cannot say what will become of &3Statera&r at this time... but I can tell you this is not over.",
@@ -1742,49 +1686,28 @@
             "&e&lAstrid": "Your bond with your team, our team, and &3Kyurem&r saved me, our tribe, our region, and potentially the world."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&a&lIncoming Pokécall> From Professor Hemlock"
-    ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Type /accept to accept Professor Hemlock's call",
-        6
-    ],
-    "Command": [
-        "accept"
-    ],
-    "Wait": [
-        20
-    ],
-    "SendMessage": [
-        "&a&lConnected"
-    ],
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
+    "Start": "song_call",
+    "Wait": 10,
+    "SendMessage": "\n&2&lIncoming Pokégear Call\n\n  &cProfessor Hemlock&r is trying to reach you.\n\n",
+    "SendMessageOptions": ["&aAccept"],
+    "Leave": "song_call",
+    "Wait": 20,
+    "SendMessage": "  &7Connecting...",
+    "Wait": 10,
+    "SendMessage": "  &aConnected!",
+    "Wait": 30,
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "Hey, [PLAYER]? Can you come by the lab? We need to talk..."
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Objective": [
-        "Visit Professor Hemlock at his lab",
-        8
-    ],
+    "Wait": 20,
+    "Objective": ["Visit Professor Hemlock at his lab", 8],
     "Show": {
         "Professor1": true
     },
-    "HighlightClickEntity": [
-        "Professor1"
-    ],
+    "HighlightClickEntity": "Professor1",
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "[PLAYER]... you’ve gone through a lot of heartache because of me…",
@@ -1796,23 +1719,23 @@
             "&c&lProfessor Hemlock": "Do us proud, [PLAYER]. &dDanielle&r and I will be rooting for you, even if she doesn’t realize it yet."
         }
     ],
-    "Wait": [
-        20
+    "Wait": 10,
+    "Complete": [],
+    "PlaySound": "entity_player_levelup",
+    "GiveCoins": 2500,
+    "GiveTrainerExperience": 3000,
+    "GiveTokens": 10,
+    "Wait": 40,
+    "Fade": [],
+    "Teleport": [638.5, 50.0, 449.5, -179, -4],
+    "Hide": {
+        "Professor1": true
+    },
+    "Wait": 40,
+    "SetTitle": [
+        "&b&lThe Great War",
+        "&aQuest complete",
+        true
     ],
-    "GiveCoins": [
-        25000
-    ],
-    "GiveTokens": [
-        20
-    ],
-    "GiveTrainerExperience": [
-        25000
-    ],
-    "Wait": [
-        20
-    ],
-    "SendCompleteMessage": [
-    ],
-    "Complete": [
-    ]
+    "PlayCustomSound": "sfx.quest_complete"
 }
