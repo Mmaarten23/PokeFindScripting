@@ -316,7 +316,6 @@
         "Tribe_Leader": false,
         "Battle_Tribe_Leader": false
     },
-    "Quest": true,
 
 
     "Comment": "This script will be started by the H.A.P.P.Y. controller.",
@@ -367,13 +366,13 @@
         {
             "&3H.A.P.P.Y.": "Welcome to &3Statera HQ&r. Please verify yourself."
         },
-        90, true, false, "male_normal"
+        90, true, true, "male_normal"
     ],
     "NewDialog": [
         {
             "[PLAYER]": "Eeuh, my name is [PLAYER]. I am Professor Hemlock's assistant."
         },
-        90, true, false
+        90, true, true
     ],
     "NewDialog": [
         {
@@ -405,7 +404,7 @@
     "HighlightClickEntity": "Representative1",
     "NewDialog": [
         {
-            "&c&lAgent Ty": "You must be [PLAYER], my name is &c&lAgent Ty&r and I am here to inform you of some wonderful news!",
+            "&c&lAgent Ty": "You must be [PLAYER], my name is &cTy&r and I am here to inform you of some wonderful news!",
             "&c&lAgent Ty": "You and your friend &dDanielle&r-"
         },
         90, true, true, "male_normal"
