@@ -1,6 +1,7 @@
 {
     "Key": "gen5_main_quest_2_water_update",
     "Author": "Mmaarten",
+    "AllowRejoining": true,
 
     "Comment": "update",
     "If": [],

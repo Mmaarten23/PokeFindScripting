@@ -1,6 +1,7 @@
 {
     "Key": "gen5_main_quest_2_water_barriers",
     "Author": "Mmaarten",
+    "AllowRejoining": true,
     "Set": ["coal_barrier", "down"],
     "Set": ["iron_barrier", "up"],
     "Set": ["lapis_barrier", "down"],

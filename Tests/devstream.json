@@ -1,0 +1,235 @@
+{
+    "Key": "devstream",
+    "Author": "Mmaarten",
+
+
+    "CreateEntity": {
+        "key": "manager",
+        "name": [
+            "&c&lDante",
+            "&7Project manager"
+        ],
+        "location": {
+            "world": "world",
+            "x": -1046.2,
+            "y": 44.0,
+            "z": 298.6,
+            "yaw": 176,
+            "pitch": 0,
+            "pitch": -6
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNDA2NTM1ODcwNywKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QzNTQwMjBjZWNkNTVmOWQ1Y2QyNjQzN2VlZjZhMWNhYzhkMzlhZjgyOTFjODI3ZWJmZjA0NDYwN2QzNTE5ZGIiCiAgICB9CiAgfQp9",
+            "signature": "M39TsCkKtildkxRxREY51th72VRTmxJNvjrhHCHy34PjtZ9nFhqne0eghBleFOuTKpHkzun/GoWL2+wNb5dKLVLA18H7p+RkWK3ozbyJeVoVcSG88CVNJVMdFltZpOJ9hgEPZXaF9a7cqk/k1/oAnR6Qbo1X9H6UKR81BwYHJlHHemzQbzRVGA01SjDMMtf2bBkPLKjcV8Njf4QzjxWE1XUgwZ5CJKI3CEo5ZqoRyg9avIzm9l+lx5FqrvnWcjZcJElXt3hDEYkYUwkGww/hMJsKxvRorGusxqpKXkkbKhkILyqiNtv/rrjIyv1USi+Vov7vVhFbnXt+U4wl5m8aojB7I1SDm9l4fw27lk5K5Ghkwsc0hdeTwZzre1K84bkQOuKrqR+xTEEobagJZ0EMDaynj9n/MLzsfQ5LUCN4ar9pbnRT8ltq1wFz2Me8BssPvygd941BfRrIVjo/I6yz2oPhRcYHGAcS8yoih35/h+D3YbiraNMiDPUBwvC6JAC12nPUkBiDVIPyhavJnYqGVJSgqjzl3YnlJXAkuWrkynBFo0We/NVFWthhv84pTrajFTMJPtl0L5yI65QJ3K6+N3cgj0txX2PxSv4K8cNvuqq0zjhD0Bl6KAEw6ow+4ypJc5BjpQtjjeSQ37pxqTUdBsRKxVl1Of9W3yeL5682HNM="
+        },
+        "offhand": {
+            "material": "trainer_handbook"
+        }
+    },
+    "CreateEntity": {
+        "key": "worker1",
+        "location": {
+            "world": "world",
+            "x": -1046.6,
+            "y": 44.0,
+            "z": 350.1,
+            "yaw": 30,
+            "pitch": -7
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNDA2NTAwMTAxNiwKICAicHJvZmlsZUlkIiA6ICJmZDQ3Y2I4YjgzNjQ0YmY3YWIyYmUxODZkYjI1ZmMwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc0ODcwMDRiOTU0NmQ3MjE3OTA5NjUwZmFlYmI5NWE2ZmJlZjY5NWU5MjMzZWQ5M2FhOGRmNmQ5YzEzN2ExYWMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "aS3oA1vLgJgfWZIt1BPqnsNTVE9VJ6fiQOTTPyi54V6mEnhgaBEJn5v+UrvDEvHLeQV8aW3Izcs8o0FMkr+lgY+aBgmbZ5mawrcHZBRwlc44z0LrzSVfNbp/eaBcQSY5vElefgiN885b9tdjggLz0ykfJpiZ0eR/qqlheJPoROAioe8CkWhF1e+VDrOqvPC/lRvJxUfcV+xBtrskAUSjaqG5Hu8aGCbBYkUaleG/+HcUDDtcRiMIsziXmMm2hB2lsyZXIO0VEBQPAnuyv92pF0OX6VzcIo2ItElD9H2Szg+uMqivzdM4O7D9morxc+N4XZvcyTj1zztGkwKJRI4Kr80sshXqDFKNvceWI1bSjPSANw4WMlSLwpklKlaMYjNOV604tAEFBaiUNqCocSyQSoiI6d7mBPThzTx6UvLg2C+QFdPJEajkDL2TvTphFRK6Vznt7vbGATD4HiYB0ILumc0xYlhCuz3RbQmbBbjpqK3mMx2aUfRX/5DhN3nsYFKqSwmbw5dNq9PFJ0A/xuyBKUOh7rnEC5yImtY9PFDjTYEncKWQtAm/u2Cx3f1OyMeepv8KZyl0jPOupqFusrA1e3ykFzFqaPq87fuIKlId5hyd5l+KtYaEyizVzJz3pIzuygH2dOlMJQlGHs1qr+3zFwapqBmyAkgsv0Tk6OeklPY="
+        },
+        "hand": {
+            "material": "writable_book"
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "worker2",
+        "location": {
+            "x": -1050.0,
+            "y": 44.0,
+            "z": 347.9,
+            "yaw": 83,
+            "pitch": 5
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNDA2NTIwNDA4MSwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MjQ4YzhmZTNkMmMyOWMyZTIyN2VjNGU5OTI3NTA0ODcwZWE2NGNiYjgxZjk4ZTBmMTA0Y2M0NjYwMjQ2Y2ZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+            "signature": "dgQEM2hKZaVUfU0RdqjA6pR1NW4dFP5PJ7vmMz2aCBBMRc74iim1+hw0I8wO53+bpraeMQiG4TV3md53YZfU3h/2+EQMCb0qYmtNKRENpWlyS3YAHD64ymE0N+NHPukF4OK4hy8jMgR8cCyYcC0lMbTRf5QZPZQznxa2C3XGD6d1al2k54WgdjmeLoTlXN/r9vMfjLmIl1qEjym/5wcfNCh+BDPXY2Eq7YLWHESn4VjVSKbwh14VS+Moo8ddo2GdmgKtqjenqrK/fUhE6D2KmLXUEXQ4SMZvONuYVYuLHdNQ3lrCuKOBs3nPytdr43g2o9J74gmzK/A4M4q34/y+iWxJgVmPo3dUF+vDSw7ArStoz+HIfGFDm2k2sUhutKEo1tTDULzCnAzGrZhUCA9otYfjJ+8RVQ0qKfzpN4xyU/5PhuyRPpMGSxwrKfyXcc4BlgC83aysEIQe8a1rAEti0jkAmL0W2nl5SbEwYrnTos6y5Bpjw+uZZscZ8isIaq/0uv5zvFvj3Jw4ag3qmK31HcfTZd1mEiZhXJvRKTorPEUnGwZ4mQ4mdljR/gmYv+vd7cw7PRqepFYyybGmUwqf78VfygUpw6/L+fuJJSfwTLZ1HokRq8Dprv+EadRiuU0oss+JzUKPYxGzKRklmtupkwHaD4oUFzH334iZ5itRWgU="
+        },
+        "hand": {
+            "material": "diamond_pickaxe"
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "worker3",
+        "location": {
+            "x": -1046.4,
+            "y": 44.0,
+            "z": 342.1,
+            "yaw": 21,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNDA2NTM1ODcwNywKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QzNTQwMjBjZWNkNTVmOWQ1Y2QyNjQzN2VlZjZhMWNhYzhkMzlhZjgyOTFjODI3ZWJmZjA0NDYwN2QzNTE5ZGIiCiAgICB9CiAgfQp9",
+            "signature": "M39TsCkKtildkxRxREY51th72VRTmxJNvjrhHCHy34PjtZ9nFhqne0eghBleFOuTKpHkzun/GoWL2+wNb5dKLVLA18H7p+RkWK3ozbyJeVoVcSG88CVNJVMdFltZpOJ9hgEPZXaF9a7cqk/k1/oAnR6Qbo1X9H6UKR81BwYHJlHHemzQbzRVGA01SjDMMtf2bBkPLKjcV8Njf4QzjxWE1XUgwZ5CJKI3CEo5ZqoRyg9avIzm9l+lx5FqrvnWcjZcJElXt3hDEYkYUwkGww/hMJsKxvRorGusxqpKXkkbKhkILyqiNtv/rrjIyv1USi+Vov7vVhFbnXt+U4wl5m8aojB7I1SDm9l4fw27lk5K5Ghkwsc0hdeTwZzre1K84bkQOuKrqR+xTEEobagJZ0EMDaynj9n/MLzsfQ5LUCN4ar9pbnRT8ltq1wFz2Me8BssPvygd941BfRrIVjo/I6yz2oPhRcYHGAcS8yoih35/h+D3YbiraNMiDPUBwvC6JAC12nPUkBiDVIPyhavJnYqGVJSgqjzl3YnlJXAkuWrkynBFo0We/NVFWthhv84pTrajFTMJPtl0L5yI65QJ3K6+N3cgj0txX2PxSv4K8cNvuqq0zjhD0Bl6KAEw6ow+4ypJc5BjpQtjjeSQ37pxqTUdBsRKxVl1Of9W3yeL5682HNM="
+        },
+        "offhand": {
+            "material": "pokegear"
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "worker4",
+        "location": {
+            "x": -1047.9,
+            "y": 44.0,
+            "z": 329.6,
+            "yaw": 5,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQyNzg1NTkwMiwKICAicHJvZmlsZUlkIiA6ICI1ZjE4ZmY4NTEyZGQ0NmQ1OGY1MjJlYjg2MDg2ZjU5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWtlb3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRkY2Q3NTg0NjJlZmZiMmIzMjBhYWIwOWM2MDdiZWYwMWM1YWM2YTY4NzJiY2JmY2ZiMjJlNzgzOTYxMmJiMyIKICAgIH0KICB9Cn0=",
+            "signature": "M8mHWfojMs0WSCU0kYp936EmMnhylaApphhEEbzMD7FEW5fEI4eh8XUff5gsWXhpvd7lIZDSOa1yB5nDPtBjkhJ234PgTBlCYd2AjiszADdazknkE3r7USBMsd7DDVZQfokqvv1WBrj1l3lgv/ZN7bKGhsqHm3R5XYJcXsjEuHhSUEjrBXpPBETjLjcKR5C+uGAqY5DuVDNJLcH3AWFu4HqlJrWcfPbcazMiK/YCeTeYJ+Q7EGgs5pkmjWKMHHedB+lBLYM2aMtz0T7TtkaLz5lblfrIUD932/sejTuw3DvETmibpoz8roZ0TL51kvFk+tayC5e4oUn8IDDEuc31RpJPAWvBPeCsDg5LF4D20wXdstkW/jTJ4GyuYv/9Y7XnS1I/EaX+iqFZ0VpEMqPltONzSDRXw8qcEi4pBLCXcE1vmhP8nchL0o3D3T1XRsrXt5yO2XPrQrL15eKusrS5MCM1Nck325EKwANWncdkGSd1n5XxaAdT2PpuyYIyUb5ZkTe5Cg812RcUYKQtLsvgz8zVHZoxDpku+l8x9OLLWjslaYsBkTsOla87Dqvw+abpe7QfmScqQHCOetzp+7HD1rPBhQZp+txLzbdXkXSnQUKRtdEvGVFtvk4fguIY46tKJHH1dS6xAFFgtccHK8C9OvqF2WLNpKCMNcIS3gvEln0="
+        },
+        "look": false
+    },
+
+    "Show": {
+        "worker1": false,
+        "worker2": false,
+        "worker3": false,
+        "worker4": false
+    },
+
+    "HighlightClickEntity": "manager",
+
+    "NewDialog": [
+        {
+            "&c&lDante": "Hi there! You are here to check on the construction progress I assume."
+        },
+        140, true, false, "male_excited"
+    ],
+    "NewDialog": [
+        {
+            "&c&lDante": "Follow me. I'll show you around. We are just about to lower the next piece of the bridge."
+        },
+        140, true, false, "male_normal"
+    ],
+
+
+    "Show": {
+        "worker1": true,
+        "worker2": true,
+        "worker3": true,
+        "worker4": true
+    },
+    "Fade": [],
+    "Start": "gen5_main_quest_1_bridge",
+    "Teleport": [-1064.9, 54.9, 351.7, -90, 37],
+    "HidePlayer": [],
+    "Cinematic": [],
+    "SetScoreboard": "",
+    "Wait": 5,
+    "SetBlocks": [
+        -1052, 44, 354,
+        -1052, 54, 354,
+        "iron_bars"
+    ],
+    "SetBlocks": [
+        -1048, 44, 354,
+        -1048, 54, 354,
+        "iron_bars"
+    ],
+    "SetBlocks": [
+        -1048, 44, 362,
+        -1048, 54, 362,
+        "iron_bars"
+    ],
+    "SetBlocks": [
+        -1052, 44, 362,
+        -1052, 54, 362,
+        "iron_bars"
+    ],
+    "Wait": 10,
+    "Teleport": [-1064.9, 54.9, 351.7, -90, 37],
+    "Wait": 1,
+    "Freeze": true,
+
+    "NewDialog": [
+        {
+            "&c&lDante": "We got a visitor guys! Don't mess up!"
+        },
+        1, true, false, "male_angry"
+    ],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["worker2", -1047.8, 44.0, 338.8],
+    "Wait": 15,
+    "ProgressiveMoveEntity": ["worker4", -1048.8, 44.0, 343.1],
+    "Wait": 25,
+    "Progress": "gen5_main_quest_1_bridge",
+
+    "Wait": 20,
+    "ProgressiveMoveEntity": ["worker1", -1052.1, 44.0, 350.8],
+    "Wait": 40,
+    "NewDialog": [
+        {
+            "&c&lDante": "Careful now!"
+        },
+        60, true, false, "male_excited"
+    ],
+    "ProgressiveMoveEntity": ["worker3", -1049.4, 44.0, 362.3],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["worker2", -1051.3, 44.0, 330.3],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["worker4", -1047.4, 44.0, 362.3],
+    "Wait": 20,
+    "ProgressiveMoveEntity": ["worker1", -1049.3, 44.0, 330.3],
+    "NewDialog": [
+        {
+            "&c&lDante": "Good work peoples, good work!"
+        },
+        70, true, false, "male_normal"
+    ],
+    "Hide": {
+        "worker1": true,
+        "worker2": true,
+        "worker3": true,
+        "worker4": true
+    },
+    "SetBlocks": [
+        -1052, 44, 354,
+        -1052, 54, 354,
+        "air"
+    ],
+    "SetBlocks": [
+        -1048, 44, 354,
+        -1048, 54, 354,
+        "air"
+    ],
+    "SetBlocks": [
+        -1048, 44, 362,
+        -1048, 54, 362,
+        "air"
+    ],
+    "SetBlocks": [
+        -1052, 44, 362,
+        -1052, 54, 362,
+        "air"
+    ],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-1046.2,44.0,296.4, 0, 0],
+    "StopCinematic": [],
+    "SetScoreboard": [],
+    "ShowPlayer": [],
+    "Wait": 20,
+    "NewDialog": [
+        {
+            "&c&lDante": "It was nice meeting you, feel free to visit once this bridge is done!"
+        },
+        1, true, false, "male_normal"
+    ]
+}

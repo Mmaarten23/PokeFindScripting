@@ -309,9 +309,9 @@
     ],
 
     "HasTrainerLevel": 30,
-    "Completed": "gen5_main_quest_2",
+    "Completed": ["gen5_main_quest_2", ""],
     "Completed": "gym2",
-    "NotCompleted": [],
+    "NotCompleted": false,
 
     "Show": {
         "BridgeCitizen1": true,

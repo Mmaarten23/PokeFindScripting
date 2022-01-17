@@ -1,0 +1,14 @@
+{
+    "Store": ["cleanup_version", 3],
+    "PlayerJoin": [],
+    "If": [],
+    "Equals": ["cleanup", "[cleanup_version]"],
+    "Leave": [],
+    "Dummy": [],
+
+    "SetPersistent": ["cleanup", "[cleanup_version]"],
+
+    "Comment": "All redundant variables",
+    "SetPersistent": ["var", "REMOVE"],
+    "SetPersistent": ["var2", "REMOVE"]
+}

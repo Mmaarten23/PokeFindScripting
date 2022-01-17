@@ -233,8 +233,8 @@
         -528, 1, 20,
         -471, 150, 87
     ],
-    "HasTrainerLevel": 60,
     "Completed": ["gen5_main_quest_6_tribe", true, ""],
+    "HasTrainerLevel": 60,
     "Completed": ["gym5", true, false],
     "NotCompleted": false,
     "HasStoryTeam": ["Sophro", false],

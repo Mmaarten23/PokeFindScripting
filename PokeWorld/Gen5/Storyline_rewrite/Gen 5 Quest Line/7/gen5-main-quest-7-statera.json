@@ -471,7 +471,6 @@
         "broadcast6_rightpokemon": false,
         "broadcast6_leftpokemon": false
     },
-    "Quest": true,
 
     "Comment": "This script will be started by the H.A.P.P.Y. controller.",
     "HasTrainerLevel": 70,

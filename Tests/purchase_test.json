@@ -1,0 +1,22 @@
+{
+    "Key": "purchase_test",
+
+
+    "Command": "mmaarten",
+    "If": [],
+    "HasPurchaseHistory": [ "EGG:rare", 24, "&4You need 24 rare eggs to do this!" ],
+    "SendMessage": "passed",
+    "SendMessage": "failed",
+
+    "If": [],
+    "HasPurchaseHistory": [ "EGG:rare", 25, "&4You need 25 rare eggs to do this!" ],
+    "SendMessage": "passed",
+    "SendMessage": "failed",
+
+
+    "HasPurchaseHistory": [ "EGG:rare", 24, "&4You need 24 rare eggs to do this!" ],
+    "SendMessage": "passed",
+    "HasPurchaseHistory": [ "EGG:rare", 25, "&4You need 25 rare eggs to do this!" ]
+
+
+}

@@ -1112,10 +1112,11 @@
         84, 80, 338
     ],
 
-    "HasTrainerLevel": 80,
+
     "Completed": ["gen5_main_quest_7_statera", ""],
     "Completed": "gym7",
     "NotCompleted": false,
+    "HasTrainerLevel": 80,
     "HasStoryTeam": "Statera",
 
     "Show": {
