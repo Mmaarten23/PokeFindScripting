@@ -1,0 +1,42 @@
+{
+    "Key": "gen5_main_quest_2_wild1",
+    "Author": "Mmaarten",
+    "AllowRejoining": true,
+
+    "CreateEntity": {
+        "key": "Shrine_Pokemon3",
+        "location": {
+            "x": 1123.0,
+            "y": 43.0,
+            "z": -602.0,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "entity": "armor_stand",
+        "pokemon": "weedle"
+    },
+    "Hide": "Shrine_Pokemon3",
+
+    "Comment": "start",
+    "Show": "Shrine_Pokemon3",
+    "HighlightClickEntity": "Shrine_Pokemon3",
+    "NotCompleted": [],
+    "Hide": "Shrine_Pokemon3",
+    "BattleWildPokemon": [
+        1123.0, 43.0, -603.0, 180,
+        [
+            {
+                "species": "weedle",
+                "level": 1,
+                "moves": [
+                    "celebrate",
+                    "celebrate",
+                    "celebrate",
+                    "celebrate"
+                ]
+            }
+        ]
+    ],
+    "Complete": [],
+    "Progress": "gen5_main_quest_2"
+}

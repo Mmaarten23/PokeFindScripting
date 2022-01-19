@@ -159,43 +159,6 @@
         "look": true
     },
     "CreateEntity": {
-        "key": "Shrine_Pokemon",
-        "location": {
-            "x": 1131.5,
-            "y": 43.0,
-            "z": -602.0,
-            "yaw": 138,
-            "pitch": 0
-        },
-        "entity": "armor_stand",
-        "pokemon": "weedle"
-    },
-    "CreateEntity": {
-        "key": "Shrine_Pokemon2",
-
-        "location": {
-            "x": 1114.5,
-            "y": 43.0,
-            "z": -603.0,
-            "yaw": 227,
-            "pitch": 0
-        },
-        "entity": "armor_stand",
-        "pokemon": "weedle"
-    },
-    "CreateEntity": {
-        "key": "Shrine_Pokemon3",
-        "location": {
-            "x": 1123.0,
-            "y": 43.0,
-            "z": -602.0,
-            "yaw": 180,
-            "pitch": 0
-        },
-        "entity": "armor_stand",
-        "pokemon": "weedle"
-    },
-    "CreateEntity": {
         "key": "Shrine_Pokemon4",
         "location": {
             "x": 1115.5,
@@ -273,7 +236,7 @@
         "look": true
     },
     "Show": {
-        "lewis_bridge": true,
+        "lewis_bridge": false,
         "bird1": true,
         "lewis_bird_seat": true,
         "lewis_bird": false,
@@ -290,17 +253,18 @@
         "bird2": false,
         "lewis_bridge2": false,
         "mike": false,
-        "Shrine_Pokemon": false,
-        "Shrine_Pokemon1": false,
-        "Shrine_Pokemon2": false,
-        "Shrine_Pokemon3": false,
         "Shrine_Pokemon4": false,
         "guide": false,
         "tribe_Member": false,
         "rival": false,
         "rival_battle": false
     },
-
+    "RegionEntry": [
+        1151, 30, -106,
+        1210, 77, -54
+    ],
+    "Show": "lewis_bridge",
+    "Completed": "gen5_main_quest_1",
     "HighlightClickEntity": "lewis_bridge",
     "Comment": "Set up barriers to the cave.",
     "SetBlocks": [
@@ -535,7 +499,7 @@
         90, true, true, "male_normal"
     ],
     "Wait": 1.0,
-    "Objective": ["Help the citizen stuck in their homes", 3],
+    "Objective": ["Talk to the citizens that are stuck in their homes", 3],
     "Show": "mike",
     "HighlightClickEntity": "mike",
     "Hide": "lewis_bridge2",
@@ -659,9 +623,6 @@
     ],
 
     "Show": {
-        "Shrine_Pokemon": true,
-        "Shrine_Pokemon2": true,
-        "Shrine_Pokemon3": true,
         "Shrine_Pokemon4": true
     },
     "Wait": 20,
@@ -678,61 +639,16 @@
     ],
     "Wait": 20,
     "Objective": ["Battle the wild angry Pokemon", 23],
-    "HighlightClickEntity": "Shrine_Pokemon",
-    "Hide": "Shrine_Pokemon",
-    "BattleWildPokemon": [
-        1131.5, 43.0, -602.0, 138,
-        [
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "celebrate",
-                    "celebrate",
-                    "celebrate",
-                    "celebrate"
-                ]
-            }
-        ]
-    ],
+    "Start": "gen5_main_quest_2_wild1",
+    "Start": "gen5_main_quest_2_wild2",
+    "Start": "gen5_main_quest_2_wild3",
+    "Hold": [],
     "Wait": 10,
     "SendMessage": "&ePokemon 1/4 defeated!",
-    "HighlightClickEntity": "Shrine_Pokemon2",
-    "Hide": "Shrine_Pokemon2",
-    "BattleWildPokemon": [
-        1114.5, 43.0, -602.0, 227,
-        [
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "celebrate",
-                    "celebrate",
-                    "celebrate",
-                    "celebrate"
-                ]
-            }
-        ]
-    ],
+    "Hold": [],
     "Wait": 10,
     "SendMessage": "&ePokemon 2/4 defeated!",
-    "HighlightClickEntity": "Shrine_Pokemon3",
-    "Hide": "Shrine_Pokemon3",
-    "BattleWildPokemon": [
-        1123.0, 43.0, -603.0, 180,
-        [
-            {
-                "species": "weedle",
-                "level": 1,
-                "moves": [
-                    "celebrate",
-                    "celebrate",
-                    "celebrate",
-                    "celebrate"
-                ]
-            }
-        ]
-    ],
+    "Hold": [],
     "Wait": 10,
     "SendMessage": "&ePokemon 3/4 defeated!",
     "SetBlocks": [
@@ -1027,9 +943,9 @@
     "Start": "song_statera_intro",
     "NewDialog": [
         {
-            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b3&r people in front of you.",
-            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b2&r people in front of you.",
-            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. There are &b1&r people in front of you."
+            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. Your call is very important to us. There are &b3&r people in front of you.",
+            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. Your call is very important to us. There are &b2&r people in front of you.",
+            "&3&lStatera HQ": "You have reached Statera HQ. A member of staff will help you as soon as possible. Your call is very important to us. There are &b1&r people in front of you."
         },
         240, true, true
     ],
