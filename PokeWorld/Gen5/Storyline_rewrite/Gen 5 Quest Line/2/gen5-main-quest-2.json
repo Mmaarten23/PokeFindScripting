@@ -638,7 +638,7 @@
         }, 60, true, true
     ],
     "Wait": 20,
-    "Objective": ["Battle the wild angry Pokemon", 23],
+    "Objective": ["Battle the wild angry Pokemon", 19],
     "Start": "gen5_main_quest_2_wild1",
     "Start": "gen5_main_quest_2_wild2",
     "Start": "gen5_main_quest_2_wild3",
