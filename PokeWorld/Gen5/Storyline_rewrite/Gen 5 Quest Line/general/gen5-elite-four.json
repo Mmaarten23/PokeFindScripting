@@ -459,7 +459,7 @@
         "Marshal": true,
         "Caitlin": false
     },
-    "Teleport": [-97.5, 13.0, -209.5],
+    "Teleport": [97.5, 13.0, -209.5],
     "Objective": ["Battle Elite Four member Marshal", 3],
     "Show": {
         "League_Official4": false,
