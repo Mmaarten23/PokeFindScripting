@@ -1,0 +1,9 @@
+{
+    "Key": "potion_test",
+    "PotionRegion": [
+        -261, 27, 542,
+        -278, 35, 575,
+        "night_vision"
+    ],
+    "Hold": []
+}
