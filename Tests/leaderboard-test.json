@@ -1,4 +1,5 @@
 {
     "Key": "leaderboard_test",
-    "LeaderboardDisplay": ["test_lb", "&6&l♚ Top Scores ♚", 100.0, 100.0, 100.0]
+    "LeaderboardDisplay": ["test_lb", "&b❄ &lTop Snowflakes &b❄", 100.0, 100.0, 100.0],
+    "UpdateLeaderboard": ["test_lb", "lbtest"]
 }

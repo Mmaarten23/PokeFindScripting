@@ -1,0 +1,268 @@
+{
+    "Key": "safari-test2",
+    "SafariZone": [
+        -261, 27, 542,
+        -278, 35, 575
+    ],
+    "SafariZoneArea": [
+        -261, 27, 542,
+        -278, 35, 575,
+        [
+            {
+                "species": "Tauros",
+                "level": 25,
+                "spawn_chance": 0.025
+            },
+            {
+                "species": "Tauros",
+                "level": 27,
+                "spawn_chance": 0.025
+            },
+            {
+                "species": "Hoppip",
+                "level": 23,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Hoppip",
+                "level": 25,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Stantler",
+                "level": 25,
+                "spawn_chance": 0.028
+            },
+            {
+                "species": "Stantler",
+                "level": 29,
+                "spawn_chance": 0.028
+            },
+            {
+                "species": "Zigzagoon",
+                "level": 24,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Zigzagoon",
+                "level": 27,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Shroomish",
+                "level": 25,
+                "spawn_chance": 0.003
+            },
+            {
+                "species": "Shroomish",
+                "level": 29,
+                "spawn_chance": 0.003
+            },
+            {
+                "species": "Seedot",
+                "level": 23,
+                "spawn_chance": 0.02
+            },
+            {
+                "species": "Seedot",
+                "level": 25,
+                "spawn_chance": 0.02
+            },
+            {
+                "species": "Wurmple",
+                "level": 25,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Wurmple",
+                "level": 27,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Kecleon",
+                "level": 25,
+                "spawn_chance": 0.02
+            },
+            {
+                "species": "Kecleon",
+                "level": 27,
+                "spawn_chance": 0.02
+            },
+            {
+                "species": "Cacnea",
+                "level": 25,
+                "spawn_chance": 0.02
+            },
+            {
+                "species": "Cacnea",
+                "level": 35,
+                "spawn_chance": 0.02
+            },
+            {
+                "species": "Whismur",
+                "level": 20,
+                "spawn_chance": 0.045
+            },
+            {
+                "species": "Whismur",
+                "level": 23,
+                "spawn_chance": 0.045
+            },
+            {
+                "species": "Zangoose",
+                "level": 21,
+                "spawn_chance": 0.03
+            },
+            {
+                "species": "Zangoose",
+                "level": 24,
+                "spawn_chance": 0.03
+            },
+            {
+                "species": "Roselia",
+                "level": 20,
+                "spawn_chance": 0.015
+            },
+            {
+                "species": "Roselia",
+                "level": 23,
+                "spawn_chance": 0.015
+            },
+            {
+                "species": "Taillow",
+                "level": 25,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Taillow",
+                "level": 27,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Tangela",
+                "level": 25,
+                "spawn_chance": 0.015
+            },
+            {
+                "species": "Tangela",
+                "level": 27,
+                "spawn_chance": 0.015
+            },
+            {
+                "species": "Bellsprout",
+                "level": 25,
+                "spawn_chance": 0.04
+            },
+            {
+                "species": "Bellsprout",
+                "level": 27,
+                "spawn_chance": 0.04
+            },
+            {
+                "species": "Ledyba",
+                "level": 20,
+                "spawn_chance": 0.03
+            },
+            {
+                "species": "Ledyba",
+                "level": 23,
+                "spawn_chance": 0.03
+            },
+            {
+                "species": "Tyrogue",
+                "level": 25,
+                "spawn_chance": 0.01
+            },
+            {
+                "species": "Tyrogue",
+                "level": 27,
+                "spawn_chance": 0.01
+            },
+            {
+                "species": "Clefairy",
+                "level": 27,
+                "spawn_chance": 0.015
+            },
+            {
+                "species": "Clefairy",
+                "level": 29,
+                "spawn_chance": 0.015
+            },
+            {
+                "species": "Grimer",
+                "level": 23,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Grimer",
+                "level": 27,
+                "spawn_chance": 0.035
+            },
+            {
+                "species": "Paras",
+                "level": 28,
+                "spawn_chance": 0.075
+            },
+            {
+                "species": "Paras",
+                "level": 29,
+                "spawn_chance": 0.075
+            },
+            {
+                "species": "Paras",
+                "level": 30,
+                "spawn_chance": 0.075
+            },
+            {
+                "species": "Paras",
+                "level": 30,
+                "spawn_chance": 0.075
+            },
+            {
+                "species": "Volbeat",
+                "level": 27,
+                "spawn_chance": 0.067
+            },
+            {
+                "species": "Volbeat",
+                "level": 29,
+                "spawn_chance": 0.067
+            },
+            {
+                "species": "Volbeat",
+                "level": 20,
+                "spawn_chance": 0.067
+            },
+            {
+                "species": "Illumise",
+                "level": 28,
+                "spawn_chance": 0.1
+            },
+            {
+                "species": "Illumise",
+                "level": 29,
+                "spawn_chance": 0.1
+            },
+            {
+                "species": "Illumise",
+                "level": 30,
+                "spawn_chance": 0.1
+            },
+            {
+                "species": "Seedot",
+                "level": 28,
+                "spawn_chance": 0.1
+            },
+            {
+                "species": "Seedot",
+                "level": 30,
+                "spawn_chance": 0.1
+            }
+        ]
+    ],
+    "QuestRegion": [
+        -261, 27, 542,
+        -278, 35, 575,
+        "&cYou left Safari zone 2!"
+    ]
+}
