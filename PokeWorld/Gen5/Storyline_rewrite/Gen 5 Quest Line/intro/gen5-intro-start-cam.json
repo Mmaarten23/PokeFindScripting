@@ -13,14 +13,17 @@
 
     "Teleport": [608.5, 56.0, 509.5, 0, 0],
     "Look": ["camera", "look"],
+    "Teleport": [592.5, 57.0, 548.5],
     "MoveEntity": ["camera", 592.5, 57.0, 548.5, 0.3, false],
 
     "Progress": "gen5_intro",
-    "ProgressiveMoveEntity": ["look", 527.5, 66.5, 573.5, 0.5, false],
+    "ProgressiveMoveEntity": ["look", 527.5, 62.5, 573.5, 0.5, false],
+    "Teleport": [571.5, 61.0, 568.5],
     "MoveEntity": ["camera", 571.5, 61.0, 568.5, 0.3, false],
 
     "Progress": "gen5_intro",
-    "MoveEntity": ["camera", 543.5, 76.0, 573.5, 0.3, false],
+    "Teleport": [543.5, 76.0, 573.5],
+    "MoveEntity": ["camera", 543.5, 76.0, 573.5, 0.2, false],
 
     "Progress": "gen5_intro"
 }
