@@ -1,0 +1,1497 @@
+{
+    "Key": "gen5_intro",
+    "Quest": false,
+    "AllowRejoining": false,
+    "CreateEntity": {
+        "key": "cinematicCircle",
+        "location": {
+            "world": "world",
+            "x": 554.5,
+            "y": 64.0,
+            "z": 579.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "look": false,
+        "visible": false
+    },
+    "CreateEntity": {
+        "key": "PokeGear",
+        "name": "&7Poke Gear",
+        "location": {
+            "world": "world",
+            "x": 638.5,
+            "y": 51.5,
+            "z": 423.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "Item",
+        "item": "pokegear",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Starter1",
+        "name": "&2&lSnivy",
+        "location": {
+            "world": "world",
+            "x": 639.5,
+            "y": 52.0,
+            "z": 415.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Snivy",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Starter2",
+        "name": "&c&lTepig",
+        "location": {
+            "world": "world",
+            "x": 640.5,
+            "y": 52.0,
+            "z": 415.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Tepig",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Starter3",
+        "name": "&b&lOshawott",
+        "location": {
+            "world": "world",
+            "x": 641.5,
+            "y": 52.0,
+            "z": 415.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "Armor Stand",
+        "pokemon": "Oshawott",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "PlayerNpc1",
+        "location": {
+            "world": "world",
+            "x": 376.5,
+            "y": 41.0,
+            "z": 360.5,
+            "yaw": 200,
+            "pitch": 0
+        },
+        "look": false,
+        "skin": "[PLAYER]"
+    },
+    "CreateEntity": {
+        "key": "PlayerNpc2",
+        "location": {
+            "world": "world",
+            "x": 572.5,
+            "y": 49.0,
+            "z": 609.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "look": false,
+        "skin": "[PLAYER]"
+    },
+    "CreateEntity": {
+        "key": "captain_benry",
+        "name": "&b&lCaptain Benry",
+        "skin": "captain benry",
+        "location": {
+            "world": "world",
+            "x": 388.5,
+            "y": 44.5,
+            "z": 364.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "rival1",
+        "name": "&d&lDanielle",
+        "location": {
+            "world": "world",
+            "x": 379.8,
+            "y": 45.0,
+            "z": 360.5,
+            "yaw": 190,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDE1NTU1MDQwMTMsInByb2ZpbGVJZCI6ImMxZWQ5N2Q0ZDE2NzQyYzI5OGI1ODFiZmRiODhhMjFmIiwicHJvZmlsZU5hbWUiOiJ5b2xvX21hdGlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTUyYmZiNGVmNjM3MGE0ZTFjYjg4M2VmYjdjYzIzYTliOGViMDAwNjEyMmEzZTlmNTM4ZDE0NDE2MTQ0MGYxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+            "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "rival2",
+        "name": "&d&lDanielle",
+        "location": {
+            "world": "world",
+            "x": 567.8,
+            "y": 44.0,
+            "z": 462.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDE1NTU1MDQwMTMsInByb2ZpbGVJZCI6ImMxZWQ5N2Q0ZDE2NzQyYzI5OGI1ODFiZmRiODhhMjFmIiwicHJvZmlsZU5hbWUiOiJ5b2xvX21hdGlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTUyYmZiNGVmNjM3MGE0ZTFjYjg4M2VmYjdjYzIzYTliOGViMDAwNjEyMmEzZTlmNTM4ZDE0NDE2MTQ0MGYxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+            "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "rival3",
+        "name": "&d&lDanielle",
+        "location": {
+            "world": "world",
+            "x": 643.5,
+            "y": 50.0,
+            "z": 423.5,
+            "yaw": 60,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDE1NTU1MDQwMTMsInByb2ZpbGVJZCI6ImMxZWQ5N2Q0ZDE2NzQyYzI5OGI1ODFiZmRiODhhMjFmIiwicHJvZmlsZU5hbWUiOiJ5b2xvX21hdGlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTUyYmZiNGVmNjM3MGE0ZTFjYjg4M2VmYjdjYzIzYTliOGViMDAwNjEyMmEzZTlmNTM4ZDE0NDE2MTQ0MGYxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+            "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "rival4",
+        "name": "&d&lDanielle",
+        "location": {
+            "world": "world",
+            "x": 636.5,
+            "y": 49.0,
+            "z": 364.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDE1NTU1MDQwMTMsInByb2ZpbGVJZCI6ImMxZWQ5N2Q0ZDE2NzQyYzI5OGI1ODFiZmRiODhhMjFmIiwicHJvZmlsZU5hbWUiOiJ5b2xvX21hdGlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTUyYmZiNGVmNjM3MGE0ZTFjYjg4M2VmYjdjYzIzYTliOGViMDAwNjEyMmEzZTlmNTM4ZDE0NDE2MTQ0MGYxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+            "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "rival5",
+        "name": "&d&lDanielle",
+        "location": {
+            "world": "world",
+            "x": 574.5,
+            "y": 49.0,
+            "z": 609.5,
+            "yaw": 56,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDE1NTU1MDQwMTMsInByb2ZpbGVJZCI6ImMxZWQ5N2Q0ZDE2NzQyYzI5OGI1ODFiZmRiODhhMjFmIiwicHJvZmlsZU5hbWUiOiJ5b2xvX21hdGlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTUyYmZiNGVmNjM3MGE0ZTFjYjg4M2VmYjdjYzIzYTliOGViMDAwNjEyMmEzZTlmNTM4ZDE0NDE2MTQ0MGYxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+            "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "professor1",
+        "name": "&c&lProfessor Hemlock",
+        "skin": "professor_hemlock",
+        "location": {
+            "world": "world",
+            "x": 397.5,
+            "y": 45.0,
+            "z": 362.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "look": false,
+        "sitting": true
+    },
+    "CreateEntity": {
+        "key": "professor2",
+        "name": "&c&lProfessor Hemlock",
+        "skin": "professor_hemlock",
+        "location": {
+            "world": "world",
+            "x": 569.5,
+            "y": 44.0,
+            "z": 465.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "professorLab",
+        "name": "&c&lProfessor Hemlock",
+        "skin": "professor_hemlock",
+        "location": {
+            "world": "world",
+            "x": 638.5,
+            "y": 50.0,
+            "z": 421.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "global": true
+    },
+    "CreateEntity": {
+        "key": "professor4",
+        "name": "&c&lProfessor Hemlock",
+        "skin": "professor_hemlock",
+        "location": {
+            "world": "world",
+            "x": 630.5,
+            "y": 49.0,
+            "z": 370.5,
+            "yaw": 270,
+            "pitch": 0
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "professor5",
+        "name": "&c&lProfessor Hemlock",
+        "skin": "professor_hemlock",
+        "location": {
+            "world": "world",
+            "x": 572.0,
+            "y": 49.1,
+            "z": 617.2,
+            "yaw": 190,
+            "pitch": 0
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "representative1",
+        "name": [
+            "&4&lThomas",
+            "&7Company Rep."
+        ],
+        "location": {
+            "world": "world",
+            "x": 571.9,
+            "y": 44.0,
+            "z": 485.1,
+            "yaw": 158,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
+        },
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "representative2",
+        "name": [
+            "&4&lThomas",
+            "&7Company Rep."
+        ],
+        "location": {
+            "world": "world",
+            "x": 568.7,
+            "y": 44.0,
+            "z": 468.7,
+            "yaw": 125,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjM4NTYwMSwKICAicHJvZmlsZUlkIiA6ICIyNDBiYThlMzNlN2M0YzE0ODhiNzJmYmU1Njg2ZjhlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF4Q3JhZnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5NjNkYTYxYjUxNDViYjQ3MWQwNWQ2YmQwZTQxY2M5YTQ3YjlmNmRiNzQxMWU2YWIyOWRlMTNiYjg5ZDI5OTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "w/TS7V8oYfizrGO4XKbgo8Hfd5qwj35rDO+ntoUwRUjZYAVxTBUf8wRhw6tUU71D4BZazSsr9/CE9R0xU3gPYhBdMdMGwJRM0ji9da8rbq9UzvuhlRWSop7AtVD25zgrOsQrM9PfO0Qo+vdMVdJFhOPfvH92N9gYrh5NdovI4PeA/HXmzWsG6au4hNIniYz092ubfh8laB5V4yQITbFd9RCTLMNrU1kMmz0o/aLDv904dS/hQWUl/jtU2i1QhsnwkNdhA09o81SXfHuS2Tvbb2p+cczlmHKtTAo8D/OgaKNIQpwf3Ot6B/LKgIeSmvTPXSbhpAoaAcxyEgvxWORt77Mn8duCcQQ5Ju/zZG924gt7UUbBmwmKaiie3bm66wz1tzqBaYWocsVb/HUbSsU+fpr3lZQop+0NQZQ9K4E9M4naMfLPmY5GHotp56E/v/y6ce5oOGwUMaKzSUTXcgoaaZ8e0hA5CODQewqx6huSY3mJtkc5rpJrTYwOP6qzy/R2CHe1puPsIbdJTd75IORbnc/toj63/5e3VGrURPwu7JnPOcjS56O/47wE9QM/HTM31abNyMuPtl0n59+NbccOHuOz/VmBLXFh2xTigBehlTKGljA6RdYBnORvhB5cE/TOR0EbJNEhO2Qsne/AtozKMGrqzIOE06LPAU+4Yhg/Tkc="
+        },
+        "look": false
+    },
+    "Show": {
+        "PlayerNpc1": false,
+        "PlayerNpc2": false,
+        "captain_benry": false,
+        "rival1": false,
+        "rival2": false,
+        "rival3": false,
+        "rival4": false,
+        "rival5": false,
+        "professor1": false,
+        "professor2": false,
+        "professorLab": true,
+        "professor4": false,
+        "professor5": false,
+        "representative1": false,
+        "representative2": false,
+        "Starter1": false,
+        "Starter2": false,
+        "Starter3": false,
+        "PokeGear": false
+    },
+    "PlayerJoin": [
+    ],
+    "NotCompleted": [
+    ],
+    "DisableCommand": [
+        "fly",
+        "pheal",
+        "pc",
+        "spawn",
+        "warp"
+    ],
+    "HidePlayer": [
+    ],
+    "Fade": [],
+    "Cinematic": [],
+    "SetScoreboard": "",
+    "Start": "gen5_intro_start_cam",
+    "Start": "gen5_intro_ambient",
+    "Wait": 20,
+    "SetTitle": [
+        "&c&lWelcome to &oZeinova&r&c!",
+        ""
+    ],
+    "Hold": [],
+    "SetTitle": [
+        "&f",
+        "&c&lThe united island region!"
+    ],
+    "Hold": [],
+    "SetTitle": [
+        "&f",
+        "&fGet ready for your new adventure!"
+    ],
+    "Hold": [],
+    "Leave": "gen5_intro_ambient",
+    "Show": {
+        "PlayerNpc1": true,
+        "captain_benry": true,
+        "rival1": true,
+        "professor1": true,
+        "professorLab": false
+    },
+    "Wait": 20,
+    "Fade": [
+    ],
+    "Teleport": [396.5, 46.5, 344.5, 0, 20],
+    "ProgressiveDialog": [
+        {
+            "&b&lCaptain Benry": "Let me be the first to officially welcome you to the &lZeinova&r Region!",
+            "&b&lCaptain Benry": "My name is &bCaptain Benry&r and I appreciate you choosing the &eThe Wellerman&r for your journey!",
+            "&b&lCaptain Benry": "Don't forget to stop by my port anytime! I will happily take you anywhere you need to go!"
+        },
+        80
+    ],
+    "Look": [
+        0,
+        20
+    ],
+    "PlaySound": [
+        "entity_villager_celebrate",
+        1.2,
+        1.0
+    ],
+    "Wait": [
+        20
+    ],
+    "Start": [
+        "intro_magikarp_lapras_move"
+    ],
+    "Start": [
+        "intro_tirtouga"
+    ],
+    "Track": [
+        400.5,
+        46.0,
+        344.5,
+        380.5,
+        46.0,
+        344.5,
+        0.1
+    ],
+    "Freeze": [
+    ],
+    "Wait": [
+        60
+    ],
+    "Show": {
+        "PlayerNpc1": false,
+        "captain_benry": false,
+        "rival1": false,
+        "rival2": true,
+        "professor1": false,
+        "professor2": true
+    },
+    "Fade": [
+    ],
+    "StopCinematic": [
+    ],
+    "SetScoreboard": [
+    ],
+    "Teleport": [
+        564.5,
+        44.0,
+        465.5,
+        270,
+        0
+    ],
+    "Wait": [
+        20
+    ],
+    "EntityLook": [
+        "rival2",
+        "professor2"
+    ],
+    "PlaySound": [
+        "entity_villager_ambient",
+        0.9,
+        1.0
+    ],
+    "Dialog": [
+        {
+            "&c&lProfessor Hemlock": "That was such a long journey... How long were we on that boat?",
+            "&c&lProfessor Hemlock": "I'm exhausted!",
+            "&d&lDanielle": "Why did me and [PLAYER] have to come with you again...?",
+            "&c&lProfessor Hemlock": "You offered.",
+            "&d&lDanielle": "Oh right... Hehehe...",
+            "&c&lProfessor Hemlock": "It's nice to be back in Zeinova. Glad to see the harbor hasn't changed a bit.",
+            "[PLAYER]": "Wait, you've been here before?",
+            "&c&lProfessor Hemlock": "Oh yes, I've been to many regions, including ones you guys haven't been to yet.",
+            "&c&lProfessor Hemlock": "Perhaps I'll take you with me to one of those the next time I have to go there, but that's for another time."
+        },
+        80
+    ],
+    "Wait": [
+        10
+    ],
+    "Show": {
+        "representative1": true
+    },
+    "Look": [
+        "representative1",
+        -1
+    ],
+    "MoveEntity": [
+        "representative1",
+        568.7,
+        44.0,
+        468.7
+    ],
+    "RemoveFilter": [
+    ],
+    "Look": [
+        "representative2"
+    ],
+    "Show": {
+        "representative1": false,
+        "representative2": true
+    },
+    "Wait": [
+        1
+    ],
+    "EntityLook": [
+        "professor2",
+        "representative2"
+    ],
+    "EntityLook": [
+        "rival2",
+        "representative2"
+    ],
+    "Wait": [
+        20
+    ],
+    "PlaySound": [
+        "entity_villager_celebrate",
+        1.1,
+        1.0
+    ],
+    "Dialog": [
+        {
+            "&c&lProfessor Hemlock": "Hello! You must be Thomas! I received a message you'd be meeting us here.",
+            "&4&lThomas": "Indeed. I hope your travels were safe, &cProfessor Hemlock&r. I don't believe I've met your companions yet though.",
+            "&c&lProfessor Hemlock": "They were! It's nice to meet you in person. These two are my apprentices &dDanielle&r and [PLAYER]!",
+            "&c&lProfessor Hemlock": "&4&lThomas&r is part of the Company &3Statera&r that hired me to come to &lZeinova&r to continue and expand my research on Pokémon Behavior!",
+            "&d&lDanielle": "Neh, Pokémon Behavior, Prof? What would that do?",
+            "&c&lProfessor Hemlock": "That's what we're here to find out &d&lDanielle&r! Already Pokémon Behavior plays a large role in training.",
+            "[PLAYER]": "Like?",
+            "&c&lProfessor Hemlock": "Well &d&oHappiness&r is a key factor for quite a large number of Pokémon evolutions! &7Eevee&r for example evolving into an &dEspeon&r or &8Umbreon&r.",
+            "&4&lThomas": "Hmm, I had some things to discuss with the professor, but I'll let you guys settle in first. There will be plenty of time afterwards.",
+            "&4&lThomas": "I suppose you still know the way to your lab, &cProfessor Hemlock&r?",
+            "&c&lProfessor Hemlock": "Of course.",
+            "&4&lThomas": "In that case, I'll be going. I'm sure we'll see each other soon enough."
+        },
+        80
+    ],
+    "MoveEntity": [
+        "representative2",
+        568.5,
+        44.0,
+        490.5,
+        false
+    ],
+    "Wait": [
+        1
+    ],
+    "EntityLookAtPlayer": [
+        "professor2"
+    ],
+    "EntityLook": [
+        "rival2",
+        "professor2"
+    ],
+    "Look": [
+        "professor2"
+    ],
+    "Show": {
+        "representative2": false
+    },
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "&c&lProfessor Hemlock": "Let's get you guys settled in.",
+            "&c&lProfessor Hemlock": "Follow me to my lab."
+        },
+        80
+    ],
+    "Objective": [
+        "Follow Professor Hemlock to his new lab",
+        15
+    ],
+    "Unfreeze": [
+    ],
+    "Wait": [
+        10
+    ],
+    "ProgressiveMoveEntity": [
+        "rival2",
+        567.5,
+        44.0,
+        490.5,
+        false
+    ],
+    "ProgressiveMoveEntity": [
+        "professor2",
+        565.5,
+        44.0,
+        490.5,
+        false
+    ],
+    "Wait": [
+        110
+    ],
+    "Fade": [
+    ],
+    "SetScoreboard": "",
+    "Cinematic": [
+    ],
+    "Teleport": [
+        646.5,
+        52.0,
+        444.5,
+        64,
+        16
+    ],
+    "Wait": [
+        10
+    ],
+    "Start": [
+        "intro_danielle_move"
+    ],
+    "Start": [
+        "intro_professor_move"
+    ],
+    "Start": [
+        "intro_player_move"
+    ],
+    "Hold": [
+    ],
+    "Fade": [
+    ],
+    "StopCinematic": [
+    ],
+    "RemoveFilter": [
+    ],
+    "SetScoreboard": [
+    ],
+    "Show": {
+        "professor2": false,
+        "professorLab": true,
+        "rival2": false,
+        "rival3": true
+    },
+    "Teleport": [
+        638.5,
+        50.0,
+        426.5,
+        180,
+        0
+    ],
+    "Freeze": [
+    ],
+    "Wait": [
+        30
+    ],
+    "PlaySound": [
+        "entity_villager_celebrate",
+        1.0
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "As you may know, your Pokémon from other regions won't be able to listen to your instructions...",
+            "Professor Hemlock": "...unless they were caught in Zeinova.",
+            "Professor Hemlock": "You will have to start over starting with the Pokémon I am about to give you.",
+            "Professor Hemlock": "HOWEVER, if you can beat the Elite Four and become Zeinova's Champion,",
+            "Professor Hemlock": "ALL of your Pokémon will be able to follow your instructions.",
+            "Professor Hemlock": "That includes your Pokémon from other regions.",
+            "Professor Hemlock": "You can use your Poké Gear to keep track of all of your progress towards becoming Zeinova's Champion."
+        },
+        80
+    ],
+    "Wait": [
+        20
+    ],
+    "MoveEntity": [
+        "professorLab",
+        641.5,
+        50.0,
+        419.5,
+        false
+    ],
+    "Wait": [
+        1
+    ],
+    "MoveEntity": [
+        "professorLab",
+        641.5,
+        51.0,
+        418.5,
+        false
+    ],
+    "Wait": [
+        1
+    ],
+    "MoveEntity": [
+        "professorLab",
+        642.5,
+        51.0,
+        417.5,
+        false
+    ],
+    "Look": [
+        "professorLab"
+    ],
+    "EntityLookAtPlayer": [
+        "professorLab"
+    ],
+    "PlaySound": [
+        "entity_villager_ambient",
+        1.0
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "I know you are anxious to get started with your adventure so I will stop talking. Haha!",
+            "Professor Hemlock": "Here, take one of these starter Pokémon to get you started!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "Look": [
+        "Starter2"
+    ],
+    "PlaySound": [
+        "entity_ender_eye_death",
+        0.8
+    ],
+    "Particle": [
+        "sweep_attack",
+        639.5,
+        52.5,
+        415.0,
+        2,
+        0.0
+    ],
+    "Particle": [
+        "sweep_attack",
+        640.5,
+        52.5,
+        415.0,
+        2,
+        0.0
+    ],
+    "Particle": [
+        "sweep_attack",
+        641.5,
+        52.5,
+        415.0,
+        2,
+        0.0
+    ],
+    "Show": [
+        "Starter1",
+        "Starter2",
+        "Starter3"
+    ],
+    "Wait": [
+        5
+    ],
+    "ProgressiveMoveEntity": [
+        "Starter1",
+        639.5,
+        52.5,
+        415.0,
+        false
+    ],
+    "ProgressiveMoveEntity": [
+        "Starter2",
+        640.5,
+        52.5,
+        415.0,
+        false
+    ],
+    "MoveEntity": [
+        "Starter3",
+        641.5,
+        52.5,
+        415.0,
+        false
+    ],
+    "Wait": [
+        30
+    ],
+    "Unfreeze": [
+    ],
+    "ClickEntityOptions": [
+        "Starter1",
+        "Starter2",
+        "Starter3"
+    ],
+    "GivePokemon": [
+        [
+            {
+                "species": "Snivy",
+                "level": 5,
+                "moves": [
+                    "Tackle",
+                    "Tail Whip"
+                ]
+            }
+        ]
+    ],
+    "GivePokemon": [
+        [
+            {
+                "species": "Tepig",
+                "level": 5,
+                "moves": [
+                    "Tackle",
+                    "Tail Whip"
+                ]
+            }
+        ]
+    ],
+    "GivePokemon": [
+        [
+            {
+                "species": "Oshawott",
+                "level": 5,
+                "moves": [
+                    "Tackle",
+                    "Tail Whip"
+                ]
+            }
+        ]
+    ],
+    "Complete": [
+    ],
+    "Wait": [
+        20
+    ],
+    "Teleport": [
+        638.5,
+        50.0,
+        426.5,
+        180,
+        0
+    ],
+    "Freeze": [
+    ],
+    "Look": [
+        "professorLab"
+    ],
+    "MoveEntity": [
+        "professorLab",
+        641.5,
+        51.0,
+        418.5,
+        false
+    ],
+    "Wait": [
+    ],
+    "MoveEntity": [
+        "professorLab",
+        641.5,
+        50.0,
+        419.5,
+        false
+    ],
+    "Wait": [
+        1
+    ],
+    "MoveEntity": [
+        "professorLab",
+        638.5,
+        50.0,
+        421.5,
+        false
+    ],
+    "Wait": [
+        1
+    ],
+    "EntityLookAtPlayer": [
+        "professorLab"
+    ],
+    "Wait": [
+        20
+    ],
+    "PlaySound": [
+        "entity_villager_celebrate",
+        1.0,
+        1.0
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "Perfect!",
+            "Professor Hemlock": "There are lots of Pokémon out there, each with their own, unique qualities.",
+            "Professor Hemlock": "In fact, catching them all is so important.",
+            "Professor Hemlock": "You're also going to want this Poké Gear."
+        },
+        80
+    ],
+    "Show": {
+        "PokeGear": true
+    },
+    "Dialog": [
+        {
+            "Professor Hemlock": "Great trainers never leave the house without one, especially when adventure is expected.",
+            "Professor Hemlock": "And believe you me, adventure should always be expected in Zeinova!"
+        },
+        80
+    ],
+    "SendMessage": [
+        "&7Received PokéGear"
+    ],
+    "Show": {
+        "PokeGear": false
+    },
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "Hey, you know what would get you warmed up?",
+            "Professor Hemlock": "Let's go outside and have you fight your first battle in Zeinova!"
+        },
+        80
+    ],
+    "Wait": [
+        20
+    ],
+    "MoveEntity": [
+        "professorLab",
+        636.0,
+        50.0,
+        419.5,
+        false
+    ],
+    "Wait": [
+        1
+    ],
+    "MoveEntity": [
+        "professorLab",
+        636.0,
+        50.0,
+        413.5,
+        false
+    ],
+    "Wait": [
+        1
+    ],
+    "Fade": [
+    ],
+    "Show": {
+        "rival3": false,
+        "rival4": true,
+        "professor4": true,
+        "professorLab": false
+    },
+    "Teleport": [
+        636.5,
+        49.0,
+        376.5,
+        180,
+        0
+    ],
+    "Wait": [
+        10
+    ],
+    "PlaySound": [
+        "entity_villager_ambient",
+        0.9,
+        1.0
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "Throw your Pokémon by pressing the drop button or right clicking it to engage in your first battle."
+        }
+    ],
+    "Wait": [
+        10
+    ],
+    "Objective": [
+        "Summon your Pokemon by pressing the drop button or right clicking",
+        4
+    ],
+    "SummonPokemon": [
+        636.5,
+        49.0,
+        376.5,
+        7.5
+    ],
+    "Wait": [
+        10
+    ],
+    "PlaySound": [
+        "entity_villager_celebrate",
+        1.0,
+        1.0
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "Very good! Now try to defeat Danielle's Pokémon by using a move."
+        }
+    ],
+    "Wait": [
+        10
+    ],
+    "Unfreeze": [
+    ],
+    "Objective": [
+        "Talk to Danielle to start the battle"
+    ],
+    "BattleNpc": [
+        "rival4",
+        {
+            "&d&lDanielle": "Let's see how good you are at battling!"
+        },
+        {
+            "&d&lDanielle": "Ugh... Next time I'll beat you!"
+        },
+        {
+            "&d&lDanielle": "I think you'll need to try again..."
+        },
+        [
+            {
+                "species": "Oshawott",
+                "level": 3,
+                "ability": "Torrent",
+                "nature": "Adamant"
+            }
+        ],
+        {
+            "exp_multiplier": 0
+        }
+    ],
+    "Wait": [
+        10
+    ],
+    "PlaySound": [
+        "entity_villager_celebrate",
+        1.2,
+        1.0
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "That was amazing! You and your Pokémon have a great bond.",
+            "Professor Hemlock": "Now let's head to the Pokémon center to get your Pokémon healed up!"
+        },
+        80
+    ],
+    "ProgressiveMoveEntity": [
+        "professor4",
+        634.5,
+        49.0,
+        383.5,
+        false
+    ],
+    "ProgressiveMoveEntity": [
+        "rival4",
+        636.5,
+        49.0,
+        383.5,
+        false
+    ],
+    "Wait": [
+        68
+    ],
+    "Fade": [
+    ],
+    "Show": {
+        "professor5": true,
+        "rival5": true
+    },
+    "Teleport": [
+        572.5,
+        49.0,
+        609.5,
+        347,
+        0
+    ],
+    "Wait": [
+        20
+    ],
+    "Show": {
+        "rival4": false,
+        "professor4": false
+    },
+    "Freeze": [
+    ],
+    "PlaySound": [
+        "entity_villager_ambient",
+        1.2,
+        1.0
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "Here at the Pokémon Center, the nurses can fully heal all of your Pokémon!",
+            "Professor Hemlock": "You can also access your PC or open Eggs at the Pokémon Center",
+            "Professor Hemlock": "There is a Pokémon Center located in every town in Zeinova!"
+        }
+    ],
+    "Wait": [
+        20
+    ],
+    "HealPokemon": [
+    ],
+    "SendMessage": [
+        "&aYour Pokémon have been restored to full health!"
+    ],
+    "Wait": [
+        20
+    ],
+    "Dialog": [
+        {
+            "Professor Hemlock": "You're free to go now!"
+        },
+        80
+    ],
+    "Fade": [
+    ],
+    "Teleport": [
+        548.5,
+        64.0,
+        573.5,
+        315,
+        33
+    ],
+    "Freeze": [
+    ],
+    "SetScoreboard": "",
+    "Cinematic": [
+    ],
+    "Look": [
+        "camera",
+        "cinematicCircle"
+    ],
+    "Show": {
+        "PlayerNpc2": true
+    },
+    "Wait": [
+        20
+    ],
+    "ProgressiveMoveEntity": [
+        "rival5",
+        574.5,
+        48.5,
+        597.5,
+        false
+    ],
+    "ProgressiveMoveEntity": [
+        "PlayerNpc2",
+        572.5,
+        48.5,
+        597.5,
+        false
+    ],
+    "MoveEntity": [
+        "professor5",
+        573.5,
+        48.5,
+        594.5,
+        0.25,
+        false
+    ],
+    "Wait": [
+        1
+    ],
+    "EntityLook": [
+        "professor5",
+        0,
+        0
+    ],
+    "EntityLook": [
+        "PlayerNpc2",
+        "professor5"
+    ],
+    "EntityLook": [
+        "rival5",
+        "professor5"
+    ],
+    "ProgressiveDialog": [
+        {
+            "Professor Hemlock": "Now, [PLAYER], go and discover the region of Zeinova.",
+            "Professor Hemlock": "You have a great adventure ahead of you and many new Pokémon to catch and train!",
+            "Professor Hemlock": "Thomas or I will contact you if we need your help with anything!",
+            "Professor Hemlock": "Well good luck on your exciting adventure! I will keep in touch."
+        },
+        80
+    ],
+    "Wait": [
+        20
+    ],
+
+    "MoveEntityCircle": [
+        "cinematicCircle",
+        548.5,
+        64.0,
+        573.5,
+        554.5,
+        64.0,
+        579.5,
+        0.2
+    ],
+    "Wait": [
+        20
+    ],
+    "ProgressiveMoveEntity": [
+        "professor5",
+        563.5,
+        49.0,
+        600.5,
+        0.2,
+        false
+    ],
+    "ProgressiveMoveEntity": [
+        "rival5",
+        597.5,
+        48.5,
+        594.5,
+        false
+    ],
+    "RemoveFilter": [
+    ],
+    "Look": [
+        "PlayerNpc2"
+    ],
+    "Track": [
+        548.5,
+        64.0,
+        573.5,
+        572.5,
+        50.0,
+        597.5,
+        0.3
+    ],
+    "Freeze": [
+    ],
+    "RemoveFilter": [
+    ],
+    "Fade": [
+    ],
+    "SetScoreboard": [
+    ],
+    "Show": {
+        "PlayerNpc2": false,
+        "rival5": false,
+        "professor5": false
+    },
+    "Freeze": [
+    ],
+    "Wait": [
+        10
+    ],
+    "Freeze": [
+    ],
+    "Teleport": [
+        572.5,
+        49.1,
+        597.5,
+        180,
+        0
+    ],
+    "GiveItem": [
+        "Poke Ball",
+        16
+    ],
+    "PlaySound": [
+        "entity_player_levelup",
+        1
+    ],
+    "Wait": [
+        10
+    ],
+    "Unfreeze": [
+    ],
+    "SendMessage": [
+        "&a&lIntroduction Complete!"
+    ],
+    "ShowPlayer": [
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        41.0,
+        361.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        41.0,
+        361.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        41.0,
+        362.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        41.0,
+        362.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        41.0,
+        363.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        41.0,
+        363.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        41.0,
+        365.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        41.0,
+        366.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        41.0,
+        367.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        41.0,
+        365.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        41.0,
+        366.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        41.0,
+        367.5,
+        7,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        40.5,
+        364.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        40.5,
+        368.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        40.5,
+        364.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        40.5,
+        368.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        372.5,
+        40.5,
+        360.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        371.5,
+        40.5,
+        360.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        370.5,
+        40.5,
+        361.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        369.5,
+        40.5,
+        361.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        370.5,
+        40.5,
+        362.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        369.5,
+        40.5,
+        362.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        370.5,
+        40.5,
+        363.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        369.5,
+        40.5,
+        363.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        370.5,
+        40.5,
+        365.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        369.5,
+        40.5,
+        365.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        370.5,
+        40.5,
+        366.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        369.5,
+        40.5,
+        366.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        370.5,
+        40.5,
+        367.5,
+        2,
+        0.5
+    ],
+    "GlobalParticle": [
+        "bubble_column_up",
+        369.5,
+        40.5,
+        367.5,
+        2,
+        0.5
+    ]
+}

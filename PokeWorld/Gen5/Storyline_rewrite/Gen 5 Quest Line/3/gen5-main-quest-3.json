@@ -308,9 +308,9 @@
         507, 100, 49
     ],
 
-    "HasTrainerLevel": 30,
+    "HasTrainerLevel": [30, false],
     "Completed": ["gen5_main_quest_2", ""],
-    "Completed": "gym2",
+    "Completed": ["gym2", ""],
     "NotCompleted": false,
 
     "Show": {

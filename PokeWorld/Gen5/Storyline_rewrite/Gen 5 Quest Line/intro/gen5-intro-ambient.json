@@ -1,0 +1,118 @@
+{
+    "Key": "gen5_intro_ambient",
+    "CreateEntity": {
+        "key": "Braviary1",
+        "location": [
+            564.5,
+            66.0,
+            549.5,
+            327,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "spearow",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Mandibuzz1",
+        "location": [
+            557.5,
+            56.0,
+            573.5,
+            270,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "psyduck",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Swanna1",
+        "location": [
+            534.5,
+            55.5,
+            570.5,
+            1,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "psyduck",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Ducklett1",
+        "location": [
+            533.9,
+            55.5,
+            568.5,
+            319,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "psyduck",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Ducklett2",
+        "location": [
+            532.5,
+            55.5,
+            568.5,
+            310,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "psyduck",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "EmolgaGlobalIntro",
+        "location": [
+            546.5,
+            67.0,
+            588.1,
+            190,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "butterfree",
+        "look": false
+    },
+    "Show": {
+        "Braviary1": false,
+        "Mandibuzz1": false,
+        "Swanna1": false,
+        "Ducklett1": false,
+        "Ducklett2": false,
+        "EmolgaGlobalIntro": false
+    },
+    "LeaveScript": [],
+    "Show": {
+        "Braviary1": false,
+        "Mandibuzz1": false,
+        "Swanna1": false,
+        "Ducklett1": false,
+        "Ducklett2": false,
+        "EmolgaGlobalIntro": false
+    },
+    "Comment": "Begin",
+    "Show": {
+        "Braviary1": true,
+        "Mandibuzz1": true,
+        "Swanna1": true,
+        "Ducklett1": true,
+        "Ducklett2": true,
+        "EmolgaGlobalIntro": true
+    },
+    "ProgressiveMoveEntity": ["Swanna1", 534.0, 55.5, 574.5, 0.1, false],
+    "ProgressiveMoveEntity": ["Ducklett1", 534.5, 55.5, 572.5, 0.1, false],
+    "ProgressiveMoveEntity": ["Ducklett2", 534.0, 55.5, 571.5, 0.1, false],
+    "MoveEntity": ["Braviary1", 573.5, 62.5, 559.5, false],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["Swanna1", 532.5, 55.5, 579.5, 0.1, false],
+    "ProgressiveMoveEntity": ["Ducklett1", 534.5, 55.5, 577.1, 0.1, false],
+    "ProgressiveMoveEntity": ["Ducklett2", 534.5, 55.5, 576.5, 0.1, false],
+    "ProgressiveMoveEntity": ["Braviary1", 596.5, 69.0, 567.5, false],
+    "Wait": 10,
+    "Skip": "Begin"
+}
