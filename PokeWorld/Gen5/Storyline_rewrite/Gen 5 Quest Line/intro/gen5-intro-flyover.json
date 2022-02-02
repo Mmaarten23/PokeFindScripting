@@ -1,0 +1,57 @@
+{
+    "CreateEntity": {
+        "key": "center",
+        "entity": "Armor Stand",
+        "location": [
+            527.5,
+            69.0,
+            573.5,
+            90
+        ],
+        "visible": false
+    },
+    "Hide": [
+        "center"
+    ],
+    "AllowRejoining": true,
+    "Freeze": [
+    ],
+    "HidePlayer": [
+    ],
+    "Fade": [],
+    "Cinematic": [],
+    "SetScoreboard": "",
+    "Teleport": [
+        520.6,
+        77.5,
+        566.6
+    ],
+    "Look": [
+        "camera",
+        "center"
+    ],
+    "MoveEntityCircle": [
+        "camera",
+        527.5, 77.5, 573.5,
+        520.5, 77.5, 566.5
+    ],
+    "Fade": [],
+    "StopCinematic": [],
+    "SetScoreboard": [],
+    "Teleport": [
+        589.5,
+        53.0,
+        573.5,
+        90,
+        0
+    ],
+    "Unfreeze": [
+    ],
+    "ShowPlayer": [
+    ],
+    "Progress": [
+        1.0,
+        1,
+        "gen5_intro"
+    ]
+}

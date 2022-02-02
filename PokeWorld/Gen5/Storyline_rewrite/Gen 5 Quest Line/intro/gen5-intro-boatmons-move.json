@@ -1,0 +1,120 @@
+{
+    "Key": "gen5_intro_boatmons_move",
+    "CreateEntity": {
+        "key": "Magikarp",
+        "location": [
+            372.5,
+            40.0,
+            357.5,
+            270,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "Magikarp",
+        "look": false
+    },
+    "CreateEntity": {
+        "key": "Lapras",
+        "location": [
+            368.5,
+            40.0,
+            354.5,
+            270,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "Lapras",
+        "look": false
+    },
+    "Wait": [
+        20
+    ],
+    "ProgressiveMoveEntity": [
+        "Lapras",
+        400.5,
+        40.0,
+        354.5,
+        0.1,
+        false
+    ],
+    "MoveEntity": [
+        "Magikarp",
+        379.5,
+        40.0,
+        357.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Magikarp",
+        381.5,
+        39.0,
+        357.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Magikarp",
+        382.5,
+        40.0,
+        357.5,
+        0.3,
+        false
+    ],
+    "Rotate": [
+        "Magikarp",
+        "Head",
+        -30.0,
+        0.0,
+        0.0,
+        12.0
+    ],
+    "MoveEntity": [
+        "Magikarp",
+        384.8,
+        42.0,
+        357.5,
+        0.3,
+        false
+    ],
+    "Rotate": [
+        "Magikarp",
+        "Head",
+        -300.0,
+        0.0,
+        0.0,
+        20.0
+    ],
+    "MoveEntity": [
+        "Magikarp",
+        385.8,
+        42.0,
+        357.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Magikarp",
+        389.5,
+        40.0,
+        357.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Magikarp",
+        390.5,
+        39.0,
+        357.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Magikarp",
+        408.5,
+        40.0,
+        357.5,
+        0.3,
+        false
+    ]
+}

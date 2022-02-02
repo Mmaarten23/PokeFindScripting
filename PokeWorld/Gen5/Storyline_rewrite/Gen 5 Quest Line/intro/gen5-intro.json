@@ -387,38 +387,11 @@
         },
         80
     ],
-    "Look": [
-        0,
-        20
-    ],
-    "PlaySound": [
-        "entity_villager_celebrate",
-        1.2,
-        1.0
-    ],
-    "Wait": [
-        20
-    ],
-    "Start": [
-        "intro_magikarp_lapras_move"
-    ],
-    "Start": [
-        "intro_tirtouga"
-    ],
-    "Track": [
-        400.5,
-        46.0,
-        344.5,
-        380.5,
-        46.0,
-        344.5,
-        0.1
-    ],
-    "Freeze": [
-    ],
-    "Wait": [
-        60
-    ],
+    "Start": "gen5_intro_boat_cam",
+    "Wait": 20,
+    "PlaySound": ["entity_villager_celebrate", 1.2, 1.0],
+    "Start": "gen5_intro_boatmons_move",
+    "Start": "gen5_intro_tirtouga",
     "Show": {
         "PlayerNpc1": false,
         "captain_benry": false,
@@ -433,25 +406,10 @@
     ],
     "SetScoreboard": [
     ],
-    "Teleport": [
-        564.5,
-        44.0,
-        465.5,
-        270,
-        0
-    ],
-    "Wait": [
-        20
-    ],
-    "EntityLook": [
-        "rival2",
-        "professor2"
-    ],
-    "PlaySound": [
-        "entity_villager_ambient",
-        0.9,
-        1.0
-    ],
+    "Teleport": [564.5, 44.0, 465.5, 270, 0],
+    "Wait": 20,
+    "EntityLook": ["rival2", "professor2"],
+    "PlaySound": ["entity_villager_ambient", 0.9, 1.0],
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "That was such a long journey... How long were we on that boat?",

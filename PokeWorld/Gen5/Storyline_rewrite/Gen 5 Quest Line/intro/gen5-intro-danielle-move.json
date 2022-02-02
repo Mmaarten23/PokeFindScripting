@@ -1,0 +1,142 @@
+{
+    "Key": "intro_danielle_move",
+    "CreateEntity": {
+        "key": "rival1",
+        "name": "&d&lDanielle",
+        "location": {
+            "world": "world",
+            "x": 617.1,
+            "y": 47.9375,
+            "z": 462.1,
+            "yaw": 235,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDE1NTU1MDQwMTMsInByb2ZpbGVJZCI6ImMxZWQ5N2Q0ZDE2NzQyYzI5OGI1ODFiZmRiODhhMjFmIiwicHJvZmlsZU5hbWUiOiJ5b2xvX21hdGlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTUyYmZiNGVmNjM3MGE0ZTFjYjg4M2VmYjdjYzIzYTliOGViMDAwNjEyMmEzZTlmNTM4ZDE0NDE2MTQ0MGYxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+            "signature": "Ppm5iP979OV+9eCqY2qAD9OkbmvsbgGp44zgZAR3LEOv/9z8/n1M8dgFBroxCl0stSXBQwdUm1KV+h1Dqwoc5g8K/f+/BcdkBiMdtXKeCdv9H73mnwIdqA9xKl2eZHbTqtyLaEZ8tDvAZaDQOFSkMecwGvPe4msxWtuSpah/nSVxau1dZnfc2gKtjiHBguH3ALgsvlyjd4JvCkmY0Q3ElmkAXstGrzQYS3D+NDpEcD6T7qPVDEyGMJ2+SS3I35vXULCVQPRW4BevMRbsmuuNah4hgguysje0ZcXWx1BRGVdxLzeF4DNPWKdW5t2JVXJinRcnkmFULNQcC+XIC3tbS9cvG2zaR3wafLtxT4zhTbRLmXnYIcQQLcZvXl7T578uqJyji4ybdysSFrZxETrm6cMcXDB7cPXUqZWq3NRWnZiVu+8kiOu6Ce/SU/a6JbewlXB9Xd4u1aB/TPxJs4qk79iM35fwT2f2WSNLM/+tt5ACWZRcM/HmIdrL25xyZ9hIdWSvNeNLPwHRu4Pmt1ztAmbTJb/4ITus2jTL6ksn2M7ektTWAA7//bKB2E7tk89+sp0THoX+KFbheRpsP3lUEgU5JM2OT3Rmx4ZXUjIuUc0hlzbCCgNNv7e5xgDa6udyf08TJyoaSVLZcWhaTzjor4c0psr8/7AvNkoIhh//d5o="
+        },
+        "look": false
+    },
+    "Show": {
+        "rival1": false
+    },
+    "Wait": [
+        1
+    ],
+    "Show": {
+        "rival1": true
+    },
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        626.3,
+        47.9375,
+        456.2,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        632.3,
+        47.9375,
+        454.2,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        636.3,
+        47.9375,
+        454.3,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        638.3,
+        47.9375,
+        452.7,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        639.5,
+        47.9375,
+        446.5,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        639.5,
+        49.0,
+        445.5,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        638.5,
+        49.0,
+        439.5,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        638.5,
+        49.5,
+        439.0,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        638.5,
+        49.5,
+        438.0,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        638.5,
+        50.0,
+        437.5,
+        false
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "rival1",
+        638.5,
+        50.0,
+        434.5,
+        false
+    ],
+    "Show": {
+        "rival1": false
+    }
+}

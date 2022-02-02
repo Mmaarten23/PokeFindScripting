@@ -1,0 +1,91 @@
+{
+    "Key": "gen5_intro_tirtouga",
+    "CreateEntity": {
+        "key": "Tirtouga",
+        "location": [
+            372.5,
+            40.0,
+            357.5,
+            270,
+            0
+        ],
+        "entity": "Armor Stand",
+        "pokemon": "Tirtouga",
+        "look": false
+    },
+    "Wait": [
+        20
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        362.5,
+        39.0,
+        352.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        366.5,
+        40.0,
+        352.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        373.5,
+        40.0,
+        352.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        377.5,
+        39.0,
+        352.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        379.5,
+        40.0,
+        352.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        382.5,
+        40.0,
+        352.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        387.5,
+        39.0,
+        352.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        390.5,
+        40.0,
+        352.5,
+        0.3,
+        false
+    ],
+    "MoveEntity": [
+        "Tirtouga",
+        398.5,
+        40.0,
+        352.5,
+        0.3,
+        false
+    ]
+}
