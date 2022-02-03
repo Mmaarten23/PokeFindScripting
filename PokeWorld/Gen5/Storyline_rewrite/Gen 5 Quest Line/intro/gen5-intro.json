@@ -588,7 +588,7 @@
         80
     ],
     "Objective": ["Follow Professor Hemlock to his new lab", 15],
-    "Start": "gen5_intro_contain",
+    "Start": "gen5_intro_boat_contain",
     "Unfreeze": [
     ],
     "Wait": 10,
@@ -598,7 +598,7 @@
         565, 44, 483,
         575, 49, 490
     ],
-    "Progress": ["waitStarter", 1.0, "gen5_intro_contain"],
+    "Leave": "gen5_intro_boat_contain",
     "Fade": [
     ],
     "SetScoreboard": "",
@@ -672,6 +672,7 @@
     "Unfreeze": [
     ],
     "Wait": 1,
+    "Start": "gen5_intro_starter_contain",
     "ClickEntityOptions": [
         "Starter1",
         "Starter2",
@@ -716,7 +717,7 @@
     "Complete": [
     ],
     "Wait": 20,
-    "Progress": ["waitBattle", 1.0, "gen5_intro_contain"],
+    "Leave": "gen5_intro_starter_contain",
     "Teleport": [638.5, 50.0, 426.5, 180, 0],
     "Freeze": [
     ],
@@ -794,7 +795,7 @@
         }
     ],
     "Wait": 10,
-    "Progress": "gen5_intro_contain",
+    "Start": "gen5_intro_battle_contain",
     "Unfreeze": [
     ],
     "Objective": ["Talk to Danielle to start the battle"],
@@ -828,7 +829,7 @@
         }
     ],
     "Wait": 10,
-    "Leave": "gen5_intro_contain",
+    "Leave": "gen5_intro_battle_contain",
     "PlaySound": ["entity_villager_celebrate", 1.2, 1.0],
     "Dialog": [
         {

@@ -1,0 +1,12 @@
+{
+    "Key": "gen5_intro_starter_contain",
+
+    "Comment": "startStarter",
+    "RegionExit": [
+        625, 49, 410,
+        651, 57, 437
+    ],
+    "Teleport": [638.5, 50.0, 426.5, 180, 0],
+    "SendMessage": "&cPlease pick a starter.",
+    "Skip": "startStarter"
+}

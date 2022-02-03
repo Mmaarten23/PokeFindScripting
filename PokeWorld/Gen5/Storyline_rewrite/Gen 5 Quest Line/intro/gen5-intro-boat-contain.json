@@ -1,5 +1,5 @@
 {
-    "Key": "gen5_intro_contain",
+    "Key": "gen5_intro_boat_contain",
 
     "Comment": "startBoat",
     "RegionExit": [
@@ -10,9 +10,6 @@
     "SendMessage": "&cFollow Professor Hemlock to his new lab.",
     "Skip": "startBoat",
 
-    "Comment": "waitStarter",
-    "Wait": 1,
-    "Hold": [],
 
     "Comment": "startStarter",
     "RegionExit": [
