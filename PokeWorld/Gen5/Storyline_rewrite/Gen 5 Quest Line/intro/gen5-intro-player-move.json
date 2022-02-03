@@ -35,16 +35,6 @@
     ],
     "MoveEntity": [
         "rival1",
-        632.3,
-        47.9375,
-        454.2,
-        false
-    ],
-    "Delay": [
-        1
-    ],
-    "MoveEntity": [
-        "rival1",
         630.4,47.9,455.2,
         false
     ],
