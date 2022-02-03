@@ -424,50 +424,24 @@
         },
         80
     ],
-    "Wait": [
-        10
-    ],
+    "Wait": 10,
     "Show": {
         "representative1": true
     },
-    "Look": [
-        "representative1",
-        -1
-    ],
-    "MoveEntity": [
-        "representative1",
-        568.7,
-        44.0,
-        468.7
-    ],
+    "Look": ["representative1", -1],
+    "MoveEntity": ["representative1", 568.7, 44.0, 468.7],
     "RemoveFilter": [
     ],
-    "Look": [
-        "representative2"
-    ],
+    "Look": "representative2",
     "Show": {
         "representative1": false,
         "representative2": true
     },
-    "Wait": [
-        1
-    ],
-    "EntityLook": [
-        "professor2",
-        "representative2"
-    ],
-    "EntityLook": [
-        "rival2",
-        "representative2"
-    ],
-    "Wait": [
-        20
-    ],
-    "PlaySound": [
-        "entity_villager_celebrate",
-        1.1,
-        1.0
-    ],
+    "Wait": 1,
+    "EntityLook": ["professor2", "representative2"],
+    "EntityLook": ["rival2", "representative2"],
+    "Wait": 20,
+    "PlaySound": ["entity_villager_celebrate", 1.1, 1.0],
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "Hello! You must be Thomas! I received a message you'd be meeting us here.",
@@ -485,32 +459,15 @@
         },
         80
     ],
-    "MoveEntity": [
-        "representative2",
-        568.5,
-        44.0,
-        490.5,
-        false
-    ],
-    "Wait": [
-        1
-    ],
-    "EntityLookAtPlayer": [
-        "professor2"
-    ],
-    "EntityLook": [
-        "rival2",
-        "professor2"
-    ],
-    "Look": [
-        "professor2"
-    ],
+    "MoveEntity": ["representative2", 568.5, 44.0, 490.5, false],
+    "Wait": 1,
+    "EntityLookAtPlayer": "professor2",
+    "EntityLook": ["rival2", "professor2"],
+    "Look": "professor2",
     "Show": {
         "representative2": false
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "Let's get you guys settled in.",
@@ -518,56 +475,23 @@
         },
         80
     ],
-    "Objective": [
-        "Follow Professor Hemlock to his new lab",
-        15
-    ],
+    "Objective": ["Follow Professor Hemlock to his new lab", 15],
     "Unfreeze": [
     ],
-    "Wait": [
-        10
-    ],
-    "ProgressiveMoveEntity": [
-        "rival2",
-        567.5,
-        44.0,
-        490.5,
-        false
-    ],
-    "ProgressiveMoveEntity": [
-        "professor2",
-        565.5,
-        44.0,
-        490.5,
-        false
-    ],
-    "Wait": [
-        110
-    ],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["rival2", 567.5, 44.0, 490.5, false],
+    "ProgressiveMoveEntity": ["professor2", 565.5, 44.0, 490.5, false],
+    "Wait": 110,
     "Fade": [
     ],
     "SetScoreboard": "",
     "Cinematic": [
     ],
-    "Teleport": [
-        646.5,
-        52.0,
-        444.5,
-        64,
-        16
-    ],
-    "Wait": [
-        10
-    ],
-    "Start": [
-        "intro_danielle_move"
-    ],
-    "Start": [
-        "intro_professor_move"
-    ],
-    "Start": [
-        "intro_player_move"
-    ],
+    "Teleport": [646.5, 52.0, 444.5, 64, 16],
+    "Wait": 10,
+    "Start": "intro_danielle_move",
+    "Start": "intro_professor_move",
+    "Start": "intro_player_move",
     "Hold": [
     ],
     "Fade": [
@@ -584,22 +508,11 @@
         "rival2": false,
         "rival3": true
     },
-    "Teleport": [
-        638.5,
-        50.0,
-        426.5,
-        180,
-        0
-    ],
+    "Teleport": [638.5, 50.0, 426.5, 180, 0],
     "Freeze": [
     ],
-    "Wait": [
-        30
-    ],
-    "PlaySound": [
-        "entity_villager_celebrate",
-        1.0
-    ],
+    "Wait": 30,
+    "PlaySound": ["entity_villager_celebrate", 1.0],
     "Dialog": [
         {
             "Professor Hemlock": "As you may know, your Pokémon from other regions won't be able to listen to your instructions...",
@@ -612,118 +525,33 @@
         },
         80
     ],
-    "Wait": [
-        20
-    ],
-    "MoveEntity": [
-        "professorLab",
-        641.5,
-        50.0,
-        419.5,
-        false
-    ],
-    "Wait": [
-        1
-    ],
-    "MoveEntity": [
-        "professorLab",
-        641.5,
-        51.0,
-        418.5,
-        false
-    ],
-    "Wait": [
-        1
-    ],
-    "MoveEntity": [
-        "professorLab",
-        642.5,
-        51.0,
-        417.5,
-        false
-    ],
-    "Look": [
-        "professorLab"
-    ],
-    "EntityLookAtPlayer": [
-        "professorLab"
-    ],
-    "PlaySound": [
-        "entity_villager_ambient",
-        1.0
-    ],
+    "Wait": 20,
+    "MoveEntity": ["professorLab", 641.5, 50.0, 419.5, false],
+    "Wait": 1,
+    "MoveEntity": ["professorLab", 641.5, 51.0, 418.5, false],
+    "Wait": 1,
+    "MoveEntity": ["professorLab", 642.5, 51.0, 417.5, false],
+    "Look": ["professorLab"],
+    "EntityLookAtPlayer": ["professorLab"],
+    "PlaySound": ["entity_villager_ambient", 1.0],
     "Dialog": [
         {
             "Professor Hemlock": "I know you are anxious to get started with your adventure so I will stop talking. Haha!",
             "Professor Hemlock": "Here, take one of these starter Pokémon to get you started!"
         }
     ],
-    "Wait": [
-        20
-    ],
-    "Look": [
-        "Starter2"
-    ],
-    "PlaySound": [
-        "entity_ender_eye_death",
-        0.8
-    ],
-    "Particle": [
-        "sweep_attack",
-        639.5,
-        52.5,
-        415.0,
-        2,
-        0.0
-    ],
-    "Particle": [
-        "sweep_attack",
-        640.5,
-        52.5,
-        415.0,
-        2,
-        0.0
-    ],
-    "Particle": [
-        "sweep_attack",
-        641.5,
-        52.5,
-        415.0,
-        2,
-        0.0
-    ],
-    "Show": [
-        "Starter1",
-        "Starter2",
-        "Starter3"
-    ],
-    "Wait": [
-        5
-    ],
-    "ProgressiveMoveEntity": [
-        "Starter1",
-        639.5,
-        52.5,
-        415.0,
-        false
-    ],
-    "ProgressiveMoveEntity": [
-        "Starter2",
-        640.5,
-        52.5,
-        415.0,
-        false
-    ],
-    "MoveEntity": [
-        "Starter3",
-        641.5,
-        52.5,
-        415.0,
-        false
-    ],
-    "Wait": [
-        30
-    ],
+    "Wait": 20,
+    "Look": "Starter2",
+    "PlaySound": ["entity_ender_eye_death", 0.8],
+    "Particle": ["sweep_attack", 639.5, 52.5, 415.0, 2, 0.0],
+    "Particle": ["sweep_attack", 640.5, 52.5, 415.0, 2, 0.0],
+    "Particle": ["sweep_attack", 641.5, 52.5, 415.0, 2, 0.0],
+    "Show": ["Starter1", "Starter2", "Starter3"],
+    "Wait": 5,
+    "ProgressiveMoveEntity": ["Starter1", 639.5, 52.5, 415.0, false],
+    "ProgressiveMoveEntity": ["Starter2", 640.5, 52.5, 415.0, false],
+    "MoveEntity": ["Starter3", 641.5, 52.5, 415.0, false],
+    "Wait": 30,
     "Unfreeze": [
     ],
     "ClickEntityOptions": [
@@ -769,37 +597,15 @@
     ],
     "Complete": [
     ],
-    "Wait": [
-        20
-    ],
-    "Teleport": [
-        638.5,
-        50.0,
-        426.5,
-        180,
-        0
-    ],
+    "Wait": 20,
+    "Teleport": [638.5, 50.0, 426.5, 180, 0],
     "Freeze": [
     ],
-    "Look": [
-        "professorLab"
-    ],
-    "MoveEntity": [
-        "professorLab",
-        641.5,
-        51.0,
-        418.5,
-        false
-    ],
+    "Look": "professorLab",
+    "MoveEntity": ["professorLab", 641.5, 51.0, 418.5, false],
     "Wait": [
     ],
-    "MoveEntity": [
-        "professorLab",
-        641.5,
-        50.0,
-        419.5,
-        false
-    ],
+    "MoveEntity": ["professorLab", 641.5, 50.0, 419.5, false],
     "Wait": [
         1
     ],
