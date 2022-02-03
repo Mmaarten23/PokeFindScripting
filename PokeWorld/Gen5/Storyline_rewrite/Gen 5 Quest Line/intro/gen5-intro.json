@@ -828,8 +828,8 @@
             "exp_multiplier": 0
         }
     ],
-    "Wait": 10,
     "Leave": "gen5_intro_battle_contain",
+    "Wait": 10,
     "PlaySound": ["entity_villager_celebrate", 1.2, 1.0],
     "Dialog": [
         {
