@@ -672,7 +672,6 @@
     "Unfreeze": [
     ],
     "Wait": 1,
-    "Progress": "gen5_intro_contain",
     "ClickEntityOptions": [
         "Starter1",
         "Starter2",
