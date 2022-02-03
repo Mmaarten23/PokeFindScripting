@@ -1,6 +1,7 @@
 {
     "Key": "gen5_intro_boat_contain",
 
+    "Skip": "startBoat",
     "Comment": "startBoat",
     "RegionExit": [
         563, 43, 435,

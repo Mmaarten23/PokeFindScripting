@@ -1,6 +1,7 @@
 {
     "Key": "gen5_intro_starter_contain",
 
+    "Skip":  "startStarter",
     "Comment": "startStarter",
     "RegionExit": [
         625, 49, 410,

@@ -1,88 +1,74 @@
 {
-    "Key": "gen5_intro_professor_move",
+    "Key": "gen5_intro_player_move",
     "CreateEntity": {
-        "key": "professor1",
-        "name": "&c&lProfessor Hemlock",
+        "key": "rival1",
         "location": {
             "world": "world",
-            "x": 616.5,
-            "y": 47.9375,
-            "z": 459.7,
+            "x": 614.3,
+            "y": 47.9,
+            "z": 464.2,
             "yaw": 235,
             "pitch": 0
         },
-        "skin": "professor_hemlock",
+        "skin": "[PLAYER]",
         "look": false
     },
     "Show": {
-        "professor1": false
+        "rival1": false
     },
     "Wait": [
         1
     ],
     "Show": {
-        "professor1": true
+        "rival1": true
     },
     "Delay": [
         1
     ],
-    "Look": [
-        "professor1",
-        -1
+    "MoveEntity": [
+        "rival1",
+        623.7,47.9,457.8,
+        false
+    ],
+    "Delay": [
+        1
     ],
     "MoveEntity": [
-        "professor1",
-        625.6,
+        "rival1",
+        632.3,
         47.9375,
-        453.7,
+        454.2,
         false
     ],
     "Delay": [
         1
     ],
     "MoveEntity": [
-        "professor1",
-        636.1,
-        47.9375,
-        451.2,
+        "rival1",
+        630.4,47.9,455.2,
         false
     ],
     "Delay": [
         1
     ],
     "MoveEntity": [
-        "professor1",
-        638.1,
-        47.9375,
-        449.1,
-        false
-    ],
-
-    "Delay": [
-        1
-    ],
-    "MoveEntity": [
-        "professor1",
-        637.5,
-        47.9375,
-        446.5,
+        "rival1",
+        637.1,47.9,453.0,
         false
     ],
     "Delay": [
         1
     ],
     "MoveEntity": [
-        "professor1",
-        637.5,
-        49.0,
-        445.5,
+        "rival1",
+        638.4,49.0,445.0,
         false
     ],
     "Delay": [
         1
     ],
     "MoveEntity": [
-        "professor1",
+        "rival1",
         638.5,
         49.0,
         439.5,
@@ -92,7 +78,7 @@
         1
     ],
     "MoveEntity": [
-        "professor1",
+        "rival1",
         638.5,
         49.5,
         439.0,
@@ -102,7 +88,7 @@
         1
     ],
     "MoveEntity": [
-        "professor1",
+        "rival1",
         638.5,
         49.5,
         438.0,
@@ -112,7 +98,7 @@
         1
     ],
     "MoveEntity": [
-        "professor1",
+        "rival1",
         638.5,
         50.0,
         437.5,
@@ -122,21 +108,13 @@
         1
     ],
     "MoveEntity": [
-        "professor1",
+        "rival1",
         638.5,
         50.0,
         434.5,
         false
     ],
-    "Delay": [
-        1
-    ],
-    "RemoveFilter": [
-    ],
     "Show": {
-        "professor1": false
-    },
-    "Progress": [
-        "gen5_intro"
-    ]
+        "rival1": false
+    }
 }

@@ -606,9 +606,9 @@
     ],
     "Teleport": [646.5, 52.0, 444.5, 64, 16],
     "Wait": 10,
-    "Start": "intro_danielle_move",
-    "Start": "intro_professor_move",
-    "Start": "intro_player_move",
+    "Start": "gen5_intro_danielle_move",
+    "Start": "gen5_intro_professor_move",
+    "Start": "gen5_intro_player_move",
     "Hold": [
     ],
     "Fade": [

@@ -1,6 +1,7 @@
 {
     "Key": "gen5_intro_battle_contain",
 
+    "Skip": "startBattle",
     "Comment": "startBattle",
     "RegionExit": [
         624, 49, 354,
