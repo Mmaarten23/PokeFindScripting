@@ -8,28 +8,5 @@
     ],
     "Teleport": [564.5, 44.0, 465.5, 270, 0],
     "SendMessage": "&cFollow Professor Hemlock to his new lab.",
-    "Skip": "startBoat",
-
-
-    "Comment": "startStarter",
-    "RegionExit": [
-        625, 49, 410,
-        651, 57, 437
-    ],
-    "Teleport": [638.5, 50.0, 426.5, 180, 0],
-    "SendMessage": "&cPlease pick a starter.",
-    "Skip": "startStarter",
-
-    "Comment": "waitBattle",
-    "Wait": 1,
-    "Hold": [],
-
-    "Comment": "startBattle",
-    "RegionExit": [
-        624, 49, 354,
-        647, 53, 387
-    ],
-    "Teleport": [636.5, 49.0, 376.5, 180, 0],
-    "SendMessage": "&cFight your first battle in Zeinova.",
-    "Skip": "startBattle"
+    "Skip": "startBoat"
 }

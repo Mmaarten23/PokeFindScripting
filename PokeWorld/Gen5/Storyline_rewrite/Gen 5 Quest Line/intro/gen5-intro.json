@@ -716,8 +716,8 @@
     ],
     "Complete": [
     ],
-    "Wait": 20,
     "Leave": "gen5_intro_starter_contain",
+    "Wait": 20,
     "Teleport": [638.5, 50.0, 426.5, 180, 0],
     "Freeze": [
     ],
