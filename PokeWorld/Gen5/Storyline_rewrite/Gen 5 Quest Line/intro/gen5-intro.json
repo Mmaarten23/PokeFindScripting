@@ -342,7 +342,8 @@
         "pheal",
         "pc",
         "spawn",
-        "warp"
+        "warp",
+        "tpa"
     ],
     "HidePlayer": [
     ],
@@ -899,7 +900,9 @@
             "Professor Hemlock": "Now, [PLAYER], go and discover the region of Zeinova.",
             "Professor Hemlock": "You have a great adventure ahead of you and many new Pokémon to catch and train!",
             "Professor Hemlock": "Thomas or I will contact you if we need your help with anything!",
-            "Professor Hemlock": "Well good luck on your exciting adventure! I will keep in touch."
+            "Professor Hemlock": "Well good luck on your exciting adventure! I will keep in touch.",
+            "Professor Hemlock": "Oh btw. When you are ready to explore the region a bit further, meet Thomas on the bridge to Breezelton Village.",
+            "Professor Hemlock": "The man is a great storyteller!"
         },
         80
     ],
