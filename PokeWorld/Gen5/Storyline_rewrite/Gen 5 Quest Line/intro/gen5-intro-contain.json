@@ -11,6 +11,7 @@
     "Skip": "startBoat",
 
     "Comment": "waitStarter",
+    "Wait": 1,
     "Hold": [],
 
     "Comment": "startStarter",
@@ -23,6 +24,7 @@
     "Skip": "startStarter",
 
     "Comment": "waitBattle",
+    "Wait": 1,
     "Hold": [],
 
     "Comment": "startBattle",

@@ -916,6 +916,7 @@
     "ProgressiveMoveEntity": ["rival5", 597.5, 48.5, 594.5, false],
     "RemoveFilter": [
     ],
+    "Start": "gen5_intro_end_cam",
     "Hold": [],
     "Freeze": [
     ],
