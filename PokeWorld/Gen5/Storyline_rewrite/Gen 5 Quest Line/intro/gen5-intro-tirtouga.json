@@ -13,9 +13,7 @@
         "pokemon": "Tirtouga",
         "look": false
     },
-    "Wait": [
-        20
-    ],
+    "Wait": 20,
     "MoveEntity": [
         "Tirtouga",
         362.5,

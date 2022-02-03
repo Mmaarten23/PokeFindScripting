@@ -5,7 +5,7 @@
         "key": "look",
         "location": {
             "x": 400.5,
-            "y": 46.0,
+            "y": 43.0,
             "z": 360.7
         },
         "entity": "ARMOR_STAND"
@@ -14,7 +14,7 @@
     "Teleport": [400.5, 46.0, 344.5, 0, 20],
     "Wait": 5,
     "Look": ["camera", "look"],
-    "ProgressiveMoveEntity": ["look", 380.5, 46.0, 344.5, 0.1, false],
+    "ProgressiveMoveEntity": ["look", 380.5, 43.0, 360.7, 0.1, false],
     "MoveEntity": ["camera", 380.5, 46.0, 344.5, 0.1, false],
     "Wait": 2,
 
