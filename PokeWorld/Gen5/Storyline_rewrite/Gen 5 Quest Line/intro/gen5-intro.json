@@ -669,9 +669,10 @@
     "ProgressiveMoveEntity": ["Starter2", 640.5, 52.5, 415.0, false],
     "MoveEntity": ["Starter3", 641.5, 52.5, 415.0, false],
     "Wait": 30,
-    "Progress": "gen5_intro_contain",
     "Unfreeze": [
     ],
+    "Wait": 1,
+    "Progress": "gen5_intro_contain",
     "ClickEntityOptions": [
         "Starter1",
         "Starter2",
