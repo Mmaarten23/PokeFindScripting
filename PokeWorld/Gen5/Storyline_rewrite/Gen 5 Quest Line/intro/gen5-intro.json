@@ -385,7 +385,7 @@
             "&b&lCaptain Benry": "My name is &bCaptain Benry&r and I appreciate you choosing the &eThe Wellerman&r for your journey!",
             "&b&lCaptain Benry": "Don't forget to stop by my port anytime! I will happily take you anywhere you need to go!"
         },
-        80
+        75
     ],
     "PlaySound": ["entity_villager_celebrate", 1.2, 1.0],
     "Start": "gen5_intro_boatmons_move",
@@ -596,7 +596,7 @@
         565, 44, 483,
         575, 49, 490
     ],
-    "Progress": ["waitStarter", 1.0, "gen5_intro_boat_contain"],
+    "Progress": ["waitStarter", 1.0, "gen5_intro_contain"],
     "Fade": [
     ],
     "SetScoreboard": "",
@@ -714,7 +714,7 @@
     "Complete": [
     ],
     "Wait": 20,
-    "Progress": ["waitBattle", 1.0, "gen5_intro_boat_contain"],
+    "Progress": ["waitBattle", 1.0, "gen5_intro_contain"],
     "Teleport": [638.5, 50.0, 426.5, 180, 0],
     "Freeze": [
     ],
@@ -913,12 +913,7 @@
     "ProgressiveMoveEntity": ["rival5", 597.5, 48.5, 594.5, false],
     "RemoveFilter": [
     ],
-    "Look": "PlayerNpc2",
-    "Track": [
-        548.5, 64.0, 573.5,
-        572.5, 50.0, 597.5,
-        0.3
-    ],
+    "Hold": [],
     "Freeze": [
     ],
     "RemoveFilter": [
@@ -934,9 +929,7 @@
     },
     "Freeze": [
     ],
-    "Wait": [
-        10
-    ],
+    "Wait": 10,
     "Freeze": [
     ],
     "Teleport": [572.5, 49.1, 597.5, 180, 0],
@@ -945,7 +938,12 @@
     "Wait": 10,
     "Unfreeze": [
     ],
-    "SendMessage": ["&a&lIntroduction Complete!"],
+    "SetTitle": [
+        "&c&lZeinova",
+        "&aIntroduction complete",
+        true
+    ],
+    "PlayCustomSound": "sfx.quest_complete",
     "ShowPlayer": [
     ],
     "GlobalParticle": [

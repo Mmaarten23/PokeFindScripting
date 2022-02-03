@@ -1,0 +1,21 @@
+{
+    "Key": "gen5_intro_boat_cam",
+
+    "CreateEntity": {
+        "key": "look",
+        "location": {
+            "x": 572.5,
+            "y": 48.5,
+            "z": 597.5
+        },
+        "entity": "ARMOR_STAND"
+    },
+
+    "Teleport": [548.5, 64.0, 573.5],
+    "Wait": 1,
+    "Look": ["camera", "look"],
+    "MoveEntity": ["camera", 572.5, 50.0, 597.5, 0.3, false],
+    "Wait": 2,
+
+    "Progress": "gen5_intro"
+}
