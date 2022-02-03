@@ -108,11 +108,11 @@
     "ProgressiveMoveEntity": ["Ducklett1", 534.5, 55.5, 572.5, 0.1, false],
     "ProgressiveMoveEntity": ["Ducklett2", 534.0, 55.5, 571.5, 0.1, false],
     "MoveEntity": ["Braviary1", 573.5, 62.5, 559.5, false],
-    "Wait": 10,
+    "Wait": 1,
     "ProgressiveMoveEntity": ["Swanna1", 532.5, 55.5, 579.5, 0.1, false],
     "ProgressiveMoveEntity": ["Ducklett1", 534.5, 55.5, 577.1, 0.1, false],
     "ProgressiveMoveEntity": ["Ducklett2", 534.5, 55.5, 576.5, 0.1, false],
     "MoveEntity": ["Braviary1", 596.5, 69.0, 567.5, false],
-    "Wait": 10,
+    "Wait": 1,
     "Skip": "Begin"
 }
