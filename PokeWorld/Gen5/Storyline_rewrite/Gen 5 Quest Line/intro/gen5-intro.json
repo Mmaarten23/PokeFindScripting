@@ -460,6 +460,8 @@
     },
     "Look": ["representative1", -1],
     "MoveEntity": ["representative1", 568.7, 44.0, 468.7],
+    "Wait": 1,
+    "EntityLook": ["representative2", "professor2"],
     "RemoveFilter": [
     ],
     "Show": {
