@@ -390,6 +390,7 @@
     "PlaySound": ["entity_villager_celebrate", 1.2, 1.0],
     "Start": "gen5_intro_boatmons_move",
     "Start": "gen5_intro_tirtouga",
+    "Hold": [],
     "Show": {
         "PlayerNpc1": false,
         "captain_benry": false,
