@@ -12,8 +12,9 @@
     },
 
     "Teleport": [400.5, 46.0, 344.5, 0, 20],
+    "Wait": 5,
     "Look": ["camera", "look"],
-    "ProgressiveMoveEntity": ["look", 380.5, 46.0, 344.5, 0.5, false],
+    "ProgressiveMoveEntity": ["look", 380.5, 46.0, 344.5, 0.1, false],
     "MoveEntity": ["camera", 380.5, 46.0, 344.5, 0.1, false],
     "Wait": 2,
 
