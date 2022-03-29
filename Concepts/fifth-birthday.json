@@ -1,0 +1,117 @@
+{
+    "Key": "fifth_birthday",
+    "Author": "Mmaarten",
+
+
+    "PlayerJoin": [],
+    "SetWorldTime": 18000,
+    "Beam": [-14.5, 95.0, -76.5, -0.5, 121.5, -55.5],
+    "Beam": [-14.5, 95.0, -28.5, -0.5, 121.5, -49.5],
+    "Beam": [13.5, 95.0, -21.5, 1.5, 121.5, -50.5],
+    "Beam": [13.5, 95.0, -81.5, 1.5, 121.5, -54.5],
+
+    "Comment": "play_domino",
+    "Firework": [-17.5, 88.0, -66.5, "Burst", "Aqua", "Lime", false, true, false],
+    "Firework": [-17.5, 88.0, -38.5, "Burst", "Aqua", "Lime", false, true, false],
+    "Wait": 10,
+    "Firework": [-12.5, 90.5, -65.5, "Burst", "Yellow", "Orange", false, true, false],
+    "Firework": [-12.5, 90.5, -39.5, "Burst", "Yellow", "Orange", false, true, false],
+    "Wait": 10,
+    "Firework": [-8.5, 92.5, -62.5, "Burst", "Fuchsia", "Purple", false, true, false],
+    "Firework": [-8.5, 92.5, -42.5, "Burst", "Fuchsia", "Purple", false, true, false],
+    "Wait": 10,
+    "Firework": [-5.5, 93.5, -57.5, "Burst", "Pink", "Red", false, true, false],
+    "Firework": [-5.5, 93.5, -47.5, "Burst", "Pink", "Red", false, true, false],
+    "Wait": 60,
+
+
+
+    "Comment": "play_5",
+    "SetBlocks": [
+        -13, 100, -57,
+        -13, 110, -49,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -11, 100, -57,
+        -11, 110, -49,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 110, -56,
+        -12, 110, -50,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 106, -57,
+        -12, 109, -57,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 105, -56,
+        -12, 105, -53,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 102, -55,
+        -12, 102, -52,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 100, -55,
+        -12, 100, -51,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 102, -49,
+        -12, 105, -49,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 107, -55,
+        -12, 107, -52,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 108, -55,
+        -12, 108, -50,
+        "barrier"
+    ],
+
+    "SetBlock": [-12, 109, -49, "barrier", false],
+    "SetBlock": [-12, 104, -52, "barrier", false],
+    "SetBlock": [-12, 103, -51, "barrier", false],
+    "SetBlock": [-12, 103, -56, "barrier", false],
+    "SetBlock": [-12, 102, -57, "barrier", false],
+    "SetBlock": [-12, 101, -56, "barrier", false],
+    "SetBlock": [-12, 101, -50, "barrier", false],
+    "SetBlock": [-12, 105, -50, "barrier", false],
+    "SetBlock": [-12, 106, -51, "barrier", false],
+
+    "Firework": [-11.5, 109.5, -49.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 109.5, -51.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 109.5, -53.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 109.5, -55.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 106.5, -55.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 106.5, -53.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 106.5, -51.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 105.5, -50.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 104.5, -49.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 102.5, -49.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 101.5, -50.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 101.5, -52.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 101.5, -54.5, "Ball", "Red", "Pink", true, true, true],
+    "Firework": [-11.5, 102.5, -55.5, "Ball", "Red", "Pink", true, true, true],
+
+
+
+
+    "Wait": 6,
+    "SetBlocks": [
+        -13, 98, -57,
+        -11, 111, -49,
+        "air"
+    ],
+    "Wait": 60,
+    "Skip": "play_domino"
+}

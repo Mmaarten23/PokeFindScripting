@@ -1,0 +1,58 @@
+{
+    "Key": "5_test",
+
+    "SetBlocks": [
+        -12, 110, -56,
+        -12, 110, -50,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 106, -57,
+        -12, 109, -57,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 105, -56,
+        -12, 105, -53,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 102, -52,
+        -12, 102, -55,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 100, -51,
+        -12, 100, -55,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 102, -49,
+        -12, 105, -49,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 107, -52,
+        -12, 107, -55,
+        "barrier"
+    ],
+    "SetBlocks": [
+        -12, 108, -50,
+        -12, 108, -55,
+        "barrier"
+    ],
+
+    "SetBlock": [-12, 109, -49, "barrier", false],
+    "SetBlock": [-12, 104, -52, "barrier", false],
+    "SetBlock": [-12, 103, -51, "barrier", false],
+    "SetBlock": [-12, 103, -56, "barrier", false],
+    "SetBlock": [-12, 102, -57, "barrier", false],
+    "SetBlock": [-12, 101, -56, "barrier", false],
+    "SetBlock": [-12, 101, -50, "barrier", false],
+    "SetBlock": [-12, 105, -50, "barrier", false],
+    "SetBlock": [-12, 106, -51, "barrier", false],
+
+
+
+    "Hold": []
+}

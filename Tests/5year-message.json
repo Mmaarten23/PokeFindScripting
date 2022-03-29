@@ -1,0 +1,29 @@
+{
+    "InDateRangeStage": [
+        "4-2-2021 00:00",
+        "6-2-2022 23:59"
+    ],
+    "Key": "fifth_reward",
+    "Author": "Krem",
+
+
+
+    "NotCompleted": [],
+    "Wait": 1,
+    "GiveCosmetic": "PARTICLE_CAKE",
+    "GiveCosmetic": "CLOTHING_PRESENT_HAT",
+    "Wait": 1,
+    "SendMessage": "&6&l☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆",
+    "SendCenteredMessage": [
+        "",
+        "&b&lHappy Birthday!",
+        "It has been an amazing 5 years, and we couldn't have done it without you! Some gifts are coming your way to celebrate!",
+        ""
+    ],
+    "SendMessage": "     &7+ &b5 Year Cake Cape",
+    "SendMessage": "     &7+ &b5 Year Present hat",
+    "SendMessage": "",
+    "SendMessage": "&6&l☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆",
+    "Wait": 1,
+    "Complete": []
+}
