@@ -408,7 +408,7 @@
     ],
     "Teleport": [564.5, 44.0, 465.5, 270, 0],
     "Freeze": [],
-    "Wait": 20,
+    "Wait": 80,
     "EntityLook": ["rival2", "professor2"],
     "PlaySound": ["entity_villager_ambient", 0.9, 1.0],
     "Dialog": [
@@ -593,8 +593,9 @@
     "Unfreeze": [
     ],
     "Wait": 10,
-    "ProgressiveMoveEntity": ["rival2", 567.5, 44.0, 490.5, false],
     "ProgressiveMoveEntity": ["professor2", 565.5, 44.0, 490.5, false],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["rival2", 567.5, 44.0, 490.5, false],
     "RegionEntry": [
         565, 44, 483,
         575, 49, 490
@@ -649,7 +650,9 @@
     "MoveEntity": ["professorLab", 641.5, 51.0, 418.5, false],
     "Wait": 1,
     "MoveEntity": ["professorLab", 642.5, 51.0, 417.5, false],
+    "Wait": 1,
     "Look": ["professorLab"],
+    "Wait": 1,
     "EntityLookAtPlayer": ["professorLab"],
     "PlaySound": ["entity_villager_ambient", 1.0],
     "Dialog": [
@@ -901,7 +904,7 @@
             "Professor Hemlock": "You have a great adventure ahead of you and many new Pokémon to catch and train!",
             "Professor Hemlock": "Thomas or I will contact you if we need your help with anything!",
             "Professor Hemlock": "Well good luck on your exciting adventure! I will keep in touch.",
-            "Professor Hemlock": "Oh btw. When you are ready to explore the region a bit further, meet Thomas on the bridge to Breezelton Village.",
+            "Professor Hemlock": "Oh btw. When you are ready to explore the region a bit further, meet &4Thomas &fon the bridge to Breezelton Village.",
             "Professor Hemlock": "The man is a great storyteller!"
         },
         80
