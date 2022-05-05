@@ -2,6 +2,8 @@
     "Key": "gen5_intro_battle_contain",
 
     "Skip": "startBattle",
+    "Comment": "Empty trigger stage.",
+    "RegionEntry": [0,0,0,0,0,0],
     "Comment": "startBattle",
     "RegionExit": [
         624, 49, 354,
