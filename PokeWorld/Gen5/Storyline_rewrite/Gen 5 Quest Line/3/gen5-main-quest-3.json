@@ -24,7 +24,8 @@
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzMDkxMjU5NywKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFkMzhmY2UyM2NhOTcwN2E1ZDBlMTZmM2FlZDk0NTgxN2YyOWIwM2QzMmIzMzUxMGNkMjM3ZTExOGM0ZmI1ODAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
             "signature": "QJmKackHb40HRjP01KM/b6Q9UaJWxGGqttc7RT3MExCCeNTc1hQ0X9ZpWj5unKt035rV3qXP+c77Z+H2tz0SNvxGVLKkLvOwdCotesJqopxpnNzlvZ6LfBB7S59CWT2kUm+p0IpGhjoPiOBNP5KQh0WpTWLssK+HNs4VzWgAPe3xJEBKK7/gJD7ZOWGxpt4a0+0WDYlbJxH443rxCIa872wSZtlmT1oQuqkQBhPEZunXc7m+CjFEr2KwrFik8oKjbrIKkpkNEPuRkPEyCCtzWDjDRTby77sdknofiTIiyBQbt4c2J6W2gd/227VySFWE7X7bbyqpB5Ekcs5FHCRSl/63CbNTEvbDGHrlhY9pV1Ird2GwKTQre4txO6gn9HFJUyjBbC6FVJMS4reDnwoawp2EsevA9ezhUaoshugakVuGgDUqlSAnpLk3jCwdW1hOHna44AJfHotXEXZbSLtlA9CcYGgzEdKQwnJzuv60YxBjHRX54zcCiCMI2DXrFVsJi2jfSNbtYrM6C0yWSpsFl5sudR56zjxAdGvV0+i+Uc3iOuox9iS/0t8T8n65EXWQoLNIJjXtYL0eC1pKVjbpQShdm/hb7/r65U2XQ5/E2NyTkp6sqLHfW/OexmawCz8pnrpwm/4akHmzpyFNjFmtB3zxAqqltHDk0pfRw90dwyk="
-        }
+        },
+        "global": true
     },
     "CreateEntity": {
         "key": "BridgeCitizen2",
@@ -40,7 +41,8 @@
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MjkwMTg5OSwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWVydGVsdG9hc3RpaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FhNWQxODUxNjg3MGQ5MTEzZTRmNmUxMmY4OGRmMGEwMDZjMmVkM2ZlMTkyZTU0NWIyNDg5MDNiNWU5YmNhOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
             "signature": "puOszBmfpQ9XClm1zcKsQcRMVMiIe5nCnGTwmDMnUOx0dfJRoQ8P7p5P2p+98BI0yz58/Ax3Ehpf5AunI/zp3h6piP5QIIe5GOc9URQalQ/OhrvBG6nTv3xanNIRL8Fiis/trG/wKMT3QehWWvxApV7Ahtod2ZA8IGoqH/jghzfzjAF+jK4+eRQt/kp1yhzXq7M+tY6MfPrpCZZDNeyTx297CedeF3IeBArXi5GGTByGT1Zm5dSin6QoqlT3vYcAZ1THSKv/E8cim/LmuA4FY2ImOGAPU1J9Fu7+uXItu2fIckn7QDWfEf2L3A0nM5xFHXP6yOQADgxYrANFcIw2D3TGw0j0zAo6/PVqck47bM3LogyjRl8OlLhkL/+/igkQyY3YarYxzzt92kw5bLdHE3HivYHhAdZa5/On9BlUMI6K71fUUeuQblMYPCFir8oqp9AB26C0lb2NfEo3TyPxF9OoBMZQXgcbYVcRlGD2cS2SsdHOBAlq7mvB9y+8802hp+et16plK7vZ1/id+EWOYX7XNAwemMv76TTVh167BCosir5B6k1AP5WE3jdyNtvDoNfo/jUamPH5TvhphBZa0YvfSSPS2fuy68eCEEYG6A5vPqblvUEHuHuWpUz+h/cxzdOJp4J3LmUEYdlEPOdcUiREZwOVyebhaask/Tr6hk0="
-        }
+        },
+        "global": true
     },
     "CreateEntity": {
         "key": "BridgeCitizen3",
@@ -56,7 +58,8 @@
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MzA1MTY2OCwKICAicHJvZmlsZUlkIiA6ICJhYzYxZjQwZGJhNDE0YzkwOWU0NWJkMTgwMmY5MTYxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmlmYW5pIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3YTVkOTU2MWU5YTMyMjkyZDM5ODBhM2VmZDIxNDQ1ZWZjYTgwY2Y5YTY4ZGZjZjgyMDc1N2JjNTNhYjM0ZmYiCiAgICB9CiAgfQp9",
             "signature": "NBwx2cjoEeOIg35XcbwyDRKQniFpeQytIar7q9gtaoDW70StS7147NTZ/sMYth2oE+1mRdbjnLdhXcKpd2vUv7FurWz52TaRVHWmuAkvKyX3K+IIndZ+hE6BajF662yZ5s8YRpeeRilaWPWKxvN3SUwVo+SM2S69axUYUE89gUzViKDriNJ7tV/JSwn2IL5uqxWkShjjOx2CyQ4s9G31PF2A4qHc1p55ZnnYZUC71nUuvm6jiVXCEn1eZt5/6uUWwy/42XMkxzDNnzngCvFcPeqJG2na2YmkRlqj757OYfFpFWcl4b4lCgeblmg1tIDC2hKMtFT4TfKnf0DhtwP9p3uMMtzqKrsSRo8kgV9u5GFASl3lr5AEzNUOulxAv4w9DSl7UIx/xI8dYqfwEx4/opoKwYLa45WWc4X2JXv5bm7elE7JaZGRZQRTe/RFFTsA8f8CDq3VwLHFHsk8Sfr9nfienTpM7tiTpZaHR5PIyuePPvmPz5n6/6HuXl4mwy2lva3Z9RUH1fYUIJHtNWVB5NhkYgczOd2+hV0fndZ8+wuRmaNsQjQPb0d4ecMWvFgZMkkqLuwgI5fd5ffSZUF5AJ3l4iz/857VloWFtMVaHt88P18S+LZNvK+hmdZBhotDYwoyUUjOKVxfnRZx7yoY1HO9BvCQuhqKsFpj/gmzMO8="
-        }
+        },
+        "global": true
     },
     "CreateEntity": {
         "key": "BridgeCitizen4",
@@ -72,7 +75,8 @@
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MzI0NDgwOSwKICAicHJvZmlsZUlkIiA6ICIzZjM4YmViZGYwMWQ0MjNkYWI4MjczZjUwNGFiNGEyNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJjazM0Nzk0MjM1NzUzNzMxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlMDI1NDE0ZmUwMTNmZjliOTJhNGE3MWE5ZTkwZmYwODY3OWRhMWZhMjYxM2I2NTNkMDk3NzkxYjMyYTY4NDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
             "signature": "keu8NrnYygRTvVES/Y/XTMEJfQfDpAERejEEjURKgxsAJxzWlsz1a895+rxLu4hZrGOwsiRlYYxGzlUBznaBQHiaNjWJReCV+Cm6vr2rZZ7XrZJxJhA0WJZHyXe32BsVGoifS/sJc4nJrkk+u4dH9nX1OAlbHqteuAS+2rvoH1x6A8byGRBMUJ8gMIUzwKM+X4rCb1qnd/l7A6Dbo6asNeN0sNLzPyKb5vot65p75/+f87Kche1XA7HdUwP7FZacy36FQPD/NPyeTbvfkXay5awXh+aQuWl2ijSDHxbmWRvYnOQrZOOqPOzqoAjD+vnUe2BqW1c5WLhrrJCSuRQhrNOhApRauhFMPxEXEhsIkXzUFLKOGWhZhqCn/HYavmKa37WR2y9UjjsGxknOl56b94mi4r3El9serIvC2dvGahN1DKOpw8Zb3HS6XqxRzIOr3l0Z3R/JaOdSv8KPD/kmIziz9tdkRbGfJBe3NeNa5u5Yq49VW37XePFQmFg4SKaTnmtK+NoBXHGbl6gS6v5kFYES61eJPFMmWvbyH3lyKYjEEO+lyOjKjsS7xIQ3C1eyQ1qkefN4hqNZDtIWE8beq1cOnbOPABSLgjElLiY2xctKGbasP1/RNeQAClQyM014f3OcHx7yoQzJ9PLJ0zE3PSmX7cwlJvteklrho4vWLaM="
-        }
+        },
+        "global": true
     },
     "CreateEntity": {
         "key": "BridgeCitizen5",
@@ -88,7 +92,8 @@
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjk0MzM5NzA5NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA2Zjg2MWU1MWI5NmViNTI5NGIyNmFhYmRlMDczOWQ2MDRkYzQ5OWIzZjhkMWRhZGQ2ODY4ODAwODU2NzQ5MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
             "signature": "Cn87nfRwNrjOUf7b9gOKe3PMc08Lai4Q8am+GAUYQNExNXWYVUFq4eUyiV3jZtjsr+iKMTykRnWYPZ7/JP5fMD51h5gJu0vzOmsgSnHKjpaY0RnQYNyHYwL1I+ZUkOB3AErEVZC9Zfcbdi3XTmI0RZmxh4EAy84QqCFYti+0XZtg0kPSrbwg8RNUQdPWjc2CS+1ZdU5yZNXCJ6/SbHsdUAuPkoDtgnPz7HSpV0dla/33p/Ts6iMcQauYxGNsSc6BMIvPtPUMBR7MhG/J29TKbb6j4rzQqsCPuy8PFrhWCg9EZpJtvOgKQbQDAY1QUekbGWhvvTfndehw1nBHL3YhT+BjgtsnhTFI/dDkMc8NtVLYpSQCq8TyAX3q+JrFyIw1dRinzD9Kh0gfpTLWseEK5D+TOvhTuxGPJFSIL5YtqKVePajlxDtfopEchJKmV+2Y4QxWjYTz26nKiT4i7niX5MX4PSgHDl5c7ekYJgETwlRL24yKCm/nnqNpf4o6pPQxTK4h9ZJW33R56XKO6cvjUx/jpGTcTeP97qTbRVKFVDN1Nmw/H7zdmJZS6ATR5pl92SxIZbp45MqKR2Mn2FXPKrWG2DhgZ+uP6Gx/N88VaROvNufMRQVtsNuggyChei30Aw0sBy9iLemOC80e6JxGX5p7qSNGioBRGWLq+ILYBtA="
-        }
+        },
+        "global": true
     },
     "CreateEntity": {
         "key": "BridgePokemon1",
@@ -381,34 +386,16 @@
     "ShowPlayer": [],
     "Wait": 20,
     "Objective": ["Talk to the citizens at the bridge to see how you can help calm the Pokemon", 2],
-    "HighlightClickEntity": "BridgeCitizen1",
-    "NewDialog": [
-        {
-            "&9&lTommy": "You must be new around here...",
-            "&9&lTommy": "I promise things are not normally this hectic...",
-            "&9&lTommy": "I wish this wasn't your first impression of &lSpiritvale&r..."
-        },
-        90, true, true, "male_normal"
-    ],
-    "Objective": ["Learn more from the other citizens", 5],
-    "HighlightClickEntity": "BridgeCitizen2",
-    "NewDialog": [
-        {
-            "&e&lIssa": "Hey, maybe you could help us out!",
-            "&e&lIssa": "You're a trainer right?",
-            "&e&lIssa": "Normally the Nurse handles this... She has a flute she plays to calm down the local Pokémon.",
-            "&e&lIssa": "They get spooked every now and then hahaha..."
-        },
-        90, true, true, "female_normal"
-    ],
-    "HighlightClickEntity": "BridgeCitizen3",
-    "NewDialog": [
-        {
-            "&bSparkle": "Do you think you could grab the flute from her chest? She keeps it in a chest above the doorway of her house.",
-            "&bSparkle": "We'd ask her but she's away on business for &3Statera&r."
-        },
-        90, true, true, "male_normal"
-    ],
+    "Start": "gen5_main_quest_3_citizen_1",
+    "Start": "gen5_main_quest_3_citizen_2",
+    "Start": "gen5_main_quest_3_citizen_3",
+
+    "Hold": [],
+    "SendMessage": "&7Talk to citizens: 1/3",
+    "Hold": [],
+    "SendMessage": "&7Talk to citizens: 2/3",
+    "Hold": [],
+    "SendMessage": "&7Talk to citizens: 3/3",
     "Wait": 20,
     "Objective": [
         "Go to Nurse Daisy's home and find her flute (Hint> Her house is near a gym structure outside of town)", 3
@@ -970,7 +957,6 @@
     ],
     "Wait": 20,
     "Objective": ["Fight Nurse Daisy's Snorlax", 7],
-    "HighlightClickEntity": "AnniSnorlax",
     "Show": {
         "AnniSnorlax": false
     },

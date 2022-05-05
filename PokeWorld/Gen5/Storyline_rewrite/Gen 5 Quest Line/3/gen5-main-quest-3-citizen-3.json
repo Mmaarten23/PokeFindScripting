@@ -1,0 +1,14 @@
+{
+    "Key": "gen5_main_quest_3_citizen_3",
+    "HighlightClickEntity": "BridgeCitizen3",
+    "NotCompleted": [],
+    "NewDialog": [
+        {
+            "&bSparkle": "Do you think you could grab the flute from the nurses chest? She keeps it in a chest above the doorway of her house.",
+            "&bSparkle": "We'd ask her but she's away on business for &3Statera&r."
+        },
+        90, true, true, "male_normal"
+    ],
+    "Complete": [],
+    "Progress": "gen5_main_quest_3"
+}

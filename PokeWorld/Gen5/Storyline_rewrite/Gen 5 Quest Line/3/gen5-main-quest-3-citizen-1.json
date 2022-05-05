@@ -1,0 +1,15 @@
+{
+    "Key": "gen5_main_quest_3_citizen_1",
+    "HighlightClickEntity": "BridgeCitizen1",
+    "NotCompleted": [],
+    "NewDialog": [
+        {
+            "&9&lTommy": "You must be new around here...",
+            "&9&lTommy": "I promise things are not normally this hectic...",
+            "&9&lTommy": "I wish this wasn't your first impression of &lSpiritvale&r..."
+        },
+        90, true, true, "male_normal"
+    ],
+    "Complete": [],
+    "Progress": "gen5_main_quest_3"
+}

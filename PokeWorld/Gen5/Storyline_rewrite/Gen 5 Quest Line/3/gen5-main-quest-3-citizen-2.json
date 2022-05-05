@@ -1,0 +1,16 @@
+{
+    "Key": "gen5_main_quest_3_citizen_2",
+    "HighlightClickEntity": "BridgeCitizen2",
+    "NotCompleted": [],
+    "NewDialog": [
+        {
+            "&e&lIssa": "Hey, maybe you could help us out!",
+            "&e&lIssa": "You're a trainer right?",
+            "&e&lIssa": "Normally the Nurse handles this... She has a flute she plays to calm down the local Pokémon.",
+            "&e&lIssa": "They get spooked every now and then hahaha..."
+        },
+        90, true, true, "female_normal"
+    ],
+    "Complete": [],
+    "Progress": "gen5_main_quest_3"
+}
