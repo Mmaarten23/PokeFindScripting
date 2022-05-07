@@ -139,7 +139,7 @@
         "key": "Tribe_Member2",
         "name": [
             "&6&lFatih",
-            "&7Sophro Member"
+            "&7Sophro Elder"
         ],
         "location": {
             "x": -822.7,
@@ -157,7 +157,7 @@
         "key": "Tribe_Member3",
         "name": [
             "&6&lBeth",
-            "&7Sophro Member"
+            "&7Sophro Elder"
         ],
         "location": {
             "x": -828.3,
@@ -175,7 +175,7 @@
         "key": "Tribe_Member4",
         "name": [
             "&6&lGreta",
-            "&7Sophro Member"
+            "&7Sophro Elder"
         ],
         "location": {
             "x": -829.5,
@@ -211,7 +211,7 @@
         "key": "Battle_Tribe_Member2",
         "name": [
             "&6&lFatih",
-            "&7Sophro Member"
+            "&7Sophro Elder"
         ],
         "location": {
             "x": -865.8,
@@ -229,7 +229,7 @@
         "key": "Battle_Tribe_Member3",
         "name": [
             "&6&lBeth",
-            "&7Sophro Member"
+            "&7Sophro Elder"
         ],
         "location": {
             "x": -891.5,
@@ -247,7 +247,7 @@
         "key": "Battle_Tribe_Member4",
         "name": [
             "&6&lGreta",
-            "&7Sophro Member"
+            "&7Sophro Elder"
         ],
         "location": {
             "x": -849.4,
