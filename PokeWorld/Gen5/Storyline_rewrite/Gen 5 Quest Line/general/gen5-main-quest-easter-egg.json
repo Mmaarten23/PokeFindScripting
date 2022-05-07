@@ -98,6 +98,27 @@
         },
         "visible": false
     },
+    "CreateEntity": {
+        "key": "Krem",
+        "location": {
+            "x": 82.2,
+            "y": 86.0,
+            "z": 339.5,
+            "yaw": 17,
+            "pitch": 33
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDUyNDk4NTM4MDcsInByb2ZpbGVJZCI6IjEzOWU5MDNhN2VjMDQ2MTQ5NDgzNzFlMjQ1NDY0YjU3IiwicHJvZmlsZU5hbWUiOiJLcmVtaXRfRGFfRm9yZyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIwMTgyOTY2NzczNGJlYmYwN2Q2MTFiNzFmYWQ0ZjFlYWJjOTViYTJiNGRiNTVmYTk0NmUxMGNlMjc3ZGIxOSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+            "signature": "b4bc8XQJVoISRSC70mwD9y5BqSBK3Meewwwu31u9Q2Bq46QLi4+ofr7PRpGHeROfAuw2C7Tad3Ap2jW1bEwx6kjPn9D0skyg6EZPy7XNYMlE8dFg/wVhVyZznz5tn7AvAt5fS+fMn/9TuTazvHZ/sn++eKw4HKJkJAylhORJPEIVcyPUj+d8oX0eda5Z/XHf0CvNkvAtbBnETeRQDkSfbnpBLfmF0jU5ing7Txbx5giUqfslIqESLhvcpPKOXOM5d6TGxTiHasTBnuFfMzrVN4R61+Oo5BkuOb2ZLzBiCViVqcBX4+vOvo03RDB6WZz50rXglLOQLyOoXhovyJh+2YsFHDmJLlMMuiIJKj+u02pvqGhyEg7WPTrLAo88hrwJGwbK8bw03kAmCOItzPPmg29Pjz0cgMoqyCByRCTw10SVF0Z0DEuiFEI1p+KjkYRlrpbG+4ETxo4lUq4gyEORhafgCiFy3rkpp2KUzpX8UD9F4PRoCKwHIq5jgnhWK+2+dZqwYLKr4o9WI7yuW2Z6zcr4pmsIqO9Ms4JKX4gU68y50c73UsQ/Nv9iw3ADFBUDHnbVhCX95iZve48KXKenzcJeZuJ5Y4Bm23PyiLlP2jTGpE8bI3QVEERxlfizJ25u8tUndl4Xn+rBTF2UwM1gd2r9zigF4ssSjRlcc7pcYPs="
+        },
+        "helmet": {
+            "material": "wooden_hoe",
+            "damage": 2
+        },
+        "look": true
+    },
+
+
     "Chair": [79, 86, 337, -180],
     "Chair": [73, 86, 338, -90],
     "Chair": [73, 86, 339, -90],
