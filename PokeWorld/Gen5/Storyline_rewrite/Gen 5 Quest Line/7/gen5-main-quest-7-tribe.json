@@ -659,13 +659,15 @@
     ],
     "Freeze": [],
     "Teleport": [92.8, 166.0, -296.5, 299, 0],
-    "StrikeLightning": [92.8, 165.9, -296.5],
+    "PlaySound": "AMBIENT_CAVE",
     "Potion": ["Blindness", 80],
     "Wait": 10,
     "Fade": [],
     "Show": {
         "Rival1": false
     },
+    "Wait": 5,
+    "StrikeLightning": [92.8, 165.9, -296.5],
     "Wait": 60,
     "NewDialog": [
         {

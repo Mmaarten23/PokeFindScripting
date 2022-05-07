@@ -620,7 +620,12 @@
     "Wait": 60,
     "NewDialog": [
         {
-            "[PLAYER]": "&oNothing is happening...",
+            "[PLAYER]": "&oNothing is happening..."
+        }, 70, true, false
+    ],
+    "PlaySound": "AMBIENT_CAVE",
+    "NewDialog": [
+        {
             "[PLAYER]": "..."
         }, 70, true, false
     ],
@@ -699,9 +704,6 @@
     ],
     "NewDialog": [
         {
-            "&3&lEvan": "Sir! We have a problem...",
-            "&3&lEvan": "H.A.P.P.Y detected some new arrivals coming through the sea-line.",
-            "&3&lEvan": "&3Cobalion&r left our trackers and our &5Crobats&r lost sight of the others.",
             "&8&lVidar": "&3Cobalion&r huh? So the Swords of Justice have made an appearance then.",
             "&8&lVidar": "&eAstrid&r must have called to them. This really throws a wrench in our plans."
         },
@@ -821,8 +823,6 @@
     "EntityLook": ["broadcast1_left", 148, 46],
     "Wait": 30,
     "Show": {
-        "broadcast1_left": false,
-        "broadcast1_right": false,
         "broadcast2_left": true,
         "broadcast2_right": true,
         "broadcast2_pokegear": true,
@@ -834,6 +834,11 @@
     "Teleport": [99.5, 54.0, 308.5, 0],
     "Wait": 1,
     "Freeze": true,
+
+    "Show": {
+        "broadcast1_left": false,
+        "broadcast1_right": false
+    },
     "Wait": 14,
     "EntityLook": ["broadcast2_right", "broadcast2_left"],
     "Wait": 3,
@@ -863,10 +868,6 @@
     "Wait": 27,
 
     "Show": {
-        "broadcast2_left": false,
-        "broadcast2_right": false,
-        "broadcast2_pokegear": false,
-        "broadcast2_bag": false,
         "broadcast3_bathing": true,
         "broadcast3_pokegear": true
     },
@@ -876,7 +877,12 @@
     "Teleport": [54.7, 72.6, 309.6, 20, 14],
     "Wait": 1,
     "Freeze": true,
-
+    "Show": {
+        "broadcast2_left": false,
+        "broadcast2_right": false,
+        "broadcast2_pokegear": false,
+        "broadcast2_bag": false
+    },
 
     "Wait": 30,
     "NewDialog": [
@@ -909,8 +915,6 @@
     "Wait": 10,
 
     "Show": {
-        "broadcast3_dressed": false,
-        "broadcast3_pokegear": false,
         "broadcast4_cashier": true,
         "broadcast4_client": true
     },
@@ -920,7 +924,10 @@
     "Teleport": [38.7, 51.9, 259.1, 148, 19],
     "Wait": 1,
     "Freeze": true,
-
+    "Show": {
+        "broadcast3_dressed": false,
+        "broadcast3_pokegear": false
+    },
 
 
     "Wait": 40,
@@ -940,8 +947,6 @@
 
 
     "Show": {
-        "broadcast4_cashier": false,
-        "broadcast4_client": false,
         "broadcast5_left": true,
         "broadcast5_right": true
     },
@@ -952,7 +957,10 @@
     "Wait": 1,
     "Freeze": true,
 
-
+    "Show": {
+        "broadcast4_cashier": false,
+        "broadcast4_client": false
+    },
     "Wait": 70,
     "NewDialog": [
         {
@@ -964,8 +972,6 @@
 
 
     "Show": {
-        "broadcast5_left": false,
-        "broadcast5_right": false,
         "broadcast6_left": true,
         "broadcast6_right": true,
         "broadcast6_notifier": true,
@@ -978,6 +984,11 @@
     "Teleport": [-24.3, 56.0, 336.5, -89, 34],
     "Wait": 1,
     "Freeze": true,
+    "Show": {
+        "broadcast5_left": false,
+        "broadcast5_right": false
+    },
+
     "Wait": 5,
     "ProgressiveMoveEntity": ["broadcast6_notifier", -12.5, 52.0, 336.5, 0.2, false],
     "Wait": 35,
@@ -1008,18 +1019,19 @@
     "ProgressiveMoveEntity": ["broadcast6_right", -5.3, 52.0, 336.4, 0.15, false],
     "Wait": 60,
 
-    "Show": {
-        "broadcast6_left": false,
-        "broadcast6_right": false,
-        "broadcast6_notifier": false
-    },
     "Unfreeze": [],
     "Wait": 1,
     "Fade": [],
     "Teleport": [79.3, 77.0, 333.5, 151, 7],
     "Wait": 1,
     "Freeze": true,
+    "Show": {
+        "broadcast6_left": false,
+        "broadcast6_right": false,
+        "broadcast6_notifier": false
+    },
     "Wait": 20,
+
 
     "NewDialog": [
         {
@@ -1091,14 +1103,18 @@
         ]
     ],
     "Freeze": [],
+    "Wait": 20,
     "StrikeLightning": [101.5, 166.0, -290.5],
-    "Unfreeze": [],
     "Show": {
         "Rival2": false,
         "Rival3": true,
         "Statera_Leader1": true,
         "Statera_Leader2": false
     },
+    "Wait": 10,
+    "StrikeLightning": [101.5, 166.0, -290.5],
+    "Wait": 10,
+    "Unfreeze": [],
     "Wait": 20,
     "Objective": ["Return to the Statera Leader", 8],
     "HighlightClickEntity": [
