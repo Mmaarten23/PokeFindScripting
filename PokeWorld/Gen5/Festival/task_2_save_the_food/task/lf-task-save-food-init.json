@@ -1,43 +1,43 @@
 {
-  "Key": "lf_task_save_food_init",
-  "Author": "Mmaarten",
+    "Key": "lf_task_save_food_init",
+    "Author": "Mmaarten",
 
-  "Teleport": [165.5,41.0,-472.5,180, -45],
-  "Set": ["lf_blake_task_correct", 0, true],
-  "Set": ["lf_blake_task_lives", 5, true],
-  "Start": "lf_task_save_food_master",
-  "SetTitle": [
-    "&6&lStarting in:",
-    "&c5"
-  ],
-  "PlaySound": "ui_button_click",
-  "Wait": 1.0,
-  "SetTitle": [
-    "&6&lStarting in:",
-    "&c4"
-  ],
-  "PlaySound": "ui_button_click",
-  "Wait": 1.0,
-  "SetTitle": [
-    "&6&lStarting in:",
-    "&c3"
-  ],
-  "PlaySound": "ui_button_click",
-  "Wait": 1.0,
-  "SetTitle": [
-    "&6&lStarting in:",
-    "&e2"
-  ],
-  "PlaySound": "ui_button_click",
-  "Wait": 1.0,
-  "SetTitle": [
-    "&6&lStarting in:",
-    "&a1"
-  ],
+    "Teleport": [165.5, 41.0, -472.5, 180, -45],
+    "Set": ["lf_blake_task_correct", 0, true],
+    "Set": ["lf_blake_task_lives", 5, true],
+    "Start": "lf_task_save_food_master",
+    "SetTitle": [
+        "&6&lStarting in:",
+        "&c5"
+    ],
+    "PlaySound": "ui_button_click",
+    "Wait": 1.0,
+    "SetTitle": [
+        "&6&lStarting in:",
+        "&c4"
+    ],
+    "PlaySound": "ui_button_click",
+    "Wait": 1.0,
+    "SetTitle": [
+        "&6&lStarting in:",
+        "&c3"
+    ],
+    "PlaySound": "ui_button_click",
+    "Wait": 1.0,
+    "SetTitle": [
+        "&6&lStarting in:",
+        "&e2"
+    ],
+    "PlaySound": "ui_button_click",
+    "Wait": 1.0,
+    "SetTitle": [
+        "&6&lStarting in:",
+        "&a1"
+    ],
 
-  "PlaySound": "ui_button_click",
-  "Wait": 1.0,
-  "PlaySound": "item_trident_thunder",
-  "SetTitle": "&a&lGO!",
-  "Start": "lf_task_save_food_game_loop"
+    "PlaySound": "ui_button_click",
+    "Wait": 1.0,
+    "PlaySound": "item_trident_thunder",
+    "SetTitle": "&a&lGO!",
+    "Start": "lf_task_save_food_game_loop"
 }

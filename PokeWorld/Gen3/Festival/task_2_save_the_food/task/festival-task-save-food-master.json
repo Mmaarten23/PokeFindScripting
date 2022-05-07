@@ -1,206 +1,206 @@
 {
-  "Key": "festival_task_save_food_master",
-  "Author": "Mmaarten",
+    "Key": "festival_task_save_food_master",
+    "Author": "Mmaarten",
 
 
-  "CreateEntity": {
-    "key": "festival_moriarty_helper_1",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
+    "CreateEntity": {
+        "key": "festival_moriarty_helper_1",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
+        },
+        "location": [-1203.0, 58.5, -862.5, 90, 80],
+        "hand": {
+            "material": "apple"
+        },
+        "offhand": {
+            "material": "tnt"
+        }
     },
-    "location": [-1203.0, 58.5, -862.5, 90, 80],
-    "hand": {
-      "material": "apple"
+    "Server": [],
+    "Hide": "festival_moriarty_helper_1",
+
+    "CreateEntity": {
+        "key": "festival_moriarty_helper_2",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
+        },
+        "location": [-1203.0, 52.5, -866.0, 90, 80],
+        "hand": {
+            "material": "apple"
+        },
+        "offhand": {
+            "material": "tnt"
+        }
     },
-    "offhand": {
-      "material": "tnt"
-    }
-  },
-  "Server": [],
-  "Hide": "festival_moriarty_helper_1",
+    "Server": [],
+    "Hide": "festival_moriarty_helper_2",
 
-  "CreateEntity": {
-    "key": "festival_moriarty_helper_2",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
+    "CreateEntity": {
+        "key": "festival_moriarty_helper_3",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
+        },
+        "location": [-1203.0, 48.5, -869.0, 90, 80],
+        "hand": {
+            "material": "apple"
+        },
+        "offhand": {
+            "material": "tnt"
+        }
     },
-    "location": [-1203.0, 52.5, -866.0, 90, 80],
-    "hand": {
-      "material": "apple"
-    },
-    "offhand": {
-      "material": "tnt"
-    }
-  },
-  "Server": [],
-  "Hide": "festival_moriarty_helper_2",
-
-  "CreateEntity": {
-    "key": "festival_moriarty_helper_3",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTc0NDc0OTg4NiwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNmYzMTlmYmU0YmNmYzM1MzNkOGYxZTdkOTY5MjJhMGYyMzljMjU1Y2JhNzA1NTE2MDBjYTk1OTQ1MWU2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "vuPh2CAY5Pkn4E9anGqV6XpENpraqixiad0NfoeU6XSyYHcvgfR7BTAvBlvWfHWhFO+en5r44Ub9HvuYMijuLKjEszZFpoVixNZ4kJHgXpdHjJIp5gHQzGuhRBYorbGTbJOzCVPC2LJujMXYcWi3EzJa0Y6jOJ/gJ/Dl2YOuBIS/oxUHypiGWnsyTgaWyiMmpHzF5OAn3AErVXq03fDEoaZ0uitnl1i5aR4fLSnJy0M7zk0XKid7oqiVMMVFgTFHOAzL1eq+K2XvtyO62srHSuI/EXCb2XotC28z4/9BMKfE2AU+wALEsbCYo5a9bFYNP92s2Y+mdcmj7YkmvYio0YpOCZ8A9zH3THZSk2h3nNZ/ApumbUfb4FMPSFZqWMeZ5CbSK0JO2AHoV9IvvBJf0AuyjtOfFFYfbt917EzPR2iPOaSQCXQmB3NAg/WVBnQl2g7jVt9/IaWRcnkhL016HKiv0L27lUXOEYCINiqvsrQiic+l0n4bcmxa8Tam526M5vqi+3+gQyqaJkf96YxSxVOpFsdDLCwFUVUIj84z24vlB6rAuFoavfN0fDX212bcLNs19v3Oj2ZOpM+pTiCKUlVjn1+f4/W5nBj74bfAUcJgVOopZRgqDmU1HB0sW6sab1YvWEgB1MNzsb3PB1AmtUlpei2skY9SPfu4XJ13slc="
-    },
-    "location": [-1203.0,48.5,-869.0, 90, 80],
-    "hand": {
-      "material": "apple"
-    },
-    "offhand": {
-      "material": "tnt"
-    }
-  },
-  "Server": [],
-  "Hide": "festival_moriarty_helper_3",
+    "Server": [],
+    "Hide": "festival_moriarty_helper_3",
 
 
-  "Skip": "start",
+    "Skip": "start",
 
-  "GlobalRegionExit": [
-    -1209, 35, -874,
-    -1204, 39, -862
-  ],
-  "Skip": "player_leaves",
+    "GlobalRegionExit": [
+        -1209, 35, -874,
+        -1204, 39, -862
+    ],
+    "Skip": "player_leaves",
 
 
-  "Comment": "player_leaves",
-  "SendMessage": "&cYou cannot leave the play area!",
-  "Teleport": [-1207.5, 36.0, -867.5, -90],
-  "Wait": 0.5,
-  "Particle": ["Redstone", -1208.5, 37.5, -861.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -862.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -863.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -864.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -865.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -866.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -867.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -868.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -869.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -870.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -871.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -872.5, 20, 0.01],
-  "Particle": ["Redstone", -1208.5, 37.5, -873.5, 20, 0.01],
+    "Comment": "player_leaves",
+    "SendMessage": "&cYou cannot leave the play area!",
+    "Teleport": [-1207.5, 36.0, -867.5, -90],
+    "Wait": 0.5,
+    "Particle": ["Redstone", -1208.5, 37.5, -861.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -862.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -863.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -864.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -865.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -866.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -867.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -868.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -869.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -870.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -871.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -872.5, 20, 0.01],
+    "Particle": ["Redstone", -1208.5, 37.5, -873.5, 20, 0.01],
 
-  "Particle": ["Redstone", -1207.5, 37.5, -861.5, 20, 0.01],
-  "Particle": ["Redstone", -1206.5, 37.5, -861.5, 20, 0.01],
-  "Particle": ["Redstone", -1205.5, 37.5, -861.5, 20, 0.01],
-  "Particle": ["Redstone", -1204.5, 37.5, -861.5, 20, 0.01],
+    "Particle": ["Redstone", -1207.5, 37.5, -861.5, 20, 0.01],
+    "Particle": ["Redstone", -1206.5, 37.5, -861.5, 20, 0.01],
+    "Particle": ["Redstone", -1205.5, 37.5, -861.5, 20, 0.01],
+    "Particle": ["Redstone", -1204.5, 37.5, -861.5, 20, 0.01],
 
-  "Particle": ["Redstone", -1203.5, 37.5, -861.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -862.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -863.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -864.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -865.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -866.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -867.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -868.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -869.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -870.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -871.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -872.5, 20, 0.01],
-  "Particle": ["Redstone", -1203.5, 37.5, -873.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -861.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -862.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -863.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -864.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -865.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -866.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -867.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -868.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -869.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -870.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -871.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -872.5, 20, 0.01],
+    "Particle": ["Redstone", -1203.5, 37.5, -873.5, 20, 0.01],
 
-  "Particle": ["Redstone", -1207.5, 37.5, -873.5, 20, 0.01],
-  "Particle": ["Redstone", -1206.5, 37.5, -873.5, 20, 0.01],
-  "Particle": ["Redstone", -1205.5, 37.5, -873.5, 20, 0.01],
-  "Particle": ["Redstone", -1204.5, 37.5, -873.5, 20, 0.01],
+    "Particle": ["Redstone", -1207.5, 37.5, -873.5, 20, 0.01],
+    "Particle": ["Redstone", -1206.5, 37.5, -873.5, 20, 0.01],
+    "Particle": ["Redstone", -1205.5, 37.5, -873.5, 20, 0.01],
+    "Particle": ["Redstone", -1204.5, 37.5, -873.5, 20, 0.01],
 
-  "Comment": "start",
-  "SetBlocks": [
-    -1204, 35, -863,
-    -1204, 35, -871,
-    "lava"
-  ],
-  "Show": "festival_moriarty_helper_1",
-  "Show": "festival_moriarty_helper_2",
-  "Show": "festival_moriarty_helper_3",
-  "SendMessage": "[DEBUG]: TODO -> Commands will be disabled from this point!",
-  "Comment": "win-lose-loop-start",
-  "SetScoreboard": [
-    "&6&lSave the food!",
-    "",
-    "&7Collect the cake decorations by &bLeft clicking&7 them and avoid the nasty bombs!",
-    "",
-    "Decorations: &a[festival_blake_task_correct] &7/ &a30",
-    "Lives         : &c[festival_blake_task_lives] &7/ &c5"
-  ],
-  "If": [],
-  "Equals": ["festival_blake_task_correct", ">=", 30],
-  "Skip": "win",
-  "Dummy": [],
-  "If": [],
-  "Equals": ["festival_blake_task_lives", "<=", 0],
-  "Skip": "lose",
-  "Dummy": [],
-  "Wait": 5,
-  "Skip": "win-lose-loop-start",
+    "Comment": "start",
+    "SetBlocks": [
+        -1204, 35, -863,
+        -1204, 35, -871,
+        "lava"
+    ],
+    "Show": "festival_moriarty_helper_1",
+    "Show": "festival_moriarty_helper_2",
+    "Show": "festival_moriarty_helper_3",
+    "SendMessage": "[DEBUG]: TODO -> Commands will be disabled from this point!",
+    "Comment": "win-lose-loop-start",
+    "SetScoreboard": [
+        "&6&lSave the food!",
+        "",
+        "&7Collect the cake decorations by &bLeft clicking&7 them and avoid the nasty bombs!",
+        "",
+        "Decorations: &a[festival_blake_task_correct] &7/ &a30",
+        "Lives         : &c[festival_blake_task_lives] &7/ &c5"
+    ],
+    "If": [],
+    "Equals": ["festival_blake_task_correct", ">=", 30],
+    "Skip": "win",
+    "Dummy": [],
+    "If": [],
+    "Equals": ["festival_blake_task_lives", "<=", 0],
+    "Skip": "lose",
+    "Dummy": [],
+    "Wait": 5,
+    "Skip": "win-lose-loop-start",
 
-  "Comment": "win",
-  "SendMessage": "[DEBUG]: win",
-  "Complete": [],
-  "Leave": "festival_task_save_food_game_loop",
-  "Leave": "festival_task_save_food_dummy_1",
-  "Leave": "festival_task_save_food_dummy_2",
-  "Leave": "festival_task_save_food_dummy_3",
-  "Leave": "festival_task_save_food_dummy_4",
-  "Leave": "festival_task_save_food_dummy_5",
-  "Leave": "festival_task_save_food_dummy_6",
-  "Leave": "festival_task_save_food_dummy_7",
-  "Leave": "festival_task_save_food_dummy_8",
-  "Leave": "festival_task_save_food_dummy_9",
-  "Leave": "festival_task_save_food_dummy_10",
-  "Dialog": [
-    {
-      "&8&lMoriarty": "Alright, you might be a little better at catching than I thought.",
-      "&8&lMoriarty": "But don't you think the fall festival is ever going to happen!"
-    },
-    90
-  ],
-  "Skip": "end",
+    "Comment": "win",
+    "SendMessage": "[DEBUG]: win",
+    "Complete": [],
+    "Leave": "festival_task_save_food_game_loop",
+    "Leave": "festival_task_save_food_dummy_1",
+    "Leave": "festival_task_save_food_dummy_2",
+    "Leave": "festival_task_save_food_dummy_3",
+    "Leave": "festival_task_save_food_dummy_4",
+    "Leave": "festival_task_save_food_dummy_5",
+    "Leave": "festival_task_save_food_dummy_6",
+    "Leave": "festival_task_save_food_dummy_7",
+    "Leave": "festival_task_save_food_dummy_8",
+    "Leave": "festival_task_save_food_dummy_9",
+    "Leave": "festival_task_save_food_dummy_10",
+    "Dialog": [
+        {
+            "&8&lMoriarty": "Alright, you might be a little better at catching than I thought.",
+            "&8&lMoriarty": "But don't you think the fall festival is ever going to happen!"
+        },
+        90
+    ],
+    "Skip": "end",
 
-  "Comment": "lose",
-  "SendMessage": "[DEBUG]: lose",
-  "Leave": "festival_task_save_food_game_loop",
-  "Leave": "festival_task_save_food_dummy_1",
-  "Leave": "festival_task_save_food_dummy_2",
-  "Leave": "festival_task_save_food_dummy_3",
-  "Leave": "festival_task_save_food_dummy_4",
-  "Leave": "festival_task_save_food_dummy_5",
-  "Leave": "festival_task_save_food_dummy_6",
-  "Leave": "festival_task_save_food_dummy_7",
-  "Leave": "festival_task_save_food_dummy_8",
-  "Leave": "festival_task_save_food_dummy_9",
-  "Leave": "festival_task_save_food_dummy_10",
-  "RandomDialog": [
-    {
-      "&8&lMoriarty": "I am too strong for you muhahahahaha!"
-    },
-    {
-      "&8&lMoriarty": "Nice try but &ono&r!"
-    },
-    {
-      "&8&lMoriarty": "You thought this was kindergarten huh?"
-    },
-    {
-      "&8&lMoriarty": "And I didn't even have my morning coffee yet!"
-    },
-    {
-      "&8&lMoriarty": "The fall festival will fail! Wohoooo!!!"
-    },
-    {
-      "&8&lMoriarty": "Some would accuse me of cheating but no...",
-      "&8&lMoriarty": "You are just bad!"
-    }
-  ],
-  "Skip": "end",
+    "Comment": "lose",
+    "SendMessage": "[DEBUG]: lose",
+    "Leave": "festival_task_save_food_game_loop",
+    "Leave": "festival_task_save_food_dummy_1",
+    "Leave": "festival_task_save_food_dummy_2",
+    "Leave": "festival_task_save_food_dummy_3",
+    "Leave": "festival_task_save_food_dummy_4",
+    "Leave": "festival_task_save_food_dummy_5",
+    "Leave": "festival_task_save_food_dummy_6",
+    "Leave": "festival_task_save_food_dummy_7",
+    "Leave": "festival_task_save_food_dummy_8",
+    "Leave": "festival_task_save_food_dummy_9",
+    "Leave": "festival_task_save_food_dummy_10",
+    "RandomDialog": [
+        {
+            "&8&lMoriarty": "I am too strong for you muhahahahaha!"
+        },
+        {
+            "&8&lMoriarty": "Nice try but &ono&r!"
+        },
+        {
+            "&8&lMoriarty": "You thought this was kindergarten huh?"
+        },
+        {
+            "&8&lMoriarty": "And I didn't even have my morning coffee yet!"
+        },
+        {
+            "&8&lMoriarty": "The fall festival will fail! Wohoooo!!!"
+        },
+        {
+            "&8&lMoriarty": "Some would accuse me of cheating but no...",
+            "&8&lMoriarty": "You are just bad!"
+        }
+    ],
+    "Skip": "end",
 
-  "Comment": "end",
-  "Hide": "festival_moriarty_helper_1",
-  "Hide": "festival_moriarty_helper_2",
-  "Hide":"festival_moriarty_helper_3"
-  "Progress": "festival_task_save_food_moriarty"
+    "Comment": "end",
+    "Hide": "festival_moriarty_helper_1",
+    "Hide": "festival_moriarty_helper_2",
+    "Hide": "festival_moriarty_helper_3"
+    "Progress": "festival_task_save_food_moriarty"
 }

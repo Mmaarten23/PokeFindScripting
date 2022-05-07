@@ -2,7 +2,7 @@
     "Key": "fifth_song",
     "Author": "Mmaarten",
     "PlayerJoin": [],
-    "SetSetting": [ "music", false ],
+    "SetSetting": ["music", false],
     "Wait": 10,
     "PlaySound": ["block_note_block_harp", 0.707107, 0.78],
     "PlaySound": ["block_note_block_flute", 0.707107, 0.85],

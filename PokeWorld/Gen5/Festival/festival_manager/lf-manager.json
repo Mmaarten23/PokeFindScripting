@@ -1,121 +1,121 @@
 {
-  "Key": "lf_manager",
-  "Author": "Mmaarten",
+    "Key": "lf_manager",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.manager.speech", 90],
+    "Store": ["lf.manager.speech", 90],
 
-  "CreateEntity": {
-    "key": "lf_manager",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODc5NTM5NjE0NDAsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNTMxODBmYjJkZjZjMmYzZDU1ZWQ5NjgzYjI2YWQ2YTM5YTkxYjI5ZmYyZjYyYjU0MzAxYmZjOWVmNmNiOWIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
-      "signature": "vxhqXDtT6PIXR9oVtjfK5prtd9jgJZJaNS8Tc2ufPIxgtWP525md5+fQ3UdzmsKBcY9oaOeHf/y4/o7LvvzLA/T8/agx5sej5oh/CEYiSFaQu8sRXziPuRNmwan27SgNYBIiM4n763sb2L0tAoO2+fK7Kr5GucbiLR7Irv6Vi2lUsoD5gDGsOgZwhkd4sZbAKYuDBKMegmob+nTm+tvn24UGgayD6VfNe6vrH8MrDwUDGTRRUdZFTRP4zAb3kJhenGOOb+CSAZpePCMNvwpXqcsX/VRCOHFHFUaL3qZpa2r550WqiVCpqnDYLiN2Vul6Mp8S6TJqhHRsUuOzwcFeDm8geEHCK4Myx1c3mUOruzaOumHS/RZD2FHCkNMqtBEbNASueSRpOQk3s7549aRB1Y7MvNqT36MiZwo+Qah+uHb4asR1zPeCAYPIUoDMIlpY0yrRPQsg5iUU8Yw2hlPam4ejL3rSVdnITfUUZl9MAXOSihOU1iLa7tXlxQMB3xL3eyGWjCNM8L1mFvW63JxWBKgbyi2G/9n7+CFKWRFEubbypsXWb88AiAnXtb/2n6Cr8KWOAfUZNMEL9XR8zhKBOhjyYZG4rnfsmEt+MnwCpVsOJ2bdiTE6fKo354ph1beok9jrb9f1LRwgSeWfISNsMQBuWRdZ93XWEKgCJAQnRWs="
+    "CreateEntity": {
+        "key": "lf_manager",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODc5NTM5NjE0NDAsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNTMxODBmYjJkZjZjMmYzZDU1ZWQ5NjgzYjI2YWQ2YTM5YTkxYjI5ZmYyZjYyYjU0MzAxYmZjOWVmNmNiOWIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
+            "signature": "vxhqXDtT6PIXR9oVtjfK5prtd9jgJZJaNS8Tc2ufPIxgtWP525md5+fQ3UdzmsKBcY9oaOeHf/y4/o7LvvzLA/T8/agx5sej5oh/CEYiSFaQu8sRXziPuRNmwan27SgNYBIiM4n763sb2L0tAoO2+fK7Kr5GucbiLR7Irv6Vi2lUsoD5gDGsOgZwhkd4sZbAKYuDBKMegmob+nTm+tvn24UGgayD6VfNe6vrH8MrDwUDGTRRUdZFTRP4zAb3kJhenGOOb+CSAZpePCMNvwpXqcsX/VRCOHFHFUaL3qZpa2r550WqiVCpqnDYLiN2Vul6Mp8S6TJqhHRsUuOzwcFeDm8geEHCK4Myx1c3mUOruzaOumHS/RZD2FHCkNMqtBEbNASueSRpOQk3s7549aRB1Y7MvNqT36MiZwo+Qah+uHb4asR1zPeCAYPIUoDMIlpY0yrRPQsg5iUU8Yw2hlPam4ejL3rSVdnITfUUZl9MAXOSihOU1iLa7tXlxQMB3xL3eyGWjCNM8L1mFvW63JxWBKgbyi2G/9n7+CFKWRFEubbypsXWb88AiAnXtb/2n6Cr8KWOAfUZNMEL9XR8zhKBOhjyYZG4rnfsmEt+MnwCpVsOJ2bdiTE6fKo354ph1beok9jrb9f1LRwgSeWfISNsMQBuWRdZ93XWEKgCJAQnRWs="
+        },
+        "location": [563.5, 49.0, 573.5, -90],
+        "name": [
+            "&cF&6e&es&at&9i&bv&5a&cl &4&lManager",
+            "&7&oQuest giver"
+        ],
+        "hand": {
+            "material": "writable_book"
+        }
     },
-    "location": [563.5, 49.0, 573.5, -90],
-    "name": [
-      "&cF&6e&es&at&9i&bv&5a&cl &4&lManager",
-      "&7&oQuest giver"
+
+    "HighlightClickEntity": "lf_manager",
+
+    "If": [],
+    "NotCompleted": "lf_manager_intro",
+    "Skip": "manager.intro",
+    "Dummy": [],
+
+    "If": [],
+    "NotCompleted": "lf_becky_end",
+    "Skip": "manager.task_1.wait",
+    "Dummy": [],
+    "If": [],
+    "NotCompleted": "lf_manager_task_1_complete",
+    "Skip": "manager.task_1.complete",
+    "Dummy": [],
+
+    "If": [],
+    "NotCompleted": "lf_blake_end",
+    "Skip": "manager.task_2.wait",
+    "Dummy": [],
+    "If": [],
+    "NotCompleted": "lf_manager_task_2_complete",
+    "Skip": "manager.task_2.complete",
+    "Dummy": [],
+
+    "If": [],
+    "NotCompleted": "lf_regi_end",
+    "Skip": "manager.task_3.wait",
+    "Dummy": [],
+    "If": [],
+    "NotCompleted": "lf_manager_task_3_complete",
+    "Skip": "manager.task_3.complete",
+    "Dummy": [],
+
+    "SendMessage": "[DEBUG]: Looks like you reached the end of the quest *for now*!",
+    "Leave": [],
+
+
+    "Comment": "manager.intro",
+    "If": [],
+    "NotIn": "lf_util_objective_handler",
+    "Start": "lf_util_objective_handler",
+    "Dummy": [],
+    "Wait": 1,
+    "Start": "lf_manager_intro",
+    "Hold": [],
+    "Leave": [],
+
+
+    "Comment": "manager.task_1.wait",
+    "Start": "lf_manager_wait",
+    "Hold": [],
+    "Dialog": [
+        {
+            "&4&lManager": "You wanted to help so go talk to &bBecky&r in &eWatterson City&r."
+        },
+        "lf.manager.speech"
     ],
-    "hand": {
-      "material": "writable_book"
-    }
-  },
+    "Leave": [],
 
-  "HighlightClickEntity": "lf_manager",
+    "Comment": "manager.task_1.complete",
+    "Start": "lf_manager_task_1_complete",
+    "Hold": [],
+    "Leave": [],
 
-  "If": [],
-  "NotCompleted": "lf_manager_intro",
-  "Skip": "manager.intro",
-  "Dummy": [],
+    "Comment": "manager.task_2.wait",
+    "Start": "lf_manager_wait",
+    "Hold": [],
+    "Dialog": [
+        {
+            "&4&lManager": "I told you to ask &6Blake&r in &bNorthrun&r if he needs help with the food."
+        },
+        "lf.manager.speech"
+    ],
+    "Leave": [],
 
-  "If": [],
-  "NotCompleted": "lf_becky_end",
-  "Skip": "manager.task_1.wait",
-  "Dummy": [],
-  "If": [],
-  "NotCompleted": "lf_manager_task_1_complete",
-  "Skip": "manager.task_1.complete",
-  "Dummy": [],
-
-  "If": [],
-  "NotCompleted": "lf_blake_end",
-  "Skip": "manager.task_2.wait",
-  "Dummy": [],
-  "If": [],
-  "NotCompleted": "lf_manager_task_2_complete",
-  "Skip": "manager.task_2.complete",
-  "Dummy": [],
-
-  "If": [],
-  "NotCompleted": "lf_regi_end",
-  "Skip": "manager.task_3.wait",
-  "Dummy": [],
-  "If": [],
-  "NotCompleted": "lf_manager_task_3_complete",
-  "Skip": "manager.task_3.complete",
-  "Dummy": [],
-
-  "SendMessage": "[DEBUG]: Looks like you reached the end of the quest *for now*!",
-  "Leave": [],
+    "Comment": "manager.task_2.complete",
+    "Start": "lf_manager_task_2_complete",
+    "Hold": [],
+    "Leave": [],
 
 
-  "Comment": "manager.intro",
-  "If": [],
-  "NotIn": "lf_util_objective_handler",
-  "Start": "lf_util_objective_handler",
-  "Dummy": [],
-  "Wait": 1,
-  "Start": "lf_manager_intro",
-  "Hold": [],
-  "Leave": [],
+    "Comment": "manager.task_3.wait",
+    "Start": "lf_manager_wait",
+    "Hold": [],
+    "Dialog": [
+        {
+            "&4&lManager": "Go talk to &aRegi&r in &6Sandgate&r if you want to help."
+        },
+        "lf.manager.speech"
+    ],
+    "Leave": [],
 
-
-  "Comment": "manager.task_1.wait",
-  "Start": "lf_manager_wait",
-  "Hold": [],
-  "Dialog": [
-    {
-      "&4&lManager": "You wanted to help so go talk to &bBecky&r in &eWatterson City&r."
-    },
-    "lf.manager.speech"
-  ],
-  "Leave": [],
-
-  "Comment": "manager.task_1.complete",
-  "Start": "lf_manager_task_1_complete",
-  "Hold": [],
-  "Leave": [],
-
-  "Comment": "manager.task_2.wait",
-  "Start": "lf_manager_wait",
-  "Hold": [],
-  "Dialog": [
-    {
-      "&4&lManager": "I told you to ask &6Blake&r in &bNorthrun&r if he needs help with the food."
-    },
-    "lf.manager.speech"
-  ],
-  "Leave": [],
-
-  "Comment": "manager.task_2.complete",
-  "Start": "lf_manager_task_2_complete",
-  "Hold": [],
-  "Leave": [],
-
-
-  "Comment": "manager.task_3.wait",
-  "Start": "lf_manager_wait",
-  "Hold": [],
-  "Dialog": [
-    {
-      "&4&lManager": "Go talk to &aRegi&r in &6Sandgate&r if you want to help."
-    },
-    "lf.manager.speech"
-  ],
-  "Leave": [],
-
-  "Comment": "manager.task_3.complete",
-  "Start": "lf_manager_task_3_complete",
-  "Hold": [],
-  "Leave": []
+    "Comment": "manager.task_3.complete",
+    "Start": "lf_manager_task_3_complete",
+    "Hold": [],
+    "Leave": []
 }

@@ -1,23 +1,23 @@
 {
-  "Key": "lf_manager_task_2_complete",
-  "Author": "Mmaarten",
+    "Key": "lf_manager_task_2_complete",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.manager.speech", 90],
-  "Start": "lf_util_disablecommands",
-  "Dialog": [
-    {
-      "&4&lManager": "Ah, you!",
-      "[PLAYER]": "Heya, manager! Good news! so I went to blake, and apparently there was this guy and...",
-      "&4&lManager": "yes yes, very important. But no time for stories!",
-      "&4&lManager": "Now that you are here, I need you to go. Go to &6Sandgate&r. ",
-      "&4&lManager": "&aRegi&r is moving the last of his stuff over and can probably use a hand.",
-      "[PLAYER]": "eeeuh, sure. I will meet him there... I guess?",
-      "&4&lManager": "Hurry! Time is not on our side!"
-    },
-    "lf.manager.speech"
-  ],
-  "Leave": "lf_util_disablecommands",
-  "Complete": [],
-  "Progress": "lf_manager",
-  "Progress": "lf_util_objective_handler"
+    "Store": ["lf.manager.speech", 90],
+    "Start": "lf_util_disablecommands",
+    "Dialog": [
+        {
+            "&4&lManager": "Ah, you!",
+            "[PLAYER]": "Heya, manager! Good news! so I went to blake, and apparently there was this guy and...",
+            "&4&lManager": "yes yes, very important. But no time for stories!",
+            "&4&lManager": "Now that you are here, I need you to go. Go to &6Sandgate&r. ",
+            "&4&lManager": "&aRegi&r is moving the last of his stuff over and can probably use a hand.",
+            "[PLAYER]": "eeeuh, sure. I will meet him there... I guess?",
+            "&4&lManager": "Hurry! Time is not on our side!"
+        },
+        "lf.manager.speech"
+    ],
+    "Leave": "lf_util_disablecommands",
+    "Complete": [],
+    "Progress": "lf_manager",
+    "Progress": "lf_util_objective_handler"
 }

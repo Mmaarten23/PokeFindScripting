@@ -3,9 +3,17 @@
     "CreatePoiCategory": ["aether_village", "&f&lAether Village", "beacon"],
     "CreatePoiCategory": ["amber_city", "&4&lAmber City", "lava_bucket"],
     "CreatePoiCategory": ["amethyst_town", "&0&lAmethyst Town", "amethyst_shard"],
-     ----- ^ NEW ^ -----,
+    -----
+    ^
+    NEW
+    ^
+    -----,
 
-     ----- v MODIFIED v -----,
+    -----
+    v
+    MODIFIED
+    v
+    -----,
     "SetServerPoi": [-463.543, 98.620, 550.303, "Pokécenter", "finderia_town"],
     "SetServerPoi": [-444.531, 86.620, 493.495, "Professor Hemlock", "finderia_town"],
     "SetServerPoi": [-433.426, 83.620, 670.496, "Pokémart", "finderia_town"],
@@ -29,9 +37,17 @@
     "SetServerPoi": [1397.300, 84.620, -186.486, "Pokémart", "amethyst_town"],
     "SetServerPoi": [1355.692, 85.620, -185.526, "Player Gym", "amethyst_town"],
     "SetServerPoi": [1375.394, 77.620, -270.301, "Region Map", "amethyst_town"],
-     ----- ^ MODIFIED ^ -----,
+    -----
+    ^
+    MODIFIED
+    ^
+    -----,
 
-     ----- v OLD v -----,
+    -----
+    v
+    OLD
+    v
+    -----,
     "SetServerPoi": [823.045, 83.620, 288.552, "Region Map", "&e&lAmp_City"],
     "SetServerPoi": [872.700, 84.683, 299.336, "Pokécenter", "&e&lAmp_City"],
     "SetServerPoi": [864.250, 85.620, 390.406, "Player Gym", "&e&lAmp_City"],

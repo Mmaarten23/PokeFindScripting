@@ -1,9 +1,9 @@
 {
     "Key": "gen5_intro_starter_contain",
 
-    "Skip":  "startStarter",
+    "Skip": "startStarter",
     "Comment": "Empty trigger stage.",
-    "RegionEntry": [0,0,0,0,0,0],
+    "RegionEntry": [0, 0, 0, 0, 0, 0],
     "Comment": "startStarter",
     "RegionExit": [
         625, 49, 410,

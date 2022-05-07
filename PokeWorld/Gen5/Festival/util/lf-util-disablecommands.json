@@ -1,9 +1,9 @@
 {
-  "Key": "lf_util_disablecommands",
-  "Author": "Mmaarten",
+    "Key": "lf_util_disablecommands",
+    "Author": "Mmaarten",
 
-  "SendMessage": "&7&o! Chat disabled during festival quests !",
-  "DisableChat": [],
-  "DisableAllCommands": "removequest",
-  "Hold": []
+    "SendMessage": "&7&o! Chat disabled during festival quests !",
+    "DisableChat": [],
+    "DisableAllCommands": "removequest",
+    "Hold": []
 }

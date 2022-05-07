@@ -1,108 +1,108 @@
 {
-  "Key": "lf_blake",
-  "Author": "Mmaarten",
+    "Key": "lf_blake",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.blake.speech", 90],
+    "Store": ["lf.blake.speech", 90],
 
-  "CreateEntity": {
-    "key": "lf_blake_sleeping",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
-      "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+    "CreateEntity": {
+        "key": "lf_blake_sleeping",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
+            "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+        },
+        "location": [196.0, 63.7, -673.8, 88],
+        "name": [
+            "&6&lBlake",
+            "&7&oFestival assistant"
+        ],
+        "sleeping": true,
+        "look": false
     },
-    "location": [196.0,63.7,-673.8, 88],
-    "name": [
-      "&6&lBlake",
-      "&7&oFestival assistant"
+    "Server": [],
+    "Hide": "lf_blake_sleeping",
+
+    "CreateEntity": {
+        "key": "lf_blake_clickable",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
+            "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+        },
+        "location": [189.6, 63.1, -675.9, 24, 33],
+        "name": [
+            "&6&lBlake",
+            "&7&oFestival assistant"
+        ],
+        "look": true
+    },
+    "Server": [],
+    "Hide": "lf_blake_clickable",
+
+    "ChunkLoad": [],
+    "Leave": "lf_blake_cake",
+    "If": [],
+    "NotCompleted": "lf_manager_task_1_complete",
+    "Leave": [],
+    "Dummy": [],
+
+    "If": [],
+    "NotCompleted": "lf_blake_intro",
+    "Skip": "blake.intro",
+    "Dummy": [],
+
+    "If": [],
+    "Completed": "lf_blake_end",
+    "Leave": [],
+
+    "Show": "lf_blake_clickable",
+    "HighlightClickEntity": "lf_blake_clickable",
+    "If": [],
+    "NotCompleted": "lf_task_save_food_master",
+    "Skip": "blake.in_task",
+    "Dummy": [],
+    "If": [],
+    "NotCompleted": "lf_blake_end",
+    "Skip": "blake.end",
+    "SendMessage": "&4Something went wrong. Please contact a member of staff!",
+    "Leave": [],
+
+    "Comment": "blake.intro",
+    "If": [],
+    "NotIn": "lf_blake_cake",
+    "Start": "lf_blake_cake",
+    "Dummy": [],
+    "If": [],
+    "In": "lf_blake_intro",
+    "Skip": "external_wait",
+    "Show": "lf_blake_sleeping",
+    "HighlightClickEntity": "lf_blake_sleeping",
+    "Start": "lf_blake_intro",
+    "Hide": "lf_blake_sleeping",
+    "Skip": "external_wait",
+
+    "Comment": "blake.in_task",
+    "If": [],
+    "NotIn": "lf_blake_cake",
+    "Start": "lf_blake_cake",
+    "Dummy": [],
+    "Dialog": [
+        {
+            "&6&lBlake": "It would be amazing if you could beat Moriarty.",
+            "&6&lBlake": "I have so much work with the rest of the treats!"
+        },
+        "lf.blake.speech"
     ],
-    "sleeping": true,
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_blake_sleeping",
 
-  "CreateEntity": {
-    "key": "lf_blake_clickable",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
-      "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
-    },
-    "location": [189.6,63.1,-675.9, 24, 33],
-    "name": [
-      "&6&lBlake",
-      "&7&oFestival assistant"
-    ],
-    "look": true
-  },
-  "Server": [],
-  "Hide": "lf_blake_clickable",
+    "Comment": "blake.end",
+    "If": [],
+    "NotIn": "lf_blake_cake",
+    "Start": "lf_blake_cake",
+    "Dummy": [],
+    "Start": "lf_blake_end",
+    "Skip": "external_wait",
 
-  "ChunkLoad": [],
-  "Leave": "lf_blake_cake",
-  "If": [],
-  "NotCompleted": "lf_manager_task_1_complete",
-  "Leave": [],
-  "Dummy": [],
-
-  "If": [],
-  "NotCompleted": "lf_blake_intro",
-  "Skip": "blake.intro",
-  "Dummy": [],
-
-  "If": [],
-  "Completed": "lf_blake_end",
-  "Leave": [],
-
-  "Show": "lf_blake_clickable",
-  "HighlightClickEntity": "lf_blake_clickable",
-  "If": [],
-  "NotCompleted": "lf_task_save_food_master",
-  "Skip": "blake.in_task",
-  "Dummy": [],
-  "If": [],
-  "NotCompleted": "lf_blake_end",
-  "Skip": "blake.end",
-  "SendMessage": "&4Something went wrong. Please contact a member of staff!",
-  "Leave": [],
-
-  "Comment": "blake.intro",
-  "If": [],
-  "NotIn": "lf_blake_cake",
-  "Start": "lf_blake_cake",
-  "Dummy": [],
-  "If": [],
-  "In": "lf_blake_intro",
-  "Skip": "external_wait",
-  "Show": "lf_blake_sleeping",
-  "HighlightClickEntity": "lf_blake_sleeping",
-  "Start": "lf_blake_intro",
-  "Hide": "lf_blake_sleeping",
-  "Skip": "external_wait",
-
-  "Comment": "blake.in_task",
-  "If": [],
-  "NotIn": "lf_blake_cake",
-  "Start": "lf_blake_cake",
-  "Dummy": [],
-  "Dialog": [
-    {
-      "&6&lBlake": "It would be amazing if you could beat Moriarty.",
-      "&6&lBlake": "I have so much work with the rest of the treats!"
-    },
-    "lf.blake.speech"
-  ],
-
-  "Comment": "blake.end",
-  "If": [],
-  "NotIn": "lf_blake_cake",
-  "Start": "lf_blake_cake",
-  "Dummy": [],
-  "Start": "lf_blake_end",
-  "Skip": "external_wait",
-
-  "Comment": "external_wait",
-  "Hold": [],
-  "Start": "lf_blake"
+    "Comment": "external_wait",
+    "Hold": [],
+    "Start": "lf_blake"
 }

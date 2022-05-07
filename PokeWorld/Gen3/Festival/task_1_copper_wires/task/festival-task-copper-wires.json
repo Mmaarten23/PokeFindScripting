@@ -1,234 +1,234 @@
 {
-  "Key": "festival_task_copper_wires",
-  "Author": "Mmaarten",
-  "CreateEntity": {
-    "key": "s1",
-    "entity": "SLIME",
-    "location": [-303.5, 32.0, -80.5],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "Key": "festival_task_copper_wires",
+    "Author": "Mmaarten",
+    "CreateEntity": {
+        "key": "s1",
+        "entity": "SLIME",
+        "location": [-303.5, 32.0, -80.5],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s2",
-    "entity": "SLIME",
-    "location": [-226.7, 42.0, -129.6],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "CreateEntity": {
+        "key": "s2",
+        "entity": "SLIME",
+        "location": [-226.7, 42.0, -129.6],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s3",
-    "entity": "SLIME",
-    "location": [-282.7, 30.0, -190.5],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "CreateEntity": {
+        "key": "s3",
+        "entity": "SLIME",
+        "location": [-282.7, 30.0, -190.5],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s4",
-    "entity": "SLIME",
-    "location": [-193.6, 33.0, -178.6],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "CreateEntity": {
+        "key": "s4",
+        "entity": "SLIME",
+        "location": [-193.6, 33.0, -178.6],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s5",
-    "entity": "SLIME",
-    "location": [-272.5, 68.0, -129.7],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "CreateEntity": {
+        "key": "s5",
+        "entity": "SLIME",
+        "location": [-272.5, 68.0, -129.7],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s6",
-    "entity": "SLIME",
-    "location": [-166.7, 38.0, -89.5],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "CreateEntity": {
+        "key": "s6",
+        "entity": "SLIME",
+        "location": [-166.7, 38.0, -89.5],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s7",
-    "entity": "SLIME",
-    "location": [-264.0, 31.0, -68.6],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "CreateEntity": {
+        "key": "s7",
+        "entity": "SLIME",
+        "location": [-264.0, 31.0, -68.6],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s8",
-    "entity": "SLIME",
-    "location": [-206.3, 46.0, -92.4],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "CreateEntity": {
+        "key": "s8",
+        "entity": "SLIME",
+        "location": [-206.3, 46.0, -92.4],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s9",
-    "entity": "SLIME",
-    "location": [-302.5, 47.0, -157.4],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
+    "CreateEntity": {
+        "key": "s9",
+        "entity": "SLIME",
+        "location": [-302.5, 47.0, -157.4],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
 
-  "CreateEntity": {
-    "key": "s10",
-    "entity": "SLIME",
-    "location": [-274.3, 46.0, -161.3],
-    "glow": true,
-    "visible": false,
-    "look": false,
-    "size": 0
-  },
-  "Server": [],
-  "Hide": ["s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10"],
+    "CreateEntity": {
+        "key": "s10",
+        "entity": "SLIME",
+        "location": [-274.3, 46.0, -161.3],
+        "glow": true,
+        "visible": false,
+        "look": false,
+        "size": 0
+    },
+    "Server": [],
+    "Hide": ["s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10"],
 
-  "InRegion": [
-    0, 0, 0,
-    0, 0, 0
-  ],
-  "Comment": "script_entry_point",
-  "Objective": ["Collect 10 copper wires in Voltage Park", "complete"],
-  "Show": "s1",
-  "PickupItem": [
-    -303.5, 32.0, -80.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s1",
-  "SendMessage": "&7+1 Copper wire scrap. (1/10)",
+    "InRegion": [
+        0, 0, 0,
+        0, 0, 0
+    ],
+    "Comment": "script_entry_point",
+    "Objective": ["Collect 10 copper wires in Voltage Park", "complete"],
+    "Show": "s1",
+    "PickupItem": [
+        -303.5, 32.0, -80.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s1",
+    "SendMessage": "&7+1 Copper wire scrap. (1/10)",
 
-  "Show": "s2",
-  "PickupItem": [
-    -226.7, 42.0, -129.6,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s2",
-  "SendMessage": "&7+1 Copper wire scrap. (2/10)",
+    "Show": "s2",
+    "PickupItem": [
+        -226.7, 42.0, -129.6,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s2",
+    "SendMessage": "&7+1 Copper wire scrap. (2/10)",
 
-  "Show": "s3",
-  "PickupItem": [
-    -282.7, 30.0, -190.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s3",
-  "SendMessage": "&7+1 Copper wire scrap. (3/10)",
+    "Show": "s3",
+    "PickupItem": [
+        -282.7, 30.0, -190.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s3",
+    "SendMessage": "&7+1 Copper wire scrap. (3/10)",
 
-  "Show": "s4",
-  "PickupItem": [
-    -193.6, 33.0, -178.6,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s4",
-  "SendMessage": "&7+1 Copper wire scrap. (4/10)",
+    "Show": "s4",
+    "PickupItem": [
+        -193.6, 33.0, -178.6,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s4",
+    "SendMessage": "&7+1 Copper wire scrap. (4/10)",
 
-  "Show": "s5",
-  "PickupItem": [
-    -272.5, 68.0, -129.7,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s5",
-  "SendMessage": "&7+1 Copper wire scrap. (5/10)",
+    "Show": "s5",
+    "PickupItem": [
+        -272.5, 68.0, -129.7,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s5",
+    "SendMessage": "&7+1 Copper wire scrap. (5/10)",
 
-  "Show": "s6",
-  "PickupItem": [
-    -166.7, 38.0, -89.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s6",
-  "SendMessage": "&7+1 Copper wire scrap. (6/10)",
+    "Show": "s6",
+    "PickupItem": [
+        -166.7, 38.0, -89.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s6",
+    "SendMessage": "&7+1 Copper wire scrap. (6/10)",
 
-  "Show": "s7",
-  "PickupItem": [
-    -264.0, 31.0, -68.6,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s7",
-  "SendMessage": "&7+1 Copper wire scrap. (7/10)",
+    "Show": "s7",
+    "PickupItem": [
+        -264.0, 31.0, -68.6,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s7",
+    "SendMessage": "&7+1 Copper wire scrap. (7/10)",
 
-  "Show": "s8",
-  "PickupItem": [
-    -206.3, 46.0, -92.4,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s8",
-  "SendMessage": "&7+1 Copper wire scrap. (8/10)",
+    "Show": "s8",
+    "PickupItem": [
+        -206.3, 46.0, -92.4,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s8",
+    "SendMessage": "&7+1 Copper wire scrap. (8/10)",
 
-  "Show": "s9",
-  "PickupItem": [
-    -302.5, 47.0, -157.4,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s9",
-  "SendMessage": "&7+1 Copper wire scrap. (9/10)",
+    "Show": "s9",
+    "PickupItem": [
+        -302.5, 47.0, -157.4,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s9",
+    "SendMessage": "&7+1 Copper wire scrap. (9/10)",
 
-  "Show": "s10",
-  "PickupItem": [
-    -274.3, 46.0, -161.3,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "Hide": "s10",
-  "SendMessage": "&7+1 Copper wire scrap. (10/10)",
-  "Comment": "complete",
-  "Objective": "Bring the scrap pieces to becky",
-  "Complete": []
+    "Show": "s10",
+    "PickupItem": [
+        -274.3, 46.0, -161.3,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "Hide": "s10",
+    "SendMessage": "&7+1 Copper wire scrap. (10/10)",
+    "Comment": "complete",
+    "Objective": "Bring the scrap pieces to becky",
+    "Complete": []
 }

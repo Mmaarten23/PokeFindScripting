@@ -1,7 +1,10 @@
 {
     "If": [],
     "HasItem": {
-        "item": { "material": "christmas_cracker", "amount": 1 },
+        "item": {
+            "material": "christmas_cracker",
+            "amount": 1
+        },
         "slot": "mainhand",
         "strict": false
     },

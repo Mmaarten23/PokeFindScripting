@@ -1,159 +1,159 @@
 {
-  "Key": "festival_manager",
-  "Author": "Mmaarten",
+    "Key": "festival_manager",
+    "Author": "Mmaarten",
 
-  "Store": ["festival.manager.speech", 90],
+    "Store": ["festival.manager.speech", 90],
 
-  "CreateEntity": {
-    "key": "festival_manager",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODc5NTM5NjE0NDAsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNTMxODBmYjJkZjZjMmYzZDU1ZWQ5NjgzYjI2YWQ2YTM5YTkxYjI5ZmYyZjYyYjU0MzAxYmZjOWVmNmNiOWIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
-      "signature": "vxhqXDtT6PIXR9oVtjfK5prtd9jgJZJaNS8Tc2ufPIxgtWP525md5+fQ3UdzmsKBcY9oaOeHf/y4/o7LvvzLA/T8/agx5sej5oh/CEYiSFaQu8sRXziPuRNmwan27SgNYBIiM4n763sb2L0tAoO2+fK7Kr5GucbiLR7Irv6Vi2lUsoD5gDGsOgZwhkd4sZbAKYuDBKMegmob+nTm+tvn24UGgayD6VfNe6vrH8MrDwUDGTRRUdZFTRP4zAb3kJhenGOOb+CSAZpePCMNvwpXqcsX/VRCOHFHFUaL3qZpa2r550WqiVCpqnDYLiN2Vul6Mp8S6TJqhHRsUuOzwcFeDm8geEHCK4Myx1c3mUOruzaOumHS/RZD2FHCkNMqtBEbNASueSRpOQk3s7549aRB1Y7MvNqT36MiZwo+Qah+uHb4asR1zPeCAYPIUoDMIlpY0yrRPQsg5iUU8Yw2hlPam4ejL3rSVdnITfUUZl9MAXOSihOU1iLa7tXlxQMB3xL3eyGWjCNM8L1mFvW63JxWBKgbyi2G/9n7+CFKWRFEubbypsXWb88AiAnXtb/2n6Cr8KWOAfUZNMEL9XR8zhKBOhjyYZG4rnfsmEt+MnwCpVsOJ2bdiTE6fKo354ph1beok9jrb9f1LRwgSeWfISNsMQBuWRdZ93XWEKgCJAQnRWs="
+    "CreateEntity": {
+        "key": "festival_manager",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODc5NTM5NjE0NDAsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNTMxODBmYjJkZjZjMmYzZDU1ZWQ5NjgzYjI2YWQ2YTM5YTkxYjI5ZmYyZjYyYjU0MzAxYmZjOWVmNmNiOWIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
+            "signature": "vxhqXDtT6PIXR9oVtjfK5prtd9jgJZJaNS8Tc2ufPIxgtWP525md5+fQ3UdzmsKBcY9oaOeHf/y4/o7LvvzLA/T8/agx5sej5oh/CEYiSFaQu8sRXziPuRNmwan27SgNYBIiM4n763sb2L0tAoO2+fK7Kr5GucbiLR7Irv6Vi2lUsoD5gDGsOgZwhkd4sZbAKYuDBKMegmob+nTm+tvn24UGgayD6VfNe6vrH8MrDwUDGTRRUdZFTRP4zAb3kJhenGOOb+CSAZpePCMNvwpXqcsX/VRCOHFHFUaL3qZpa2r550WqiVCpqnDYLiN2Vul6Mp8S6TJqhHRsUuOzwcFeDm8geEHCK4Myx1c3mUOruzaOumHS/RZD2FHCkNMqtBEbNASueSRpOQk3s7549aRB1Y7MvNqT36MiZwo+Qah+uHb4asR1zPeCAYPIUoDMIlpY0yrRPQsg5iUU8Yw2hlPam4ejL3rSVdnITfUUZl9MAXOSihOU1iLa7tXlxQMB3xL3eyGWjCNM8L1mFvW63JxWBKgbyi2G/9n7+CFKWRFEubbypsXWb88AiAnXtb/2n6Cr8KWOAfUZNMEL9XR8zhKBOhjyYZG4rnfsmEt+MnwCpVsOJ2bdiTE6fKo354ph1beok9jrb9f1LRwgSeWfISNsMQBuWRdZ93XWEKgCJAQnRWs="
+        },
+        "location": [-114.5, 31.0, 520.5, 180],
+        "name": [
+            "&cF&6e&es&at&9i&bv&5a&cl &4&lManager",
+            "&7&oQuest giver"
+        ],
+        "hand": {
+            "material": "writable_book"
+        }
     },
-    "location": [-114.5, 31.0, 520.5, 180],
-    "name": [
-      "&cF&6e&es&at&9i&bv&5a&cl &4&lManager",
-      "&7&oQuest giver"
+
+    "HighlightClickEntity": "festival_manager",
+
+    "If": [],
+    "NotCompleted": "festival_manager_intro",
+    "Skip": "manager.intro",
+    "Dummy": [],
+    "If": [],
+    "NotCompleted": "festival_becky_end",
+    "Skip": "manager.task_1",
+    "Dummy": [],
+    "If": [],
+    "NotCompleted": "festival_manager_after_copper_wires",
+    "Skip": "manager.task_1.complete",
+    "Dummy": [],
+
+    "Skip": "manager.task_2",
+    "SendMessage": "Looks like you reached the end of the quest *for now*!",
+    "Leave": [],
+
+
+    "Comment": "manager.intro",
+    "Start": "festival_manager_intro",
+    "Skip": "external_wait",
+
+
+    "Comment": "manager.task_1",
+    "RandomDialog": [
+        {
+            "&4&lManager": "I don't have time!"
+        }, {
+            "&4&lManager": "What now?"
+        },
+        {
+            "&4&lManager": "You again?"
+        },
+        {
+            "&4&lManager": "Seems like you have enough time to waste."
+        },
+        {
+            "&4&lManager": "Time time time time time time, I need more!"
+        },
+        {
+            "&4&lManager": "I swear this watch is lying to me."
+        },
+        {
+            "&4&lManager": "Did I not make myself clear?"
+        },
+        {
+            "&4&lManager": "I don't have all day."
+        },
+        {
+            "&4&lManager": "No time for breaks!"
+        },
+        {
+            "&4&lManager": "Is 5 cups of coffee a day too much? Nah!"
+        },
+        {
+            "&4&lManager": "If only time wouldn't go so fast!"
+        }
     ],
-    "hand": {
-      "material": "writable_book"
-    }
-  },
+    "Dialog": [
+        {
+            "&4&lManager": "You wanted to help so go talk to &bBecky&r in &e&lVoltage park&r."
+        },
+        "festival.manager.speech"
+    ],
+    "If": [],
+    "Chance": 0.05,
+    "Dialog": [
+        {
+            "&4&lManager": "If only Tardis was here right now..."
+        },
+        "festival.manager.speech"
+    ],
+    "Dummy": [],
+    "Leave": [],
 
-  "HighlightClickEntity": "festival_manager",
+    "Comment": "manager.task_1.complete",
+    "Start": "festival_manager_after_copper_wires",
+    "Skip": "external_wait",
 
-  "If": [],
-  "NotCompleted": "festival_manager_intro",
-  "Skip": "manager.intro",
-  "Dummy": [],
-  "If": [],
-  "NotCompleted": "festival_becky_end",
-  "Skip": "manager.task_1",
-  "Dummy": [],
-  "If": [],
-  "NotCompleted": "festival_manager_after_copper_wires",
-  "Skip": "manager.task_1.complete",
-  "Dummy": [],
+    "Comment": "manager.task_2",
+    "RandomDialog": [
+        {
+            "&4&lManager": "I don't have time!"
+        }, {
+            "&4&lManager": "What now?"
+        },
+        {
+            "&4&lManager": "You again?"
+        },
+        {
+            "&4&lManager": "Seems like you have enough time to waste."
+        },
+        {
+            "&4&lManager": "Time time time time time time, I need more!"
+        },
+        {
+            "&4&lManager": "I swear this watch is lying to me."
+        },
+        {
+            "&4&lManager": "Did I not make myself clear?"
+        },
+        {
+            "&4&lManager": "I don't have all day."
+        },
+        {
+            "&4&lManager": "No time for breaks!"
+        },
+        {
+            "&4&lManager": "Is 5 cups of coffee a day too much? Nah!"
+        },
+        {
+            "&4&lManager": "If only time wouldn't go so fast!"
+        }
+    ],
+    "Dialog": [
+        {
+            "&4&lManager": "I told you to ask &6Blake&r in &c&lFlareridge&r if he needs help with the food."
+        },
+        "festival.manager.speech"
+    ],
+    "If": [],
+    "Chance": 0.05,
+    "Dialog": [
+        {
+            "&4&lManager": "If only Tardis was here right now..."
+        },
+        "festival.manager.speech"
+    ],
+    "Dummy": [],
+    "Leave": [],
 
-  "Skip": "manager.task_2",
-  "SendMessage": "Looks like you reached the end of the quest *for now*!",
-  "Leave": [],
-
-
-  "Comment": "manager.intro",
-  "Start": "festival_manager_intro",
-  "Skip": "external_wait",
-
-
-  "Comment": "manager.task_1",
-  "RandomDialog": [
-    {
-      "&4&lManager": "I don't have time!"
-    }, {
-      "&4&lManager": "What now?"
-    },
-    {
-      "&4&lManager": "You again?"
-    },
-    {
-      "&4&lManager": "Seems like you have enough time to waste."
-    },
-    {
-      "&4&lManager": "Time time time time time time, I need more!"
-    },
-    {
-      "&4&lManager": "I swear this watch is lying to me."
-    },
-    {
-      "&4&lManager": "Did I not make myself clear?"
-    },
-    {
-      "&4&lManager": "I don't have all day."
-    },
-    {
-      "&4&lManager": "No time for breaks!"
-    },
-    {
-      "&4&lManager": "Is 5 cups of coffee a day too much? Nah!"
-    },
-    {
-      "&4&lManager": "If only time wouldn't go so fast!"
-    }
-  ],
-  "Dialog": [
-    {
-      "&4&lManager": "You wanted to help so go talk to &bBecky&r in &e&lVoltage park&r."
-    },
-    "festival.manager.speech"
-  ],
-  "If": [],
-  "Chance": 0.05,
-  "Dialog": [
-    {
-      "&4&lManager": "If only Tardis was here right now..."
-    },
-    "festival.manager.speech"
-  ],
-  "Dummy": [],
-  "Leave": [],
-
-  "Comment": "manager.task_1.complete",
-  "Start": "festival_manager_after_copper_wires",
-  "Skip": "external_wait",
-
-  "Comment": "manager.task_2",
-  "RandomDialog": [
-    {
-      "&4&lManager": "I don't have time!"
-    }, {
-      "&4&lManager": "What now?"
-    },
-    {
-      "&4&lManager": "You again?"
-    },
-    {
-      "&4&lManager": "Seems like you have enough time to waste."
-    },
-    {
-      "&4&lManager": "Time time time time time time, I need more!"
-    },
-    {
-      "&4&lManager": "I swear this watch is lying to me."
-    },
-    {
-      "&4&lManager": "Did I not make myself clear?"
-    },
-    {
-      "&4&lManager": "I don't have all day."
-    },
-    {
-      "&4&lManager": "No time for breaks!"
-    },
-    {
-      "&4&lManager": "Is 5 cups of coffee a day too much? Nah!"
-    },
-    {
-      "&4&lManager": "If only time wouldn't go so fast!"
-    }
-  ],
-  "Dialog": [
-    {
-      "&4&lManager": "I told you to ask &6Blake&r in &c&lFlareridge&r if he needs help with the food."
-    },
-    "festival.manager.speech"
-  ],
-  "If": [],
-  "Chance": 0.05,
-  "Dialog": [
-    {
-      "&4&lManager": "If only Tardis was here right now..."
-    },
-    "festival.manager.speech"
-  ],
-  "Dummy": [],
-  "Leave": [],
-
-  "Comment": "external_wait",
-  "Hold": []
+    "Comment": "external_wait",
+    "Hold": []
 }

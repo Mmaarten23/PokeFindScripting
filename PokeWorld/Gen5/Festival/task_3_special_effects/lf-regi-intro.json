@@ -1,108 +1,108 @@
 {
-  "Key": "lf_regi_intro",
-  "Author": "Mmaarten",
+    "Key": "lf_regi_intro",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.regi.speech", 90],
+    "Store": ["lf.regi.speech", 90],
 
-  "CreateEntity": {
-    "key": "lf_regi_roof",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MjU1NjY4MywKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlYTlkOWQzN2E2OWJkOTUwZDc3NDgwNjUwOWQxM2M3NzNkNDgyYzdjODcxYTQxMThkZWVmNWM0ODZlMTE0NSIKICAgIH0KICB9Cn0=",
-      "signature": "LDI3l3CUyJRl2L3NUO8XOaNR6exiXYAxhmINLVm0/huG2rV4nDVUcpZ27FTncCzSPSA2nDKZroMCDuW9VI06+6dw9XVtKsTU5ofwCcD/RJtvMgPA6mDuIXtEm9J3iNpY6bTQKHsC7cvlTvAF6acVo1BBTu/5OyUPzy7tgL122bnZwhsqHp43mJWPH74HNDRtI1i23yyd2odRWajI3hdd+SnD8ikvfMeBphGTa1a/a8dPkXwQEX6Hf3ltpyU4qBvTGVkM17k1muBfUVsy2j5ObwV2yzRrZ+4LPJHa4c2br97lDajwQvvYfewRLKROtyI735IBUS/miZmfmtP8cn9qyTcOGJVx+cpUOUEYM09a8tKenNF9FrlmoZKe2ef37Hf8WKCfAFcVz5b3vTYaPyElSptqH+qiTi7/0CSxGTGWmlsAsPh5AiyoUBSHHUmKjQeIz/kngqSG6gBtp51abRy2ZLeWcCHLNIkMTQb5RgyvIxCBHkngFOGx6YRK8t+2D8qRiYhfA9xVKZ0SLnx+sDUbARlrXTrTIlGShY8LcphR7/fXIJJLTIUX0Omeh3InYMfPYytZ6Z8rurX0hX9wC7s5EjLJMlc46gGUmVnL1AwNt/7roK4kwY87OiyeDsrObJWDhe58hWtiXff0sBehy4VZsjNiqY27C0jor43aK1zyKcM="
+    "CreateEntity": {
+        "key": "lf_regi_roof",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MjU1NjY4MywKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlYTlkOWQzN2E2OWJkOTUwZDc3NDgwNjUwOWQxM2M3NzNkNDgyYzdjODcxYTQxMThkZWVmNWM0ODZlMTE0NSIKICAgIH0KICB9Cn0=",
+            "signature": "LDI3l3CUyJRl2L3NUO8XOaNR6exiXYAxhmINLVm0/huG2rV4nDVUcpZ27FTncCzSPSA2nDKZroMCDuW9VI06+6dw9XVtKsTU5ofwCcD/RJtvMgPA6mDuIXtEm9J3iNpY6bTQKHsC7cvlTvAF6acVo1BBTu/5OyUPzy7tgL122bnZwhsqHp43mJWPH74HNDRtI1i23yyd2odRWajI3hdd+SnD8ikvfMeBphGTa1a/a8dPkXwQEX6Hf3ltpyU4qBvTGVkM17k1muBfUVsy2j5ObwV2yzRrZ+4LPJHa4c2br97lDajwQvvYfewRLKROtyI735IBUS/miZmfmtP8cn9qyTcOGJVx+cpUOUEYM09a8tKenNF9FrlmoZKe2ef37Hf8WKCfAFcVz5b3vTYaPyElSptqH+qiTi7/0CSxGTGWmlsAsPh5AiyoUBSHHUmKjQeIz/kngqSG6gBtp51abRy2ZLeWcCHLNIkMTQb5RgyvIxCBHkngFOGx6YRK8t+2D8qRiYhfA9xVKZ0SLnx+sDUbARlrXTrTIlGShY8LcphR7/fXIJJLTIUX0Omeh3InYMfPYytZ6Z8rurX0hX9wC7s5EjLJMlc46gGUmVnL1AwNt/7roK4kwY87OiyeDsrObJWDhe58hWtiXff0sBehy4VZsjNiqY27C0jor43aK1zyKcM="
+        },
+        "location": [-1011.1, 73.0, 174.6, 180, 43],
+        "look": false
     },
-    "location": [-1011.1, 73.0, 174.6, 180, 43],
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_regi_roof",
+    "Server": [],
+    "Hide": "lf_regi_roof",
 
-  "CreateEntity": {
-    "key": "lf_end_crystal",
-    "entity": "END_CRYSTAL",
-    "location": [-1010.9, 73.3, 172.9]
-  },
-  "Server": [],
-  "Hide": "lf_end_crystal",
-
-  "CreateEntity": {
-    "key": "lf_player_intro",
-    "entity": "PLAYER",
-    "skin": "[PLAYER]",
-    "location": [-1008.9, 72.2, 173.7, 69, -7],
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_player_intro",
-
-
-
-  "Start": "lf_util_disablecommands",
-  "Fade": [],
-  "Teleport": [-1005.5, 75.5, 177.1, 132, 31],
-  "Cinematic": [],
-  "SetScoreboard": "",
-  "HidePlayer": [],
-  "Wait": 1,
-  "Freeze": true,
-  "Wait": 1,
-
-  "Show": "lf_regi_roof",
-  "Show": "lf_end_crystal",
-  "Show": "lf_player_intro",
-
-  "Wait": 5,
-  "Dialog": [
-    {
-      "[PLAYER]": "Hey! Are you Regi?"
+    "CreateEntity": {
+        "key": "lf_end_crystal",
+        "entity": "END_CRYSTAL",
+        "location": [-1010.9, 73.3, 172.9]
     },
-    "lf.regi.speech"
-  ],
-  "EntityLook": ["lf_regi_roof", "lf_player_intro"],
-  "ProgressiveDialog": [
-    {
-      "&a&lRegi": "Yo! What are you doing up here?! Put your lifeline on!"
-    },
-    "lf.regi.speech"
-  ],
-  "Wait": 5,
-  "AnimateEntity": ["lf_regi_roof", "Swing Main Hand"],
-  "Start": "lf_regi_lifeline_player",
-  "Wait": 85,
-  "EntityLook": ["lf_regi_roof", 180, 43],
-  "Dialog": [
-    {
-      "&a&lRegi": "Roofs are no joke! Always put your protection on.",
-      "&a&lRegi": "What are you doing here anyway?",
-      "[PLAYER]": "The festival manager told me you might needed a hand with moving your stuff?"
-    },
-    "lf.regi.speech"
-  ],
-  "EntityLook": ["lf_regi_roof", "lf_player_intro"],
-  "Dialog": [
-    {
-      "&a&lRegi": "The manager hum?",
-      "&a&lRegi": "Well, I do have to collect my equipment from past events.",
-      "&a&lRegi": "Here in Zeinova, we love a good festival and any reasonable festival organiser hires only the best of course.",
-      "[PLAYER]": "Weird, I have never heard of you...",
-      "&a&lRegi": "Well, now you have. You wanted to help or what?",
-      "[PLAYER]": "Sure! What equipment do you need?",
-      "&a&lRegi": "The manager wants laser lights. The last time I used those was for the opening of the &5Spiritvale&r gym.",
-      "[PLAYER]": "Sure! Let me get them for you."
-    },
-    "lf.regi.speech"
-  ],
-  "EntityLook": ["lf_regi_roof", 180, 43],
-  "StopCinematic": [],
-  "Unfreeze": [],
-  "Fade": [],
-  "Teleport": [-1008.9, 72.2, 173.7, 69, -7],
-  "Hide": "lf_player_intro",
-  "Hide": "lf_regi_roof",
-  "Leave": "lf_regi_lifeline_player",
+    "Server": [],
+    "Hide": "lf_end_crystal",
 
-  "Leave": "lf_util_disablecommands",
-  "Complete": [],
-  "Progress": "lf_regi",
-  "Progress": "lf_util_objective_handler"
+    "CreateEntity": {
+        "key": "lf_player_intro",
+        "entity": "PLAYER",
+        "skin": "[PLAYER]",
+        "location": [-1008.9, 72.2, 173.7, 69, -7],
+        "look": false
+    },
+    "Server": [],
+    "Hide": "lf_player_intro",
+
+
+
+    "Start": "lf_util_disablecommands",
+    "Fade": [],
+    "Teleport": [-1005.5, 75.5, 177.1, 132, 31],
+    "Cinematic": [],
+    "SetScoreboard": "",
+    "HidePlayer": [],
+    "Wait": 1,
+    "Freeze": true,
+    "Wait": 1,
+
+    "Show": "lf_regi_roof",
+    "Show": "lf_end_crystal",
+    "Show": "lf_player_intro",
+
+    "Wait": 5,
+    "Dialog": [
+        {
+            "[PLAYER]": "Hey! Are you Regi?"
+        },
+        "lf.regi.speech"
+    ],
+    "EntityLook": ["lf_regi_roof", "lf_player_intro"],
+    "ProgressiveDialog": [
+        {
+            "&a&lRegi": "Yo! What are you doing up here?! Put your lifeline on!"
+        },
+        "lf.regi.speech"
+    ],
+    "Wait": 5,
+    "AnimateEntity": ["lf_regi_roof", "Swing Main Hand"],
+    "Start": "lf_regi_lifeline_player",
+    "Wait": 85,
+    "EntityLook": ["lf_regi_roof", 180, 43],
+    "Dialog": [
+        {
+            "&a&lRegi": "Roofs are no joke! Always put your protection on.",
+            "&a&lRegi": "What are you doing here anyway?",
+            "[PLAYER]": "The festival manager told me you might needed a hand with moving your stuff?"
+        },
+        "lf.regi.speech"
+    ],
+    "EntityLook": ["lf_regi_roof", "lf_player_intro"],
+    "Dialog": [
+        {
+            "&a&lRegi": "The manager hum?",
+            "&a&lRegi": "Well, I do have to collect my equipment from past events.",
+            "&a&lRegi": "Here in Zeinova, we love a good festival and any reasonable festival organiser hires only the best of course.",
+            "[PLAYER]": "Weird, I have never heard of you...",
+            "&a&lRegi": "Well, now you have. You wanted to help or what?",
+            "[PLAYER]": "Sure! What equipment do you need?",
+            "&a&lRegi": "The manager wants laser lights. The last time I used those was for the opening of the &5Spiritvale&r gym.",
+            "[PLAYER]": "Sure! Let me get them for you."
+        },
+        "lf.regi.speech"
+    ],
+    "EntityLook": ["lf_regi_roof", 180, 43],
+    "StopCinematic": [],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-1008.9, 72.2, 173.7, 69, -7],
+    "Hide": "lf_player_intro",
+    "Hide": "lf_regi_roof",
+    "Leave": "lf_regi_lifeline_player",
+
+    "Leave": "lf_util_disablecommands",
+    "Complete": [],
+    "Progress": "lf_regi",
+    "Progress": "lf_util_objective_handler"
 }

@@ -221,7 +221,7 @@
     ],
     "Unfreeze": [],
     "Fade": [],
-    "Teleport": [-1046.2,44.0,296.4, 0, 0],
+    "Teleport": [-1046.2, 44.0, 296.4, 0, 0],
     "StopCinematic": [],
     "SetScoreboard": [],
     "ShowPlayer": [],

@@ -2,7 +2,7 @@
     "Chat": "Crocanaw",
     "SendMessage": "script activated",
     "If": [],
-    "Equals": [ "server", "chat_game_text", "Crocanaw" ],
+    "Equals": ["server", "chat_game_text", "Crocanaw"],
     "Dummy": [],
     "Leave": [],
     "BroadcastMessage": "&e&lChat Games &8» &a[PLAYER] &2descrambled &a[chat_game_text]&2, and won &a1 Rare Candy&2!",
@@ -10,5 +10,5 @@
     "Leave": [],
     "Repeat": 120.0,
     "BroadcastMessage": "&e&lChat Games &8» &6Descramble the Pokémon's name: &eCrooawnc",
-    "Set": [ "server", "chat_game_text", "Crocanaw", true ]
+    "Set": ["server", "chat_game_text", "Crocanaw", true]
 }

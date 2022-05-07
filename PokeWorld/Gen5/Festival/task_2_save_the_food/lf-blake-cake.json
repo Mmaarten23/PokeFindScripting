@@ -1,144 +1,145 @@
 {
-  "Key": "lf_blake_cake",
-  "Author": "Mmaarten",
+    "Key": "lf_blake_cake",
+    "Author": "Mmaarten",
 
-  "CreateEntity": {
-    "key": "base00",
-    "entity": "ARMOR_STAND",
-    "location": [-0.4375, 0.0, -0.4375],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
-  "CreateEntity": {
-    "key": "base01",
-    "entity": "ARMOR_STAND",
-    "location": [0.4375, 0.0, -0.4375],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
-  "CreateEntity": {
-    "key": "base02",
-    "entity": "ARMOR_STAND",
-    "location": [0.0, 0.0, -0.4375],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
-  "CreateEntity": {
-    "key": "base10",
-    "entity": "ARMOR_STAND",
-    "location": [-0.4375, 0.0, 0.0],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
-  "CreateEntity": {
-    "key": "base11",
-    "entity": "ARMOR_STAND",
-    "location": [0.0, 0.0, 0.0],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
-  "CreateEntity": {
-    "key": "base12",
-    "entity": "ARMOR_STAND",
-    "location": [0.4375, 0.0, 0.0],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
-  "CreateEntity": {
-    "key": "base20",
-    "entity": "ARMOR_STAND",
-    "location": [-0.4375, 0.0, 0.4375],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
-  "CreateEntity": {
-    "key": "base21",
-    "entity": "ARMOR_STAND",
-    "location": [0.0, 0.0, 0.4375],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
-  "CreateEntity": {
-    "key": "base22",
-    "entity": "ARMOR_STAND",
-    "location": [0.4375, 0.0, 0.4375],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "white_concrete"
-  },
+    "CreateEntity": {
+        "key": "base00",
+        "entity": "ARMOR_STAND",
+        "location": [-0.4375, 0.0, -0.4375],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
+    "CreateEntity": {
+        "key": "base01",
+        "entity": "ARMOR_STAND",
+        "location": [0.4375, 0.0, -0.4375],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
+    "CreateEntity": {
+        "key": "base02",
+        "entity": "ARMOR_STAND",
+        "location": [0.0, 0.0, -0.4375],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
+    "CreateEntity": {
+        "key": "base10",
+        "entity": "ARMOR_STAND",
+        "location": [-0.4375, 0.0, 0.0],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
+    "CreateEntity": {
+        "key": "base11",
+        "entity": "ARMOR_STAND",
+        "location": [0.0, 0.0, 0.0],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
+    "CreateEntity": {
+        "key": "base12",
+        "entity": "ARMOR_STAND",
+        "location": [0.4375, 0.0, 0.0],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
+    "CreateEntity": {
+        "key": "base20",
+        "entity": "ARMOR_STAND",
+        "location": [-0.4375, 0.0, 0.4375],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
+    "CreateEntity": {
+        "key": "base21",
+        "entity": "ARMOR_STAND",
+        "location": [0.0, 0.0, 0.4375],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
+    "CreateEntity": {
+        "key": "base22",
+        "entity": "ARMOR_STAND",
+        "location": [0.4375, 0.0, 0.4375],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "white_concrete"
+    },
 
-  "CreateEntity": {
-    "key": "top00",
-    "entity": "ARMOR_STAND",
-    "location": [-0.21875, 0.4375, -0.21875],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "brown_concrete"
-  },
-  "CreateEntity": {
-    "key": "top01",
-    "entity": "ARMOR_STAND",
-    "location": [-0.21875, 0.4375, 0.21875],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "brown_concrete"
-  },
-  "CreateEntity": {
-    "key": "top10",
-    "entity": "ARMOR_STAND",
-    "location": [0.21875, 0.4375, -0.21875],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "brown_concrete"
-  },
-  "CreateEntity": {
-    "key": "top11",
-    "entity": "ARMOR_STAND",
-    "location": [0.21875, 0.4375, 0.21875],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "brown_concrete"
-  },
-  "CreateEntity": {
-    "key": "ball",
-    "entity": "ARMOR_STAND",
-    "location": [0.0, 2.5, 0.0],
-    "small": true,
-    "visible": false,
-    "gravity": false,
-    "helmet": "master_ball"
-  },
-  "CreateCustomEntity": [
-    "cake", "base11", "base00", "base01", "base02", "base10", "base12", "base20", "base21", "base22", "top00", "top00",
-    "top01", "top10", "top11", "ball"
-  ],
-  "Server": [],
-  "TeleportEntity": ["cake", 192.5, 62.7, -675.5],
-  "Server": [],
-  "Hide": "cake",
+    "CreateEntity": {
+        "key": "top00",
+        "entity": "ARMOR_STAND",
+        "location": [-0.21875, 0.4375, -0.21875],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "brown_concrete"
+    },
+    "CreateEntity": {
+        "key": "top01",
+        "entity": "ARMOR_STAND",
+        "location": [-0.21875, 0.4375, 0.21875],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "brown_concrete"
+    },
+    "CreateEntity": {
+        "key": "top10",
+        "entity": "ARMOR_STAND",
+        "location": [0.21875, 0.4375, -0.21875],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "brown_concrete"
+    },
+    "CreateEntity": {
+        "key": "top11",
+        "entity": "ARMOR_STAND",
+        "location": [0.21875, 0.4375, 0.21875],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "brown_concrete"
+    },
+    "CreateEntity": {
+        "key": "ball",
+        "entity": "ARMOR_STAND",
+        "location": [0.0, 2.5, 0.0],
+        "small": true,
+        "visible": false,
+        "gravity": false,
+        "helmet": "master_ball"
+    },
+    "CreateCustomEntity": [
+        "cake", "base11", "base00", "base01", "base02", "base10", "base12", "base20", "base21", "base22", "top00",
+        "top00",
+        "top01", "top10", "top11", "ball"
+    ],
+    "Server": [],
+    "TeleportEntity": ["cake", 192.5, 62.7, -675.5],
+    "Server": [],
+    "Hide": "cake",
 
-  "Show": "cake",
-  "Hold": [],
-  "Hide": "cake"
+    "Show": "cake",
+    "Hold": [],
+    "Hide": "cake"
 }

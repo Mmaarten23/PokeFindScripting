@@ -1,12 +1,12 @@
 {
-  "Key": "festival_loader",
-  "Author": "Mmaarten",
+    "Key": "festival_loader",
+    "Author": "Mmaarten",
 
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/zloaders/manager-loader.json",
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/zloaders/task-1-loader.json",
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/zloaders/task-2-loader.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/zloaders/manager-loader.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/zloaders/task-1-loader.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/zloaders/task-2-loader.json",
 
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/util/lf-util-disablecommands.json",
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/util/lf-util-objective-handler.json"
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/util/lf-util-disablecommands.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/util/lf-util-objective-handler.json"
 
 }

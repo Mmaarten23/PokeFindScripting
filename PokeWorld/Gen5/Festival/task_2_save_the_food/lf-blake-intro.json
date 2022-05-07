@@ -1,483 +1,483 @@
 {
-  "Key": "lf_blake_intro",
-  "Author": "Mmaarten",
+    "Key": "lf_blake_intro",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.blake.speech", 90],
+    "Store": ["lf.blake.speech", 90],
 
-  "CreateEntity": {
-    "key": "lf_blake_sleeping",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
-      "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+    "CreateEntity": {
+        "key": "lf_blake_sleeping",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
+            "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+        },
+        "location": [196.0, 63.7, -673.8, 88],
+        "sleeping": true,
+        "look": false
     },
-    "location": [196.0, 63.7, -673.8, 88],
-    "sleeping": true,
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_blake_sleeping",
+    "Server": [],
+    "Hide": "lf_blake_sleeping",
 
-  "CreateEntity": {
-    "key": "lf_blake_standing",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
-      "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+    "CreateEntity": {
+        "key": "lf_blake_standing",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
+            "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+        },
+        "location": [195.6, 63.0, -674.4, 169],
+        "look": false
     },
-    "location": [195.6, 63.0, -674.4, 169],
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_blake_standing",
+    "Server": [],
+    "Hide": "lf_blake_standing",
 
-  "CreateEntity": {
-    "key": "lf_player_intro",
-    "entity": "PLAYER",
-    "skin": "[PLAYER]",
-    "location": [192.5, 63.0, -679.7, -24, 0],
-    "gravity": true,
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_player_intro",
+    "CreateEntity": {
+        "key": "lf_player_intro",
+        "entity": "PLAYER",
+        "skin": "[PLAYER]",
+        "location": [192.5, 63.0, -679.7, -24, 0],
+        "gravity": true,
+        "look": false
+    },
+    "Server": [],
+    "Hide": "lf_player_intro",
 
-  "CreateEntity": {
-    "key": "lf_meeting_manager",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODc5NTM5NjE0NDAsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNTMxODBmYjJkZjZjMmYzZDU1ZWQ5NjgzYjI2YWQ2YTM5YTkxYjI5ZmYyZjYyYjU0MzAxYmZjOWVmNmNiOWIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
-      "signature": "vxhqXDtT6PIXR9oVtjfK5prtd9jgJZJaNS8Tc2ufPIxgtWP525md5+fQ3UdzmsKBcY9oaOeHf/y4/o7LvvzLA/T8/agx5sej5oh/CEYiSFaQu8sRXziPuRNmwan27SgNYBIiM4n763sb2L0tAoO2+fK7Kr5GucbiLR7Irv6Vi2lUsoD5gDGsOgZwhkd4sZbAKYuDBKMegmob+nTm+tvn24UGgayD6VfNe6vrH8MrDwUDGTRRUdZFTRP4zAb3kJhenGOOb+CSAZpePCMNvwpXqcsX/VRCOHFHFUaL3qZpa2r550WqiVCpqnDYLiN2Vul6Mp8S6TJqhHRsUuOzwcFeDm8geEHCK4Myx1c3mUOruzaOumHS/RZD2FHCkNMqtBEbNASueSRpOQk3s7549aRB1Y7MvNqT36MiZwo+Qah+uHb4asR1zPeCAYPIUoDMIlpY0yrRPQsg5iUU8Yw2hlPam4ejL3rSVdnITfUUZl9MAXOSihOU1iLa7tXlxQMB3xL3eyGWjCNM8L1mFvW63JxWBKgbyi2G/9n7+CFKWRFEubbypsXWb88AiAnXtb/2n6Cr8KWOAfUZNMEL9XR8zhKBOhjyYZG4rnfsmEt+MnwCpVsOJ2bdiTE6fKo354ph1beok9jrb9f1LRwgSeWfISNsMQBuWRdZ93XWEKgCJAQnRWs="
+    "CreateEntity": {
+        "key": "lf_meeting_manager",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODc5NTM5NjE0NDAsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNTMxODBmYjJkZjZjMmYzZDU1ZWQ5NjgzYjI2YWQ2YTM5YTkxYjI5ZmYyZjYyYjU0MzAxYmZjOWVmNmNiOWIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
+            "signature": "vxhqXDtT6PIXR9oVtjfK5prtd9jgJZJaNS8Tc2ufPIxgtWP525md5+fQ3UdzmsKBcY9oaOeHf/y4/o7LvvzLA/T8/agx5sej5oh/CEYiSFaQu8sRXziPuRNmwan27SgNYBIiM4n763sb2L0tAoO2+fK7Kr5GucbiLR7Irv6Vi2lUsoD5gDGsOgZwhkd4sZbAKYuDBKMegmob+nTm+tvn24UGgayD6VfNe6vrH8MrDwUDGTRRUdZFTRP4zAb3kJhenGOOb+CSAZpePCMNvwpXqcsX/VRCOHFHFUaL3qZpa2r550WqiVCpqnDYLiN2Vul6Mp8S6TJqhHRsUuOzwcFeDm8geEHCK4Myx1c3mUOruzaOumHS/RZD2FHCkNMqtBEbNASueSRpOQk3s7549aRB1Y7MvNqT36MiZwo+Qah+uHb4asR1zPeCAYPIUoDMIlpY0yrRPQsg5iUU8Yw2hlPam4ejL3rSVdnITfUUZl9MAXOSihOU1iLa7tXlxQMB3xL3eyGWjCNM8L1mFvW63JxWBKgbyi2G/9n7+CFKWRFEubbypsXWb88AiAnXtb/2n6Cr8KWOAfUZNMEL9XR8zhKBOhjyYZG4rnfsmEt+MnwCpVsOJ2bdiTE6fKo354ph1beok9jrb9f1LRwgSeWfISNsMQBuWRdZ93XWEKgCJAQnRWs="
+        },
+        "location": [527.9, 50.0, 626.9, 153, -14],
+        "hand": {
+            "material": "writable_book"
+        },
+        "look": false
     },
-    "location": [527.9, 50.0, 626.9, 153, -14],
-    "hand": {
-      "material": "writable_book"
-    },
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_meeting_manager",
+    "Server": [],
+    "Hide": "lf_meeting_manager",
 
-  "CreateEntity": {
-    "key": "lf_meeting_becky",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+    "CreateEntity": {
+        "key": "lf_meeting_becky",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+        },
+        "location": [525.0, 53.9, 622.4, -118, 52],
+        "look": false,
+        "sitting": true
     },
-    "location": [525.0, 53.9, 622.4, -118, 52],
-    "look": false,
-    "sitting": true
-  },
-  "Server": [],
-  "Hide": "lf_meeting_becky",
+    "Server": [],
+    "Hide": "lf_meeting_becky",
 
-  "CreateEntity": {
-    "key": "lf_meeting_blake",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
-      "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+    "CreateEntity": {
+        "key": "lf_meeting_blake",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
+            "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+        },
+        "location": [526.5, 50.0, 623.5, -16],
+        "look": false,
+        "sitting": false
     },
-    "location": [526.5, 50.0, 623.5, -16],
-    "look": false,
-    "sitting": false
-  },
-  "Server": [],
-  "Hide": "lf_meeting_blake",
+    "Server": [],
+    "Hide": "lf_meeting_blake",
 
-  "CreateEntity": {
-    "key": "lf_meeting_regi",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MjU1NjY4MywKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlYTlkOWQzN2E2OWJkOTUwZDc3NDgwNjUwOWQxM2M3NzNkNDgyYzdjODcxYTQxMThkZWVmNWM0ODZlMTE0NSIKICAgIH0KICB9Cn0=",
-      "signature": "LDI3l3CUyJRl2L3NUO8XOaNR6exiXYAxhmINLVm0/huG2rV4nDVUcpZ27FTncCzSPSA2nDKZroMCDuW9VI06+6dw9XVtKsTU5ofwCcD/RJtvMgPA6mDuIXtEm9J3iNpY6bTQKHsC7cvlTvAF6acVo1BBTu/5OyUPzy7tgL122bnZwhsqHp43mJWPH74HNDRtI1i23yyd2odRWajI3hdd+SnD8ikvfMeBphGTa1a/a8dPkXwQEX6Hf3ltpyU4qBvTGVkM17k1muBfUVsy2j5ObwV2yzRrZ+4LPJHa4c2br97lDajwQvvYfewRLKROtyI735IBUS/miZmfmtP8cn9qyTcOGJVx+cpUOUEYM09a8tKenNF9FrlmoZKe2ef37Hf8WKCfAFcVz5b3vTYaPyElSptqH+qiTi7/0CSxGTGWmlsAsPh5AiyoUBSHHUmKjQeIz/kngqSG6gBtp51abRy2ZLeWcCHLNIkMTQb5RgyvIxCBHkngFOGx6YRK8t+2D8qRiYhfA9xVKZ0SLnx+sDUbARlrXTrTIlGShY8LcphR7/fXIJJLTIUX0Omeh3InYMfPYytZ6Z8rurX0hX9wC7s5EjLJMlc46gGUmVnL1AwNt/7roK4kwY87OiyeDsrObJWDhe58hWtiXff0sBehy4VZsjNiqY27C0jor43aK1zyKcM="
+    "CreateEntity": {
+        "key": "lf_meeting_regi",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MjU1NjY4MywKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlYTlkOWQzN2E2OWJkOTUwZDc3NDgwNjUwOWQxM2M3NzNkNDgyYzdjODcxYTQxMThkZWVmNWM0ODZlMTE0NSIKICAgIH0KICB9Cn0=",
+            "signature": "LDI3l3CUyJRl2L3NUO8XOaNR6exiXYAxhmINLVm0/huG2rV4nDVUcpZ27FTncCzSPSA2nDKZroMCDuW9VI06+6dw9XVtKsTU5ofwCcD/RJtvMgPA6mDuIXtEm9J3iNpY6bTQKHsC7cvlTvAF6acVo1BBTu/5OyUPzy7tgL122bnZwhsqHp43mJWPH74HNDRtI1i23yyd2odRWajI3hdd+SnD8ikvfMeBphGTa1a/a8dPkXwQEX6Hf3ltpyU4qBvTGVkM17k1muBfUVsy2j5ObwV2yzRrZ+4LPJHa4c2br97lDajwQvvYfewRLKROtyI735IBUS/miZmfmtP8cn9qyTcOGJVx+cpUOUEYM09a8tKenNF9FrlmoZKe2ef37Hf8WKCfAFcVz5b3vTYaPyElSptqH+qiTi7/0CSxGTGWmlsAsPh5AiyoUBSHHUmKjQeIz/kngqSG6gBtp51abRy2ZLeWcCHLNIkMTQb5RgyvIxCBHkngFOGx6YRK8t+2D8qRiYhfA9xVKZ0SLnx+sDUbARlrXTrTIlGShY8LcphR7/fXIJJLTIUX0Omeh3InYMfPYytZ6Z8rurX0hX9wC7s5EjLJMlc46gGUmVnL1AwNt/7roK4kwY87OiyeDsrObJWDhe58hWtiXff0sBehy4VZsjNiqY27C0jor43aK1zyKcM="
+        },
+        "location": [526.6, 51.9, 621.7, 63, -39],
+        "look": false,
+        "sitting": true
     },
-    "location": [526.6, 51.9, 621.7, 63, -39],
-    "look": false,
-    "sitting": true
-  },
-  "Server": [],
-  "Hide": "lf_meeting_regi",
+    "Server": [],
+    "Hide": "lf_meeting_regi",
 
-  "CreateEntity": {
-    "key": "lf_disaster_blake",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
-      "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+    "CreateEntity": {
+        "key": "lf_disaster_blake",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
+            "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+        },
+        "location": [192.5, 63.0, -679.9, 0],
+        "look": false,
+        "sitting": false
     },
-    "location": [192.5, 63.0, -679.9, 0],
-    "look": false,
-    "sitting": false
-  },
-  "Server": [],
-  "Hide": "lf_disaster_blake",
+    "Server": [],
+    "Hide": "lf_disaster_blake",
 
-  "CreateEntity": {
-    "key": "lf_disaster_moriarty",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9",
-      "signature": "rCfG/5E2UF6JNX49/K5QXQTeHOH6SUALxz4RET3x+LeIs0ZI9HglME8nl4srxQGo0ApNLhtP1/CY2sm44Uotmrt0hidTXL8flAIJP4IFlRwOS9nkm2blZ8z4z26giEqExn3W6xAr/nuNW2y0YK2RdiExt1jaNISfdgRs9BU7jyIkNeKp50QZG1pNa3Rq7CptqPqMP8oGik65K6nawUkqrAErnVB5iNF+YYHWSF2g8R5RfmMCWsICvNZ5OQ7pz6AU5J/GJFuUSWkqoG4Ro/LEtK7FTP9MbZ0gBdPd2OQmuBwqqpXpGeGNeMNlYjMT9am8ShrqjHfDbPMW21wqXSyK1p0zX2mzlXxIGUGV6yzwsNrhQjkdFwWuP3sZt0GXSsh624UoiX00DERmdRARmbFcxIVMkao/PMeJb20MgjnfgYlinMCJ3IdTICDRrvntk+6L4TCMJMJ1gJxhnlxciT861GNZV5WtLVhMZoJNj90YkS2zo+HjyzGvq6KpxILBnvGDDRPES+z9EZd2fPwF4Yz199oYm9LHU7wf1JOnhkiBfikgNlyzZ0wejY/yBZFyMWR3j/qtNBndWMb3cNSByOfjlrjLV4U/I2XxtnSJqRjkdWXwYtWCCP82yIJnIVAnp50WjATOFOai/hyn7uHRngOnJ5lvLRIS523ylk60ZhwG0G8="
+    "CreateEntity": {
+        "key": "lf_disaster_moriarty",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9",
+            "signature": "rCfG/5E2UF6JNX49/K5QXQTeHOH6SUALxz4RET3x+LeIs0ZI9HglME8nl4srxQGo0ApNLhtP1/CY2sm44Uotmrt0hidTXL8flAIJP4IFlRwOS9nkm2blZ8z4z26giEqExn3W6xAr/nuNW2y0YK2RdiExt1jaNISfdgRs9BU7jyIkNeKp50QZG1pNa3Rq7CptqPqMP8oGik65K6nawUkqrAErnVB5iNF+YYHWSF2g8R5RfmMCWsICvNZ5OQ7pz6AU5J/GJFuUSWkqoG4Ro/LEtK7FTP9MbZ0gBdPd2OQmuBwqqpXpGeGNeMNlYjMT9am8ShrqjHfDbPMW21wqXSyK1p0zX2mzlXxIGUGV6yzwsNrhQjkdFwWuP3sZt0GXSsh624UoiX00DERmdRARmbFcxIVMkao/PMeJb20MgjnfgYlinMCJ3IdTICDRrvntk+6L4TCMJMJ1gJxhnlxciT861GNZV5WtLVhMZoJNj90YkS2zo+HjyzGvq6KpxILBnvGDDRPES+z9EZd2fPwF4Yz199oYm9LHU7wf1JOnhkiBfikgNlyzZ0wejY/yBZFyMWR3j/qtNBndWMb3cNSByOfjlrjLV4U/I2XxtnSJqRjkdWXwYtWCCP82yIJnIVAnp50WjATOFOai/hyn7uHRngOnJ5lvLRIS523ylk60ZhwG0G8="
+        },
+        "location": [194.9, 63.5, -673.9, 172, 23],
+        "sitting": true,
+        "look": false
     },
-    "location": [194.9, 63.5, -673.9, 172, 23],
-    "sitting": true,
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_disaster_moriarty",
+    "Server": [],
+    "Hide": "lf_disaster_moriarty",
 
-  "CreateEntity": {
-    "key": "lf_disaster_moriarty_standing",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9",
-      "signature": "rCfG/5E2UF6JNX49/K5QXQTeHOH6SUALxz4RET3x+LeIs0ZI9HglME8nl4srxQGo0ApNLhtP1/CY2sm44Uotmrt0hidTXL8flAIJP4IFlRwOS9nkm2blZ8z4z26giEqExn3W6xAr/nuNW2y0YK2RdiExt1jaNISfdgRs9BU7jyIkNeKp50QZG1pNa3Rq7CptqPqMP8oGik65K6nawUkqrAErnVB5iNF+YYHWSF2g8R5RfmMCWsICvNZ5OQ7pz6AU5J/GJFuUSWkqoG4Ro/LEtK7FTP9MbZ0gBdPd2OQmuBwqqpXpGeGNeMNlYjMT9am8ShrqjHfDbPMW21wqXSyK1p0zX2mzlXxIGUGV6yzwsNrhQjkdFwWuP3sZt0GXSsh624UoiX00DERmdRARmbFcxIVMkao/PMeJb20MgjnfgYlinMCJ3IdTICDRrvntk+6L4TCMJMJ1gJxhnlxciT861GNZV5WtLVhMZoJNj90YkS2zo+HjyzGvq6KpxILBnvGDDRPES+z9EZd2fPwF4Yz199oYm9LHU7wf1JOnhkiBfikgNlyzZ0wejY/yBZFyMWR3j/qtNBndWMb3cNSByOfjlrjLV4U/I2XxtnSJqRjkdWXwYtWCCP82yIJnIVAnp50WjATOFOai/hyn7uHRngOnJ5lvLRIS523ylk60ZhwG0G8="
+    "CreateEntity": {
+        "key": "lf_disaster_moriarty_standing",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9",
+            "signature": "rCfG/5E2UF6JNX49/K5QXQTeHOH6SUALxz4RET3x+LeIs0ZI9HglME8nl4srxQGo0ApNLhtP1/CY2sm44Uotmrt0hidTXL8flAIJP4IFlRwOS9nkm2blZ8z4z26giEqExn3W6xAr/nuNW2y0YK2RdiExt1jaNISfdgRs9BU7jyIkNeKp50QZG1pNa3Rq7CptqPqMP8oGik65K6nawUkqrAErnVB5iNF+YYHWSF2g8R5RfmMCWsICvNZ5OQ7pz6AU5J/GJFuUSWkqoG4Ro/LEtK7FTP9MbZ0gBdPd2OQmuBwqqpXpGeGNeMNlYjMT9am8ShrqjHfDbPMW21wqXSyK1p0zX2mzlXxIGUGV6yzwsNrhQjkdFwWuP3sZt0GXSsh624UoiX00DERmdRARmbFcxIVMkao/PMeJb20MgjnfgYlinMCJ3IdTICDRrvntk+6L4TCMJMJ1gJxhnlxciT861GNZV5WtLVhMZoJNj90YkS2zo+HjyzGvq6KpxILBnvGDDRPES+z9EZd2fPwF4Yz199oYm9LHU7wf1JOnhkiBfikgNlyzZ0wejY/yBZFyMWR3j/qtNBndWMb3cNSByOfjlrjLV4U/I2XxtnSJqRjkdWXwYtWCCP82yIJnIVAnp50WjATOFOai/hyn7uHRngOnJ5lvLRIS523ylk60ZhwG0G8="
+        },
+        "location": [194.6, 63.0, -674.4, 175],
+        "sitting": false,
+        "look": false
     },
-    "location": [194.6, 63.0, -674.4, 175],
-    "sitting": false,
-    "look": false
-  },
-  "Server": [],
-  "Hide": "lf_disaster_moriarty_standing",
+    "Server": [],
+    "Hide": "lf_disaster_moriarty_standing",
 
 
 
-  "Start": "lf_util_disablecommands",
-  "Fade": [],
-  "Teleport": [191.7, 65.2, -678.7, -54, 35],
-  "Cinematic": [],
-  "SetScoreboard": "",
-  "HidePlayer": [],
-  "Wait": 1,
-  "Freeze": true,
-  "Show": "lf_blake_sleeping",
-  "Show": "lf_player_intro",
-  "ProgressiveDialog": [
-    {
-      "&6&lBlake": "&oSrnnk... pfieeeuw... srnnk... pfieeeeeeeeuuuuwwwww... SRNNNNKKKKKK...",
-      "[PLAYER]": "Uhm... hello? Anyone home?",
-      "&6&lBlake": "&o.. gotta bake it til- &f&lSRRNNNNKKKK &f&oI make it... &fpfieeeuww...",
-      "[PLAYER]": "Ahum. Good morning mister Blake!",
-      "&6&lBlake": "good... morning... hmmm..."
-    },
-    "lf.blake.speech"
-  ],
-  "Wait": 6.0,
-  "MoveEntity": ["lf_player_intro", 195.4, 63.1, -676.4, 0.1, false],
-  "Wait": 2.0,
-  "EntityLook": ["lf_player_intro", 194, 62, -674],
-  "Wait": 2.0,
-  "EntityLook": ["lf_player_intro", 197, 62, -674],
-  "Wait": 2.0,
-  "EntityLook": ["lf_player_intro", 196, 62, -674],
-  "MoveEntity": ["lf_player_intro", 195.3, 63.0, -674.6, 0.1, false],
-  "EntityLook": ["lf_player_intro", 196, 62, -674],
-  "AnimateEntity": ["lf_player_intro", "Swing Main Hand"],
-  "Wait": 0.5,
-  "AnimateEntity": ["lf_player_intro", "Swing Main Hand"],
-  "Wait": 0.5,
-  "AnimateEntity": ["lf_player_intro", "Swing Main Hand"],
-  "Wait": 0.5,
-  "MoveEntity": ["lf_player_intro", 195.4, 63.1, -676.4, 0.15, false],
-  "EntityLook": ["lf_player_intro", 196, 62, -674],
-  "Wait": 2.0,
-  "Wait": 2.0,
-  "EntityLook": ["lf_player_intro", 197, 62, -674],
-  "Wait": 2.0,
-  "EntityLook": ["lf_player_intro", 194, 62, -674],
-  "Wait": 2.0,
-  "EntityLook": ["lf_player_intro", "lf_blake_standing"],
-  "Hide": "lf_blake_sleeping",
-  "Show": "lf_blake_standing",
-  "Dialog": [
-    {
-      "&6&lBlake": "WHAT?",
-      "&6&lBlake": "Who are you??",
-      "&6&lBlake": "How did you get in here???",
-      "&6&lBlake": "Get out of my house!!!!"
-    },
-    30
-  ],
-  "ProgressiveDialog": [
-    {
-      "[PLAYER]": "I- I am so sorry!",
-      "[PLAYER]": "The manager told me to check if I could help you.",
-      "[PLAYER]": "I'll go!"
-    },
-    "lf.blake.speech"
-  ],
-  "Wait": 10.0,
-  "MoveEntity": ["lf_player_intro", 193.5, 63.0, -678.5, 0.1, false],
-  "Dialog": [
-    {
-      "&6&lBlake": "Wait...",
-      "&6&lBlake": "The manager sent you?",
-      "[PLAYER]": "Yes, he heard a rumour that the food might not be ready on time?",
-      "&6&lBlake": "Why would the food not be-"
-    },
-    "lf.blake.speech"
-  ],
-  "EntityLook": ["lf_blake_standing", 192.5, 63.7, -675.5],
-  "Dialog": [
-    {
-      "&6&lBlake": "oh no, no, no, no, no, NO!"
-    },
-    "lf.blake.speech"
-  ],
-  "MoveEntity": ["lf_blake_standing", 194.3, 63.0, -675.5, 0.1, false],
-  "EntityLook": ["lf_blake_standing", 192.5, 63.7, -675.5],
-  "Dialog": [
-    {
-      "&6&lBlake": "My cake!",
-      "&6&lBlake": "This is the worst day of my life.",
-      "&6&lBlake": "The manager is going to KILL ME!"
-    },
-    "lf.blake.speech"
-  ],
-  "MoveEntity": ["lf_blake_standing", 195.6, 63.0, -674.4, 0.1, false],
-  "Show": "lf_blake_sleeping",
-  "Hide": "lf_blake_standing",
-  "Dialog": [
-    {
-      "[PLAYER]": "I doubt he will actually kill one of his assistants but... sure. Why do you think that though?",
-      "&6&lBlake": "See that cake over there?"
-    },
-    "lf.blake.speech"
-  ],
-  "ProgressiveDialog": [
-    {
-      "&6&lBlake": "That is supposed to be the centerpiece of the buffet during the festival.",
-      "&6&lBlake": "Give me your honest opinion about it.",
-      "[PLAYER]": "Well... eeuh..."
-    },
-    "lf.blake.speech"
-  ],
-  "MoveEntity": ["lf_player_intro", 194.2, 63.1, -677.1, 0.1, false],
-  "EntityLook": ["lf_player_intro", 192.5, 63.7, -675.5],
-  "Wait": 3.0,
-  "MoveEntity": ["lf_player_intro", 195.1, 63.0, -674.7, 0.1, false],
-  "EntityLook": ["lf_player_intro", 192.5, 63.7, -675.5],
-  "Wait": 3.0,
-  "MoveEntity": ["lf_player_intro", 194.2, 63.1, -677.1, 0.1, false],
-  "EntityLook": ["lf_player_intro", 192.5, 63.7, -675.5],
-  "Wait": 3.0,
-  "SendMessage": "&7Pick a reply:",
-  "SendMessageOptions": [
-    -1,
-    "&7-> &6It can use some work.",
-    "&7-> &6It looks amazing!"
-  ],
-  "Skip": "meh",
-  "Skip": "amazing",
-  "Comment": "meh",
-  "Dialog": [
-    {
-      "[PLAYER]": "It... has potential. Could use some love though.",
-      "&6&lBlake": "See, no-one ever said that about any of my cakes.",
-      "&6&lBlake": "I am the cake master for goodness sake!"
-    },
-    "lf.blake.speech"
-  ],
-  "Skip": "continue",
-  "Comment": "amazing",
-  "Dialog": [
-    {
-      "[PLAYER]": "It is one of the best cakes I have ever seen!",
-      "&6&lBlake": "You know you are a terrible liar, right?",
-      "&6&lBlake": "It looks terrible! I am supposed to be the cake master!"
-    },
-    "lf.blake.speech"
-  ],
-  "Comment": "continue",
-  "EntityLook": ["lf_player_intro", "lf_blake_sleeping"],
-  "Dialog": [
-    {
-      "[PLAYER]": "Don't be so hard on yourself. I am sure that with a little work, it can turn into a masterpiece!"
-    },
-    "lf.blake.speech"
-  ],
-  "Hide": "lf_blake_sleeping",
-  "Show": "lf_blake_standing",
-  "Dialog": [
-    {
-      "&6&lBlake": "Oh, it would for sure!",
-      "&6&lBlake": "But that would go a lot smoother if I had actual decorations to put on the cake!",
-      "[PLAYER]": "Did you run out?",
-      "&6&lBlake": "Something like that..."
-    },
-    "lf.blake.speech"
-  ],
+    "Start": "lf_util_disablecommands",
+    "Fade": [],
+    "Teleport": [191.7, 65.2, -678.7, -54, 35],
+    "Cinematic": [],
+    "SetScoreboard": "",
+    "HidePlayer": [],
+    "Wait": 1,
+    "Freeze": true,
+    "Show": "lf_blake_sleeping",
+    "Show": "lf_player_intro",
+    "ProgressiveDialog": [
+        {
+            "&6&lBlake": "&oSrnnk... pfieeeuw... srnnk... pfieeeeeeeeuuuuwwwww... SRNNNNKKKKKK...",
+            "[PLAYER]": "Uhm... hello? Anyone home?",
+            "&6&lBlake": "&o.. gotta bake it til- &f&lSRRNNNNKKKK &f&oI make it... &fpfieeeuww...",
+            "[PLAYER]": "Ahum. Good morning mister Blake!",
+            "&6&lBlake": "good... morning... hmmm..."
+        },
+        "lf.blake.speech"
+    ],
+    "Wait": 6.0,
+    "MoveEntity": ["lf_player_intro", 195.4, 63.1, -676.4, 0.1, false],
+    "Wait": 2.0,
+    "EntityLook": ["lf_player_intro", 194, 62, -674],
+    "Wait": 2.0,
+    "EntityLook": ["lf_player_intro", 197, 62, -674],
+    "Wait": 2.0,
+    "EntityLook": ["lf_player_intro", 196, 62, -674],
+    "MoveEntity": ["lf_player_intro", 195.3, 63.0, -674.6, 0.1, false],
+    "EntityLook": ["lf_player_intro", 196, 62, -674],
+    "AnimateEntity": ["lf_player_intro", "Swing Main Hand"],
+    "Wait": 0.5,
+    "AnimateEntity": ["lf_player_intro", "Swing Main Hand"],
+    "Wait": 0.5,
+    "AnimateEntity": ["lf_player_intro", "Swing Main Hand"],
+    "Wait": 0.5,
+    "MoveEntity": ["lf_player_intro", 195.4, 63.1, -676.4, 0.15, false],
+    "EntityLook": ["lf_player_intro", 196, 62, -674],
+    "Wait": 2.0,
+    "Wait": 2.0,
+    "EntityLook": ["lf_player_intro", 197, 62, -674],
+    "Wait": 2.0,
+    "EntityLook": ["lf_player_intro", 194, 62, -674],
+    "Wait": 2.0,
+    "EntityLook": ["lf_player_intro", "lf_blake_standing"],
+    "Hide": "lf_blake_sleeping",
+    "Show": "lf_blake_standing",
+    "Dialog": [
+        {
+            "&6&lBlake": "WHAT?",
+            "&6&lBlake": "Who are you??",
+            "&6&lBlake": "How did you get in here???",
+            "&6&lBlake": "Get out of my house!!!!"
+        },
+        30
+    ],
+    "ProgressiveDialog": [
+        {
+            "[PLAYER]": "I- I am so sorry!",
+            "[PLAYER]": "The manager told me to check if I could help you.",
+            "[PLAYER]": "I'll go!"
+        },
+        "lf.blake.speech"
+    ],
+    "Wait": 10.0,
+    "MoveEntity": ["lf_player_intro", 193.5, 63.0, -678.5, 0.1, false],
+    "Dialog": [
+        {
+            "&6&lBlake": "Wait...",
+            "&6&lBlake": "The manager sent you?",
+            "[PLAYER]": "Yes, he heard a rumour that the food might not be ready on time?",
+            "&6&lBlake": "Why would the food not be-"
+        },
+        "lf.blake.speech"
+    ],
+    "EntityLook": ["lf_blake_standing", 192.5, 63.7, -675.5],
+    "Dialog": [
+        {
+            "&6&lBlake": "oh no, no, no, no, no, NO!"
+        },
+        "lf.blake.speech"
+    ],
+    "MoveEntity": ["lf_blake_standing", 194.3, 63.0, -675.5, 0.1, false],
+    "EntityLook": ["lf_blake_standing", 192.5, 63.7, -675.5],
+    "Dialog": [
+        {
+            "&6&lBlake": "My cake!",
+            "&6&lBlake": "This is the worst day of my life.",
+            "&6&lBlake": "The manager is going to KILL ME!"
+        },
+        "lf.blake.speech"
+    ],
+    "MoveEntity": ["lf_blake_standing", 195.6, 63.0, -674.4, 0.1, false],
+    "Show": "lf_blake_sleeping",
+    "Hide": "lf_blake_standing",
+    "Dialog": [
+        {
+            "[PLAYER]": "I doubt he will actually kill one of his assistants but... sure. Why do you think that though?",
+            "&6&lBlake": "See that cake over there?"
+        },
+        "lf.blake.speech"
+    ],
+    "ProgressiveDialog": [
+        {
+            "&6&lBlake": "That is supposed to be the centerpiece of the buffet during the festival.",
+            "&6&lBlake": "Give me your honest opinion about it.",
+            "[PLAYER]": "Well... eeuh..."
+        },
+        "lf.blake.speech"
+    ],
+    "MoveEntity": ["lf_player_intro", 194.2, 63.1, -677.1, 0.1, false],
+    "EntityLook": ["lf_player_intro", 192.5, 63.7, -675.5],
+    "Wait": 3.0,
+    "MoveEntity": ["lf_player_intro", 195.1, 63.0, -674.7, 0.1, false],
+    "EntityLook": ["lf_player_intro", 192.5, 63.7, -675.5],
+    "Wait": 3.0,
+    "MoveEntity": ["lf_player_intro", 194.2, 63.1, -677.1, 0.1, false],
+    "EntityLook": ["lf_player_intro", 192.5, 63.7, -675.5],
+    "Wait": 3.0,
+    "SendMessage": "&7Pick a reply:",
+    "SendMessageOptions": [
+        -1,
+        "&7-> &6It can use some work.",
+        "&7-> &6It looks amazing!"
+    ],
+    "Skip": "meh",
+    "Skip": "amazing",
+    "Comment": "meh",
+    "Dialog": [
+        {
+            "[PLAYER]": "It... has potential. Could use some love though.",
+            "&6&lBlake": "See, no-one ever said that about any of my cakes.",
+            "&6&lBlake": "I am the cake master for goodness sake!"
+        },
+        "lf.blake.speech"
+    ],
+    "Skip": "continue",
+    "Comment": "amazing",
+    "Dialog": [
+        {
+            "[PLAYER]": "It is one of the best cakes I have ever seen!",
+            "&6&lBlake": "You know you are a terrible liar, right?",
+            "&6&lBlake": "It looks terrible! I am supposed to be the cake master!"
+        },
+        "lf.blake.speech"
+    ],
+    "Comment": "continue",
+    "EntityLook": ["lf_player_intro", "lf_blake_sleeping"],
+    "Dialog": [
+        {
+            "[PLAYER]": "Don't be so hard on yourself. I am sure that with a little work, it can turn into a masterpiece!"
+        },
+        "lf.blake.speech"
+    ],
+    "Hide": "lf_blake_sleeping",
+    "Show": "lf_blake_standing",
+    "Dialog": [
+        {
+            "&6&lBlake": "Oh, it would for sure!",
+            "&6&lBlake": "But that would go a lot smoother if I had actual decorations to put on the cake!",
+            "[PLAYER]": "Did you run out?",
+            "&6&lBlake": "Something like that..."
+        },
+        "lf.blake.speech"
+    ],
 
-  "Unfreeze": [],
-  "Hide": "lf_blake_standing",
-  "Hide": "lf_player_intro",
-  "Fade": [],
-  "Teleport": [532.5, 53.5, 628.5, 111, 25],
-  "Wait": 5,
-  "Teleport": [532.5, 53.5, 628.5, 111, 25],
-  "Freeze": true,
-  "Wait": 1,
-  "Show": "lf_meeting_manager",
-  "Show": "lf_meeting_becky",
-  "Show": "lf_meeting_blake",
-  "Show": "lf_meeting_regi",
-  "Dialog": [
-    {
-      "&4&lManager": "... are going to get it for us.",
-      "&b&lBecky": "Of course sir!"
-    },
-    "lf.blake.speech"
-  ],
-  "EntityLook": ["lf_meeting_manager", "lf_meeting_blake"],
-  "Dialog": [
-    {
-      "&4&lManager": "Now, for the others, how is the food going? Very important!",
-      "&6&lBlake": "Working on it sir!",
-      "&6&lBlake": "This festival will have the best combination of pies, cookies and my famous cake of course!",
-      "&4&lManager": "And everything will be ready on time?",
-      "&6&lBlake": "I will not let you down!",
-      "&4&lManager": "Perfect."
-    },
-    "lf.blake.speech"
-  ],
-  "EntityLook": ["lf_meeting_manager", "lf_meeting_regi"],
-  "Dialog": [
-    {
-      "&4&lManager": "Regi, how are the special effects coming along?"
-    },
-    "lf.blake.speech"
-  ],
-  "Dialog": [
-    {
-      "&a&lRegi": "They will be marvelous, just-"
-    },
-    45
-  ],
-  "Unfreeze": [],
-  "Hide": "lf_meeting_manager",
-  "Hide": "lf_meeting_becky",
-  "Hide": "lf_meeting_blake",
-  "Hide": "lf_meeting_regi",
-  "Fade": [],
-  "Teleport": [197.0, 65.0, -677.4, 61, 41],
-  "Wait": 1,
-  "Teleport": [197.0, 65.0, -677.4, 61, 41],
-  "Freeze": true,
-  "SetBlocks": [196, 64, -678, 196, 64, -677, "black_concrete"],
-  "SetBlocks": [195, 65, -678, 195, 66, -677, "black_concrete"],
-  "SetBlocks": [196, 67, -678, 196, 67, -677, "black_concrete"],
-  "SetBlocks": [196, 65, -676, 196, 66, -676, "black_concrete"],
-  "SetBlocks": [196, 65, -679, 196, 66, -679, "black_concrete"],
-  "SetBlocks": [197, 65, -676, 197, 67, -676, "black_concrete"],
-  "Wait": 4,
-  "Dialog": [
-    {
-      "&6&lBlake": "&oAfter the meeting, I came home. Ready to finish my signature cake..."
-    },
-    180
-  ],
-  "PlaySound": "block_wooden_door_open",
-  "Wait": 2.0,
-  "Show": "lf_disaster_blake",
-  "PlaySound": "block_wooden_door_close",
-  "Dialog": [
-    {
-      "&6&lBlake": "Aah, finally home.",
-      "&6&lBlake": "Where is that light switch again..."
-    },
-    "lf.blake.speech"
-  ],
-  "Wait": 2.0,
-  "SetBlocks": [196, 64, -678, 196, 64, -677, "air"],
-  "SetBlocks": [195, 65, -678, 195, 66, -677, "air"],
-  "SetBlocks": [196, 67, -678, 196, 67, -677, "air"],
-  "SetBlocks": [196, 65, -676, 196, 66, -676, "air"],
-  "SetBlocks": [196, 65, -679, 196, 66, -679, "air"],
-  "SetBlocks": [197, 65, -676, 197, 67, -676, "snow_block"],
-  "Show": "lf_disaster_moriarty",
-  "MoveEntity": ["lf_disaster_blake", 193.7, 63.1, -677.9, 0.1, false],
-  "PlaySound": "entity_lightning_bolt_impact",
-  "EntityLook": ["lf_disaster_moriarty", "lf_disaster_blake"],
-  "Dialog": [
-    {
-      "&8&l???": "I can never find that switch either.",
-      "&6&lBlake": "Wha- who- whe- who are you?",
-      "&8&l???": "Aaah Blake. You stupid little baker...",
-      "&8&l???": "My name is..."
-    },
-    "lf.blake.speech"
-  ],
-  "PlaySound": "entity_lightning_bolt_impact",
-  "Dialog": [
-    {
-      "&8&l???": "&lMoriarty&r!",
-      "&6&lBlake": "What are you doing here?",
-      "&8&lMoriarty": "Oh, nothing special. Just the casual visit, you know?",
-      "&8&lMoriarty": "I actually needed some of those sweet cake decorations so I borrowed them from you. But that is not an issue right?",
-      "&6&lBlake": "I need those decorations to finish this cake! It is really important for the light festival!",
-      "&8&lMoriarty": "Is it, now? I totally did not know that!",
-      "&6&lBlake": "So... can I have them back?"
-    },
-    "lf.blake.speech"
-  ],
-  "Hide": "lf_disaster_moriarty",
-  "Show": "lf_disaster_moriarty_standing",
-  "Dialog": [
-    {
-      "&8&lMoriarty": "Of course not! Muhahahaha! They are mine and the light festival will never happen!",
-      "&8&lMoriarty": "But I am a nice guy. And I am a little bored so... I will give you a shot at getting your decorations back.",
-      "&8&lMoriarty": "Meet me at the bridge to the gym and we will see who is stronger. The Almighty Moriarty or some poor little baker guy.",
-      "&6&lBlake": "I cannot believe this! Give me my stuff! NOW!"
-    },
-    "lf.blake.speech"
-  ],
-  "ProgressiveDialog": [
-    {
-      "&8&lMoriarty": "Time for a nice long nap, Blake."
-    },
-    "lf.blake.speech"
-  ],
-  "MoveEntity": ["lf_disaster_moriarty_standing", 194.3, 63.1, -677.1, 0.1, false],
-  "AnimateEntity": ["lf_disaster_moriarty_standing", "Swing Main Hand"],
-  "AnimateEntity": ["lf_disaster_blake", "Damage"],
-  "Wait": 0.5,
-  "Unfreeze": [],
-  "Hide": "lf_disaster_moriarty_standing",
-  "Hide": "lf_disaster_blake",
-  "Fade": [],
-  "Teleport": [191.7, 65.2, -678.7, -54, 35],
-  "Freeze": true,
-  "Show": "lf_blake_standing",
-  "Show": "lf_player_intro",
-  "TeleportEntity": ["lf_player_intro", 194.5, 63.0, -676.4, -14, 9],
-  "Dialog": [
-    {
-      "&6&lBlake": "... so now I don't have any decorations to finish this cake.",
-      "[PLAYER]": "Why don't you accept his challenge and get them back?",
-      "&6&lBlake": "I still have to finish all the cookies, the pies, the drinks AAAHHHH",
-      "&6&lBlake": "so much work with so little time!",
-      "[PLAYER]": "I'll do it.",
-      "&6&lBlake": "What did you say?",
-      "[PLAYER]": "I will challenge Moriarty and get your decorations back!",
-      "&6&lBlake": "Ok, you do that and I will fix the rest of the goodies! Let's show Moriarty I am not just a little baker guy!"
-    },
-    "lf.blake.speech"
-  ],
+    "Unfreeze": [],
+    "Hide": "lf_blake_standing",
+    "Hide": "lf_player_intro",
+    "Fade": [],
+    "Teleport": [532.5, 53.5, 628.5, 111, 25],
+    "Wait": 5,
+    "Teleport": [532.5, 53.5, 628.5, 111, 25],
+    "Freeze": true,
+    "Wait": 1,
+    "Show": "lf_meeting_manager",
+    "Show": "lf_meeting_becky",
+    "Show": "lf_meeting_blake",
+    "Show": "lf_meeting_regi",
+    "Dialog": [
+        {
+            "&4&lManager": "... are going to get it for us.",
+            "&b&lBecky": "Of course sir!"
+        },
+        "lf.blake.speech"
+    ],
+    "EntityLook": ["lf_meeting_manager", "lf_meeting_blake"],
+    "Dialog": [
+        {
+            "&4&lManager": "Now, for the others, how is the food going? Very important!",
+            "&6&lBlake": "Working on it sir!",
+            "&6&lBlake": "This festival will have the best combination of pies, cookies and my famous cake of course!",
+            "&4&lManager": "And everything will be ready on time?",
+            "&6&lBlake": "I will not let you down!",
+            "&4&lManager": "Perfect."
+        },
+        "lf.blake.speech"
+    ],
+    "EntityLook": ["lf_meeting_manager", "lf_meeting_regi"],
+    "Dialog": [
+        {
+            "&4&lManager": "Regi, how are the special effects coming along?"
+        },
+        "lf.blake.speech"
+    ],
+    "Dialog": [
+        {
+            "&a&lRegi": "They will be marvelous, just-"
+        },
+        45
+    ],
+    "Unfreeze": [],
+    "Hide": "lf_meeting_manager",
+    "Hide": "lf_meeting_becky",
+    "Hide": "lf_meeting_blake",
+    "Hide": "lf_meeting_regi",
+    "Fade": [],
+    "Teleport": [197.0, 65.0, -677.4, 61, 41],
+    "Wait": 1,
+    "Teleport": [197.0, 65.0, -677.4, 61, 41],
+    "Freeze": true,
+    "SetBlocks": [196, 64, -678, 196, 64, -677, "black_concrete"],
+    "SetBlocks": [195, 65, -678, 195, 66, -677, "black_concrete"],
+    "SetBlocks": [196, 67, -678, 196, 67, -677, "black_concrete"],
+    "SetBlocks": [196, 65, -676, 196, 66, -676, "black_concrete"],
+    "SetBlocks": [196, 65, -679, 196, 66, -679, "black_concrete"],
+    "SetBlocks": [197, 65, -676, 197, 67, -676, "black_concrete"],
+    "Wait": 4,
+    "Dialog": [
+        {
+            "&6&lBlake": "&oAfter the meeting, I came home. Ready to finish my signature cake..."
+        },
+        180
+    ],
+    "PlaySound": "block_wooden_door_open",
+    "Wait": 2.0,
+    "Show": "lf_disaster_blake",
+    "PlaySound": "block_wooden_door_close",
+    "Dialog": [
+        {
+            "&6&lBlake": "Aah, finally home.",
+            "&6&lBlake": "Where is that light switch again..."
+        },
+        "lf.blake.speech"
+    ],
+    "Wait": 2.0,
+    "SetBlocks": [196, 64, -678, 196, 64, -677, "air"],
+    "SetBlocks": [195, 65, -678, 195, 66, -677, "air"],
+    "SetBlocks": [196, 67, -678, 196, 67, -677, "air"],
+    "SetBlocks": [196, 65, -676, 196, 66, -676, "air"],
+    "SetBlocks": [196, 65, -679, 196, 66, -679, "air"],
+    "SetBlocks": [197, 65, -676, 197, 67, -676, "snow_block"],
+    "Show": "lf_disaster_moriarty",
+    "MoveEntity": ["lf_disaster_blake", 193.7, 63.1, -677.9, 0.1, false],
+    "PlaySound": "entity_lightning_bolt_impact",
+    "EntityLook": ["lf_disaster_moriarty", "lf_disaster_blake"],
+    "Dialog": [
+        {
+            "&8&l???": "I can never find that switch either.",
+            "&6&lBlake": "Wha- who- whe- who are you?",
+            "&8&l???": "Aaah Blake. You stupid little baker...",
+            "&8&l???": "My name is..."
+        },
+        "lf.blake.speech"
+    ],
+    "PlaySound": "entity_lightning_bolt_impact",
+    "Dialog": [
+        {
+            "&8&l???": "&lMoriarty&r!",
+            "&6&lBlake": "What are you doing here?",
+            "&8&lMoriarty": "Oh, nothing special. Just the casual visit, you know?",
+            "&8&lMoriarty": "I actually needed some of those sweet cake decorations so I borrowed them from you. But that is not an issue right?",
+            "&6&lBlake": "I need those decorations to finish this cake! It is really important for the light festival!",
+            "&8&lMoriarty": "Is it, now? I totally did not know that!",
+            "&6&lBlake": "So... can I have them back?"
+        },
+        "lf.blake.speech"
+    ],
+    "Hide": "lf_disaster_moriarty",
+    "Show": "lf_disaster_moriarty_standing",
+    "Dialog": [
+        {
+            "&8&lMoriarty": "Of course not! Muhahahaha! They are mine and the light festival will never happen!",
+            "&8&lMoriarty": "But I am a nice guy. And I am a little bored so... I will give you a shot at getting your decorations back.",
+            "&8&lMoriarty": "Meet me at the bridge to the gym and we will see who is stronger. The Almighty Moriarty or some poor little baker guy.",
+            "&6&lBlake": "I cannot believe this! Give me my stuff! NOW!"
+        },
+        "lf.blake.speech"
+    ],
+    "ProgressiveDialog": [
+        {
+            "&8&lMoriarty": "Time for a nice long nap, Blake."
+        },
+        "lf.blake.speech"
+    ],
+    "MoveEntity": ["lf_disaster_moriarty_standing", 194.3, 63.1, -677.1, 0.1, false],
+    "AnimateEntity": ["lf_disaster_moriarty_standing", "Swing Main Hand"],
+    "AnimateEntity": ["lf_disaster_blake", "Damage"],
+    "Wait": 0.5,
+    "Unfreeze": [],
+    "Hide": "lf_disaster_moriarty_standing",
+    "Hide": "lf_disaster_blake",
+    "Fade": [],
+    "Teleport": [191.7, 65.2, -678.7, -54, 35],
+    "Freeze": true,
+    "Show": "lf_blake_standing",
+    "Show": "lf_player_intro",
+    "TeleportEntity": ["lf_player_intro", 194.5, 63.0, -676.4, -14, 9],
+    "Dialog": [
+        {
+            "&6&lBlake": "... so now I don't have any decorations to finish this cake.",
+            "[PLAYER]": "Why don't you accept his challenge and get them back?",
+            "&6&lBlake": "I still have to finish all the cookies, the pies, the drinks AAAHHHH",
+            "&6&lBlake": "so much work with so little time!",
+            "[PLAYER]": "I'll do it.",
+            "&6&lBlake": "What did you say?",
+            "[PLAYER]": "I will challenge Moriarty and get your decorations back!",
+            "&6&lBlake": "Ok, you do that and I will fix the rest of the goodies! Let's show Moriarty I am not just a little baker guy!"
+        },
+        "lf.blake.speech"
+    ],
 
-  "Unfreeze": [],
-  "Hide": "lf_player_intro",
-  "Fade": [],
-  "Teleport": [194.5, 63.0, -676.4, -14, 9],
-  "Leave": "lf_util_disablecommands",
-  "StopCinematic": [],
-  "Wait": 2.0,
-  "PlaySound": "entity_enderman_teleport",
-  "Particle": ["portal", 194.7, 64.0, -674.6, 50, 0.6],
-  "Hide": "lf_blake_standing",
-  "Complete": [],
-  "Wait": 2,
-  "Progress": "lf_blake",
-  "Progress": "lf_util_objective_handler"
+    "Unfreeze": [],
+    "Hide": "lf_player_intro",
+    "Fade": [],
+    "Teleport": [194.5, 63.0, -676.4, -14, 9],
+    "Leave": "lf_util_disablecommands",
+    "StopCinematic": [],
+    "Wait": 2.0,
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", 194.7, 64.0, -674.6, 50, 0.6],
+    "Hide": "lf_blake_standing",
+    "Complete": [],
+    "Wait": 2,
+    "Progress": "lf_blake",
+    "Progress": "lf_util_objective_handler"
 }

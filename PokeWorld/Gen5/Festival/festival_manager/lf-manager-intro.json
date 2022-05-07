@@ -1,31 +1,31 @@
 {
-  "Key": "lf_manager_intro",
-  "Author": "Mmaarten",
+    "Key": "lf_manager_intro",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.manager.speech", 90],
-  "Start": "lf_util_disablecommands",
-  "Dialog": [
-    {
-      "&4&lManager": "Busy, busy, busy...",
-      "&4&lManager": "What do you need?",
-      "[PLAYER]": "You look a bit... stressed. Everything okay?",
-      "&4&lManager": "So much to do with so little time!",
-      "[PLAYER]": "What is going on here?",
-      "&4&lManager": "Can't you see?",
-      "&4&lManager": "The light festival of course!",
-      "&4&lManager": "They asked me to organize it this year.",
-      "&4&lManager": "and it is work, work, work!",
-      "[PLAYER]": "Any way i can help?",
-      "&4&lManager": "&oYou?",
-      "&4&lManager": "Pffff, I guess.",
-      "&4&lManager": "Why don't you pick up the &6&lcopper wire&r from &e&lWatterson City&r?",
-      "&4&lManager": "My assistant, &bBecky&r, is supposed to get it but it is taking forever.",
-      "&4&l&lManager": "And we don't have time!"
-    },
-    "lf.manager.speech"
-  ],
-  "Leave": "lf_util_disablecommands",
-  "Complete": [],
-  "Progress": "lf_manager",
-  "Progress": "lf_util_objective_handler"
+    "Store": ["lf.manager.speech", 90],
+    "Start": "lf_util_disablecommands",
+    "Dialog": [
+        {
+            "&4&lManager": "Busy, busy, busy...",
+            "&4&lManager": "What do you need?",
+            "[PLAYER]": "You look a bit... stressed. Everything okay?",
+            "&4&lManager": "So much to do with so little time!",
+            "[PLAYER]": "What is going on here?",
+            "&4&lManager": "Can't you see?",
+            "&4&lManager": "The light festival of course!",
+            "&4&lManager": "They asked me to organize it this year.",
+            "&4&lManager": "and it is work, work, work!",
+            "[PLAYER]": "Any way i can help?",
+            "&4&lManager": "&oYou?",
+            "&4&lManager": "Pffff, I guess.",
+            "&4&lManager": "Why don't you pick up the &6&lcopper wire&r from &e&lWatterson City&r?",
+            "&4&lManager": "My assistant, &bBecky&r, is supposed to get it but it is taking forever.",
+            "&4&l&lManager": "And we don't have time!"
+        },
+        "lf.manager.speech"
+    ],
+    "Leave": "lf_util_disablecommands",
+    "Complete": [],
+    "Progress": "lf_manager",
+    "Progress": "lf_util_objective_handler"
 }

@@ -1,109 +1,109 @@
 {
-  "Key": "lf_task_copper_wires",
-  "Author": "Mmaarten",
+    "Key": "lf_task_copper_wires",
+    "Author": "Mmaarten",
 
-  "Comment": "script_entry_point",
-  "Start": "lf_task_copper_wires_highlight",
-  "CumulativePickupItem": [
-    42.0, 52.0, 232.0,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (1/10)",
+    "Comment": "script_entry_point",
+    "Start": "lf_task_copper_wires_highlight",
+    "CumulativePickupItem": [
+        42.0, 52.0, 232.0,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (1/10)",
 
-  "CumulativePickupItem": [
-    37.5, 53.0, 362.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (2/10)",
+    "CumulativePickupItem": [
+        37.5, 53.0, 362.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (2/10)",
 
-  "CumulativePickupItem": [
-    77.5, 45.0, 421.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (3/10)",
+    "CumulativePickupItem": [
+        77.5, 45.0, 421.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (3/10)",
 
-  "CumulativePickupItem": [
-    -51.5, 60.0, 336.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (4/10)",
+    "CumulativePickupItem": [
+        -51.5, 60.0, 336.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (4/10)",
 
-  "CumulativePickupItem": [
-    139.5, 56.5, 291.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (5/10)",
+    "CumulativePickupItem": [
+        139.5, 56.5, 291.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (5/10)",
 
-  "CumulativePickupItem": [
-    -44.5, 55.0, 252.0,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (6/10)",
+    "CumulativePickupItem": [
+        -44.5, 55.0, 252.0,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (6/10)",
 
-  "CumulativePickupItem": [
-    109.5, 63.0, 304.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (7/10)",
+    "CumulativePickupItem": [
+        109.5, 63.0, 304.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (7/10)",
 
-  "CumulativePickupItem": [
-    103.1, 60.0, 275.5,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (8/10)",
+    "CumulativePickupItem": [
+        103.1, 60.0, 275.5,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (8/10)",
 
-  "CumulativePickupItem": [
-    32.5, 54.0, 202.7,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (9/10)",
+    "CumulativePickupItem": [
+        32.5, 54.0, 202.7,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (9/10)",
 
-  "CumulativePickupItem": [
-    -97.7, 49.0, 242.3,
-    "Scrap",
-    {
-      "material": "copper_wire",
-      "glow": true
-    }
-  ],
-  "SendMessage": "&7+1 Copper wire scrap. (10/10)",
-  "Complete": [],
-  "Progress": "lf_util_objective_handler",
-  "Leave": "lf_task_copper_wires_highlight"
+    "CumulativePickupItem": [
+        -97.7, 49.0, 242.3,
+        "Scrap",
+        {
+            "material": "copper_wire",
+            "glow": true
+        }
+    ],
+    "SendMessage": "&7+1 Copper wire scrap. (10/10)",
+    "Complete": [],
+    "Progress": "lf_util_objective_handler",
+    "Leave": "lf_task_copper_wires_highlight"
 }

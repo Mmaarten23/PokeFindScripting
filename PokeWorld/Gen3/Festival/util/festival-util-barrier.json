@@ -1,40 +1,40 @@
 {
-  "Key": "festival_util_barrier",
-  "Author": "Mmaarten",
-  "GlobalRegionEntry": [
-    -138, 31, 504,
-    -135, 37, 508
-  ],
-  "Skip": "entered_stage",
-  "GlobalRegionEntry": [
-    -134, 31, 505,
-    -127, 37, 507
-  ],
-  "Skip": "entered_stage",
-  "GlobalRegionEntry": [
-    -132, 31, 508,
-    -130, 37, 510
-  ],
-  "Skip": "entered_stage",
-  "GlobalRegionEntry": [
-    -126, 31, 504,
-    -124, 37, 508
-  ],
-  "Skip": "entered_stage",
-  "GlobalRegionEntry": [
-    -123, 31, 503,
-    -118, 37, 509
-  ],
-  "Skip": "entered_stage",
-  "GlobalRegionEntry": [
-    -117, 31, 487,
-    -19, 37, 525
-  ],
-  "Skip": "entered_stage",
-  "Skip": "hold",
-  "Comment": "entered_stage",
-  "SendMessage": "&4Please do not enter the stage during the festival!",
-  "Teleport": [-154.5, 29.0, 506.5, -90],
-  "Comment": "hold",
-  "Hold": []
+    "Key": "festival_util_barrier",
+    "Author": "Mmaarten",
+    "GlobalRegionEntry": [
+        -138, 31, 504,
+        -135, 37, 508
+    ],
+    "Skip": "entered_stage",
+    "GlobalRegionEntry": [
+        -134, 31, 505,
+        -127, 37, 507
+    ],
+    "Skip": "entered_stage",
+    "GlobalRegionEntry": [
+        -132, 31, 508,
+        -130, 37, 510
+    ],
+    "Skip": "entered_stage",
+    "GlobalRegionEntry": [
+        -126, 31, 504,
+        -124, 37, 508
+    ],
+    "Skip": "entered_stage",
+    "GlobalRegionEntry": [
+        -123, 31, 503,
+        -118, 37, 509
+    ],
+    "Skip": "entered_stage",
+    "GlobalRegionEntry": [
+        -117, 31, 487,
+        -19, 37, 525
+    ],
+    "Skip": "entered_stage",
+    "Skip": "hold",
+    "Comment": "entered_stage",
+    "SendMessage": "&4Please do not enter the stage during the festival!",
+    "Teleport": [-154.5, 29.0, 506.5, -90],
+    "Comment": "hold",
+    "Hold": []
 }

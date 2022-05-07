@@ -1,24 +1,24 @@
 {
-  "Key": "lf_blake_end",
-  "Author": "Mmaarten",
+    "Key": "lf_blake_end",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.blake.speech", 90],
+    "Store": ["lf.blake.speech", 90],
 
-  "Dialog": [
-    {
-      "&6&lBlake": "Oh it is you again! Wait... are those... my decorations?!",
-      "[PLAYER]": "That moriarty dude was no match for me.",
-      "&6&lBlake": "I don't know how to thank you!",
-      "&6&lBlake": "I have to hurry, I will take this first batch of cookies to the manager, can you take the second?",
-      "[PLAYER]": "Sure!",
-      "&6&lBlake": "See ya!"
-    },
-    "lf.becky.speech"
-  ],
-  "Complete": [],
-  "Wait": 1,
-  "PlaySound": "entity_enderman_teleport",
-  "Particle": ["portal", 189.6, 63.1, -675.9, 100, 0.6],
-  "Progress": "lf_blake",
-  "Progress": "lf_util_objective_handler"
+    "Dialog": [
+        {
+            "&6&lBlake": "Oh it is you again! Wait... are those... my decorations?!",
+            "[PLAYER]": "That moriarty dude was no match for me.",
+            "&6&lBlake": "I don't know how to thank you!",
+            "&6&lBlake": "I have to hurry, I will take this first batch of cookies to the manager, can you take the second?",
+            "[PLAYER]": "Sure!",
+            "&6&lBlake": "See ya!"
+        },
+        "lf.becky.speech"
+    ],
+    "Complete": [],
+    "Wait": 1,
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", 189.6, 63.1, -675.9, 100, 0.6],
+    "Progress": "lf_blake",
+    "Progress": "lf_util_objective_handler"
 }

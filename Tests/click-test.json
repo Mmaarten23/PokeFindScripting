@@ -1,9 +1,8 @@
-
 {
     "Key": "click_test",
     "ClickPlayer": "clicked_player",
     "SendMessage": "You clicked [clicked_player]. Making them start the script...",
-    "StartPlayer": [ "clicked_player", "click_test", 1.0, "Player 2 start" ],
+    "StartPlayer": ["clicked_player", "click_test", 1.0, "Player 2 start"],
     "Wait": 3.0,
     "SendMessage": "time reset",
     "Leave": [],

@@ -1,115 +1,115 @@
 {
-  "Key": "lf_task_save_food_dummy_10",
-  "Author": "Mmaarten",
+    "Key": "lf_task_save_food_dummy_10",
+    "Author": "Mmaarten",
 
-  "CreateEntity": {
-    "key": "dummy_10_item_correct",
-    "entity": "ARMOR_STAND",
-    "location": [-1201.5, 51.6, -866.5, -90],
-    "visible": false,
-    "helmet": {
-      "material": "apple",
-      "glow": true
-    }
-  },
-  "CreateEntity": {
-    "key": "dummy_10_item_wrong",
-    "entity": "ARMOR_STAND",
-    "location": [-1201.5, 51.9, -866.5, -90],
-    "visible": false,
-    "helmet": {
-      "material": "TNT"
-    }
-  },
-  "CreateEntity": {
-    "key": "dummy_10_detection",
-    "entity": "SLIME",
-    "location": [-1201.5, 53.5, -866.5],
-    "size": 2,
-    "visible": false,
-    "look": false
-  },
+    "CreateEntity": {
+        "key": "dummy_10_item_correct",
+        "entity": "ARMOR_STAND",
+        "location": [-1201.5, 51.6, -866.5, -90],
+        "visible": false,
+        "helmet": {
+            "material": "apple",
+            "glow": true
+        }
+    },
+    "CreateEntity": {
+        "key": "dummy_10_item_wrong",
+        "entity": "ARMOR_STAND",
+        "location": [-1201.5, 51.9, -866.5, -90],
+        "visible": false,
+        "helmet": {
+            "material": "TNT"
+        }
+    },
+    "CreateEntity": {
+        "key": "dummy_10_detection",
+        "entity": "SLIME",
+        "location": [-1201.5, 53.5, -866.5],
+        "size": 2,
+        "visible": false,
+        "look": false
+    },
 
-  "CreateCustomEntity": ["dummy_10", "dummy_10_detection", "dummy_10_item_correct", "dummy_10_item_wrong"],
-  "Server": [],
-  "Hide": "dummy_10",
-  "Server": [],
-  "TeleportEntity": ["dummy_10", 165.5, 56.0, -479.5],
-  "GlobalClickEntity": "dummy_10_detection",
-  "Skip": "hit",
+    "CreateCustomEntity": ["dummy_10", "dummy_10_detection", "dummy_10_item_correct", "dummy_10_item_wrong"],
+    "Server": [],
+    "Hide": "dummy_10",
+    "Server": [],
+    "TeleportEntity": ["dummy_10", 165.5, 56.0, -479.5],
+    "GlobalClickEntity": "dummy_10_detection",
+    "Skip": "hit",
 
-  "LeaveScript": [],
-  "Set": ["lf_blake_task_dummy_10", "REMOVE"],
-  "LeaveScript": [],
-  "Hide": "dummy_10_item_correct",
-  "LeaveScript": [],
-  "Hide": "dummy_10_item_wrong",
+    "LeaveScript": [],
+    "Set": ["lf_blake_task_dummy_10", "REMOVE"],
+    "LeaveScript": [],
+    "Hide": "dummy_10_item_correct",
+    "LeaveScript": [],
+    "Hide": "dummy_10_item_wrong",
 
-  "Show": "dummy_10",
-  "If": [],
-  "Chance": 0.7,
-  "Skip": "good",
-  "Skip": "bad",
+    "Show": "dummy_10",
+    "If": [],
+    "Chance": 0.7,
+    "Skip": "good",
+    "Skip": "bad",
 
-  "Comment": "good",
-  "Set": ["lf_blake_task_dummy_10", "correct"],
-  "Hide": "dummy_10_item_wrong",
-  "Skip": "select_pos",
+    "Comment": "good",
+    "Set": ["lf_blake_task_dummy_10", "correct"],
+    "Hide": "dummy_10_item_wrong",
+    "Skip": "select_pos",
 
-  "Comment": "bad",
-  "Set": ["lf_blake_task_dummy_10", "wrong"],
-  "Hide": "dummy_10_item_correct",
-  "Skip": "select_pos",
+    "Comment": "bad",
+    "Set": ["lf_blake_task_dummy_10", "wrong"],
+    "Hide": "dummy_10_item_correct",
+    "Skip": "select_pos",
 
-  "Comment": "select_pos",
-  "RandomOption": 9,
-  "TeleportEntity": ["dummy_10", 161.5, 57.0, -477.5, 0],
-  "TeleportEntity": ["dummy_10", 162.5, 57.0, -477.5, 0],
-  "TeleportEntity": ["dummy_10", 163.5, 57.0, -477.5, 0],
-  "TeleportEntity": ["dummy_10", 164.5, 57.0, -477.5, 0],
-  "TeleportEntity": ["dummy_10", 165.5, 57.0, -477.5, 0],
-  "TeleportEntity": ["dummy_10", 166.5, 57.0, -477.5, 0],
-  "TeleportEntity": ["dummy_10", 167.5, 57.0, -477.5, 0],
-  "TeleportEntity": ["dummy_10", 168.5, 57.0, -477.5, 0],
-  "TeleportEntity": ["dummy_10", 169.5, 57.0, -477.5, 0],
+    "Comment": "select_pos",
+    "RandomOption": 9,
+    "TeleportEntity": ["dummy_10", 161.5, 57.0, -477.5, 0],
+    "TeleportEntity": ["dummy_10", 162.5, 57.0, -477.5, 0],
+    "TeleportEntity": ["dummy_10", 163.5, 57.0, -477.5, 0],
+    "TeleportEntity": ["dummy_10", 164.5, 57.0, -477.5, 0],
+    "TeleportEntity": ["dummy_10", 165.5, 57.0, -477.5, 0],
+    "TeleportEntity": ["dummy_10", 166.5, 57.0, -477.5, 0],
+    "TeleportEntity": ["dummy_10", 167.5, 57.0, -477.5, 0],
+    "TeleportEntity": ["dummy_10", 168.5, 57.0, -477.5, 0],
+    "TeleportEntity": ["dummy_10", 169.5, 57.0, -477.5, 0],
 
-  "Wait": 1.0,
-  "MoveEntityRelative": ["dummy_10", 0.0, -17.0, 0.0, 0.15, false],
-  "Skip": "bottom_reached",
-
-
-  "Comment": "hit",
-  "If": [],
-  "Equals": ["lf_blake_task_dummy_10", "wrong"],
-  "Skip": "hit_wrong",
-  "Skip": "hit_correct",
-
-  "Comment": "hit_wrong",
-  "PlaySound": "entity_generic_explode",
-  "Hide": "dummy_10_item_wrong",
-  "Add": ["lf_blake_task_lives", -1],
-  "Set": ["lf_blake_task_dummy_10", "wrong_hit"],
-  "TeleportEntity": ["dummy_10", 165.5, 56.0, -479.5],
-  "Leave": [],
-
-  "Comment": "hit_correct",
-  "PlaySound": "entity_player_levelup",
-  "Hide": "dummy_10_item_correct",
-  "Add": ["lf_blake_task_correct", 1],
-  "Set": ["lf_blake_task_dummy_10", "correct_hit"],
-  "TeleportEntity": ["dummy_10", 165.5, 56.0, -479.5],
-  "Leave": [],
+    "Wait": 1.0,
+    "MoveEntityRelative": ["dummy_10", 0.0, -17.0, 0.0, 0.15, false],
+    "Skip": "bottom_reached",
 
 
-  "Comment": "bottom_reached",
-  "TeleportEntity": ["dummy_10", 165.5, 56.0, -479.5],
-  "Wait": 1,
-  "Hide": "dummy_10",
-  "If": [],
-  "Equals": ["lf_blake_task_dummy_10", "correct"],
-  "Skip": "mistake",
-  "Leave": [],
-  "Comment": "mistake",
-  "Add": ["lf_blake_task_lives", -1],
-  "PlaySound": "entity_generic_burn"
+    "Comment": "hit",
+    "If": [],
+    "Equals": ["lf_blake_task_dummy_10", "wrong"],
+    "Skip": "hit_wrong",
+    "Skip": "hit_correct",
+
+    "Comment": "hit_wrong",
+    "PlaySound": "entity_generic_explode",
+    "Hide": "dummy_10_item_wrong",
+    "Add": ["lf_blake_task_lives", -1],
+    "Set": ["lf_blake_task_dummy_10", "wrong_hit"],
+    "TeleportEntity": ["dummy_10", 165.5, 56.0, -479.5],
+    "Leave": [],
+
+    "Comment": "hit_correct",
+    "PlaySound": "entity_player_levelup",
+    "Hide": "dummy_10_item_correct",
+    "Add": ["lf_blake_task_correct", 1],
+    "Set": ["lf_blake_task_dummy_10", "correct_hit"],
+    "TeleportEntity": ["dummy_10", 165.5, 56.0, -479.5],
+    "Leave": [],
+
+
+    "Comment": "bottom_reached",
+    "TeleportEntity": ["dummy_10", 165.5, 56.0, -479.5],
+    "Wait": 1,
+    "Hide": "dummy_10",
+    "If": [],
+    "Equals": ["lf_blake_task_dummy_10", "correct"],
+    "Skip": "mistake",
+    "Leave": [],
+    "Comment": "mistake",
+    "Add": ["lf_blake_task_lives", -1],
+    "PlaySound": "entity_generic_burn"
 }

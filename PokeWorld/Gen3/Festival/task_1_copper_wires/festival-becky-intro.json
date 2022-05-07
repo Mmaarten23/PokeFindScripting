@@ -1,364 +1,364 @@
 {
-  "Key": "festival_becky_intro",
-  "Author": "Mmaarten",
+    "Key": "festival_becky_intro",
+    "Author": "Mmaarten",
 
-  "Store": ["festival.becky.speech", 90],
+    "Store": ["festival.becky.speech", 90],
 
-  "CreateEntity": {
-    "key": "festival_becky_on_bench",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+    "CreateEntity": {
+        "key": "festival_becky_on_bench",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+        },
+        "location": [-302.5, 30.9, -46.5, 180, 50],
+        "hand": {
+            "material": "paper"
+        },
+        "sitting": true,
+        "look": false
     },
-    "location": [-302.5, 30.9, -46.5, 180, 50],
-    "hand": {
-      "material": "paper"
+    "Server": [],
+    "Hide": "festival_becky_on_bench",
+
+    "CreateEntity": {
+        "key": "festival_player_on_bench",
+        "entity": "PLAYER",
+        "skin": "[PLAYER]",
+        "location": [-301.0, 31.0, -46.5, 108, 15],
+        "sitting": true,
+        "look": false
     },
-    "sitting": true,
-    "look": false
-  },
-  "Server": [],
-  "Hide": "festival_becky_on_bench",
+    "Server": [],
+    "Hide": "festival_player_on_bench",
 
-  "CreateEntity": {
-    "key": "festival_player_on_bench",
-    "entity": "PLAYER",
-    "skin": "[PLAYER]",
-    "location": [-301.0, 31.0, -46.5, 108, 15],
-    "sitting": true,
-    "look": false
-  },
-  "Server": [],
-  "Hide": "festival_player_on_bench",
-
-  "CreateEntity": {
-    "key": "festival_player_intro",
-    "entity": "PLAYER",
-    "skin": "[PLAYER]",
-    "location": [-302.4, 29.9, -49.8, 0],
-    "look": false
-  },
-  "Server": [],
-  "Hide": "festival_player_intro",
-
-  "CreateEntity": {
-    "key": "festival_meeting_manager",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODc5NTM5NjE0NDAsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNTMxODBmYjJkZjZjMmYzZDU1ZWQ5NjgzYjI2YWQ2YTM5YTkxYjI5ZmYyZjYyYjU0MzAxYmZjOWVmNmNiOWIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
-      "signature": "vxhqXDtT6PIXR9oVtjfK5prtd9jgJZJaNS8Tc2ufPIxgtWP525md5+fQ3UdzmsKBcY9oaOeHf/y4/o7LvvzLA/T8/agx5sej5oh/CEYiSFaQu8sRXziPuRNmwan27SgNYBIiM4n763sb2L0tAoO2+fK7Kr5GucbiLR7Irv6Vi2lUsoD5gDGsOgZwhkd4sZbAKYuDBKMegmob+nTm+tvn24UGgayD6VfNe6vrH8MrDwUDGTRRUdZFTRP4zAb3kJhenGOOb+CSAZpePCMNvwpXqcsX/VRCOHFHFUaL3qZpa2r550WqiVCpqnDYLiN2Vul6Mp8S6TJqhHRsUuOzwcFeDm8geEHCK4Myx1c3mUOruzaOumHS/RZD2FHCkNMqtBEbNASueSRpOQk3s7549aRB1Y7MvNqT36MiZwo+Qah+uHb4asR1zPeCAYPIUoDMIlpY0yrRPQsg5iUU8Yw2hlPam4ejL3rSVdnITfUUZl9MAXOSihOU1iLa7tXlxQMB3xL3eyGWjCNM8L1mFvW63JxWBKgbyi2G/9n7+CFKWRFEubbypsXWb88AiAnXtb/2n6Cr8KWOAfUZNMEL9XR8zhKBOhjyYZG4rnfsmEt+MnwCpVsOJ2bdiTE6fKo354ph1beok9jrb9f1LRwgSeWfISNsMQBuWRdZ93XWEKgCJAQnRWs="
+    "CreateEntity": {
+        "key": "festival_player_intro",
+        "entity": "PLAYER",
+        "skin": "[PLAYER]",
+        "location": [-302.4, 29.9, -49.8, 0],
+        "look": false
     },
-    "location": [-220.5, 37.5, 518.5, 90, 8],
-    "hand": {
-      "material": "writable_book"
+    "Server": [],
+    "Hide": "festival_player_intro",
+
+    "CreateEntity": {
+        "key": "festival_meeting_manager",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODc5NTM5NjE0NDAsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNTMxODBmYjJkZjZjMmYzZDU1ZWQ5NjgzYjI2YWQ2YTM5YTkxYjI5ZmYyZjYyYjU0MzAxYmZjOWVmNmNiOWIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
+            "signature": "vxhqXDtT6PIXR9oVtjfK5prtd9jgJZJaNS8Tc2ufPIxgtWP525md5+fQ3UdzmsKBcY9oaOeHf/y4/o7LvvzLA/T8/agx5sej5oh/CEYiSFaQu8sRXziPuRNmwan27SgNYBIiM4n763sb2L0tAoO2+fK7Kr5GucbiLR7Irv6Vi2lUsoD5gDGsOgZwhkd4sZbAKYuDBKMegmob+nTm+tvn24UGgayD6VfNe6vrH8MrDwUDGTRRUdZFTRP4zAb3kJhenGOOb+CSAZpePCMNvwpXqcsX/VRCOHFHFUaL3qZpa2r550WqiVCpqnDYLiN2Vul6Mp8S6TJqhHRsUuOzwcFeDm8geEHCK4Myx1c3mUOruzaOumHS/RZD2FHCkNMqtBEbNASueSRpOQk3s7549aRB1Y7MvNqT36MiZwo+Qah+uHb4asR1zPeCAYPIUoDMIlpY0yrRPQsg5iUU8Yw2hlPam4ejL3rSVdnITfUUZl9MAXOSihOU1iLa7tXlxQMB3xL3eyGWjCNM8L1mFvW63JxWBKgbyi2G/9n7+CFKWRFEubbypsXWb88AiAnXtb/2n6Cr8KWOAfUZNMEL9XR8zhKBOhjyYZG4rnfsmEt+MnwCpVsOJ2bdiTE6fKo354ph1beok9jrb9f1LRwgSeWfISNsMQBuWRdZ93XWEKgCJAQnRWs="
+        },
+        "location": [-220.5, 37.5, 518.5, 90, 8],
+        "hand": {
+            "material": "writable_book"
+        },
+        "sitting": true,
+        "look": false
     },
-    "sitting": true,
-    "look": false
-  },
-  "Server": [],
-  "Hide": "festival_meeting_manager",
+    "Server": [],
+    "Hide": "festival_meeting_manager",
 
-  "CreateEntity": {
-    "key": "festival_meeting_becky",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+    "CreateEntity": {
+        "key": "festival_meeting_becky",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+        },
+        "location": [-228.0, 37.5, 521.1, -108],
+        "sitting": true
     },
-    "location": [-228.0, 37.5, 521.1, -108],
-    "sitting": true
-  },
-  "Server": [],
-  "Hide": "festival_meeting_becky",
+    "Server": [],
+    "Hide": "festival_meeting_becky",
 
-  "CreateEntity": {
-    "key": "festival_meeting_blake",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
-      "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+    "CreateEntity": {
+        "key": "festival_meeting_blake",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1ODczMTA1NjY4MDYsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOWQ5NjJiNGE1OWI3OTBjYzg5ZjM4NTBjYjNhODM5OTBkNDU5NDc2N2U2YmFjZGVkYTFmMjU2ZTZhZDhiNWQifX19",
+            "signature": "bPQtJ/epoTZBggEhGeCre0jvYvsAwpU+7kRMumPEucQqmeK1SDH5H65de3WVcMuxOFnHwVxJxg+4SeJ9QRs6oXAIKBoPhruJM5ysif7jUEYS4HNA+eRp/8odZhywJKlxsFO0o02wz4lWsr3s4Jo3+b91qisD36KzP5NcoMxhVpHE67Ypdr2b842Mn7awEstNtNMcAKIXJcXrIvsSv7wykjRH181WFucq5i/8VJJKQq3lDi3Jt8isFSnWDUD/oqlRq5FcxXjW+BkNTjlNAmAqpe65YHuoxTI+IqQqp/SppkZP46ptuPblg2DsTFNXoBLa57+c22UUzdpBtO0l+SzFu45Kd6vOu/gde06Ws2qsuV6UEhyvY5i4V0N8XoTO5GqUxeki54lrw8qZYINFyI5Id4EJcsobySPmJlefVOqaxM9nQaYQ1S78idhIPDmoYwbpLvVx6xwiC5sgh9Bak3M5oxhEEOlKhHoB34c0KCDdkATSlhJKYWBbpsLXxR6y4KFsqCeWKT2PAc1UsVi+xWfaAOvICzlNU/EWRPUv5DrEGHlXrMfYAzQIdYZchXByZstKsdz2lML/zAP7gJtWJkJyKG/pjfeiEw767jdrjSfCSRpawWscjIsFDPN/B2SNUl9TKTeBOZ+wuVyEaN1lCfarX7hreBKFo+8x3hdoHr01DyY="
+        },
+        "location": [-228.1, 37.5, 517.9, -71],
+        "sitting": true
     },
-    "location": [-228.1, 37.5, 517.9, -71],
-    "sitting": true
-  },
-  "Server": [],
-  "Hide": "festival_meeting_blake",
+    "Server": [],
+    "Hide": "festival_meeting_blake",
 
-  "CreateEntity": {
-    "key": "festival_meeting_regi",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MjU1NjY4MywKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlYTlkOWQzN2E2OWJkOTUwZDc3NDgwNjUwOWQxM2M3NzNkNDgyYzdjODcxYTQxMThkZWVmNWM0ODZlMTE0NSIKICAgIH0KICB9Cn0=",
-      "signature": "LDI3l3CUyJRl2L3NUO8XOaNR6exiXYAxhmINLVm0/huG2rV4nDVUcpZ27FTncCzSPSA2nDKZroMCDuW9VI06+6dw9XVtKsTU5ofwCcD/RJtvMgPA6mDuIXtEm9J3iNpY6bTQKHsC7cvlTvAF6acVo1BBTu/5OyUPzy7tgL122bnZwhsqHp43mJWPH74HNDRtI1i23yyd2odRWajI3hdd+SnD8ikvfMeBphGTa1a/a8dPkXwQEX6Hf3ltpyU4qBvTGVkM17k1muBfUVsy2j5ObwV2yzRrZ+4LPJHa4c2br97lDajwQvvYfewRLKROtyI735IBUS/miZmfmtP8cn9qyTcOGJVx+cpUOUEYM09a8tKenNF9FrlmoZKe2ef37Hf8WKCfAFcVz5b3vTYaPyElSptqH+qiTi7/0CSxGTGWmlsAsPh5AiyoUBSHHUmKjQeIz/kngqSG6gBtp51abRy2ZLeWcCHLNIkMTQb5RgyvIxCBHkngFOGx6YRK8t+2D8qRiYhfA9xVKZ0SLnx+sDUbARlrXTrTIlGShY8LcphR7/fXIJJLTIUX0Omeh3InYMfPYytZ6Z8rurX0hX9wC7s5EjLJMlc46gGUmVnL1AwNt/7roK4kwY87OiyeDsrObJWDhe58hWtiXff0sBehy4VZsjNiqY27C0jor43aK1zyKcM="
+    "CreateEntity": {
+        "key": "festival_meeting_regi",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MjU1NjY4MywKICAicHJvZmlsZUlkIiA6ICJkMWY2OTc0YzE2ZmI0ZjdhYjI1NjU4NzExNjM3M2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaW9saWVzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlYTlkOWQzN2E2OWJkOTUwZDc3NDgwNjUwOWQxM2M3NzNkNDgyYzdjODcxYTQxMThkZWVmNWM0ODZlMTE0NSIKICAgIH0KICB9Cn0=",
+            "signature": "LDI3l3CUyJRl2L3NUO8XOaNR6exiXYAxhmINLVm0/huG2rV4nDVUcpZ27FTncCzSPSA2nDKZroMCDuW9VI06+6dw9XVtKsTU5ofwCcD/RJtvMgPA6mDuIXtEm9J3iNpY6bTQKHsC7cvlTvAF6acVo1BBTu/5OyUPzy7tgL122bnZwhsqHp43mJWPH74HNDRtI1i23yyd2odRWajI3hdd+SnD8ikvfMeBphGTa1a/a8dPkXwQEX6Hf3ltpyU4qBvTGVkM17k1muBfUVsy2j5ObwV2yzRrZ+4LPJHa4c2br97lDajwQvvYfewRLKROtyI735IBUS/miZmfmtP8cn9qyTcOGJVx+cpUOUEYM09a8tKenNF9FrlmoZKe2ef37Hf8WKCfAFcVz5b3vTYaPyElSptqH+qiTi7/0CSxGTGWmlsAsPh5AiyoUBSHHUmKjQeIz/kngqSG6gBtp51abRy2ZLeWcCHLNIkMTQb5RgyvIxCBHkngFOGx6YRK8t+2D8qRiYhfA9xVKZ0SLnx+sDUbARlrXTrTIlGShY8LcphR7/fXIJJLTIUX0Omeh3InYMfPYytZ6Z8rurX0hX9wC7s5EjLJMlc46gGUmVnL1AwNt/7roK4kwY87OiyeDsrObJWDhe58hWtiXff0sBehy4VZsjNiqY27C0jor43aK1zyKcM="
+        },
+        "location": [-225.4, 37.5, 522.5, -143],
+        "sitting": true
     },
-    "location": [-225.4, 37.5, 522.5, -143],
-    "sitting": true
-  },
-  "Server": [],
-  "Hide": "festival_meeting_regi",
+    "Server": [],
+    "Hide": "festival_meeting_regi",
 
-  "CreateEntity": {
-    "key": "festival_disaster_becky",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+    "CreateEntity": {
+        "key": "festival_disaster_becky",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+        },
+        "location": [-314.5, 29.5, -27.5],
+        "look": false
     },
-    "location": [-314.5, 29.5, -27.5],
-    "look": false
-  },
-  "Server": [],
-  "Hide": "festival_disaster_becky",
+    "Server": [],
+    "Hide": "festival_disaster_becky",
 
-  "CreateEntity": {
-    "key": "festival_disaster_moriarty",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9",
-      "signature": "rCfG/5E2UF6JNX49/K5QXQTeHOH6SUALxz4RET3x+LeIs0ZI9HglME8nl4srxQGo0ApNLhtP1/CY2sm44Uotmrt0hidTXL8flAIJP4IFlRwOS9nkm2blZ8z4z26giEqExn3W6xAr/nuNW2y0YK2RdiExt1jaNISfdgRs9BU7jyIkNeKp50QZG1pNa3Rq7CptqPqMP8oGik65K6nawUkqrAErnVB5iNF+YYHWSF2g8R5RfmMCWsICvNZ5OQ7pz6AU5J/GJFuUSWkqoG4Ro/LEtK7FTP9MbZ0gBdPd2OQmuBwqqpXpGeGNeMNlYjMT9am8ShrqjHfDbPMW21wqXSyK1p0zX2mzlXxIGUGV6yzwsNrhQjkdFwWuP3sZt0GXSsh624UoiX00DERmdRARmbFcxIVMkao/PMeJb20MgjnfgYlinMCJ3IdTICDRrvntk+6L4TCMJMJ1gJxhnlxciT861GNZV5WtLVhMZoJNj90YkS2zo+HjyzGvq6KpxILBnvGDDRPES+z9EZd2fPwF4Yz199oYm9LHU7wf1JOnhkiBfikgNlyzZ0wejY/yBZFyMWR3j/qtNBndWMb3cNSByOfjlrjLV4U/I2XxtnSJqRjkdWXwYtWCCP82yIJnIVAnp50WjATOFOai/hyn7uHRngOnJ5lvLRIS523ylk60ZhwG0G8="
+    "CreateEntity": {
+        "key": "festival_disaster_moriarty",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9",
+            "signature": "rCfG/5E2UF6JNX49/K5QXQTeHOH6SUALxz4RET3x+LeIs0ZI9HglME8nl4srxQGo0ApNLhtP1/CY2sm44Uotmrt0hidTXL8flAIJP4IFlRwOS9nkm2blZ8z4z26giEqExn3W6xAr/nuNW2y0YK2RdiExt1jaNISfdgRs9BU7jyIkNeKp50QZG1pNa3Rq7CptqPqMP8oGik65K6nawUkqrAErnVB5iNF+YYHWSF2g8R5RfmMCWsICvNZ5OQ7pz6AU5J/GJFuUSWkqoG4Ro/LEtK7FTP9MbZ0gBdPd2OQmuBwqqpXpGeGNeMNlYjMT9am8ShrqjHfDbPMW21wqXSyK1p0zX2mzlXxIGUGV6yzwsNrhQjkdFwWuP3sZt0GXSsh624UoiX00DERmdRARmbFcxIVMkao/PMeJb20MgjnfgYlinMCJ3IdTICDRrvntk+6L4TCMJMJ1gJxhnlxciT861GNZV5WtLVhMZoJNj90YkS2zo+HjyzGvq6KpxILBnvGDDRPES+z9EZd2fPwF4Yz199oYm9LHU7wf1JOnhkiBfikgNlyzZ0wejY/yBZFyMWR3j/qtNBndWMb3cNSByOfjlrjLV4U/I2XxtnSJqRjkdWXwYtWCCP82yIJnIVAnp50WjATOFOai/hyn7uHRngOnJ5lvLRIS523ylk60ZhwG0G8="
+        },
+        "location": [-320.2, 29.9, -50.7, 0],
+        "look": false
     },
-    "location": [-320.2, 29.9, -50.7, 0],
-    "look": false
-  },
-  "Server": [],
-  "Hide": "festival_disaster_moriarty",
+    "Server": [],
+    "Hide": "festival_disaster_moriarty",
 
-  "CreateEntity": {
-    "key": "festival_becky_ending",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+    "CreateEntity": {
+        "key": "festival_becky_ending",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+        },
+        "location": [-302.5, 30.0, -47.5, 180],
+        "hand": {
+            "material": "paper"
+        },
+        "look": false
     },
-    "location": [-302.5, 30.0, -47.5, 180],
-    "hand": {
-      "material": "paper"
-    },
-    "look": false
-  },
-  "Server": [],
-  "Hide": "festival_becky_ending",
+    "Server": [],
+    "Hide": "festival_becky_ending",
 
 
-  "Start": "festival_util_disablechat",
-  "Start": "song_sad_fairytale",
-  "Fade": [],
-  "Teleport": [-305.7, 32.1, -49.2, -50, 38],
-  "Cinematic": [],
-  "SetScoreboard": "",
-  "HidePlayer": [],
-  "Wait": 1,
-  "Freeze": true,
-  "Wait": 1,
+    "Start": "festival_util_disablechat",
+    "Start": "song_sad_fairytale",
+    "Fade": [],
+    "Teleport": [-305.7, 32.1, -49.2, -50, 38],
+    "Cinematic": [],
+    "SetScoreboard": "",
+    "HidePlayer": [],
+    "Wait": 1,
+    "Freeze": true,
+    "Wait": 1,
 
-  "Show": "festival_becky_on_bench",
-  "Show": "festival_player_intro",
-  "Dialog": [
-    {
-      "&b&lBecky": "... snif, snif...",
-      "[PLAYER]": "Heya, everything okay?",
-      "&b&lBecky": "ye ye, it's just... dust in my eye...",
-      "[PLAYER]": "Acting isn't your strong suit, is it?"
-    },
-    "festival.becky.speech"
-  ],
-  "EntityLook": ["festival_becky_on_bench", "festival_player_intro"],
-  "Dialog": [
-    {
-      "&b&lBecky": "I DON'T KNOW WHAT TO DO OKAY????",
-      "[PLAYER]": "Why don't you... start at the beginning."
-    },
-    "festival.becky.speech"
-  ],
-  "MoveEntity": ["festival_player_intro", -301.0, 31.0, -47.5],
-  "Hide": "festival_player_intro",
-  "Show": "festival_player_on_bench",
+    "Show": "festival_becky_on_bench",
+    "Show": "festival_player_intro",
+    "Dialog": [
+        {
+            "&b&lBecky": "... snif, snif...",
+            "[PLAYER]": "Heya, everything okay?",
+            "&b&lBecky": "ye ye, it's just... dust in my eye...",
+            "[PLAYER]": "Acting isn't your strong suit, is it?"
+        },
+        "festival.becky.speech"
+    ],
+    "EntityLook": ["festival_becky_on_bench", "festival_player_intro"],
+    "Dialog": [
+        {
+            "&b&lBecky": "I DON'T KNOW WHAT TO DO OKAY????",
+            "[PLAYER]": "Why don't you... start at the beginning."
+        },
+        "festival.becky.speech"
+    ],
+    "MoveEntity": ["festival_player_intro", -301.0, 31.0, -47.5],
+    "Hide": "festival_player_intro",
+    "Show": "festival_player_on_bench",
 
-  "Dialog": [
-    {
-      "[PLAYER]": "I have all the time you need.",
-      "&b&lBecky": "Would you really do that for me?",
-      "[PLAYER]": "Of course."
-    },
-    "festival.becky.speech"
-  ],
-  "EntityLook": ["festival_becky_on_bench", "festival_player_intro"],
+    "Dialog": [
+        {
+            "[PLAYER]": "I have all the time you need.",
+            "&b&lBecky": "Would you really do that for me?",
+            "[PLAYER]": "Of course."
+        },
+        "festival.becky.speech"
+    ],
+    "EntityLook": ["festival_becky_on_bench", "festival_player_intro"],
 
-  "Dialog": [
-    {
-      "&b&lBecky": "It all started at the last meeting for the fall festival..."
-    },
-    "festival.becky.speech"
-  ],
-  "Unfreeze": [],
-  "Hide": "festival_becky_on_bench",
-  "Hide": "festival_player_on_bench",
-  "Fade": [],
-  "Teleport": [-221.5, 39.0, 515.5, 20, 40],
-  "Wait": 1,
-  "Freeze": true,
-  "Wait": 1,
-  "Show": "festival_meeting_manager",
-  "Show": "festival_meeting_becky",
-  "Show": "festival_meeting_blake",
-  "Show": "festival_meeting_regi",
-  "Dialog": [
-    {
-      "&4&lManager": "Welcome peoples",
-      "&4&lManager": "I will keep it short 'cause time is precious!",
-      "&4&lManager": "We have bad news.",
-      "&4&lManager": "We just received news that the main power generator went down.",
-      "&b&lBecky": "Oh no..."
-    },
-    "festival.becky.speech"
-  ],
-  "EntityLook": ["festival_meeting_manager", "festival_meeting_becky"],
-  "Dialog": [
-    {
-      "&4&lManager": "Exactly Becky. No power generator, no fall festival.",
-      "&4&lManager": "We need a new copper wire to fix it and you, Becky,",
-      "&4&lManager": "are going to get it for us.",
-      "&b&lBecky": "Of course sir!"
-    },
-    "festival.becky.speech"
-  ],
-  "EntityLook": ["festival_meeting_manager", "festival_meeting_blake"],
-  "Dialog": [
-    {
-      "&4&lManager": "Now, for the others, how is the food going? Very important!"
-    },
-    "festival.becky.speech"
-  ],
-  "Dialog": [
-    {
-      "&6&lBlake": "Working on i-"
-    },
-    45
-  ],
+    "Dialog": [
+        {
+            "&b&lBecky": "It all started at the last meeting for the fall festival..."
+        },
+        "festival.becky.speech"
+    ],
+    "Unfreeze": [],
+    "Hide": "festival_becky_on_bench",
+    "Hide": "festival_player_on_bench",
+    "Fade": [],
+    "Teleport": [-221.5, 39.0, 515.5, 20, 40],
+    "Wait": 1,
+    "Freeze": true,
+    "Wait": 1,
+    "Show": "festival_meeting_manager",
+    "Show": "festival_meeting_becky",
+    "Show": "festival_meeting_blake",
+    "Show": "festival_meeting_regi",
+    "Dialog": [
+        {
+            "&4&lManager": "Welcome peoples",
+            "&4&lManager": "I will keep it short 'cause time is precious!",
+            "&4&lManager": "We have bad news.",
+            "&4&lManager": "We just received news that the main power generator went down.",
+            "&b&lBecky": "Oh no..."
+        },
+        "festival.becky.speech"
+    ],
+    "EntityLook": ["festival_meeting_manager", "festival_meeting_becky"],
+    "Dialog": [
+        {
+            "&4&lManager": "Exactly Becky. No power generator, no fall festival.",
+            "&4&lManager": "We need a new copper wire to fix it and you, Becky,",
+            "&4&lManager": "are going to get it for us.",
+            "&b&lBecky": "Of course sir!"
+        },
+        "festival.becky.speech"
+    ],
+    "EntityLook": ["festival_meeting_manager", "festival_meeting_blake"],
+    "Dialog": [
+        {
+            "&4&lManager": "Now, for the others, how is the food going? Very important!"
+        },
+        "festival.becky.speech"
+    ],
+    "Dialog": [
+        {
+            "&6&lBlake": "Working on i-"
+        },
+        45
+    ],
 
 
 
-  "Unfreeze": [],
-  "Fade": [],
-  "Teleport": [-305.7, 32.1, -49.2, -50, 38],
-  "Hide": "festival_meeting_manager",
-  "Hide": "festival_meeting_becky",
-  "Hide": "festival_meeting_blake",
-  "Hide": "festival_meeting_regi",
-  "Wait": 1,
-  "Teleport": [-305.7, 32.1, -49.2, -50, 38],
-  "Freeze": true,
-  "Wait": 4,
-  "Show": "festival_player_on_bench",
-  "Show": "festival_becky_on_bench",
-  "Dialog": [
-    {
-      "&b&lBecky": "So after the meeting I started thinking,",
-      "&b&lBecky": "&oWhere could I find a copper wire strong enough to fix the generator?",
-      "[PLAYER]": "Aha, so that is why you are here.",
-      "&b&lBecky": "I remembered that my electric pokemon preferred this place above all.",
-      "&b&lBecky": "But once I got here, things... didn't go as planned."
-    },
-    "festival.becky.speech"
-  ],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-305.7, 32.1, -49.2, -50, 38],
+    "Hide": "festival_meeting_manager",
+    "Hide": "festival_meeting_becky",
+    "Hide": "festival_meeting_blake",
+    "Hide": "festival_meeting_regi",
+    "Wait": 1,
+    "Teleport": [-305.7, 32.1, -49.2, -50, 38],
+    "Freeze": true,
+    "Wait": 4,
+    "Show": "festival_player_on_bench",
+    "Show": "festival_becky_on_bench",
+    "Dialog": [
+        {
+            "&b&lBecky": "So after the meeting I started thinking,",
+            "&b&lBecky": "&oWhere could I find a copper wire strong enough to fix the generator?",
+            "[PLAYER]": "Aha, so that is why you are here.",
+            "&b&lBecky": "I remembered that my electric pokemon preferred this place above all.",
+            "&b&lBecky": "But once I got here, things... didn't go as planned."
+        },
+        "festival.becky.speech"
+    ],
 
-  "Unfreeze": [],
-  "Fade": [],
-  "Teleport": [-317.6, 30.5, -30.7],
-  "Hide": "festival_player_on_bench",
-  "Hide": "festival_becky_on_bench",
-  "Wait": 1,
-  "Show": "festival_disaster_becky",
-  "Look": ["camera", "festival_disaster_becky"],
-  "MoveEntity": ["festival_disaster_becky", -314.5, 29.5, -32.5, 0.15, false],
-  "MoveEntity": ["festival_disaster_becky", -314.5, 29.9, -33.5, 0.15, false],
-  "ProgressiveMoveEntity": ["camera", -317.4, 30.0, -45.7, 0.10, false],
-  "MoveEntity": ["festival_disaster_becky", -316.2, 29.9, -48.4, 0.15, false],
-  "Teleport": [-317.4, 29.9, -45.7, 154, 4],
-  "MoveEntity": ["festival_disaster_becky", -317.1, 29.9, -49.8, 0.10, false],
-  "Unfreeze": [],
-  "Wait": 1,
-  "Freeze": true,
-  "Particle": ["squid_ink", -322.7, 31.0, -53.1, 50, 0.6],
-  "Show": "festival_disaster_moriarty",
-  "SetWorldTime": 18000,
-  "PlaySound": "entity_lightning_bolt_impact",
-  "Wait": 2,
-  "Particle": ["squid_ink", -322.7, 31.0, -53.1, 50, 0.6],
-  "Wait": 10,
-  "EntityLook": ["festival_disaster_moriarty", "festival_disaster_becky"],
-  "Dialog": [
-    {
-      "&8&l???": "Hey there, &oBecky&r.",
-      "&b&lBecky": "W- w- who are you?",
-      "&8&l???": "Phahaha, You don't even know who I am.",
-      "&8&l???": "Let's just call me your worst nightmare for now.",
-      "&b&lBecky": "Leave me alone, I have things to do.",
-      "&8&l???": "I can imagine! So unfortunate that that cable broke...",
-      "&b&lBecky": "How... do you know about that?",
-      "&8&l???": "Those cables do not just 'break', you know.",
-      "&b&lBecky": "You... sabotaged us?",
-      "&8&l???": "I wouldn't call it that but... yes.",
-      "&8&l???": "And to top it all off, I destroyed all the other cables in Haikou.",
-      "&8&l???": "Good luck fixing that generator phahahaha!"
-    },
-    "festival.becky.speech"
-  ],
-  "Particle": ["squid_ink", -320.2, 31.0, -50.7, 50, 0.6],
-  "Hide": "festival_disaster_moriarty",
-  "SetWorldTime": 6000,
-  "PlaySound": "entity_lightning_bolt_impact",
-  "Wait": 2,
-  "Particle": ["squid_ink", -320.2, 31.0, -50.7, 50, 0.6],
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [-317.6, 30.5, -30.7],
+    "Hide": "festival_player_on_bench",
+    "Hide": "festival_becky_on_bench",
+    "Wait": 1,
+    "Show": "festival_disaster_becky",
+    "Look": ["camera", "festival_disaster_becky"],
+    "MoveEntity": ["festival_disaster_becky", -314.5, 29.5, -32.5, 0.15, false],
+    "MoveEntity": ["festival_disaster_becky", -314.5, 29.9, -33.5, 0.15, false],
+    "ProgressiveMoveEntity": ["camera", -317.4, 30.0, -45.7, 0.10, false],
+    "MoveEntity": ["festival_disaster_becky", -316.2, 29.9, -48.4, 0.15, false],
+    "Teleport": [-317.4, 29.9, -45.7, 154, 4],
+    "MoveEntity": ["festival_disaster_becky", -317.1, 29.9, -49.8, 0.10, false],
+    "Unfreeze": [],
+    "Wait": 1,
+    "Freeze": true,
+    "Particle": ["squid_ink", -322.7, 31.0, -53.1, 50, 0.6],
+    "Show": "festival_disaster_moriarty",
+    "SetWorldTime": 18000,
+    "PlaySound": "entity_lightning_bolt_impact",
+    "Wait": 2,
+    "Particle": ["squid_ink", -322.7, 31.0, -53.1, 50, 0.6],
+    "Wait": 10,
+    "EntityLook": ["festival_disaster_moriarty", "festival_disaster_becky"],
+    "Dialog": [
+        {
+            "&8&l???": "Hey there, &oBecky&r.",
+            "&b&lBecky": "W- w- who are you?",
+            "&8&l???": "Phahaha, You don't even know who I am.",
+            "&8&l???": "Let's just call me your worst nightmare for now.",
+            "&b&lBecky": "Leave me alone, I have things to do.",
+            "&8&l???": "I can imagine! So unfortunate that that cable broke...",
+            "&b&lBecky": "How... do you know about that?",
+            "&8&l???": "Those cables do not just 'break', you know.",
+            "&b&lBecky": "You... sabotaged us?",
+            "&8&l???": "I wouldn't call it that but... yes.",
+            "&8&l???": "And to top it all off, I destroyed all the other cables in Haikou.",
+            "&8&l???": "Good luck fixing that generator phahahaha!"
+        },
+        "festival.becky.speech"
+    ],
+    "Particle": ["squid_ink", -320.2, 31.0, -50.7, 50, 0.6],
+    "Hide": "festival_disaster_moriarty",
+    "SetWorldTime": 6000,
+    "PlaySound": "entity_lightning_bolt_impact",
+    "Wait": 2,
+    "Particle": ["squid_ink", -320.2, 31.0, -50.7, 50, 0.6],
 
-  "Wait": 1.0,
-  "Fade": [],
-  "Teleport": [-305.7, 32.1, -49.2, -50, 38],
-  "Freeze": true,
-  "Hide": "festival_disaster_becky",
-  "Show": "festival_player_on_bench",
-  "Show": "festival_becky_on_bench",
-  "Wait": 2.0,
-  "Dialog": [
-    {
-      "[PLAYER]": "That is very rude of them!",
-      "&b&lBecky": "The whole festival is going to be a disaster.",
-      "&b&lBecky": "And it will be my fault! &osniff",
-      "[PLAYER]": "There must be something we can do!",
-      "&b&lBecky": "There is one thing...",
-      "&b&lBecky": "But it will never work!",
-      "[PLAYER]": "What is it?",
-      "&b&lBecky": "Here in Voltage park, they collect scraps of old cables.",
-      "&b&lBecky": "If we can find enough scraps, maybe we can mold them together.",
-      "[PLAYER]": "How many would we need?",
-      "&b&lBecky": "At least... 10.",
-      "[PLAYER]": "I will collect them. You find a way to combine them together!",
-      "&b&lBecky": "That... sounds like a plan! Let's do it!"
-    },
-    "festival.becky.speech"
-  ],
+    "Wait": 1.0,
+    "Fade": [],
+    "Teleport": [-305.7, 32.1, -49.2, -50, 38],
+    "Freeze": true,
+    "Hide": "festival_disaster_becky",
+    "Show": "festival_player_on_bench",
+    "Show": "festival_becky_on_bench",
+    "Wait": 2.0,
+    "Dialog": [
+        {
+            "[PLAYER]": "That is very rude of them!",
+            "&b&lBecky": "The whole festival is going to be a disaster.",
+            "&b&lBecky": "And it will be my fault! &osniff",
+            "[PLAYER]": "There must be something we can do!",
+            "&b&lBecky": "There is one thing...",
+            "&b&lBecky": "But it will never work!",
+            "[PLAYER]": "What is it?",
+            "&b&lBecky": "Here in Voltage park, they collect scraps of old cables.",
+            "&b&lBecky": "If we can find enough scraps, maybe we can mold them together.",
+            "[PLAYER]": "How many would we need?",
+            "&b&lBecky": "At least... 10.",
+            "[PLAYER]": "I will collect them. You find a way to combine them together!",
+            "&b&lBecky": "That... sounds like a plan! Let's do it!"
+        },
+        "festival.becky.speech"
+    ],
 
-  "Fade": [],
-  "Teleport": [-302.4, 30.0, -49.8, 0],
-  "Hide": "festival_player_on_bench",
-  "Hide": "festival_becky_on_bench",
-  "Show": "festival_becky_ending",
-  "StopCinematic": [],
-  "Leave": "festival_util_disablechat",
-  "Leave": "song_sad_fairytale",
-  "Wait": 2.0,
-  "PlaySound": "entity_enderman_teleport",
-  "Particle": ["portal", -302.5, 30.0, -47.5, 50, 0.6],
-  "Hide": "festival_becky_ending",
-  "Complete": [],
+    "Fade": [],
+    "Teleport": [-302.4, 30.0, -49.8, 0],
+    "Hide": "festival_player_on_bench",
+    "Hide": "festival_becky_on_bench",
+    "Show": "festival_becky_ending",
+    "StopCinematic": [],
+    "Leave": "festival_util_disablechat",
+    "Leave": "song_sad_fairytale",
+    "Wait": 2.0,
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", -302.5, 30.0, -47.5, 50, 0.6],
+    "Hide": "festival_becky_ending",
+    "Complete": [],
 
-  "Wait": 10.0,
-  "Unfreeze": [],
+    "Wait": 10.0,
+    "Unfreeze": [],
 
 
-  "Complete": [],
-  "Wait": 1,
-  "Progress": "festival_becky",
-  "Start": ["festival_task_copper_wires", 1.0, "script_entry_point"]
+    "Complete": [],
+    "Wait": 1,
+    "Progress": "festival_becky",
+    "Start": ["festival_task_copper_wires", 1.0, "script_entry_point"]
 }

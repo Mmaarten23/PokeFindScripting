@@ -1,11 +1,11 @@
 {
-  "Key": "lf_manager_loader",
-  "Author": "Mmaarten",
+    "Key": "lf_manager_loader",
+    "Author": "Mmaarten",
 
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-intro.json",
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-task-1-complete.json",
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-task-2-complete.json",
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-wait.json",
-  "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager.json",
-  "BroadcastMessage": "manager scripts loaded"
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-intro.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-task-1-complete.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-task-2-complete.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager-wait.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/PokeWorld/Gen5/Festival/festival_manager/lf-manager.json",
+    "BroadcastMessage": "manager scripts loaded"
 }

@@ -3,7 +3,7 @@
 
     "Skip": "startBoat",
     "Comment": "Empty trigger stage.",
-    "RegionEntry": [0,0,0,0,0,0],
+    "RegionEntry": [0, 0, 0, 0, 0, 0],
     "Comment": "startBoat",
     "RegionExit": [
         563, 43, 435,

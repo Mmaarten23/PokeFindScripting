@@ -1,110 +1,110 @@
 {
-  "Key": "lf_becky",
-  "Author": "Mmaarten",
+    "Key": "lf_becky",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.becky.speech", 90],
+    "Store": ["lf.becky.speech", 90],
 
-  "CreateEntity": {
-    "key": "lf_becky_on_bench_clickable",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+    "CreateEntity": {
+        "key": "lf_becky_on_bench_clickable",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+        },
+        "location": [139.0, 52.0, 238.3, 180, 50],
+        "name": [
+            "&b&lBecky",
+            "&7&oFestival assistant"
+        ],
+        "hand": {
+            "material": "paper"
+        },
+        "sitting": true
     },
-    "location": [139.0, 52.0, 238.3, 180, 50],
-    "name": [
-      "&b&lBecky",
-      "&7&oFestival assistant"
+    "Server": [],
+    "Hide": "lf_becky_on_bench_clickable",
+
+    "CreateEntity": {
+        "key": "lf_becky_clickable",
+        "entity": "PLAYER",
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
+        },
+        "location": [126.5, 54.0, 246.5, 37],
+        "name": [
+            "&b&lBecky",
+            "&7&oFestival assistant"
+        ]
+    },
+    "Server": [],
+    "Hide": "lf_becky_clickable",
+
+    "ChunkLoad": [],
+    "If": [],
+    "NotCompleted": "lf_manager_intro",
+    "Leave": [],
+    "Dummy": [],
+
+    "If": [],
+    "NotCompleted": "lf_becky_intro",
+    "Skip": "becky.intro",
+    "Dummy": [],
+
+    "If": [],
+    "Completed": "lf_becky_end",
+    "Leave": [],
+
+    "Show": "lf_becky_clickable",
+    "HighlightClickEntity": "lf_becky_clickable",
+    "If": [],
+    "NotCompleted": "lf_task_copper_wires",
+    "Skip": "becky.in_task",
+    "Dummy": [],
+    "If": [],
+    "NotCompleted": "lf_becky_end",
+    "Skip": "becky.end",
+    "SendMessage": "&4Something went wrong. Please contact a member of staff!",
+    "Leave": [],
+
+    "Comment": "becky.intro",
+    "If": [],
+    "In": "lf_becky_intro",
+    "Skip": "external_wait",
+    "Show": "lf_becky_on_bench_clickable",
+    "HighlightClickEntity": "lf_becky_on_bench_clickable",
+    "Start": "lf_becky_intro",
+    "Hide": "lf_becky_on_bench_clickable",
+    "Skip": "external_wait",
+
+    "Comment": "becky.in_task",
+    "If": [],
+    "NotIn": "lf_task_copper_wires",
+    "Skip": "error.exited_task1",
+    "Dialog": [
+        {
+            "&b&lBecky": "I am researching forging methods!",
+            "&b&lBecky": "Make sure you have 10 copper wires ready!"
+        }
     ],
-    "hand": {
-      "material": "paper"
-    },
-    "sitting": true
-  },
-  "Server": [],
-  "Hide": "lf_becky_on_bench_clickable",
-
-  "CreateEntity": {
-    "key": "lf_becky_clickable",
-    "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTM4MTQ5Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4MWZhY2FjODRkYTNiMThlNzliMjdkNTgwMzZhZWFkYTk2NjRkYmIwOTQ4MWE2MGU0OWUyODIwZTA2ZDE0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "signature": "eWnFqIyjg9qB9ejWAybD7BrrL869EXUYhZuhQI5fDu6pv5DIk0Lt9E6dIzfBUXMph5rFvmkQ43CLcK9w3sfOdeuds/LIjNLgmC9Q5XuJLjKIMHUevqlzOlbypabpDGz5eryfNILveuwTbPJOqPnOChVQ8PYi9WfZgUU5XhmxBDm1+Va3pRUrd43h90I977au7F0y8tltZZIanBeHkP9UCusP2TecE4NKoFaZHY6MlSmcBXCU25TFcT2SfCucaHjYPsg453rqpXajF9uvvsZhAO+SBkHo4XrBKN7lSJKnW/eVf0Wq70291zWlyTIr+oI8pMP+Ajy/lus98M+LBtcWaW4p8qrIcdJXKIsP7upoL2bmNvkfueavii2jM+UarvX15f7u01jKbroKhepLl0lXewJCAJ47yW0akdiuvdU8W0LNlXoUk30Cl0ppaGKb4zcWf+nlbuZ2BeXXJm6Z0E1xuUZkziFbpwSB2ZvnqCjVz6IhmgSyNhr0nf5ZeKb/2+ukRkobgWY0gM3jS6d9UgBV/UP4TFmvSUmkvWp79ICry/SnvTZgPVP21kPt7kXqNnAKQU92Qlk4eXoXxrcAUWmvPrqMnW6t++TRTmKIiG9uvPBNwX19bBKNmJcCvLe2B5Q1NGswmQjeXp2Fbfc3qcWox/HnXIPleCto/3r7sBrcK0I="
-    },
-    "location": [126.5, 54.0, 246.5, 37],
-    "name": [
-      "&b&lBecky",
-      "&7&oFestival assistant"
-    ]
-  },
-  "Server": [],
-  "Hide": "lf_becky_clickable",
-
-  "ChunkLoad": [],
-  "If": [],
-  "NotCompleted": "lf_manager_intro",
-  "Leave": [],
-  "Dummy": [],
-
-  "If": [],
-  "NotCompleted": "lf_becky_intro",
-  "Skip": "becky.intro",
-  "Dummy": [],
-
-  "If": [],
-  "Completed": "lf_becky_end",
-  "Leave": [],
-
-  "Show": "lf_becky_clickable",
-  "HighlightClickEntity": "lf_becky_clickable",
-  "If": [],
-  "NotCompleted": "lf_task_copper_wires",
-  "Skip": "becky.in_task",
-  "Dummy": [],
-  "If": [],
-  "NotCompleted": "lf_becky_end",
-  "Skip": "becky.end",
-  "SendMessage": "&4Something went wrong. Please contact a member of staff!",
-  "Leave": [],
-
-  "Comment": "becky.intro",
-  "If": [],
-  "In": "lf_becky_intro",
-  "Skip": "external_wait",
-  "Show": "lf_becky_on_bench_clickable",
-  "HighlightClickEntity": "lf_becky_on_bench_clickable",
-  "Start": "lf_becky_intro",
-  "Hide": "lf_becky_on_bench_clickable",
-  "Skip": "external_wait",
-
-  "Comment": "becky.in_task",
-  "If": [],
-  "NotIn": "lf_task_copper_wires",
-  "Skip": "error.exited_task1",
-  "Dialog": [
-    {
-      "&b&lBecky": "I am researching forging methods!",
-      "&b&lBecky": "Make sure you have 10 copper wires ready!"
-    }
-  ],
-  "Start": "lf_becky",
-  "Comment": "error.exited_task1",
-  "Dialog": [
-    {
-      "&b&lBecky": "Looks like something went wrong.",
-      "&b&lBecky": "Can you find 10 scrap pieces of copper wire in &eWattson city&r?"
-    },
-    "lf.becky.speech"
-  ],
-  "Start": ["lf_task_copper_wires", 1.0, "script_entry_point"],
-  "Start": "lf_becky",
+    "Start": "lf_becky",
+    "Comment": "error.exited_task1",
+    "Dialog": [
+        {
+            "&b&lBecky": "Looks like something went wrong.",
+            "&b&lBecky": "Can you find 10 scrap pieces of copper wire in &eWattson city&r?"
+        },
+        "lf.becky.speech"
+    ],
+    "Start": ["lf_task_copper_wires", 1.0, "script_entry_point"],
+    "Start": "lf_becky",
 
 
-  "Comment": "becky.end",
-  "Start": "lf_becky_end",
-  "Skip": "external_wait",
+    "Comment": "becky.end",
+    "Start": "lf_becky_end",
+    "Skip": "external_wait",
 
-  "Comment": "external_wait",
-  "Hold": [],
-  "Start": "lf_becky"
+    "Comment": "external_wait",
+    "Hold": [],
+    "Start": "lf_becky"
 }

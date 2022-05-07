@@ -1,28 +1,28 @@
 {
-  "Key": "lf_manager_task_1_complete",
-  "Author": "Mmaarten",
+    "Key": "lf_manager_task_1_complete",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.manager.speech", 90],
-  "Start": "lf_util_disablecommands",
-  "Dialog": [
-    {
-      "&4&lManager": "Ah, you again",
-      "[PLAYER]": "Becky told me to come see you?",
-      "&4&lManager": "Yes, I am so thankful for your help.",
-      "&4&lManager": "I don't really have a lot of time though.",
-      "[PLAYER]": "Everything.. okay? The generator is fine right?",
-      "&4&lManager": "The generator is working like a charm!",
-      "&4&lManager": "But i just received news from Blake.",
-      "&4&lManager": "Apparently the food is not going to be on time!",
-      "[PLAYER]": "A festival without food?",
-      "[PLAYER]": "Impossible! Can i help?",
-      "&4&lManager": "I don't know, I have so much to do here!",
-      "&4&lManager": "Ask &6Blake&r in &bNorthrun&r if you can help him."
-    },
-    "lf.manager.speech"
-  ],
-  "Leave": "lf_util_disablecommands",
-  "Complete": [],
-  "Progress": "lf_manager",
-  "Progress": "lf_util_objective_handler"
+    "Store": ["lf.manager.speech", 90],
+    "Start": "lf_util_disablecommands",
+    "Dialog": [
+        {
+            "&4&lManager": "Ah, you again",
+            "[PLAYER]": "Becky told me to come see you?",
+            "&4&lManager": "Yes, I am so thankful for your help.",
+            "&4&lManager": "I don't really have a lot of time though.",
+            "[PLAYER]": "Everything.. okay? The generator is fine right?",
+            "&4&lManager": "The generator is working like a charm!",
+            "&4&lManager": "But i just received news from Blake.",
+            "&4&lManager": "Apparently the food is not going to be on time!",
+            "[PLAYER]": "A festival without food?",
+            "[PLAYER]": "Impossible! Can i help?",
+            "&4&lManager": "I don't know, I have so much to do here!",
+            "&4&lManager": "Ask &6Blake&r in &bNorthrun&r if you can help him."
+        },
+        "lf.manager.speech"
+    ],
+    "Leave": "lf_util_disablecommands",
+    "Complete": [],
+    "Progress": "lf_manager",
+    "Progress": "lf_util_objective_handler"
 }

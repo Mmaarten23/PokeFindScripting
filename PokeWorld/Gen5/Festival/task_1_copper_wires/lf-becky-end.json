@@ -1,22 +1,22 @@
 {
-  "Key": "lf_becky_end",
-  "Author": "Mmaarten",
+    "Key": "lf_becky_end",
+    "Author": "Mmaarten",
 
-  "Store": ["lf.becky.speech", 90],
+    "Store": ["lf.becky.speech", 90],
 
-  "Dialog": [
-    {
-      "&b&lBecky": "You got them!",
-      "&b&lBecky": "I found a way to forge them too!",
-      "&b&lBecky": "I have to bring this to the stage quickly... Thank you!!!",
-      "&b&lBecky": "I will tell the manager about you, go see him later too!"
-    },
-    "lf.becky.speech"
-  ],
-  "Complete": [],
-  "Wait": 1,
-  "PlaySound": "entity_enderman_teleport",
-  "Particle": ["portal", 126.5, 55.0, 246.5, 100, 0.6],
-  "Progress": "lf_becky",
-  "Progress": "lf_util_objective_handler"
+    "Dialog": [
+        {
+            "&b&lBecky": "You got them!",
+            "&b&lBecky": "I found a way to forge them too!",
+            "&b&lBecky": "I have to bring this to the stage quickly... Thank you!!!",
+            "&b&lBecky": "I will tell the manager about you, go see him later too!"
+        },
+        "lf.becky.speech"
+    ],
+    "Complete": [],
+    "Wait": 1,
+    "PlaySound": "entity_enderman_teleport",
+    "Particle": ["portal", 126.5, 55.0, 246.5, 100, 0.6],
+    "Progress": "lf_becky",
+    "Progress": "lf_util_objective_handler"
 }
