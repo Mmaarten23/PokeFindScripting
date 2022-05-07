@@ -630,7 +630,7 @@
         "Tribe_Member3": false,
         "Tribe_Leader3": true
     },
-    "Objective": ["Speak to Astrid at the end of the Shrine", 11],
+    "Objective": ["Speak to Astrid at the very end of the temple", 11],
     "HighlightClickEntity": "Tribe_Leader3",
     "Show": {
         "Sewaddle": false
@@ -841,7 +841,7 @@
     "Wait": 20,
     "NewDialog": [
         {
-            "&d&lDanielle": "Ferrothorn, use Metal Claw!"
+            "&d&lDanielle": "Ferrothorn, use Gyro ball!"
         },
         90, true, false, "female_excited"
     ],

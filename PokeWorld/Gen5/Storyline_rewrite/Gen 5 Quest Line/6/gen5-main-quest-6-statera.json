@@ -739,10 +739,14 @@
     "NewDialog": [
         {
             "&3&lSteven": "Hey, thanks [PLAYER]! That was some awesome work. I don't really need the flower but hey",
-            "&3&lSteven": "you had to do something right? HAHAHAHA!!!"
+            "&3&lSteven": "you had to do something right? HAHAHAHA!!!",
+            "&3&lSteven": "Oh! That reminds me...",
+            "&3&lSteven": "I have a welcome gift for you! Enjoy!"
         },
         90, true, true, "male_excited"
     ],
+    "SendMessage": ["&e+1 &7Lily of the Valley"],
+    "GiveItem": "lily_of_the_valley",
     "Show": {
         "Statera_Leader1": true
     },
