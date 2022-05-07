@@ -384,6 +384,7 @@
 
     "HasTrainerLevel": 5,
     "NotCompleted": [],
+    "Completed": "gym1",
     "NewDialog": [
         {
             "&3&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?"

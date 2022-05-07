@@ -235,7 +235,7 @@
     ],
     "Completed": ["gen5_main_quest_6_tribe", true, ""],
     "HasTrainerLevel": 60,
-    "Completed": ["gym5", true, false],
+    "Completed": ["gym7", true, false],
     "NotCompleted": false,
     "HasStoryTeam": ["Sophro", false],
 

@@ -1114,7 +1114,8 @@
 
 
     "Completed": ["gen5_main_quest_7_statera", ""],
-    "Completed": "gym7",
+    "Completed": "gym8",
+    "Completed": "gen5_elite_four",
     "NotCompleted": false,
     "HasTrainerLevel": 80,
     "HasStoryTeam": "Statera",

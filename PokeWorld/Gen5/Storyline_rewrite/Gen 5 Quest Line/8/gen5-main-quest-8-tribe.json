@@ -1034,7 +1034,8 @@
 
     "HasTrainerLevel": 80,
     "Completed": ["gen5_main_quest_7_tribe", ""],
-    "Completed": "gym7",
+    "Completed": "gym8",
+    "Completed": "gen5_elite_four",
     "NotCompleted": false,
     "HasStoryTeam": "Sophro",
 
