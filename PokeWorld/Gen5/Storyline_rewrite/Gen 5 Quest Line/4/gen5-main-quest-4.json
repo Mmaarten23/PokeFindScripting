@@ -1238,6 +1238,7 @@
     "NewDialog": [
         {
             "&c&lAgent Ty": "Boss's Pokémon huh...? Now that is interesting.",
+            "&c&lAgent Ty": "I must speak to my boss immediately!",
             "&c&lAgent Ty": "Thanks [PLAYER] and &dDanielle&r, go get some rest, I'll ring you if something else comes up."
         },
         90, true, true, "male_normal"
