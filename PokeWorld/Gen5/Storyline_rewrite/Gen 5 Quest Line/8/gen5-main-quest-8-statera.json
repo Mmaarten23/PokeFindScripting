@@ -9,6 +9,7 @@
     "Quest": true,
     "AddProperty": ["Main questline", "&e8"],
     "AddProperty": ["Team", "&3Statera"],
+    "AddProperty": ["Start", "Vidar in Statera HQ (Watterson City)"],
 
     "CreateEntity": {
         "key": "Statera_Leader1",

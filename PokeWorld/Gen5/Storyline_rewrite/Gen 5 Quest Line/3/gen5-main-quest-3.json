@@ -8,6 +8,7 @@
     "Icon": "jukebox",
     "Quest": true,
     "AddProperty": ["Main questline", "&e3"],
+    "AddProperty": ["Start", "Spiritvale"],
 
 
     "CreateEntity": {

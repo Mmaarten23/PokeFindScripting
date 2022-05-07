@@ -9,6 +9,7 @@
     "Quest": true,
     "AddProperty": ["Main questline", "&e7"],
     "AddProperty": ["Team", "&3Statera"],
+    "AddProperty": ["Start", "H.A.P.P.Y. in Watterson City"],
 
     "CreateEntity": {
         "key": "Statera_Leader1",

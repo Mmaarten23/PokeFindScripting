@@ -8,6 +8,7 @@
     "Icon": "Book",
     "Quest": true,
     "AddProperty": ["Main questline", "&e1"],
+    "AddProperty": ["Start", "Bridge to Breezelton village"],
 
     "CreateEntity": {
         "key": "worker1",

@@ -8,6 +8,7 @@
     "Icon": "mossy_stone_brick_wall",
     "Quest": true,
     "AddProperty": ["Main questline", "&e2"],
+    "AddProperty": ["Start", "Bridge to Pure Harbor"],
 
     "CreateEntity": {
         "key": "lewis_bridge",

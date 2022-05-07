@@ -9,6 +9,7 @@
     "Quest": true,
     "AddProperty": ["Main questline", "&e6"],
     "AddProperty": ["Team", "&6Sophro"],
+    "AddProperty": ["Start", "Anthony in Greenholm"],
 
     "CreateEntity": {
         "key": "Captain1",

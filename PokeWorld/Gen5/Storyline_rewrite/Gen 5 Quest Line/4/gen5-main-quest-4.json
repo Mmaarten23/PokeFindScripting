@@ -8,6 +8,7 @@
     "Icon": "skeleton_skull",
     "Quest": true,
     "AddProperty": ["Main questline", "&e4"],
+    "AddProperty": ["Start", "H.A.P.P.Y. in Watterson City"],
 
     "CreateEntity": {
         "key": "Representative1",

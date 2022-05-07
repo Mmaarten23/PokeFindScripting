@@ -8,6 +8,7 @@
     "Icon": "lectern",
     "Quest": true,
     "AddProperty": ["Main questline", "&e5"],
+    "AddProperty": ["Start", "Danielle just outside Greenholm"],
 
     "CreateEntity": {
         "key": "Rival1",

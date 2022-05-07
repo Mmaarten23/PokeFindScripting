@@ -9,6 +9,7 @@
     "Quest": true,
     "AddProperty": ["Main questline", "&e7"],
     "AddProperty": ["Team", "&6Sophro"],
+    "AddProperty": ["Start", "Temple near Greenholm"],
 
     "CreateEntity": {
         "key": "Player",

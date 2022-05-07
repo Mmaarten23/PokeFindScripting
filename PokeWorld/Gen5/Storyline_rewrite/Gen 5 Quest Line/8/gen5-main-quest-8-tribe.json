@@ -9,6 +9,7 @@
     "Quest": true,
     "AddProperty": ["Main questline", "&e8"],
     "AddProperty": ["Team", "&6Sophro"],
+    "AddProperty": ["Start", "Astrid at the temple near Greenholm"],
 
     "CreateEntity": {
         "key": "Statera_Leader1",
