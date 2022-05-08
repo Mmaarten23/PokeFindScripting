@@ -1,5 +1,9 @@
 {
     "Key": "gen5_main_quest_3_citizen_3",
+    "Skip": "start",
+    "Comment": "Empty trigger stage.",
+    "RegionEntry": [0,0,0,0,0,0],
+    "Comment": "start",
     "HighlightClickEntity": "BridgeCitizen3",
     "NotCompleted": [],
     "NewDialog": [
