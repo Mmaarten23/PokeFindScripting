@@ -790,7 +790,7 @@
     ],
     "Wait": 10,
     "Objective": ["Summon your Pokemon by pressing the drop button or right clicking", 4],
-    "SummonPokemon": [636.5, 49.0, 376.5, 7.5],
+    "SummonPokemon": [636.5, 49.0, 376.5, 40.0],
     "Wait": 10,
     "PlaySound": ["entity_villager_celebrate", 1.0, 1.0],
     "Dialog": [
