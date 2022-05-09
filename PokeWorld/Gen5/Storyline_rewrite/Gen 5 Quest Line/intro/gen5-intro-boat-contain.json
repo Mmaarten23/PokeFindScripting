@@ -2,8 +2,6 @@
     "Key": "gen5_intro_boat_contain",
 
     "Skip": "startBoat",
-    "Comment": "Empty trigger stage.",
-    "RegionEntry": [0, 0, 0, 0, 0, 0],
     "Comment": "startBoat",
     "RegionExit": [
         563, 43, 435,
