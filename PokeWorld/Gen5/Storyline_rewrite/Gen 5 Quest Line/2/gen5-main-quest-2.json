@@ -966,7 +966,7 @@
     "NewDialog": [
         {
             "&3&lStatera HQ": "Don't worry about it [PLAYER], we'll have this handled soon.",
-            "&3&lStatera HQ": "Tell the village to stay indoors, we'll have the Pokémon calm soon and everything will be back to normal!"
+            "&3&lStatera HQ": "Tell the villagers to stay indoors, we'll have the Pokémon calm soon and everything will be back to normal!"
         },
         90, true, true, "female_normal"
     ],
