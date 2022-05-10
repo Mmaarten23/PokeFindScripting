@@ -82,7 +82,7 @@
     },
     "CreateEntity": {
         "key": "oldman",
-        "name": "&7Old Man",
+        "name": "&7&lOld Man",
         "location": {
             "world": "world",
             "x": 1019.5,
@@ -390,7 +390,7 @@
         {
             "&3&lThomas": "Hey [PLAYER]! Guess you've gotten a bit bored of Findale Harbor, huh?"
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
     "NewDialog": [
         {
@@ -406,7 +406,7 @@
             "&3&lThomas": "The original CEO had a dream of connecting the islands- it didn't pan out well..."
 
         },
-        110, true, true, "male_normal"
+        130, true, true, "male_normal"
     ],
     "NewDialog": [
         {
@@ -425,7 +425,7 @@
             "&3&lThomas": "Well... he dreamed of creating new land masses. And we all know there are very few ways of accomplishing that.",
             "&3&lThomas": "The only way he could achieve the creation of so much new land was through the use of the Pokémon &9Kyogre&r and &cGroudon&r."
         },
-        110, true, true, "male_normal"
+        130, true, true, "male_normal"
     ],
 
     "Wait": 20,
@@ -436,13 +436,13 @@
             "&3&lThomas": "That's a story for another day though, I suppose."
 
         },
-        110, true, true, "male_normal"
+        130, true, true, "male_normal"
     ],
     "NewDialog": [
         {
             "&3&lThomas": "25 years ago however, a new CEO took over and he began the project of &nBridge Together&r. That's what we call it, heh."
         },
-        110, true, true, "male_excited"
+        130, true, true, "male_excited"
     ],
     "Show": {
         "worker1": true,
@@ -517,6 +517,13 @@
         },
         50, true, false, "male_normal"
     ],
+    "Wait": 1,
+    "Unfreeze": [],
+    "Fade": [],
+    "Teleport": [782.1, 59.0, 444.4, -133],
+    "StopCinematic": [],
+    "SetScoreboard": [],
+    "ShowPlayer": [],
     "Hide": {
         "worker1": true,
         "worker2": true,
@@ -543,19 +550,14 @@
         -1052, 54, 362,
         "air"
     ],
-    "Unfreeze": [],
-    "Fade": [],
-    "Teleport": [782.1, 59.0, 444.4, -133],
-    "StopCinematic": [],
-    "SetScoreboard": [],
-    "ShowPlayer": [],
+
     "Wait": 60,
     "NewDialog": [
         {
-            "&3&lThomas": "Well, enough of the ramblings of an old man, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure.",
+            "&3&lThomas": "Well, enough of the myths and legends, you should continue on your way. Maybe you'll hear the stories of the old days while you're on your adventure.",
             "&3&lThomas": "You should check out the island that is connected through this bridge. It has a nice smell to it!"
         },
-        110, true, true, "male_normal"
+        130, true, true, "male_normal"
     ],
 
     "Wait": 20,
@@ -641,7 +643,7 @@
     "NewDialog": [
         {
             "&c&lProfessor Hemlock": "Anyways... Before I get carried away... This Pokémon is said to exude Human reactions to certain stimuli.",
-            "&c&lProfessor Hemlock": "Like feeling confused, or hurt, or sad. It's astounding! Well.. I'm sure it's astounding.",
+            "&c&lProfessor Hemlock": "Like feeling confused, or hurt, or sad. It's astounding! Well... I'm sure it's astounding.",
             "&c&lProfessor Hemlock": "It's only been described to be a pink colouring, with large blue eyes. I wonder if it's a Psychic type?"
         },
         90, true, true, "male_confused"
@@ -830,7 +832,7 @@
             "&7&lOld Man": "&dAudino&r... It's okay girl.",
             "&7&lOld Man": "This trainer is nothing like &othem&r.",
             "&7&lOld Man": "Oh &dAudino&r! You're glowing so brightly, it's okay!"
-        }, 90, true, true, "male_normal"
+        }, 110, true, true, "male_normal"
     ],
     "Particle": [
         "redstone:blue",
@@ -855,39 +857,39 @@
         {
             "&7&lOld man": "What's your name trainer?"
         },
-        90, true, true, "male_question"
+        110, true, true, "male_question"
     ],
     "NewDialog": [
         {
             "[PLAYER]": "I'm [PLAYER]!"
         },
-        60, true, true
+        90, true, true
     ],
     "NewDialog": [
         {
             "&7&lOld man": "[PLAYER] huh? Interesting name. You must not be from &lZeinova&r.",
             "&7&lOld man": "It's pretty interesting here to say the least... What's it like from where you're from?"
         },
-        90, true, true, "male_question"
+        110, true, true, "male_question"
     ],
     "NewDialog": [
         {
             "[PLAYER]": "Pretty weird... We had to deal with people like Cipher, who seemed to very much dislike me..."
         },
-        90, true, true
+        110, true, true
     ],
     "NewDialog": [
         {
             "&7&lOld man": "Wow, really? That Cipher fella sounds like a real jerk.",
             "&7&lOld man": "We haven't had any issues like that in &lZeinova&r unless you want to count in the tragedy of the Bridges."
         },
-        90, true, true, "male_scared"
+        110, true, true, "male_scared"
     ],
     "NewDialog": [
         {
             "[PLAYER]": "The Bridges don't seem like a tragedy, they're there for the greater good of &lZeinova&r, well at least that's what Thomas told me..."
         },
-        110, true, true
+        130, true, true
     ],
     "NewDialog": [
         {
@@ -896,7 +898,7 @@
             "&7&lOld man": "This &dAudino&r for example, I found it injured when the first Bridge was being built 25 years ago.",
             "&7&lOld man": "It's still feeling the effects of that injury to this day..."
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
     "Teleport": [1015.5, 28.0, 61.5, 270, 0],
     "Freeze": [],
@@ -936,7 +938,7 @@
             "&7&lOld man": "&dAudino&r is beginning to trust you... It turns that colour around its friends...",
             "&7&lOld man": "Ever since it was injured, it has not wanted to leave this place..."
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
     "NewDialog": [
         {
@@ -950,7 +952,7 @@
             "&7&lOld man": "Not to sound rude or anything but... What are you doing here?",
             "&7&lOld man": "What on Earth could be so interesting to come all the way to &lZeinova&r?"
         },
-        90, true, true, "male_question"
+        110, true, true, "male_question"
     ],
     "NewDialog": [
         {
@@ -962,7 +964,7 @@
         {
             "&7&lOld man": "So your mentor is &c&lProfessor Hemlock&r... He'll be doing research for &3Statera&r?"
         },
-        90, true, true, "male_confused"
+        110, true, true, "male_confused"
     ],
     "NewDialog": [
         {
@@ -987,7 +989,7 @@
             "&7&lOld man": "If our ancestors had the mindset in the past to try and understand each other and work together like the Pokémon do...",
             "&7&lOld man": "I'll have to tell you the whole story..."
         },
-        110, true, true, "male_scared"
+        130, true, true, "male_scared"
     ],
     "Wait": 20,
     "Freeze": [],
@@ -1008,7 +1010,7 @@
             "&7&lOld man": "It was not communicated to the region what the plan was, and soon, the region of &lZeinova&r fell.",
             "&7&lOld man": "This group brought two disasters, Kyogre and Groudon, with the intention of forcing them to work with one another to build the lands and connect the islands."
         },
-        90, true, false, "male_normal"
+        130, true, false, "male_normal"
     ],
     "Particle": [
         "explosion_large",
@@ -1182,7 +1184,7 @@
             "&7&lOld man": "The two were brought together to bring prosperity to the lands, when in the end, it brought devastation.",
             "&7&lOld man": "Eventually, the two Pokémon were put back into their deep slumber. Where they were sent to is unknown..."
         },
-        90, true, true, "male_normal"
+        110, true, true, "male_normal"
     ],
     "Look": "audino",
 
@@ -1211,7 +1213,7 @@
             "&7&lOld man": "&8&lZekrom&r and &f&lReshiram&r, they were the ones that brought peace back to the lands after taking on &cGroudon&r and &9Kyogre&r.",
             "&7&lOld man": "Though that may end up being a story for another time..."
         },
-        110, true, true, "male_normal"
+        130, true, true, "male_normal"
     ],
     "Wait": 20,
     "Fade": [],
@@ -1264,7 +1266,7 @@
     "MoveEntity": ["agent", 1153.6, 58.0, -132.5, false],
     "NewDialog": [
         {
-            "&3&lJeff": "You shouldn't be talking to strangers in the woods like that.",
+            "&3&lJeff": "You shouldn't be talking to strangers in the woods, well... caves, like that.",
             "&3&lJeff": "From what you've described, that sounds like one of them old world guys, yeesh!",
             "&3&lJeff": "Those guys are no joke, they're real hard-core in the myths and lies.",
             "&3&lJeff": "Pretty sure they tried to reawaken the Weather Beasts from the myths.",
@@ -1272,7 +1274,7 @@
             "&3&lJeff": "Using &cGroudon&r and &9Kyogre&r. Something about how they felt the lands were polluted with humans waste and humans were destroying the lands.",
             "&3&lJeff": "I don't know... I should've paid more attention I guess. Anyways, have a good one! Oh and the CEO wanted me to give you these supplies as a welcome gift!"
         },
-        110, true, true, "male_normal"
+        130, true, true, "male_normal"
     ],
     "Wait": 10,
     "Complete": [],

@@ -275,7 +275,7 @@
     "CreateEntity": {
         "key": "representative1",
         "name": [
-            "&4&lThomas",
+            "&3&lThomas",
             "&7Company Rep."
         ],
         "location": {
@@ -295,7 +295,7 @@
     "CreateEntity": {
         "key": "representative2",
         "name": [
-            "&4&lThomas",
+            "&3&lThomas",
             "&7Company Rep."
         ],
         "location": {
@@ -483,7 +483,7 @@
     ],
     "Dialog": [
         {
-            "&4&lThomas": "Indeed. I hope your travels were safe, &cProfessor Hemlock&r. I don't believe I've met your companions yet though."
+            "&3&lThomas": "Indeed. I hope your travels were safe, &cProfessor Hemlock&r. I don't believe I've met your companions yet though."
         },
         20
     ],
@@ -519,7 +519,7 @@
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "They were! It's nice to meet you in person. These two are my apprentices &dDanielle&r and [PLAYER]!",
-            "&c&lProfessor Hemlock": "&4&lThomas&r is part of the Company &3Statera&r that hired me to come to &lZeinova&r to continue and expand my research on Pokémon Behavior!"
+            "&c&lProfessor Hemlock": "&3&lThomas&r is part of the Company &3Statera&r that hired me to come to &lZeinova&r to continue and expand my research on Pokémon Behavior!"
         },
         80
     ],
@@ -559,8 +559,8 @@
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "Well &d&oHappiness&r is a key factor for quite a large number of Pokémon evolutions! &7Eevee&r for example evolving into an &dEspeon&r or &8Umbreon&r.",
-            "&4&lThomas": "Hmm, I had some things to discuss with the professor, but I'll let you guys settle in first. There will be plenty of time afterwards.",
-            "&4&lThomas": "I suppose you still know the way to your lab, &cProfessor Hemlock&r?"
+            "&3&lThomas": "Hmm, I had some things to discuss with the professor, but I'll let you guys settle in first. There will be plenty of time afterwards.",
+            "&3&lThomas": "I suppose you still know the way to your lab, &cProfessor Hemlock&r?"
         },
         80
     ],
@@ -568,7 +568,7 @@
     "Dialog": [
         {
             "&c&lProfessor Hemlock": "Of course.",
-            "&4&lThomas": "In that case, I'll be going. I'm sure we'll see each other soon enough."
+            "&3&lThomas": "In that case, I'll be going. I'm sure we'll see each other soon enough."
         },
         80
     ],
@@ -903,8 +903,8 @@
             "Professor Hemlock": "Now, [PLAYER], go and discover the region of Zeinova.",
             "Professor Hemlock": "You have a great adventure ahead of you and many new Pokémon to catch and train!",
             "Professor Hemlock": "Thomas or I will contact you if we need your help with anything!",
-            "Professor Hemlock": "Well good luck on your exciting adventure! I will keep in touch.",
-            "Professor Hemlock": "Oh btw. When you are ready to explore the region a bit further, meet &4Thomas &fon the bridge to Breezelton Village.",
+            "Professor Hemlock": "Well, good luck on your exciting adventure! I will keep in touch.",
+            "Professor Hemlock": "Oh, by the way, when you are ready to explore the region a bit further, meet &4Thomas &fon the bridge to Breezelton Village.",
             "Professor Hemlock": "The man is a great storyteller!"
         },
         80
@@ -949,8 +949,8 @@
     "Unfreeze": [
     ],
     "SetTitle": [
-        "&c&lZeinova",
-        "&aIntroduction complete",
+        "&c&lZeinova Introduction",
+        "&aQuest complete",
         true
     ],
     "PlayCustomSound": "sfx.quest_complete",

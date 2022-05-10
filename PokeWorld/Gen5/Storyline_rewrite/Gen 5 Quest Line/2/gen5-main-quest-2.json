@@ -265,7 +265,6 @@
         1210, 77, -54
     ],
     "Show": "lewis_bridge",
-    "Completed": "gen5_main_quest_1",
     "HighlightClickEntity": "lewis_bridge",
     "Comment": "Set up barriers to the cave.",
     "SetBlocks": [
