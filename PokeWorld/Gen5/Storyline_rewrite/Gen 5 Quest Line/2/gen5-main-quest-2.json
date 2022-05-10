@@ -714,7 +714,7 @@
     "Particle": ["squid_ink", 1056.0, 21.0, -537.1, 50, 0.6],
     "NewDialog": [
         {
-            "&7&lSpirit": "&lWho are you! How dare you awake me?",
+            "&7&lSpirit": "&lWho are you! How dare you wake me?",
             "[PLAYER]": "I am [PLAYER]&r, I'm trying to figure out what's going on with the Pokémon."
         },
         90, true, true
