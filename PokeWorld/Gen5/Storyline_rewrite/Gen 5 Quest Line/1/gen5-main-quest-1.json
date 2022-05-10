@@ -560,6 +560,7 @@
         130, true, true, "male_normal"
     ],
 
+    "Unfreeze": [],
     "Wait": 20,
     "Objective": ["Cross the bridge to the next island", 3],
     "RegionEntry": [
