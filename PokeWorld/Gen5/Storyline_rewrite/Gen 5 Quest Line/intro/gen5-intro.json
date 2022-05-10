@@ -518,7 +518,6 @@
     "EntityLook": ["representative2", "professor2"],
     "Dialog": [
         {
-            "&c&lProfessor Hemlock": "They were! It's nice to meet you in person. These two are my apprentices &dDanielle&r and [PLAYER]!",
             "&c&lProfessor Hemlock": "&3&lThomas&r is part of the Company &3Statera&r that hired me to come to &lZeinova&r to continue and expand my research on Pokémon Behavior!"
         },
         80
