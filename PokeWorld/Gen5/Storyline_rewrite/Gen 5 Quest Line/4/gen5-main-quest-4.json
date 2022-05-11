@@ -371,7 +371,7 @@
         "air",
         "barrier"
     ],
-    "HasTrainerLevel": 20,
+    "HasTrainerLevel": 40,
     "Completed": "gen5_main_quest_3",
     "Completed": "gym4",
     "NotCompleted": [],
@@ -542,6 +542,7 @@
     },
     "Start": "gen5_main_quest_4_ice_puzzle_instructions",
 
+    "Unfreeze": [],
     "Objective": ["Solve the magma puzzle inside the volcano", 3],
     "Skip": "first_ice",
     "Comment": "restart_ice",

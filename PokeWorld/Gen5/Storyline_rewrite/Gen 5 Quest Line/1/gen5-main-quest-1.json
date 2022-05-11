@@ -957,7 +957,7 @@
     ],
     "NewDialog": [
         {
-            "[PLAYER]": "My mentor, Professor Hemlock, has some research to do here!"
+            "[PLAYER]": "My mentor, &c&lProfessor Hemlock, has some research to do here!"
         },
         90, true, true
     ],

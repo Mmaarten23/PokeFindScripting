@@ -603,13 +603,13 @@
         },
         90
     ],
-    "Unfreeze": [],
     "Fade": [],
     "Teleport": [1111.5, 43.0, -708.5, 90, 0],
     "ShowPlayer": [],
     "StopCinematic": [],
     "SetScoreboard": [],
-
+    "Wait": 1,
+    "Unfreeze": [],
 
     "Wait": 20,
     "Objective": ["Lead the water to the gate using the barriers (Pull a lever to get started)", 6],
