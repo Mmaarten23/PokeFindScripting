@@ -1,0 +1,560 @@
+{
+    "Key": "intro",
+    "Author": "Mmaarten",
+
+    "NoBorderRegion": [
+        872, -64, 1000,
+        1000, 257, 1130
+    ],
+    "Comment": " ------------------- NPC CREATION ------------------- ",
+    "CreateEntity": {
+        "key": "cam1guide",
+        "location": {
+            "x": 10.5,
+            "y": 104.0,
+            "z": 0.5
+        },
+        "entity": "ARMOR_STAND",
+        "marker": true,
+        "visible": false
+    },
+
+    "CreateEntity": {
+        "key": "playerBuildingBushes",
+        "location": {
+            "x": 931.0,
+            "y": 76.0,
+            "z": 1046.0,
+            "yaw": 124,
+            "pitch": 4
+        },
+        "hand": "flowering_azalea_leaves",
+        "skin": "[PLAYER]",
+        "look": false
+    },
+    "Server": [],
+    "Hide": "playerBuildingBushes",
+
+    "CreateEntity": {
+        "key": "playerCrossingBorder",
+        "location": {
+            "x": 930.5,
+            "y": 75.0,
+            "z": 1090.5,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "hand": "compass",
+        "skin": "[PLAYER]",
+        "look": false
+    },
+    "Server": [],
+    "Hide": "playerCrossingBorder",
+
+    "CreateEntity": {
+        "key": "playerTradingBefore",
+        "location": {
+            "x": 901.3,
+            "y": 50.1,
+            "z": 1068.5,
+            "yaw": -37,
+            "pitch": 0
+        },
+        "hand": "diamond",
+        "skin": "[PLAYER]",
+        "look": false
+    },
+    "Server": [],
+    "Hide": "playerTradingBefore",
+
+    "CreateEntity": {
+        "key": "playerTradingDuring",
+        "location": {
+            "x": 901.3,
+            "y": 50.1,
+            "z": 1068.5,
+            "yaw": -37,
+            "pitch": 0
+        },
+        "skin": "[PLAYER]",
+        "look": false
+    },
+    "Server": [],
+    "Hide": "playerTradingDuring",
+
+    "CreateEntity": {
+        "key": "playerTradingAfter",
+        "location": {
+            "x": 901.3,
+            "y": 50.1,
+            "z": 1068.5,
+            "yaw": -37,
+            "pitch": 0
+        },
+        "hand": "cactus",
+        "skin": "[PLAYER]",
+        "look": false
+    },
+    "Server": [],
+    "Hide": "playerTradingAfter",
+
+    "CreateEntity": {
+        "key": "npcTradingBefore",
+        "location": {
+            "x": 901.3,
+            "y": 50.1,
+            "z": 1068.5,
+            "yaw": 142,
+            "pitch": 1
+        },
+        "hand": "cactus",
+        "skin": {
+            "signature": "GPWs7ubqFPq5Mz0+eEbynLraY9KUtZ2QMQXOtJQxxWSyao13wHGut2wsE1iK/Z6mZ4deP7mmp3++e/5Hwozh49/8WZqxCCVPzs9M7DE4GkTXCPlZFcPJiAg9Y+If5IfBdVwSTW3OeYQcpYSiGzJ1uxNvE+jiGg3xmbpkJJV/07/O4WA9crOQygf33Jdnu0ZbZ6iOTthQewBMSe0YcNty91kjhYzoMZ67fjWB8n77XGjT0bE/znSla/jqHw9m1S1bRdJIIgmC68gM2J3yO6PDHEfhYygaBMK0ACGmFcZh7Zp9wtR08sVNJBiLew/6xmWxYk0vHbcMfyUbWUASlfDyG5or8rhwUnP+wDFRjetkG79TzQ7dqf2mkx5NbFoJAY2pNMM9+lHHwvXl9WRkwg+evNjGBup3f0yAj2mYFm0LVX7WvKn45ODDg3fTI51Jq1HJ/esVAlAz445DpaIy1e9qAhN2oiOeZEv8ELAPwpBWS9U7VlqPripzwGHYMMsBiiH64PJ1uSPqO+zUoZytQW0bsB3Q3/tjjxcS6TL3Sasm7ZWNGWX5iKcVXWvLG8/Ls2t92EARxaXBCmOl/xgM6CdpzKT8w4tKq9md7GRKf/HMHC12zZkW72U4z4P0DiJAa9IjoKBUGmyKxOcR59hbOeNfkvQZvKnRy3J6+luXy8lk6IE=",
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1NjYwMTk0NTc1MiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZjM2ZGMyYmQxYmZmYzZhYzNiMTRiOGEyMzE0NzU2N2Q0Yzg5ZWZiNTEwZTgyMmQ4NmJiODYyMzc5MmY0YTFlIgogICAgfQogIH0KfQ=="
+        },
+        "look": false
+    },
+    "Server": [],
+    "Hide": "npcTradingBefore",
+
+    "CreateEntity": {
+        "key": "npcTradingDuring",
+        "location": {
+            "x": 901.3,
+            "y": 50.1,
+            "z": 1068.5,
+            "yaw": 142,
+            "pitch": 1
+        },
+        "hand": "cactus",
+        "offhand": "diamond",
+        "skin": {
+            "signature": "GPWs7ubqFPq5Mz0+eEbynLraY9KUtZ2QMQXOtJQxxWSyao13wHGut2wsE1iK/Z6mZ4deP7mmp3++e/5Hwozh49/8WZqxCCVPzs9M7DE4GkTXCPlZFcPJiAg9Y+If5IfBdVwSTW3OeYQcpYSiGzJ1uxNvE+jiGg3xmbpkJJV/07/O4WA9crOQygf33Jdnu0ZbZ6iOTthQewBMSe0YcNty91kjhYzoMZ67fjWB8n77XGjT0bE/znSla/jqHw9m1S1bRdJIIgmC68gM2J3yO6PDHEfhYygaBMK0ACGmFcZh7Zp9wtR08sVNJBiLew/6xmWxYk0vHbcMfyUbWUASlfDyG5or8rhwUnP+wDFRjetkG79TzQ7dqf2mkx5NbFoJAY2pNMM9+lHHwvXl9WRkwg+evNjGBup3f0yAj2mYFm0LVX7WvKn45ODDg3fTI51Jq1HJ/esVAlAz445DpaIy1e9qAhN2oiOeZEv8ELAPwpBWS9U7VlqPripzwGHYMMsBiiH64PJ1uSPqO+zUoZytQW0bsB3Q3/tjjxcS6TL3Sasm7ZWNGWX5iKcVXWvLG8/Ls2t92EARxaXBCmOl/xgM6CdpzKT8w4tKq9md7GRKf/HMHC12zZkW72U4z4P0DiJAa9IjoKBUGmyKxOcR59hbOeNfkvQZvKnRy3J6+luXy8lk6IE=",
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1NjYwMTk0NTc1MiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZjM2ZGMyYmQxYmZmYzZhYzNiMTRiOGEyMzE0NzU2N2Q0Yzg5ZWZiNTEwZTgyMmQ4NmJiODYyMzc5MmY0YTFlIgogICAgfQogIH0KfQ=="
+        },
+        "look": false
+    },
+    "Server": [],
+    "Hide": "npcTradingDuring",
+
+    "CreateEntity": {
+        "key": "npcTradingAfter",
+        "location": {
+            "x": 901.3,
+            "y": 50.1,
+            "z": 1068.5,
+            "yaw": 142,
+            "pitch": 1
+        },
+        "offhand": "diamond",
+        "skin": {
+            "signature": "GPWs7ubqFPq5Mz0+eEbynLraY9KUtZ2QMQXOtJQxxWSyao13wHGut2wsE1iK/Z6mZ4deP7mmp3++e/5Hwozh49/8WZqxCCVPzs9M7DE4GkTXCPlZFcPJiAg9Y+If5IfBdVwSTW3OeYQcpYSiGzJ1uxNvE+jiGg3xmbpkJJV/07/O4WA9crOQygf33Jdnu0ZbZ6iOTthQewBMSe0YcNty91kjhYzoMZ67fjWB8n77XGjT0bE/znSla/jqHw9m1S1bRdJIIgmC68gM2J3yO6PDHEfhYygaBMK0ACGmFcZh7Zp9wtR08sVNJBiLew/6xmWxYk0vHbcMfyUbWUASlfDyG5or8rhwUnP+wDFRjetkG79TzQ7dqf2mkx5NbFoJAY2pNMM9+lHHwvXl9WRkwg+evNjGBup3f0yAj2mYFm0LVX7WvKn45ODDg3fTI51Jq1HJ/esVAlAz445DpaIy1e9qAhN2oiOeZEv8ELAPwpBWS9U7VlqPripzwGHYMMsBiiH64PJ1uSPqO+zUoZytQW0bsB3Q3/tjjxcS6TL3Sasm7ZWNGWX5iKcVXWvLG8/Ls2t92EARxaXBCmOl/xgM6CdpzKT8w4tKq9md7GRKf/HMHC12zZkW72U4z4P0DiJAa9IjoKBUGmyKxOcR59hbOeNfkvQZvKnRy3J6+luXy8lk6IE=",
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1NjYwMTk0NTc1MiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZjM2ZGMyYmQxYmZmYzZhYzNiMTRiOGEyMzE0NzU2N2Q0Yzg5ZWZiNTEwZTgyMmQ4NmJiODYyMzc5MmY0YTFlIgogICAgfQogIH0KfQ=="
+        },
+        "look": false
+    },
+    "Server": [],
+    "Hide": "npcTradingAfter",
+
+    "CreateEntity": {
+        "key": "tradeCactus",
+        "entity": "item",
+        "location": {
+            "x": 903.4,
+            "y": 81.6,
+            "z": 1097.4
+        },
+        "item": "cactus"
+    },
+    "Server": [],
+    "Hide": "tradeCactus",
+
+    "CreateEntity": {
+        "key": "tradeDiamond",
+        "entity": "item",
+        "location": {
+            "x": 901.9,
+            "y": 81.6,
+            "z": 1095.4
+        },
+        "item": "diamond"
+    },
+    "Server": [],
+    "Hide": "tradeDiamond",
+
+
+    "CreateEntity": {
+        "key": "npcProtection",
+        "location": {
+            "x": 961.6,
+            "y": 74.0,
+            "z": 1081.9,
+            "yaw": 0,
+            "pitch": -7
+        },
+        "hand": "diamond_pickaxe",
+        "skin": {
+            "signature": "GPWs7ubqFPq5Mz0+eEbynLraY9KUtZ2QMQXOtJQxxWSyao13wHGut2wsE1iK/Z6mZ4deP7mmp3++e/5Hwozh49/8WZqxCCVPzs9M7DE4GkTXCPlZFcPJiAg9Y+If5IfBdVwSTW3OeYQcpYSiGzJ1uxNvE+jiGg3xmbpkJJV/07/O4WA9crOQygf33Jdnu0ZbZ6iOTthQewBMSe0YcNty91kjhYzoMZ67fjWB8n77XGjT0bE/znSla/jqHw9m1S1bRdJIIgmC68gM2J3yO6PDHEfhYygaBMK0ACGmFcZh7Zp9wtR08sVNJBiLew/6xmWxYk0vHbcMfyUbWUASlfDyG5or8rhwUnP+wDFRjetkG79TzQ7dqf2mkx5NbFoJAY2pNMM9+lHHwvXl9WRkwg+evNjGBup3f0yAj2mYFm0LVX7WvKn45ODDg3fTI51Jq1HJ/esVAlAz445DpaIy1e9qAhN2oiOeZEv8ELAPwpBWS9U7VlqPripzwGHYMMsBiiH64PJ1uSPqO+zUoZytQW0bsB3Q3/tjjxcS6TL3Sasm7ZWNGWX5iKcVXWvLG8/Ls2t92EARxaXBCmOl/xgM6CdpzKT8w4tKq9md7GRKf/HMHC12zZkW72U4z4P0DiJAa9IjoKBUGmyKxOcR59hbOeNfkvQZvKnRy3J6+luXy8lk6IE=",
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1NjYwMTk0NTc1MiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZjM2ZGMyYmQxYmZmYzZhYzNiMTRiOGEyMzE0NzU2N2Q0Yzg5ZWZiNTEwZTgyMmQ4NmJiODYyMzc5MmY0YTFlIgogICAgfQogIH0KfQ=="
+        },
+        "look": false
+    },
+    "Server": [],
+    "Hide": "npcProtection",
+
+    "Comment": " ------------------- START ------------------- ",
+
+    "PlayerJoin": [],
+
+    "Comment": " ------------------- PLAY SOUND AT ALL LOCATIONS ------------------- ",
+    "Comment": "spawn, bushes, border, trading, protection",
+    "PlaySoundLocation": ["music_disc_blocks", 1.0, 1.0, 0.5, 112.0, 0.5],
+    "PlaySoundLocation": ["music_disc_blocks", 1.0, 1.0, 932.0, 78.0, 1038.0],
+    "PlaySoundLocation": ["music_disc_blocks", 1.0, 1.0, 936.7, 77.4, 1089.9],
+    "PlaySoundLocation": ["music_disc_blocks", 1.0, 1.0, 898.3, 83.3, 1101.7],
+    "PlaySoundLocation": ["music_disc_blocks", 1.0, 1.0, 967.4, 76.4, 1085.3],
+
+
+    "Comment": " ------------------- SETUP ------------------- ",
+    "NotCompleted": false,
+    "Complete": [],
+    "DisableChat": [],
+    "HidePlayer": [],
+    "SetScoreboard": "",
+    "Wait": 10,
+
+    "Comment": " ------------------- SPAWN CUTSCENE ------------------- ",
+
+    "Teleport": [0.5, 112.0, 0.5, -90, 38],
+    "Look": ["cam1", "cam1guide", 7.0],
+    "ProgressiveMoveEntity": ["cam1guide", 10.5, 115.0, 0.5, 0.10, false],
+    "Wait": 1.0,
+    "ProgressiveDialog": {
+        "&e&lCHUNK": "Welcome to Chunk!"
+    },
+    "Wait": 6.0,
+    "Wait": 1,
+
+
+    "Comment": " ------------------- BUSHES CUTSCENE ------------------- ",
+
+    "Teleport": [932.0, 78.0, 1038.0, 63, 24],
+    "Wait": 5,
+    "Show": "playerBuildingBushes",
+    "Freeze": true,
+    "Wait": 1.0,
+    "PlaySound": ["block_wool_step", 1.0, 1.0],
+    "MoveEntity": ["playerBuildingBushes", 927.0, 76.0, 1043.5],
+    "PlaySound": ["block_stone_step", 1.0, 1.0],
+    "ProgressiveDialog": {
+        "": "Play and build on your NFT"
+    },
+    "Wait": 10,
+    "PlaySound": ["block_stone_step", 1.0, 1.0],
+    "EntityLook": ["playerBuildingBushes", 925, 76, 1042],
+    "Wait": 10,
+    "AnimateEntity": ["playerBuildingBushes", "Swing Main Hand"],
+    "SetBlock": [925, 77, 1042, "flowering_azalea_leaves", false],
+    "PlaySound": ["block_azalea_leaves_place", 1.0, 1.0],
+    "Wait": 10,
+    "EntityLook": ["playerBuildingBushes", 925, 77, 1042],
+    "Wait": 10,
+    "AnimateEntity": ["playerBuildingBushes", "Swing Main Hand"],
+    "SetBlock": [925, 78, 1042, "flowering_azalea_leaves", false],
+    "PlaySound": ["block_azalea_leaves_place", 1.0, 1.0],
+    "Wait": 10,
+    "ProgressiveMoveEntity": ["playerBuildingBushes", 930.0, 76.0, 1031.5],
+    "PlaySound": ["block_stone_step", 1.0, 1.0],
+    "Wait": 20,
+    "PlaySound": ["block_wool_step", 1.0, 1.0],
+    "Wait": 20,
+
+    "RemoveFilter": [],
+    "Wait": 1,
+    "Hide": "playerBuildingBushes",
+
+    "Comment": " ------------------- BORDER CUTSCENE ------------------- ",
+
+    "Teleport": [936.7, 77.4, 1089.9, 143, 3],
+    "Wait": 1,
+
+    "Freeze": true,
+    "Show": "playerCrossingBorder",
+    "ProgressiveMoveEntity": ["playerCrossingBorder", 930.5, 74.1, 1070.5],
+    "PlaySound": ["block_gravel_step", 1.0, 0.5],
+    "Wait": 10,
+    "PlaySound": ["block_gravel_step", 1.0, 0.5],
+    "Wait": 10,
+    "PlaySound": ["block_gravel_step", 1.0, 0.5],
+    "ProgressiveDialog": {
+        "": "Cross the border of your own chunk to visit others"
+    },
+    "Wait": 10,
+    "Particle": ["WAX_ON", 932.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 80.5, 1082.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", 931.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 80.5, 1082.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", 930.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 80.5, 1082.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", 929.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 80.5, 1082.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", 928.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 80.5, 1082.5, 5, 0.5],
+    "PlaySound": ["block_gravel_step", 1.0, 0.5],
+    "SetBlocks": [
+        928, 74, 1082,
+        932, 74, 1082,
+        "YELLOW_CONCRETE"
+    ],
+
+    "Wait": 10,
+    "Particle": ["WAX_ON", 932.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 932.5, 80.5, 1082.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", 931.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 931.5, 80.5, 1082.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", 930.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 930.5, 80.5, 1082.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", 929.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 929.5, 80.5, 1082.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", 928.5, 75.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 76.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 77.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 78.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 79.5, 1082.5, 5, 0.5],
+    "Particle": ["WAX_ON", 928.5, 80.5, 1082.5, 5, 0.5],
+    "PlaySound": ["block_gravel_step", 1.0, 0.5],
+
+    "Wait": 10,
+    "SetBlocks": [
+        928, 74, 1082,
+        932, 74, 1082,
+        "GRAVEL"
+    ],
+    "Wait": 10,
+    "PlaySound": ["block_stone_step", 1.0, 0.5],
+    "Wait": 1.0,
+    "PlaySound": ["block_stone_step", 1.0, 0.5],
+    "Wait": 1.0,
+    "PlaySound": ["block_stone_step", 1.0, 0.5],
+
+
+    "RemoveFilter": [],
+    "Wait": 1,
+    "Hide": "playerCrossingBorder",
+
+    "Comment": " ------------------- TRADING CUTSCENE ------------------- ",
+
+    "Teleport": [898.3, 83.3, 1101.7, -133, 37],
+    "Wait": 1,
+    "Show": "npcTradingBefore",
+    "Show": "playerTradingBefore",
+    "Show": "npcTradingDuring",
+    "Show": "playerTradingDuring",
+    "Show": "npcTradingAfter",
+    "Show": "playerTradingAfter",
+    "Wait": 2,
+    "TeleportEntity": ["playerTradingBefore", 901.9, 80.1, 1095.4, -37, 0],
+    "TeleportEntity": ["npcTradingBefore", 903.4, 80.1, 1097.4, 142, 1],
+
+    "Freeze": true,
+    "Wait": 2.0,
+
+    "ProgressiveDialog": {
+        "": "Trade your resources"
+    },
+
+    "AnimateEntity": ["playerTradingBefore", "Swing Main Hand"],
+    "Wait": 9,
+    "TeleportEntity": ["playerTradingDuring", 901.9, 80.1, 1095.4, -37, 0],
+    "Wait": 3,
+    "TeleportEntity": ["playerTradingBefore", 901.3,50.1,1086.5, -37, 0],
+    "Show": "tradeDiamond",
+    "Velocity": ["tradeDiamond", 0.1, -0.005, 0.1],
+    "Wait": 25,
+    "PlaySound": ["entity_item_pickup", 1.0, 1.0],
+    "TeleportEntity": ["npcTradingDuring", 903.4, 80.1, 1097.4, 142, 1],
+    "Wait": 3,
+    "TeleportEntity": ["npcTradingBefore", 901.3,50.1,1086.5, 142, 1],
+    "Hide": "tradeDiamond",
+    "Wait": 10,
+    "AnimateEntity": ["npcTradingDuring", "Swing Main Hand"],
+    "Wait": 10,
+    "TeleportEntity": ["npcTradingAfter", 903.4, 80.1, 1097.4, 142, 1],
+    "Wait": 3,
+    "TeleportEntity": ["npcTradingDuring", 901.3,50.1,1086.5, 142, 1],
+    "Show": "tradeCactus",
+    "Velocity": ["tradeCactus", -0.1, -0.005, -0.1],
+    "Wait": 25,
+    "PlaySound": ["entity_item_pickup", 1.0, 1.0],
+    "Hide": "tradeCactus",
+
+    "TeleportEntity": ["playerTradingAfter", 901.9, 80.1, 1095.4, -37, 0],
+    "Wait": 3,
+    "TeleportEntity": ["playerTradingDuring", 901.3,50.1,1086.5, -37, 0],
+
+    "Wait": 20,
+    "AnimateEntity": ["playerTradingAfter", "Swing Main Hand"],
+    "EntityPose": ["playerTradingAfter", "CROUCHING"],
+    "Wait": 10,
+    "AnimateEntity": ["playerTradingAfter", "Swing Main Hand"],
+    "Wait": 5,
+    "AnimateEntity": ["npcTradingAfter", "Swing Main Hand"],
+    "EntityPose": ["npcTradingAfter", "CROUCHING"],
+    "Wait": 10,
+    "AnimateEntity": ["playerTradingAfter", "Swing Main Hand"],
+    "Wait": 3,
+    "AnimateEntity": ["npcTradingAfter", "Swing Main Hand"],
+    "Wait": 1,
+    "AnimateEntity": ["playerTradingAfter", "Swing Main Hand"],
+    "Wait": 4,
+    "AnimateEntity": ["npcTradingAfter", "Swing Main Hand"],
+    "Wait": 4,
+    "AnimateEntity": ["playerTradingAfter", "Swing Main Hand"],
+    "Wait": 3,
+    "AnimateEntity": ["npcTradingAfter", "Swing Main Hand"],
+    "AnimateEntity": ["playerTradingAfter", "Swing Main Hand"],
+    "Wait": 3,
+    "AnimateEntity": ["npcTradingAfter", "Swing Main Hand"],
+    "Wait": 1,
+    "AnimateEntity": ["playerTradingAfter", "Swing Main Hand"],
+    "Wait": 4,
+    "AnimateEntity": ["npcTradingAfter", "Swing Main Hand"],
+    "Wait": 4,
+    "AnimateEntity": ["playerTradingAfter", "Swing Main Hand"],
+    "Wait": 3,
+    "AnimateEntity": ["npcTradingAfter", "Swing Main Hand"],
+
+    "RemoveFilter": [],
+    "Wait": 1,
+    "EntityPose": ["npcTradingAfter", "STANDING"],
+    "EntityPose": ["playerTradingAfter", "STANDING"],
+    "TeleportEntity": ["playerTradingBefore", 901.3,50.1,1086.5, -37, 0],
+    "TeleportEntity": ["npcTradingBefore", 901.3,50.1,1086.5, 142, 1],
+    "Hide": "npcTradingAfter",
+    "Hide": "playerTradingAfter",
+    "Hide": "npcTradingDuring",
+    "Hide": "playerTradingDuring",
+    "Hide": "npcTradingBefore",
+    "Hide": "playerTradingBefore",
+
+    "Comment": " ------------------- PROTECTION CUTSCENE ------------------- ",
+
+    "Teleport": [967.4, 76.4, 1085.3, 101, 20],
+    "Show": "npcProtection",
+    "Wait": 1,
+    "Freeze": true,
+
+    "Wait": 10,
+    "AnimateEntity": ["npcProtection", "Swing Main Hand"],
+    "PlaySound": ["block_stone_break", 1.0, 1.0],
+    "Wait": 10,
+    "AnimateEntity": ["npcProtection", "Swing Main Hand"],
+    "PlaySound": ["block_stone_break", 1.0, 1.0],
+    "Wait": 10,
+
+    "AnimateEntity": ["npcProtection", "Swing Main Hand"],
+    "PlaySound": ["block_stone_break", 1.0, 1.0],
+    "Wait": 10,
+    "ProgressiveDialog": {
+        "": "Your NFT is protected from modification by others"
+    },
+    "AnimateEntity": ["npcProtection", "Swing Main Hand"],
+    "PlaySound": ["block_stone_break", 1.0, 1.0],
+    "Wait": 10,
+    "AnimateEntity": ["npcProtection", "Swing Main Hand"],
+    "PlaySound": ["block_stone_break", 1.0, 1.0],
+    "Particle": [
+        {
+            "particle": "block_marker",
+            "data": "barrier"
+        },
+        962.5, 75.5, 1084.5,
+        1, 0.1
+    ],
+    "Wait": 10,
+    "AnimateEntity": ["npcProtection", "Swing Main Hand"],
+    "PlaySound": ["block_stone_break", 1.0, 1.0],
+    "Wait": 10,
+    "AnimateEntity": ["npcProtection", "Swing Main Hand"],
+    "PlaySound": ["block_stone_break", 1.0, 1.0],
+    "Wait": 10,
+    "AnimateEntity": ["npcProtection", "Swing Main Hand"],
+    "PlaySound": ["block_stone_break", 1.0, 1.0],
+    "Wait": 10,
+    "EntityLook": ["npcProtection", 0, 53],
+    "Wait": 10,
+    "EntityPose": ["npcProtection", "CROUCHING"],
+    "Wait": 1.0,
+    "ProgressiveMoveEntity": ["npcProtection", 963.6, 74.0, 1075.5, 0.1],
+    "Wait": 2.0,
+
+
+    "Comment": " ------------------- BREAKDOWN ------------------- ",
+
+    "RemoveFilter": [],
+    "Wait": 1,
+    "EntityPose": ["npcProtection"],
+    "Hide": "npcProtection",
+    "Teleport": [0.5, 110.0, 0.5, -90, 0],
+    "Wait": 1,
+    "Freeze": true,
+    "Wait": 10,
+    "SetScoreboard": [],
+    "ProgressiveDialog": {
+        "": "Start your journey on Chunk!"
+    },
+    "Wait": 3.0,
+    "Unfreeze": [],
+    "ShowPlayer": [],
+
+    "Comment": "To avoid having music cut off at a weird spot, let the player walk away so it fades out.",
+    "RegionExit": [
+        -16, 100, -16,
+        16, 140, 16
+    ],
+    "StopSound": []
+}

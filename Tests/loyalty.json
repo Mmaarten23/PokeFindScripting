@@ -1,0 +1,568 @@
+{
+    "Command": "cmreward",
+    "NotCompleted": [],
+    "Complete": [],
+    "FirstJoined": [
+        "7-2-96",
+        "12-5-2022"
+    ],
+
+    "Store": [
+        "50TokenItem",
+        {
+            "name": "&5&l50x Tokens",
+            "description": [
+                "",
+                "Gives 50 Tokens."
+            ],
+            "material": "ender_pearl"
+        },
+        true
+    ],
+    "Store": [
+        "150Token",
+        {
+            "name": "&5&l150x Tokens",
+            "description": [
+                "",
+                "Gives 150 Tokens."
+            ],
+            "material": "ender_pearl"
+        },
+        true
+    ],
+    "Store": [
+        "250Token",
+        {
+            "name": "&5&l250x Tokens",
+            "description": [
+                "",
+                "Gives 250 Tokens."
+            ],
+            "material": "ender_pearl"
+        },
+        true
+    ],
+
+    "Store": [
+        "10kCoins",
+        {
+            "name": "&6&l10k Coins",
+            "description": [
+                "",
+                "Gives 10,000 Coins."
+            ],
+            "material": "sunflower"
+        },
+        true
+    ],
+    "Store": [
+        "100kCoins",
+        {
+            "name": "&6&l100k Coins",
+            "description": [
+                "",
+                "Gives 100,000 Coins."
+            ],
+            "material": "sunflower"
+        },
+        true
+    ],
+    "Store": [
+        "150kCoins",
+        {
+            "name": "&6&l150k Coins",
+            "description": [
+                "",
+                "Gives 150,000 Coins."
+            ],
+            "material": "sunflower"
+        },
+        true
+    ],
+    "Store": [
+        "200kCoins",
+        {
+            "name": "&6&l200k Coins",
+            "description": [
+                "",
+                "Gives 200,000 Coins."
+            ],
+            "material": "sunflower"
+        },
+        true
+    ],
+
+    "Store": [
+        "BP1000",
+        {
+            "name": "&b&l1000 Battle Points",
+            "description": [
+                "",
+                "Gives 1,000 Battle Points."
+            ],
+            "material": "magma cream"
+        },
+        true
+    ],
+    "Store": [
+        "BP2000",
+        {
+            "name": "&b&l2000 Battle Points",
+            "description": [
+                "",
+                "Gives 2,000 Battle Points."
+            ],
+            "material": "magma cream"
+        },
+        true
+    ],
+    "Store": [
+        "BP3000",
+        {
+            "name": "&b&l3000 Battle Points",
+            "description": [
+                "",
+                "Gives 3,000 Battle Points."
+            ],
+            "material": "magma cream"
+        },
+        true
+    ],
+
+    "Store": [
+        "Rare1",
+        {
+            "name": "&e&lRare Gen 1",
+            "description": [
+                "",
+                "Gives Gen 1 Rare Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 23
+        },
+        true
+    ],
+    "Store": [
+        "Rare2",
+        {
+            "name": "&e&lRare Gen 2",
+            "description": [
+                "",
+                "Gives Gen 2 Rare Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 23
+        },
+        true
+    ],
+    "Store": [
+        "Rare3",
+        {
+            "name": "&e&lRare Gen 3",
+            "description": [
+                "",
+                "Gives Gen 3 Rare Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 23
+        },
+        true
+    ],
+    "Store": [
+        "Rare4",
+        {
+            "name": "&e&lRare Gen 4",
+            "description": [
+                "",
+                "Gives Gen 4 Rare Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 23
+        },
+        true
+    ],
+
+    "Store": [
+        "Epic1",
+        {
+            "name": "&5&lEpic Gen 1",
+            "description": [
+                "",
+                "Gives Gen 1 Epic Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 22
+        },
+        true
+    ],
+    "Store": [
+        "Epic2",
+        {
+            "name": "&5&lEpic Gen 2",
+            "description": [
+                "",
+                "Gives Gen 2 Epic Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 22
+        },
+        true
+    ],
+    "Store": [
+        "Epic3",
+        {
+            "name": "&5&lEpic Gen 3",
+            "description": [
+                "",
+                "Gives Gen 3 Epic Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 22
+        },
+        true
+    ],
+    "Store": [
+        "Epic4",
+        {
+            "name": "&5&lEpic Gen 4",
+            "description": [
+                "",
+                "Gives Gen 4 Epic Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 22
+        },
+        true
+    ],
+
+    "Store": [
+        "Shiny1",
+        {
+            "name": "&6&lShiny Gen 1",
+            "description": [
+                "",
+                "Gives Gen 1 Shiny Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 35
+        },
+        true
+    ],
+    "Store": [
+        "Shiny2",
+        {
+            "name": "&6&lShiny Gen 2",
+            "description": [
+                "",
+                "Gives Gen 2 Shiny Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 35
+        },
+        true
+    ],
+    "Store": [
+        "Shiny3",
+        {
+            "name": "&6&lShiny Gen 3",
+            "description": [
+                "",
+                "Gives Gen 3 Shiny Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 35
+        },
+        true
+    ],
+    "Store": [
+        "Shiny4",
+        {
+            "name": "&6&lShiny Gen 4",
+            "description": [
+                "",
+                "Gives Gen 4 Shiny Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 35
+        },
+        true
+    ],
+
+    "Store": [
+        "Aura1",
+        {
+            "name": "&b&lAura Gen 1",
+            "description": [
+                "",
+                "Gives Gen 1 Aura Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 57
+        },
+        true
+    ],
+    "Store": [
+        "Aura2",
+        {
+            "name": "&b&lAura Gen 2",
+            "description": [
+                "",
+                "Gives Gen 2 Aura Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 57
+        },
+        true
+    ],
+    "Store": [
+        "Aura3",
+        {
+            "name": "&b&lAura Gen 3",
+            "description": [
+                "",
+                "Gives Gen 3 Aura Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 57
+        },
+        true
+    ],
+    "Store": [
+        "Aura4",
+        {
+            "name": "&b&lAura Gen 4",
+            "description": [
+                "",
+                "Gives Gen 4 Aura Egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 57
+        },
+        true
+    ],
+
+
+    "Store": [
+        "Easter2022",
+        {
+            "name": "&d&lEaster 2022",
+            "description": [
+                "",
+                "Gives an Easter 2022 egg"
+            ],
+            "material": "Iron Hoe",
+            "damage": 146
+        },
+        true
+    ],
+
+    "AnimatedRandomOption": [
+        "Community Reward",
+        false,
+        {
+            50TokenItem": 0.10,
+            "150Token": 0.10,
+            "250Token": 0.10,
+
+            "10kCoins": 0.10,
+            "100kCoins": 0.10,
+            "150kCoins": 0.10,
+            "200kCoins": 0.10,
+
+            "bp1000": 0.10,
+            "bp2000": 0.10,
+            "bp3000": 0.10,
+
+            "Rare1": 0.10,
+            "Rare2": 0.10,
+            "Rare3": 0.10,
+            "Rare4": 0.10,
+
+            "Epic1": 0.10,
+            "Epic2": 0.10,
+            "Epic3": 0.10,
+            "Epic4": 0.10,
+
+            "Shiny1": 0.10,
+            "Shiny2": 0.10,
+            "Shiny3": 0.10,
+            "Shiny4": 0.10,
+
+            "Aura1": 0.10,
+            "Aura2": 0.10,
+            "Aura3": 0.10,
+            "Aura4": 0.10,
+
+            "Easter2022": 0.10
+        },
+        "Pink Stained Glass Pane",
+        "Lime Stained Glass Pane",
+        "Yellow Stained Glass Pane"
+    ],
+    "Skip": "50Token",
+    "Skip": "150Token",
+    "Skip": "250Token",
+
+    "Skip": "10kCoins",
+    "Skip": "100kCoins",
+    "Skip": "150kCoins",
+    "Skip": "200kCoins",
+
+    "Skip": "bp1000",
+    "Skip": "bp2000",
+    "Skip": "bp3000",
+
+    "Skip": "Rare1",
+    "Skip": "Rare2",
+    "Skip": "Rare3",
+    "Skip": "Rare4",
+
+    "Skip": "Epic1",
+    "Skip": "Epic2",
+    "Skip": "Epic3",
+    "Skip": "Epic4",
+
+    "Skip": "Shiny1",
+    "Skip": "Shiny2",
+    "Skip": "Shiny3",
+    "Skip": "Shiny4",
+
+    "Skip": "Aura1",
+    "Skip": "Aura2",
+    "Skip": "Aura3",
+    "Skip": "Aura4",
+
+    "Skip": "Easter2022",
+
+    "Comment": "50Token",
+    "GiveTokens": [50],
+    "SendMessage": "&7You received &b50 Tokens &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "150Token",
+    "GiveTokens": [150],
+    "SendMessage": "&7You received &b150 Tokens &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "250Token",
+    "GiveTokens": [250],
+    "SendMessage": "&7You received &b250 Tokens &7from your 2022 community reward!",
+    "Skip": "End",
+
+    "Comment": "10kCoins",
+    "GiveCoins": [10000],
+    "SendMessage": "&7You received &610,000 coins &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "100kCoins",
+    "GiveCoins": [100000],
+    "SendMessage": "&7You received &6100,000 coins &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "150kCoins",
+    "GiveCoins": [150000],
+    "SendMessage": "&7You received &6150,000 coins &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "200kCoins",
+    "GiveCoins": [200000],
+    "SendMessage": "&7You received &6200,000 coins &7from your 2022 community reward!",
+    "Skip": "End",
+
+    "Comment": "bp1000",
+    "GiveBattlePoints": [1000],
+    "SendMessage": "&7You received &b1,000 Battle Points &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "bp2000",
+    "GiveBattlePoints": [2000],
+    "SendMessage": "&7You received &b2,000 Battle Points &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "bp3000",
+    "GiveBattlePoints": [3000],
+    "SendMessage": "&7You received &b3,000 Battle Points &7from your 2022 community reward!",
+    "Skip": "End",
+
+    "Comment": "Rare1",
+    "GiveEgg": ["rare"],
+    "SendMessage": "&7You received a &eRare Gen 1 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Rare2",
+    "GiveEgg": ["rare_2"],
+    "SendMessage": "&7You received a &eRare Gen 2 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Rare3",
+    "GiveEgg": ["rare_3"],
+    "SendMessage": "&7You received a &eRare Gen 3 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Rare4",
+    "GiveEgg": ["rare_4"],
+    "SendMessage": "&7You received a &eRare Gen 4 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+
+    "Comment": "Epic1",
+    "GiveEgg": ["epic"],
+    "SendMessage": "&7You received a &5Epic Gen 1 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Epic2",
+    "GiveEgg": ["epic_2"],
+    "SendMessage": "&7You received a &5Epic Gen 2 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Epic3",
+    "GiveEgg": ["epic_3"],
+    "SendMessage": "&7You received a &5Epic Gen 3 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Epic4",
+    "GiveEgg": ["epic_4"],
+    "SendMessage": "&7You received a &5Epic Gen 4 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+
+    "Comment": "Shiny1",
+    "GiveEgg": ["shiny"],
+    "SendMessage": "&7You received a &6Shiny Gen 1 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Shiny2",
+    "GiveEgg": ["shiny_2"],
+    "SendMessage": "&7You received a &6Shiny Gen 2 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Shiny3",
+    "GiveEgg": ["shiny_3"],
+    "SendMessage": "&7You received a &6Shiny Gen 3 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Shiny4",
+    "GiveEgg": ["shiny_4"],
+    "SendMessage": "&7You received a &6Shiny Gen 4 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+
+    "Comment": "Aura1",
+    "GiveEgg": ["aura"],
+    "SendMessage": "&7You received a &bAura Gen 1 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Aura2",
+    "GiveEgg": ["aura_2"],
+    "SendMessage": "&7You received a &bAura Gen 2 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Aura3",
+    "GiveEgg": ["aura_3"],
+    "SendMessage": "&7You received a &bAura Gen 3 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+    "Comment": "Aura4",
+    "GiveEgg": ["aura_4"],
+    "SendMessage": "&7You received a &bAura Gen 4 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+
+    "Comment": "Easter2022",
+    "GiveEgg": ["Easter_2022"],
+    "SendMessage": "&7You received a &dEaster 2022 Egg &7from your 2022 community reward!",
+    "Skip": "End",
+
+    "Comment": "End",
+    "SendMessage": "&7Thank you for being a loyal pokefind player!",
+    "PlaySound": ["block_note_block_bell", 0.5, 0.84],
+    "Wait": 2,
+    "PlaySound": ["block_note_block_bell", 0.749154, 0.84],
+    "Wait": 2,
+    "PlaySound": ["block_note_block_bell", 1.122462, 0.84],
+    "Wait": 2,
+    "PlaySound": ["block_note_block_bell", 0.5, 0.84],
+    "Wait": 2,
+    "PlaySound": ["block_note_block_bell", 0.749154, 0.84],
+    "Wait": 2,
+    "PlaySound": ["block_note_block_bell", 1.122462, 0.84],
+    "Complete": []
+}

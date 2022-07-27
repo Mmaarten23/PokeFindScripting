@@ -1,0 +1,12 @@
+{
+    "Key": "launcher",
+    "Author": "Mmaarten",
+
+    "RegionEntry": [
+        23, 110, 0,
+        23, 110, 0
+    ],
+    "Velocity": [
+        2.0, 1.0, 0.0
+    ]
+}

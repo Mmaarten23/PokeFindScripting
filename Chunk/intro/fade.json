@@ -1,0 +1,8 @@
+{
+    "Key": "fade",
+    "Author": "Mmaarten",
+
+    "Comment": "\"Potion\": [ \"Darkness\", 5.0 ]",
+    "Wait": 10,
+    "Potion": [ "Blindness", 3.0 ]
+}

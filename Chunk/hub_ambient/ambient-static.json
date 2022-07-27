@@ -1,0 +1,87 @@
+{
+    "Key": "ambient_static",
+    "Author": "Mmaarten",
+
+    "PlayerJoin": [],
+    "Hold": [],
+
+    "CreateEntity": {
+        "key": "ferris_wheel_operator",
+        "name": [
+            "&3&lJessica",
+            "&7&oOperator"
+        ],
+        "location": {
+            "x": -22.5,
+            "y": 32.0,
+            "z": 78.5,
+            "yaw": -128,
+            "pitch": 0
+        },
+        "skin": {
+            "signature": "Jdv7yIu3MQycCxjdX/JfyaIsvOaqeyR/q/hHckBdPUhV5yTU5BnxlAbrNCgG42I+zRy05D5ZDvVzQd3PYp+EaefvH97NDuvBZkPpxBVBoZQy844YFjUi+bkl/ZgzGSr30I57N/GSEoTxSbmLsR8SCuCrVLnCNsXjWvNTyufa5O4YbEySaTvbq4yt09KRzBunE/SgXlHAxcjPHCNss3B3xoPd/n+cWTpVLF/H3LhUqV5AvQIeN83hhTSXNS5K+OnkkY1N82kMW8q4bG1ln3fAMbuKwVP+TJm/Gq50yDkd62WarLT0dVDMX7sb1ABGRusDqvo7slEgmwYomW6e6qctFuLkcGRSEKrL+nRuhQzCrFy1XjVC+3Fd+HFv59N0UMXU0gOn6mhmC15nYUDAGZK2/RD/1N3W3YMbo5297S2echhJcZ6MyavqAbWAgh9iGdKIcq3RJArxy2dMxq27sWrYXTj7x7wXQpgjkttWa6luST43iR1OPbNK4+wzX4EkXyS17WFQwc+AoLfqPdtTuVldQwTtkVSlHqvQKINvCbsE5BBp6Rqu8h6o3oRD2rbbxdcn71P3nYjzYN7Xkq4HQMdxpqgvfpEPoVy8MHnmOZfriWID0OqeVKG980gBW/HTN76y1L/rptmVJlxAWseKBF4pyfYhvzDJTOzl6nR2SecCIEU=",
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MzE5MzMxMzk2MCwKICAicHJvZmlsZUlkIiA6ICIzOTVkZTJlYjVjNjU0ZmRkOWQ2NDAwY2JhNmNmNjFhNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFyZXN0ZXZlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QyZTAyZDk3MDdjNDM0MDY1OWJlZDAyMmFjMWEzMTE2ZTc4MWMzYjJhMGJiMjI4M2Y0NGU2NWVjNWZiMDM3NjIiCiAgICB9CiAgfQp9"
+        }
+    },
+    "GlobalClickEntity": "ferris_wheel_operator",
+    "RandomDialog": [
+        [
+            {
+                "&3&lJessica": "Hello, I'm Jessica. I'm the operator of this Ferris Wheel.",
+                "&3&lJessica": "The wheel is currently out of commission. I am not sure why, but I'm not able to start it."
+            },
+            {
+                "&3&lJessica": "I'm sorry, but I can't start the wheel right now. I am performing some maintenance."
+            },
+            {
+                "&3&lJessica": "Heya there! Just applying some grease here.",
+                "&3&lJessica": "I would ask you for help but this requires a specific set of skills."
+            },
+            {
+                "&3&lJessica": "Oh hi there! I'm Jessica. Apologies for the mess, I am performing some maintenance."
+            }
+        ],
+        90
+    ],
+
+
+    "CreateEntity": {
+        "key": "bench_visitor",
+        "name": [
+            "&9&lJames",
+            "&7&oVisitor"
+        ],
+        "location": {
+            "x": -16.3,
+            "y": 24.8,
+            "z": -24.5,
+            "yaw": -87,
+            "pitch": -3
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1NjQ5MTMzMDEzOCwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkZWM2YzI3ZGEzNWM1ZTliYjFjNmZmYTBkNzExMjM2MzUzZTI3NTdhYTU5ODcyMjRlMmMyNjExMmI5NWM1ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+            "signature": "heu5atjJn2LQ55Q1uqixoxta5v8yOe0zx5iWXXum0L0syc7zqhHQnPi9sEXfn+SA902yP76mueCWw+IdLjF6+yEJ4+acJB3ibVlPshuTiIFd8pC4bK/sccMeOTFv0brwCML4TwGfqOtlxikDmfP65LHW6HzwNq3TzwgolxOyiRJ8XwCEmzXaGydINXcjVVPZJl5XIjsF4SS/nu+O7Uq6v6Jh4KZVnrqOgXh4Qt90L+WfBZfL7nL6eo641kBGhvYnw+snQnVpAXLgHicyH68pvhS2fUiGz5IjBJY6DvKH5IIkx9syIKvg/WG3PABdnaLhYrp2uGkZ6ei3W7wbx7bPVaDeEqYSH1rcFr02gx9ev1/iCxeWdQdMdBzMTCz+sDb3pYEdTzcR314c4x+hYR5leDO7SmS3xW8twIvemIoFxG//XxDhwdo1rEzVieeOlC81z/DrGSkcYZ9rsjaahyLzdGs+tPL1vEP6DUU41Lt6uPLwhKQ4awGXh3VZVUe84Hqh6V5f3qfglM56vJTqFiExlhh9ojh3uv4+z2YNvSjH1b+rcATcuw1qvvw5h5JV5OGv0n38hTVRZcc0T/Hn7JLJbg6+nu5OxwTmToOboZsjXIERd8mS+ehMUR9HUTBH0DF8TlOYRE6jPAdQa7QdIclcJTmi9Snyjf+737Ucjknxa3k="
+        },
+        "sitting": true
+    },
+    "GlobalClickEntity": "bench_visitor",
+    "RandomDialog": [
+        [
+            {
+                "&9&lJames": "Phew, time for a break! Visiting all these chunks can be tiring.",
+                "&9&lJames": "I'm sure I'll be back in a few minutes. Don't wait for me, I am going to have a little sit."
+            },
+            {
+                "&9&lJames": "Aaaah, the sun is so nice out here!"
+            },
+            {
+                "&9&lJames": "These benches provide such a nice place to sit.",
+                "&9&lJames": "Perfect place to rest after visiting all these amazing chunks!"
+            },
+            {
+                "&9&lJames": "&7&oThe sun is up and it's time to sit\nOn a bench in the park, enjoying the view\nThe trees are green and the sky is blue\nIt's a beautiful day, and the sun is shining bright\nThe warmth of the sun is soothing and calming\nAnd the time just seems to fly by\nWhen I'm sitting here on this bench\nIn the park, with the sun shining down on me"
+            }
+        ],
+        90
+    ]
+}

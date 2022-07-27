@@ -1,12 +1,19 @@
 {
     "Key": "click_test",
-    "ClickPlayer": "clicked_player",
-    "SendMessage": "You clicked [clicked_player]. Making them start the script...",
-    "StartPlayer": ["clicked_player", "click_test", 1.0, "Player 2 start"],
-    "Wait": 3.0,
-    "SendMessage": "time reset",
-    "Leave": [],
-
-    "Comment": "Player 2 start",
-    "SendMessage": "You were tagged."
+    "CreateEntity": {
+        "key": "player_bird",
+        "name": "CLICK ME!",
+        "entity": "PLAYER",
+        "location": {
+            "x": 901.5,
+            "y": 43.0,
+            "z": 918.0,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": "[PLAYER]",
+        "look": true
+    },
+    "HighlightClickEntity": "player_bird",
+    "Teleport": [901.5, 210.0, 923.4, -177, 64]
 }

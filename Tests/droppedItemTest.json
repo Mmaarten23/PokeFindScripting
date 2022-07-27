@@ -1,0 +1,23 @@
+{
+    "key": "spinning_prevention",
+    "CreateEntity": {
+        "key": "player_teleport",
+        "skin": "[PLAYER]",
+        "location": {
+            "x": 110.4,
+            "y": 104.0,
+            "z": 5.4,
+            "yaw": 172,
+            "pitch": 17
+        },
+        "item": "cactus"
+    },
+    "Server": [],
+    "Hide": "player_teleport",
+
+    "Show": "player_teleport",
+    "Wait": 5.0,
+    "TeleportEntity": ["player_teleport", 109.5,104.0,-2.1, 172, 17],
+
+    "Hold": []
+}
