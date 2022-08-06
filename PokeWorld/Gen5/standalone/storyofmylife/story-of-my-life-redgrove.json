@@ -2,6 +2,44 @@
     "Key": "story_of_my_life_redgrove",
 
     "Progress": [1, "story_of_my_life_main"],
+    "SetBlocks": [
+        -876, 70, 697,
+        -874, 70, 699,
+        "emerald_block", false
+    ],
+    "SetBlock": [
+        -875, 71, 698,
+        "beacon", false
+    ],
+    "SetBlock": [
+        -875, 71, 698,
+        "red_stained_glass_pane", false
+    ],
+    "RegionEntry": [
+        -883, 70, 701,
+        -855, 98, 714
+    ],
+    "SetBlocks": [
+        -876, 70, 697,
+        -874, 70, 699,
+        "lava", false
+    ],
+    "SetBlock": [
+        -875, 71, 698,
+        "lava", false
+    ],
+    "SetBlock": [
+        -875, 71, 698,
+        "lava", false
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThis looks perfect!",
+            "[PLAYER]": "&oThe perfect scene for a heroic story is a volcano.",
+            "[PLAYER]": "&oOh, the inspiration! It just keeps coming!"
+        },
+        160, true, true
+    ],
     "SendMessage": "End for now"
 
 
