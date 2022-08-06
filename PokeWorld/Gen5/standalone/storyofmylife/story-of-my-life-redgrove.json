@@ -5,14 +5,14 @@
     "SetBlocks": [
         -876, 70, 697,
         -874, 70, 699,
-        "emerald_block", false
+        "emerald_block"
     ],
     "SetBlock": [
         -875, 71, 698,
         "beacon", false
     ],
     "SetBlock": [
-        -875, 71, 698,
+        -875, 72, 698,
         "red_stained_glass_pane", false
     ],
     "RegionEntry": [
@@ -22,7 +22,7 @@
     "SetBlocks": [
         -876, 70, 697,
         -874, 70, 699,
-        "lava", false
+        "lava"
     ],
     "SetBlock": [
         -875, 71, 698,
