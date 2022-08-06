@@ -1,7 +1,7 @@
 {
     "Key": "story_of_my_life_redgrove",
 
-    "Progress": ["story_of_my_life_main", 1],
+    "Progress": [1, "story_of_my_life_main"],
     "SendMessage": "End for now"
 
 

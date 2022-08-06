@@ -26,6 +26,7 @@
     },
 
     "HighlightClickEntity": "book_master",
+    "Start": "story_of_my_life_main",
     "NewDialog": [
         {
             "&3&lCole": "Good morning young one.",
