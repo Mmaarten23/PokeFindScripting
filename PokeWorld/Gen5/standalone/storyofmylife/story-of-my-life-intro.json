@@ -1,0 +1,194 @@
+{
+    "Key": "story_of_my_life_intro",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "book_master",
+        "name": [
+            "&3&lCole",
+            "&7Book expert"
+        ],
+        "location": {
+            "world": "world",
+            "x": 538.1,
+            "y": 55.0,
+            "z": 602.3,
+            "yaw": 178,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MDE0ODk2NTY2MSwKICAicHJvZmlsZUlkIiA6ICIyM2YxYTU5ZjQ2OWI0M2RkYmRiNTM3YmZlYzEwNDcxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyODA3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2YTYyNGQ1MTQ2ZTljNDVmYTc3ODU0MjQ2OTA1NTczYzVjZDc0ODY4N2ZlYjVhN2E0MTkzMDU5N2M5ZjhjNWMiCiAgICB9CiAgfQp9",
+            "signature": "qXftEDT33gqU3Xqa0NgsGfUewQohSCS3vMNrfnCtIQQVN6HfSrRImb9GiiXX+hVdeRzGIpsf/OjuDJrWrUl1qqoLM/ol6KAe2QO1k9UvkchR+9ycfN968v+UJU3m6cJaBPlO0Isq7+tlzBLYkDEhhgCcSbtKW3iJ28G9BZTDqcP+BEBNDK5DfXB91LuPvgYVlycu69Zf82wqu7b3BiRQR27+CPq88R9zih4xEFf1N2MC9mLm87UTH6o3Np46GDnKD0T0v1CuzwFK+7qxwooiY4b+MtuurqpRXJpS09QV+YCWZEBx6u6gegO1q1Bvgj2EU3v78QTFo9LSfEA8THC5+MuNhqjVpSBREThuPYimTgUct5s0Xp6w2vo1fcneTefZnTaFu9ZTW7EfY5A+lXHkdeCxC85wWo/wvmoIrEYg5pjK4qpiF+zk5YpNXZoRmyOEl4tlw4S9aCkKr8M/dUUpRaRjQb0EvOFlOn11sMhSA7UhoLKoyzqOUQtHNRnPTIwX3VTcA+rQeedlKrmgScNkv7QCuHiVBDC6KmAdF015XDaq/ntlhB5sFQThMVmI3Y5DXzC3GQuYeaPIG8TaQ+V6qgdEhOd4d0cY3qpQ3LxEAPayr6RIh5taKRdZrwPxqlPqwv4EEdz5taXnIV8sJCd9TUoMSSNPsssDkgoMju1nM+Y="
+        },
+        "hand": {
+            "material": "writable_book"
+        }
+    },
+
+    "HighlightClickEntity": "book_master",
+    "NewDialog": [
+        {
+            "&3&lCole": "Good morning young one.",
+            "&3&lCole": "I am &3&lCole&f. How can I help you today?.",
+            "[PLAYER]": "I am looking for a new book to read, do you have any suggestions?",
+            "&3&lCole": "Hmm, you see, that is not really how I do business.",
+            "&3&lCole": "I only exchange books. If you write a book and give it to me, I will give you the story of someone else.",
+            "[PLAYER]": "Interesting... Can the story be about anything?",
+            "&3&lCole": "Yes, the only requirement is that there must be exactly 3 chapters in the book.",
+            "[PLAYER]": "I have a few ideas. I will talk to you later."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oI need to think about this one for a bit. Walking usually puts my thoughts in order."
+        },
+        90, true, false
+    ],
+    "Progress": "story_of_my_life_main",
+    "DistanceTravelled": 20,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oSo, I must write a story with 3 chapters..."
+        },
+        1, true, false
+    ],
+    "DistanceTravelled": 40,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oWhat if I make each chapter talk about a different event?"
+        },
+        1, true, false
+    ],
+    "DistanceTravelled": 60,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oHmmm, too much action..."
+        },
+        1, true, false
+    ],
+    "DistanceTravelled": 60,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oMaybe a single event that is more... interesting?"
+        },
+        1, true, false
+    ],
+    "DistanceTravelled": 80,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThat sounds like a good idea!"
+        },
+        1, true, false
+    ],
+    "DistanceTravelled": 60,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oBut where to start..."
+        },
+        1, true, false
+    ],
+    "DistanceTravelled": 80,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oI need some inspiration..."
+        },
+        1, true, false
+    ],
+    "DistanceTravelled": 60,
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oLet's cool off with a swim before taking on this task."
+        },
+        130, true, false
+    ],
+    "Progress": "story_of_my_life_main",
+    "Comment": "swim-start",
+    "Wait": 5,
+    "If": [],
+    "InBlock": ["water", false],
+    "Dummy": [],
+    "Skip": "swim-start",
+    "Wait": 5.0,
+    "If": [],
+    "InBlock": ["water", false],
+    "Dummy": [],
+    "Skip": "swim-start",
+
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThe cold water is giving me an idea!",
+            "[PLAYER]": "&oI could write a story about a trainer that visits a unique place, meets a Pokémon there and invites it on a nice activity!",
+            "[PLAYER]": "&oThen the book could talk about the place, the Pokémon and the activity each in their own chapter."
+        },
+        160, true, true
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oNow... where do I want the story to take place?"
+        },
+        160, true, false
+    ],
+    "SendMessageOptions": [
+        30,
+        "&41. The fiery pits of hell",
+        "&b2. The slippery slopes of broken noses",
+        "&e3. The dry plateaus of \"Wait, there is sand in my shoe!\""
+    ],
+    "Skip": "location-redgrove",
+    "Skip": "location-northrun",
+    "Skip": "location-sandgate",
+
+    "Comment": "location-redgrove",
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThe fiery pits of hell, a spicy, hot place sounds perfect for this story!",
+            "[PLAYER]": "&oNow to find such a place..."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oI should probably take a look around &cRedgrove&f&o and see if I can find the perfect location!"
+        },
+        130, true, false
+    ],
+    "Start": "story_of_my_life_redgrove",
+    "Leave": [],
+
+    "Comment": "location-northrun",
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThe slippery slopes of broken noses, a place where you can slip and slide!",
+            "[PLAYER]": "&oSounds perfect for a nice narrative!",
+            "[PLAYER]": "&oNow to find such a place..."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oI should probably take a look around &bNorthrun&f&o and see if I can find a nice slope for my trainer!"
+        },
+        130, true, false
+    ],
+    "Start": "story_of_my_life_northrun",
+    "Leave": [],
+
+    "Comment": "location-sandgate",
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oThe dry plateaus of \"Wait, there is sand in my shoe!\", a place where you can get lost in the sand!",
+            "[PLAYER]": "&oSounds perfect for what I am doing here!",
+            "[PLAYER]": "&oNow to find such a place..."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oI should probably take a look around &eSandgate&f&o and see if I can find a plateau that meets my expectations!"
+        },
+        130, true, false
+    ],
+    "Start": "story_of_my_life_sandgate",
+    "Leave": []
+}

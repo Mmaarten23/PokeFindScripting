@@ -1,0 +1,13 @@
+{
+    "Key": "stat_reset",
+    "Author": "Mmaarten",
+
+    "PlayerJoin": [],
+    "If": [],
+    "Equals": ["server", "current_murder_season", "murder_season"],
+    "Leave": [],
+    "SetStat": ["WIN", 0, true],
+    "SetStat": ["KILL", 0, true],
+    "SetStat": ["BALL_PICKUPS", 0, true],
+    "SetPersistent": ["murder_season", "[server:current_murder_season]"]
+}

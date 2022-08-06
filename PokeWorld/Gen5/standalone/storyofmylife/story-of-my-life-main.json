@@ -1,0 +1,18 @@
+{
+    "Key": "story_of_my_life_main",
+    "Name": "&9&lStory Of My Life",
+    "Description": "Books. They house the power of writing, the soul of the author, the emotions of thousands combined in just a couple words. Talk to &3Cole&f in &f&lFindale Harbor&f to start a journey only limited by your own imagination.",
+    "AddProperty": ["location", "Findale Harbor"],
+    "Quest": true,
+    "AllowRejoining": true,
+    "Icon": {
+        "material": "written_book"
+    },
+
+    "Hold": [],
+    "Objective": ["Take a walk to think about what Cole said", "Objective"],
+    "Hold": [],
+    "Objective": ["Get some inspiration in a nearby body of water", "Objective"],
+    "Hold": []
+
+}
