@@ -1,0 +1,37 @@
+{
+    "Key": "tut_visiting",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tut_npc",
+        "name": [
+            "&5&lMary",
+            "&7Visiting"
+        ],
+        "location": {
+            "world": "world",
+            "x": -104.5,
+            "y": 120.0,
+            "z": 11.5,
+            "yaw": -180,
+            "pitch": 32
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzc4MDQwOTE1MCwKICAicHJvZmlsZUlkIiA6ICJhYzYxZjQwZGJhNDE0YzkwOWU0NWJkMTgwMmY5MTYxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmlmYW5pIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I0YjJkMmQxMDUwN2ZjOGU5M2Q0ZGM1YjY2MTgxYTRkNzdlYjdkMTM3ODNjZmY5YmUxOTg1ODRjMDQ5NTBkYzIiCiAgICB9CiAgfQp9",
+            "signature": "TTY8tXq6xOFJMvj9J2vEkxGynjsIS9NBUZzl1nVtXcmouopXKKc+I8XQmzn1Xn8tSPeDiecM3ctYo8WrMmNqAxybNt2EJuHBevxru1c29ChaCU2RNztlwbq0bLBlDfR2sXQ0N1eYoyr0Cv25dOHttTjXei2W84YY+eGTnBIXyL98eIFVA4rJy0p8uz50ceJy3RfMbjjrtMa1cEZnhYhkBL/aaKPh0OjRCvEUZSfZGOUsdtTEX+Yl6UzPVoTE32i4TeT9ZFJdRaNyeQytWTra72z3yJd8jgB7e7qQSM2V1DRof2tnQLh8dB8EMJ18AZPq5DPCpD8nayKWFydxiAs08vqP7I9Dk/q5Kj/BjNUwDwy7TFP0QcviHaFhGXsxlEpqeudUtTds6BUXV4x6iNpO4SDZ4UwAQT6Po7N05B/gRKWpfM6qT2omSrxGbdR/IOO5SFhRcu071CremSqnoUK8SfgovS9ibSEEkvH841q+r6CT2ulElzYpUB17TN+q4ZLQNguPQdj9lQ+mbUVb0N0Z9JiULc/gH7SGRO5yf1tP42yo7rIgfvOKgO52PisIInwihGgej1yjcxpeLxG0n851ZxPw00leqw93E6tjCmse1d7z1z3PUKeamklWMuX5j79ofqGJSiglSWaC1Xptv+VFC+JuwkXEjDE27nUzjX2WDAQ="
+        },
+        "hand": {
+            "material": "bell"
+        }
+    },
+
+    "HighlightClickEntity": "tut_npc",
+    "NewDialog": [
+        {
+            "&5&lMary": "Morning stranger! Are you boarding the Chunk express?",
+            "[PLAYER]": "Not today I am afraid. Could you tell me some more about how visiting Chunks works?",
+            "&5&lMary": "Sure! I will tell you all about it once the visiting system is no longer throwing errors. #BlameDylan"
+        },
+        130, true, true
+    ]
+}

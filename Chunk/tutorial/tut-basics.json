@@ -1,0 +1,38 @@
+{
+    "Key": "tut_basics",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tut_npc",
+        "name": [
+            "&e&lSteven",
+            "&7Minecraft Basics"
+        ],
+        "location": {
+            "world": "world",
+            "x": -71.5,
+            "y": 117.0,
+            "z": 12.5,
+            "yaw": 180,
+            "pitch": 10
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY2MTA4MDQxMjcxNiwKICAicHJvZmlsZUlkIiA6ICJjMTJkMmY5ZWJhZGI0ZTllYTIxZmM2M2M3YWY3M2E5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbXlOZW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4Y2NhZTE1NzQ1ODAyOGI2NzdiMjhlNDQ3OTNhY2Q3NjYxZGUyNzg4ZTc0NjE2ZGIyYzcxYzc1ZDM4Y2UzNjMiCiAgICB9CiAgfQp9",
+            "signature": "VkpGFnjOUzaadAnhyuo9FrpNlXLC6dPgDV6mKHr9o583P4UuO02ZJQJ/Iu26z6O3iZx1wwkNZXm3UW5564S4yoX7LbjE/va2Ob/WB9XZoHCYDhqFMawHcLANeiqtYtskLhasGyGy3gQkDze5o+hmdIh6KprUKoUcxqzrvxAyS44ex1+wIfheYxUalQjCXHbqVcXQnMGE/KWVj7ALLdrfuWGY32WBokMMwgA3Yo5dmvZIrTzjzHkxXet0cQbTudF4OCO1PrGhzgrFFdzuA1Ad7WNTkVQigLDPunDoo+N0MPuQ5DCmz9DbWMHpLkonwSlISsUd2v3kodV0x/lVGToN/24kbdNbKZd/G8DH0Zi1+vr/jm/Dx7on8nsIWvgrVp4SyqpM+vb4LCAdHgPRSL7w9iz/BdPpqwuikjz3rz2QNMCTLtA0/BAG+EJGvStrPqf9hoTd9QC/g0CB8fk5TciX8woWJIjHEH5MmysfK8w5nh2VLzdOt5Ivm+qAo+KIAEv50SazEL74a4BWk2a5eGDIgxZXr5gNMsCXmFQwCa+qJwQgOz5wfZY0YX3vlTsoVUhJq7yE0iKxp7F77guLlVtHeWQ7TyDPPntIo2QCPAmxeKMlYQ6SQTXPXuUqjRUSdvYy/1kEVqtguzsSYNulGLReGbj6X9dl2jIxDXNu9o1ea5o="
+        },
+        "hand": {
+            "material": "compass"
+        }
+    },
+
+    "HighlightClickEntity": "tut_npc",
+    "NewDialog": [
+        {
+            "&e&lSteven": "Welcome to my dirt hut!",
+            "&e&lSteven": "What are you saying? You want to learn more about how to play Minecraft?",
+            "&e&lSteven": "I would help with that but I am afraid all my time is occupied with expanding my dirt hut.",
+            "&e&lSteven": "You can take a look here though. It helped me during my first days!&b&n https://www.minecraft.net/en-us/article/how-minecraft"
+        },
+        130, true, true
+    ]
+}

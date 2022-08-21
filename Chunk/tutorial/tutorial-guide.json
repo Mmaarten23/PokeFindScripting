@@ -1,0 +1,67 @@
+{
+    "Key": "tutorial_guide",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tutorial_guide",
+        "name": [
+            "&3&lAdam",
+            "&7Tutorial Guide"
+        ],
+        "location": {
+            "world": "world",
+            "x": 12.4,
+            "y": 109.9,
+            "z": 9.0,
+            "yaw": 133
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1NzQxODk0Nzg4MiwKICAicHJvZmlsZUlkIiA6ICIxNmFkYTc5YjFjMDk0MjllOWEyOGQ5MjgwZDNjNjE5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYXp1bGl0ZV9adG9uZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZjM5ODVjZDhmYmJjMWMzZmFhMWZmODlmN2VlNjQyMDAyOWIxZjk0OTI2MWVkOWM1NTA0OGQxMzNkYjIyZjBjIgogICAgfQogIH0KfQ==",
+            "signature": "Mz7bvt/jKe28HNQQSjjAqhky4RhJBCR7z+oA41+iyh+sceDiW56dgXeH6bK6Go39FcTEiNaZej2ZKAC9vW+jUDW1G106m+DvojEodmMdbY0HMwyVoa+ITOrBJtlO54erIOoRjiEalUzeBTsNWrdmxTvleLglhuWXKAre1ymzFjetYrovxSs5OpjPB1t+DExsgJdBr/NsQtaEXZ8Wt7wTm690HRXK2fmKe7dCJ5v0JG0IrQvZIB3gAP1p5cTE6F7Bo8OjxfI8IrWepqOLohgKvq4ptn8gbgZy9X+R8gwYob9i/gjuus9uKGtJpnkhdLQ9B6Jj8PcCoP4yLG3UmdWJXmPj9xnmTBPji2tjokMtZdtp2Xc5cpbMuzexvqbX2ItS9DO+Y88a04aIuKoxoERLgrkxJqs1B3JuCZT1nBm8B54SeQ2ELYsnWTJGwwySMP76g4Js/VII0+ixSDSFTUf1O2J12TAptVNmA9q3E5oxjWod5LaqvGEv3VSuzmJ07Jm2J5nv7GjQZ9cAsKEbmRe/E2BxMeprcsHkYu7MIWN45ho8GWpszpJDfbCj7lwYphjlRZzvXp3QUC+mOuB9jRRB6W870Fe6iVMnwAiGXtdK6jJYug3gKYohbIDmGIXzCU5HuYenHytWnCsPx9z7PG0VQqMi8eDKdm7mX80bac64Oh4="
+        },
+        "sitting": true,
+        "hand": {
+            "material": "compass"
+        }
+    },
+    "HighlightClickEntity": "tutorial_guide",
+
+    "If": [],
+    "NotCompleted": [],
+    "Skip": "first_time",
+    "Skip": "not_first_time",
+
+    "Comment": "first_time",
+    "Complete": [],
+    "NewDialog": [
+        {
+            "&3&lAdam": "Good morning young one.",
+            "&3&lAdam": "Haven't seen you here before.",
+            "&3&lAdam": "I heard you Chunkers need help from time to time sooooo, I am here to offer you some help.",
+            "[PLAYER]": "That would be great, yes!"
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "&3&lAdam": "Well, you can follow the brown candles up the stairs behind you to learn all about Chunk!"
+        },
+        130, true, false
+    ],
+
+    "Leave": [],
+    "Comment": "not_first_time",
+    "NewDialog": [
+        {
+            "&3&lAdam": "Ah, good to see you again."
+        },
+        130, true, true
+    ],
+
+    "NewDialog": [
+        {
+            "&3&lAdam": "Just find the brown candles up the stairs behind you to learn all about Chunk!"
+        },
+        130, true, false
+    ]
+}

@@ -1,0 +1,247 @@
+{
+    "Key": "tut_animal_pickup",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tut_npc",
+        "name": [
+            "&6&lJacob",
+            "&7Animal pickup"
+        ],
+        "location": {
+            "world": "world",
+            "x": -82.5,
+            "y": 117.0,
+            "z": 10.5,
+            "yaw": 179,
+            "pitch": 10
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MzI4Njc3OTUxMiwKICAicHJvZmlsZUlkIiA6ICI4ODQ0ZDJiMWM2YjY0MmVkYTYxNTNjNGEyY2I3YTU5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYW52dmVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4MjkwNGQzYzRmY2U4MjkxNzE4ZGFlOTA5OTVlMTM3Mzg3MWNiNjllMjI4Y2MyMDQ0OTU2MjBhMWEwZWM1MGEiCiAgICB9CiAgfQp9",
+            "signature": "vG9FgZ+WaxR8+E5K9ebAJnVG0qRnaToaZ3rVa0D4pa/xjDPvfzt/vJ0uEO/pQ1JbsgThAcoDri0+MgvgQ0pb4S1hfzIb+iKKbBorjh7IR3B2q8J31V9CCPc/ywExvk/F1Zp5kuOlyy+vvY3TNu0vK98fvnuzn5nc7FluAylMaMflwJ8fq6vOxOC/YNCOdv5Ajn+MmFaylE+V0kKJImOSlyOuS+LIDGcHq20VwJkO9B9iipMhth664HZ8oA7nVWpUYLRvYxEWf/Gps6ahafhcSiWkTVI7ZEe5lthhqsxO4aRKhJmc1Zm0p/RHYFf4RvC1v2toJa5J6900gIRLwIuMY5Ot1FBCW4m5O5ZxmoAHOhBAWPblSCg5DXNPK4+4Boa0jTNIpVRNbCTOyEoHPDAE5jErmBII+KJ8ZCr023LJSv15THYZJXjn+n5jqoWFAGjUM/J5AzA4lHobLWOPy39q0TCsmnvUCbXgraTPUcCJqkcOVIGJn95CQHYbIjA3QAa4uCPBv1M5SmY5VTFSHCPLxZAMZuJE8Xd+xPXciRokTCf0k1k0ZvjOe/urgMRSCVKAGwy2Ltj89S+wfHCSCYk0k5XBYOdgD6dLO5VyKo5gTRgJQyqJPmoFlbcSCZpAislNEv3axjZuKtPXterJBTayQzjBUSfppjeqZ7t7hgi21Lw="
+        },
+        "hand": {
+            "material": "wheat"
+        }
+    },
+    "CreateEntity": {
+        "key": "tut_cow",
+        "name": [
+            "&f&lB&7&le&f&ll&7&ll&f&la"
+        ],
+        "entity": "cow",
+        "location": {
+            "world": "world",
+            "x": -16.5,
+            "y": 127.0,
+            "z": 113.5,
+            "yaw": -112,
+            "pitch": -3
+        }
+    },
+    "Server": [],
+    "Hide": "tut_cow",
+
+    "CreateEntity": {
+        "key": "tut_farmer",
+        "name": [
+            "&6&lJacob"
+        ],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MzI4Njc3OTUxMiwKICAicHJvZmlsZUlkIiA6ICI4ODQ0ZDJiMWM2YjY0MmVkYTYxNTNjNGEyY2I3YTU5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYW52dmVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4MjkwNGQzYzRmY2U4MjkxNzE4ZGFlOTA5OTVlMTM3Mzg3MWNiNjllMjI4Y2MyMDQ0OTU2MjBhMWEwZWM1MGEiCiAgICB9CiAgfQp9",
+            "signature": "vG9FgZ+WaxR8+E5K9ebAJnVG0qRnaToaZ3rVa0D4pa/xjDPvfzt/vJ0uEO/pQ1JbsgThAcoDri0+MgvgQ0pb4S1hfzIb+iKKbBorjh7IR3B2q8J31V9CCPc/ywExvk/F1Zp5kuOlyy+vvY3TNu0vK98fvnuzn5nc7FluAylMaMflwJ8fq6vOxOC/YNCOdv5Ajn+MmFaylE+V0kKJImOSlyOuS+LIDGcHq20VwJkO9B9iipMhth664HZ8oA7nVWpUYLRvYxEWf/Gps6ahafhcSiWkTVI7ZEe5lthhqsxO4aRKhJmc1Zm0p/RHYFf4RvC1v2toJa5J6900gIRLwIuMY5Ot1FBCW4m5O5ZxmoAHOhBAWPblSCg5DXNPK4+4Boa0jTNIpVRNbCTOyEoHPDAE5jErmBII+KJ8ZCr023LJSv15THYZJXjn+n5jqoWFAGjUM/J5AzA4lHobLWOPy39q0TCsmnvUCbXgraTPUcCJqkcOVIGJn95CQHYbIjA3QAa4uCPBv1M5SmY5VTFSHCPLxZAMZuJE8Xd+xPXciRokTCf0k1k0ZvjOe/urgMRSCVKAGwy2Ltj89S+wfHCSCYk0k5XBYOdgD6dLO5VyKo5gTRgJQyqJPmoFlbcSCZpAislNEv3axjZuKtPXterJBTayQzjBUSfppjeqZ7t7hgi21Lw="
+        },
+        "location": {
+            "world": "world",
+            "x": -9.9,
+            "y": 127.0,
+            "z": 113.4,
+            "yaw": 89,
+            "pitch": 7
+        },
+        "look": false,
+        "hand": {
+            "material": "bucket"
+        }
+    },
+    "Server": [],
+    "Hide": "tut_farmer",
+
+    "CreateEntity": {
+        "key": "tut_farmer_egg",
+        "name": [
+            "&6&lJacob"
+        ],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MzI4Njc3OTUxMiwKICAicHJvZmlsZUlkIiA6ICI4ODQ0ZDJiMWM2YjY0MmVkYTYxNTNjNGEyY2I3YTU5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYW52dmVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4MjkwNGQzYzRmY2U4MjkxNzE4ZGFlOTA5OTVlMTM3Mzg3MWNiNjllMjI4Y2MyMDQ0OTU2MjBhMWEwZWM1MGEiCiAgICB9CiAgfQp9",
+            "signature": "vG9FgZ+WaxR8+E5K9ebAJnVG0qRnaToaZ3rVa0D4pa/xjDPvfzt/vJ0uEO/pQ1JbsgThAcoDri0+MgvgQ0pb4S1hfzIb+iKKbBorjh7IR3B2q8J31V9CCPc/ywExvk/F1Zp5kuOlyy+vvY3TNu0vK98fvnuzn5nc7FluAylMaMflwJ8fq6vOxOC/YNCOdv5Ajn+MmFaylE+V0kKJImOSlyOuS+LIDGcHq20VwJkO9B9iipMhth664HZ8oA7nVWpUYLRvYxEWf/Gps6ahafhcSiWkTVI7ZEe5lthhqsxO4aRKhJmc1Zm0p/RHYFf4RvC1v2toJa5J6900gIRLwIuMY5Ot1FBCW4m5O5ZxmoAHOhBAWPblSCg5DXNPK4+4Boa0jTNIpVRNbCTOyEoHPDAE5jErmBII+KJ8ZCr023LJSv15THYZJXjn+n5jqoWFAGjUM/J5AzA4lHobLWOPy39q0TCsmnvUCbXgraTPUcCJqkcOVIGJn95CQHYbIjA3QAa4uCPBv1M5SmY5VTFSHCPLxZAMZuJE8Xd+xPXciRokTCf0k1k0ZvjOe/urgMRSCVKAGwy2Ltj89S+wfHCSCYk0k5XBYOdgD6dLO5VyKo5gTRgJQyqJPmoFlbcSCZpAislNEv3axjZuKtPXterJBTayQzjBUSfppjeqZ7t7hgi21Lw="
+        },
+        "location": {
+            "world": "world",
+            "x": -15.0,
+            "y": 127.0,
+            "z": 113.4,
+            "yaw": 95,
+            "pitch": 21
+        },
+        "look": false,
+        "hand": {
+            "material": "cow_spawn_egg"
+        }
+    },
+    "Server": [],
+    "Hide": "tut_farmer_egg",
+
+    "CreateEntity": {
+        "key": "tut_farmer_end",
+        "name": [
+            "&6&lJacob"
+        ],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MzI4Njc3OTUxMiwKICAicHJvZmlsZUlkIiA6ICI4ODQ0ZDJiMWM2YjY0MmVkYTYxNTNjNGEyY2I3YTU5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYW52dmVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4MjkwNGQzYzRmY2U4MjkxNzE4ZGFlOTA5OTVlMTM3Mzg3MWNiNjllMjI4Y2MyMDQ0OTU2MjBhMWEwZWM1MGEiCiAgICB9CiAgfQp9",
+            "signature": "vG9FgZ+WaxR8+E5K9ebAJnVG0qRnaToaZ3rVa0D4pa/xjDPvfzt/vJ0uEO/pQ1JbsgThAcoDri0+MgvgQ0pb4S1hfzIb+iKKbBorjh7IR3B2q8J31V9CCPc/ywExvk/F1Zp5kuOlyy+vvY3TNu0vK98fvnuzn5nc7FluAylMaMflwJ8fq6vOxOC/YNCOdv5Ajn+MmFaylE+V0kKJImOSlyOuS+LIDGcHq20VwJkO9B9iipMhth664HZ8oA7nVWpUYLRvYxEWf/Gps6ahafhcSiWkTVI7ZEe5lthhqsxO4aRKhJmc1Zm0p/RHYFf4RvC1v2toJa5J6900gIRLwIuMY5Ot1FBCW4m5O5ZxmoAHOhBAWPblSCg5DXNPK4+4Boa0jTNIpVRNbCTOyEoHPDAE5jErmBII+KJ8ZCr023LJSv15THYZJXjn+n5jqoWFAGjUM/J5AzA4lHobLWOPy39q0TCsmnvUCbXgraTPUcCJqkcOVIGJn95CQHYbIjA3QAa4uCPBv1M5SmY5VTFSHCPLxZAMZuJE8Xd+xPXciRokTCf0k1k0ZvjOe/urgMRSCVKAGwy2Ltj89S+wfHCSCYk0k5XBYOdgD6dLO5VyKo5gTRgJQyqJPmoFlbcSCZpAislNEv3axjZuKtPXterJBTayQzjBUSfppjeqZ7t7hgi21Lw="
+        },
+        "location": {
+            "world": "world",
+            "x": -15.0,
+            "y": 127.0,
+            "z": 113.4,
+            "yaw": 95,
+            "pitch": 21
+        },
+        "look": false
+    },
+    "Server": [],
+    "Hide": "tut_farmer_end",
+
+
+    "HighlightClickEntity": "tut_npc",
+    "NewDialog": [
+        {
+            "&6&lJacob": "Heya there!",
+            "&6&lJacob": "I can give you some help on how to trade animals more easily."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "&6&lJacob": "Would you be interested in that?"
+        },
+        40, true, false
+    ],
+    "SendMessageOptions": [
+        30,
+        "&aYes! I am hungry for knowledge!",
+        "&cNo. Maybe later though!"
+    ],
+    "Skip": "yes",
+    "Skip": "no",
+
+    "Comment": "no",
+    "NewDialog": [
+        {
+            "[PLAYER]": "No. Maybe later though!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&6&lJacob": "Alright, see you then!"
+        },
+        1, true, false
+    ],
+
+    "Leave": [],
+
+    "Comment": "yes",
+    "Show": "tut_cow",
+    "Show": "tut_farmer",
+    "NewDialog": [
+        {
+            "[PLAYER]": "Yes! I am hungry for knowledge!",
+            "&6&lJacob": "Great! Let's go!"
+        },
+        90, true, true
+    ],
+    "HidePlayer": [],
+    "Teleport": [-17.5, 129.5, 107.6, -20, 20],
+    "Wait": 1,
+    "Freeze": [],
+    "Wait": 1.0,
+    "EntityLookAtPlayer": "tut_farmer",
+    "NewDialog": [
+        {
+            "&6&lJacob": "So when you want to trade an animal, you can pick it up with a bucket.",
+            "&6&lJacob": "First, you need an empty bucket."
+
+        },
+        90, true, false
+    ],
+    "MoveEntity": ["tut_farmer", -15.0, 127.0, 113.4],
+    "Wait": 10,
+    "EntityLookAtPlayer": "tut_farmer",
+
+    "Wait": 1.0,
+    "NewDialog": [
+        {
+            "&6&lJacob": "Then, you right click the animal you want to trade."
+        },
+        1, true, false
+    ],
+    "Wait": 2.0,
+    "EntityLook": ["tut_farmer", "tut_cow"],
+    "Wait": 1.0,
+    "AnimateEntity": ["tut_farmer", "Swing Main Hand"],
+    "Wait": 10,
+    "Hide": "tut_cow",
+    "Hide": "tut_farmer",
+    "Show": "tut_farmer_egg",
+
+    "NewDialog": [
+        {
+            "&6&lJacob": "You will receive a token that you can use in the normal trading menu."
+        },
+        1, true, false
+    ],
+    "Wait": 1.0,
+    "EntityLookAtPlayer": "tut_farmer_egg",
+    "Wait": 3.0,
+    "NewDialog": [
+        {
+            "&6&lJacob": "To get the animal back, right click the token on the ground."
+        },
+        1, true, false
+    ],
+    "Wait": 1.0,
+    "EntityLook": ["tut_farmer_egg", "tut_cow"],
+    "Wait": 10,
+    "AnimateEntity": ["tut_farmer_egg", "Swing Main Hand"],
+    "Wait": 10,
+    "Show": "tut_cow",
+    "Show": "tut_farmer_end",
+    "Hide": "tut_farmer_egg",
+    "Wait": 10,
+    "EntityLookAtPlayer": "tut_farmer_end",
+    "Wait": 10,
+
+    "NewDialog": [
+        {
+            "&6&lJacob": "Magic! Right?"
+        },
+        1, true, false
+    ],
+    "Wait": 1.0,
+    "Unfreeze": [],
+    "ShowPlayer": [],
+    "Teleport": [-82.5,117.2,8.4, 0, 0],
+    "Hide": "tut_cow",
+    "Hide": "tut_farmer_end",
+    "Wait": 10,
+    "NewDialog": [
+        {
+            "&6&lJacob": "And that is how you can pick up animals!",
+            "&6&lJacob": "I hope you enjoyed your time here!"
+        },
+        90, true, true
+    ]
+}

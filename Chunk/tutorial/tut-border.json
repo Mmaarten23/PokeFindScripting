@@ -1,0 +1,79 @@
+{
+    "Key": "tut_border",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tut_npc",
+        "name": [
+            "&2&lKieran",
+            "&7Border"
+        ],
+        "location": {
+            "world": "world",
+            "x": -80.5,
+            "y": 117.1,
+            "z": -10.5,
+            "yaw": 0,
+            "pitch": 35
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNDIxNTA4ODE2MywKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E2NDA4ZjIwYTVjNzZiNzE1YTM4NzY4YWYzNGYxNGMxM2UxNmMxM2Q0ODkyYzZlZGI2NmNkNzExYzZmODZjNiIKICAgIH0KICB9Cn0=",
+            "signature": "JATgS+00mgJD5FelZUQiWP/iEEKhI4dmpK37Y3EJ58kgFq4bRpt1C9w9Q1+ANw8NNML/FbnAfkTXBk5LqxwXFsjmF0Q2uy/f9ujqcoPDtRWHgxdE56r9epq00orx7pvYcRtaWLJJdbMz97XeK9cdPu2kL0Shl3M4IH1UKXy/5ERoh9Sia5BxrTeBB5ur578cyMIiMSyJHiJvdZV9dIA9F4TJLS+XVK9tfjHvOabAl4PW8erW7UAgc+oFqtNar6gZGL2nrlBj17ltQJohrolZFsYhbA74CPSm/c3b+ldcy/1gF9mvWvdW293g03SYFSPv5hg39Rbfh+V7VD8Pl5uxA0kz+9iRO+xTpQaEnYfd8TdlHDgiZmFyLBlbBFMOnlIMtojSi1zVF4l1+WTo2YDpCWO9De5o7/PPUPnMv9o6Y/8CIPiGzozookU/6WSObTOW3SS2iq+xuBqlAELp5nIs2/beYGIC8TUGF8RLZ8dZN7nqNlBGRPBAFYoD5oQmr19iw3Z/F5b7i39ud1KWW2JgzHaMvt2vv+7IMrYF+W+Qtm7+N0MHZsEL4BOigEM6w54+AX4tW3/sF5LX7u+3SyUaqLUy7Zcfwtajd4QzKNW3o8VOVOL5J2jGk9Z+GUJManHmkORfm197zv5kZjK+rd2QHmxWwWptRQ59eVFhJ2ChA4Q="
+        },
+        "hand": {
+            "material": "netherite_pickaxe"
+        }
+    },
+
+
+    "HighlightClickEntity": "tut_npc",
+    "NewDialog": [
+        {
+            "&2&lKieran": "Mhm, interesting to see you here. In need of a border?",
+            "&2&lKieran": "I have some new bricks in stock. They would make a perfect border for you!",
+            "&2&lKieran": "Ah what am I talking about, you already have a border, don't you..."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "&2&lKieran": "Well, at least allow me to tell you some more about your border."
+        },
+        40, true, false
+    ],
+
+    "SendMessageOptions": [
+        30,
+        "&aSure, what is there to learn about the border?",
+        "&cNo. i am a border expert already."
+    ],
+    "Skip": "yes",
+    "Skip": "no",
+
+
+    "Comment": "no",
+    "NewDialog": [
+        {
+            "[PLAYER]": "No. i am a border expert already."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&2&lKieran": "Alright, you can always come back if you feel like it."
+        },
+        1, true, false
+    ],
+
+    "Leave": [],
+
+    "Comment": "yes",
+    "NewDialog": [
+        {
+            "[PLAYER]": "Sure, what is there to learn about the border?",
+            "&2&lKieran": "What isn't there to learn about borders?! They are the best thing ever!",
+            "&2&lKieran": "Buckle up, you are in for a treat!"
+        },
+        90, true, true
+    ]
+}

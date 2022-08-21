@@ -1,0 +1,377 @@
+{
+    "Key": "tut_trading",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tut_npc",
+        "name": [
+            "&a&lEllen",
+            "&7Trading"
+        ],
+        "location": {
+            "world": "world",
+            "x": -89.5,
+            "y": 119.0,
+            "z": -10.6,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTIzMjI1OTAzOCwKICAicHJvZmlsZUlkIiA6ICIzY2MxMTY3MWU0MTM0ODM0YjhjMmZjMTY1OGE4OWU3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb3NzaTU2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ViODBlNDk3YzA5M2IxOGMxNmIxZTcwMDVlOGQwNGI0YjFjMTk0MGIxMmU3NzUxZmM2Nzk4NTY2MjE2MjVlMmYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "SI3fsconVqFzuZACsPF08gM204Nntw6QMALXihZr0O2tptiduY+NDIDFxFlzC0kYPrO5odZcoSTn7GcrqSm8O+BnmaAGjzvUXJrcO5lVDQwEZlol5p5QlQlz3ivsNF7n4sf4aeZbGJkVceY9M36sQe2HzNd4Tf8XvOJw0XfvoPQKXRy7Y+1wT6cuBhFu+PjTEShCx5RstjMyYV7icf2xxpM6ojGCVzxZmFG+VMnlYgE5MDowN/zFfGPEJPIS7/x/dwm/cnVcMJz8ZNmDC7gI01bQQK0tvkhzQ0vDifmq33v7S5GogqgP2HnW5WCQlwqG/sUKLkIWeeDLD/qUxwg7ApHE/brDkaCQLVAXXa48l9YRpufwB95lq4rUEOARM9iQjro9af9WWAorVZm/IuzFQN0aY+4itQEiJmiLUfp+yiZ/zpy1XcPwWV96UVwlpAjTxv8R0/TB4wf7l3MtOslURKfPEFlKTqYIz473ixRFyYSrpny62NiSiCrBIGhjpHegA+gnJfn5lP8MzqukqijB2T68yCHGALFzhcfehi9UO2CLZEoA81HS7W6DLN0BHSedjid5S54LdwShhbY74NIaYCgMsJYv2UqR7maEFRQSrrfIc/SO33pd54WwO2OlkGu8FVspiy9WrGX2HjjA5JjX+PneC+xZuBhx5CDCrrvMyjo="
+        },
+        "hand": {
+            "material": "emerald"
+        }
+    },
+
+
+    "CreateEntity": {
+        "key": "tut_trader",
+        "name": [
+            "&a&lEllen"
+        ],
+        "location": {
+            "world": "world",
+            "x": 10.8,
+            "y": 116.0,
+            "z": 176.4,
+            "yaw": -59,
+            "pitch": -17
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTIzMjI1OTAzOCwKICAicHJvZmlsZUlkIiA6ICIzY2MxMTY3MWU0MTM0ODM0YjhjMmZjMTY1OGE4OWU3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb3NzaTU2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ViODBlNDk3YzA5M2IxOGMxNmIxZTcwMDVlOGQwNGI0YjFjMTk0MGIxMmU3NzUxZmM2Nzk4NTY2MjE2MjVlMmYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "SI3fsconVqFzuZACsPF08gM204Nntw6QMALXihZr0O2tptiduY+NDIDFxFlzC0kYPrO5odZcoSTn7GcrqSm8O+BnmaAGjzvUXJrcO5lVDQwEZlol5p5QlQlz3ivsNF7n4sf4aeZbGJkVceY9M36sQe2HzNd4Tf8XvOJw0XfvoPQKXRy7Y+1wT6cuBhFu+PjTEShCx5RstjMyYV7icf2xxpM6ojGCVzxZmFG+VMnlYgE5MDowN/zFfGPEJPIS7/x/dwm/cnVcMJz8ZNmDC7gI01bQQK0tvkhzQ0vDifmq33v7S5GogqgP2HnW5WCQlwqG/sUKLkIWeeDLD/qUxwg7ApHE/brDkaCQLVAXXa48l9YRpufwB95lq4rUEOARM9iQjro9af9WWAorVZm/IuzFQN0aY+4itQEiJmiLUfp+yiZ/zpy1XcPwWV96UVwlpAjTxv8R0/TB4wf7l3MtOslURKfPEFlKTqYIz473ixRFyYSrpny62NiSiCrBIGhjpHegA+gnJfn5lP8MzqukqijB2T68yCHGALFzhcfehi9UO2CLZEoA81HS7W6DLN0BHSedjid5S54LdwShhbY74NIaYCgMsJYv2UqR7maEFRQSrrfIc/SO33pd54WwO2OlkGu8FVspiy9WrGX2HjjA5JjX+PneC+xZuBhx5CDCrrvMyjo="
+        }
+    },
+    "Server": [],
+    "Hide": "tut_trader",
+
+    "CreateEntity": {
+        "key": "tut_player_highlight",
+        "location": {
+            "world": "world",
+            "x": 6.5,
+            "y": 118.0,
+            "z": 182.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "slime",
+        "size": 10,
+        "glow": true,
+        "visible": false,
+        "look": false
+    },
+    "Server": [],
+    "Hide": "tut_player_highlight",
+
+    "CreateEntity": {
+        "key": "tut_trader_highlight",
+        "location": {
+            "world": "world",
+            "x": 6.5,
+            "y": 118.0,
+            "z": 178.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "slime",
+        "size": 10,
+        "glow": true,
+        "visible": false,
+        "look": false
+    },
+    "Server": [],
+    "Hide": "tut_trader_highlight",
+
+
+    "CreateEntity": {
+        "key": "tut_trading_good1",
+        "location": {
+            "world": "world",
+            "x": 8.5,
+            "y": 121.3,
+            "z": 183.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "item",
+        "item": "dirt"
+    },
+    "Server": [],
+    "Hide": "tut_trading_good1",
+
+    "CreateEntity": {
+        "key": "tut_trading_good2",
+        "location": {
+            "world": "world",
+            "x": 8.5,
+            "y": 121.3,
+            "z": 182.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "item",
+        "item": "ice"
+    },
+    "Server": [],
+    "Hide": "tut_trading_good2",
+
+    "CreateEntity": {
+        "key": "tut_trading_good3",
+        "location": {
+            "world": "world",
+            "x": 8.5,
+            "y": 121.3,
+            "z": 181.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "item",
+        "item": "pumpkin"
+    },
+    "Server": [],
+    "Hide": "tut_trading_good3",
+
+    "CreateEntity": {
+        "key": "tut_trading_good4",
+        "location": {
+            "world": "world",
+            "x": 8.5,
+            "y": 121.3,
+            "z": 179.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "item",
+        "item": "gold_ingot"
+    },
+    "Server": [],
+    "Hide": "tut_trading_good4",
+
+    "CreateEntity": {
+        "key": "tut_trading_good5",
+        "location": {
+            "world": "world",
+            "x": 8.5,
+            "y": 121.3,
+            "z": 178.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "entity": "item",
+        "item": "bookshelf"
+    },
+    "Server": [],
+    "Hide": "tut_trading_good5",
+
+
+    "HighlightClickEntity": "tut_npc",
+    "NewDialog": [
+        {
+            "&a&lEllen": "Morning there! Can I interest you in some goods?",
+            "&a&lEllen": "No? Well, what about I teach you how to trade resources safely?"
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "&a&lEllen": "Is that something you would be interested in?"
+        },
+        40, true, false
+    ],
+    "SendMessageOptions": [
+        30,
+        "&aYes! I want to learn this!",
+        "&cNo. i am good for now."
+    ],
+    "Skip": "yes",
+    "Skip": "no",
+
+    "Comment": "no",
+    "NewDialog": [
+        {
+            "[PLAYER]": "No. i am good for now."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&a&lEllen": "Alright, see you then!"
+        },
+        1, true, false
+    ],
+
+    "Leave": [],
+
+    "Comment": "yes",
+    "NewDialog": [
+        {
+            "[PLAYER]": "Yes! I want to learn this!",
+            "&a&lEllen": "Great! Let's go!"
+        },
+        90, true, true
+    ],
+
+
+
+    "HidePlayer": [],
+    "Teleport": [17.5, 119.1, 180.5, 90, 0],
+    "Wait": 1,
+    "Freeze": [],
+    "Show": "tut_trader",
+    "Wait": 1.0,
+    "Look": "tut_trader",
+
+    "NewDialog": [
+        {
+            "&a&lEllen": "So, when you want to trade with a player in a safe manner, you can use the command '/trade <player>'",
+            "&a&lEllen": "For this command to work, you do need to be within 30 blocks of the other player though!",
+            "&a&lEllen": "Once the other player accepts the request, a trading menu will open."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&a&lEllen": "The menu will look something like this."
+        },
+        1, true, false
+    ],
+    "Wait": 1.0,
+    "EntityLook": ["tut_trader", 38, -32],
+    "Wait": 1.0,
+
+    "SetBlocks": [
+        7, 117, 176,
+        7, 122, 184,
+        "light_gray_concrete"
+    ],
+
+    "SetBlocks": [
+        8, 118, 176,
+        8, 122, 176,
+        "red_stained_glass"
+    ],
+    "SetBlocks": [
+        8, 122, 176,
+        8, 122, 179,
+        "red_stained_glass"
+    ],
+    "SetBlocks": [
+        8, 118, 176,
+        8, 118, 179,
+        "red_stained_glass"
+    ],
+
+    "SetBlocks": [
+        8, 118, 180,
+        8, 122, 180,
+        "black_stained_glass"
+    ],
+
+    "SetBlocks": [
+        8, 118, 184,
+        8, 122, 184,
+        "light_blue_stained_glass"
+    ],
+    "SetBlocks": [
+        8, 122, 181,
+        8, 122, 184,
+        "light_blue_stained_glass"
+    ],
+    "SetBlocks": [
+        8, 118, 181,
+        8, 118, 184,
+        "light_blue_stained_glass"
+    ],
+
+    "SetBlock": [8, 117, 176, "yellow_concrete", false],
+    "SetBlock": [8, 117, 184, "yellow_concrete", false],
+    "SetBlock": [8, 117, 180, "redstone_block", false],
+    "Wait": 1.0,
+    "NewDialog": [
+        {
+            "&a&lEllen": "Now, the left side is your side."
+        },
+        40, true, true
+    ],
+    "Show": "tut_player_highlight",
+    "Wait": 2.0,
+    "NewDialog": [
+        {
+            "&a&lEllen": "Here, you place all the items you wish to trade with the other player."
+        },
+        1, true, false
+    ],
+    "Wait": 1.0,
+    "Show": "tut_trading_good1",
+    "Wait": 1.0,
+    "Show": "tut_trading_good2",
+    "Wait": 1.0,
+    "Show": "tut_trading_good3",
+    "Wait": 1.0,
+    "Hide": "tut_player_highlight",
+    "Wait": 2.0,
+    "NewDialog": [
+        {
+            "&a&lEllen": "The right side is the other player's side."
+        },
+        40, true, true
+    ],
+    "Show": "tut_trader_highlight",
+    "Wait": 2.0,
+    "NewDialog": [
+        {
+            "&a&lEllen": "The other player will fill it with the goods they want to trade for your offered goods."
+        },
+        1, true, false
+    ],
+    "Wait": 1.0,
+    "Show": "tut_trading_good4",
+    "Wait": 1.0,
+    "Show": "tut_trading_good5",
+    "Wait": 1.0,
+    "Hide": "tut_trader_highlight",
+    "Wait": 2.0,
+    "NewDialog": [
+        {
+            "&a&lEllen": "When you agree with the trade, click the yellow confirm button on your side."
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "&a&lEllen": "the button will turn green to mark that you agree to the trade."
+        },
+        10, true, true
+    ],
+    "SetBlock": [8, 117, 184, "lime_concrete", false],
+    "NewDialog": [
+        {
+            "&a&lEllen": "If any change is made to the trade, you will have to reconfirm!",
+            "&a&lEllen": "Once both players agree, the trade is confirmed and the items are exchanged."
+        },
+        90, true, true
+    ],
+    "SetBlock": [8, 117, 176, "lime_concrete", false],
+
+    "Wait": 3.0,
+    "Unfreeze": [],
+    "ShowPlayer": [],
+    "Teleport": [-89.5,119.2,-12.5, 0, 0],
+    "Hide": "tut_trading_good1",
+    "Hide": "tut_trading_good2",
+    "Hide": "tut_trading_good3",
+    "Hide": "tut_trading_good4",
+    "Hide": "tut_trading_good5",
+    "Hide": "tut_trader",
+    "Wait": 10,
+    "NewDialog": [
+        {
+            "&a&lEllen": "Trading safely is crucial for merchants like me and you!",
+            "&a&lEllen": "Stay safe out there!"
+        },
+        90, true, true
+    ]
+}
