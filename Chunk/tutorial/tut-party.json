@@ -147,7 +147,7 @@
             "&9&lLucius": "On the left, you will see a button that allows you to modify these chunks. You can add or remove any chunk you like.",
             "&9&lLucius": "You can also access this menu directly using the \"/party mychunks\" command.",
             "&9&lLucius": "Your other party members will be able to add and remove their own Chunks here too!",
-            "&9&lLucius": "A little fun fact for ya, if you click on a chunk in the overview, you will teleport to it! Couldn't be any easier!",
+            "&9&lLucius": "A little fun fact for ya, if you click on a chunk in the overview, you will teleport to it! Couldn't be any easier!"
         },
         130, true, true
     ],
