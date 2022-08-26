@@ -25,6 +25,27 @@
         }
     },
 
+    "CreateEntity": {
+        "key": "tut_border",
+        "name": [
+            "&2&lKieran"
+        ],
+        "location": {
+            "world": "world",
+            "x": -59.5,
+            "y": 114.0,
+            "z": -77.0,
+            "yaw": 180,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNDIxNTA4ODE2MywKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E2NDA4ZjIwYTVjNzZiNzE1YTM4NzY4YWYzNGYxNGMxM2UxNmMxM2Q0ODkyYzZlZGI2NmNkNzExYzZmODZjNiIKICAgIH0KICB9Cn0=",
+            "signature": "JATgS+00mgJD5FelZUQiWP/iEEKhI4dmpK37Y3EJ58kgFq4bRpt1C9w9Q1+ANw8NNML/FbnAfkTXBk5LqxwXFsjmF0Q2uy/f9ujqcoPDtRWHgxdE56r9epq00orx7pvYcRtaWLJJdbMz97XeK9cdPu2kL0Shl3M4IH1UKXy/5ERoh9Sia5BxrTeBB5ur578cyMIiMSyJHiJvdZV9dIA9F4TJLS+XVK9tfjHvOabAl4PW8erW7UAgc+oFqtNar6gZGL2nrlBj17ltQJohrolZFsYhbA74CPSm/c3b+ldcy/1gF9mvWvdW293g03SYFSPv5hg39Rbfh+V7VD8Pl5uxA0kz+9iRO+xTpQaEnYfd8TdlHDgiZmFyLBlbBFMOnlIMtojSi1zVF4l1+WTo2YDpCWO9De5o7/PPUPnMv9o6Y/8CIPiGzozookU/6WSObTOW3SS2iq+xuBqlAELp5nIs2/beYGIC8TUGF8RLZ8dZN7nqNlBGRPBAFYoD5oQmr19iw3Z/F5b7i39ud1KWW2JgzHaMvt2vv+7IMrYF+W+Qtm7+N0MHZsEL4BOigEM6w54+AX4tW3/sF5LX7u+3SyUaqLUy7Zcfwtajd4QzKNW3o8VOVOL5J2jGk9Z+GUJManHmkORfm197zv5kZjK+rd2QHmxWwWptRQ59eVFhJ2ChA4Q="
+        }
+    },
+    "Server": [],
+    "Hide": "tut_border",
+
 
     "HighlightClickEntity": "tut_npc",
     "NewDialog": [
@@ -75,5 +96,146 @@
             "&2&lKieran": "Buckle up, you are in for a treat!"
         },
         90, true, true
+    ],
+    "Show": "tut_border",
+    "HidePlayer": [],
+    "Teleport": [-59.5, 117.5, -71.5, -180, 30],
+    "Wait": 1,
+    "Freeze": [],
+    "Wait": 1.0,
+    "NewDialog": [
+        {
+            "&2&lKieran": "Whenever you get close to a border, the border will appear!"
+        },
+        20, true, true
+    ],
+    "MoveEntity": ["tut_border", -59.4,114.0,-82.9],
+    "SetBlocks": [
+        -64, 113, -86,
+        -56, 113, -86,
+        "yellow_terracotta"
+    ],
+    "Wait": 5,
+    "Particle": ["WAX_ON", -55.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -56.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -57.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -58.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -59.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -60.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -61.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -62.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -63.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -64.5, 113.5, -85.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", -55.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -56.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -57.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -58.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -59.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -60.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -61.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -62.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -63.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -64.5, 114.5, -85.5, 5, 0.5],
+
+    "Particle": ["WAX_ON", -55.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -56.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -57.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -58.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -59.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -60.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -61.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -62.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -63.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["WAX_ON", -64.5, 115.5, -85.5, 5, 0.5],
+
+    "Wait": 20,
+
+    "EntityLookAtPlayer": "tut_border",
+    "Wait": 10,
+    "NewDialog": [
+        {
+            "&2&lKieran": "This border is yellow. This means that the chunk I am currently on is not mine.",
+            "&2&lKieran": "The border around chunks that I do own will look green."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "&2&lKieran": "Like this one!"
+        },
+        90, true, true
+    ],
+    "EntityLook": ["tut_border", 180, 0],
+    "Wait": 20,
+
+    "SetBlocks": [
+        -64, 113, -86,
+        -56, 113, -86,
+        "lime_terracotta"
+    ],
+    "Wait": 5,
+    "Particle": ["VILLAGER_HAPPY", -55.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -56.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -57.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -58.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -59.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -60.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -61.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -62.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -63.5, 113.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -64.5, 113.5, -85.5, 5, 0.5],
+
+    "Particle": ["VILLAGER_HAPPY", -55.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -56.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -57.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -58.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -59.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -60.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -61.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -62.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -63.5, 114.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -64.5, 114.5, -85.5, 5, 0.5],
+
+    "Particle": ["VILLAGER_HAPPY", -55.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -56.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -57.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -58.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -59.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -60.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -61.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -62.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -63.5, 115.5, -85.5, 5, 0.5],
+    "Particle": ["VILLAGER_HAPPY", -64.5, 115.5, -85.5, 5, 0.5],
+
+    "Wait": 60,
+    "EntityLookAtPlayer": "tut_border",
+    "Wait": 10,
+    "NewDialog": [
+        {
+            "&2&lKieran": "This is a great way to see when you are home!",
+            "&2&lKieran": "If you do not want to see the border though, you can change this in the settings menu through \"/settings\".",
+            "&2&lKieran": "You can choose between a full border, just the particles or no border at all."
+        },
+        130, true, true
+    ],
+    "Wait": 1.0,
+    "Unfreeze": [],
+    "ShowPlayer": [],
+    "Teleport": [-80.5,117.2,-8.5, 180, 0],
+    "Hide": "tut_border",
+    "Wait": 10,
+    "NewDialog": [
+        {
+            "&2&lKieran": "Those are some of the basics!",
+            "&2&lKieran": "If you want to get started in the border business, I can always use an apprentice!"
+        },
+        90, true, true
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "I am afraid I am too busy on my Chunks but thank you for the offer! See you later!"
+        },
+        1, true, false
     ]
 }

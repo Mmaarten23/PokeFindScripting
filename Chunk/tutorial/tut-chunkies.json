@@ -1,0 +1,67 @@
+{
+    "Key": "tut_chunkies",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tut_npc",
+        "name": [
+            "&3&lJenna",
+            "&7Chunkies"
+        ],
+        "location": {
+            "world": "world",
+            "x": -95.5,
+            "y": 117.0,
+            "z": 14.5,
+            "yaw": -179,
+            "pitch": -1
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY2MTUyODIyNTc5OCwKICAicHJvZmlsZUlkIiA6ICI2OTg4ZjM4ZTRhZDc0ZDQ4OWQ2OWZmMmE5NWM1NjI4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJvcmJ5Y2lkZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNTkyNjcyNzBkYTc4NDE0MTBmOTRhN2YzZTYwYzQ4ZjY4YjZhMGRiYjQxYWFlYzAzYmFiY2E5MzFjMzIzZDYxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+            "signature": "otOj9KnTIEtXBPBI0q0jZE+0Ry8ZcjmsQ1XXSLAoOTM7Q4Fw1dHzS1dFCiQtkttuDb7jzGv2/k5Qf51rhofUTPTOF8Lew3kG3nIiGznJG9/IjtDmGEeClRE0+1Oqib8NQEyBNPls23udIwoF9kj9KI7E0co+41zW/ZJRnweUYH4vZPReb7Pra02kfBKq/gPz54te3W7ay4hCFYgvNDkYmrkuyMNBtofez4R/DmMSWNULdh5Pz2q3sZ7U6Pib3cLHghMqC8qFCeWVRYaXWIN5z4XT3NyqlvN+0ds5ni3xMjm57DIkKT6oBOhyUbYoaai2mh8XlLUznHyL56LJvbgFKgclqes7DIBA+0+T/+CBJpfw8++P4bINPPFAule8zOMGggUozNgzYDSw3m88PFphiY6iHjoUPA4NmsaB9EfDEkJCTsVveN38oJ0feKCgbpuuESYy6rqv7w3lH9FbVp7vWNR4tIy4rGHgX2A4Zy6oQf1Dk3N7WpCJenIPauYm3ttCGgDmuIE1gDpickK8+AtGUoW93hRgPMyXH0EbtAT2AXHvGdoEzhPkXHDhb5wliSSdrZ5KVgt2UD3xDmQRRIM2b2ekjfTdHrhjsM5A+4l0VlhZTPc/72E8RDn3RyiwXoTqQGbDSyzPrMYlY8KS4fkvOZSQ8lg5+Wk8ddqYxC3x544="
+        },
+        "hand": {
+            "material": "wheat"
+        }
+    },
+
+    "HighlightClickEntity": "tut_npc",
+    "If": [],
+    "NotCompleted": [],
+    "Skip": "first_time",
+    "Skip": "not_first_time",
+
+    "Comment": "first_time",
+    "Complete": [],
+    "NewDialog": [
+        {
+            "&3&lJenna": "Oh! Didn't see you there! Can I help you?",
+            "[PLAYER]": "I was just wondering what is going on here...",
+            "&3&lJenna": "We are making the final adjustments for the arrival of Chunkies!",
+            "&3&lJenna": "We want everything to be perfect! So I must get back to working."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "&3&lJenna": "It was nice meeting you!"
+        },
+        1, true, false
+    ],
+
+    "Leave": [],
+    "Comment": "not_first_time",
+    "NewDialog": [
+        {
+            "&3&lJenna": "Ah, I remember you!"
+        },
+        130, true, true
+    ],
+
+    "NewDialog": [
+        {
+            "&3&lJenna": "Just a few more final touches and we are ready for the arrival of the Chunkies!"
+        },
+        1, true, false
+    ]
+}

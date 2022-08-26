@@ -13,6 +13,12 @@
     "Objective": ["Take a walk to think about what Cole said", "Objective"],
     "Hold": [],
     "Objective": ["Get some inspiration in a nearby body of water", "Objective"],
+    "Hold": [],
+
+    "Comment": "location-redgrove",
+    "Objective": ["Find the hot pit of doom in redgrove (a red beacon will guide you)", "Objective"],
+    "Hold": [],
+    "Objective": ["Cross the path to the middle of the volcano", "Objective"],
     "Hold": []
 
 }

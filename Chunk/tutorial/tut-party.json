@@ -1,0 +1,167 @@
+{
+    "Key": "tut_trading",
+    "Author": "Mmaarten",
+
+    "CreateEntity": {
+        "key": "tut_npc",
+        "name": [
+            "&9&lLucius",
+            "&7Party"
+        ],
+        "location": {
+            "world": "world",
+            "x": -106.3,
+            "y": 117.1,
+            "z": -20.3,
+            "yaw": -1,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY2MTUyODQ0NzMzMCwKICAicHJvZmlsZUlkIiA6ICJkY2NkYmM0MTE5NjE0Njc1OTQxYmI5MmNkMmZiOGVjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEWmVycjAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVmYTRjNDVkZThkNmJhN2M1YWYxYzlhYmEwMzI5YWNkNzIxZjk1NDA1MTFiZTZiOWJmMmRjN2Y2MjE1Njk0NSIKICAgIH0KICB9Cn0=",
+            "signature": "DpGXkLXHb2mr0RbBIOIdL6GK/ySOVJnIBl7LGiO7pe0LzKqx3Rz4CIEF3FkgG3UvBYjaU+31/yTgTJ33TXuSKUuUI+YYSDk82/Cda0OKebW2bLNn+Y51vH0vtAsUqkc3k6rjwlwoxhdPsVGnRcwvvwjiNBOewtixMpJuUcy9I1PyM7aQHFs/p8iOPF34XCHdjE0YusgTYyTAYBwAwtnUhqll9WFNaHxjtyCzPwHzzIv5bKrp/eugytgVcxYuLOIm9Y+UuY3Pmiw2id7DhrCXV/wKUFPdZI4XgpwEy+v1B545t8Tpi5NNSCbgqZ+5MXru6NDkrvQ08X1ZhCpB8WeVp65gTZhogwbeOmLvGJ/plPx87b4MGqgtiWLG/SKuz+7EmKG9lMDIn41GXC3GeaRCJ1AoN0Pp7vx+bMYRndNONWAZWJw9d8aZIn8yJh+2yXOhKK4M+OBMpXa1+Aw+sDxK1MUrzivR/qIckA11eN+W2OYsYTPC/gqtZ+mAa8I6f6t9luokmj/oEiSyWVhCHmVsfU9q16sNCkMN0CMeM7t1l3Qu7JImS5rNCDKRNbxFmoYadFyutYemFQyAYBlF7J70spMkS3wqX1U/n231cY1e4XBJ5JuEVP1jlvzgTfBbs9UwtW24b5h6tTZAzfEyfBltiRO/31b7WkXy99mRJ8/GdqE="
+        },
+        "hand": {
+            "material": "suspicious_stew"
+        }
+    },
+    "Server": [],
+    "Hide": "tut_npc",
+
+
+    "HighlightClickEntity": "tut_npc",
+    "NewDialog": [
+        {
+            "&9&lLucius": "Hi there! What can I get you to drink?",
+            "[PLAYER]": "I was actually wondering if you could tell me more about the party system?",
+            "&9&lLucius": "Oh sure, the party system is a way to allow multiple people to play on your Chunk."
+        },
+        130, true, true
+    ],
+    "Comment": "tut_selection",
+    "NewDialog": [
+        {
+            "&9&lLucius": "What would you like to learn more about?"
+        },
+        40, true, false
+    ],
+    "SendMessageOptions": [
+        30,
+        "&aHow do I create/join a party?",
+        "&aHow do party permissions work?",
+        "&aHow do I add or remove chunks from my party?",
+        "&cI'll come back another time."
+    ],
+    "Skip": "creation",
+    "Skip": "permissions",
+    "Skip": "chunks",
+    "Skip": "leaving",
+
+    "Comment": "leaving",
+    "NewDialog": [
+        {
+            "[PLAYER]": "I'll come back another time."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "&9&lLucius": "I gotchu! Byeeeeeee!"
+        },
+        1, true, false
+    ],
+    "Leave": [],
+
+    "Comment": "creation",
+    "NewDialog": [
+        {
+            "&9&lLucius": "Alright, let's get this party started!",
+            "&9&lLucius": "There are 2 ways to use the party system: Either you create a new party or you join an existing one.",
+            "&9&lLucius": "To create a new party, use the \"/party create <name>\" command where the name is your super fancy party name.",
+            "&9&lLucius": "When you create a new party, you will have to select the Chunk(s) that you want to share with that party.",
+            "&9&lLucius": "You should know though that you can only create a party if you are currently holding a Chunk.",
+            "[PLAYER]": "Sounds good! So what if I don't have a Chunk or want to join someone other party?",
+            "&9&lLucius": "To join an existing party, one of the party members must invite you using the \"/party invite <name>\" command.",
+            "&9&lLucius": "You will receive a message in chat that you can click on to accept the invite.",
+            "&9&lLucius": "That is about it on how to start your party! Anything else I can help you with?"
+        },
+        130, true, true
+    ],
+    "SendMessageOptions": [
+        30,
+        "&aYes!",
+        "&cNah, I got everything I need! Thanks!"
+    ],
+    "Skip": "tut_selection",
+    "Skip": "leaving",
+
+
+    "Comment": "permissions",
+    "NewDialog": [
+        {
+            "&9&lLucius": "Great! Permissions are a very interesting topic.",
+            "&9&lLucius": "They allow you to modify what each party member can do on the party Chunks.",
+            "&9&lLucius": "If you use the command \"/party permissions\", you will see that there are a ton of different permissions to play around with and each one is linked to a color.",
+            "&9&lLucius": "That color indicates what role is allowed to carry out that action.",
+            "&9&lLucius": "There are three roles you can use within your party.  &aMember&f, &cAdmin&f, and &dLeader&f.",
+            "&9&lLucius": "Clicking on the permission will cycle through the different roles. Everything a lower role can do, can also be done by the higher roles.",
+            "[PLAYER]": "That sounds really interesting but what does every permission mean?",
+            "&9&lLucius": "Let me give you an overview!"
+        },
+        130, true, true
+    ],
+    "Book": [
+        "&bBuild\n\n&7Default: &aMember\n&rPermission to place and break blocks on the chunks in the party.",
+        "&bOpen (trap)doors\n\n&7Default: &aMember\n&rPermission to open en close doors and trapdoors on the Chunks within the party.",
+        "&bOpen containers\n\n&7Default: &aMember\n&rPermission to open and modify the contents of any container on the Chunks in the party. This does not include trapped chests. (see later)",
+        "&bActivating redstone\n\n&7Default: &aMember\n&rPermission to interact with redstone devices and modify the state of circuits on the Chunks in the party.",
+        "&bKilling animals\n\n&7Default: &aMember\n&rPermission to deal damage to living entities on the chunks in the party.",
+        "&bInteracting with animals\n\n&7Default: &aMember\n&rPermission interact with living entities on the chunks in the party. This includes actions like milking a cow.",
+        "&bBreeding animals\n\n&7Default: &aMember\n&rPermission to feed and thereby breed animals on the chunks in the party.",
+        "&bRiding mobs\n\n&7Default: &aMember\n&rPermission to ride mobs on the chunks in the party. This includes riding horse, pigs etc.",
+        "&bPVP\n\n&7Default: &cAdmin\n&rPermission to fight other members within the party with this permission. PVP between members from a different party is always disabled.",
+        "&bOpen trapped chests\n\n&7Default: &cAdmin\n&rPermission to open and modify the contents of trapped chests on the chunks in the party. Trapped chests have a different permission node so they can be used as vaults for the party leader or admins if desired.",
+        "&bManage members\n\n&7Default: &cAdmin\n&rPermission to invite, kick, promote and demote members. They will not be able to promote themselves or change the leader of the party.",
+        "&bSet home\n\n&7Default: &dLeader\n&rPermission to set a new home within the party."
+    ],
+    "NewDialog": [
+        {
+            "&9&lLucius": "Permissions are fun to play around with! Anything else I can help you with?"
+        },
+        130, true, true
+    ],
+    "SendMessageOptions": [
+        30,
+        "&aYes!",
+        "&cNah, I got everything I need! Thanks!"
+    ],
+    "Skip": "tut_selection",
+    "Skip": "leaving",
+
+
+
+    "Comment": "chunks",
+    "NewDialog": [
+        {
+            "&9&lLucius": "Ah, that is simple!",
+            "&9&lLucius": "Using the \"/party chunks\" command, you will see an overview of the chunks that are currently in your party.",
+            "&9&lLucius": "On the left, you will see a button that allows you to modify these chunks. You can add or remove any chunk you like.",
+            "&9&lLucius": "You can also access this menu directly using the \"/party mychunks\" command.",
+            "&9&lLucius": "Your other party members will be able to add and remove their own Chunks here too!",
+            "&9&lLucius": "A little fun fact for ya, if you click on a chunk in the overview, you will teleport to it! Couldn't be any easier!",
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "&9&lLucius": "Did that cover it all or would you like to hear me talk about something else?"
+        },
+        130, true, true
+    ],
+    "SendMessageOptions": [
+        30,
+        "&aI want to learn more!",
+        "&cNah, I got everything I need! Thanks!"
+    ],
+    "Skip": "tut_selection",
+    "Skip": "leaving"
+}

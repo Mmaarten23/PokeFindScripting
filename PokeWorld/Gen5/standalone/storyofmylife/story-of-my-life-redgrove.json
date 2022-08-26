@@ -1,7 +1,59 @@
 {
     "Key": "story_of_my_life_redgrove",
+    "AllowRejoining": true,
 
-    "Progress": [1, "story_of_my_life_main"],
+    "CreateEntity": {
+        "key": "redgrove_chandelure",
+        "name": [
+            "&5&lChandelure"
+        ],
+        "location": {
+            "world": "world",
+            "x": -896.5,
+            "y": 75.0,
+            "z": 687.5,
+            "yaw": -65
+        },
+        "pokemon": "chandelure"
+    },
+    "Server": [],
+    "Hide": "redgrove_chandelure",
+
+    "CreateEntity": {
+        "key": "redgrove_darmanitan",
+        "name": [
+            "&c&lDarmanitan"
+        ],
+        "location": {
+            "world": "world",
+            "x": -893.5,
+            "y": 75.0,
+            "z": 684.5,
+            "yaw": -12
+        },
+        "pokemon": "darmanitan"
+    },
+    "Server": [],
+    "Hide": "redgrove_darmanitan",
+
+    "CreateEntity": {
+        "key": "redgrove_volcarona",
+        "name": [
+            "&4&lVolcarona"
+        ],
+        "location": {
+            "world": "world",
+            "x": -896.5,
+            "y": 75.0,
+            "z": 684.5,
+            "yaw": -45
+        },
+        "pokemon": "volcarona"
+    },
+    "Server": [],
+    "Hide": "redgrove_volcarona",
+
+    "Progress": ["location-redgrove", 1.0, "story_of_my_life_main"],
     "SetBlocks": [
         -876, 70, 697,
         -874, 70, 699,
@@ -38,10 +90,79 @@
             "[PLAYER]": "&oThe perfect scene for a heroic story is a volcano.",
             "[PLAYER]": "&oOh, the inspiration! It just keeps coming!"
         },
-        160, true, true
+        130, true, true
     ],
-    "SendMessage": "End for now"
-
-
-
+    "SetBlock": [
+        -878, 73, 701,
+        "cracked_stone_bricks", false
+    ],
+    "Wait": 1.0,
+    "SetBlock": [
+        -881, 73, 699,
+        "cracked_stone_bricks", false
+    ],
+    "Wait": 1.0,
+    "SetBlock": [
+        -884, 73, 697,
+        "cracked_stone_bricks", false
+    ],
+    "Wait": 1.0,
+    "SetBlock": [
+        -887, 73, 695,
+        "cracked_stone_bricks", false
+    ],
+    "Wait": 1.0,
+    "SetBlock": [
+        -889, 73, 692,
+        "cracked_stone_bricks", false
+    ],
+    "Wait": 2.0,
+    "SetBlocks": [
+        -890, 73, 691,
+        -895, 73, 686,
+        "cracked_stone_bricks"
+    ],
+    "SetBlocks": [
+        -891, 73, 690,
+        -894, 73, 687,
+        "chiseled_stone_bricks"
+    ],
+    "SetBlocks": [
+        -892, 73, 689,
+        -893, 73, 688,
+        "stone_bricks"
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&7The brave trainer crosses the path to the middle of the volcano...",
+            "[PLAYER]": "&7They don't know what they will find there..."
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&7But they know no fear and just go for it."
+        },
+        130, true, true
+    ],
+    "Progress": "story_of_my_life_main",
+    "Wait": 2.0,
+    "InRegion": [
+        -890, 73, 691,
+        -895, 80, 686
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oYes, yes, yes!",
+            "[PLAYER]": "&oThis would be the perfect place for the trainer to find a Pokémon!",
+            "[PLAYER]": "&oIt is all coming together!"
+        },
+        130, true, true
+    ],
+    "NewDialog": [
+        {
+            "[PLAYER]": "&oBut which Pokémon will it be?"
+        },
+        130, true, false
+    ]
 }

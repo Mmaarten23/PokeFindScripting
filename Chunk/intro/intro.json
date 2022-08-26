@@ -205,9 +205,10 @@
     "Comment": " ------------------- START ------------------- ",
 
     "PlayerJoin": [],
+    "NotCompleted": false,
+    "Complete": [],
 
     "Comment": " ------------------- PLAY SOUND AT ALL LOCATIONS ------------------- ",
-    "Comment": "spawn, bushes, border, trading, protection",
     "PlaySoundLocation": ["music_disc_blocks", 1.0, 1.0, 0.5, 112.0, 0.5],
     "PlaySoundLocation": ["music_disc_blocks", 1.0, 1.0, 932.0, 78.0, 1038.0],
     "PlaySoundLocation": ["music_disc_blocks", 1.0, 1.0, 936.7, 77.4, 1089.9],
@@ -216,8 +217,7 @@
 
 
     "Comment": " ------------------- SETUP ------------------- ",
-    "NotCompleted": false,
-    "Complete": [],
+
     "DisableChat": [],
     "HidePlayer": [],
     "SetScoreboard": "",

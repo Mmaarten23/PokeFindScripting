@@ -1,6 +1,7 @@
 {
     "Key": "story_of_my_life_intro",
     "Author": "Mmaarten",
+    "AllowRejoining": true,
 
     "CreateEntity": {
         "key": "book_master",
