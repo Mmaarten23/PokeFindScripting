@@ -24,8 +24,6 @@
             "material": "suspicious_stew"
         }
     },
-    "Server": [],
-    "Hide": "tut_npc",
 
 
     "HighlightClickEntity": "tut_npc",
