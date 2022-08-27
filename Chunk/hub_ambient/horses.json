@@ -1,0 +1,24 @@
+{
+    "Key": "horses",
+    "Author": "Mmaarten",
+
+
+
+    "CreateEntity": {
+        "key": "horse1",
+        "entity": "horse",
+        "location": {
+            "world": "world",
+            "x": 180.5,
+            "y": 107.5,
+            "z": 0.5,
+            "yaw": 0,
+            "pitch": 0
+        }
+    },
+
+    "Server": true,
+    "Comment": "loop",
+    "MoveEntityCircle": ["horse1", 192.5, 107.5, 0.5, 180.5, 107.5, 0.5, 0.01, false],
+    "Skip": "loop"
+}

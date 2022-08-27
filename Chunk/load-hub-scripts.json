@@ -1,0 +1,16 @@
+{
+    "Key": "load_hub_scripts",
+    "Author": "Mmaarten",
+
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/tutorial/tut-animal-pickup.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/tutorial/tut-basics.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/tutorial/tut-border.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/tutorial/tut-chunkies.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/tutorial/tut-party.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/tutorial/tut-trading.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/tutorial/tut-visiting.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/tutorial/tutorial-guide.json",
+
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/hub_ambient/launcher.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/hub_ambient/ambient-static.json"
+}
