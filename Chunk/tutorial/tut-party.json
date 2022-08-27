@@ -108,18 +108,18 @@
         130, true, true
     ],
     "Book": [
-        "&bBuild\n\n&7Default: &aMember\n&rPermission to place and break blocks on the chunks in the party.",
-        "&bOpen (trap)doors\n\n&7Default: &aMember\n&rPermission to open en close doors and trapdoors on the Chunks within the party.",
-        "&bOpen containers\n\n&7Default: &aMember\n&rPermission to open and modify the contents of any container on the Chunks in the party. This does not include trapped chests. (see later)",
-        "&bActivating redstone\n\n&7Default: &aMember\n&rPermission to interact with redstone devices and modify the state of circuits on the Chunks in the party.",
-        "&bKilling animals\n\n&7Default: &aMember\n&rPermission to deal damage to living entities on the chunks in the party.",
-        "&bInteracting with animals\n\n&7Default: &aMember\n&rPermission interact with living entities on the chunks in the party. This includes actions like milking a cow.",
-        "&bBreeding animals\n\n&7Default: &aMember\n&rPermission to feed and thereby breed animals on the chunks in the party.",
-        "&bRiding mobs\n\n&7Default: &aMember\n&rPermission to ride mobs on the chunks in the party. This includes riding horse, pigs etc.",
-        "&bPVP\n\n&7Default: &cAdmin\n&rPermission to fight other members within the party with this permission. PVP between members from a different party is always disabled.",
-        "&bOpen trapped chests\n\n&7Default: &cAdmin\n&rPermission to open and modify the contents of trapped chests on the chunks in the party. Trapped chests have a different permission node so they can be used as vaults for the party leader or admins if desired.",
-        "&bManage members\n\n&7Default: &cAdmin\n&rPermission to invite, kick, promote and demote members. They will not be able to promote themselves or change the leader of the party.",
-        "&bSet home\n\n&7Default: &dLeader\n&rPermission to set a new home within the party."
+        "&3Build\n\n&8Default: &aMember\n&0Permission to place and break blocks on the chunks in the party.",
+        "&3Open (trap)doors\n\n&8Default: &aMember\n&0Permission to open en close doors and trapdoors on the Chunks within the party.",
+        "&3Open containers\n\n&8Default: &aMember\n&0Permission to open and modify the contents of any container on the Chunks in the party. This does not include trapped chests. (see later)",
+        "&3Activating redstone\n\n&8Default: &aMember\n&0Permission to interact with redstone devices and modify the state of circuits on the Chunks in the party.",
+        "&3Killing animals\n\n&8Default: &aMember\n&0Permission to deal damage to living entities on the chunks in the party.",
+        "&3Interacting with animals\n\n&8Default: &aMember\n&0Permission interact with living entities on the chunks in the party. This includes actions like milking a cow.",
+        "&3Breeding animals\n\n&8Default: &aMember\n&0Permission to feed and thereby breed animals on the chunks in the party.",
+        "&3Riding mobs\n\n&8Default: &aMember\n&0Permission to ride mobs on the chunks in the party. This includes riding horse, pigs etc.",
+        "&3PVP\n\n&8Default: &cAdmin\n&0Permission to fight other members within the party with this permission. PVP between members from a different party is always disabled.",
+        "&3Open trapped chests\n\n&8Default: &cAdmin\n&0Permission to open and modify the contents of trapped chests on the chunks in the party. Trapped chests have a different permission node so they can be used as vaults for the party leader or admins if desired.",
+        "&3Manage members\n\n&8Default: &cAdmin\n&0Permission to invite, kick, promote and demote members. They will not be able to promote themselves or change the leader of the party.",
+        "&3Set home\n\n&8Default: &dLeader\n&0Permission to set a new home within the party."
     ],
     "NewDialog": [
         {
