@@ -12,11 +12,10 @@
             "&7&oOperator"
         ],
         "location": {
-            "x": -22.5,
-            "y": 32.0,
-            "z": 78.5,
-            "yaw": -128,
-            "pitch": 0
+            "x": -23.7,
+            "y": 112.0,
+            "z": 78.7,
+            "yaw": -112
         },
         "skin": {
             "signature": "Jdv7yIu3MQycCxjdX/JfyaIsvOaqeyR/q/hHckBdPUhV5yTU5BnxlAbrNCgG42I+zRy05D5ZDvVzQd3PYp+EaefvH97NDuvBZkPpxBVBoZQy844YFjUi+bkl/ZgzGSr30I57N/GSEoTxSbmLsR8SCuCrVLnCNsXjWvNTyufa5O4YbEySaTvbq4yt09KRzBunE/SgXlHAxcjPHCNss3B3xoPd/n+cWTpVLF/H3LhUqV5AvQIeN83hhTSXNS5K+OnkkY1N82kMW8q4bG1ln3fAMbuKwVP+TJm/Gq50yDkd62WarLT0dVDMX7sb1ABGRusDqvo7slEgmwYomW6e6qctFuLkcGRSEKrL+nRuhQzCrFy1XjVC+3Fd+HFv59N0UMXU0gOn6mhmC15nYUDAGZK2/RD/1N3W3YMbo5297S2echhJcZ6MyavqAbWAgh9iGdKIcq3RJArxy2dMxq27sWrYXTj7x7wXQpgjkttWa6luST43iR1OPbNK4+wzX4EkXyS17WFQwc+AoLfqPdtTuVldQwTtkVSlHqvQKINvCbsE5BBp6Rqu8h6o3oRD2rbbxdcn71P3nYjzYN7Xkq4HQMdxpqgvfpEPoVy8MHnmOZfriWID0OqeVKG980gBW/HTN76y1L/rptmVJlxAWseKBF4pyfYhvzDJTOzl6nR2SecCIEU=",
@@ -52,8 +51,8 @@
             "&7&oVisitor"
         ],
         "location": {
-            "x": -16.3,
-            "y": 24.8,
+            "x": -17.3,
+            "y": 105.0,
             "z": -24.5,
             "yaw": -87,
             "pitch": -3
@@ -80,6 +79,66 @@
             },
             {
                 "&9&lJames": "&7&oThe sun is up and it's time to sit\nOn a bench in the park, enjoying the view\nThe trees are green and the sky is blue\nIt's a beautiful day, and the sun is shining bright\nThe warmth of the sun is soothing and calming\nAnd the time just seems to fly by\nWhen I'm sitting here on this bench\nIn the park, with the sun shining down on me"
+            }
+        ],
+        90
+    ],
+
+    "CreateEntity": {
+        "key": "cow",
+        "location": {
+            "x": -82.6,
+            "y": 117.0,
+            "z": 15.4,
+            "yaw": -106,
+            "pitch": 13
+        },
+        "entity": "cow"
+    },
+    "GlobalClickEntity": "cow",
+    "RandomDialog": [
+        [
+            {
+                "&f&lB&7&le&f&ll&7&ll&f&la": "Moo"
+            }
+        ],
+        90
+    ],
+
+    "CreateEntity": {
+        "key": "train_mechanic",
+        "name": [
+            "&8&lAnton",
+            "&7&oMechanic"
+        ],
+        "location": {
+            "x": -110.5,
+            "y": 120.0,
+            "z": 7.3,
+            "yaw": -179,
+            "pitch": 4
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTExNzY3ODA4NywKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBjYzlhNjAyMTBhYjJkNTJkZGI2YzFkYTc3YzUyODJiNDQ4Y2QxMWUxNzc1MmYzYzU4MGY2YjQ0MTU0OWNhNSIKICAgIH0KICB9Cn0=",
+            "signature": "b5ZPoJCm42R+X/hBDisOrJAUxtlSKwbj1V9ysSli3wc5Yi4qmTmqMhGAKYyfvV114Jv9WZ5PYbLkECxIPwz0XyruJh18cYQ5KsIh1l1H4mhdJOv88EMyeiDqChvQ/es+x8ZOJiJmIty34CPt8Vu7hxhUYR0rwb7UF9iK8YfmGyvoqCU5MeXUr2Ojxges79+dgPEri85V+pGRpudVlaNIKMl8F4p8RqWfUQJny94b1HgUMIhOIVuRTp6TW5zyNeyeLewSlCe7rpXY9M3HpItDhHeiUvY1IU2ijYOWoF+Ky+ubj2BzEFwrnTOvn5eNaj4lDdoaI9I1TXLX8BhHkSYYU/evlZEbKt1ngZS6rdvSL0bQaOukaMXViw1aiOWfeW0dVwlKekbtTz+SYSjf8EGMzyMeKEcnogULqPwqHnpjXNRM9qVnt3qzQWp0wXWTBIB03lGu+ie+ILJBi2xuXjxN2ynqAa+SW/5gi3NUqIpsB/K0Jp/cOyuapyoiFyJBd1UjiFm+6PPFgC5JivWK1kJm4Y+U4H3iMRX4tHAfYd4rwxTJZNPbJgCqzmO7SkG8QFZVDkpQ8uMyL0rfKppzNbsdhz8fxzG0FwMHk5KlEq2I+xObtpcTobzSjVjS0duTLyfCL778CU4FT0bTbF80wpG1+DlvyhfC3/W59Q93aRRHGXE="
+        }
+    },
+    "GlobalClickEntity": "train_mechanic",
+    "RandomDialog": [
+        [
+            {
+                "&8&lAnton": "Engaging the air brakes on the tra... Hey! I am quite busy here!",
+                "&8&lAnton": "Talk to Mary if you want more information about this train. I am just the driver!"
+            },
+            {
+                "&8&lAnton": "Hey have you heard of the \"I like trains\" kid?"
+            },
+            {
+                "&8&lAnton": "Aah, feels so good to be right on time.",
+                "&8&lAnton": "Almost never happens to be honest with you..."
+            },
+            {
+                "&8&lAnton": "I should call this locomotive Thomas. Just for old times sake..."
             }
         ],
         90
