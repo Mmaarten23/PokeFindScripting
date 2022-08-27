@@ -347,6 +347,7 @@
         10, true, true
     ],
     "SetBlock": [8, 117, 184, "lime_concrete", false],
+    "Wait": 40,
     "NewDialog": [
         {
             "&a&lEllen": "If any change is made to the trade, you will have to reconfirm!",
