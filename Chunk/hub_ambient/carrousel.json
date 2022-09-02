@@ -8,7 +8,7 @@
         "key": "global_carrousel_horse_1",
         "entity": "horse",
         "location": {
-            "world": "world",
+
             "x": 180.5,
             "y": 107.5,
             "z": 0.5,

@@ -9,7 +9,7 @@
             "&7Trading"
         ],
         "location": {
-            "world": "world",
+
             "x": -89.5,
             "y": 119.0,
             "z": -10.6,
@@ -32,7 +32,7 @@
             "&a&lEllen"
         ],
         "location": {
-            "world": "world",
+
             "x": 10.8,
             "y": 116.0,
             "z": 176.4,
@@ -50,7 +50,7 @@
     "CreateEntity": {
         "key": "tut_player_highlight",
         "location": {
-            "world": "world",
+
             "x": 6.5,
             "y": 118.0,
             "z": 182.5,
@@ -69,7 +69,7 @@
     "CreateEntity": {
         "key": "tut_trader_highlight",
         "location": {
-            "world": "world",
+
             "x": 6.5,
             "y": 118.0,
             "z": 178.5,
@@ -89,7 +89,7 @@
     "CreateEntity": {
         "key": "tut_trading_good1",
         "location": {
-            "world": "world",
+
             "x": 8.5,
             "y": 121.3,
             "z": 183.5,
@@ -105,7 +105,7 @@
     "CreateEntity": {
         "key": "tut_trading_good2",
         "location": {
-            "world": "world",
+
             "x": 8.5,
             "y": 121.3,
             "z": 182.5,
@@ -121,7 +121,7 @@
     "CreateEntity": {
         "key": "tut_trading_good3",
         "location": {
-            "world": "world",
+
             "x": 8.5,
             "y": 121.3,
             "z": 181.5,
@@ -137,7 +137,7 @@
     "CreateEntity": {
         "key": "tut_trading_good4",
         "location": {
-            "world": "world",
+
             "x": 8.5,
             "y": 121.3,
             "z": 179.5,
@@ -153,7 +153,7 @@
     "CreateEntity": {
         "key": "tut_trading_good5",
         "location": {
-            "world": "world",
+
             "x": 8.5,
             "y": 121.3,
             "z": 178.5,
