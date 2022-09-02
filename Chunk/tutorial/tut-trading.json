@@ -184,7 +184,7 @@
     "SendMessageOptions": [
         30,
         "&aYes! I want to learn this!",
-        "&cNo. i am good for now."
+        "&cNo. I am good for now."
     ],
     "Skip": "yes",
     "Skip": "no",
@@ -192,7 +192,7 @@
     "Comment": "no",
     "NewDialog": [
         {
-            "[PLAYER]": "No. i am good for now."
+            "[PLAYER]": "No. I am good for now."
         },
         90, true, true
     ],
@@ -351,7 +351,7 @@
     "NewDialog": [
         {
             "&a&lEllen": "If any change is made to the trade, you will have to reconfirm!",
-            "&a&lEllen": "Once both players agree, the trade is confirmed and the items are exchanged."
+            "&a&lEllen": "Once both players agree, the trade is confirmed and the items are safely exchanged."
         },
         90, true, true
     ],
@@ -370,7 +370,7 @@
     "Wait": 10,
     "NewDialog": [
         {
-            "&a&lEllen": "Trading safely is crucial for merchants like me and you!",
+            "&a&lEllen": "Trading safely is crucial for merchants like you and I!",
             "&a&lEllen": "Stay safe out there!"
         },
         90, true, true

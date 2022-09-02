@@ -247,7 +247,7 @@
     "MoveEntity": ["playerBuildingBushes", 927.0, 76.0, 1043.5],
     "PlaySound": ["block_stone_step", 1.0, 1.0],
     "ProgressiveDialog": {
-        "": "Play and build on your NFT"
+        "": "Play and build on your Chunk"
     },
     "Wait": 10,
     "PlaySound": ["block_stone_step", 1.0, 1.0],
@@ -287,7 +287,7 @@
     "Wait": 10,
     "PlaySound": ["block_gravel_step", 1.0, 0.5],
     "ProgressiveDialog": {
-        "": "Cross the border of your own chunk to visit others"
+        "": "Cross the border of your own Chunk to visit others"
     },
     "Wait": 10,
     "Particle": ["WAX_ON", 932.5, 75.5, 1082.5, 5, 0.5],
@@ -500,7 +500,7 @@
     "PlaySound": ["block_stone_break", 1.0, 1.0],
     "Wait": 10,
     "ProgressiveDialog": {
-        "": "Your NFT is protected from modification by others"
+        "": "Your Chunk is protected from modification by others"
     },
     "AnimateEntity": ["npcProtection", "Swing Main Hand"],
     "PlaySound": ["block_stone_break", 1.0, 1.0],
@@ -545,7 +545,7 @@
     "Wait": 10,
     "SetScoreboard": [],
     "ProgressiveDialog": {
-        "": "Start your journey on Chunk!"
+        "": "Start your journey on your Chunk!"
     },
     "Wait": 3.0,
     "Unfreeze": [],

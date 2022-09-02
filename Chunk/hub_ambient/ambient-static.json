@@ -34,10 +34,10 @@
             },
             {
                 "&3&lJessica": "Heya there! Just applying some grease here.",
-                "&3&lJessica": "I would ask you for help but this requires a specific set of skills."
+                "&3&lJessica": "I would ask you for help, but this requires a specific set of skills."
             },
             {
-                "&3&lJessica": "Oh hi there! I'm Jessica. Apologies for the mess, I am performing some maintenance."
+                "&3&lJessica": "Oh hi there! I'm Jessica. Apologies for the mess! I am performing some maintenance."
             }
         ],
         90
@@ -67,7 +67,7 @@
     "RandomDialog": [
         [
             {
-                "&9&lJames": "Phew, time for a break! Visiting all these chunks can be tiring.",
+                "&9&lJames": "Phew, time for a break! Visiting all these Chunks can be tiring.",
                 "&9&lJames": "I'm sure I'll be back in a few minutes. Don't wait for me, I am going to have a little sit."
             },
             {
@@ -75,7 +75,7 @@
             },
             {
                 "&9&lJames": "These benches provide such a nice place to sit.",
-                "&9&lJames": "Perfect place to rest after visiting all these amazing chunks!"
+                "&9&lJames": "Perfect place to rest after visiting all these amazing Chunks!"
             },
             {
                 "&9&lJames": "&7&oThe sun is up and it's time to sit\nOn a bench in the park, enjoying the view\nThe trees are green and the sky is blue\nIt's a beautiful day, and the sun is shining bright\nThe warmth of the sun is soothing and calming\nAnd the time just seems to fly by\nWhen I'm sitting here on this bench\nIn the park, with the sun shining down on me"

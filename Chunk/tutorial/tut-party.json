@@ -31,7 +31,7 @@
         {
             "&9&lLucius": "Hi there! What can I get you to drink?",
             "[PLAYER]": "I was actually wondering if you could tell me more about the party system?",
-            "&9&lLucius": "Oh sure, the party system is a way to allow multiple people to play on your Chunk."
+            "&9&lLucius": "Oh sure! The party system is a way to allow multiple people to play on your Chunks."
         },
         130, true, true
     ],
@@ -46,7 +46,7 @@
         30,
         "&aHow do I create/join a party?",
         "&aHow do party permissions work?",
-        "&aHow do I add or remove chunks from my party?",
+        "&aHow do I add or remove Chunks from my party?",
         "&cI'll come back another time."
     ],
     "Skip": "creation",
@@ -76,8 +76,7 @@
             "&9&lLucius": "There are 2 ways to use the party system: Either you create a new party or you join an existing one.",
             "&9&lLucius": "To create a new party, use the \"/party create <name>\" command where the name is your super fancy party name.",
             "&9&lLucius": "When you create a new party, you will have to select the Chunk(s) that you want to share with that party.",
-            "&9&lLucius": "You should know though that you can only create a party if you are currently holding a Chunk.",
-            "[PLAYER]": "Sounds good! So what if I don't have a Chunk or want to join someone other party?",
+            "[PLAYER]": "Sounds good! So what if I don't have a Chunk or want to join someone's party?",
             "&9&lLucius": "To join an existing party, one of the party members must invite you using the \"/party invite <name>\" command.",
             "&9&lLucius": "You will receive a message in chat that you can click on to accept the invite.",
             "&9&lLucius": "That is about it on how to start your party! Anything else I can help you with?"
@@ -100,9 +99,9 @@
             "&9&lLucius": "They allow you to modify what each party member can do on the party Chunks.",
             "&9&lLucius": "If you use the command \"/party permissions\", you will see that there are a ton of different permissions to play around with and each one is linked to a color.",
             "&9&lLucius": "That color indicates what role is allowed to carry out that action.",
-            "&9&lLucius": "There are three roles you can use within your party.  &aMember&f, &cAdmin&f, and &dLeader&f.",
+            "&9&lLucius": "There are three roles you can use within your party.  &aMember&f, &cVice-President&f, and &dPresident&f.",
             "&9&lLucius": "Clicking on the permission will cycle through the different roles. Everything a lower role can do, can also be done by the higher roles.",
-            "[PLAYER]": "That sounds really interesting but what does every permission mean?",
+            "[PLAYER]": "That sounds really interesting, but what does every permission mean?",
             "&9&lLucius": "Let me give you an overview!"
         },
         130, true, true
@@ -141,11 +140,11 @@
     "NewDialog": [
         {
             "&9&lLucius": "Ah, that is simple!",
-            "&9&lLucius": "Using the \"/party chunks\" command, you will see an overview of the chunks that are currently in your party.",
-            "&9&lLucius": "On the left, you will see a button that allows you to modify these chunks. You can add or remove any chunk you like.",
+            "&9&lLucius": "Using the \"/party chunks\" command, you will see an overview of the Chunks that are currently in your party.",
+            "&9&lLucius": "On the left, you will see a button that allows you to modify these Chunks. You can add or remove any chunk you like.",
             "&9&lLucius": "You can also access this menu directly using the \"/party mychunks\" command.",
             "&9&lLucius": "Your other party members will be able to add and remove their own Chunks here too!",
-            "&9&lLucius": "A little fun fact for ya, if you click on a chunk in the overview, you will teleport to it! Couldn't be any easier!"
+            "&9&lLucius": "A little fun fact for you! If you click on a Chunk in the overview, you will teleport to it. Couldn't be any easier!"
         },
         130, true, true
     ],
@@ -158,7 +157,7 @@
     "SendMessageOptions": [
         30,
         "&aI want to learn more!",
-        "&cNah, I got everything I need! Thanks!"
+        "&cNo, I got everything I need! Thanks!"
     ],
     "Skip": "tut_selection",
     "Skip": "leaving"

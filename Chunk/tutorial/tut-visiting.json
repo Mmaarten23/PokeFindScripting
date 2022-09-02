@@ -31,8 +31,8 @@
             "&5&lMary": "Morning stranger! Are you boarding the Chunk express?",
             "[PLAYER]": "Not today I am afraid. Could you tell me some more about how visiting Chunks works?",
             "&5&lMary": "Sure! It is actually really easy.",
-            "&5&lMary": "If you do \"/visit\", you will see a list of Chunks that have visitation enabled. Click on any of those chunks to be taken there!",
-            "&5&lMary": "At the top of the menu, you will be able to toggle visitation for the Chunks you hold yourself!",
+            "&5&lMary": "If you do \"/visit\", you will see a list of Chunks that have visitation enabled. Click on any of those Chunks to be taken there!",
+            "&5&lMary": "At the top of the menu, you will be able to toggle visitation for the Chunks you claimed yourself!",
             "&5&lMary": "While the visiting menu allows you to filter and sort Chunks, I still prefer traveling by train. But oh well."
         },
         130, true, true

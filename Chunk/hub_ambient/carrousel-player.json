@@ -1,0 +1,10 @@
+{
+    "Key": "carrousel_player",
+    "Author": "Mmaarten",
+
+    "GlobalClickEntity": "global_carrousel_horse_1",
+    "Ride": "global_carrousel_horse_1",
+
+    "PlayerJoin": [],
+    "Hold": []
+}

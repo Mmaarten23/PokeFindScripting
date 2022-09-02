@@ -65,8 +65,8 @@
 
     "SendMessageOptions": [
         30,
-        "&aSure, what is there to learn about the border?",
-        "&cNo. i am a border expert already."
+        "&aSure! What is there to learn about the border?",
+        "&cNo. I am a border expert already."
     ],
     "Skip": "yes",
     "Skip": "no",
@@ -75,7 +75,7 @@
     "Comment": "no",
     "NewDialog": [
         {
-            "[PLAYER]": "No. i am a border expert already."
+            "[PLAYER]": "No. I am a border expert already."
         },
         90, true, true
     ],
@@ -92,7 +92,7 @@
     "NewDialog": [
         {
             "[PLAYER]": "Sure, what is there to learn about the border?",
-            "&2&lKieran": "What isn't there to learn about borders?! They are the best thing ever!",
+            "&2&lKieran": "What isn't there to learn about borders?!",
             "&2&lKieran": "Buckle up, you are in for a treat!"
         },
         90, true, true
@@ -105,7 +105,7 @@
     "Wait": 1.0,
     "NewDialog": [
         {
-            "&2&lKieran": "Whenever you get close to a border, the border will appear!"
+            "&2&lKieran": "Whenever you get close to any border, the border will appear!"
         },
         20, true, true
     ],
@@ -176,8 +176,8 @@
     "Wait": 10,
     "NewDialog": [
         {
-            "&2&lKieran": "This border is yellow. This means that the chunk I am currently on is not mine.",
-            "&2&lKieran": "The border around chunks that I do own will look green."
+            "&2&lKieran": "This border is yellow. This means that the Chunk I am currently on is not mine.",
+            "&2&lKieran": "The border around Chunks that I do own will look green."
         },
         130, true, true
     ],
@@ -276,7 +276,7 @@
     ],
     "NewDialog": [
         {
-            "[PLAYER]": "I am afraid I am too busy on my Chunks but thank you for the offer! See you later!"
+            "[PLAYER]": "I am afraid I am too busy on my Chunks, but thank you for the offer! See you later!"
         },
         1, true, false
     ]

@@ -119,7 +119,7 @@
     "NewDialog": [
         {
             "&6&lJacob": "Heya there!",
-            "&6&lJacob": "I can give you some help on how to trade animals more easily."
+            "&6&lJacob": "I can give you some help on how to easily trade animals."
         },
         130, true, true
     ],
@@ -184,7 +184,7 @@
     "Wait": 1.0,
     "NewDialog": [
         {
-            "&6&lJacob": "Then, you right click the animal you want to trade."
+            "&6&lJacob": "Then, you right click the animal on your Chunk."
         },
         1, true, false
     ],
@@ -199,7 +199,7 @@
 
     "NewDialog": [
         {
-            "&6&lJacob": "You will receive a token that you can use in the normal trading menu."
+            "&6&lJacob": "You will receive an animal egg that you can use in the normal trading menu."
         },
         1, true, false
     ],
@@ -208,7 +208,7 @@
     "Wait": 3.0,
     "NewDialog": [
         {
-            "&6&lJacob": "To get the animal back, right click the token on the ground."
+            "&6&lJacob": "To get your animal back, right click the egg on the ground."
         },
         1, true, false
     ],
@@ -239,7 +239,7 @@
     "Wait": 10,
     "NewDialog": [
         {
-            "&6&lJacob": "And that is how you can pick up animals!",
+            "&6&lJacob": "And that is how you can pick up and place animals!",
             "&6&lJacob": "I hope you enjoyed your time here!"
         },
         90, true, true

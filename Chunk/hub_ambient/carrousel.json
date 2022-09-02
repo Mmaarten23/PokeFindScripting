@@ -1,11 +1,11 @@
 {
-    "Key": "horses",
+    "Key": "carrousel",
     "Author": "Mmaarten",
 
 
 
     "CreateEntity": {
-        "key": "horse1",
+        "key": "global_carrousel_horse_1",
         "entity": "horse",
         "location": {
             "world": "world",
@@ -14,11 +14,13 @@
             "z": 0.5,
             "yaw": 0,
             "pitch": 0
-        }
+        },
+        "global": true
     },
+
 
     "Server": true,
     "Comment": "loop",
-    "MoveEntityCircle": ["horse1", 192.5, 107.5, 0.5, 180.5, 107.5, 0.5, 0.01, false],
+    "MoveEntityCircle": ["global_carrousel_horse_1", 192.5, 107.5, 0.5, 180.5, 107.5, 0.5, 0.05, false],
     "Skip": "loop"
 }
