@@ -115,10 +115,10 @@
         "&3Interacting with animals\n\n&8Default: &aMember\n&0Permission interact with living entities on the chunks in the party. This includes actions like milking a cow.",
         "&3Breeding animals\n\n&8Default: &aMember\n&0Permission to feed and thereby breed animals on the chunks in the party.",
         "&3Riding mobs\n\n&8Default: &aMember\n&0Permission to ride mobs on the chunks in the party. This includes riding horse, pigs etc.",
-        "&3PVP\n\n&8Default: &cAdmin\n&0Permission to fight other members within the party with this permission. PVP between members from a different party is always disabled.",
-        "&3Open trapped chests\n\n&8Default: &cAdmin\n&0Permission to open and modify the contents of trapped chests on the chunks in the party. Trapped chests have a different permission node so they can be used as vaults for the party leader or admins if desired.",
-        "&3Manage members\n\n&8Default: &cAdmin\n&0Permission to invite, kick, promote and demote members. They will not be able to promote themselves or change the leader of the party.",
-        "&3Set home\n\n&8Default: &dLeader\n&0Permission to set a new home within the party."
+        "&3PVP\n\n&8Default: &cVice-President\n&0Permission to fight other members within the party with this permission. PVP between members from a different party is always disabled.",
+        "&3Open trapped chests\n\n&8Default: &cVice-President\n&0Permission to open and modify the contents of trapped chests on the chunks in the party. Trapped chests have a different permission node so they can be used as vaults for the party president or Vice-Presidents if desired.",
+        "&3Manage members\n\n&8Default: &cVice-President\n&0Permission to invite, kick, promote and demote members. They will not be able to promote themselves or change the president of the party.",
+        "&3Set home\n\n&8Default: &dPresident\n&0Permission to set a new home within the party."
     ],
     "NewDialog": [
         {
