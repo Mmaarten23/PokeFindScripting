@@ -241,7 +241,7 @@
     "Teleport": [932.0, 78.0, 1038.0, 63, 24],
     "Wait": 5,
     "Show": "playerBuildingBushes",
-    "Freeze": true,
+    "Freeze": false,
     "Wait": 1.0,
     "PlaySound": ["block_wool_step", 1.0, 1.0],
     "MoveEntity": ["playerBuildingBushes", 927.0, 76.0, 1043.5],
@@ -278,7 +278,7 @@
     "Teleport": [936.7, 77.4, 1089.9, 143, 3],
     "Wait": 1,
 
-    "Freeze": true,
+    "Freeze": false,
     "Show": "playerCrossingBorder",
     "ProgressiveMoveEntity": ["playerCrossingBorder", 930.5, 74.1, 1070.5],
     "PlaySound": ["block_gravel_step", 1.0, 0.5],
@@ -400,7 +400,7 @@
     "TeleportEntity": ["playerTradingBefore", 901.9, 80.1, 1095.4, -37, 0],
     "TeleportEntity": ["npcTradingBefore", 903.4, 80.1, 1097.4, 142, 1],
 
-    "Freeze": true,
+    "Freeze": false,
     "Wait": 2.0,
 
     "ProgressiveDialog": {
@@ -486,7 +486,7 @@
     "Teleport": [967.4, 76.4, 1085.3, 101, 20],
     "Show": "npcProtection",
     "Wait": 1,
-    "Freeze": true,
+    "Freeze": false,
 
     "Wait": 10,
     "AnimateEntity": ["npcProtection", "Swing Main Hand"],
@@ -541,7 +541,7 @@
     "Hide": "npcProtection",
     "Teleport": [0.5, 110.0, 0.5, -90, 0],
     "Wait": 1,
-    "Freeze": true,
+    "Freeze": false,
     "Wait": 10,
     "SetScoreboard": [],
     "ProgressiveDialog": {
