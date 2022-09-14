@@ -1,0 +1,8 @@
+{
+    "Key": "nuggets_hunt_reward",
+    "AllowRejoining": true,
+
+    "SendMessage": "&6You found &lAll&6 the Nuggets!",
+    "SendMessage": "&7Report back to &6Hunter&7 to claim your reward!",
+    "Hold": []
+}

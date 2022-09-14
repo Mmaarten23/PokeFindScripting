@@ -1,0 +1,17 @@
+{
+    "Key": "nuggets_hunt_nugget_1",
+    "AllowRejoining": true,
+
+    "RegionEntry": [0,0,0,0,0,0],
+    "Comment": "start",
+
+    "PickupItem": [
+        -5031.5,
+        67.0,
+        -6124.5,
+        "gold_nugget"
+    ],
+    "PlaySound": ["entity_item_pickup", 1.0, 1.0],
+    "SendMessage": "&7Congratulations on finding nugget &b1&7!",
+    "Progress": "nuggets_hunt_running"
+}

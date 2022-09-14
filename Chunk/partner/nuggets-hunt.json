@@ -1,0 +1,93 @@
+{
+    "Key": "nuggets_hunt",
+
+
+    "CreateEntity": {
+        "key": "hunt_master",
+        "name": [
+            "&6&lHunter",
+            "&7&oScavenger hunt"
+        ],
+        "location": {
+            "x": -5052.5,
+            "y": 65,
+            "z": -6065.5
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NzA2NTU2Mzc5MywKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2NzFkYmYzOGNlNWU5NmIzNjQzYzFmMGNlMTNiOGNkZmI3NDEyYjcyNmQ0Mzk4NzM0MmYxYWRmMjdlMTg1YTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+            "signature": "x9rcnH4y3c3X5LDsmFDRRRE3j3hN11nhoRYCMm6KCs1ABJDHvJ6HLd/pnMo7U+kGRE16ROf7duyoFD0DDdW32/DUO06iVKRcYGZf+DwiFQyQ8GQahSybzODzJM9WtLRcRvjWcUCeU4cp6joj/5rb4yyO9wzLxr16tOvj9g+nt+3ixky49o7aPwSPfz0cYDsdUAN0qGWh+DSvKGaKHA+ka+RE1OZBM56TRJmI2vRUOKc2m3FS7E0acaDOGmFQ5P1LmsAKAz5vxaAtzCkXGzWyY6yDyIr9oF0CV4VQ6lGwCx35HlmWoa2XIwWWoSAueF+Qc6ZFZN/1aXwKUzktStAHAFgvxpjzPOQQwOnNGeGNDv0a0Ca/1dO5clTV3Jlf4vc0p28oOlrWB+v7hYRlTUI3W1AnG5LplDqfTmAHgeS6j6vSYHubGTFAIgj19oSvF6CxIQhEdOIJeh32HbpIhi7hWp/G/RhipaOYBMY6oVdDSDI/JowL6UuUgZ3ISSOEVtQA8rq5LvVQbcZCl9QiwMLWmvqdJVhcp2UbK53S9mVK3SAHFsJRcU8NIX3OulpKnoZ2seWKTLNggw6gvSt9cKOpyPKtwKQoNflBNcS1PmCrZMEF3kt6aEsPxJrKQgPwrxtKSjVnavAOF7qWPTGckUGDXSXRoR7wJsxC+h+0VmtkMFE="
+        },
+        "hand": {
+            "material": "gold_nugget"
+        }
+    },
+
+    "HighlightClickEntity": "hunt_master",
+
+    "If": [],
+    "Completed": "nuggets_hunt",
+    "Skip": "done",
+    "Dummy": [],
+
+    "If": [],
+    "In": "nuggets_hunt_reward",
+    "Skip": "reward",
+    "Dummy": [],
+
+    "If": [],
+    "In": "nuggets_hunt_running",
+    "Skip": "running",
+    "Dummy": [],
+
+    "Skip": "start",
+
+
+    "Comment": "done",
+    "Dialog": {
+        "&6&lHunter": "Thanks again for helping me out! That was amazing!"
+    },
+    "Leave": [],
+
+    "Comment": "reward",
+    "Dialog": {
+        "&6&lHunter": "Wow! You found all the nuggets! That deserves some special items!",
+        "&6&lHunter": "My friend gave me these. He said they came from a land far far away...",
+        "&6&lHunter": "I don't know what they do, but I'm sure you'll find a use for them!"
+    },
+    "SendMessage": "This is where the reward would go",
+    "Leave": "nuggets_hunt_reward",
+    "Complete": [],
+    "Leave": [],
+
+    "Comment": "start",
+    "Dialog": {
+        "[PLAYER]": "Hello there!",
+        "&6&lHunter": "Heya! I am euuh, I am Hunter!",
+        "&6&lHunter": "I am sorry, I am a bit distracted. I was on my way to work when I passed through this nice city.",
+        "&6&lHunter": "I am supposed to bring the daily delivery of Nuggets today but... I lost them!",
+        "&6&lHunter": "I am certain they are all still within the city but I could use some help finding them.",
+        "[PLAYER]": "sure, any idea how many you had?",
+        "&6&lHunter": "I had 20 Nuggets, if you can help me, I will try to keep track of which ones we have found.",
+        "[PLAYER]": "sure, I will help you find them!",
+        "&6&lHunter": "Great! Talk to me if you are lost or have found all of them."
+    },
+    "Start": "nuggets_hunt_running",
+    "Leave": [],
+
+    "Comment": "running",
+    "Dialog": {
+        "&6&lHunter": "Still looking for nuggets? Me too!",
+        "&6&lHunter": "My notes currently read..."
+    },
+
+    "If": [],
+    "In": "nuggets_hunt_nugget_1",
+    "SendMessage": "&7Still looking for nugget &b&l1",
+    "Dummy": [],
+    "If": [],
+    "In": "nuggets_hunt_nugget_2",
+    "SendMessage": "&7Still looking for nugget &b&l2",
+    "Dummy": [],
+    "Leave": []
+
+}
