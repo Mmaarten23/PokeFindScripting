@@ -82,11 +82,11 @@
 
     "If": [],
     "In": "nuggets_hunt_nugget_1",
-    "SendMessage": "&7Still looking for nugget &b&l1",
+    "SendMessage": "&7Still looking for &6Nugget &l1",
     "Dummy": [],
     "If": [],
     "In": "nuggets_hunt_nugget_2",
-    "SendMessage": "&7Still looking for nugget &b&l2",
+    "SendMessage": "&7Still looking for &6Nugget &l2",
     "Dummy": [],
     "Leave": []
 
