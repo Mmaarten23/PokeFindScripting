@@ -5,11 +5,12 @@
     "RegionEntry": [0, 0, 0, 0, 0, 0],
     "Comment": "start",
 
+    "PersistentParticle": ["WAX_ON", -5074.5, 67.0, -6089.5, 5, 0.5],
     "PickupItem": [
         -5074.5, 67.0, -6089.5,
         "gold_nugget"
     ],
     "PlaySound": ["entity_item_pickup", 1.0, 1.0],
-    "SendMessage": "&7Congratulations on finding nugget &b2&7!",
+    "SendMessage": "&7Congratulations on finding &6Nugget &l2&7!",
     "Progress": "nuggets_hunt_running"
 }

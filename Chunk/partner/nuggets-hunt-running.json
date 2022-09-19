@@ -2,6 +2,7 @@
     "Key": "nuggets_hunt_running",
     "AllowRejoining": true,
 
+    "Objective": ["Find all 20 nuggets scattered around the city", "Start"],
     "Start": ["nuggets_hunt_nugget_1", 1.0, "start"],
     "Start": ["nuggets_hunt_nugget_2", 1.0, "start"],
 
