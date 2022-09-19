@@ -3,6 +3,7 @@
     "AllowRejoining": true,
 
     "SendMessage": "&6You found &lAll&6 the Nuggets!",
-    "SendMessage": "&7Report back to &6Hunter&7 to claim your reward!",
+    "Objective": ["Report back to Hunter to claim your reward!"],
+    "PlaySound": ["ui_toast_challenge_complete", 1.0, 1.0],
     "Hold": []
 }

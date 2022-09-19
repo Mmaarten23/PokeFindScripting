@@ -10,5 +10,6 @@
 
     "Hold": [],
     "Hold": [],
+    "Wait": 20,
     "Start": "nuggets_hunt_reward"
 }

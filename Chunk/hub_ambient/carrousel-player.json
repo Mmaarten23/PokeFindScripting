@@ -3,8 +3,17 @@
     "Author": "Mmaarten",
 
     "GlobalClickEntity": "global_carrousel_horse_1",
-    "Ride": "global_carrousel_horse_1",
+    "Ride": ["global_carrousel_horse_1", false],
+    "GlobalClickEntity": "global_carrousel_horse_2",
+    "Ride": ["global_carrousel_horse_2", false],
+    "GlobalClickEntity": "global_carrousel_horse_3",
+    "Ride": ["global_carrousel_horse_3", false],
+    "GlobalClickEntity": "global_carrousel_horse_4",
+    "Ride": ["global_carrousel_horse_4", false],
 
     "PlayerJoin": [],
-    "Hold": []
+    "Comment": "start",
+    "KeyPressed": "SHIFT",
+    "Unride": [],
+    "Skip": "start"
 }

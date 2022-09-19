@@ -15,12 +15,63 @@
             "yaw": 0,
             "pitch": 0
         },
+        "look": false,
+        "global": true
+    },
+
+    "CreateEntity": {
+        "key": "global_carrousel_horse_2",
+        "entity": "horse",
+        "location": {
+            "x": 192.5,
+            "y": 107.5,
+            "z": 12.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "look": false,
+        "global": true
+    },
+    "CreateEntity": {
+        "key": "global_carrousel_horse_3",
+        "entity": "horse",
+        "location": {
+            "x": 204.5,
+            "y": 107.5,
+            "z": 0.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "look": false,
+        "global": true
+    },
+    "CreateEntity": {
+        "key": "global_carrousel_horse_4",
+        "entity": "horse",
+        "location": {
+            "x": 192.5,
+            "y": 107.5,
+            "z": -11.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "look": false,
         "global": true
     },
 
 
     "Server": true,
     "Comment": "loop",
-    "MoveEntityCircle": ["global_carrousel_horse_1", 192.5, 107.5, 0.5, 180.5, 107.5, 0.5, 0.05, false],
+    "ProgressiveMoveEntityCircle": ["global_carrousel_horse_1", 192.5, 107.5, 0.5, 180.5, 107.5, 0.5, 0.05, false],
+    "ProgressiveMoveEntityCircle": ["global_carrousel_horse_2", 192.5, 107.5, 0.5, 192.5, 107.5, 12.5, 0.05, false],
+    "ProgressiveMoveEntityCircle": ["global_carrousel_horse_3", 192.5, 107.5, 0.5, 204.5, 107.5, 0.5, 0.05, false],
+    "MoveEntityCircle": ["global_carrousel_horse_4", 192.5, 107.5, 0.5, 192.5, 107.5, -11.5, 0.05, false],
+    "Wait": 1,
+    "TeleportEntity": ["global_carrousel_horse_1", 180.5, 107.5, 0.5, 0, 0],
+    "TeleportEntity": ["global_carrousel_horse_2", 192.5, 107.5, 12.5, 0, 0],
+    "TeleportEntity": ["global_carrousel_horse_3", 204.5, 107.5, 0.5, 0, 0],
+    "TeleportEntity": ["global_carrousel_horse_4", 192.5, 107.5, -11.5, 0, 0],
+    "Wait": 1,
+
     "Skip": "loop"
 }
