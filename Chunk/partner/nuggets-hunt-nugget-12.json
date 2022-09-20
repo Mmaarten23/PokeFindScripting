@@ -1,16 +1,16 @@
 {
-    "Key": "nuggets_hunt_nugget_7",
+    "Key": "nuggets_hunt_nugget_12",
     "AllowRejoining": true,
 
     "RegionEntry": [0, 0, 0, 0, 0, 0],
     "Comment": "start",
 
-    "PersistentParticle": ["WAX_ON", -5042.1, 75.8, -6062.7, 5, 0.5, 10],
+    "PersistentParticle": ["WAX_ON", -5068.5, 74.9, -6105.5, 5, 0.5, 10],
     "PickupItem": [
-        -5042.1, 75.8, -6062.7,
+        -5068.5, 74.9, -6105.5,
         "gold_nugget"
     ],
     "PlaySound": ["entity_item_pickup", 1.0, 1.0],
-    "SendMessage": "&7Congratulations on finding &6Nugget &l7&7!",
+    "SendMessage": "&7Congratulations on finding &6Nugget &l12&7!",
     "Progress": "nuggets_hunt_running"
 }

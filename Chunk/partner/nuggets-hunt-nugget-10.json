@@ -5,9 +5,9 @@
     "RegionEntry": [0, 0, 0, 0, 0, 0],
     "Comment": "start",
 
-    "PersistentParticle": ["WAX_ON", -5096.5,88.0,-6121.0, 5, 0.5, 10],
+    "PersistentParticle": ["WAX_ON", -5096.5, 88.0, -6121.0, 5, 0.5, 10],
     "PickupItem": [
-        -5096.5,88.0,-6121.0,
+        -5096.5, 88.0, -6121.0,
         "gold_nugget"
     ],
     "PlaySound": ["entity_item_pickup", 1.0, 1.0],
