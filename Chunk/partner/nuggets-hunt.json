@@ -54,9 +54,55 @@
         "&6&lHunter": "My friend gave me these. He said they came from a land far far away...",
         "&6&lHunter": "I don't know what they do, but I'm sure you'll find a use for them!"
     },
-    "SendMessage": "This is where the reward would go",
+    "Menu": [
+        "&6&lNugget hunt reward", 3,
+        {
+            "11": {
+                "name": "&b&lSoul Sand",
+                "description": [
+                    "Receive 64 soul sand",
+                    "",
+                    "&7▶ &eClick to choose"
+                ],
+                "material": "Soul Sand"
+            },
+            "13": {
+                "name": "&4&lNether Wart",
+                "description": [
+                    "Receive 64 nether wart",
+                    "",
+                    "&7▶ &eClick to choose"
+                ],
+                "material": "Nether Wart"
+            },
+            "15": {
+                "name": "&f&lNether Quartz",
+                "description": [
+                    "Receive 64 nether quartz",
+                    "",
+                    "&7▶ &eClick to choose"
+                ],
+                "material": "Nether Quartz"
+            }
+        }
+    ],
+    "GiveItem": {
+        "material": "Soul Sand",
+        "amount": 64
+    },
+    "GiveItem": {
+        "material": "Nether Wart",
+        "amount": 64
+    },
+    "GiveItem": {
+        "material": "Nether Quartz",
+        "amount": 64
+    },
     "Leave": "nuggets_hunt_reward",
     "Complete": [],
+    "Dialog": {
+        "&6&lHunter": "Excellent choice! Thank you so much for helping me!"
+    },
     "Leave": [],
 
     "Comment": "start",
