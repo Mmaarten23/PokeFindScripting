@@ -55,7 +55,7 @@
         "&6&lHunter": "I don't know what they do, but I'm sure you'll find a use for them!"
     },
     "Menu": [
-        "&6&lNugget hunt reward", 3,
+        "Nugget hunt reward", 3,
         {
             "11": {
                 "name": "&b&lSoul Sand",
