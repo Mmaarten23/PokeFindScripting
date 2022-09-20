@@ -1,0 +1,16 @@
+{
+    "Key": "nuggets_hunt_nugget_9",
+    "AllowRejoining": true,
+
+    "RegionEntry": [0, 0, 0, 0, 0, 0],
+    "Comment": "start",
+
+    "PersistentParticle": ["WAX_ON", -5106.5,67.0,-6080.5, 5, 0.5, 10],
+    "PickupItem": [
+        -5106.5,67.0,-6080.5,
+        "gold_nugget"
+    ],
+    "PlaySound": ["entity_item_pickup", 1.0, 1.0],
+    "SendMessage": "&7Congratulations on finding &6Nugget &l9&7!",
+    "Progress": "nuggets_hunt_running"
+}
