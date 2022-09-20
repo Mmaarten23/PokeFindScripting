@@ -95,7 +95,7 @@
         "amount": 64
     },
     "GiveItem": {
-        "material": "Nether Quartz",
+        "material": "Quartz",
         "amount": 64
     },
     "Leave": "nuggets_hunt_reward",
