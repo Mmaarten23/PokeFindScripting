@@ -52,7 +52,8 @@
     "Dialog": {
         "&6&lHunter": "Wow! You found all the nuggets! That deserves some special items!",
         "&6&lHunter": "My friend gave me these. He said they came from a land far far away...",
-        "&6&lHunter": "I don't know what they do, but I'm sure you'll find a use for them!"
+        "&6&lHunter": "I don't know what they do, but I'm sure you'll find a use for them!",
+        "&6&lHunter": "Trading with others through &e/trade <player> &fcan be a great way to combine rewards into something greater!"
     },
     "Menu": [
         "Nugget hunt reward", 3,
@@ -60,16 +61,17 @@
             "11": {
                 "name": "&b&lSoul Sand",
                 "description": [
-                    "Receive 64 soul sand",
+                    "Receive 4 soul sand",
                     "",
                     "&7▶ &eClick to choose"
                 ],
-                "material": "Soul Sand"
+                "material": "Soul Sand",
+                "amount": 4
             },
             "13": {
                 "name": "&4&lNether Wart",
                 "description": [
-                    "Receive 64 nether wart",
+                    "Receive 1 nether wart",
                     "",
                     "&7▶ &eClick to choose"
                 ],
@@ -78,25 +80,26 @@
             "15": {
                 "name": "&f&lNether Quartz",
                 "description": [
-                    "Receive 64 nether quartz",
+                    "Receive 16 nether quartz",
                     "",
                     "&7▶ &eClick to choose"
                 ],
-                "material": "Quartz"
+                "material": "Quartz",
+                "amount": 16
             }
         }
     ],
     "GiveItem": {
         "material": "Soul Sand",
-        "amount": 64
+        "amount": 4
     },
     "GiveItem": {
         "material": "Nether Wart",
-        "amount": 64
+        "amount": 1
     },
     "GiveItem": {
         "material": "Quartz",
-        "amount": 64
+        "amount": 16
     },
     "Leave": "nuggets_hunt_reward",
     "Complete": [],
