@@ -58,7 +58,7 @@
     "Menu": [
         "Nugget hunt reward", 3,
         {
-            "11": {
+            "10": {
                 "name": "&b&lSoul Sand",
                 "description": [
                     "Receive 4 soul sand",
@@ -68,7 +68,7 @@
                 "material": "Soul Sand",
                 "amount": 4
             },
-            "13": {
+            "12": {
                 "name": "&4&lNether Wart",
                 "description": [
                     "Receive 1 nether wart",
@@ -77,7 +77,7 @@
                 ],
                 "material": "Nether Wart"
             },
-            "15": {
+            "14": {
                 "name": "&f&lNether Quartz",
                 "description": [
                     "Receive 16 nether quartz",
@@ -86,6 +86,16 @@
                 ],
                 "material": "Quartz",
                 "amount": 16
+            },
+            "16": {
+                "name": "&6&lBlaze Rod",
+                "description": [
+                    "Receive 2 blaze rods",
+                    "",
+                    "&7▶ &eClick to choose"
+                ],
+                "material": "blaze rod",
+                "amount": 2
             }
         }
     ],
@@ -100,6 +110,10 @@
     "GiveItem": {
         "material": "Quartz",
         "amount": 16
+    },
+    "GiveItem": {
+        "material": "blaze rod",
+        "amount": 2
     },
     "Leave": "nuggets_hunt_reward",
     "Complete": [],
