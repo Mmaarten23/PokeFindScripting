@@ -118,7 +118,7 @@
     "Leave": "nuggets_hunt_reward",
     "Complete": [],
     "Dialog": {
-        "&6&lHunter": "Excellent choice! Thank you so much for helping me!"
+        "&6&lHunter": "Excellent choice [PLAYER]! Thank you so much for helping me!"
     },
     "Leave": [],
 
