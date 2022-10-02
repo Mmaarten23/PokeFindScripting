@@ -5,7 +5,11 @@
     "RegionEntry": [0, 0, 0, 0, 0, 0],
     "Comment": "start",
 
+    "If": [],
+    "IsJavaPlayer": [],
     "PersistentParticle": ["WAX_ON", -5042.1, 75.8, -6062.7, 5, 0.5, 10],
+    "Dummy": [],
+
     "PickupItem": [
         -5042.1, 75.8, -6062.7,
         "gold_nugget"
