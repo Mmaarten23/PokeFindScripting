@@ -2,7 +2,7 @@
     "Key": "metashima_hunt_running",
     "AllowRejoining": true,
 
-    "Objective": ["Find all 20 metashima scattered around the city", "Start"],
+    "Objective": ["Find all 15 metashima scattered around the city", "Start"],
     "Start": ["metashima_hunt_chip_1", 1.0, "start"],
     "Start": ["metashima_hunt_chip_2", 1.0, "start"],
     "Start": ["metashima_hunt_chip_3", 1.0, "start"],
