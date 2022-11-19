@@ -51,7 +51,7 @@
 
     "Comment": "reward",
     "Dialog": {
-        "&8&lHunter": "Wow, you managed to find all chips! Now I can finish the arm- euh,  my robot friends!",
+        "&8&lHunter": "Wow, you managed to find all chips! Now I can finish the Metashima arm- euh,  my robot friends!",
         "&8&lHunter": "I wasn't of much help but I did manage to find some stuff while on the lookout for the chips.",
         "&8&lHunter": "I'll let you pick one of these items. I must keep some to please the troops!"
     },
@@ -133,7 +133,7 @@
         "[PLAYER]": "I am sorry, I didn't know. You looked a bit distressed so I thought I'd check if you were okay.",
         "&8&lHunter": "Hmm, that is some psychic ability you have there. I guess I can use some help...",
         "&8&lHunter": "But I must ask you to keep this a secret. I don't want to get in trouble.",
-        "&8&lHunter": "I am building an arm- eeuh... group of friends... but to make them work I need some special parts.",
+        "&8&lHunter": "I am building a Metashima arm- eeuh... group of friends... but to make them work I need some special parts.",
         "[PLAYER]": "Special parts? What kind of parts?",
         "&8&lHunter": "I had 15 super secret chips. They are used to... well, not important. I just need them back!",
         "[PLAYER]": "While this feels a bit weird, I'll help you out if you promise to help too.",
