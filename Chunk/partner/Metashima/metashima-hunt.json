@@ -9,9 +9,10 @@
             "&7&oScavenger hunt"
         ],
         "location": {
-            "x": -5052.5,
-            "y": 65,
-            "z": -6065.5
+            "x": 3909.5,
+            "y": 71.0,
+            "z": -6208.5,
+            "yaw": -90
         },
         "skin": {
             "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY2ODg3NTI2MTc2NSwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYzZjOGRmYjUyZjc0ZGYwNjUzM2Y1ZWYwMDgwYzA4MzBjMmY1NmNmZDM1NWRhYzAwMGI5MzkzM2U5NTMyZGZiIgogICAgfQogIH0KfQ==",
