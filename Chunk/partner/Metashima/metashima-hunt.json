@@ -45,15 +45,15 @@
 
     "Comment": "done",
     "Dialog": {
-        "&6&lHunter": "Thanks for helping me out. Now, I must ask you to leave... for your own safety."
+        "&8&lHunter": "Thanks for helping me out. Now, I must ask you to leave... for your own safety."
     },
     "Leave": [],
 
     "Comment": "reward",
     "Dialog": {
-        "&6&lHunter": "Wow, you managed to find all chips! Now I can finish the arm- euh,  my robot friends!",
-        "&6&lHunter": "I wasn't of much help but I did manage to find some stuff while on the lookout for the chips.",
-        "&6&lHunter": "I'll let you pick one of these items. I must keep some to please the troops!"
+        "&8&lHunter": "Wow, you managed to find all chips! Now I can finish the arm- euh,  my robot friends!",
+        "&8&lHunter": "I wasn't of much help but I did manage to find some stuff while on the lookout for the chips.",
+        "&8&lHunter": "I'll let you pick one of these items. I must keep some to please the troops!"
     },
     "Menu": [
         "Metashima hunt reward", 3,
@@ -118,7 +118,7 @@
     "Leave": "metashima_hunt_reward",
     "Complete": [],
     "Dialog": {
-        "&6&lHunter": "Excellent choice [PLAYER]! Thank you so much for helping me!"
+        "&8&lHunter": "Excellent choice [PLAYER]! Thank you so much for helping me!"
     },
     "SendMessage": "",
     "SendMessage": "&6&lMetashima Event Complete!",
@@ -129,23 +129,23 @@
     "Comment": "start-quest",
     "Dialog": {
         "[PLAYER]": "Hello there!",
-        "&6&lHunter": "Excuse me sir. You are not allowed to be here.",
+        "&8&lHunter": "Excuse me sir. You are not allowed to be here.",
         "[PLAYER]": "I am sorry, I didn't know. You looked a bit distressed so I thought I'd check if you were okay.",
-        "&6&lHunter": "Hmm, that is some psychic ability you have there. I guess I can use some help...",
-        "&6&lHunter": "But I must ask you to keep this a secret. I don't want to get in trouble.",
-        "&6&lHunter": "I am building an arm- eeuh... group of friends... but to make them work I need some special parts.",
+        "&8&lHunter": "Hmm, that is some psychic ability you have there. I guess I can use some help...",
+        "&8&lHunter": "But I must ask you to keep this a secret. I don't want to get in trouble.",
+        "&8&lHunter": "I am building an arm- eeuh... group of friends... but to make them work I need some special parts.",
         "[PLAYER]": "Special parts? What kind of parts?",
-        "&6&lHunter": "I had 15 super secret chips. They are used to... well, not important. I just need them back!",
+        "&8&lHunter": "I had 15 super secret chips. They are used to... well, not important. I just need them back!",
         "[PLAYER]": "While this feels a bit weird, I'll help you out if you promise to help too.",
-        "&6&lHunter": "Allright, I will do the best I can!"
+        "&8&lHunter": "Allright, I will do the best I can!"
     },
     "Start": "metashima_hunt_running",
     "Leave": [],
 
     "Comment": "running",
     "Dialog": {
-        "&6&lHunter": "Still looking for chips? So am I...!",
-        "&6&lHunter": "Let's take a look..."
+        "&8&lHunter": "Still looking for chips? So am I...!",
+        "&8&lHunter": "Let's take a look..."
     },
 
     "If": [],
