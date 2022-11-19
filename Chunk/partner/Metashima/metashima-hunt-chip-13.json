@@ -12,7 +12,7 @@
 
     "PickupItem": [
         3847.5, 96.0, -6187.5,
-        "daylight_sensor"
+        "daylight_detector"
     ],
     "PlaySound": ["entity_item_pickup", 1.0, 1.0],
     "SendMessage": "&7Congratulations on finding &6Nugget &l13&7!",

@@ -18,7 +18,7 @@
             "signature": "lTxXIbQ2jS1CTOiMlSf8k0ZhEGxBmTbFTwLRj7+SdTWN/Bs7i5JQd0MyHnnHL/I49KMmzRmGpFJoywBulyg5xX1YyHvb8CLeCNhKWRxd0MH9i8IAUzPXJuQ4zWP8Sj1pThP7gwhoPIuxvFGvKEYV8lHLZRLYzkIUzFerndVnecJPZeyhuBp3eSW9X1gThsSliDJfqAh4pIpyEdOhwesNxaxwsfRyinOGKecXB9Y3KUuccaOTjw1ioZe2NnGWmZjdV/a1H4wb3xPq9Y24copb9Nr6PWfKiqev0SZcBGauaYrtSTurTVMOIVbagVu8D/Q99RUDL+col8tL/QCuw8NDgOqXbsmuSBXeE5khg/Z9yAZLOy/NOIyFDUa7NswKSLX0iwrIt+S6UFgKt6PpbE9eOVeZHeeKTYmAcmdM3mSBIPxAVggpqqXv9ncLl3TjFAOtBg5CvRxhRNcRVWZhtIn5rPPxpLIGS/54vdZHeqQBTKNK370kRSQ68If81p/cp/EyceSJxSz5QvCwbIiROXRsZMVnNxFMzqUwURBDGc5HrICIbTFti2lqg02bkxdLvVp6fEvZFk0txZOEefAKz4RnXB6FGZ//FS9tdGF5TwSX0/uJpvm08/mtLQNvE1TpTWXPqU0LmAumJmFFBsoJ+vDRt8y135t5HUYKyawOjjaiO0w="
         },
         "hand": {
-            "material": "daylight_sensor"
+            "material": "daylight_detector"
         }
     },
 

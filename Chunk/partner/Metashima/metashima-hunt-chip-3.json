@@ -12,7 +12,7 @@
 
     "PickupItem": [
         3883.5, 108.0, -6206.5,
-        "daylight_sensor"
+        "daylight_detector"
     ],
     "PlaySound": ["entity_item_pickup", 1.0, 1.0],
     "SendMessage": "&7Congratulations on finding &6chip &l3&7!",
