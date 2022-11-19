@@ -1,0 +1,43 @@
+{
+    "Key": "metashima_hunt_running",
+    "AllowRejoining": true,
+
+    "Objective": ["Find all 20 metashima scattered around the city", "Start"],
+    "Start": ["metashima_hunt_chip_1", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_2", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_3", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_4", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_5", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_6", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_7", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_8", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_9", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_10", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_11", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_12", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_13", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_14", 1.0, "start"],
+    "Start": ["metashima_hunt_chip_15", 1.0, "start"],
+
+
+
+
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+    "Hold": [],
+
+    "Wait": 20,
+    "Start": "metashima_hunt_reward"
+}

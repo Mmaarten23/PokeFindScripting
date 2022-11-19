@@ -1,0 +1,211 @@
+{
+    "Key": "metashima_hunt",
+
+
+    "CreateEntity": {
+        "key": "hunt_master",
+        "name": [
+            "&8&lHunter",
+            "&7&oScavenger hunt"
+        ],
+        "location": {
+            "x": -5052.5,
+            "y": 65,
+            "z": -6065.5
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY2ODg3NTI2MTc2NSwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYzZjOGRmYjUyZjc0ZGYwNjUzM2Y1ZWYwMDgwYzA4MzBjMmY1NmNmZDM1NWRhYzAwMGI5MzkzM2U5NTMyZGZiIgogICAgfQogIH0KfQ==",
+            "signature": "lTxXIbQ2jS1CTOiMlSf8k0ZhEGxBmTbFTwLRj7+SdTWN/Bs7i5JQd0MyHnnHL/I49KMmzRmGpFJoywBulyg5xX1YyHvb8CLeCNhKWRxd0MH9i8IAUzPXJuQ4zWP8Sj1pThP7gwhoPIuxvFGvKEYV8lHLZRLYzkIUzFerndVnecJPZeyhuBp3eSW9X1gThsSliDJfqAh4pIpyEdOhwesNxaxwsfRyinOGKecXB9Y3KUuccaOTjw1ioZe2NnGWmZjdV/a1H4wb3xPq9Y24copb9Nr6PWfKiqev0SZcBGauaYrtSTurTVMOIVbagVu8D/Q99RUDL+col8tL/QCuw8NDgOqXbsmuSBXeE5khg/Z9yAZLOy/NOIyFDUa7NswKSLX0iwrIt+S6UFgKt6PpbE9eOVeZHeeKTYmAcmdM3mSBIPxAVggpqqXv9ncLl3TjFAOtBg5CvRxhRNcRVWZhtIn5rPPxpLIGS/54vdZHeqQBTKNK370kRSQ68If81p/cp/EyceSJxSz5QvCwbIiROXRsZMVnNxFMzqUwURBDGc5HrICIbTFti2lqg02bkxdLvVp6fEvZFk0txZOEefAKz4RnXB6FGZ//FS9tdGF5TwSX0/uJpvm08/mtLQNvE1TpTWXPqU0LmAumJmFFBsoJ+vDRt8y135t5HUYKyawOjjaiO0w="
+        },
+        "hand": {
+            "material": "daylight_sensor"
+        }
+    },
+
+    "HighlightClickEntity": "hunt_master",
+
+    "If": [],
+    "Completed": "metashima_hunt",
+    "Skip": "done",
+    "Dummy": [],
+
+    "If": [],
+    "In": "metashima_hunt_reward",
+    "Skip": "reward",
+    "Dummy": [],
+
+    "If": [],
+    "In": "metashima_hunt_running",
+    "Skip": "running",
+    "Dummy": [],
+
+    "Skip": "start-quest",
+
+
+    "Comment": "done",
+    "Dialog": {
+        "&6&lHunter": "Thanks for helping me out. Now, I must ask you to leave... for your own safety."
+    },
+    "Leave": [],
+
+    "Comment": "reward",
+    "Dialog": {
+        "&6&lHunter": "Wow, you managed to find all chips! Now I can finish the arm- euh,  my robot friends!",
+        "&6&lHunter": "I wasn't of much help but I did manage to find some stuff while on the lookout for the chips.",
+        "&6&lHunter": "I'll let you pick one of these items. I must keep some to please the troops!"
+    },
+    "Menu": [
+        "Metashima hunt reward", 3,
+        {
+            "10": {
+                "name": "&b&lSoul Sand",
+                "description": [
+                    "Receive 4 soul sand",
+                    "",
+                    "&7▶ &eClick to choose"
+                ],
+                "material": "Soul Sand",
+                "amount": 4
+            },
+            "12": {
+                "name": "&4&lNether Wart",
+                "description": [
+                    "Receive 1 nether wart",
+                    "",
+                    "&7▶ &eClick to choose"
+                ],
+                "material": "Nether Wart"
+            },
+            "14": {
+                "name": "&f&lNether Quartz",
+                "description": [
+                    "Receive 16 nether quartz",
+                    "",
+                    "&7▶ &eClick to choose"
+                ],
+                "material": "Quartz",
+                "amount": 16
+            },
+            "16": {
+                "name": "&6&lBlaze Rod",
+                "description": [
+                    "Receive 2 blaze rods",
+                    "",
+                    "&7▶ &eClick to choose"
+                ],
+                "material": "blaze rod",
+                "amount": 2
+            }
+        }
+    ],
+    "GiveItem": {
+        "material": "Soul Sand",
+        "amount": 4
+    },
+    "GiveItem": {
+        "material": "Nether Wart",
+        "amount": 1
+    },
+    "GiveItem": {
+        "material": "Quartz",
+        "amount": 16
+    },
+    "GiveItem": {
+        "material": "blaze rod",
+        "amount": 2
+    },
+    "Leave": "metashima_hunt_reward",
+    "Complete": [],
+    "Dialog": {
+        "&6&lHunter": "Excellent choice [PLAYER]! Thank you so much for helping me!"
+    },
+    "SendMessage": "",
+    "SendMessage": "&6&lMetashima Event Complete!",
+    "Wait": 10,
+    "SendMessage": "&7Want your very own Chunk? You can get one at &bhttps://chunkstudio.io/mint",
+    "Leave": [],
+
+    "Comment": "start-quest",
+    "Dialog": {
+        "[PLAYER]": "Hello there!",
+        "&6&lHunter": "Excuse me sir. You are not allowed to be here.",
+        "[PLAYER]": "I am sorry, I didn't know. You looked a bit distressed so I thought I'd check if you were okay.",
+        "&6&lHunter": "Hmm, that is some psychic ability you have there. I guess I can use some help...",
+        "&6&lHunter": "But I must ask you to keep this a secret. I don't want to get in trouble.",
+        "&6&lHunter": "I am building an arm- eeuh... group of friends... but to make them work I need some special parts.",
+        "[PLAYER]": "Special parts? What kind of parts?",
+        "&6&lHunter": "I had 15 super secret chips. They are used to... well, not important. I just need them back!",
+        "[PLAYER]": "While this feels a bit weird, I'll help you out if you promise to help too.",
+        "&6&lHunter": "Allright, I will do the best I can!"
+    },
+    "Start": "metashima_hunt_running",
+    "Leave": [],
+
+    "Comment": "running",
+    "Dialog": {
+        "&6&lHunter": "Still looking for chips? So am I...!",
+        "&6&lHunter": "Let's take a look..."
+    },
+
+    "If": [],
+    "In": "metashima_hunt_chip_1",
+    "SendMessage": "&7Still looking for &6chip &l1",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_2",
+    "SendMessage": "&7Still looking for &6chip &l2",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_3",
+    "SendMessage": "&7Still looking for &6chip &l3",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_4",
+    "SendMessage": "&7Still looking for &6chip &l4",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_5",
+    "SendMessage": "&7Still looking for &6chip &l5",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_6",
+    "SendMessage": "&7Still looking for &6chip &l6",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_7",
+    "SendMessage": "&7Still looking for &6chip &l7",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_8",
+    "SendMessage": "&7Still looking for &6chip &l8",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_9",
+    "SendMessage": "&7Still looking for &6Nugget &l9",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_10",
+    "SendMessage": "&7Still looking for &6Nugget &l10",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_11",
+    "SendMessage": "&7Still looking for &6Nugget &l11",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_12",
+    "SendMessage": "&7Still looking for &6Nugget &l12",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_13",
+    "SendMessage": "&7Still looking for &6Nugget &l13",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_14",
+    "SendMessage": "&7Still looking for &6Nugget &l14",
+    "Dummy": [],
+    "If": [],
+    "In": "metashima_hunt_chip_15",
+    "SendMessage": "&7Still looking for &6Nugget &l15",
+    "Dummy": []
+
+}

@@ -1,0 +1,11 @@
+{
+    "Key": "metashima_hunt_reward",
+    "AllowRejoining": true,
+
+    "SendMessage": "&6You found &lAll&6 the metashima!",
+    "PlaySound": ["ui_toast_challenge_complete", 1.0, 1.0],
+
+    "Wait": 60,
+    "Objective": ["Report back to Hunter to claim your reward!"],
+    "Hold": []
+}

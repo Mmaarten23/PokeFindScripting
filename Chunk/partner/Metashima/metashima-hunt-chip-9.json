@@ -1,0 +1,20 @@
+{
+    "Key": "metashima_hunt_chip_9",
+    "AllowRejoining": true,
+
+    "RegionEntry": [0, 0, 0, 0, 0, 0],
+    "Comment": "start",
+
+    "If": [],
+    "IsJavaPlayer": [],
+    "PersistentParticle": ["WAX_ON", 3925.5, 74.5, -6249.5, 5, 0.5, 10],
+    "Dummy": [],
+
+    "PickupItem": [
+        3925.5, 74.5, -6249.5,
+        "daylight_sensor"
+    ],
+    "PlaySound": ["entity_item_pickup", 1.0, 1.0],
+    "SendMessage": "&7Congratulations on finding &6chip &l9&7!",
+    "Progress": "metashima_hunt_running"
+}

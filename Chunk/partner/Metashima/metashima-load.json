@@ -1,0 +1,31 @@
+{
+    "Key": "metashima_load",
+    "Author": "Mmaarten",
+
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-1.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-2.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-3.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-4.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-5.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-6.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-7.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-8.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-9.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-10.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-11.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-12.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-13.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-14.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-15.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-16.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-17.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-18.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-19.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-chip-20.json",
+
+
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-reward.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt-running.json",
+    "LoadScript": "https://github.com/Mmaarten23/PokeFindScripting/blob/master/Chunk/partner/Metashima/metashima-hunt.json"
+
+}
