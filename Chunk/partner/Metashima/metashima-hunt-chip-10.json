@@ -15,6 +15,6 @@
         "daylight_detector"
     ],
     "PlaySound": ["entity_item_pickup", 1.0, 1.0],
-    "SendMessage": "&7Congratulations on finding &6Nugget &l10&7!",
+    "SendMessage": "&7Congratulations on finding &6chip &l10&7!",
     "Progress": "metashima_hunt_running"
 }
