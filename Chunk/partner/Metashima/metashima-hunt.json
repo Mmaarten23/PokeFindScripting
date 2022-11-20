@@ -61,41 +61,42 @@
             "10": {
                 "name": "&b&lSoul Sand",
                 "description": [
-                    "Receive 4 soul sand",
+                    "Receive 8 soul sand",
                     "",
                     "&7▶ &eClick to choose"
                 ],
                 "material": "Soul Sand",
-                "amount": 4
+                "amount": 8
             },
             "12": {
                 "name": "&4&lNether Wart",
                 "description": [
-                    "Receive 1 nether wart",
+                    "Receive 2 nether wart",
                     "",
                     "&7▶ &eClick to choose"
                 ],
-                "material": "Nether Wart"
+                "material": "Nether Wart",
+                "amount": 2
             },
             "14": {
                 "name": "&f&lNether Quartz",
                 "description": [
-                    "Receive 16 nether quartz",
+                    "Receive 32 nether quartz",
                     "",
                     "&7▶ &eClick to choose"
                 ],
                 "material": "Quartz",
-                "amount": 16
+                "amount": 32
             },
             "16": {
                 "name": "&6&lBlaze Rod",
                 "description": [
-                    "Receive 2 blaze rods",
+                    "Receive 4 blaze rods",
                     "",
                     "&7▶ &eClick to choose"
                 ],
                 "material": "blaze rod",
-                "amount": 2
+                "amount": 4
             }
         }
     ],
@@ -118,7 +119,12 @@
     "Leave": "metashima_hunt_reward",
     "Complete": [],
     "Dialog": {
-        "&8&lHunter": "Excellent choice [PLAYER]! Thank you so much for helping me!"
+        "&8&lHunter": "Excellent choice [PLAYER]! Thank you so much for helping me!",
+        "&8&lHunter": "I will give you one extra reward for your efforts. Here, take this!"
+    },
+    "GiveItem": {
+        "material": "netherite_ingot",
+        "amount": 1
     },
     "SendMessage": "",
     "SendMessage": "&6&lMetashima Event Complete!",
