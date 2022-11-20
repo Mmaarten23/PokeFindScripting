@@ -102,19 +102,19 @@
     ],
     "GiveItem": {
         "material": "Soul Sand",
-        "amount": 4
+        "amount": 8
     },
     "GiveItem": {
         "material": "Nether Wart",
-        "amount": 1
+        "amount": 2
     },
     "GiveItem": {
         "material": "Quartz",
-        "amount": 16
+        "amount": 32
     },
     "GiveItem": {
         "material": "blaze rod",
-        "amount": 2
+        "amount": 4
     },
     "Leave": "metashima_hunt_reward",
     "Complete": [],
