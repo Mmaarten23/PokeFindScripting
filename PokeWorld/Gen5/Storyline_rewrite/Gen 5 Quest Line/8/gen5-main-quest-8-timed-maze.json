@@ -8,6 +8,35 @@
         -153, 73, -703,
         -151, 79, -703
     ],
+    "If": [],
+    "NotCompleted": false,
+    "Skip": "not_completed_yet",
+    "Dummy": [],
+    "NewDialog": [
+        {
+            "&7&lMaze": "Ah... You again. I wont even bother... Just... get out of my sight..."
+        }, 1, true, false
+    ],
+    "Comment": "The next wait is a buffer to make sure they dont get the message spammed by reentering the region",
+    "Comment": "At this point in the script, the maze has been completed and will notify the player over and over",
+    "Comment": "that the maze wont bother with timing them.",
+    "Wait": 20.0,
+    "Leave": [],
+
+    "Comment": "not_completed_yet",
+    "If": [],
+    "In": ["gen5_main_quest_8_statera", "maze", false],
+    "Skip": "PlaySound",
+    "Dummy": [],
+
+    "NewDialog": [
+        {
+            "&7&lMaze": "You are too weak to even attempt beating me."
+        }, 1, true, false
+    ],
+    "Teleport": [-145.7, 74.4, -696.7, 133],
+    "Leave": [],
+
     "GlobalHologram": [
         -154.5, 75.0, -699.0,
         "&b&l~An ice cold run~&b&l",
@@ -36,12 +65,15 @@
         "input_variable": "gen5_main_quest_8_maze_timer",
         "output_variable": "gen5_main_quest_8_maze_timer_formatted"
     },
-    "SetBossBar": ["&7Maze countdown: &e[gen5_main_quest_8_maze_timer_formatted]"],
+    "SetTitle": [
+        "",
+        "&e[gen5_main_quest_8_maze_timer_formatted]",
+        0, 20, 0
+    ],
     "Wait": 1.0,
     "Skip": "loop",
 
     "Comment": "failed",
-    "RemoveBossBar": [],
     "Teleport": [-145.7, 74.4, -696.7, 133],
     "PlaySound": ["entity_villager_no", 0.5],
     "NewDialog": [

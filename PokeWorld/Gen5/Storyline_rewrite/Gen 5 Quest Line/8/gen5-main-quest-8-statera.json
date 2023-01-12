@@ -1267,6 +1267,7 @@
 
     "Comment": "maze_completed",
     "Leave": "gen5_main_quest_8_timed_maze",
+    "Complete": "gen5_main_quest_8_timed_maze",
     "NewDialog": [
         {
             "&7&lMaze": "Hmm... I'll let you go this time..."
